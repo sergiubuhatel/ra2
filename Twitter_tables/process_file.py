@@ -266,32 +266,28 @@ dtypes = {
 datetime_columns = ["created_at", "user_created_at", "EST", "user_created_EST"]
 
 def clean_csv(input_file, output_file):
-    try:
-        # Read CSV without headers, without dtype and datetime parsing to inspect the raw data
-        df = pd.read_csv(input_file, header=None, na_values=["", "NA", "NULL"], low_memory=False)
+    # Read CSV without headers, without dtype and datetime parsing to inspect the raw data
+    df = pd.read_csv(input_file, header=None, na_values=["", "NA", "NULL"], low_memory=False, on_bad_lines='skip')
 
-        # Show the first few rows to check how data is being read
-        print("Sample data from the file:")
-        print(df.head())
+    # Show the first few rows to check how data is being read
+    print("Sample data from the file:")
+    print(df.head())
 
-        # Manually specify columns and types if needed after inspecting the data
-        df.columns = columns
+    # Manually specify columns and types if needed after inspecting the data
+    df.columns = columns
 
-        # Manually force conversion for datetime columns
-        for col in datetime_columns:
-            df[col] = pd.to_datetime(df[col], errors='coerce')
+    # Manually force conversion for datetime columns
+    for col in datetime_columns:
+        df[col] = pd.to_datetime(df[col], errors='coerce')
 
-        # Check if there are any issues with datetime conversion
-        for col in datetime_columns:
-            if df[col].isnull().any():
-                print(f"Warning: Some entries in {col} could not be parsed as datetime.")
+    # Check if there are any issues with datetime conversion
+    for col in datetime_columns:
+        if df[col].isnull().any():
+            print(f"Warning: Some entries in {col} could not be parsed as datetime.")
 
-        # Save cleaned CSV
-        df.to_csv(output_file, index=False)
-        print(f"Processed file saved as {output_file}")
-
-    except Exception as e:
-        print(f"Error processing file: {e}")
+    # Save cleaned CSV
+    df.to_csv(output_file, index=False)
+    print(f"Processed file saved as {output_file}")
 
 def display_first_rows(input_file):
     # Read the CSV file into a DataFrame
@@ -342,7 +338,6 @@ def main():
     print("\nStep 6 - remove_newline_if_not_starting_with_quote")
     remove_lines_not_ending_with_quote(args.output_file)
 
-    sleep(5)
     print("\nStep 7 - clean_csv")
     clean_csv(args.output_file, tmp_file_name)
 
@@ -350,11 +345,13 @@ def main():
     print("\nStep 8 - rename_file")
     rename_file(tmp_file_name, args.output_file)
 
-    sleep(5)
     print("\nStep 9 - display_first_rows")
     display_first_rows(args.output_file)
 
     print("\nDone")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"{e}")
