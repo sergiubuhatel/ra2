@@ -335,7 +335,7 @@ def main():
     print("\nStep 5 - remove_newline_if_not_starting_with_quote")
     remove_newline_if_not_starting_with_quote(args.output_file)
 
-    print("\nStep 6 - remove_newline_if_not_starting_with_quote")
+    print("\nStep 6 - remove_lines_not_ending_with_quote")
     remove_lines_not_ending_with_quote(args.output_file)
 
     print("\nStep 7 - clean_csv")
