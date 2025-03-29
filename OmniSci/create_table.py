@@ -6,10 +6,10 @@ conn = pyomnisci.connect(user='admin', password='HyperInteractive', host='localh
 # Create a cursor object to interact with the database
 cursor = conn.cursor()
 
-# SQL query to create a table (without PRIMARY KEY)
+# SQL query to create a table
 create_table_query = """
 CREATE TABLE IF NOT EXISTS employees (
-    id INT,
+    id INT PRIMARY KEY,
     name TEXT,
     age INT,
     department TEXT
