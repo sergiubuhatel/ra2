@@ -3,20 +3,6 @@ import pyomnisci
 import argparse
 
 
-# Function to determine OmniSci data type based on Pandas dtype
-def pandas_to_omniscidb_dtype(pandas_dtype):
-    if pandas_dtype == 'int64':
-        return 'INT'
-    elif pandas_dtype == 'float64':
-        return 'FLOAT'
-    elif pandas_dtype == 'object':
-        return 'TEXT'
-    elif pandas_dtype == 'bool':
-        return 'BOOLEAN'
-    else:
-        return 'TEXT'  # Default to TEXT if unrecognized type
-
-
 # Function to quote column names to avoid conflicts
 def quote_column_name(column_name):
     return f'"{column_name}"'  # OmniSci requires column names to be quoted
@@ -26,36 +12,26 @@ def quote_column_name(column_name):
 def create_table_sql(df, table_name):
     create_table_sql = f"CREATE TABLE IF NOT EXISTS {table_name} (\n"
 
-    for column, dtype in df.dtypes.items():
-        # Quote the column name to avoid any conflicts
+    # Use TEXT for all columns, no type checking
+    for column in df.columns:
         quoted_column = quote_column_name(column)
-        omnisci_type = pandas_to_omniscidb_dtype(dtype)
-        create_table_sql += f"    {quoted_column} {omnisci_type},\n"
+        create_table_sql += f"    {quoted_column} TEXT,\n"  # All columns are TEXT
 
-    # Remove the last comma and newline, then close the parentheses
     create_table_sql = create_table_sql.rstrip(',\n') + "\n);"
-
     return create_table_sql
 
 
 # Function to load the data into OmniSci using raw SQL inserts
 def load_data_to_omnisci(csv_file, table_name, conn):
-    # Load the CSV file into a pandas DataFrame, skipping bad lines
+    # Load the CSV file into a pandas DataFrame
     try:
-        df = pd.read_csv(csv_file, on_bad_lines='skip', quotechar='"')
+        df = pd.read_csv(csv_file, quotechar='"')
     except Exception as e:
         print(f"Error reading CSV file: {e}")
         return
 
-    # Convert quoted strings that represent integers to actual integers
-    for column in df.columns:
-        # If column dtype is object (string), try to convert to int
-        if df[column].dtype == 'object':
-            try:
-                # Try converting the column to integers
-                df[column] = pd.to_numeric(df[column], errors='raise')
-            except ValueError:
-                pass  # If conversion fails, leave the column as object (string)
+    # Replace NaN values with empty strings and convert all values to string
+    df = df.fillna('').astype(str)
 
     # Create the table SQL query based on the DataFrame schema
     create_sql = create_table_sql(df, table_name)
@@ -65,12 +41,13 @@ def load_data_to_omnisci(csv_file, table_name, conn):
 
     # Insert data into OmniSci using raw SQL INSERT INTO
     for _, row in df.iterrows():
-        # Prepare the row data for insertion (quote string values)
-        values = [f"'{str(value)}'" if isinstance(value, str) else str(value) for value in row]
+        # Prepare the row data for insertion (quote all values as strings)
+        values = [f"'{str(value)}'" for value in row]
 
         # Quote the column names in the INSERT statement
         quoted_columns = [quote_column_name(col) for col in df.columns]
         insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
+        print(f"{insert_sql}")
 
         try:
             conn.execute(insert_sql)
