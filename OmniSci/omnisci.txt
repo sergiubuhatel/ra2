@@ -1,0 +1,62 @@
+# Install omnisci on Ubuntu (This can be done once, and it is already done)
+sudo docker pull omnisci/core-os-cuda:latest
+
+# List docker images
+docker images
+
+# Stop existing OmniSci server in case it is running and you want to running it again
+sudo docker ps | grep omnisci
+sudo docker kill <container id>
+
+# Check whether OmniSci server is till running
+sudo docker ps
+
+# Launch OmniSci server
+cd /home/ra2/omnisci
+./launch.sh
+
+# If getting an error remove the existing container
+sudo docker rm <container id>
+
+# This is the content of launch.sh
+sudo -E docker run --runtime=nvidia \
+  --name omnisci \
+  -v /home/ra2/omnisci/omnisci-docker-storage:/omnisci-storage \
+  -v /home/ra2:/mnt/data \
+  -p 6273-6280:6273-6280 \
+  omnisci/core-os-cuda:latest
+
+# It mounts /home/ra2/omnisci/omnisci-docker-storage into /omnisci-storage for 
+# storing the database, and /home/ra2 to /mnt/data for 
+# having access to the twitter csv files in the /home/ra2/twitter_tables directory
+
+# Launch a bourne shell inside the running docker container
+# Find first the running container id
+sudo docker ps | grep omnisci
+
+# Launch the bourse shell inside the docker container
+sudo docker exec -it <container id> bash
+
+# This will change the prompt to #
+# Chnage the directory to /omnisci/bin and launch omnisql
+cd /omnisci/bin
+./omnisql
+# Password: HyperInteractive
+
+# Create a dummy table in omnisci and quary the data
+# Open a new commad prompt and chnage directory to /home/ra2/omnisci
+cd /home/ra2/omnisci
+# Activate the virtual enviroment previously created
+source env/bin/activate
+
+# If you don't have the virtual enviroment, created as following
+python3 -m venv env
+# and then activate the virtual environment
+source env/bin/activate
+
+# Create a table and display the results
+python create_table.py
+python add_data.py
+python display_table.py
+
+ 

@@ -24,19 +24,4 @@ for row in data:
 # Commit the transaction
 conn.commit()
 
-print("Data inserted successfully!")
-
-# Step 2: Select and display data from the 'employees' table
-select_query = "SELECT * FROM employees;"
-
-cursor.execute(select_query)
-results = cursor.fetchall()
-
-# Display the data
-print("Displaying Data from 'employees' table:")
-for row in results:
-    print(row)
-
-# Close the cursor and connection
-cursor.close()
 conn.close()
