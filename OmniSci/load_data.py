@@ -20,12 +20,13 @@ def create_table_sql(df, table_name):
     create_table_sql = create_table_sql.rstrip(',\n') + "\n);"
     return create_table_sql
 
-
 # Function to load the data into OmniSci using raw SQL inserts
 def load_data_to_omnisci(csv_file, table_name, conn):
+    bad_lines = 0
+    good_lines = 0
     # Load the CSV file into a pandas DataFrame
     try:
-        df = pd.read_csv(csv_file, quotechar='"')
+        df = pd.read_csv(csv_file, quotechar='"', on_bad_lines='skip')
     except Exception as e:
         print(f"Error reading CSV file: {e}")
         return
@@ -40,20 +41,34 @@ def load_data_to_omnisci(csv_file, table_name, conn):
     conn.execute(create_sql)
 
     # Insert data into OmniSci using raw SQL INSERT INTO
-    for _, row in df.iterrows():
+    for index, row in df.iterrows():
         # Prepare the row data for insertion (quote all values as strings)
-        values = [f"'{str(value)}'" for value in row]
+        values = []
+        for value in row:
+            if value and len(value) > 0:
+                value = value.replace("'", " ")
+            values.append(f"'{str(value)}'")
+        print(values)
 
         # Quote the column names in the INSERT statement
         quoted_columns = [quote_column_name(col) for col in df.columns]
         insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
-        print(f"{insert_sql}")
+        #print(f"{insert_sql}")
+
+        if index % 1000 == 0:
+            print(f"\nGood Lines: {good_lines}")
+            print(f"\nBad Lines: {bad_lines}")
 
         try:
             conn.execute(insert_sql)
+            conn.commit()
+            good_lines = good_lines + 1
         except Exception as e:
             print(f"Error inserting row: {row}\n{e}")
+            bad_lines = bad_lines + 1
 
+    print(f"\nGood Lines: {good_lines}")
+    print(f"\nBad Lines: {bad_lines}")
 
 # Main function to handle command-line arguments
 def main():
@@ -77,6 +92,7 @@ def main():
         print(f"An error occurred: {e}")
 
     finally:
+        conn.commit()
         # Close the connection
         conn.close()
 
