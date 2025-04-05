@@ -23,12 +23,23 @@ def create_table_sql(df, table_name):
 
 # Function to load the data into OmniSci using raw SQL inserts
 def load_data_to_omnisci(csv_file, table_name, conn):
-    # Load the CSV file into a pandas DataFrame
+    bad_lines = 0  # Counter for bad lines
+
+    # Load the CSV file into a pandas DataFrame, skipping bad lines
     try:
-        df = pd.read_csv(csv_file, quotechar='"')
+        df = pd.read_csv(csv_file, on_bad_lines='skip', quotechar='"')
     except Exception as e:
         print(f"Error reading CSV file: {e}")
         return
+
+    # Count bad lines (those skipped by pandas)
+    with open(csv_file, 'r') as file:
+        for line in file:
+            try:
+                # Attempt to read the line (raise exception on bad line)
+                pd.read_csv(pd.compat.StringIO(line), quotechar='"')
+            except Exception:
+                bad_lines += 1
 
     # Replace NaN values with empty strings and convert all values to string
     df = df.fillna('').astype(str)
@@ -40,20 +51,26 @@ def load_data_to_omnisci(csv_file, table_name, conn):
     conn.execute(create_sql)
 
     # Insert data into OmniSci using raw SQL INSERT INTO
-    for _, row in df.iterrows():
+    for index, row in df.iterrows():
         # Prepare the row data for insertion (quote all values as strings)
         values = [f"'{str(value)}'" for value in row]
 
         # Quote the column names in the INSERT statement
         quoted_columns = [quote_column_name(col) for col in df.columns]
         insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
-        print(f"{insert_sql}")
+        #print(f"{insert_sql}")
 
         try:
             conn.execute(insert_sql)
+            if index % 1000 == 0:
+                print(f"\nImported {index + 1} records")
+                conn.commit()
         except Exception as e:
             print(f"Error inserting row: {row}\n{e}")
 
+    # Report the number of bad lines encountered
+    print(f"Total bad lines encountered and skipped: {bad_lines}")
+    conn.commit()
 
 # Main function to handle command-line arguments
 def main():
