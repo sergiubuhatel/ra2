@@ -54,6 +54,7 @@ def load_data_to_omnisci(csv_file, table_name, conn):
         quoted_columns = [quote_column_name(col) for col in df.columns]
         insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
         #print(f"{insert_sql}")
+
         if index % 1000 == 0:
             print(f"\nGood Lines: {good_lines}")
             print(f"\nBad Lines: {bad_lines}")
