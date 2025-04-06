@@ -1,14 +1,13 @@
 import pandas as pd
 import pyomnisci
 import argparse
-
+import os
 
 # Function to quote column names to avoid conflicts
 def quote_column_name(column_name):
     return f'"{column_name}"'  # OmniSci requires column names to be quoted
 
-
-# Function to create the table in OmniSci
+# Function to create the table in OmniSci (assumes columns are TEXT for simplicity)
 def create_table_sql(df, table_name):
     create_table_sql = f"CREATE TABLE IF NOT EXISTS {table_name} (\n"
 
@@ -20,7 +19,7 @@ def create_table_sql(df, table_name):
     create_table_sql = create_table_sql.rstrip(',\n') + "\n);"
     return create_table_sql
 
-# Function to load the data into OmniSci using raw SQL inserts
+# Function to load data into OmniSci using COPY (GPU optimized)
 def load_data_to_omnisci(csv_file, table_name, conn):
     bad_lines = 0
     good_lines = 0
@@ -40,36 +39,23 @@ def load_data_to_omnisci(csv_file, table_name, conn):
     # Execute the SQL to create the table
     conn.execute(create_sql)
 
-    # Insert data into OmniSci using raw SQL INSERT INTO
-    for index, row in df.iterrows():
-        # Prepare the row data for insertion (quote all values as strings)
-        values = []
-        for value in row:
-            if value and len(value) > 0:
-                value = value.replace("'", " ")
-            values.append(f"'{str(value)}'")
-        #print(values)
+    # Save the DataFrame to a temporary file (OmniSci's COPY command requires file input)
+    temp_file = "temp_data.csv"
+    df.to_csv(temp_file, index=False, header=True)
 
-        # Quote the column names in the INSERT statement
-        quoted_columns = [quote_column_name(col) for col in df.columns]
-        insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
-        #print(f"{insert_sql}")
-
-        if index % 10000 == 0:
-            print(f"\nGood Lines: {good_lines}")
-            print(f"\nBad Lines: {bad_lines}")
-
-
-        try:
-            conn.execute(insert_sql)
-            conn.commit()
-            good_lines = good_lines + 1
-        except Exception as e:
-            print(f"Error inserting row: {row}\n{e}")
-            bad_lines = bad_lines + 1
-
-    print(f"\nGood Lines: {good_lines}")
-    print(f"\nBad Lines: {bad_lines}")
+    # Perform the COPY operation to load the data into OmniSci
+    try:
+        # This uses the COPY command, which is optimized for GPU acceleration in OmniSci
+        copy_sql = f"""
+            COPY {table_name} FROM '{os.path.abspath(temp_file)}' WITH (header, delimiter=',');
+        """
+        conn.execute(copy_sql)
+        conn.commit()
+        print(f"Data loaded successfully into table '{table_name}' using GPU-accelerated COPY.")
+        os.remove(temp_file)  # Clean up the temporary file
+    except Exception as e:
+        print(f"Error loading data using COPY: {e}")
+        os.remove(temp_file)
 
 # Main function to handle command-line arguments
 def main():
@@ -85,18 +71,13 @@ def main():
     conn = pyomnisci.connect(user='admin', password='HyperInteractive', host='localhost', port=6274)
 
     try:
-        # Load data from CSV and insert into the OmniSci table
+        # Load data from CSV and insert into the OmniSci table using GPU acceleration
         load_data_to_omnisci(args.csv_file, args.table_name, conn)
-        print(f"Data loaded successfully into table '{args.table_name}'.")
-
     except Exception as e:
         print(f"An error occurred: {e}")
-
     finally:
-        conn.commit()
         # Close the connection
         conn.close()
-
 
 if __name__ == '__main__':
     main()
