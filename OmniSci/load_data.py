@@ -55,21 +55,20 @@ def load_data_to_omnisci(csv_file, table_name, conn):
         insert_sql = f"INSERT INTO {table_name} ({', '.join(quoted_columns)}) VALUES ({', '.join(values)});"
         #print(f"{insert_sql}")
 
-        if index % 10000 == 0:
-            print(f"\nGood Lines: {good_lines}")
-            print(f"\nBad Lines: {bad_lines}")
-
-
         try:
             conn.execute(insert_sql)
-            conn.commit()
             good_lines = good_lines + 1
+            if index % 100000 == 0:
+                print(f"\nGood Lines: {good_lines}")
+                print(f"\nBad Lines: {bad_lines}")
+                conn.commit()
         except Exception as e:
-            print(f"Error inserting row: {row}\n{e}")
+            #print(f"Error inserting row: {row}\n{e}")
             bad_lines = bad_lines + 1
 
     print(f"\nGood Lines: {good_lines}")
     print(f"\nBad Lines: {bad_lines}")
+    conn.commit()
 
 # Main function to handle command-line arguments
 def main():

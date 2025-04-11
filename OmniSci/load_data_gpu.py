@@ -30,32 +30,24 @@ def load_data_to_omnisci(csv_file, table_name, conn):
         print(f"Error reading CSV file: {e}")
         return
 
-    # Replace NaN values with empty strings and convert all values to string
-    df = df.fillna('').astype(str)
-
     # Create the table SQL query based on the DataFrame schema
     create_sql = create_table_sql(df, table_name)
 
     # Execute the SQL to create the table
     conn.execute(create_sql)
 
-    # Save the DataFrame to a temporary file (OmniSci's COPY command requires file input)
-    temp_file = "temp_data.csv"
-    df.to_csv(temp_file, index=False, header=True)
-
     # Perform the COPY operation to load the data into OmniSci
     try:
         # This uses the COPY command, which is optimized for GPU acceleration in OmniSci
         copy_sql = f"""
-            COPY {table_name} FROM '{os.path.abspath(temp_file)}' WITH (header, delimiter=',');
+            COPY {table_name} FROM '{csv_file}' WITH (header, delimiter=',');
         """
+        print(copy_sql)
         conn.execute(copy_sql)
         conn.commit()
         print(f"Data loaded successfully into table '{table_name}' using GPU-accelerated COPY.")
-        os.remove(temp_file)  # Clean up the temporary file
     except Exception as e:
         print(f"Error loading data using COPY: {e}")
-        os.remove(temp_file)
 
 # Main function to handle command-line arguments
 def main():
