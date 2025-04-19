@@ -9,7 +9,7 @@ parser.add_argument("parquet_file", help="Output Parquet file name")
 args = parser.parse_args()
 
 # Connect to MySQL
-engine = sqlalchemy.create_engine("mysql+pymysql://root:root@host/blazing_sql")
+engine = sqlalchemy.create_engine("mysql+pymysql://root:root@localhost/blazing_sql")
 
 # Read table from MySQL
 df = pd.read_sql(f"SELECT * FROM {args.table_name}", engine)
