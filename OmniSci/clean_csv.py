@@ -2,8 +2,12 @@ import csv
 import argparse
 
 def clean_csv(input_file, output_file):
+    def remove_nulls(f):
+        for line in f:
+            yield line.replace('\x00', '')
+
     with open(input_file, mode='r', newline='', encoding='utf-8', errors='ignore') as infile:
-        reader = csv.reader(infile)
+        reader = csv.reader(remove_nulls(infile))
 
         with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
             writer = csv.writer(outfile, quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -11,7 +15,6 @@ def clean_csv(input_file, output_file):
             for row_index, row in enumerate(reader):
                 cleaned_row = []
                 for item in row:
-                    # Replace single quotes with space, commas with space, and remove double quotes
                     cleaned_item = item.replace("'", " ").replace(',', " ").replace('"', "")
                     if row_index == 0:
                         cleaned_row.append(cleaned_item)
@@ -36,3 +39,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
