@@ -29,7 +29,7 @@ for table in args.tables:
         print(f"❌ Error reading table `{table}`: {e}")
         continue
 
-    # Save CSV with pipe delimiter, UTF-8, and LF line endings (even on Windows)
+    # Save CSV with pipe delimiter, UTF-8 encoding, LF line endings, and double quotes for quoting
     try:
         with open(csv_file, "w", encoding="utf-8", newline="\n") as f:
             df.to_csv(
@@ -37,9 +37,12 @@ for table in args.tables:
                 index=False,
                 sep="|",
                 header=True,
-                line_terminator="\n",        # Ensure pandas uses LF
-                quoting=csv.QUOTE_MINIMAL    # Avoid over-quoting
+                line_terminator="\n",  # Ensures LF line endings between rows only
+                quoting=csv.QUOTE_MINIMAL,  # Only quote when necessary
+                quotechar='"',  # Use double quotes for quoting fields
+                escapechar="\\",  # Escape special characters, like single quotes
+                quote_fields=True  # Prevents data from being split into multiple lines inside fields
             )
-        print(f"✅ Saved to {csv_file} (UTF-8, LF line endings, pipe-delimited)")
+        print(f"✅ Saved to {csv_file} (UTF-8, LF line endings, pipe-delimited, double-quoted fields)")
     except Exception as e:
         print(f"❌ Error saving `{csv_file}`: {e}")
