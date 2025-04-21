@@ -37,11 +37,10 @@ for table in args.tables:
                 index=False,
                 sep="|",
                 header=True,
-                line_terminator="\n",  # Ensures LF line endings between rows only
-                quoting=csv.QUOTE_MINIMAL,  # Only quote when necessary
-                quotechar='"',  # Use double quotes for quoting fields
-                escapechar="\\",  # Escape special characters, like single quotes
-                quote_fields=True  # Prevents data from being split into multiple lines inside fields
+                lineterminator="\n",
+                quoting=csv.QUOTE_MINIMAL,  # Or use csv.QUOTE_ALL for full quoting
+                quotechar='"',
+                escapechar="\\"
             )
         print(f"✅ Saved to {csv_file} (UTF-8, LF line endings, pipe-delimited, double-quoted fields)")
     except Exception as e:
