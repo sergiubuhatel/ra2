@@ -80,7 +80,20 @@ def main(table_name, row_limit=None):
     # Load into OmniSci
     try:
         print(f"⬆️ Loading data into OmniSci table `{table_name}`...")
-        omnisci.load_table(table_name, df)
+        chunk_size = 1000000
+        num_chunks = (len(df) + chunk_size - 1) // chunk_size
+
+        for i in range(num_chunks):
+            start = i * chunk_size
+            end = min((i + 1) * chunk_size, len(df))
+            print(f"📦 Loading rows {start} to {end}...")
+            try:
+                chunk = df.iloc[start:end]
+                omnisci.load_table(table_name, chunk)
+            except Exception as e:
+                print(f"❌ Error loading chunk {i}: {e}")
+                sys.exit(1)
+
         print("✅ Import successful.")
     except Exception as e:
         print(f"❌ Error loading data into OmniSci: {e}")
