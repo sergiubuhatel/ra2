@@ -7,10 +7,17 @@ from pyomnisci import connect
 def create_omnisci_table(omnisci, table_name):
     print(f"🛠️ Creating table `{table_name}` in OmniSci...")
 
+    try:
+        # Drop the table if it already exists
+        omnisci.cursor().execute(f"DROP TABLE IF EXISTS {table_name};")
+        print(f"🗑️ Dropped existing table `{table_name}`.")
+    except Exception as e:
+        print(f"⚠️ Could not drop existing table `{table_name}`: {e}")
+
     create_table_sql = f"""
     CREATE TABLE {table_name} (
-      coordinates INT,
-      created_at TIMESTAMP,
+      coordinates INTEGER,
+      created_at TIMESTAMP(0),
       favorited BOOLEAN,
       truncated BOOLEAN,
       tweet_id_str TEXT,
@@ -18,7 +25,7 @@ def create_omnisci_table(omnisci, table_name):
       tweet_text TEXT,
       tweet_contributors TEXT,
       id BIGINT,
-      retweet_count INT,
+      retweet_count INTEGER,
       in_reply_to_status_id_str TEXT,
       geo TEXT,
       retweeted BOOLEAN,
@@ -29,49 +36,49 @@ def create_omnisci_table(omnisci, table_name):
       user_profile_background_tile BOOLEAN,
       user_profile_image_url TEXT,
       user_location TEXT,
-      user_created_at TIMESTAMP,
+      user_created_at TIMESTAMP(0),
       user_id_str TEXT,
       user_follow_request_sent BOOLEAN,
       user_profile_link_color TEXT,
-      user_favourites_count INT,
+      user_favourites_count INTEGER,
       user_url TEXT,
       user_contributors BOOLEAN,
       user_utc_offset DOUBLE,
-      user_id INT,
+      user_id INTEGER,
       user_profile_use_background_image TEXT,
-      user_listed_count INT,
+      user_listed_count INTEGER,
       user_protected BOOLEAN,
       user_lang TEXT,
       user_profile_text_color TEXT,
-      user_followers_count INT,
+      user_followers_count INTEGER,
       tweet_user_time_zone TEXT,
       user_verified BOOLEAN,
       user_geo_enabled BOOLEAN,
       user_profile_background_color TEXT,
       user_notifications BOOLEAN,
       user_description TEXT,
-      user_friends_count INT,
+      user_friends_count INTEGER,
       user_profile_background_image_url TEXT,
-      user_statuses_count INT,
+      user_statuses_count INTEGER,
       user_screen_name TEXT,
-      user_following INT,
+      user_following INTEGER,
       in_reply_to_screen_name TEXT,
       tweet_source TEXT,
       place TEXT,
-      in_reply_to_status_id INT,
-      favorite_count INT,
+      in_reply_to_status_id INTEGER,
+      favorite_count INTEGER,
       screen_name TEXT,
       tweet_lang TEXT,
       screen_name2 TEXT,
-      EST TIMESTAMP,
+      EST TIMESTAMP(0),
       screen_name3 TEXT,
-      user_created_EST TIMESTAMP,
+      user_created_EST TIMESTAMP(0),
       tweetQuarter SMALLINT,
       tweetmonth SMALLINT,
       tweetyear SMALLINT,
       containLink BOOLEAN,
-      numWords INT,
-      numCharacters INT,
+      numWords INTEGER,
+      numCharacters INTEGER,
       screen_name4 TEXT,
       col_id BIGINT,
       tweet_text_adj TEXT
@@ -116,23 +123,93 @@ def main(table_name, row_limit=None):
         print(f"❌ Error loading table from MySQL: {e}")
         sys.exit(1)
 
-    # Sanitize column names for OmniSci compatibility
-    df.columns = [
-        col.strip().lower().replace(" ", "_").replace("-", "_")
-        for col in df.columns
-    ]
+    # Ensure `created_at`, `user_created_at`, and `EST` columns are converted to UNIX timestamps
+    for date_col in ['created_at', 'user_created_at', 'EST', 'user_created_EST']:
+        if date_col in df.columns:
+            df[date_col] = pd.to_datetime(df[date_col], errors='coerce')  # Convert to datetime
+            df[date_col] = df[date_col].astype('int64') // 10**9  # Convert to UNIX timestamp in seconds
 
-    print("📊 Column types:")
+            # Check if any NaT values exist (conversion failed)
+            failed_conversion = df[df[date_col].isna()]
+            if not failed_conversion.empty:
+                print(f"❌ The following rows failed to convert {date_col}:")
+                print(failed_conversion)
+
+    # Define OmniSci to Pandas type mapping
+    dtype_mapping = {
+        "coordinates": "int32",
+        "created_at": "int64",  # UNIX timestamp in seconds
+        "favorited": "bool",
+        "truncated": "bool",
+        "tweet_id_str": "object",
+        "in_reply_to_user_id_str": "object",
+        "tweet_text": "object",
+        "tweet_contributors": "object",
+        "id": "int64",
+        "retweet_count": "int32",
+        "in_reply_to_status_id_str": "object",
+        "geo": "object",
+        "retweeted": "bool",
+        "in_reply_to_user_id": "object",
+        "user_profile_sidebar_border_color": "object",
+        "user_name": "object",
+        "user_profile_sidebar_fill_color": "object",
+        "user_profile_background_tile": "bool",
+        "user_profile_image_url": "object",
+        "user_location": "object",
+        "user_created_at": "int64",  # UNIX timestamp in seconds
+        "user_id_str": "object",
+        "user_follow_request_sent": "bool",
+        "user_profile_link_color": "object",
+        "user_favourites_count": "int32",
+        "user_url": "object",
+        "user_contributors": "bool",
+        "user_utc_offset": "float64",
+        "user_id": "int32",
+        "user_profile_use_background_image": "object",
+        "user_listed_count": "int32",
+        "user_protected": "bool",
+        "user_lang": "object",
+        "user_profile_text_color": "object",
+        "user_followers_count": "int32",
+        "tweet_user_time_zone": "object",
+        "user_verified": "bool",
+        "user_geo_enabled": "bool",
+        "user_profile_background_color": "object",
+        "user_notifications": "bool",
+        "user_description": "object",
+        "user_friends_count": "int32",
+        "user_profile_background_image_url": "object",
+        "user_statuses_count": "int32",
+        "user_screen_name": "object",
+        "user_following": "int32",
+        "in_reply_to_screen_name": "object",
+        "tweet_source": "object",
+        "place": "object",
+        "in_reply_to_status_id": "int32",
+        "favorite_count": "int32",
+        "screen_name": "object",
+        "tweet_lang": "object",
+        "screen_name2": "object",
+        "EST": "int64",  # UNIX timestamp in seconds
+        "screen_name3": "object",
+        "user_created_EST": "int64",  # UNIX timestamp in seconds
+        "tweetQuarter": "int16",
+        "tweetmonth": "int16",
+        "tweetyear": "int16",
+        "containLink": "bool",
+        "numWords": "int32",
+        "numCharacters": "int32",
+        "screen_name4": "object",
+        "col_id": "int64",
+        "tweet_text_adj": "object"
+    }
+
+    # Cast the DataFrame types based on the mapping
+    df = df.astype(dtype_mapping)
+
+    print("📊 Column types after casting:")
     print(df.dtypes)
-
-    # Convert MySQL DATETIME columns to UNIX_TIMESTAMP
-    for col in df.columns:
-        if df[col].dtype == 'datetime64[ns]':
-            print(f"⏳ Converting `{col}` to UNIX_TIMESTAMP...")
-            df[col] = df[col].apply(lambda x: int(x.timestamp()) if pd.notnull(x) else None)
-
-    # Drop columns that are completely empty
-    df = df.dropna(axis=1, how='all')
 
     # Connect to OmniSci
     try:
@@ -147,10 +224,10 @@ def main(table_name, row_limit=None):
         print(f"❌ Error connecting to OmniSci: {e}")
         sys.exit(1)
 
-    # Create table
+    # Create the target table
     create_omnisci_table(omnisci, table_name)
 
-    # Load data into OmniSci
+    # Load into OmniSci
     try:
         print(f"⬆️ Loading data into OmniSci table `{table_name}`...")
         omnisci.load_table(table_name, df)
@@ -158,17 +235,6 @@ def main(table_name, row_limit=None):
     except Exception as e:
         print(f"❌ Error loading data into OmniSci: {e}")
         sys.exit(1)
-
-    # Compatibility test
-    print("\n🧪 Testing columns one by one for compatibility...")
-    for col in df.columns:
-        try:
-            test_df = df[[col]].copy()
-            test_df.columns = [col.lower()]
-            omnisci.load_table("test_table_temp", test_df, preserve_index=False)
-            print(f"✅ Column `{col}` OK")
-        except Exception as e:
-            print(f"❌ Column `{col}` FAILED: {e}")
 
 
 if __name__ == "__main__":
