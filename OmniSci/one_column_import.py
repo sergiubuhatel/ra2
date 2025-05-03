@@ -22,7 +22,7 @@ integer_columns = [
 
 # Array for columns of type TIMESTAMP
 timestamp_columns = [
-    "created_at"
+    "created_at",
     "user_created_at",
     "EST",
     "user_created_EST"
