@@ -22,12 +22,14 @@ def create_omnisci_table(omnisci, table_name, columns_and_types):
         print(f"❌ Failed to create table `{table_name}`: {e}")
         sys.exit(1)
 
+
 def fetch_table_as_dataframe(omnisci, query):
     cursor = omnisci.cursor()
     cursor.execute(query)
     columns = [col.name for col in cursor.description]
     rows = cursor.fetchall()
     return pd.DataFrame(rows, columns=columns)
+
 
 def main(source_table, target_table, row_limit=None):
     omnisci_user = "admin"
@@ -47,7 +49,6 @@ def main(source_table, target_table, row_limit=None):
         print(f"❌ Could not connect to OmniSci: {e}")
         sys.exit(1)
 
-    # Prepare the query
     query = f"SELECT * FROM {source_table}"
     if row_limit:
         query += f" LIMIT {row_limit}"
@@ -61,7 +62,7 @@ def main(source_table, target_table, row_limit=None):
         print(f"❌ Failed to load data from OmniSci: {e}")
         sys.exit(1)
 
-    # Define new column types
+    # Define schema
     columns_and_types = [
         ("coordinates", "FLOAT"),
         ("created_at", "TIMESTAMP"),
@@ -140,13 +141,22 @@ def main(source_table, target_table, row_limit=None):
             continue
         if col_type == "TIMESTAMP":
             df[col] = pd.to_datetime(df[col], errors='coerce')
-            df[col] = df[col].astype('int64') // 10**9  # OmniSci expects UNIX seconds
+            df[col] = df[col].astype("int64") // 10**9
         elif col_type in ("INT", "BIGINT"):
             df[col] = pd.to_numeric(df[col], errors='coerce', downcast='integer')
-        elif col_type == "DOUBLE":
-            df[col] = pd.to_numeric(df[col], errors='coerce', downcast='float')
+        elif col_type in ("FLOAT", "DOUBLE"):
+            df[col] = pd.to_numeric(df[col].astype(str), errors='coerce')
+            df[col] = df[col].astype(float)
         elif col_type == "BOOLEAN":
             df[col] = df[col].astype(bool)
+
+    # Debug: check for any columns with invalid float values
+    for col, col_type in columns_and_types:
+        if col_type in ("FLOAT", "DOUBLE") and col in df.columns:
+            invalid_vals = df[~df[col].apply(lambda x: isinstance(x, float) or pd.isna(x))][col]
+            if not invalid_vals.empty:
+                print(f"⚠️ Column `{col}` contains non-float values that may cause issues:")
+                print(invalid_vals.head(5))
 
     print(f"⬆️ Loading data into OmniSci table `{target_table}`...")
     try:
@@ -159,7 +169,7 @@ def main(source_table, target_table, row_limit=None):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python omnisci_to_omnisci.py <source_table> <target_table> [limit]")
+        print("Usage: python cast_from_table.py <source_table> <target_table> [limit]")
         sys.exit(1)
 
     source_table = sys.argv[1]
