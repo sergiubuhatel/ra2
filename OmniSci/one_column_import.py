@@ -3,6 +3,101 @@ import pandas as pd
 import time
 from pyomnisci import connect
 
+# Array for columns of type INTEGER
+integer_columns = [
+    "coordinates",
+    "retweet_count",
+    "user_favourites_count",
+    "user_id",
+    "user_listed_count",
+    "user_followers_count",
+    "user_friends_count",
+    "user_statuses_count",
+    "user_following",
+    "favorite_count",
+    "numWords",
+    "numCharacters",
+    "in_reply_to_status_id"
+]
+
+# Array for columns of type TIMESTAMP
+timestamp_columns = [
+    "created_at"
+    "user_created_at",
+    "EST",
+    "user_created_EST"
+]
+
+# Array for columns of type DOUBLE
+double_columns = [
+    "user_utc_offset"
+]
+
+# Array for columns of type BOOLEAN
+boolean_columns = [
+    "favorited",
+    "truncated",
+    "retweeted",
+    "user_profile_background_tile",
+    "user_follow_request_sent",
+    "user_contributors",
+    "user_profile_use_background_image",
+    "user_protected",
+    "user_verified",
+    "user_geo_enabled",
+    "user_notifications",
+    "containLink"
+]
+
+# Array for columns of type TEXT
+text_columns = [
+    "tweet_id_str",
+    "in_reply_to_user_id_str",
+    "tweet_text",
+    "tweet_contributors",
+    "geo",
+    "in_reply_to_user_id",
+    "user_profile_sidebar_border_color",
+    "user_name",
+    "user_profile_sidebar_fill_color",
+    "user_profile_image_url",
+    "user_location",
+    "user_id_str",
+    "user_profile_link_color",
+    "user_url",
+    "user_lang",
+    "user_profile_text_color",
+    "tweet_user_time_zone",
+    "user_profile_background_color",
+    "user_description",
+    "user_profile_background_image_url",
+    "user_screen_name",
+    "in_reply_to_screen_name",
+    "tweet_source",
+    "place",
+    "screen_name",
+    "tweet_lang",
+    "screen_name2",
+    "screen_name3",
+    "screen_name4",
+    "tweet_text_adj",
+    "in_reply_to_status_id_str"
+]
+
+# Array for columns of type BIGINT
+bigint_columns = [
+    "id",
+    "col_id"
+]
+
+# Array for columns of type SMALLINT
+smallint_columns = [
+    "tweetQuarter",
+    "tweetmonth",
+    "tweetyear"
+]
+
+
 def fetch_table_as_dataframe(omnisci, query):
     print("🔄 Executing query: ", query)
     start_time = time.time()
@@ -31,10 +126,70 @@ def create_destination_table(omnisci, table_name):
     CREATE TABLE {table_name} (
         coordinates INTEGER,
         created_at TIMESTAMP,
+        favorited BOOLEAN,
+        truncated BOOLEAN,
         tweet_id_str TEXT,
-        retweeted BOOLEAN,
+        in_reply_to_user_id_str TEXT,
+        tweet_text TEXT,
+        tweet_contributors TEXT,
         id BIGINT,
-        tweetQuarter SMALLINT
+        retweet_count INTEGER,
+        in_reply_to_status_id_str TEXT,
+        geo TEXT,
+        retweeted BOOLEAN,
+        in_reply_to_user_id TEXT,
+        user_profile_sidebar_border_color TEXT,
+        user_name TEXT,
+        user_profile_sidebar_fill_color TEXT,
+        user_profile_background_tile BOOLEAN,
+        user_profile_image_url TEXT,
+        user_location TEXT,
+        user_created_at TIMESTAMP,
+        user_id_str TEXT,
+        user_follow_request_sent BOOLEAN,
+        user_profile_link_color TEXT,
+        user_favourites_count INTEGER,
+        user_url TEXT,
+        user_contributors BOOLEAN,
+        user_utc_offset DOUBLE,
+        user_id INTEGER,
+        user_profile_use_background_image TEXT,
+        user_listed_count INTEGER,
+        user_protected BOOLEAN,
+        user_lang TEXT,
+        user_profile_text_color TEXT,
+        user_followers_count INTEGER,
+        tweet_user_time_zone TEXT,
+        user_verified BOOLEAN,
+        user_geo_enabled BOOLEAN,
+        user_profile_background_color TEXT,
+        user_notifications BOOLEAN,
+        user_description TEXT,
+        user_friends_count INTEGER,
+        user_profile_background_image_url TEXT,
+        user_statuses_count INTEGER,
+        user_screen_name TEXT,
+        user_following INTEGER,
+        in_reply_to_screen_name TEXT,
+        tweet_source TEXT,
+        place TEXT,
+        in_reply_to_status_id INTEGER,
+        favorite_count INTEGER,
+        screen_name TEXT,
+        tweet_lang TEXT,
+        screen_name2 TEXT,
+        EST TIMESTAMP,
+        screen_name3 TEXT,
+        user_created_EST TIMESTAMP,
+        tweetQuarter SMALLINT,
+        tweetmonth SMALLINT,
+        tweetyear SMALLINT,
+        containLink BOOLEAN,
+        numWords INTEGER,
+        numCharacters INTEGER,
+        screen_name4 TEXT,
+        col_id BIGINT,
+        tweet_text_adj TEXT
     );
     """
 
@@ -94,21 +249,39 @@ def main(source_table, target_table, row_limit=None):
         print("❌ Required columns not found in source data.")
         sys.exit(1)
 
-    # Do a copy 
-    df_to_insert = df[['coordinates', 'created_at', 'tweet_id_str', 'retweeted', 'id', 'tweetQuarter']].copy()
+    # Combine all relevant columns for selection
+    all_columns_to_copy = (
+        integer_columns + timestamp_columns + boolean_columns +
+        text_columns + bigint_columns + smallint_columns + double_columns
+    )
+
+    # Filter only the columns present in the DataFrame
+    existing_columns = [col for col in all_columns_to_copy if col in df.columns]
+
+    # Copy only existing columns
+    df_to_insert = df[existing_columns].copy()
 
     # Handle INTEGER
-    df_to_insert['coordinates'] = pd.to_numeric(df_to_insert['coordinates'], errors='coerce').fillna(0).astype('int32')
+    for field in integer_columns:
+        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int32')
     # Handle TEXT
-    df_to_insert['tweet_id_str'] = df_to_insert['tweet_id_str'].astype(str)
+    for field in text_columns:
+        df_to_insert[field] = df_to_insert[field].astype(str)
     # Handle BOOLEAN
-    df_to_insert['retweeted'] = df_to_insert['retweeted'].astype(bool)
+    for field in boolean_columns:
+        df_to_insert[field] = df_to_insert[field].astype(bool)
     # Handle TIMESTAMP
-    df_to_insert['created_at'] = pd.to_datetime(df_to_insert['created_at'], errors='coerce')
+    for field in timestamp_columns:
+        df_to_insert[field] = pd.to_datetime(df_to_insert[field], errors='coerce')
     # Handle BIGINT
-    df_to_insert['id'] = pd.to_numeric(df_to_insert['id'], errors='coerce').fillna(0).astype('int64')
+    for field in bigint_columns:
+        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int64')
     # Handle SMALLINT
-    df_to_insert['tweetQuarter'] = pd.to_numeric(df_to_insert['tweetQuarter'], errors='coerce').fillna(0).astype('int16')
+    for field in smallint_columns :
+        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int16')
+    # Handle SMALLINT
+    for field in double_columns :
+        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('float')
 
     print("\nData ready for insertion (dtypes):")
     print(df_to_insert.dtypes)
