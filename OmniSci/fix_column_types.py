@@ -354,7 +354,7 @@ def main(source_table, target_table, chunk_size=1_000_000):
 
         print("🧪 Inserting chunk into OmniSci...")
         try:
-            insert_data_into_table(target_table, df_to_insert)
+            insert_data_into_table(omnisci, target_table, df_to_insert)
             inserted_count = len(df_to_insert)
             total_inserted += inserted_count
             print(f"✅ Inserted {inserted_count} rows. Total inserted: {total_inserted}")
