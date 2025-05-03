@@ -1,10 +1,6 @@
-#!/bin/bash
-
-# Array of years to process
-years=(2018 2019 2020 2021 2022 2023)
-
-# Loop through each year and run the script
-for year in "${years[@]}"; do
-    echo "🚀 Processing tweets_$year → Twitter_$year"
-    python fix_column_types.py "tweets_$year" "Twitter_$year"
-done
+python fix_column_types.py tweets_2018 Twitter_2018
+python fix_column_types.py tweets_2019 Twitter_2019
+python fix_column_types.py tweets_2020 Twitter_2020
+python fix_column_types.py tweets_2021 Twitter_2021
+python fix_column_types.py tweets_2022 Twitter_2022
+python fix_column_types.py tweets_2023 Twitter_2023
