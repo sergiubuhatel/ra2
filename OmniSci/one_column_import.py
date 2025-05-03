@@ -26,10 +26,11 @@ def create_destination_table(omnisci, table_name):
     except Exception as e:
         print(f"⚠️ Failed to drop table `{table_name}`: {e}")
 
-    # Create the new destination table with coordinates as INTEGER
+    # Create the new destination table with coordinates and in_reply_to_user_id_str
     create_sql = f"""
     CREATE TABLE {table_name} (
-        coordinates INTEGER
+        coordinates INTEGER,
+        in_reply_to_user_id_str TEXT
     );
     """
 
@@ -42,7 +43,6 @@ def create_destination_table(omnisci, table_name):
 
 def insert_data_into_table(omnisci, table_name, df):
     print(f"⬆️ Inserting data into table `{table_name}`...")
-
     try:
         omnisci.load_table(table_name, df)
         print("✅ Data inserted successfully.")
@@ -69,7 +69,6 @@ def main(source_table, target_table, row_limit=None):
         print(f"❌ Could not connect to OmniSci: {e}")
         sys.exit(1)
 
-    # Prepare the query for source table
     query = f"SELECT * FROM {source_table}"
     if row_limit:
         query += f" LIMIT {row_limit}"
@@ -78,28 +77,26 @@ def main(source_table, target_table, row_limit=None):
     try:
         df = fetch_table_as_dataframe(omnisci, query)
         print(f"✅ Loaded {len(df)} rows, {len(df.columns)} columns.")
-        
-        # Print the first few rows of the dataframe for inspection
         print("\nFirst few rows of the data fetched:")
-        print(df.head())  # Display first 5 rows of the dataframe
-
+        print(df.head())
     except Exception as e:
         print(f"❌ Failed to load data from OmniSci: {e}")
         sys.exit(1)
 
-    # Create destination table with a single `coordinates` column as INTEGER
     create_destination_table(omnisci, target_table)
 
-    # Ensure `coordinates` is of type int32 before inserting
-    if 'coordinates' in df.columns:
-        # Convert `coordinates` to int32 (handle any NaN values by filling them with 0)
-        df_to_insert = df[['coordinates']].copy()
-        df_to_insert['coordinates'] = pd.to_numeric(df_to_insert['coordinates'], errors='coerce').fillna(0).astype('int32')
-    else:
-        print("❌ Coordinates column not found in source data.")
+    # Ensure both required columns exist
+    if not all(col in df.columns for col in ['coordinates', 'in_reply_to_user_id_str']):
+        print("❌ Required columns not found in source data.")
         sys.exit(1)
 
-    # Insert data into the destination table
+    df_to_insert = df[['coordinates', 'in_reply_to_user_id_str']].copy()
+    df_to_insert['coordinates'] = pd.to_numeric(df_to_insert['coordinates'], errors='coerce').fillna(0).astype('int32')
+    df_to_insert['in_reply_to_user_id_str'] = df_to_insert['in_reply_to_user_id_str'].astype(str)
+
+    print("\nData ready for insertion (dtypes):")
+    print(df_to_insert.dtypes)
+
     insert_data_into_table(omnisci, target_table, df_to_insert)
 
 if __name__ == "__main__":
