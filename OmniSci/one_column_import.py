@@ -30,7 +30,8 @@ def create_destination_table(omnisci, table_name):
     create_sql = f"""
     CREATE TABLE {table_name} (
         coordinates INTEGER,
-        in_reply_to_user_id_str TEXT
+        tweet_id_str TEXT,
+        retweeted BOOLEAN
     );
     """
 
@@ -86,13 +87,14 @@ def main(source_table, target_table, row_limit=None):
     create_destination_table(omnisci, target_table)
 
     # Ensure both required columns exist
-    if not all(col in df.columns for col in ['coordinates', 'in_reply_to_user_id_str']):
+    if not all(col in df.columns for col in ['coordinates', 'tweet_id_str']):
         print("❌ Required columns not found in source data.")
         sys.exit(1)
 
-    df_to_insert = df[['coordinates', 'in_reply_to_user_id_str']].copy()
+    df_to_insert = df[['coordinates', 'tweet_id_str', 'retweeted']].copy()
     df_to_insert['coordinates'] = pd.to_numeric(df_to_insert['coordinates'], errors='coerce').fillna(0).astype('int32')
-    df_to_insert['in_reply_to_user_id_str'] = df_to_insert['in_reply_to_user_id_str'].astype(str)
+    df_to_insert['tweet_id_str'] = df_to_insert['tweet_id_str'].astype(str)
+    df_to_insert['retweeted'] = df_to_insert['retweeted'].astype(bool)
 
     print("\nData ready for insertion (dtypes):")
     print(df_to_insert.dtypes)
