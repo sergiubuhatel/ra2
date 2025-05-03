@@ -284,7 +284,7 @@ def insert_data_into_table(omnisci, table_name, df):
         print(f"❌ Error inserting data into OmniSci: {e}")
         sys.exit(1)
 
-def main(source_table, target_table, row_limit=None):
+def main(source_table, target_table, chunk_size=1_000_000):
     omnisci_user = "admin"
     omnisci_pass = "HyperInteractive"
     omnisci_host = "localhost"
@@ -303,68 +303,75 @@ def main(source_table, target_table, row_limit=None):
         print(f"❌ Could not connect to OmniSci: {e}")
         sys.exit(1)
 
-    query = f"SELECT * FROM {source_table}"
-    if row_limit:
-        query += f" LIMIT {row_limit}"
-
-    print(f"📥 Fetching data from `{source_table}`... with query `{query}`")
-    try:
-        df = fetch_table_as_dataframe(omnisci, query)
-        print(f"✅ Loaded {len(df)} rows, {len(df.columns)} columns.")
-        print("\nFirst few rows of the data fetched:")
-        print(df.head())
-    except Exception as e:
-        print(f"❌ Failed to load data from OmniSci: {e}")
-        sys.exit(1)
-
     create_destination_table(omnisci, target_table)
 
-    # Combine all relevant columns for selection
-    all_columns_to_copy = (
-        integer_columns + timestamp_columns + boolean_columns +
-        text_columns + bigint_columns + smallint_columns + double_columns
-    )
+    offset = 0
+    total_inserted = 0
 
-    # Filter only the columns present in the DataFrame
-    existing_columns = [col for col in all_columns_to_copy if col in df.columns]
+    while True:
+        query = f"SELECT * FROM {source_table} LIMIT {chunk_size} OFFSET {offset}"
+        print(f"\n📥 Fetching chunk: OFFSET {offset}, LIMIT {chunk_size}...")
+        try:
+            df = fetch_table_as_dataframe(omnisci, query)
+        except Exception as e:
+            print(f"❌ Error fetching data: {e}")
+            break
 
-    # Copy only existing columns
-    df_to_insert = df[existing_columns].copy()
+        if df.empty:
+            print("✅ All data has been processed.")
+            break
 
-    # Handle INTEGER
-    for field in integer_columns:
-        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int32')
-    # Handle TEXT
-    for field in text_columns:
-        df_to_insert[field] = df_to_insert[field].astype(str)
-    # Handle BOOLEAN
-    for field in boolean_columns:
-        df_to_insert[field] = df_to_insert[field].astype(bool)
-    # Handle TIMESTAMP
-    for field in timestamp_columns:
-        df_to_insert[field] = pd.to_datetime(df_to_insert[field], errors='coerce')
-    # Handle BIGINT
-    for field in bigint_columns:
-        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int64')
-    # Handle SMALLINT
-    for field in smallint_columns:
-        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int16')
-    # Handle DOUBLE
-    for field in double_columns:
-        df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('float')
+        # Select only the columns we support
+        all_columns_to_copy = (
+            integer_columns + timestamp_columns + boolean_columns +
+            text_columns + bigint_columns + smallint_columns + double_columns
+        )
+        existing_columns = [col for col in all_columns_to_copy if col in df.columns]
+        df_to_insert = df[existing_columns].copy()
 
-    print("\nData ready for insertion (dtypes):")
-    print(df_to_insert.dtypes)
+        # Data type handling (same logic as before)
+        for field in integer_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int32')
+        for field in text_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = df_to_insert[field].astype(str)
+        for field in boolean_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = df_to_insert[field].astype(bool)
+        for field in timestamp_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = pd.to_datetime(df_to_insert[field], errors='coerce')
+        for field in bigint_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int64')
+        for field in smallint_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int16')
+        for field in double_columns:
+            if field in df_to_insert:
+                df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('float64')
 
-    insert_data_into_table(omnisci, target_table, df_to_insert)
+        print("🧪 Inserting chunk into OmniSci...")
+        try:
+            insert_data_into_table(target_table, df_to_insert)
+            inserted_count = len(df_to_insert)
+            total_inserted += inserted_count
+            print(f"✅ Inserted {inserted_count} rows. Total inserted: {total_inserted}")
+        except Exception as e:
+            print(f"❌ Failed to insert chunk: {e}")
+            break
+
+        offset += chunk_size
+
+    print(f"\n🎉 Finished. Total rows inserted: {total_inserted}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python test_column_imports.py <source_table> <destination_table> [limit]")
+        print("Usage: python test_column_imports.py <source_table> <destination_table>")
         sys.exit(1)
 
     source_table = sys.argv[1]
     target_table = sys.argv[2]
-    limit = int(sys.argv[3]) if len(sys.argv) == 4 else None
 
-    main(source_table, target_table, limit)
+    main(source_table, target_table)
