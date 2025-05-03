@@ -284,6 +284,13 @@ def insert_data_into_table(omnisci, table_name, df):
         print(f"❌ Error inserting data into OmniSci: {e}")
         sys.exit(1)
 
+def get_total_row_count(omnisci, table_name):
+    query = f"SELECT COUNT(*) FROM {table_name};"
+    cursor = omnisci.cursor()
+    cursor.execute(query)
+    count = cursor.fetchone()[0]
+    return count
+
 def main(source_table, target_table, chunk_size=1_000_000):
     omnisci_user = "admin"
     omnisci_pass = "HyperInteractive"
@@ -308,7 +315,13 @@ def main(source_table, target_table, chunk_size=1_000_000):
     offset = 0
     total_inserted = 0
 
-    while True:
+    total_rows = get_total_row_count(omnisci, source_table)
+    print(f"📊 Total rows to process: {total_rows}")
+
+    offset = 0
+    total_inserted = 0
+
+    while offset < total_rows:
         query = f"SELECT * FROM {source_table} LIMIT {chunk_size} OFFSET {offset}"
         print(f"\n📥 Fetching chunk: OFFSET {offset}, LIMIT {chunk_size}...")
         try:
@@ -358,6 +371,7 @@ def main(source_table, target_table, chunk_size=1_000_000):
             inserted_count = len(df_to_insert)
             total_inserted += inserted_count
             print(f"✅ Inserted {inserted_count} rows. Total inserted: {total_inserted}")
+            print(f"📈 Progress: {(100 * total_inserted / total_rows):.2f}%")
         except Exception as e:
             print(f"❌ Failed to insert chunk: {e}")
             break
