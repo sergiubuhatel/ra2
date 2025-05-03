@@ -41,7 +41,6 @@ boolean_columns = [
     "user_profile_background_tile",
     "user_follow_request_sent",
     "user_contributors",
-    "user_profile_use_background_image",
     "user_protected",
     "user_verified",
     "user_geo_enabled",
@@ -49,12 +48,14 @@ boolean_columns = [
     "containLink"
 ]
 
+
 # Array for columns of type TEXT
 text_columns = [
     "tweet_id_str",
     "in_reply_to_user_id_str",
     "tweet_text",
     "tweet_contributors",
+    "in_reply_to_status_id_str",
     "geo",
     "in_reply_to_user_id",
     "user_profile_sidebar_border_color",
@@ -66,6 +67,7 @@ text_columns = [
     "user_profile_link_color",
     "user_url",
     "user_lang",
+    "user_profile_use_background_image",
     "user_profile_text_color",
     "tweet_user_time_zone",
     "user_profile_background_color",
@@ -80,8 +82,7 @@ text_columns = [
     "screen_name2",
     "screen_name3",
     "screen_name4",
-    "tweet_text_adj",
-    "in_reply_to_status_id_str"
+    "tweet_text_adj"
 ]
 
 # Array for columns of type BIGINT
@@ -96,7 +97,6 @@ smallint_columns = [
     "tweetmonth",
     "tweetyear"
 ]
-
 
 def fetch_table_as_dataframe(omnisci, query):
     print("🔄 Executing query: ", query)
@@ -202,7 +202,82 @@ def create_destination_table(omnisci, table_name):
 
 def insert_data_into_table(omnisci, table_name, df):
     print(f"⬆️ Inserting data into table `{table_name}`...")
+
+    # Reorder the dataframe columns to match the table schema
     try:
+        table_columns_order = [
+            "coordinates",
+            "created_at",
+            "favorited",
+            "truncated",
+            "tweet_id_str",
+            "in_reply_to_user_id_str",
+            "tweet_text",
+            "tweet_contributors",
+            "id",
+            "retweet_count",
+            "in_reply_to_status_id_str",
+            "geo",
+            "retweeted",
+            "in_reply_to_user_id",
+            "user_profile_sidebar_border_color",
+            "user_name",
+            "user_profile_sidebar_fill_color",
+            "user_profile_background_tile",
+            "user_profile_image_url",
+            "user_location",
+            "user_created_at",
+            "user_id_str",
+            "user_follow_request_sent",
+            "user_profile_link_color",
+            "user_favourites_count",
+            "user_url",
+            "user_contributors",
+            "user_utc_offset",
+            "user_id",
+            "user_profile_use_background_image",
+            "user_listed_count",
+            "user_protected",
+            "user_lang",
+            "user_profile_text_color",
+            "user_followers_count",
+            "tweet_user_time_zone",
+            "user_verified",
+            "user_geo_enabled",
+            "user_profile_background_color",
+            "user_notifications",
+            "user_description",
+            "user_friends_count",
+            "user_profile_background_image_url",
+            "user_statuses_count",
+            "user_screen_name",
+            "user_following",
+            "in_reply_to_screen_name",
+            "tweet_source",
+            "place",
+            "in_reply_to_status_id",
+            "favorite_count",
+            "screen_name",
+            "tweet_lang",
+            "screen_name2",
+            "EST",
+            "screen_name3",
+            "user_created_EST",
+            "tweetQuarter",
+            "tweetmonth",
+            "tweetyear",
+            "containLink",
+            "numWords",
+            "numCharacters",
+            "screen_name4",
+            "col_id",
+            "tweet_text_adj"
+        ]
+
+        # Only keep columns that exist in the DataFrame
+        ordered_columns = [col for col in table_columns_order if col in df.columns]
+        df = df[ordered_columns]
+
         omnisci.load_table(table_name, df)
         print("✅ Data inserted successfully.")
     except Exception as e:
@@ -244,11 +319,6 @@ def main(source_table, target_table, row_limit=None):
 
     create_destination_table(omnisci, target_table)
 
-    # Ensure both required columns exist
-    if not all(col in df.columns for col in ['coordinates', 'tweet_id_str']):
-        print("❌ Required columns not found in source data.")
-        sys.exit(1)
-
     # Combine all relevant columns for selection
     all_columns_to_copy = (
         integer_columns + timestamp_columns + boolean_columns +
@@ -277,10 +347,10 @@ def main(source_table, target_table, row_limit=None):
     for field in bigint_columns:
         df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int64')
     # Handle SMALLINT
-    for field in smallint_columns :
+    for field in smallint_columns:
         df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('int16')
-    # Handle SMALLINT
-    for field in double_columns :
+    # Handle DOUBLE
+    for field in double_columns:
         df_to_insert[field] = pd.to_numeric(df_to_insert[field], errors='coerce').fillna(0).astype('float')
 
     print("\nData ready for insertion (dtypes):")
