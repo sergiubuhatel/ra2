@@ -30,6 +30,7 @@ def create_destination_table(omnisci, table_name):
     create_sql = f"""
     CREATE TABLE {table_name} (
         coordinates INTEGER,
+        created_at TIMESTAMP,
         tweet_id_str TEXT,
         retweeted BOOLEAN
     );
@@ -91,10 +92,11 @@ def main(source_table, target_table, row_limit=None):
         print("❌ Required columns not found in source data.")
         sys.exit(1)
 
-    df_to_insert = df[['coordinates', 'tweet_id_str', 'retweeted']].copy()
+    df_to_insert = df[['coordinates', 'created_at', 'tweet_id_str', 'retweeted']].copy()
     df_to_insert['coordinates'] = pd.to_numeric(df_to_insert['coordinates'], errors='coerce').fillna(0).astype('int32')
     df_to_insert['tweet_id_str'] = df_to_insert['tweet_id_str'].astype(str)
     df_to_insert['retweeted'] = df_to_insert['retweeted'].astype(bool)
+    df_to_insert['created_at'] = pd.to_datetime(df_to_insert['created_at'], errors='coerce')
 
     print("\nData ready for insertion (dtypes):")
     print(df_to_insert.dtypes)
