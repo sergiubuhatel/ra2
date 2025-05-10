@@ -1,3 +1,4 @@
+python fix_column_types.py tweets_2017 Twitter_2017
 python fix_column_types.py tweets_2018 Twitter_2018
 python fix_column_types.py tweets_2019 Twitter_2019
 python fix_column_types.py tweets_2020 Twitter_2020
