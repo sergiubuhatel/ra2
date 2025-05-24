@@ -1,4 +1,6 @@
-sudo -E docker run --runtime=nvidia \
+sudo -E docker run --rm --gpus all \
+  -e NVIDIA_VISIBLE_DEVICES=all \
+  -e NVIDIA_DRIVER_CAPABILITIES=compute,utility \
   --name omnisci \
   -v /home/ra2/omnisci/omnisci-docker-storage:/omnisci-storage \
   -v /home/ra2:/data \
