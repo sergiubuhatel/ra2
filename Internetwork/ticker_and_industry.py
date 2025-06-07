@@ -1,25 +1,6 @@
-import requests
 import pandas as pd
-from bs4 import BeautifulSoup
 import yfinance as yf
-
-def get_sp500_tickers():
-    """
-    Scrapes Wikipedia for the current list of S&P 500 tickers.
-    """
-    url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.find('table', {'id': 'constituents'})
-
-    tickers = []
-
-    for row in table.findAll('tr')[1:]:
-        cols = row.findAll('td')
-        ticker = cols[0].text.strip()
-        tickers.append(ticker)
-    
-    return tickers
+import argparse
 
 def get_industry_for_ticker(ticker):
     """
@@ -28,15 +9,26 @@ def get_industry_for_ticker(ticker):
     try:
         stock = yf.Ticker(ticker)
         info = stock.info
-        return info.get('industry', 'N/A')
+        return info.get('industry', 'Unclassified')
     except Exception:
         return 'N/A'
 
 def main():
-    tickers = get_sp500_tickers()
+    parser = argparse.ArgumentParser(description='Fetch industry info for tickers from input CSV.')
+    parser.add_argument('input_file', help='Input CSV file (no header, one column with ticker symbols)')
+    parser.add_argument('output_file', help='Output CSV file with Label and Industry columns')
+    args = parser.parse_args()
+
+    try:
+        tickers_df = pd.read_csv(args.input_file, header=None)
+        tickers = tickers_df[0].tolist()
+    except Exception as e:
+        print(f"❌ Failed to read input file: {e}")
+        return
+
     data = []
 
-    print("Fetching industry info from Yahoo Finance (this may take a while)...")
+    print("Fetching industry info from Yahoo Finance...")
 
     for ticker in tickers:
         industry = get_industry_for_ticker(ticker)
@@ -47,8 +39,8 @@ def main():
         })
 
     df = pd.DataFrame(data)
-    df.to_csv('sp500_label_industry.csv', index=False)
-    print("✅ Data saved to 'sp500_label_industry.csv'")
+    df.to_csv(args.output_file, index=False)
+    print(f"✅ Data saved to '{args.output_file}'")
 
 if __name__ == "__main__":
     main()
