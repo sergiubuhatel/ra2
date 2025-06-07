@@ -1,0 +1,504 @@
+Label,Industry
+MMM,Conglomerates
+AOS,Specialty Industrial Machinery
+ABT,Medical Devices
+ABBV,Drug Manufacturers - General
+ACN,Information Technology Services
+ADBE,Software - Application
+AMD,Semiconductors
+AES,Utilities - Diversified
+AFL,Insurance - Life
+A,Diagnostics & Research
+APD,Specialty Chemicals
+ABNB,Travel Services
+AKAM,Software - Infrastructure
+ALB,Specialty Chemicals
+ARE,REIT - Office
+ALGN,Medical Instruments & Supplies
+ALLE,Security & Protection Services
+LNT,Utilities - Regulated Electric
+ALL,Insurance - Property & Casualty
+GOOGL,Internet Content & Information
+GOOG,Internet Content & Information
+MO,Tobacco
+AMZN,Internet Retail
+AMCR,Packaging & Containers
+AEE,Utilities - Regulated Electric
+AEP,Utilities - Regulated Electric
+AXP,Credit Services
+AIG,Insurance - Diversified
+AMT,REIT - Specialty
+AWK,Utilities - Regulated Water
+AMP,Asset Management
+AME,Specialty Industrial Machinery
+AMGN,Drug Manufacturers - General
+APH,Electronic Components
+ADI,Semiconductors
+ANSS,Software - Application
+AON,Insurance Brokers
+APA,Oil & Gas E&P
+APO,Asset Management
+AAPL,Consumer Electronics
+AMAT,Semiconductor Equipment & Materials
+APTV,Auto Parts
+ACGL,Insurance - Diversified
+ADM,Farm Products
+ANET,Computer Hardware
+AJG,Insurance Brokers
+AIZ,Insurance - Property & Casualty
+T,Telecom Services
+ATO,Utilities - Regulated Gas
+ADSK,Software - Application
+ADP,Software - Application
+AZO,Auto Parts
+AVB,REIT - Residential
+AVY,Packaging & Containers
+AXON,Aerospace & Defense
+BKR,Oil & Gas Equipment & Services
+BALL,Packaging & Containers
+BAC,Banks - Diversified
+BAX,Medical Instruments & Supplies
+BDX,Medical Instruments & Supplies
+BRK.B,N/A
+BBY,Specialty Retail
+TECH,Biotechnology
+BIIB,Drug Manufacturers - General
+BLK,Asset Management
+BX,Asset Management
+BK,Banks - Diversified
+BA,Aerospace & Defense
+BKNG,Travel Services
+BSX,Medical Devices
+BMY,Drug Manufacturers - General
+AVGO,Semiconductors
+BR,Information Technology Services
+BRO,Insurance Brokers
+BF.B,N/A
+BLDR,Building Products & Equipment
+BG,Farm Products
+BXP,REIT - Office
+CHRW,Integrated Freight & Logistics
+CDNS,Software - Application
+CZR,Resorts & Casinos
+CPT,REIT - Residential
+CPB,Packaged Foods
+COF,Credit Services
+CAH,Medical Distribution
+KMX,Auto & Truck Dealerships
+CCL,Travel Services
+CARR,Building Products & Equipment
+CAT,Farm & Heavy Construction Machinery
+CBOE,Financial Data & Stock Exchanges
+CBRE,Real Estate Services
+CDW,Information Technology Services
+COR,Medical Distribution
+CNC,Healthcare Plans
+CNP,Utilities - Regulated Electric
+CF,Agricultural Inputs
+CRL,Diagnostics & Research
+SCHW,Capital Markets
+CHTR,Telecom Services
+CVX,Oil & Gas Integrated
+CMG,Restaurants
+CB,Insurance - Property & Casualty
+CHD,Household & Personal Products
+CI,Healthcare Plans
+CINF,Insurance - Property & Casualty
+CTAS,Specialty Business Services
+CSCO,Communication Equipment
+C,Banks - Diversified
+CFG,Banks - Regional
+CLX,Household & Personal Products
+CME,Financial Data & Stock Exchanges
+CMS,Utilities - Regulated Electric
+KO,Beverages - Non-Alcoholic
+CTSH,Information Technology Services
+COIN,Financial Data & Stock Exchanges
+CL,Household & Personal Products
+CMCSA,Telecom Services
+CAG,Packaged Foods
+COP,Oil & Gas E&P
+ED,Utilities - Regulated Electric
+STZ,Beverages - Brewers
+CEG,Utilities - Renewable
+COO,Medical Instruments & Supplies
+CPRT,Specialty Business Services
+GLW,Electronic Components
+CPAY,Software - Infrastructure
+CTVA,Agricultural Inputs
+CSGP,Real Estate Services
+COST,Discount Stores
+CTRA,Oil & Gas E&P
+CRWD,Software - Infrastructure
+CCI,REIT - Specialty
+CSX,Railroads
+CMI,Specialty Industrial Machinery
+CVS,Healthcare Plans
+DHR,Diagnostics & Research
+DRI,Restaurants
+DVA,Medical Care Facilities
+DAY,Software - Application
+DECK,Footwear & Accessories
+DE,Farm & Heavy Construction Machinery
+DELL,Computer Hardware
+DAL,Airlines
+DVN,Oil & Gas E&P
+DXCM,Medical Devices
+FANG,Oil & Gas E&P
+DLR,REIT - Specialty
+DG,Discount Stores
+DLTR,Discount Stores
+D,Utilities - Regulated Electric
+DPZ,Restaurants
+DASH,Internet Retail
+DOV,Specialty Industrial Machinery
+DOW,Chemicals
+DHI,Residential Construction
+DTE,Utilities - Regulated Electric
+DUK,Utilities - Regulated Electric
+DD,Specialty Chemicals
+EMN,Specialty Chemicals
+ETN,Specialty Industrial Machinery
+EBAY,Internet Retail
+ECL,Specialty Chemicals
+EIX,Utilities - Regulated Electric
+EW,Medical Devices
+EA,Electronic Gaming & Multimedia
+ELV,Healthcare Plans
+EMR,Specialty Industrial Machinery
+ENPH,Solar
+ETR,Utilities - Regulated Electric
+EOG,Oil & Gas E&P
+EPAM,Information Technology Services
+EQT,Oil & Gas E&P
+EFX,Consulting Services
+EQIX,REIT - Specialty
+EQR,REIT - Residential
+ERIE,Insurance Brokers
+ESS,REIT - Residential
+EL,Household & Personal Products
+EG,Insurance - Reinsurance
+EVRG,Utilities - Regulated Electric
+ES,Utilities - Regulated Electric
+EXC,Utilities - Regulated Electric
+EXE,Oil & Gas E&P
+EXPE,Travel Services
+EXPD,Integrated Freight & Logistics
+EXR,REIT - Industrial
+XOM,Oil & Gas Integrated
+FFIV,Software - Infrastructure
+FDS,Financial Data & Stock Exchanges
+FICO,Software - Application
+FAST,Industrial Distribution
+FRT,REIT - Retail
+FDX,Integrated Freight & Logistics
+FIS,Information Technology Services
+FITB,Banks - Regional
+FSLR,Solar
+FE,Utilities - Regulated Electric
+FI,Information Technology Services
+F,Auto Manufacturers
+FTNT,Software - Infrastructure
+FTV,Scientific & Technical Instruments
+FOXA,Entertainment
+FOX,Entertainment
+BEN,Asset Management
+FCX,Copper
+GRMN,Scientific & Technical Instruments
+IT,Information Technology Services
+GE,Aerospace & Defense
+GEHC,Health Information Services
+GEV,Specialty Industrial Machinery
+GEN,Software - Infrastructure
+GNRC,Specialty Industrial Machinery
+GD,Aerospace & Defense
+GIS,Packaged Foods
+GM,Auto Manufacturers
+GPC,Auto Parts
+GILD,Drug Manufacturers - General
+GPN,Specialty Business Services
+GL,Insurance - Life
+GDDY,Software - Infrastructure
+GS,Capital Markets
+HAL,Oil & Gas Equipment & Services
+HIG,Insurance - Property & Casualty
+HAS,Leisure
+HCA,Medical Care Facilities
+DOC,REIT - Healthcare Facilities
+HSIC,Medical Distribution
+HSY,Confectioners
+HES,Oil & Gas E&P
+HPE,Communication Equipment
+HLT,Lodging
+HOLX,Medical Instruments & Supplies
+HD,Home Improvement Retail
+HON,Conglomerates
+HRL,Packaged Foods
+HST,REIT - Hotel & Motel
+HWM,Aerospace & Defense
+HPQ,Computer Hardware
+HUBB,Electrical Equipment & Parts
+HUM,Healthcare Plans
+HBAN,Banks - Regional
+HII,Aerospace & Defense
+IBM,Information Technology Services
+IEX,Specialty Industrial Machinery
+IDXX,Diagnostics & Research
+ITW,Specialty Industrial Machinery
+INCY,Biotechnology
+IR,Specialty Industrial Machinery
+PODD,Medical Devices
+INTC,Semiconductors
+ICE,Financial Data & Stock Exchanges
+IFF,Specialty Chemicals
+IP,Packaging & Containers
+IPG,Advertising Agencies
+INTU,Software - Application
+ISRG,Medical Instruments & Supplies
+IVZ,Asset Management
+INVH,REIT - Residential
+IQV,Diagnostics & Research
+IRM,REIT - Specialty
+JBHT,Integrated Freight & Logistics
+JBL,Electronic Components
+JKHY,Information Technology Services
+J,Engineering & Construction
+JNJ,Drug Manufacturers - General
+JCI,Building Products & Equipment
+JPM,Banks - Diversified
+JNPR,Communication Equipment
+K,Packaged Foods
+KVUE,Household & Personal Products
+KDP,Beverages - Non-Alcoholic
+KEY,Banks - Regional
+KEYS,Scientific & Technical Instruments
+KMB,Household & Personal Products
+KIM,REIT - Retail
+KMI,Oil & Gas Midstream
+KKR,Asset Management
+KLAC,Semiconductor Equipment & Materials
+KHC,Packaged Foods
+KR,Grocery Stores
+LHX,Aerospace & Defense
+LH,Diagnostics & Research
+LRCX,Semiconductor Equipment & Materials
+LW,Packaged Foods
+LVS,Resorts & Casinos
+LDOS,Information Technology Services
+LEN,Residential Construction
+LII,Building Products & Equipment
+LLY,Drug Manufacturers - General
+LIN,Specialty Chemicals
+LYV,Entertainment
+LKQ,Auto Parts
+LMT,Aerospace & Defense
+L,Insurance - Property & Casualty
+LOW,Home Improvement Retail
+LULU,Apparel Retail
+LYB,Specialty Chemicals
+MTB,Banks - Regional
+MPC,Oil & Gas Refining & Marketing
+MKTX,Capital Markets
+MAR,Lodging
+MMC,Insurance Brokers
+MLM,Building Materials
+MAS,Building Products & Equipment
+MA,Credit Services
+MTCH,Internet Content & Information
+MKC,Packaged Foods
+MCD,Restaurants
+MCK,Medical Distribution
+MDT,Medical Devices
+MRK,Drug Manufacturers - General
+META,Internet Content & Information
+MET,Insurance - Life
+MTD,Diagnostics & Research
+MGM,Resorts & Casinos
+MCHP,Semiconductors
+MU,Semiconductors
+MSFT,Software - Infrastructure
+MAA,REIT - Residential
+MRNA,Biotechnology
+MHK,"Furnishings, Fixtures & Appliances"
+MOH,Healthcare Plans
+TAP,Beverages - Brewers
+MDLZ,Confectioners
+MPWR,Semiconductors
+MNST,Beverages - Non-Alcoholic
+MCO,Financial Data & Stock Exchanges
+MS,Capital Markets
+MOS,Agricultural Inputs
+MSI,Communication Equipment
+MSCI,Financial Data & Stock Exchanges
+NDAQ,Financial Data & Stock Exchanges
+NTAP,Computer Hardware
+NFLX,Entertainment
+NEM,Gold
+NWSA,Entertainment
+NWS,Entertainment
+NEE,Utilities - Regulated Electric
+NKE,Footwear & Accessories
+NI,Utilities - Regulated Gas
+NDSN,Specialty Industrial Machinery
+NSC,Railroads
+NTRS,Asset Management
+NOC,Aerospace & Defense
+NCLH,Travel Services
+NRG,Utilities - Independent Power Producers
+NUE,Steel
+NVDA,Semiconductors
+NVR,Residential Construction
+NXPI,Semiconductors
+ORLY,Auto Parts
+OXY,Oil & Gas E&P
+ODFL,Trucking
+OMC,Advertising Agencies
+ON,Semiconductors
+OKE,Oil & Gas Midstream
+ORCL,Software - Infrastructure
+OTIS,Specialty Industrial Machinery
+PCAR,Farm & Heavy Construction Machinery
+PKG,Packaging & Containers
+PLTR,Software - Infrastructure
+PANW,Software - Infrastructure
+PARA,Entertainment
+PH,Specialty Industrial Machinery
+PAYX,Software - Application
+PAYC,Software - Application
+PYPL,Credit Services
+PNR,Specialty Industrial Machinery
+PEP,Beverages - Non-Alcoholic
+PFE,Drug Manufacturers - General
+PCG,Utilities - Regulated Electric
+PM,Tobacco
+PSX,Oil & Gas Refining & Marketing
+PNW,Utilities - Regulated Electric
+PNC,Banks - Regional
+POOL,Industrial Distribution
+PPG,Specialty Chemicals
+PPL,Utilities - Regulated Electric
+PFG,Asset Management
+PG,Household & Personal Products
+PGR,Insurance - Property & Casualty
+PLD,REIT - Industrial
+PRU,Insurance - Life
+PEG,Utilities - Regulated Electric
+PTC,Software - Application
+PSA,REIT - Industrial
+PHM,Residential Construction
+PWR,Engineering & Construction
+QCOM,Semiconductors
+DGX,Diagnostics & Research
+RL,Apparel Manufacturing
+RJF,Asset Management
+RTX,Aerospace & Defense
+O,REIT - Retail
+REG,REIT - Retail
+REGN,Biotechnology
+RF,Banks - Regional
+RSG,Waste Management
+RMD,Medical Instruments & Supplies
+RVTY,Diagnostics & Research
+ROK,Specialty Industrial Machinery
+ROL,Personal Services
+ROP,Software - Application
+ROST,Apparel Retail
+RCL,Travel Services
+SPGI,Financial Data & Stock Exchanges
+CRM,Software - Application
+SBAC,REIT - Specialty
+SLB,Oil & Gas Equipment & Services
+STX,Computer Hardware
+SRE,Utilities - Diversified
+NOW,Software - Application
+SHW,Specialty Chemicals
+SPG,REIT - Retail
+SWKS,Semiconductors
+SJM,Packaged Foods
+SW,Packaging & Containers
+SNA,Tools & Accessories
+SOLV,Medical Instruments & Supplies
+SO,Utilities - Regulated Electric
+LUV,Airlines
+SWK,Tools & Accessories
+SBUX,Restaurants
+STT,Asset Management
+STLD,Steel
+STE,Medical Devices
+SYK,Medical Devices
+SMCI,Computer Hardware
+SYF,Credit Services
+SNPS,Software - Infrastructure
+SYY,Food Distribution
+TMUS,Telecom Services
+TROW,Asset Management
+TTWO,Electronic Gaming & Multimedia
+TPR,Luxury Goods
+TRGP,Oil & Gas Midstream
+TGT,Discount Stores
+TEL,Electronic Components
+TDY,Scientific & Technical Instruments
+TER,Semiconductor Equipment & Materials
+TSLA,Auto Manufacturers
+TXN,Semiconductors
+TPL,Oil & Gas E&P
+TXT,Aerospace & Defense
+TMO,Diagnostics & Research
+TJX,Apparel Retail
+TKO,Entertainment
+TSCO,Specialty Retail
+TT,Building Products & Equipment
+TDG,Aerospace & Defense
+TRV,Insurance - Property & Casualty
+TRMB,Scientific & Technical Instruments
+TFC,Banks - Regional
+TYL,Software - Application
+TSN,Farm Products
+USB,Banks - Regional
+UBER,Software - Application
+UDR,REIT - Residential
+ULTA,Specialty Retail
+UNP,Railroads
+UAL,Airlines
+UPS,Integrated Freight & Logistics
+URI,Rental & Leasing Services
+UNH,Healthcare Plans
+UHS,Medical Care Facilities
+VLO,Oil & Gas Refining & Marketing
+VTR,REIT - Healthcare Facilities
+VLTO,Pollution & Treatment Controls
+VRSN,Software - Infrastructure
+VRSK,Consulting Services
+VZ,Telecom Services
+VRTX,Biotechnology
+VTRS,Drug Manufacturers - Specialty & Generic
+VICI,REIT - Diversified
+V,Credit Services
+VST,Utilities - Independent Power Producers
+VMC,Building Materials
+WRB,Insurance - Property & Casualty
+GWW,Industrial Distribution
+WAB,Railroads
+WBA,Pharmaceutical Retailers
+WMT,Discount Stores
+DIS,Entertainment
+WBD,Entertainment
+WM,Waste Management
+WAT,Diagnostics & Research
+WEC,Utilities - Regulated Electric
+WFC,Banks - Diversified
+WELL,REIT - Healthcare Facilities
+WST,Medical Instruments & Supplies
+WDC,Computer Hardware
+WY,REIT - Specialty
+WSM,Specialty Retail
+WMB,Oil & Gas Midstream
+WTW,Insurance Brokers
+WDAY,Software - Application
+WYNN,Resorts & Casinos
+XEL,Utilities - Regulated Electric
+XYL,Specialty Industrial Machinery
+YUM,Restaurants
+ZBRA,Communication Equipment
+ZBH,Medical Devices
+ZTS,Drug Manufacturers - Specialty & Generic

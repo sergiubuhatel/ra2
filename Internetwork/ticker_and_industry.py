@@ -5,7 +5,7 @@ import yfinance as yf
 
 def get_sp500_tickers():
     """
-    Scrapes Wikipedia for the current list of S&P 500 tickers and company names.
+    Scrapes Wikipedia for the current list of S&P 500 tickers.
     """
     url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
     response = requests.get(url)
@@ -13,16 +13,13 @@ def get_sp500_tickers():
     table = soup.find('table', {'id': 'constituents'})
 
     tickers = []
-    companies = []
 
     for row in table.findAll('tr')[1:]:
         cols = row.findAll('td')
         ticker = cols[0].text.strip()
-        company = cols[1].text.strip()
         tickers.append(ticker)
-        companies.append(company)
     
-    return tickers, companies
+    return tickers
 
 def get_industry_for_ticker(ticker):
     """
@@ -36,23 +33,22 @@ def get_industry_for_ticker(ticker):
         return 'N/A'
 
 def main():
-    tickers, companies = get_sp500_tickers()
+    tickers = get_sp500_tickers()
     data = []
 
-    print("Fetching industry info from Yahoo Finance (this may take a minute)...")
+    print("Fetching industry info from Yahoo Finance (this may take a while)...")
 
-    for ticker, company in zip(tickers, companies):
+    for ticker in tickers:
         industry = get_industry_for_ticker(ticker)
         print(f"{ticker}: {industry}")
         data.append({
-            'Ticker': ticker,
-            'Company': company,
+            'Label': ticker,
             'Industry': industry
         })
 
     df = pd.DataFrame(data)
-    df.to_csv('sp500_tickers_and_industries.csv', index=False)
-    print("✅ Data saved to 'sp500_tickers_and_industries.csv'")
+    df.to_csv('sp500_label_industry.csv', index=False)
+    print("✅ Data saved to 'sp500_label_industry.csv'")
 
 if __name__ == "__main__":
     main()
