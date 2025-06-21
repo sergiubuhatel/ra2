@@ -1,8 +1,10 @@
+// NetworkGraph.js
 import React, { useEffect, useRef, useState } from "react";
 import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import { Sigma } from "sigma";
 import chroma from "chroma-js";
+import NodeInfoPanel from "./NodeInfoPanel"; // <-- import the new panel
 
 export default function NetworkGraph() {
   const containerRef = useRef(null);
@@ -68,7 +70,7 @@ export default function NetworkGraph() {
             x: pos.x,
             y: pos.y,
             mass: scaledSize,
-            ...node, // keep all node stats
+            ...node,
           });
         });
 
@@ -85,9 +87,8 @@ export default function NetworkGraph() {
           ) {
             const hash = hashStringToInt(edgeId);
             const t = (hash % 10000) / 10000;
-
             graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-              size: 0.5, // thinner lines
+              size: 0.5,
               color: edgeColorScale(t).hex(),
             });
           }
@@ -148,29 +149,7 @@ export default function NetworkGraph() {
         ref={containerRef}
         style={{ flex: 3, border: "1px solid #ccc", position: "relative" }}
       />
-      <div
-        style={{
-          flex: 1,
-          padding: "10px",
-          borderLeft: "1px solid #ccc",
-          background: "#f9f9f9",
-          overflowY: "auto",
-        }}
-      >
-        <h3>Node Info</h3>
-        {selectedNode ? (
-          <div>
-            <p><strong>ID:</strong> {selectedNode.label}</p>
-            <p><strong>Industry:</strong> {selectedNode.industry}</p>
-            <p><strong>Eigenvector Centrality:</strong> {selectedNode.eigenvector_centrality?.toFixed(4)}</p>
-            <p><strong>Betweenness Centrality:</strong> {selectedNode.betweenness_centrality?.toFixed(4)}</p>
-            <p><strong>Closeness Centrality:</strong> {selectedNode.closeness_centrality?.toFixed(4)}</p>
-            <p><strong>Degree Centrality:</strong> {selectedNode.degree_centrality?.toFixed(4)}</p>
-          </div>
-        ) : (
-          <p>Click a node to view details</p>
-        )}
-      </div>
+      <NodeInfoPanel node={selectedNode} />
     </div>
   );
 }
