@@ -1,19 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import chroma from "chroma-js";
 
-// Helper to convert string to integer hash
 function hashStringToInt(str) {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     hash = (hash << 5) - hash + str.charCodeAt(i);
-    hash |= 0; // Convert to 32bit integer
+    hash |= 0;
   }
   return Math.abs(hash);
 }
 
-// Helper to position nodes based on size
 function getPositionBySize(nodeId, size, maxSize) {
   const hash = hashStringToInt(nodeId);
   const angle = ((hash % 360) * Math.PI) / 180;
@@ -27,17 +25,11 @@ function getPositionBySize(nodeId, size, maxSize) {
   };
 }
 
-/**
- * Custom React hook to load and build a graph from a JSON file or string.
- * Optionally accepts file content as a JSON object.
- * If fileContent is null/undefined, no graph will be loaded.
- */
 export default function useGraphLoader(fileContent = null) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
 
-  // Load graph only when fileContent changes and is valid
-  React.useEffect(() => {
+  useEffect(() => {
     if (!fileContent) {
       setGraph(null);
       setError(null);
@@ -51,20 +43,49 @@ export default function useGraphLoader(fileContent = null) {
         ...fileContent.nodes.map((n) => n.eigenvector_centrality || 0)
       );
 
-      const scaledSizes = fileContent.nodes.map((node) => {
+      // Calculate node sizes and keep track per industry
+      const industrySizes = {};
+      const nodeSizes = {};
+      fileContent.nodes.forEach((node) => {
         const c = node.eigenvector_centrality || 0;
-        return 5 + 20 * (c / maxCentrality);
+        const scaledSize = 5 + 20 * (c / maxCentrality);
+        nodeSizes[node.id] = scaledSize;
+        const industry = node.industry || "unknown";
+        if (!industrySizes[industry]) industrySizes[industry] = [];
+        industrySizes[industry].push(scaledSize);
       });
-      const maxSize = Math.max(...scaledSizes);
 
+      // Compute average size per industry
+      const industryAvgSize = Object.entries(industrySizes).map(([industry, sizes]) => {
+        const avg = sizes.reduce((a, b) => a + b, 0) / sizes.length;
+        return { industry, avgSize: avg };
+      });
+
+      // Sort industries descending by avgSize
+      industryAvgSize.sort((a, b) => b.avgSize - a.avgSize);
+
+      // Assign colors:
+      // Top 3 industries get fixed colors blue, green, yellow
+      // Others get colors from chroma Set2 scale
+      const fixedColors = ["#0074D9", "#2ECC40", "#FFDC00"]; // blue, green, yellow
+      const industryColorMap = {};
+      const palette = chroma.scale("Set2").mode("lab");
+
+      industryAvgSize.forEach(({ industry }, idx) => {
+        if (idx < 3) {
+          industryColorMap[industry] = fixedColors[idx];
+        } else {
+          // Spread out other colors across palette
+          industryColorMap[industry] = palette((idx - 3) / Math.max(1, industryAvgSize.length - 3)).hex();
+        }
+      });
+
+      // Add nodes with assigned color per industry
       fileContent.nodes.forEach((node) => {
         const centrality = node.eigenvector_centrality || 0;
         const scaledSize = 5 + 20 * (centrality / maxCentrality);
-        const color = chroma
-          .scale(["#b0d0ff", "#003399"])
-          .mode("lab")(centrality / maxCentrality)
-          .hex();
-        const pos = getPositionBySize(node.id, scaledSize, maxSize);
+        const color = industryColorMap[node.industry || "unknown"];
+        const pos = getPositionBySize(node.id, scaledSize, 25 + 20); // maxSize approx
 
         graph.addNode(node.id, {
           label: node.label,
