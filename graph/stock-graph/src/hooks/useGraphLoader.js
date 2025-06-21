@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import chroma from "chroma-js";
@@ -46,7 +46,7 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   }
 }
 
-export default function useGraphLoader(fileContent = null) {
+export default function useGraphLoader(fileContent = null, industryColors = {}) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
 
@@ -82,7 +82,7 @@ export default function useGraphLoader(fileContent = null) {
       const outlierCount = Math.floor(sortedNodes.length * 0.1);
       const outlierSet = new Set(sortedNodes.slice(0, outlierCount).map(n => n.id));
 
-      // Add nodes with positions
+      // Add nodes with positions and color by industry
       fileContent.nodes.forEach((node) => {
         const scaledSize = nodeSizes[node.id];
         const isOutlier = outlierSet.has(node.id);
@@ -98,10 +98,12 @@ export default function useGraphLoader(fileContent = null) {
           outlierCount
         );
 
-        const color = chroma
-          .scale(["#b0d0ff", "#003399"])
-          .mode("lab")(scaledSize / maxSize)
-          .hex();
+        // Use industryColors if available, else fallback to blue scale by size
+        const color = industryColors[node.industry]
+          ? industryColors[node.industry]
+          : chroma.scale(["#b0d0ff", "#003399"])
+              .mode("lab")(scaledSize / maxSize)
+              .hex();
 
         g.addNode(node.id, {
           label: node.label,
@@ -156,7 +158,7 @@ export default function useGraphLoader(fileContent = null) {
       setError(err.message);
       setGraph(null);
     }
-  }, [fileContent]);
+  }, [fileContent, industryColors]);
 
   return { graph, error };
 }
