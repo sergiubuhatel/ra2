@@ -8,8 +8,8 @@ export default function NetworkGraph() {
   const containerRef = useRef(null);
   const sigmaInstanceRef = useRef(null);
   const [error, setError] = useState(null);
+  const [selectedNode, setSelectedNode] = useState(null);
 
-  // Deterministic hash function for string -> positive int
   function hashStringToInt(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
@@ -19,17 +19,13 @@ export default function NetworkGraph() {
     return Math.abs(hash);
   }
 
-  // Deterministic node placement function
   function getPositionBySize(nodeId, size, maxSize) {
     const hash = hashStringToInt(nodeId);
     const angle = ((hash % 360) * Math.PI) / 180;
-
     const minRadius = 5;
     const maxRadius = 40;
-
     const normalizedSize = size / maxSize;
     const radius = minRadius + (1 - normalizedSize) * (maxRadius - minRadius);
-
     return {
       x: radius * Math.cos(angle),
       y: radius * Math.sin(angle),
@@ -43,11 +39,6 @@ export default function NetworkGraph() {
         return res.json();
       })
       .then((data) => {
-        if (!data.nodes || !Array.isArray(data.nodes))
-          throw new Error("Invalid graph: 'nodes' array missing");
-        if (!data.edges || !Array.isArray(data.edges))
-          throw new Error("Invalid graph: 'edges' array missing");
-
         const graph = new Graph();
 
         const maxCentrality = Math.max(
@@ -60,7 +51,6 @@ export default function NetworkGraph() {
         });
         const maxSize = Math.max(...scaledSizes);
 
-        // Add nodes
         data.nodes.forEach((node) => {
           const centrality = node.eigenvector_centrality || 0;
           const scaledSize = 5 + 20 * (centrality / maxCentrality);
@@ -68,7 +58,6 @@ export default function NetworkGraph() {
             .scale(["#b0d0ff", "#003399"])
             .mode("lab")(centrality / maxCentrality)
             .hex();
-
           const pos = getPositionBySize(node.id, scaledSize, maxSize);
 
           graph.addNode(node.id, {
@@ -79,15 +68,14 @@ export default function NetworkGraph() {
             x: pos.x,
             y: pos.y,
             mass: scaledSize,
+            ...node, // keep all node stats
           });
         });
 
-        // Create colorful edge scale
         const edgeColorScale = chroma
           .scale(["#ff7f7f", "#7f7fff", "#7fff7f", "#ffff7f", "#ff7fff"])
           .mode("lab");
 
-        // Add edges with diverse colors and thinner size
         data.edges.forEach((edge, i) => {
           const edgeId = `e${i}`;
           if (
@@ -99,13 +87,12 @@ export default function NetworkGraph() {
             const t = (hash % 10000) / 10000;
 
             graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-              size: 0.5, // thinner edges
+              size: 0.5, // thinner lines
               color: edgeColorScale(t).hex(),
             });
           }
         });
 
-        // Small layout pass to reduce overlap
         forceAtlas2.assign(graph, {
           iterations: 50,
           settings: {
@@ -118,19 +105,28 @@ export default function NetworkGraph() {
           },
         });
 
-        // Clean previous Sigma instance
         if (sigmaInstanceRef.current) sigmaInstanceRef.current.kill();
 
-        // Initialize Sigma
-        sigmaInstanceRef.current = new Sigma(graph, containerRef.current, {
+        const sigma = new Sigma(graph, containerRef.current, {
           renderEdgeLabels: false,
           enableEdgeHoverEvents: true,
-          edgeColor: "default", // use color from edge.color
+          edgeColor: "default",
           edgeHoverColor: "edge",
           defaultEdgeColor: "#999",
           defaultNodeColor: "#0074D9",
           edgeHoverSizeRatio: 1.2,
           animationsTime: 1000,
+        });
+
+        sigmaInstanceRef.current = sigma;
+
+        sigma.on("clickNode", ({ node }) => {
+          const attrs = graph.getNodeAttributes(node);
+          setSelectedNode(attrs);
+        });
+
+        sigma.on("clickStage", () => {
+          setSelectedNode(null);
         });
       })
       .catch((err) => {
@@ -146,13 +142,35 @@ export default function NetworkGraph() {
     };
   }, []);
 
-  if (error)
-    return <div style={{ color: "red" }}>Error: {error}</div>;
-
   return (
-    <div
-      ref={containerRef}
-      style={{ height: "90vh", width: "100%", border: "1px solid #ccc" }}
-    />
+    <div style={{ display: "flex", height: "90vh" }}>
+      <div
+        ref={containerRef}
+        style={{ flex: 3, border: "1px solid #ccc", position: "relative" }}
+      />
+      <div
+        style={{
+          flex: 1,
+          padding: "10px",
+          borderLeft: "1px solid #ccc",
+          background: "#f9f9f9",
+          overflowY: "auto",
+        }}
+      >
+        <h3>Node Info</h3>
+        {selectedNode ? (
+          <div>
+            <p><strong>ID:</strong> {selectedNode.label}</p>
+            <p><strong>Industry:</strong> {selectedNode.industry}</p>
+            <p><strong>Eigenvector Centrality:</strong> {selectedNode.eigenvector_centrality?.toFixed(4)}</p>
+            <p><strong>Betweenness Centrality:</strong> {selectedNode.betweenness_centrality?.toFixed(4)}</p>
+            <p><strong>Closeness Centrality:</strong> {selectedNode.closeness_centrality?.toFixed(4)}</p>
+            <p><strong>Degree Centrality:</strong> {selectedNode.degree_centrality?.toFixed(4)}</p>
+          </div>
+        ) : (
+          <p>Click a node to view details</p>
+        )}
+      </div>
+    </div>
   );
 }
