@@ -9,57 +9,31 @@ export default function NetworkGraph() {
   const sigmaInstanceRef = useRef(null);
   const [error, setError] = useState(null);
 
-  // Simple deterministic hash function for strings -> positive int
+  // Deterministic hash function for string -> positive int
   function hashStringToInt(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
       hash = (hash << 5) - hash + str.charCodeAt(i);
-      hash |= 0; // Convert to 32bit int
+      hash |= 0;
     }
     return Math.abs(hash);
   }
 
-  // Deterministic initial position on a ring based on node id hash
-  function getDeterministicPosition(nodeId, index, total) {
+  // Deterministic node placement function
+  function getPositionBySize(nodeId, size, maxSize) {
     const hash = hashStringToInt(nodeId);
-    const angle = ((hash % 360) * Math.PI) / 180; // degrees -> radians
-    const radius = 10 + (index / total) * 20; // spread nodes on a ring between radius 10 and 30
+    const angle = ((hash % 360) * Math.PI) / 180;
+
+    const minRadius = 5;
+    const maxRadius = 40;
+
+    const normalizedSize = size / maxSize;
+    const radius = minRadius + (1 - normalizedSize) * (maxRadius - minRadius);
+
     return {
       x: radius * Math.cos(angle),
       y: radius * Math.sin(angle),
     };
-  }
-
-  // Simple overlap reduction pass to avoid node overlaps
-  function reduceOverlaps(graph, iterations = 5) {
-    const nodes = graph.nodes();
-
-    for (let iter = 0; iter < iterations; iter++) {
-      for (let i = 0; i < nodes.length; i++) {
-        for (let j = i + 1; j < nodes.length; j++) {
-          const n1 = nodes[i];
-          const n2 = nodes[j];
-          const pos1 = graph.getNodeAttributes(n1);
-          const pos2 = graph.getNodeAttributes(n2);
-
-          const dx = pos2.x - pos1.x;
-          const dy = pos2.y - pos1.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-          const minDist = (pos1.size + pos2.size) * 1.2; // minimum distance to avoid overlap
-
-          if (dist > 0 && dist < minDist) {
-            const overlap = (minDist - dist) / 2;
-            const offsetX = (dx / dist) * overlap;
-            const offsetY = (dy / dist) * overlap;
-
-            graph.setNodeAttribute(n1, "x", pos1.x - offsetX);
-            graph.setNodeAttribute(n1, "y", pos1.y - offsetY);
-            graph.setNodeAttribute(n2, "x", pos2.x + offsetX);
-            graph.setNodeAttribute(n2, "y", pos2.y + offsetY);
-          }
-        }
-      }
-    }
   }
 
   useEffect(() => {
@@ -80,34 +54,40 @@ export default function NetworkGraph() {
           ...data.nodes.map((n) => n.eigenvector_centrality || 0)
         );
 
-        // Add nodes with deterministic positions & size/color based on centrality
-        data.nodes.forEach((node, index) => {
+        const scaledSizes = data.nodes.map((node) => {
+          const c = node.eigenvector_centrality || 0;
+          return 5 + 20 * (c / maxCentrality);
+        });
+        const maxSize = Math.max(...scaledSizes);
+
+        // Add nodes
+        data.nodes.forEach((node) => {
           const centrality = node.eigenvector_centrality || 0;
           const scaledSize = 5 + 20 * (centrality / maxCentrality);
-          const scaledColor = chroma
+          const color = chroma
             .scale(["#b0d0ff", "#003399"])
             .mode("lab")(centrality / maxCentrality)
             .hex();
 
-          const pos = getDeterministicPosition(node.id, index, data.nodes.length);
+          const pos = getPositionBySize(node.id, scaledSize, maxSize);
 
           graph.addNode(node.id, {
             label: node.label,
             industry: node.industry,
             size: scaledSize,
-            color: scaledColor,
+            color,
             x: pos.x,
             y: pos.y,
             mass: scaledSize,
           });
         });
 
-        // Create a color scale for edges
+        // Create colorful edge scale
         const edgeColorScale = chroma
-          .scale(["#ff7f7f", "#7f7fff", "#7fff7f"])
+          .scale(["#ff7f7f", "#7f7fff", "#7fff7f", "#ffff7f", "#ff7fff"])
           .mode("lab");
 
-        // Add edges with deterministic colors based on edge ID
+        // Add edges with diverse colors and thinner size
         data.edges.forEach((edge, i) => {
           const edgeId = `e${i}`;
           if (
@@ -116,39 +96,36 @@ export default function NetworkGraph() {
             !graph.hasEdge(edge.source, edge.target)
           ) {
             const hash = hashStringToInt(edgeId);
-            const t = (hash % 10000) / 10000; // Normalize to [0,1]
+            const t = (hash % 10000) / 10000;
 
             graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-              size: Math.log((edge.weight || 1) + 1),
+              size: 0.5, // thinner edges
               color: edgeColorScale(t).hex(),
             });
           }
         });
 
-        // Run ForceAtlas2 layout with strong gravity and higher scalingRatio for better spacing
+        // Small layout pass to reduce overlap
         forceAtlas2.assign(graph, {
-          iterations: 200,
+          iterations: 50,
           settings: {
             gravity: 5,
+            scalingRatio: 10,
             strongGravityMode: true,
-            scalingRatio: 15,
             barnesHutOptimize: true,
             barnesHutTheta: 0.5,
             edgeWeightInfluence: 1,
           },
         });
 
-        // Reduce node overlaps after layout
-        reduceOverlaps(graph);
-
-        // Kill previous Sigma instance if exists
+        // Clean previous Sigma instance
         if (sigmaInstanceRef.current) sigmaInstanceRef.current.kill();
 
-        // Initialize Sigma with edge colors from graph attributes
+        // Initialize Sigma
         sigmaInstanceRef.current = new Sigma(graph, containerRef.current, {
           renderEdgeLabels: false,
           enableEdgeHoverEvents: true,
-          edgeColor: "default",  // Use edge.color attribute
+          edgeColor: "default", // use color from edge.color
           edgeHoverColor: "edge",
           defaultEdgeColor: "#999",
           defaultNodeColor: "#0074D9",
