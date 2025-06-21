@@ -7,35 +7,53 @@ export default function NetworkGraph() {
   const containerRef = useRef(null);
   const [selectedNode, setSelectedNode] = useState(null);
   const [fileContent, setFileContent] = useState(null);
+  const [fileName, setFileName] = useState(""); // Track the filename
 
-  // Pass the loaded file content JSON to useGraphLoader
   const { graph, error } = useGraphLoader(fileContent);
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
-  // Handle file selection
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (!file) return;
 
-    const reader = new FileReader();
+    setFileName(file.name); // Save filename to state
 
+    const reader = new FileReader();
     reader.onload = (e) => {
       try {
         const json = JSON.parse(e.target.result);
-        setFileContent(json); // Pass JSON to loader hook
+        setFileContent(json);
       } catch (err) {
         alert("Invalid JSON file");
         setFileContent(null);
       }
     };
-
     reader.readAsText(file);
   };
 
   return (
     <div style={{ display: "flex", height: "90vh", flexDirection: "column" }}>
-      <div style={{ marginBottom: 10 }}>
-        <input type="file" accept=".json" onChange={handleFileChange} />
+      {/* File input and filename stacked vertically */}
+      <div
+        style={{
+          marginBottom: 10,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-start",
+          width: "max-content",
+        }}
+      >
+        <input
+          type="file"
+          accept=".json"
+          onChange={handleFileChange}
+          style={{ display: "block" }}
+        />
+        {fileName && (
+          <div style={{ marginTop: 8, fontSize: "0.9rem", color: "#555" }}>
+            Loaded file: {fileName}
+          </div>
+        )}
       </div>
 
       {error && <div style={{ color: "red" }}>Error: {error}</div>}
