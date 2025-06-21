@@ -26,7 +26,6 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   // radius inversely proportional to size: bigger nodes closer in
   let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
 
-  // Outlier detection: if radius would be bigger than maxRadius (unlikely here), place on outer circle
   if (radius > maxRadius) radius = maxRadius;
 
   // If node is an outlier (defined externally), place evenly on outer circle
@@ -76,7 +75,7 @@ export default function useGraphLoader(fileContent = null) {
 
       const maxSize = Math.max(...Object.values(nodeSizes));
 
-      // Define outliers as the smallest 10% nodes (or you can tweak this)
+      // Define outliers as the smallest 10% nodes
       const sortedNodes = [...fileContent.nodes].sort(
         (a, b) => nodeSizes[a.id] - nodeSizes[b.id]
       );
@@ -86,13 +85,9 @@ export default function useGraphLoader(fileContent = null) {
       // Add nodes with positions
       fileContent.nodes.forEach((node) => {
         const scaledSize = nodeSizes[node.id];
-
         const isOutlier = outlierSet.has(node.id);
-        // If outlier, index among outliers for angle calculation, else -1
         const outlierIndex = isOutlier
-          ? sortedNodes
-              .slice(0, outlierCount)
-              .findIndex((n) => n.id === node.id)
+          ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
           : -1;
 
         const pos = getPositionBySize(
@@ -103,7 +98,6 @@ export default function useGraphLoader(fileContent = null) {
           outlierCount
         );
 
-        // Color scale for nodes (blue gradient)
         const color = chroma
           .scale(["#b0d0ff", "#003399"])
           .mode("lab")(scaledSize / maxSize)
@@ -142,7 +136,7 @@ export default function useGraphLoader(fileContent = null) {
         }
       });
 
-      // Run ForceAtlas2 layout for better arrangement
+      // Run ForceAtlas2 layout
       forceAtlas2.assign(g, {
         iterations: 50,
         settings: {

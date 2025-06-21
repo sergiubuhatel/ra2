@@ -7,8 +7,7 @@ export default function NetworkGraph() {
   const containerRef = useRef(null);
   const [selectedNode, setSelectedNode] = useState(null);
   const [fileContent, setFileContent] = useState(null);
-  const [fileName, setFileName] = useState(""); // Track the filename
-
+  const [fileName, setFileName] = useState("");
   const { graph, error } = useGraphLoader(fileContent);
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
@@ -25,7 +24,7 @@ export default function NetworkGraph() {
       try {
         const json = JSON.parse(e.target.result);
         setFileContent(json);
-      } catch (err) {
+      } catch {
         alert("Invalid JSON file");
         setFileContent(null);
       }
@@ -62,14 +61,7 @@ export default function NetworkGraph() {
           style={{ display: "none" }}
         />
         {fileName && (
-          <div
-            style={{
-              marginTop: 8,
-              fontSize: "0.9rem",
-              color: "#555",
-              marginLeft: 12,
-            }}
-          >
+          <div style={{ marginTop: 8, fontSize: "0.9rem", color: "#555", marginLeft: 12 }}>
             {fileName}
           </div>
         )}
@@ -81,7 +73,31 @@ export default function NetworkGraph() {
         <div
           ref={containerRef}
           style={{ flex: 3, border: "1px solid #ccc", position: "relative" }}
-        />
+        >
+          {/* Circle overlay */}
+          <svg
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "50%",
+              pointerEvents: "none",
+              transform: "translate(-50%, -50%)",
+              width: 120,
+              height: 120,
+              zIndex: 10,
+            }}
+          >
+            <circle
+              cx="60"
+              cy="60"
+              r="60"
+              stroke="#888"
+              strokeWidth="1"
+              fill="none"
+              strokeDasharray="4 4"
+            />
+          </svg>
+        </div>
         <NodeInfoPanel node={selectedNode} />
       </div>
     </div>
