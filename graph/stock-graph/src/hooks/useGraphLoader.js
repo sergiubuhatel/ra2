@@ -81,6 +81,26 @@ function resolveCollisions(graph) {
   });
 }
 
+/**
+ * Sets edge thickness based on the sizes of connected nodes.
+ */
+function setEdgeThickness(graph) {
+  graph.forEachEdge((edgeId, attributes) => {
+    const source = attributes.source;
+    const target = attributes.target;
+
+    // Check if the nodes exist before accessing their attributes
+    if (graph.hasNode(source) && graph.hasNode(target)) {
+      const sizeSource = graph.getNodeAttributes(source).size;
+      const sizeTarget = graph.getNodeAttributes(target).size;
+
+      // Set edge thickness based on the sum of the connected nodes' sizes
+      const edgeThickness = Math.min((sizeSource + sizeTarget) / 10, 10); // Cap the max edge thickness
+      graph.setEdgeAttribute(edgeId, 'size', edgeThickness);
+    }
+  });
+}
+
 export default function useGraphLoader(fileContent = null, industryColors = {}, nodeSizeFactor = 20) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
@@ -168,7 +188,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           const hash = hashStringToInt(edgeId);
           const t = (hash % 10000) / 10000;
           g.addEdgeWithKey(edgeId, edge.source, edge.target, {
-            size: 0.5,
+            size: 1, // Default edge thickness
             color: edgeColorScale(t).hex(),
           });
         }
@@ -190,6 +210,9 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
 
       // Resolve collisions after layout
       resolveCollisions(g);
+
+      // Set edge thickness based on node sizes
+      setEdgeThickness(g);
 
       setGraph(g);
       setError(null);
