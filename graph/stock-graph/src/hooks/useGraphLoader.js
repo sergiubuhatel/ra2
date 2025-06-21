@@ -1,117 +1,162 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import Graph from "graphology";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import chroma from "chroma-js";
 
+// Helper to convert string to integer hash
 function hashStringToInt(str) {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
     hash = (hash << 5) - hash + str.charCodeAt(i);
-    hash |= 0;
+    hash |= 0; // Convert to 32bit integer
   }
   return Math.abs(hash);
 }
 
-function getPositionBySize(nodeId, size, maxSize) {
-  const hash = hashStringToInt(nodeId);
-  const angle = ((hash % 360) * Math.PI) / 180;
-  const minRadius = 5;
-  const maxRadius = 40;
+/**
+ * Positions nodes so bigger nodes are closer to center.
+ * Outliers placed evenly on same outer circle.
+ */
+function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   const normalizedSize = size / maxSize;
-  const radius = minRadius + (1 - normalizedSize) * (maxRadius - minRadius);
-  return {
-    x: radius * Math.cos(angle),
-    y: radius * Math.sin(angle),
-  };
+  const minRadius = 5;
+  const maxRadius = 50;
+  const outerRadius = 60;
+
+  // radius inversely proportional to size: bigger nodes closer in
+  let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
+
+  if (radius > maxRadius) radius = maxRadius;
+
+  // If node is an outlier (defined externally), place evenly on outer circle
+  if (index !== -1 && totalOutliers > 0) {
+    const angle = (2 * Math.PI * index) / totalOutliers;
+    return {
+      x: outerRadius * Math.cos(angle),
+      y: outerRadius * Math.sin(angle),
+    };
+  } else {
+    // Distribute inner nodes by hashing id for angle
+    const hash = hashStringToInt(nodeId);
+    const angle = ((hash % 360) * Math.PI) / 180;
+    return {
+      x: radius * Math.cos(angle),
+      y: radius * Math.sin(angle),
+    };
+  }
 }
 
-export default function useGraphLoader() {
+export default function useGraphLoader(fileContent = null) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/graph_with_centrality.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Failed to load graph data");
-        return res.json();
-      })
-      .then((data) => {
-        const graph = new Graph();
+    if (!fileContent) {
+      setGraph(null);
+      setError(null);
+      return;
+    }
 
-        const maxCentrality = Math.max(
-          ...data.nodes.map((n) => n.eigenvector_centrality || 0)
-        );
+    try {
+      const g = new Graph();
 
-        const scaledSizes = data.nodes.map((node) => {
-          const c = node.eigenvector_centrality || 0;
-          return 5 + 20 * (c / maxCentrality);
-        });
-        const maxSize = Math.max(...scaledSizes);
+      // Find max centrality to scale sizes
+      const maxCentrality = Math.max(
+        ...fileContent.nodes.map((n) => n.eigenvector_centrality || 0)
+      );
 
-        data.nodes.forEach((node) => {
-          const centrality = node.eigenvector_centrality || 0;
-          const scaledSize = 5 + 20 * (centrality / maxCentrality);
-          const color = chroma
-            .scale(["#b0d0ff", "#003399"])
-            .mode("lab")(centrality / maxCentrality)
-            .hex();
-          const pos = getPositionBySize(node.id, scaledSize, maxSize);
-
-          graph.addNode(node.id, {
-            label: node.label,
-            industry: node.industry,
-            size: scaledSize,
-            color,
-            x: pos.x,
-            y: pos.y,
-            mass: scaledSize,
-            ...node,
-          });
-        });
-
-        const edgeColorScale = chroma
-          .scale(["#ff7f7f", "#7f7fff", "#7fff7f", "#ffff7f", "#ff7fff"])
-          .mode("lab");
-
-        data.edges.forEach((edge, i) => {
-          const edgeId = `e${i}`;
-          if (
-            graph.hasNode(edge.source) &&
-            graph.hasNode(edge.target) &&
-            !graph.hasEdge(edge.source, edge.target)
-          ) {
-            const hash = hashStringToInt(edgeId);
-            const t = (hash % 10000) / 10000;
-            graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-              size: 0.5,
-              color: edgeColorScale(t).hex(),
-            });
-          }
-        });
-
-        forceAtlas2.assign(graph, {
-          iterations: 50,
-          settings: {
-            gravity: 5,
-            scalingRatio: 10,
-            strongGravityMode: true,
-            barnesHutOptimize: true,
-            barnesHutTheta: 0.5,
-            edgeWeightInfluence: 1,
-          },
-        });
-
-        setGraph(graph);
-      })
-      .catch((err) => {
-        console.error(err);
-        setError(err.message);
+      // Calculate scaled sizes for each node
+      const nodeSizes = {};
+      fileContent.nodes.forEach((node) => {
+        const centrality = node.eigenvector_centrality || 0;
+        const scaledSize = 5 + 20 * (centrality / maxCentrality);
+        nodeSizes[node.id] = scaledSize;
       });
 
-    return () => {
+      const maxSize = Math.max(...Object.values(nodeSizes));
+
+      // Define outliers as the smallest 10% nodes
+      const sortedNodes = [...fileContent.nodes].sort(
+        (a, b) => nodeSizes[a.id] - nodeSizes[b.id]
+      );
+      const outlierCount = Math.floor(sortedNodes.length * 0.1);
+      const outlierSet = new Set(sortedNodes.slice(0, outlierCount).map(n => n.id));
+
+      // Add nodes with positions
+      fileContent.nodes.forEach((node) => {
+        const scaledSize = nodeSizes[node.id];
+        const isOutlier = outlierSet.has(node.id);
+        const outlierIndex = isOutlier
+          ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
+          : -1;
+
+        const pos = getPositionBySize(
+          node.id,
+          scaledSize,
+          maxSize,
+          outlierIndex,
+          outlierCount
+        );
+
+        const color = chroma
+          .scale(["#b0d0ff", "#003399"])
+          .mode("lab")(scaledSize / maxSize)
+          .hex();
+
+        g.addNode(node.id, {
+          label: node.label,
+          industry: node.industry,
+          size: scaledSize,
+          color,
+          x: pos.x,
+          y: pos.y,
+          mass: scaledSize,
+          ...node,
+        });
+      });
+
+      // Add edges with default style
+      const edgeColorScale = chroma
+        .scale(["#ff7f7f", "#7f7fff", "#7fff7f", "#ffff7f", "#ff7fff"])
+        .mode("lab");
+
+      fileContent.edges.forEach((edge, i) => {
+        const edgeId = `e${i}`;
+        if (
+          g.hasNode(edge.source) &&
+          g.hasNode(edge.target) &&
+          !g.hasEdge(edge.source, edge.target)
+        ) {
+          const hash = hashStringToInt(edgeId);
+          const t = (hash % 10000) / 10000;
+          g.addEdgeWithKey(edgeId, edge.source, edge.target, {
+            size: 0.5,
+            color: edgeColorScale(t).hex(),
+          });
+        }
+      });
+
+      // Run ForceAtlas2 layout
+      forceAtlas2.assign(g, {
+        iterations: 50,
+        settings: {
+          gravity: 5,
+          scalingRatio: 10,
+          strongGravityMode: true,
+          barnesHutOptimize: true,
+          barnesHutTheta: 0.5,
+          edgeWeightInfluence: 1,
+        },
+      });
+
+      setGraph(g);
+      setError(null);
+    } catch (err) {
+      console.error(err);
+      setError(err.message);
       setGraph(null);
-    };
-  }, []);
+    }
+  }, [fileContent]);
 
   return { graph, error };
 }

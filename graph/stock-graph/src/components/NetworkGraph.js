@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import NodeInfoPanel from "./NodeInfoPanel";
-import useGraphLoader from "./hooks/useGraphLoader";
-import useSigmaInstance from "./hooks/useSigmaInstance";
+import useGraphLoader from "../hooks/useGraphLoader";
+import useSigmaInstance from "../hooks/useSigmaInstance";
 
 export default function NetworkGraph() {
   const containerRef = useRef(null);
