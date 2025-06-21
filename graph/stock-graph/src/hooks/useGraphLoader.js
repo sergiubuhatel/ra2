@@ -14,39 +14,38 @@ function hashStringToInt(str) {
 }
 
 /**
- * Positions nodes so bigger nodes are closer to the center.
- * Outliers placed evenly on the outer circle.
+ * Positions nodes such that larger nodes are closer to the center,
+ * and smaller nodes are further away from the center.
  */
 function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   const normalizedSize = size / maxSize;
-  const minRadius = 100; // Minimum radius for inner nodes
-  const maxRadius = 200; // Maximum radius for inner nodes
-  const outerRadius = 250; // Fixed outer radius for outliers (same for all outer nodes)
   
-  // If node is an outlier (defined externally), place it evenly on the outer circle
+  // Define inner node placement ranges (minimum and maximum radius)
+  const minRadius = 100; // Minimum distance from the center for large nodes
+  const maxRadius = 300; // Maximum distance for small nodes
+
+  // Calculate radial distance: 
+  // The larger the node, the smaller the distance (closer to center)
+  const radius = minRadius + (maxRadius - minRadius) * (1 - normalizedSize); // Inverse relationship: larger = closer to center
+
+  // If node is an outlier (small nodes placed on an outer circle)
+  const outerRadius = 350; // Set a fixed outer radius for outliers
   if (index !== -1 && totalOutliers > 0) {
     const angle = (2 * Math.PI * index) / totalOutliers;
     return {
       x: outerRadius * Math.cos(angle),
       y: outerRadius * Math.sin(angle),
     };
-  } else {
-    // For inner nodes, place them based on their size
-    let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
-    if (radius > maxRadius) radius = maxRadius;
-
-    // Distribute inner nodes by hashing id for angle
-    const hash = hashStringToInt(nodeId);
-    const angle = ((hash % 360) * Math.PI) / 180;
-    
-    // Larger nodes move closer to the center
-    const centerPull = Math.max(50, 1 - normalizedSize);  // Pull larger nodes toward center
-
-    return {
-      x: (radius * centerPull) * Math.cos(angle),
-      y: (radius * centerPull) * Math.sin(angle),
-    };
   }
+
+  // Otherwise, place nodes based on the calculated radius
+  const hash = hashStringToInt(nodeId);
+  const angle = ((hash % 360) * Math.PI) / 180; // Distribute nodes based on hash
+
+  return {
+    x: radius * Math.cos(angle),
+    y: radius * Math.sin(angle),
+  };
 }
 
 /**
@@ -135,7 +134,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
           : -1;
 
-        // Use the original position calculation without depending on size
+        // Use the original position calculation
         const pos = getPositionBySize(
           node.id,
           scaledSize,
