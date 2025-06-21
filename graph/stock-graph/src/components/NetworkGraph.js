@@ -12,11 +12,13 @@ export default function NetworkGraph() {
   const { graph, error } = useGraphLoader(fileContent);
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
+  const fileInputRef = useRef(null);
+
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (!file) return;
 
-    setFileName(file.name); // Save filename to state
+    setFileName(file.name);
 
     const reader = new FileReader();
     reader.onload = (e) => {
@@ -31,9 +33,12 @@ export default function NetworkGraph() {
     reader.readAsText(file);
   };
 
+  const openFileDialog = () => {
+    fileInputRef.current?.click();
+  };
+
   return (
     <div style={{ display: "flex", height: "90vh", flexDirection: "column" }}>
-      {/* File input and filename stacked vertically */}
       <div
         style={{
           marginBottom: 10,
@@ -43,15 +48,29 @@ export default function NetworkGraph() {
           width: "max-content",
         }}
       >
+        <button
+          onClick={openFileDialog}
+          style={{ padding: "6px 12px", cursor: "pointer", marginLeft: 12 }}
+        >
+          Graph File
+        </button>
         <input
+          ref={fileInputRef}
           type="file"
           accept=".json"
           onChange={handleFileChange}
-          style={{ display: "block" }}
+          style={{ display: "none" }}
         />
         {fileName && (
-          <div style={{ marginTop: 8, fontSize: "0.9rem", color: "#555" }}>
-            Loaded file: {fileName}
+          <div
+            style={{
+              marginTop: 8,
+              fontSize: "0.9rem",
+              color: "#555",
+              marginLeft: 12,
+            }}
+          >
+            {fileName}
           </div>
         )}
       </div>
