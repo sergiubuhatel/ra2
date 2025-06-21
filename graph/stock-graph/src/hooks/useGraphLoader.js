@@ -15,21 +15,19 @@ function hashStringToInt(str) {
 
 /**
  * Positions nodes such that larger nodes are closer to the center,
- * and smaller nodes are further away from the center.
+ * and smaller nodes are placed further away.
  */
 function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   const normalizedSize = size / maxSize;
-  
+
   // Define inner node placement ranges (minimum and maximum radius)
-  const minRadius = 100; // Minimum distance from the center for large nodes
-  const maxRadius = 300; // Maximum distance for small nodes
+  const minRadius = 100; // Minimum distance from the center for larger nodes
+  const maxRadius = 300; // Maximum distance for smaller nodes
 
-  // Calculate radial distance: 
-  // The larger the node, the smaller the distance (closer to center)
-  const radius = minRadius + (maxRadius - minRadius) * (1 - normalizedSize); // Inverse relationship: larger = closer to center
+  // Calculate radial distance: larger nodes are closer to center
+  const radius = minRadius + (maxRadius - minRadius) * (1 - normalizedSize); // Inverse relationship
 
-  // If node is an outlier (small nodes placed on an outer circle)
-  const outerRadius = 350; // Set a fixed outer radius for outliers
+  const outerRadius = 350; // Set a fixed outer radius for outliers (smallest nodes)
   if (index !== -1 && totalOutliers > 0) {
     const angle = (2 * Math.PI * index) / totalOutliers;
     return {
@@ -38,7 +36,6 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
     };
   }
 
-  // Otherwise, place nodes based on the calculated radius
   const hash = hashStringToInt(nodeId);
   const angle = ((hash % 360) * Math.PI) / 180; // Distribute nodes based on hash
 
@@ -49,45 +46,39 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
 }
 
 /**
- * Checks for node collisions and adjusts positions if they overlap
+ * Resolves collisions by ensuring nodes only touch each other, no overlap.
  */
-function resolveCollisions(graph, iterations = 10) {
+function resolveCollisions(graph) {
   const nodes = graph.nodes();
 
-  // Iterative resolution of collisions
-  for (let i = 0; i < iterations; i++) {
-    const adjustedNodes = new Set();
+  // For each pair of nodes, check if they are overlapping and adjust positions
+  nodes.forEach((nodeId1) => {
+    const { x: x1, y: y1, size: size1 } = graph.getNodeAttributes(nodeId1);
+    nodes.forEach((nodeId2) => {
+      if (nodeId1 !== nodeId2) {
+        const { x: x2, y: y2, size: size2 } = graph.getNodeAttributes(nodeId2);
 
-    nodes.forEach((nodeId1) => {
-      const { x: x1, y: y1, size: size1 } = graph.getNodeAttributes(nodeId1);
-      nodes.forEach((nodeId2) => {
-        if (nodeId1 !== nodeId2 && !adjustedNodes.has(nodeId2)) {
-          const { x: x2, y: y2, size: size2 } = graph.getNodeAttributes(nodeId2);
-          
-          // Calculate distance between nodes
-          const dx = x2 - x1;
-          const dy = y2 - y1;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-          const minDistance = (size1 + size2) / 2 + 10; // Buffer distance
+        // Calculate the distance between the two nodes
+        const dx = x2 - x1;
+        const dy = y2 - y1;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        const minDistance = (size1 + size2) / 2;
 
-          // If nodes overlap, move them apart
-          if (distance < minDistance) {
-            const overlap = minDistance - distance;
-            const angle = Math.atan2(dy, dx);
+        // If nodes overlap, adjust their positions so they just touch
+        if (distance < minDistance) {
+          const overlap = minDistance - distance;
+          const angle = Math.atan2(dy, dx);
 
-            // Move nodes apart in the direction of the angle
-            const moveDistance = overlap / 2; // Split overlap equally
-            graph.setNodeAttribute(nodeId1, 'x', x1 - moveDistance * Math.cos(angle));
-            graph.setNodeAttribute(nodeId1, 'y', y1 - moveDistance * Math.sin(angle));
-            graph.setNodeAttribute(nodeId2, 'x', x2 + moveDistance * Math.cos(angle));
-            graph.setNodeAttribute(nodeId2, 'y', y2 + moveDistance * Math.sin(angle));
-          }
+          // Move nodes apart so they just touch each other
+          const moveDistance = overlap / 2; // Split the overlap equally
+          graph.setNodeAttribute(nodeId1, 'x', x1 - moveDistance * Math.cos(angle));
+          graph.setNodeAttribute(nodeId1, 'y', y1 - moveDistance * Math.sin(angle));
+          graph.setNodeAttribute(nodeId2, 'x', x2 + moveDistance * Math.cos(angle));
+          graph.setNodeAttribute(nodeId2, 'y', y2 + moveDistance * Math.sin(angle));
         }
-      });
-
-      adjustedNodes.add(nodeId1);
+      }
     });
-  }
+  });
 }
 
 export default function useGraphLoader(fileContent = null, industryColors = {}, nodeSizeFactor = 20) {
@@ -134,7 +125,6 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
           : -1;
 
-        // Use the original position calculation
         const pos = getPositionBySize(
           node.id,
           scaledSize,
@@ -158,7 +148,6 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           x: pos.x,
           y: pos.y,
           mass: scaledSize,
-          // Store initial positions so they don't change
           initialPosition: { x: pos.x, y: pos.y },
           ...node,
         });
@@ -185,7 +174,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
         }
       });
 
-      // Run ForceAtlas2 layout with enhanced separation
+      // Run ForceAtlas2 layout for better separation
       forceAtlas2.assign(g, {
         iterations: 500,  // Increased iterations for better stability
         settings: {
@@ -214,9 +203,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
   // Make sure to return the graph with positions intact
   const getUpdatedGraph = () => {
     if (graph) {
-      // Make sure the node positions remain fixed
       graph.forEachNode((nodeId, attributes) => {
-        // Restore the initial positions
         if (attributes.initialPosition) {
           graph.setNodeAttribute(nodeId, 'x', attributes.initialPosition.x);
           graph.setNodeAttribute(nodeId, 'y', attributes.initialPosition.y);
