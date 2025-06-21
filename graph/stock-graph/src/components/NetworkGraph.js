@@ -21,7 +21,8 @@ export default function NetworkGraph() {
   const [fileContent, setFileContent] = useState(null);
   const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
-  const { graph, error } = useGraphLoader(fileContent, industryColors);
+  const [nodeSizeFactor, setNodeSizeFactor] = useState(40); // Default scaling factor for node size
+  const { graph, error } = useGraphLoader(fileContent, industryColors, nodeSizeFactor);
 
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
@@ -146,6 +147,23 @@ export default function NetworkGraph() {
             ))}
           </>
         )}
+
+        {/* Slider for node size adjustment */}
+        <div style={{ marginTop: 20 }}>
+          <div style={{ fontWeight: "bold", marginBottom: 8 }}>Node Size</div>
+          <input
+            type="range"
+            min="20"
+            max="100"
+            step="1"
+            value={nodeSizeFactor}
+            onChange={(e) => setNodeSizeFactor(Number(e.target.value))}
+            style={{ width: "100%" }}
+          />
+          <div style={{ textAlign: "center", marginTop: 8 }}>
+            Size Factor: {nodeSizeFactor}
+          </div>
+        </div>
       </div>
 
       {/* Main graph and info panel */}

@@ -14,21 +14,16 @@ function hashStringToInt(str) {
 }
 
 /**
- * Positions nodes so bigger nodes are closer to center.
- * Outliers placed evenly on same outer circle.
+ * Positions nodes so bigger nodes are closer to the center.
+ * Outliers placed evenly on the outer circle.
  */
 function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   const normalizedSize = size / maxSize;
-  const minRadius = 5;
-  const maxRadius = 50;
-  const outerRadius = 60;
+  const minRadius = 100; // Minimum radius for inner nodes
+  const maxRadius = 200; // Maximum radius for inner nodes
+  const outerRadius = 250; // Fixed outer radius for outliers (same for all outer nodes)
 
-  // radius inversely proportional to size: bigger nodes closer in
-  let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
-
-  if (radius > maxRadius) radius = maxRadius;
-
-  // If node is an outlier (defined externally), place evenly on outer circle
+  // If node is an outlier (defined externally), place it evenly on the outer circle
   if (index !== -1 && totalOutliers > 0) {
     const angle = (2 * Math.PI * index) / totalOutliers;
     return {
@@ -36,6 +31,10 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
       y: outerRadius * Math.sin(angle),
     };
   } else {
+    // For inner nodes, place them based on their size
+    let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
+    if (radius > maxRadius) radius = maxRadius;
+
     // Distribute inner nodes by hashing id for angle
     const hash = hashStringToInt(nodeId);
     const angle = ((hash % 360) * Math.PI) / 180;
@@ -46,7 +45,7 @@ function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   }
 }
 
-export default function useGraphLoader(fileContent = null, industryColors = {}) {
+export default function useGraphLoader(fileContent = null, industryColors = {}, nodeSizeFactor = 20) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
 
@@ -69,7 +68,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}) 
       const nodeSizes = {};
       fileContent.nodes.forEach((node) => {
         const centrality = node.eigenvector_centrality || 0;
-        const scaledSize = 5 + 20 * (centrality / maxCentrality);
+        const scaledSize = 5 + nodeSizeFactor * (centrality / maxCentrality); // Default smaller size
         nodeSizes[node.id] = scaledSize;
       });
 
@@ -90,6 +89,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}) 
           ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
           : -1;
 
+        // Use the original position calculation without depending on size
         const pos = getPositionBySize(
           node.id,
           scaledSize,
@@ -113,6 +113,8 @@ export default function useGraphLoader(fileContent = null, industryColors = {}) 
           x: pos.x,
           y: pos.y,
           mass: scaledSize,
+          // Store initial positions so they don't change
+          initialPosition: { x: pos.x, y: pos.y },
           ...node,
         });
       });
@@ -138,16 +140,17 @@ export default function useGraphLoader(fileContent = null, industryColors = {}) 
         }
       });
 
-      // Run ForceAtlas2 layout
+      // Run ForceAtlas2 layout with enhanced separation
       forceAtlas2.assign(g, {
-        iterations: 50,
+        iterations: 500,  // Increased iterations for better stability
         settings: {
-          gravity: 5,
-          scalingRatio: 10,
+          gravity: 5,  // Increased gravity to pull nodes apart more
+          scalingRatio: 10,  // Increased scaling ratio for more space
           strongGravityMode: true,
           barnesHutOptimize: true,
           barnesHutTheta: 0.5,
-          edgeWeightInfluence: 1,
+          edgeWeightInfluence: 1.2,  // Increased edge weight influence
+          outboundAttractionDistribution: true,
         },
       });
 
@@ -158,7 +161,22 @@ export default function useGraphLoader(fileContent = null, industryColors = {}) 
       setError(err.message);
       setGraph(null);
     }
-  }, [fileContent, industryColors]);
+  }, [fileContent, industryColors, nodeSizeFactor]);
 
-  return { graph, error };
+  // Make sure to return the graph with positions intact
+  const getUpdatedGraph = () => {
+    if (graph) {
+      // Make sure the node positions remain fixed
+      graph.forEachNode((nodeId, attributes) => {
+        // Restore the initial positions
+        if (attributes.initialPosition) {
+          graph.setNodeAttribute(nodeId, 'x', attributes.initialPosition.x);
+          graph.setNodeAttribute(nodeId, 'y', attributes.initialPosition.y);
+        }
+      });
+    }
+    return graph;
+  };
+
+  return { graph: getUpdatedGraph(), error };
 }
