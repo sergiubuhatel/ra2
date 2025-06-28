@@ -68,29 +68,35 @@ export function resolveCollisions(graph) {
   });
 }
 
-// Set edge thickness based on connected node sizes
-// Set edge thickness based on edge weight
-export function setEdgeThickness(graph) {
-  let maxWeight = 0;
+export function mapWeightToThickness(weight, maxWeight) {
+  const minThickness = 1;
+  const maxThickness = 25;
 
-  // First pass: find max weight for normalization
+  if (maxWeight === 0) return minThickness; // avoid division by zero
+  const normalized = weight / maxWeight;
+  return minThickness + normalized * (maxThickness - minThickness);
+}
+
+export function getMaxEdgeWeight(graph) {
+  let maxWeight = 0;
   graph.forEachEdge((_, attributes) => {
-    const w = attributes.weight || 1;
+    const w = attributes.weight || 0;
     if (w > maxWeight) maxWeight = w;
   });
+  return maxWeight === 0 ? 1 : maxWeight;  // avoid zero to prevent divide by zero
+}
 
-  // Prevent division by zero
-  if (maxWeight === 0) maxWeight = 1;
+// Set edge thickness based on edge weight
+export function setEdgeThickness(graph) {
+  const maxWeight = getMaxEdgeWeight(graph);
 
   const minThickness = 1;
-  const maxThickness = 15;
+  const maxThickness = 25;
 
-  // Second pass: scale thickness
   graph.forEachEdge((edgeId, attributes) => {
     const weight = attributes.weight || 1;
-    const normalized = weight / maxWeight;
-    const thickness = minThickness + normalized * (maxThickness - minThickness);
-    graph.setEdgeAttribute(edgeId, 'size', thickness);
+    const thickness = mapWeightToThickness(weight, maxWeight);
+    graph.setEdgeAttribute(edgeId, "size", thickness);
   });
 }
 

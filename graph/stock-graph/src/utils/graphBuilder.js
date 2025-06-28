@@ -7,7 +7,8 @@ import {
   resolveCollisions,
   setEdgeThickness,
   edgeColorScale,
-} from "./graphLoaderHelper";
+  mapWeightToThickness,
+  } from "./graphLoaderHelper";
 
 export function calculateNodeSizes(nodes, factor) {
   const maxCentrality = Math.max(...nodes.map(n => n.eigenvector_centrality || 0));
@@ -52,7 +53,19 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
   });
 }
 
+export function getMaxEdgeWeight(edges) {
+  let maxWeight = 0;
+
+  edges.forEach((edge) => {
+    const w = edge.weight || 0;
+    if (w > maxWeight) maxWeight = w;
+  });
+
+  return maxWeight === 0 ? 1 : maxWeight;
+}
+
 export function addEdgesToGraph(graph, edges) {
+  const maxWeight = getMaxEdgeWeight(edges);
   edges.forEach((edge, i) => {
     const edgeId = `e${i}`;
     if (
@@ -64,7 +77,8 @@ export function addEdgesToGraph(graph, edges) {
       const t = (hash % 10000) / 10000;
       const weight = edge.weight || 0.1;
 
-      if(weight > 1500) {
+      const thickness = mapWeightToThickness(weight, maxWeight);
+      if(thickness > 1.35) {
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
             weight: weight,
             color: edgeColorScale(t).hex(),
