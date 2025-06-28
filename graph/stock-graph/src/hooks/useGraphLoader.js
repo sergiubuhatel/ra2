@@ -8,7 +8,7 @@ import {
   runLayoutAndPostProcessing,
 } from "../utils/graphBuilder";
 
-export default function useGraphLoader(fileContent = null, industryColors = {}, nodeSizeFactor = 20) {
+export default function useGraphLoader(fileContent = null, industryColors = {}, edgeThickness, nodeSizeFactor = 20) {
   const [graph, setGraph] = useState(null);
   const [error, setError] = useState(null);
 
@@ -26,7 +26,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
       const outlierSet = identifyOutliers(fileContent.nodes, nodeSizes);
 
       assignNodeAttributes(g, fileContent.nodes, nodeSizes, outlierSet, industryColors);
-      addEdgesToGraph(g, fileContent.edges);
+      addEdgesToGraph(g, fileContent.edges, edgeThickness);
       runLayoutAndPostProcessing(g);
 
       setGraph(g);
@@ -36,7 +36,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
       setError(err.message);
       setGraph(null);
     }
-  }, [fileContent, industryColors, nodeSizeFactor]);
+  }, [fileContent, industryColors, nodeSizeFactor, edgeThickness]);
 
   const getUpdatedGraph = () => {
     if (graph) {

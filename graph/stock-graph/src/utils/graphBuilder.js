@@ -64,7 +64,7 @@ export function getMaxEdgeWeight(edges) {
   return maxWeight === 0 ? 1 : maxWeight;
 }
 
-export function addEdgesToGraph(graph, edges) {
+export function addEdgesToGraph(graph, edges, edgeThickness) {
   const maxWeight = getMaxEdgeWeight(edges);
   edges.forEach((edge, i) => {
     const edgeId = `e${i}`;
@@ -78,7 +78,7 @@ export function addEdgesToGraph(graph, edges) {
       const weight = edge.weight || 0.1;
 
       const thickness = mapWeightToThickness(weight, maxWeight);
-      if(thickness > 1.35) {
+      if(thickness > edgeThickness) {
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
             weight: weight,
             color: edgeColorScale(t).hex(),

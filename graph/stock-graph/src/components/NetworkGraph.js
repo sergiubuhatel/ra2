@@ -11,8 +11,8 @@ export default function NetworkGraph() {
   const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(30);
-  const [edgeThickness, setEdgeThickness] = useState(15);
-  const { graph, error } = useGraphLoader(fileContent, industryColors, nodeSizeFactor, edgeThickness);
+  const [edgeThickness, setEdgeThickness] = useState(1.35);
+  const { graph, error } = useGraphLoader(fileContent, industryColors, edgeThickness, nodeSizeFactor);
 
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
