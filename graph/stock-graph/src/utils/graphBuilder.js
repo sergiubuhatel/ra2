@@ -4,7 +4,7 @@ import forceAtlas2 from "graphology-layout-forceatlas2";
 import {
   getPositionBySize,
   hashStringToInt,
-  resolveCollisions,
+  resolvePositionCollisions,
   setEdgeThickness,
   edgeColorScale,
   mapWeightToThickness,
@@ -30,14 +30,23 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
   const maxSize = Math.max(...Object.values(nodeSizes));
   const sortedNodes = [...nodes].sort((a, b) => nodeSizes[a.id] - nodeSizes[b.id]);
 
+  const placed = [];
+
   nodes.forEach(node => {
     const size = nodeSizes[node.id];
+    const radius = size / 2;
     const isOutlier = outlierSet.has(node.id);
     const outlierIndex = isOutlier
       ? sortedNodes.findIndex(n => n.id === node.id)
       : -1;
 
-    const pos = getPositionBySize(node.id, size, maxSize, outlierIndex, outlierSet.size);
+    let pos = getPositionBySize(node.id, size, maxSize, outlierIndex, outlierSet.size);
+
+    // Use the helper function to resolve collisions
+    pos = resolvePositionCollisions(pos, radius, placed);
+
+    placed.push({ x: pos.x, y: pos.y, radius });
+
     const color = industryColors[node.industry]
       || chroma.scale(["#b0d0ff", "#003399"]).mode("lab")(size / maxSize).hex();
 
@@ -103,6 +112,6 @@ export function runLayoutAndPostProcessing(graph) {
     },
   });
 
-  resolveCollisions(graph);
+  //resolveCollisions(graph);
   setEdgeThickness(graph);
 }

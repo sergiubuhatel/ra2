@@ -37,35 +37,36 @@ export function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
 }
 
 // Collision resolver to adjust node positions
-export function resolveCollisions(graph) {
-  const nodes = graph.nodes();
-  const adjustedNodes = new Set();
+export function resolvePositionCollisions(pos, radius, placedNodes, padding = 3, maxAttempts = 100) {
+  let collisionResolved = false;
+  let attempts = 0;
 
-  nodes.forEach((nodeId1) => {
-    const { x: x1, y: y1, size: size1 } = graph.getNodeAttributes(nodeId1);
-    nodes.forEach((nodeId2) => {
-      if (nodeId1 !== nodeId2 && !adjustedNodes.has(nodeId2)) {
-        const { x: x2, y: y2, size: size2 } = graph.getNodeAttributes(nodeId2);
+  while (!collisionResolved && attempts < maxAttempts) {
+    collisionResolved = true;
 
-        const dx = x2 - x1;
-        const dy = y2 - y1;
-        const distance = Math.sqrt(dx * dx + dy * dy);
-        const minDistance = (size1 + size2) / 2;
+    for (const placedNode of placedNodes) {
+      const dx = pos.x - placedNode.x;
+      const dy = pos.y - placedNode.y;
+      const dist = Math.sqrt(dx * dx + dy * dy);
+      const minDist = radius + placedNode.radius + padding;
 
-        if (distance < minDistance) {
-          const overlap = minDistance - distance;
-          const angle = Math.atan2(dy, dx);
-          const moveDistance = overlap / 2;
-          graph.setNodeAttribute(nodeId1, 'x', x1 - moveDistance * Math.cos(angle));
-          graph.setNodeAttribute(nodeId1, 'y', y1 - moveDistance * Math.sin(angle));
-          graph.setNodeAttribute(nodeId2, 'x', x2 + moveDistance * Math.cos(angle));
-          graph.setNodeAttribute(nodeId2, 'y', y2 + moveDistance * Math.sin(angle));
-        }
+      if (dist < minDist && dist > 0) {
+        // push this node away to prevent overlap
+        const overlap = minDist - dist;
+        const angle = Math.atan2(dy, dx);
+
+        pos.x += Math.cos(angle) * overlap;
+        pos.y += Math.sin(angle) * overlap;
+
+        collisionResolved = false;
+        break; // check all placed nodes again after adjusting position
       }
-    });
+    }
 
-    adjustedNodes.add(nodeId1);
-  });
+    attempts++;
+  }
+
+  return pos;
 }
 
 export function mapWeightToThickness(weight, maxWeight) {
