@@ -9,6 +9,7 @@ import {
   edgeColorScale,
   mapWeightToThickness,
   } from "./graphLoaderHelper";
+import {getDeterministicColor} from "../utils/colors";
 
 export function calculateNodeSizes(nodes, factor) {
   const maxCentrality = Math.max(...nodes.map(n => n.eigenvector_centrality || 0));
@@ -90,7 +91,7 @@ export function addEdgesToGraph(graph, edges, edgeThickness) {
       if(thickness > edgeThickness) {
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
             weight: weight,
-            color: edgeColorScale(t).hex(),
+            color: getDeterministicColor(t),
             curvature: 0.25, // ✅ this makes edges curved
         });
       }
