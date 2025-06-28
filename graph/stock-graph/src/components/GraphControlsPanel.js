@@ -1,4 +1,3 @@
-// GraphControlsPanel.jsx
 import React from "react";
 
 // Simple color input component
@@ -23,6 +22,8 @@ export default function GraphControlsPanel({
   updateIndustryColor,
   nodeSizeFactor,
   setNodeSizeFactor,
+  edgeThickness,
+  setEdgeThickness,
 }) {
   return (
     <div
@@ -99,6 +100,23 @@ export default function GraphControlsPanel({
         />
         <div style={{ textAlign: "center", marginTop: 8 }}>
           Size Factor: {nodeSizeFactor}
+        </div>
+      </div>
+
+      {/* Edge thickness slider */}
+      <div style={{ marginTop: 20 }}>
+        <div style={{ fontWeight: "bold", marginBottom: 8 }}>Edge Thickness Threshold</div>
+        <input
+          type="range"
+          min="1"
+          max="25"
+          step="1"
+          value={edgeThickness}
+          onChange={(e) => setEdgeThickness(Number(e.target.value))}
+          style={{ width: "100%" }}
+        />
+        <div style={{ textAlign: "center", marginTop: 8 }}>
+          Thickness: {edgeThickness}
         </div>
       </div>
     </div>

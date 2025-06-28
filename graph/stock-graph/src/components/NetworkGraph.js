@@ -1,4 +1,3 @@
-// NetworkGraph.jsx
 import React, { useRef, useState, useEffect } from "react";
 import NodeInfoPanel from "./NodeInfoPanel";
 import useGraphLoader from "../hooks/useGraphLoader";
@@ -12,7 +11,8 @@ export default function NetworkGraph() {
   const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(30);
-  const { graph, error } = useGraphLoader(fileContent, industryColors, nodeSizeFactor);
+  const [edgeThickness, setEdgeThickness] = useState(15);
+  const { graph, error } = useGraphLoader(fileContent, industryColors, nodeSizeFactor, edgeThickness);
 
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
@@ -82,6 +82,8 @@ export default function NetworkGraph() {
         updateIndustryColor={updateIndustryColor}
         nodeSizeFactor={nodeSizeFactor}
         setNodeSizeFactor={setNodeSizeFactor}
+        edgeThickness={edgeThickness}
+        setEdgeThickness={setEdgeThickness}
       />
 
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
