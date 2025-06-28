@@ -15,7 +15,7 @@ export default function NodeInfoPanel({ node }) {
       <h3>Node Info</h3>
       {node ? (
         <div>
-          <p><strong>ID:</strong> {node.label}</p>
+          <p><strong>Ticker:</strong> {node.label}</p>
           <p><strong>Industry:</strong> {node.industry}</p>
           <p><strong>Eigenvector Centrality:</strong> {node.eigenvector_centrality?.toFixed(4)}</p>
           <p><strong>Betweenness Centrality:</strong> {node.betweenness_centrality?.toFixed(4)}</p>
