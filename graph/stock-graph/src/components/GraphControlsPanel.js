@@ -110,7 +110,7 @@ export default function GraphControlsPanel({
           type="range"
           min="1"
           max="25"
-          step="1"
+          step="0.1"
           value={edgeThickness}
           onChange={(e) => setEdgeThickness(Number(e.target.value))}
           style={{ width: "100%" }}
