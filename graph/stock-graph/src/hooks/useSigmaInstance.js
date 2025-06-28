@@ -1,3 +1,4 @@
+import EdgeCurveProgram from "@sigma/edge-curve";
 import { useEffect, useRef } from "react";
 import { Sigma } from "sigma";
 
@@ -21,8 +22,10 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       edgeHoverSizeRatio: 1.2,
       animationsTime: 1000,
       
-      // Add this line to set curved edges globally
-      edgeType: "curvedArrow",
+      defaultEdgeType: "curve",
+      edgeProgramClasses: {
+        curve: EdgeCurveProgram,
+      }
     });
 
     sigmaRef.current = sigma;
