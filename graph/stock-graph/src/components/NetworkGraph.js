@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import NodeInfoPanel from "./NodeInfoPanel";
 import useGraphLoader from "../hooks/useGraphLoader";
 import useSigmaInstance from "../hooks/useSigmaInstance";
+import {getDeterministicColor} from "../utils/colors";
 import GraphControlsPanel from "./GraphControlsPanel";
 
 export default function NetworkGraph() {
@@ -11,7 +12,7 @@ export default function NetworkGraph() {
   const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(30);
-  const [edgeThickness, setEdgeThickness] = useState(1.35);
+  const [edgeThickness, setEdgeThickness] = useState(2.5);
   const { graph, error } = useGraphLoader(fileContent, industryColors, edgeThickness, nodeSizeFactor);
 
   useSigmaInstance(containerRef, graph, setSelectedNode);
@@ -33,15 +34,11 @@ export default function NetworkGraph() {
     setIndustryColors((oldColors) => {
       const newColors = {};
       industries.forEach((ind) => {
-        newColors[ind] = oldColors[ind] || getRandomColor();
+        newColors[ind] = oldColors[ind] || getDeterministicColor(ind);
       });
       return newColors;
     });
   }, [industries, fileContent]);
-
-  function getRandomColor() {
-    return "#" + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, "0");
-  }
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
