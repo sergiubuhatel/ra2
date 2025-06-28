@@ -62,10 +62,15 @@ export function addEdgesToGraph(graph, edges) {
     ) {
       const hash = hashStringToInt(edgeId);
       const t = (hash % 10000) / 10000;
-      graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-        size: 1,
-        color: edgeColorScale(t).hex(),
-      });
+      const weight = edge.weight || 0.1;
+
+      if(weight > 1500) {
+        graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
+            weight: weight,
+            color: edgeColorScale(t).hex(),
+            curvature: 0.25, // ✅ this makes edges curved
+        });
+      }
     }
   });
 }

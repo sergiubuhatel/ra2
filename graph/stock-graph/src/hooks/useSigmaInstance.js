@@ -20,6 +20,9 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       defaultNodeColor: "#0074D9",
       edgeHoverSizeRatio: 1.2,
       animationsTime: 1000,
+      
+      // Add this line to set curved edges globally
+      edgeType: "curvedArrow",
     });
 
     sigmaRef.current = sigma;

@@ -69,16 +69,28 @@ export function resolveCollisions(graph) {
 }
 
 // Set edge thickness based on connected node sizes
+// Set edge thickness based on edge weight
 export function setEdgeThickness(graph) {
+  let maxWeight = 0;
+
+  // First pass: find max weight for normalization
+  graph.forEachEdge((_, attributes) => {
+    const w = attributes.weight || 1;
+    if (w > maxWeight) maxWeight = w;
+  });
+
+  // Prevent division by zero
+  if (maxWeight === 0) maxWeight = 1;
+
+  const minThickness = 1;
+  const maxThickness = 15;
+
+  // Second pass: scale thickness
   graph.forEachEdge((edgeId, attributes) => {
-    const source = attributes.source;
-    const target = attributes.target;
-    if (graph.hasNode(source) && graph.hasNode(target)) {
-      const sizeSource = graph.getNodeAttributes(source).size;
-      const sizeTarget = graph.getNodeAttributes(target).size;
-      const thickness = Math.max((sizeSource + sizeTarget) / 10, 1);
-      graph.setEdgeAttribute(edgeId, 'size', thickness);
-    }
+    const weight = attributes.weight || 1;
+    const normalized = weight / maxWeight;
+    const thickness = minThickness + normalized * (maxThickness - minThickness);
+    graph.setEdgeAttribute(edgeId, 'size', thickness);
   });
 }
 
