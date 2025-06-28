@@ -14,63 +14,63 @@ function hashStringToInt(str) {
 }
 
 /**
- * Positions nodes such that larger nodes are closer to the center,
- * and smaller nodes are placed further away.
+ * Positions nodes so bigger nodes are closer to the center.
+ * Outliers placed evenly on the outer circle.
  */
 function getPositionBySize(nodeId, size, maxSize, index, totalOutliers) {
   const normalizedSize = size / maxSize;
+  const minRadius = 100; // Minimum radius for inner nodes
+  const maxRadius = 200; // Maximum radius for inner nodes
+  const outerRadius = 250; // Fixed outer radius for outliers (same for all outer nodes)
 
-  // Define inner node placement ranges (minimum and maximum radius)
-  const minRadius = 100; // Minimum distance from the center for larger nodes
-  const maxRadius = 300; // Maximum distance for smaller nodes
-
-  // Calculate radial distance: larger nodes are closer to center
-  const radius = minRadius + (maxRadius - minRadius) * (1 - normalizedSize); // Inverse relationship
-
-  const outerRadius = 350; // Set a fixed outer radius for outliers (smallest nodes)
+  // If node is an outlier (defined externally), place it evenly on the outer circle
   if (index !== -1 && totalOutliers > 0) {
     const angle = (2 * Math.PI * index) / totalOutliers;
     return {
       x: outerRadius * Math.cos(angle),
       y: outerRadius * Math.sin(angle),
     };
+  } else {
+    // For inner nodes, place them based on their size
+    let radius = maxRadius - normalizedSize * (maxRadius - minRadius);
+    if (radius > maxRadius) radius = maxRadius;
+
+    // Distribute inner nodes by hashing id for angle
+    const hash = hashStringToInt(nodeId);
+    const angle = ((hash % 360) * Math.PI) / 180;
+    return {
+      x: radius * Math.cos(angle),
+      y: radius * Math.sin(angle),
+    };
   }
-
-  const hash = hashStringToInt(nodeId);
-  const angle = ((hash % 360) * Math.PI) / 180; // Distribute nodes based on hash
-
-  return {
-    x: radius * Math.cos(angle),
-    y: radius * Math.sin(angle),
-  };
 }
 
 /**
- * Resolves collisions by ensuring nodes only touch each other, no overlap.
+ * Checks for node collisions and adjusts positions if they overlap
  */
 function resolveCollisions(graph) {
   const nodes = graph.nodes();
+  const adjustedNodes = new Set();
 
-  // For each pair of nodes, check if they are overlapping and adjust positions
   nodes.forEach((nodeId1) => {
     const { x: x1, y: y1, size: size1 } = graph.getNodeAttributes(nodeId1);
     nodes.forEach((nodeId2) => {
-      if (nodeId1 !== nodeId2) {
+      if (nodeId1 !== nodeId2 && !adjustedNodes.has(nodeId2)) {
         const { x: x2, y: y2, size: size2 } = graph.getNodeAttributes(nodeId2);
-
-        // Calculate the distance between the two nodes
+        
+        // Calculate distance between nodes
         const dx = x2 - x1;
         const dy = y2 - y1;
         const distance = Math.sqrt(dx * dx + dy * dy);
         const minDistance = (size1 + size2) / 2;
 
-        // If nodes overlap, adjust their positions so they just touch
+        // If nodes overlap, move them apart
         if (distance < minDistance) {
           const overlap = minDistance - distance;
           const angle = Math.atan2(dy, dx);
 
-          // Move nodes apart so they just touch each other
-          const moveDistance = overlap / 2; // Split the overlap equally
+          // Move nodes apart in the direction of the angle
+          const moveDistance = overlap / 2; // Split overlap equally
           graph.setNodeAttribute(nodeId1, 'x', x1 - moveDistance * Math.cos(angle));
           graph.setNodeAttribute(nodeId1, 'y', y1 - moveDistance * Math.sin(angle));
           graph.setNodeAttribute(nodeId2, 'x', x2 + moveDistance * Math.cos(angle));
@@ -78,24 +78,29 @@ function resolveCollisions(graph) {
         }
       }
     });
+
+    adjustedNodes.add(nodeId1);
   });
 }
 
 /**
- * Sets edge thickness based on the sizes of connected nodes.
+ * Set edge thickness based on the sizes of connected nodes
  */
 function setEdgeThickness(graph) {
+  // Iterate over all edges in the graph
   graph.forEachEdge((edgeId, attributes) => {
     const source = attributes.source;
     const target = attributes.target;
 
-    // Check if the nodes exist before accessing their attributes
+    // Ensure both the source and target nodes exist
     if (graph.hasNode(source) && graph.hasNode(target)) {
       const sizeSource = graph.getNodeAttributes(source).size;
       const sizeTarget = graph.getNodeAttributes(target).size;
 
-      // Set edge thickness based on the sum of the connected nodes' sizes
-      const edgeThickness = Math.min((sizeSource + sizeTarget) / 10, 10); // Cap the max edge thickness
+      // Calculate edge thickness based on the sizes of the source and target nodes
+      const edgeThickness = Math.max((sizeSource + sizeTarget) / 10, 1); // Ensure at least 1 thickness
+
+      // Set the edge thickness (size attribute)
       graph.setEdgeAttribute(edgeId, 'size', edgeThickness);
     }
   });
@@ -145,6 +150,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           ? sortedNodes.slice(0, outlierCount).findIndex((n) => n.id === node.id)
           : -1;
 
+        // Use the original position calculation without depending on size
         const pos = getPositionBySize(
           node.id,
           scaledSize,
@@ -168,6 +174,7 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           x: pos.x,
           y: pos.y,
           mass: scaledSize,
+          // Store initial positions so they don't change
           initialPosition: { x: pos.x, y: pos.y },
           ...node,
         });
@@ -188,13 +195,13 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
           const hash = hashStringToInt(edgeId);
           const t = (hash % 10000) / 10000;
           g.addEdgeWithKey(edgeId, edge.source, edge.target, {
-            size: 1, // Default edge thickness
+            size: 1, // Default edge thickness, will be adjusted later
             color: edgeColorScale(t).hex(),
           });
         }
       });
 
-      // Run ForceAtlas2 layout for better separation
+      // Run ForceAtlas2 layout with enhanced separation
       forceAtlas2.assign(g, {
         iterations: 500,  // Increased iterations for better stability
         settings: {
@@ -208,10 +215,10 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
         },
       });
 
-      // Resolve collisions after layout
+      // Resolve collisions
       resolveCollisions(g);
 
-      // Set edge thickness based on node sizes
+      // Set edge thickness after layout and collision resolution
       setEdgeThickness(g);
 
       setGraph(g);
@@ -226,7 +233,9 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
   // Make sure to return the graph with positions intact
   const getUpdatedGraph = () => {
     if (graph) {
+      // Make sure the node positions remain fixed
       graph.forEachNode((nodeId, attributes) => {
+        // Restore the initial positions
         if (attributes.initialPosition) {
           graph.setNodeAttribute(nodeId, 'x', attributes.initialPosition.x);
           graph.setNodeAttribute(nodeId, 'y', attributes.initialPosition.y);
