@@ -33,6 +33,7 @@ export default function GraphControlsPanel({
         padding: 12,
         boxSizing: "border-box",
         overflowY: "auto",
+        background: "#CECECC"
       }}
     >
       <button

@@ -10,6 +10,7 @@ export default function NodeInfoPanel({ node }) {
         borderLeft: "1px solid #ccc",
         background: "#f9f9f9",
         overflowY: "auto",
+        background: "#CECECC"
       }}
     >
       <h3>Node Info</h3>

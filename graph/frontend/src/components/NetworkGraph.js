@@ -92,7 +92,7 @@ export default function NetworkGraph() {
         <div style={{ flex: 1, display: "flex" }}>
           <div
             ref={containerRef}
-            style={{ flex: 3, border: "1px solid #ccc", position: "relative" }}
+            style={{ flex: 3, border: "1px solid #ccc", position: "relative", background:"#000200" }}
           />
           <NodeInfoPanel node={selectedNode} />
         </div>
