@@ -64,40 +64,6 @@ export default function GraphControlsPanel({
         industryColors={industryColors}
         updateIndustryColor={updateIndustryColor}
       />
-
-      <div style={{ marginTop: 20 }}>
-        <div style={{ fontWeight: "bold", marginBottom: 8 }}>Node Size</div>
-        <input
-          type="range"
-          min="20"
-          max="100"
-          step="1"
-          value={nodeSizeFactor}
-          onChange={(e) => setNodeSizeFactor(Number(e.target.value))}
-          style={{ width: "100%" }}
-        />
-        <div style={{ textAlign: "center", marginTop: 8 }}>
-          Size Factor: {nodeSizeFactor}
-        </div>
-      </div>
-
-      <div style={{ marginTop: 20 }}>
-        <div style={{ fontWeight: "bold", marginBottom: 8 }}>
-          Edge Thickness Threshold
-        </div>
-        <input
-          type="range"
-          min="1"
-          max="25"
-          step="0.1"
-          value={edgeThickness}
-          onChange={(e) => setEdgeThickness(Number(e.target.value))}
-          style={{ width: "100%" }}
-        />
-        <div style={{ textAlign: "center", marginTop: 8 }}>
-          Thickness: {edgeThickness}
-        </div>
-      </div>
     </div>
   );
 }

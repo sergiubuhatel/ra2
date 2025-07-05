@@ -109,7 +109,7 @@ export function addEdgesToGraph(graph, edges, edgeThickness) {
         const baseColor = getDeterministicColor(t);
         const weightRatio = weight / maxWeight;
 
-        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.9);
+        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.8);
 
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
           weight: weight,
