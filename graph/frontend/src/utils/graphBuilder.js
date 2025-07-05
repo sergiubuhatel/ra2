@@ -34,22 +34,28 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
   const placed = [];
   const spiralSpacing = 50;
   const angleIncrement = 0.6;
-  const baseOffset = 1; // Ensures even smallest node has some spacing
+  const baseOffset = 1;
 
   sortedNodes.forEach((node, index) => {
     const size = nodeSizes[node.id];
     const radius = size / 2;
 
-    // Spiral radius grows with size and index
-    const angle = angleIncrement * index;
-    const spiralRadius = spiralSpacing * (baseOffset + size / maxSize + Math.sqrt(index));
+    let pos;
 
-    let pos = {
-      x: spiralRadius * Math.cos(angle),
-      y: spiralRadius * Math.sin(angle),
-    };
+    if (index === 0) {
+      // Largest node at the center
+      pos = { x: 0, y: 0 };
+    } else {
+      const angle = angleIncrement * index;
+      const spiralRadius = spiralSpacing * (baseOffset + size / maxSize + Math.sqrt(index));
+      pos = {
+        x: spiralRadius * Math.cos(angle),
+        y: spiralRadius * Math.sin(angle),
+      };
 
-    pos = resolvePositionCollisions(pos, radius, placed);
+      // Resolve collisions with already-placed nodes
+      pos = resolvePositionCollisions(pos, radius, placed);
+    }
 
     placed.push({ x: pos.x, y: pos.y, radius });
 
@@ -64,10 +70,11 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
       y: pos.y,
       mass: size,
       initialPosition: pos,
-      labelColor: "#ffffff"
+      labelColor: "#ffffff",
     });
   });
 }
+
 
 export function getMaxEdgeWeight(edges) {
   let maxWeight = 0;
