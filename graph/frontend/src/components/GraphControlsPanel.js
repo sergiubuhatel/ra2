@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "@mui/material/Button";
+import UploadFileIcon from "@mui/icons-material/UploadFile";
 
 // Simple color input component
 function ColorPicker({ color, onChange }) {
@@ -33,15 +35,20 @@ export default function GraphControlsPanel({
         padding: 12,
         boxSizing: "border-box",
         overflowY: "auto",
-        background: "#CECECC"
+        background: "#CECECC",
       }}
     >
-      <button
+      <Button
+        variant="contained"
+        color="primary"
+        fullWidth
+        startIcon={<UploadFileIcon />}
         onClick={openFileDialog}
-        style={{ padding: "6px 12px", cursor: "pointer", marginBottom: 12, width: "100%" }}
+        sx={{ mb: 2 }}
       >
         Load Graph JSON
-      </button>
+      </Button>
+
       <input
         ref={fileInputRef}
         type="file"
@@ -49,6 +56,7 @@ export default function GraphControlsPanel({
         onChange={handleFileChange}
         style={{ display: "none" }}
       />
+
       {fileName && (
         <div style={{ marginBottom: 20, fontSize: "0.9rem", color: "#555" }}>{fileName}</div>
       )}
@@ -87,7 +95,6 @@ export default function GraphControlsPanel({
         </>
       )}
 
-      {/* Node size slider */}
       <div style={{ marginTop: 20 }}>
         <div style={{ fontWeight: "bold", marginBottom: 8 }}>Node Size</div>
         <input
@@ -104,7 +111,6 @@ export default function GraphControlsPanel({
         </div>
       </div>
 
-      {/* Edge thickness slider */}
       <div style={{ marginTop: 20 }}>
         <div style={{ fontWeight: "bold", marginBottom: 8 }}>Edge Thickness Threshold</div>
         <input

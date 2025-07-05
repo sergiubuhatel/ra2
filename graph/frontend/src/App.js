@@ -7,11 +7,11 @@ function App() {
       <h1 style={{ 
         textAlign: "center", 
         color: "white", 
-        fontSize: "3rem", 
+        fontSize: "2rem", 
         fontWeight: "bold", 
         marginBottom: "40px" 
       }}>
-        Stock Network
+        Top 50 Industries in 2017
       </h1>
       <NetworkGraph />
     </div>
