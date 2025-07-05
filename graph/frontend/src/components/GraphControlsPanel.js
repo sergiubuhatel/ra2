@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import Button from "@mui/material/Button";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 
+// Font Awesome imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+
 // Simple color input component
 function ColorPicker({ color, onChange }) {
   return (
@@ -27,7 +31,7 @@ export default function GraphControlsPanel({
   edgeThickness,
   setEdgeThickness,
 }) {
-  const [showColors, setShowColors] = useState(true); // Toggle state
+  const [showColors, setShowColors] = useState(true);
 
   return (
     <div
@@ -70,9 +74,10 @@ export default function GraphControlsPanel({
             size="small"
             fullWidth
             onClick={() => setShowColors((prev) => !prev)}
-            sx={{ mb: 1 }}
+            sx={{ mb: 1, justifyContent: "flex-start", gap: 1 }}
           >
-            {showColors ? "Hide Industry Colors" : "Show Industry Colors"}
+            <FontAwesomeIcon icon={showColors ? faEyeSlash : faEye} />
+            {showColors ? "Industry Colors" : "Industry Colors"}
           </Button>
 
           {showColors && (
