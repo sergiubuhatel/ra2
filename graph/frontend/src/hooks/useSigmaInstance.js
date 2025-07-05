@@ -21,7 +21,7 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       defaultNodeColor: "#0074D9",
       edgeHoverSizeRatio: 1.2,
       animationsTime: 1000,
-      
+    
       defaultEdgeType: "curve",
       edgeProgramClasses: {
         curve: EdgeCurveProgram,

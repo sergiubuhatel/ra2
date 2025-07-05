@@ -37,6 +37,7 @@ export async function loadGraphFromJSON() {
       // Assign random coordinates since Sigma requires numeric x, y
       x: Math.random(),
       y: Math.random(),
+      labelColor: "#ffffff"
     });
   });
 

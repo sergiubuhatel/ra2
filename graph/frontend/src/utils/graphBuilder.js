@@ -29,21 +29,26 @@ export function identifyOutliers(nodes, nodeSizes) {
 
 export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, industryColors) {
   const maxSize = Math.max(...Object.values(nodeSizes));
-  const sortedNodes = [...nodes].sort((a, b) => nodeSizes[a.id] - nodeSizes[b.id]);
+  const sortedNodes = [...nodes].sort((a, b) => nodeSizes[b.id] - nodeSizes[a.id]);
 
   const placed = [];
+  const spiralSpacing = 50;
+  const angleIncrement = 0.6;
+  const baseOffset = 1; // Ensures even smallest node has some spacing
 
-  nodes.forEach(node => {
+  sortedNodes.forEach((node, index) => {
     const size = nodeSizes[node.id];
     const radius = size / 2;
-    const isOutlier = outlierSet.has(node.id);
-    const outlierIndex = isOutlier
-      ? sortedNodes.findIndex(n => n.id === node.id)
-      : -1;
 
-    let pos = getPositionBySize(node.id, size, maxSize, outlierIndex, outlierSet.size);
+    // Spiral radius grows with size and index
+    const angle = angleIncrement * index;
+    const spiralRadius = spiralSpacing * (baseOffset + size / maxSize + Math.sqrt(index));
 
-    // Use the helper function to resolve collisions
+    let pos = {
+      x: spiralRadius * Math.cos(angle),
+      y: spiralRadius * Math.sin(angle),
+    };
+
     pos = resolvePositionCollisions(pos, radius, placed);
 
     placed.push({ x: pos.x, y: pos.y, radius });
@@ -59,6 +64,7 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
       y: pos.y,
       mass: size,
       initialPosition: pos,
+      labelColor: "#ffffff"
     });
   });
 }
@@ -96,7 +102,7 @@ export function addEdgesToGraph(graph, edges, edgeThickness) {
         const baseColor = getDeterministicColor(t);
         const weightRatio = weight / maxWeight;
 
-        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.8);
+        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.9);
 
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
           weight: weight,
