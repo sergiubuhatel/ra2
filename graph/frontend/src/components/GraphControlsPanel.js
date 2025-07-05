@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "@mui/material/Button";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 
@@ -27,6 +27,8 @@ export default function GraphControlsPanel({
   edgeThickness,
   setEdgeThickness,
 }) {
+  const [showColors, setShowColors] = useState(true); // Toggle state
+
   return (
     <div
       style={{
@@ -63,35 +65,49 @@ export default function GraphControlsPanel({
 
       {industries.length > 0 && (
         <>
-          <div style={{ marginBottom: 8, fontWeight: "bold" }}>Industry Colors</div>
-          {industries.map((industry) => (
-            <div
-              key={industry}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                marginBottom: 8,
-                gap: 8,
-                flexWrap: "nowrap",
-              }}
-            >
-              <div
-                style={{
-                  flex: "1 1 auto",
-                  whiteSpace: "nowrap",
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                }}
-                title={industry}
-              >
-                {industry}
-              </div>
-              <ColorPicker
-                color={industryColors[industry] || "#888888"}
-                onChange={(color) => updateIndustryColor(industry, color)}
-              />
-            </div>
-          ))}
+          <Button
+            variant="outlined"
+            size="small"
+            fullWidth
+            onClick={() => setShowColors((prev) => !prev)}
+            sx={{ mb: 1 }}
+          >
+            {showColors ? "Hide Industry Colors" : "Show Industry Colors"}
+          </Button>
+
+          {showColors && (
+            <>
+              <div style={{ marginBottom: 8, fontWeight: "bold" }}>Industry Colors</div>
+              {industries.map((industry) => (
+                <div
+                  key={industry}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    marginBottom: 8,
+                    gap: 8,
+                    flexWrap: "nowrap",
+                  }}
+                >
+                  <div
+                    style={{
+                      flex: "1 1 auto",
+                      whiteSpace: "nowrap",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                    }}
+                    title={industry}
+                  >
+                    {industry}
+                  </div>
+                  <ColorPicker
+                    color={industryColors[industry] || "#888888"}
+                    onChange={(color) => updateIndustryColor(industry, color)}
+                  />
+                </div>
+              ))}
+            </>
+          )}
         </>
       )}
 
