@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import NodeInfoPanel from "./NodeInfoPanel";
 import useGraphLoader from "../hooks/useGraphLoader";
 import useSigmaInstance from "../hooks/useSigmaInstance";
-import {getDeterministicColor} from "../utils/colors";
+import { getDeterministicColor } from "../utils/colors";
 import GraphControlsPanel from "./GraphControlsPanel";
 
 export default function NetworkGraph() {
@@ -13,7 +13,13 @@ export default function NetworkGraph() {
   const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(30);
   const [edgeThickness, setEdgeThickness] = useState(2);
-  const { graph, error } = useGraphLoader(fileContent, industryColors, edgeThickness, nodeSizeFactor);
+
+  const { graph, error } = useGraphLoader(
+    fileContent,
+    industryColors,
+    edgeThickness,
+    nodeSizeFactor
+  );
 
   useSigmaInstance(containerRef, graph, setSelectedNode);
 
@@ -21,7 +27,9 @@ export default function NetworkGraph() {
 
   const industries = React.useMemo(() => {
     if (!fileContent?.nodes) return [];
-    const setIndustries = new Set(fileContent.nodes.map((n) => n.industry).filter(Boolean));
+    const setIndustries = new Set(
+      fileContent.nodes.map((n) => n.industry).filter(Boolean)
+    );
     return Array.from(setIndustries);
   }, [fileContent]);
 
@@ -92,9 +100,16 @@ export default function NetworkGraph() {
         <div style={{ flex: 1, display: "flex" }}>
           <div
             ref={containerRef}
-            style={{ flex: 3, border: "1px solid #ccc", position: "relative", background:"#000200" }}
+            style={{
+              flex: 3,
+              border: "1px solid #ccc",
+              position: "relative",
+              background: "#000200",
+            }}
           />
-          <NodeInfoPanel node={selectedNode} />
+          {selectedNode && (
+            <NodeInfoPanel node={selectedNode} onClose={() => setSelectedNode(null)} />
+          )}
         </div>
       </div>
     </div>

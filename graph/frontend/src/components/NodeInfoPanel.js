@@ -1,19 +1,37 @@
-// NodeInfoPanel.js
 import React from "react";
+import IconButton from "@mui/material/IconButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-export default function NodeInfoPanel({ node }) {
+export default function NodeInfoPanel({ node, onClose }) {
   return (
     <div
       style={{
         flex: 1,
         padding: "10px",
         borderLeft: "1px solid #ccc",
-        background: "#f9f9f9",
+        background: "#CECECC",
+        position: "relative",
         overflowY: "auto",
-        background: "#CECECC"
       }}
     >
+      {/* X Button using MUI + Font Awesome */}
+      <IconButton
+        onClick={onClose}
+        size="small"
+        sx={{
+          position: "absolute",
+          top: 8,
+          right: 8,
+          color: "#333",
+        }}
+        title="Close panel"
+      >
+        <FontAwesomeIcon icon={faTimes} />
+      </IconButton>
+
       <h3>Node Info</h3>
+
       {node ? (
         <div>
           <p><strong>Ticker:</strong> {node.label}</p>
