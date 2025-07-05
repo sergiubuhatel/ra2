@@ -38,3 +38,23 @@ export function getDeterministicColor(key) {
 export function getRandomColor() {
     return "#" + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, "0");
 }
+
+// utils/hexToRgba.js
+export function hexToRgba(hex, alpha = 1) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha.toFixed(2)})`;
+}
+
+export function blendWithBlack(hex, amount) {
+  // hex: "#RRGGBB", amount: 0 (no blend) to 1 (full black)
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+
+  const blend = (channel) =>
+    Math.round(channel * (1 - amount)); // blend toward 0 (black)
+
+  return `rgb(${blend(r)}, ${blend(g)}, ${blend(b)})`;
+}

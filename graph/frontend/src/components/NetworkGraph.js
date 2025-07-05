@@ -11,7 +11,7 @@ export default function NetworkGraph() {
   const [fileContent, setFileContent] = useState(null);
   const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
-  const [nodeSizeFactor, setNodeSizeFactor] = useState(30);
+  const [nodeSizeFactor, setNodeSizeFactor] = useState(25);
   const [edgeThickness, setEdgeThickness] = useState(2);
 
   const { graph, error } = useGraphLoader(

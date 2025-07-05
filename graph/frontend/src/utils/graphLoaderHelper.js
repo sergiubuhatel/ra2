@@ -91,13 +91,10 @@ export function getMaxEdgeWeight(graph) {
 export function setEdgeThickness(graph) {
   const maxWeight = getMaxEdgeWeight(graph);
 
-  const minThickness = 1;
-  const maxThickness = 25;
-
   graph.forEachEdge((edgeId, attributes) => {
     const weight = attributes.weight || 1;
     const thickness = mapWeightToThickness(weight, maxWeight);
-    graph.setEdgeAttribute(edgeId, "size", thickness);
+    graph.setEdgeAttribute(edgeId, "size", thickness *0.2);
   });
 }
 

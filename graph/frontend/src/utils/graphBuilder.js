@@ -9,7 +9,7 @@ import {
   edgeColorScale,
   mapWeightToThickness,
   } from "./graphLoaderHelper";
-import {getDeterministicColor} from "../utils/colors";
+import {getDeterministicColor, hexToRgba, blendWithBlack } from "../utils/colors";
 
 export function calculateNodeSizes(nodes, factor) {
   const maxCentrality = Math.max(...nodes.map(n => n.eigenvector_centrality || 0));
@@ -76,7 +76,11 @@ export function getMaxEdgeWeight(edges) {
 
 export function addEdgesToGraph(graph, edges, edgeThickness) {
   const maxWeight = getMaxEdgeWeight(edges);
-  edges.forEach((edge, i) => {
+
+  // Sort edges by weight ASCENDING so heavier ones are added LAST
+  const sortedEdges = [...edges].sort((a, b) => (a.weight || 0.1) - (b.weight || 0.1));
+
+  sortedEdges.forEach((edge, i) => {
     const edgeId = `e${i}`;
     if (
       graph.hasNode(edge.source) &&
@@ -88,11 +92,17 @@ export function addEdgesToGraph(graph, edges, edgeThickness) {
       const weight = edge.weight || 0.1;
 
       const thickness = mapWeightToThickness(weight, maxWeight);
-      if(thickness > edgeThickness) {
+      if (thickness > edgeThickness) {
+        const baseColor = getDeterministicColor(t);
+        const weightRatio = weight / maxWeight;
+
+        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.8);
+
         graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-            weight: weight,
-            color: getDeterministicColor(t),
-            curvature: 0.25, // ✅ this makes edges curved
+          weight: weight,
+          color: fadedColor,
+          size: thickness, // use `size` for edge width if needed
+          curvature: 0.25,
         });
       }
     }
