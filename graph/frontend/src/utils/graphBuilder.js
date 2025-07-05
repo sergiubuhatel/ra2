@@ -70,7 +70,7 @@ export function assignNodeAttributes(graph, nodes, nodeSizes, outlierSet, indust
       y: pos.y,
       mass: size,
       initialPosition: pos,
-      labelColor: "#ffffff",
+      //labelColor: "#ffffff",
     });
   });
 }

@@ -21,12 +21,19 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       defaultNodeColor: "#0074D9",
       edgeHoverSizeRatio: 1.2,
       animationsTime: 1000,
-    
+
+      labelSizeRatio: 0.5,
+      labelRenderedSizeThreshold: 0,
+
       defaultEdgeType: "curve",
       edgeProgramClasses: {
         curve: EdgeCurveProgram,
-      }
+      },
+
+      // ✅ Label color setup
+      labelColor: { color: "gray" }
     });
+
 
     sigmaRef.current = sigma;
 
