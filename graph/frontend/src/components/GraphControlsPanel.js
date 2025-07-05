@@ -4,7 +4,11 @@ import UploadFileIcon from "@mui/icons-material/UploadFile";
 
 // Font Awesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEye,
+  faEyeSlash,
+  faPalette,
+} from "@fortawesome/free-solid-svg-icons";
 
 // Simple color input component
 function ColorPicker({ color, onChange }) {
@@ -64,55 +68,76 @@ export default function GraphControlsPanel({
       />
 
       {fileName && (
-        <div style={{ marginBottom: 20, fontSize: "0.9rem", color: "#555" }}>{fileName}</div>
+        <div
+          style={{
+            marginBottom: 20,
+            fontSize: "0.9rem",
+            color: "#555",
+          }}
+        >
+          {fileName}
+        </div>
       )}
 
       {industries.length > 0 && (
         <>
-          <Button
-            variant="outlined"
-            size="small"
-            fullWidth
+          {/* Combined header + toggle */}
+          <div
             onClick={() => setShowColors((prev) => !prev)}
-            sx={{ mb: 1, justifyContent: "flex-start", gap: 1 }}
+            title={showColors ? "Hide industry colors" : "Show industry colors"}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              backgroundColor: "#f4f4f4",
+              border: "1px solid #ccc",
+              borderRadius: 4,
+              padding: "6px 10px",
+              marginBottom: 8,
+              cursor: "pointer",
+              fontWeight: "bold",
+              boxShadow: "1px 1px 3px rgba(0,0,0,0.1)",
+              userSelect: "none",
+            }}
           >
+            <span style={{ display: "flex", alignItems: "center", gap: 6 }}>
+              <FontAwesomeIcon icon={faPalette} />
+              Industry Colors
+            </span>
             <FontAwesomeIcon icon={showColors ? faEyeSlash : faEye} />
-            {showColors ? "Industry Colors" : "Industry Colors"}
-          </Button>
+          </div>
 
-          {showColors && (
-            <>
-              <div style={{ marginBottom: 8, fontWeight: "bold" }}>Industry Colors</div>
-              {industries.map((industry) => (
+          {showColors &&
+            industries.map((industry) => (
+              <div
+                key={industry}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginBottom: 8,
+                  gap: 8,
+                  flexWrap: "nowrap",
+                }}
+              >
                 <div
-                  key={industry}
                   style={{
-                    display: "flex",
-                    alignItems: "center",
-                    marginBottom: 8,
-                    gap: 8,
-                    flexWrap: "nowrap",
+                    flex: "1 1 auto",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
                   }}
+                  title={industry}
                 >
-                  <div
-                    style={{
-                      flex: "1 1 auto",
-                      whiteSpace: "nowrap",
-                      overflow: "hidden",
-                      textOverflow: "ellipsis",
-                    }}
-                    title={industry}
-                  >
-                    {industry}
-                  </div>
-                  <ColorPicker
-                    color={industryColors[industry] || "#888888"}
-                    onChange={(color) => updateIndustryColor(industry, color)}
-                  />
+                  {industry}
                 </div>
-              ))}
-            </>
-          )}
+                <ColorPicker
+                  color={industryColors[industry] || "#888888"}
+                  onChange={(color) =>
+                    updateIndustryColor(industry, color)
+                  }
+                />
+              </div>
+            ))}
         </>
       )}
 
@@ -133,7 +158,9 @@ export default function GraphControlsPanel({
       </div>
 
       <div style={{ marginTop: 20 }}>
-        <div style={{ fontWeight: "bold", marginBottom: 8 }}>Edge Thickness Threshold</div>
+        <div style={{ fontWeight: "bold", marginBottom: 8 }}>
+          Edge Thickness Threshold
+        </div>
         <input
           type="range"
           min="1"
