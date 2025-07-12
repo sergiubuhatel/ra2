@@ -1,25 +1,33 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState, useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import NodeInfoPanel from "./NodeInfoPanel";
 import useGraphLoader from "../hooks/useGraphLoader";
 import useSigmaInstance from "../hooks/useSigmaInstance";
 import { getDeterministicColor } from "../utils/colors";
 import GraphControlsPanel from "./GraphControlsPanel";
-import { setFileContent, setFileName } from "../store/fileSlice";
-
+import {
+  setFileContent,
+  setFileName,
+  setIndustries,
+  setIndustryColors,
+  updateIndustryColor as updateIndustryColorAction,
+} from "../store/fileSlice";
 
 export default function NetworkGraph() {
   const containerRef = useRef(null);
+  const fileInputRef = useRef(null);
   const [selectedNode, setSelectedNode] = useState(null);
-  const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(25);
   const [edgeThickness, setEdgeThickness] = useState(1);
 
   const dispatch = useDispatch();
+
   const fileContent = useSelector((state) => state.file.content);
   const fileName = useSelector((state) => state.file.name);
+  const industries = useSelector((state) => state.file.industries);
+  const industryColors = useSelector((state) => state.file.industryColors);
 
-
+  // Load graph
   const { graph, error } = useGraphLoader(
     fileContent,
     industryColors,
@@ -29,9 +37,7 @@ export default function NetworkGraph() {
 
   const simulateClick = useSigmaInstance(containerRef, graph, setSelectedNode);
 
-  const fileInputRef = useRef(null);
-
-  const industries = React.useMemo(() => {
+  const calculatedIndustries = useMemo(() => {
     if (!fileContent?.nodes) return [];
     const setIndustries = new Set(
       fileContent.nodes.map((n) => n.industry).filter(Boolean)
@@ -39,20 +45,24 @@ export default function NetworkGraph() {
     return Array.from(setIndustries);
   }, [fileContent]);
 
+  // Set industries and their colors in Redux on file load
   useEffect(() => {
     if (!fileContent) {
-      setIndustryColors({});
+      dispatch(setIndustries([]));
+      dispatch(setIndustryColors({}));
       return;
     }
 
-    setIndustryColors((oldColors) => {
-      const newColors = {};
-      industries.forEach((ind) => {
-        newColors[ind] = oldColors[ind] || getDeterministicColor(ind);
-      });
-      return newColors;
+    dispatch(setIndustries(calculatedIndustries));
+
+    const defaultColors = {};
+    calculatedIndustries.forEach((ind) => {
+      defaultColors[ind] =
+        industryColors[ind] || getDeterministicColor(ind);
     });
-  }, [industries, fileContent]);
+
+    dispatch(setIndustryColors(defaultColors));
+  }, [fileContent, calculatedIndustries]);
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -77,9 +87,9 @@ export default function NetworkGraph() {
     fileInputRef.current?.click();
   };
 
-  function updateIndustryColor(industry, color) {
-    setIndustryColors((prev) => ({ ...prev, [industry]: color }));
-  }
+  const updateIndustryColor = (industry, color) => {
+    dispatch(updateIndustryColorAction({ industry, color }));
+  };
 
   return (
     <div style={{ display: "flex", height: "90vh" }}>
@@ -114,7 +124,11 @@ export default function NetworkGraph() {
             }}
           />
           {selectedNode && (
-            <NodeInfoPanel node={selectedNode} onClose={() => setSelectedNode(null)} simulateClick={simulateClick}/>
+            <NodeInfoPanel
+              node={selectedNode}
+              onClose={() => setSelectedNode(null)}
+              simulateClick={simulateClick}
+            />
           )}
         </div>
       </div>

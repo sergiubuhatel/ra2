@@ -1,21 +1,24 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 import Button from "@mui/material/Button";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
-import IndustryColorPicker from "./IndustryColorPicker"; // 👈 Import the new component
+import IndustryColorPicker from "./IndustryColorPicker";
+import { updateIndustryColor as updateIndustryColorAction } from "../store/fileSlice"; // adjust path as needed
 
 export default function GraphControlsPanel({
   fileInputRef,
   openFileDialog,
   handleFileChange,
   fileName,
-  industries,
-  industryColors,
-  updateIndustryColor,
-  nodeSizeFactor,
-  setNodeSizeFactor,
-  edgeThickness,
-  setEdgeThickness,
 }) {
+  const dispatch = useDispatch();
+  const industries = useSelector((state) => state.file.industries);
+  const industryColors = useSelector((state) => state.file.industryColors);
+
+  const updateIndustryColor = (industry, color) => {
+    dispatch(updateIndustryColorAction({ industry, color }));
+  };
+
   return (
     <div
       style={{
@@ -58,7 +61,6 @@ export default function GraphControlsPanel({
         </div>
       )}
 
-      {/* Extracted component */}
       <IndustryColorPicker
         industries={industries}
         industryColors={industryColors}
