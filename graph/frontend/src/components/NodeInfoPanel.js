@@ -31,31 +31,51 @@ export default function NodeInfoPanel({ node, onClose }) {
         <FontAwesomeIcon icon={faTimes} />
       </IconButton>
 
-      <h3 style={{ marginTop: 0 }}>Node Info</h3>
+      <h3 style={{ marginTop: 0 }}>Information Pane</h3>
 
       {node ? (
         <div>
           <p>
-            <strong>Ticker:</strong> {node.label}
+            <strong>{node.label}</strong> 
           </p>
-          <p>
-            <strong>Industry:</strong> {node.industry}
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+              <strong>Industry:</strong> {node.industry}
           </p>
-          <p>
-            <strong>Eigenvector Centrality:</strong>{" "}
-            {node.eigenvector_centrality?.toFixed(4)}
+          <p style={{ fontSize: '0.85em' }}>
+            <strong>Centrality Measures:</strong> 
           </p>
-          <p>
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Closeness Centrality:</strong>{" "}
+            {node.closeness_centrality?.toFixed(4)}
+          </p>          
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Harmonic Closeness Centrality:</strong>{" "}
+          </p>          
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
             <strong>Betweenness Centrality:</strong>{" "}
             {node.betweenness_centrality?.toFixed(4)}
           </p>
-          <p>
-            <strong>Closeness Centrality:</strong>{" "}
-            {node.closeness_centrality?.toFixed(4)}
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Eigenvector Centrality:</strong>{" "}
+            {node.eigenvector_centrality?.toFixed(4)}
           </p>
+          <p style={{ fontSize: '0.85em' }}>
+            <strong>Other Measures:</strong> 
+          </p>
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Degree:</strong>{" "}
+          </p>          
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Weighted Degree:</strong>{" "}
+          </p>          
+          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+            <strong>Eccentricity:</strong>{" "}
+          </p>          
           <p>
-            <strong>Degree Centrality:</strong>{" "}
-            {node.degree_centrality?.toFixed(4)}
+            <strong>Connections:</strong> 
+          </p>
+          <p style={{ marginLeft: '5px', fontSize: '0.85em' }}>
+            <strong>Connected Firms ()</strong> 
           </p>
         </div>
       ) : (
