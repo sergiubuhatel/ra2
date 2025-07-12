@@ -71,7 +71,7 @@ export function resolvePositionCollisions(pos, radius, placedNodes, padding = 3,
 
 export function mapWeightToThickness(weight, maxWeight) {
   const minThickness = 1;
-  const maxThickness = 25;
+  const maxThickness = 50;
 
   if (maxWeight === 0) return minThickness; // avoid division by zero
   const normalized = weight / maxWeight;
@@ -94,7 +94,7 @@ export function setEdgeThickness(graph) {
   graph.forEachEdge((edgeId, attributes) => {
     const weight = attributes.weight || 1;
     const thickness = mapWeightToThickness(weight, maxWeight);
-    graph.setEdgeAttribute(edgeId, "size", thickness *0.2);
+    graph.setEdgeAttribute(edgeId, "size", thickness *0.1);
   });
 }
 

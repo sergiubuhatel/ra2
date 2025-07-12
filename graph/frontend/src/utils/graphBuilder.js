@@ -112,7 +112,7 @@ export function addEdgesToGraph(graph, edges, edgeThickness) {
       if (thickness > edgeThickness) {
         // Fade based on how low the lower centrality is (range: 0.0 - 1.0)
         const fadeStrength = 1 - lowCentrality; // lower centrality = more fade
-        const fadedColor = blendWithBlack(highNode.color, fadeStrength * 0.75);
+        const fadedColor = blendWithBlack(highNode.color, fadeStrength * 0.8);
 
         graph.addEdgeWithKey(edgeId, source, target, {
           weight,
