@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import IconButton from "@mui/material/IconButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,39 +12,38 @@ export default function NodeInfoPanel({ node, onClose }) {
     const seen = new Set();
 
     return edges
-      .filter(edge => edge.source === sourceTicker)
+      .filter((edge) => edge.source === sourceTicker)
       .sort((a, b) => b.weight - a.weight)
-      .filter(edge => {
+      .filter((edge) => {
         if (seen.has(edge.target)) return false;
         seen.add(edge.target);
         return true;
       })
-      .map(edge => edge.target);
+      .map((edge) => edge.target);
   };
 
   useEffect(() => {
-    if (fileContent) {
-      console.log("File content has changed:", fileContent);
+    if (node && fileContent && fileContent.edges) {
+      setConnections(getSortedUniqueTargetsBySource(node.label, fileContent.edges));
+    } else {
+      setConnections([]);
     }
-  }, [fileContent]);
-
-  useEffect(() => {
-    setConnections(getSortedUniqueTargetsBySource(node.label, fileContent.edges));
-  }, [node]);
+  }, [node, fileContent]);
 
   return (
     <div
       style={{
-        flex: "0 0 280px",  // fixed width
+        flex: "0 0 280px", // fixed width
+        height: "100vh",   // full viewport height
         padding: "10px",
         borderLeft: "1px solid #ccc",
         background: "#CECECC",
         position: "relative",
-        overflowY: "auto",
+        overflowY: "auto", // scroll only inside this panel
         boxSizing: "border-box",
       }}
     >
-      {/* X Button using MUI + Font Awesome */}
+      {/* Close Button */}
       <IconButton
         onClick={onClose}
         size="small"
@@ -53,6 +52,7 @@ export default function NodeInfoPanel({ node, onClose }) {
           top: 8,
           right: 8,
           color: "#333",
+          zIndex: 1,
         }}
         title="Close panel"
       >
@@ -63,49 +63,42 @@ export default function NodeInfoPanel({ node, onClose }) {
 
       {node ? (
         <div>
-          <p>
-            <strong>{node.label}</strong> 
+          <p><strong>{node.label}</strong></p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Industry:</strong> {node.industry}
           </p>
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-              <strong>Industry:</strong> {node.industry}
+          <p style={{ fontSize: "0.85em" }}>
+            <strong>Centrality Measures:</strong>
           </p>
-          <p style={{ fontSize: '0.85em' }}>
-            <strong>Centrality Measures:</strong> 
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Closeness Centrality:</strong> {node.closeness_centrality?.toFixed(4)}
           </p>
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-            <strong>Closeness Centrality:</strong>{" "}
-            {node.closeness_centrality?.toFixed(4)}
-          </p>          
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
             <strong>Harmonic Closeness Centrality:</strong>{" "}
-          </p>          
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-            <strong>Betweenness Centrality:</strong>{" "}
-            {node.betweenness_centrality?.toFixed(4)}
           </p>
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-            <strong>Eigenvector Centrality:</strong>{" "}
-            {node.eigenvector_centrality?.toFixed(4)}
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Betweenness Centrality:</strong> {node.betweenness_centrality?.toFixed(4)}
           </p>
-          <p style={{ fontSize: '0.85em' }}>
-            <strong>Other Measures:</strong> 
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Eigenvector Centrality:</strong> {node.eigenvector_centrality?.toFixed(4)}
           </p>
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
+          <p style={{ fontSize: "0.85em" }}>
+            <strong>Other Measures:</strong>
+          </p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
             <strong>Degree:</strong>{" "}
-          </p>          
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-            <strong>Weighted Degree:</strong>{" "}
-          </p>          
-          <p style={{ marginLeft: '16px', fontSize: '0.85em' }}>
-            <strong>Eccentricity:</strong>{" "}
-          </p>          
-          <p>
-            <strong>Connections:</strong> 
           </p>
-          <p style={{ marginLeft: '5px', fontSize: '0.85em' }}>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Weighted Degree:</strong>{" "}
+          </p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+            <strong>Eccentricity:</strong>{" "}
+          </p>
+          <p><strong>Connections:</strong></p>
+          <p style={{ marginLeft: "5px", fontSize: "0.85em" }}>
             <strong>Connected Firms ({connections.length})</strong>
           </p>
-          <ul style={{ marginLeft: '20px', fontSize: '0.85em' }}>
+          <ul style={{ marginLeft: "20px", fontSize: "0.85em" }}>
             {connections.map((ticker) => (
               <li key={ticker}>{ticker}</li>
             ))}
