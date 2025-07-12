@@ -42,10 +42,6 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       onNodeSelect(attrs);
     });
 
-    sigma.on("clickStage", () => {
-      onNodeSelect(null);
-    });
-
     return () => {
       sigma.kill();
       sigmaRef.current = null;
