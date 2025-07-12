@@ -1,5 +1,3 @@
-import chroma from "chroma-js";
-
 const colorPalette = [
   "#e41a1c", // red
   "#377eb8", // blue

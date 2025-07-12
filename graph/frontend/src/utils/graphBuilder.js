@@ -1,15 +1,12 @@
-import Graph from "graphology";
 import chroma from "chroma-js";
 import forceAtlas2 from "graphology-layout-forceatlas2";
 import {
-  getPositionBySize,
   hashStringToInt,
   resolvePositionCollisions,
   setEdgeThickness,
-  edgeColorScale,
   mapWeightToThickness,
   } from "./graphLoaderHelper";
-import {getDeterministicColor, hexToRgba, blendWithBlack } from "../utils/colors";
+import {getDeterministicColor, blendWithBlack } from "../utils/colors";
 
 export function calculateNodeSizes(nodes, factor) {
   const maxCentrality = Math.max(...nodes.map(n => n.eigenvector_centrality || 0));

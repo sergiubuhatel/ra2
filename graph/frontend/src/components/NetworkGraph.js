@@ -1,18 +1,24 @@
 import React, { useRef, useState, useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import NodeInfoPanel from "./NodeInfoPanel";
 import useGraphLoader from "../hooks/useGraphLoader";
 import useSigmaInstance from "../hooks/useSigmaInstance";
 import { getDeterministicColor } from "../utils/colors";
 import GraphControlsPanel from "./GraphControlsPanel";
+import { setFileContent, setFileName } from "../store/fileSlice";
+
 
 export default function NetworkGraph() {
   const containerRef = useRef(null);
   const [selectedNode, setSelectedNode] = useState(null);
-  const [fileContent, setFileContent] = useState(null);
-  const [fileName, setFileName] = useState("");
   const [industryColors, setIndustryColors] = useState({});
   const [nodeSizeFactor, setNodeSizeFactor] = useState(25);
   const [edgeThickness, setEdgeThickness] = useState(1);
+
+  const dispatch = useDispatch();
+  const fileContent = useSelector((state) => state.file.content);
+  const fileName = useSelector((state) => state.file.name);
+
 
   const { graph, error } = useGraphLoader(
     fileContent,
@@ -52,16 +58,16 @@ export default function NetworkGraph() {
     const file = event.target.files[0];
     if (!file) return;
 
-    setFileName(file.name);
+    dispatch(setFileName(file.name));
 
     const reader = new FileReader();
     reader.onload = (e) => {
       try {
         const json = JSON.parse(e.target.result);
-        setFileContent(json);
+        dispatch(setFileContent(json));
       } catch {
         alert("Invalid JSON file");
-        setFileContent(null);
+        dispatch(setFileContent(null));
       }
     };
     reader.readAsText(file);
