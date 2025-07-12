@@ -8,6 +8,21 @@ export default function NodeInfoPanel({ node, onClose }) {
   const [connections, setConnections] = useState([]);
   const fileContent = useSelector((state) => state.file.content);
 
+  // Build this once, e.g., in useEffect or memo:
+  const nodeMap = React.useMemo(() => {
+    const map = {};
+    if (fileContent?.nodes) {
+      for (let node of fileContent.nodes) {
+        map[node.id] = node;
+      }
+    }
+    return map;
+  }, [fileContent]);
+
+  // Then just do:
+  const getNodeByTicker = (ticker) => nodeMap[ticker] || null;
+
+
   const getSortedUniqueTargetsBySource = (sourceTicker, edges) => {
     const seen = new Set();
 
@@ -100,7 +115,7 @@ export default function NodeInfoPanel({ node, onClose }) {
           </p>
           <ul style={{ marginLeft: "20px", fontSize: "0.85em" }}>
             {connections.map((ticker) => (
-              <li key={ticker}>{ticker}</li>
+              <li key={ticker}>{ticker} ({getNodeByTicker(ticker).industry})</li>
             ))}
           </ul>
         </div>
