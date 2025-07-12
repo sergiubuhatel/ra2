@@ -4,7 +4,7 @@ import IconButton from "@mui/material/IconButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
-export default function NodeInfoPanel({ node, onClose, onSelectNode }) {
+export default function NodeInfoPanel({ node, onClose, simulateClick }) {
   const [connections, setConnections] = useState([]);
   const fileContent = useSelector((state) => state.file.content);
 
@@ -111,7 +111,7 @@ export default function NodeInfoPanel({ node, onClose, onSelectNode }) {
               return (
                 <li key={ticker} style={{ cursor: "pointer", marginBottom: 4 }}>
                   <span
-                    onClick={() => onSelectNode(connNode)}
+                    onClick={() => simulateClick(connNode.id)}
                     style={{ color: "#0055cc", textDecoration: "underline" }}
                     title="Click to view node"
                   >

@@ -27,7 +27,7 @@ export default function NetworkGraph() {
     nodeSizeFactor
   );
 
-  useSigmaInstance(containerRef, graph, setSelectedNode);
+  const simulateClick = useSigmaInstance(containerRef, graph, setSelectedNode);
 
   const fileInputRef = useRef(null);
 
@@ -114,7 +114,7 @@ export default function NetworkGraph() {
             }}
           />
           {selectedNode && (
-            <NodeInfoPanel node={selectedNode} onClose={() => setSelectedNode(null)} />
+            <NodeInfoPanel node={selectedNode} onClose={() => setSelectedNode(null)} simulateClick={simulateClick}/>
           )}
         </div>
       </div>
