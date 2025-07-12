@@ -87,31 +87,37 @@ export function getMaxEdgeWeight(edges) {
 export function addEdgesToGraph(graph, edges, edgeThickness) {
   const maxWeight = getMaxEdgeWeight(edges);
 
-  // Sort edges by weight ASCENDING so heavier ones are added LAST
   const sortedEdges = [...edges].sort((a, b) => (a.weight || 0.1) - (b.weight || 0.1));
 
   sortedEdges.forEach((edge, i) => {
     const edgeId = `e${i}`;
+    const { source, target, weight = 0.1 } = edge;
+
     if (
-      graph.hasNode(edge.source) &&
-      graph.hasNode(edge.target) &&
-      !graph.hasEdge(edge.source, edge.target)
+      graph.hasNode(source) &&
+      graph.hasNode(target) &&
+      !graph.hasEdge(source, target)
     ) {
-      const hash = hashStringToInt(edgeId);
-      const t = (hash % 10000) / 10000;
-      const weight = edge.weight || 0.1;
+      const sourceNode = graph.getNodeAttributes(source);
+      const targetNode = graph.getNodeAttributes(target);
+
+      const sourceCentrality = sourceNode.eigenvector_centrality || 0;
+      const targetCentrality = targetNode.eigenvector_centrality || 0;
+
+      const highNode = sourceCentrality >= targetCentrality ? sourceNode : targetNode;
+      const lowCentrality = Math.min(sourceCentrality, targetCentrality);
 
       const thickness = mapWeightToThickness(weight, maxWeight);
+
       if (thickness > edgeThickness) {
-        const baseColor = getDeterministicColor(t);
-        const weightRatio = weight / maxWeight;
+        // Fade based on how low the lower centrality is (range: 0.0 - 1.0)
+        const fadeStrength = 1 - lowCentrality; // lower centrality = more fade
+        const fadedColor = blendWithBlack(highNode.color, fadeStrength * 0.75);
 
-        const fadedColor = blendWithBlack(baseColor, (1 - weightRatio) * 0.8);
-
-        graph.addEdgeWithKey(edgeId, edge.source, edge.target, {
-          weight: weight,
+        graph.addEdgeWithKey(edgeId, source, target, {
+          weight,
           color: fadedColor,
-          size: thickness, // use `size` for edge width if needed
+          size: thickness,
           curvature: 0.25,
         });
       }
