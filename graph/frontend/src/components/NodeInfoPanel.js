@@ -46,6 +46,20 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
     }
   }, [node, fileContent]);
 
+  const formatDecimals = (value) => {
+    if (typeof value !== "number") return "";
+
+    const rounded = Number(value.toFixed(4));
+    const decimals = rounded.toFixed(4).slice(2, 5); // Extract first 3 decimal digits
+
+    if (decimals.split("").some(d => d !== "0")) {
+      if (decimals[2] !== "0") return rounded.toFixed(3); // Use 3 decimals
+      return rounded.toFixed(2); // Use 2 decimals
+    }
+
+    return rounded.toFixed(1); // All three decimals are zero
+  };
+
   return (
     <div
       style={{
@@ -86,16 +100,16 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
           {/* Centralities */}
           <p style={{ fontSize: "0.85em" }}><strong>Centrality Measures:</strong></p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Closeness Centrality:</strong> {node.closeness_centrality?.toFixed(4)}
+            <strong>Closeness Centrality:</strong> {formatDecimals(node.closeness_centrality)}
           </p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
             <strong>Harmonic Closeness Centrality:</strong>
           </p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Betweenness Centrality:</strong> {node.betweenness_centrality?.toFixed(4)}
+            <strong>Betweenness Centrality:</strong> {formatDecimals(node.betweenness_centrality)}
           </p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Eigenvector Centrality:</strong> {node.eigenvector_centrality?.toFixed(4)}
+            <strong>Eigenvector Centrality:</strong> {formatDecimals(node.eigenvector_centrality)}
           </p>
 
           {/* Other Measures */}
