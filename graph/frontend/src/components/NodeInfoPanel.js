@@ -20,22 +20,27 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
 
   const getNodeByTicker = (ticker) => nodeMap[ticker] || null;
 
-  const getSortedUniqueTargetsBySource = (sourceTicker, edges) => {
+  const getSortedUniqueConnections = (ticker, edges) => {
     const seen = new Set();
-    return edges
-      .filter((edge) => edge.source === sourceTicker)
+    const connections = [];
+
+    edges
+      .filter(edge => edge.source === ticker || edge.target === ticker)
       .sort((a, b) => b.weight - a.weight)
-      .filter((edge) => {
-        if (seen.has(edge.target)) return false;
-        seen.add(edge.target);
-        return true;
-      })
-      .map((edge) => edge.target);
+      .forEach(edge => {
+        const other = edge.source === ticker ? edge.target : edge.source;
+        if (!seen.has(other)) {
+          seen.add(other);
+          connections.push(other);
+        }
+      });
+
+    return connections;
   };
 
   useEffect(() => {
     if (node && fileContent?.edges) {
-      setConnections(getSortedUniqueTargetsBySource(node.label, fileContent.edges));
+      setConnections(getSortedUniqueConnections(node.label, fileContent.edges));
     } else {
       setConnections([]);
     }
