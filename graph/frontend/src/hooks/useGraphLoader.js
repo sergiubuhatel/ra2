@@ -22,11 +22,13 @@ export default function useGraphLoader(fileContent = null, industryColors = {}, 
     try {
       const g = new Graph();
 
-      const nodeSizes = calculateNodeSizes(fileContent.nodes, nodeSizeFactor);
-      const outlierSet = identifyOutliers(fileContent.nodes, nodeSizes);
+      if(fileContent.nodes) {
+        const nodeSizes = calculateNodeSizes(fileContent.nodes, nodeSizeFactor);
+        const outlierSet = identifyOutliers(fileContent.nodes, nodeSizes);
 
-      assignNodeAttributes(g, fileContent.nodes, nodeSizes, outlierSet, industryColors);
-      addEdgesToGraph(g, fileContent.edges, edgeThickness);
+        assignNodeAttributes(g, fileContent.nodes, nodeSizes, outlierSet, industryColors);
+        addEdgesToGraph(g, fileContent.edges, edgeThickness);
+      }
       runLayoutAndPostProcessing(g);
 
       setGraph(g);

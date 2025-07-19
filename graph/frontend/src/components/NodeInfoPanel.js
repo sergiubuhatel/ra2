@@ -71,10 +71,8 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
 
   const handleRemoveNode = () => {
     if (!node) return;
-    if (window.confirm(`Are you sure you want to remove node "${node.label}"?`)) {
-      dispatch(removeNodeAction(node.id));
-      onClose();
-    }
+    dispatch(removeNodeAction(node.id));
+    onClose();
   };
 
   return (

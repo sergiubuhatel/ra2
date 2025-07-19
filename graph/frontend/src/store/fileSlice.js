@@ -7,12 +7,15 @@ const fileSlice = createSlice({
     edges: [],
     content: null,
     name: "",
-    industries: [],             // ← NEW
-    industryColors: {},         // ← NEW
+    industries: [],
+    industryColors: {},
   },
   reducers: {
     setFileContent(state, action) {
-      state.content = action.payload;
+      const content = action.payload || {};
+      state.content = content;
+      state.nodes = content.nodes || [];
+      state.edges = content.edges || [];
     },
     setFileName(state, action) {
       state.name = action.payload;
@@ -27,11 +30,9 @@ const fileSlice = createSlice({
       const { industry, color } = action.payload;
       state.industryColors[industry] = color;
     },
-    removeNode: (state, action) => {
+    removeNode(state, action) {
       const nodeId = action.payload;
-      // Remove node
       state.nodes = state.nodes.filter((node) => node.id !== nodeId);
-      // Remove edges connected to this node
       state.edges = state.edges.filter(
         (edge) => edge.source !== nodeId && edge.target !== nodeId
       );
@@ -45,7 +46,7 @@ export const {
   setIndustries,
   setIndustryColors,
   updateIndustryColor,
-  removeNode
+  removeNode,
 } = fileSlice.actions;
 
 export default fileSlice.reducer;
