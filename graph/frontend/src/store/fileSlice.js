@@ -3,6 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const fileSlice = createSlice({
   name: "file",
   initialState: {
+    nodes: [],
+    edges: [],
     content: null,
     name: "",
     industries: [],             // ← NEW
@@ -25,6 +27,15 @@ const fileSlice = createSlice({
       const { industry, color } = action.payload;
       state.industryColors[industry] = color;
     },
+    removeNode: (state, action) => {
+      const nodeId = action.payload;
+      // Remove node
+      state.nodes = state.nodes.filter((node) => node.id !== nodeId);
+      // Remove edges connected to this node
+      state.edges = state.edges.filter(
+        (edge) => edge.source !== nodeId && edge.target !== nodeId
+      );
+    },
   },
 });
 
@@ -34,6 +45,7 @@ export const {
   setIndustries,
   setIndustryColors,
   updateIndustryColor,
+  removeNode
 } = fileSlice.actions;
 
 export default fileSlice.reducer;

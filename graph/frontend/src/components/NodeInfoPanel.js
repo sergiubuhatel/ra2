@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";  // added useDispatch
 import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";  // added Button
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { removeNode as removeNodeAction } from "../store/fileSlice";  // import your removeNode action
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
+  const dispatch = useDispatch();
   const [connections, setConnections] = useState([]);
   const fileContent = useSelector((state) => state.file.content);
   const industryColors = useSelector((state) => state.file.industryColors);
@@ -51,10 +54,10 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
     if (typeof value !== "number") return "";
 
     if (Number.isInteger(value)) {
-      return value.toFixed(1); // e.g. 2 → "2.0"
+      return value.toFixed(1);
     }
 
-    const rounded = Number(value.toFixed(4)); // keep 4-digit precision
+    const rounded = Number(value.toFixed(4));
     const decimals = rounded.toString().split(".")[1] || "";
 
     if (decimals.length >= 3 && decimals[2] !== "0") {
@@ -63,6 +66,14 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
       return rounded.toFixed(2);
     } else {
       return rounded.toFixed(1);
+    }
+  };
+
+  const handleRemoveNode = () => {
+    if (!node) return;
+    if (window.confirm(`Are you sure you want to remove node "${node.label}"?`)) {
+      dispatch(removeNodeAction(node.id));
+      onClose();
     }
   };
 
@@ -94,7 +105,17 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
         <FontAwesomeIcon icon={faTimes} />
       </IconButton>
 
-      <h3 style={{ marginTop: 0 }}>Information Pane</h3>
+      <h3 style={{ marginTop: 0,  marginBottom: 0 }}>Information Pane</h3>
+      {/* Remove Node Button with blue background and white text */}
+      <Button
+        variant="contained"   // changed from outlined to contained
+        color="primary"
+        size="small"
+        onClick={handleRemoveNode}
+        sx={{ marginTop: 2 }}
+      >
+        Remove Node
+      </Button>
 
       {node ? (
         <div>
