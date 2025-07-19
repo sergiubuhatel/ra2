@@ -7,7 +7,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.4346157433758028
+      "eigenvector_centrality": 0.4346157433758028,
+      "harmonic_centrality": 0.039787435021699916,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 696878
     },
     {
       "id": "AMZN",
@@ -16,7 +20,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.40977491347212947
+      "eigenvector_centrality": 0.40977491347212947,
+      "harmonic_centrality": 0.07744073069804681,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 614171
     },
     {
       "id": "FB",
@@ -25,7 +33,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.3966445237864999
+      "eigenvector_centrality": 0.3966445237864999,
+      "harmonic_centrality": 0.06611641083218989,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 571795
     },
     {
       "id": "GOOGL",
@@ -34,7 +46,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.4015158209360545
+      "eigenvector_centrality": 0.4015158209360545,
+      "harmonic_centrality": 0.07792494535904788,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 548808
     },
     {
       "id": "TSLA",
@@ -43,7 +59,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.2666491832462404
+      "eigenvector_centrality": 0.2666491832462404,
+      "harmonic_centrality": 0.09200723103900017,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 394965
     },
     {
       "id": "NFLX",
@@ -52,7 +72,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.247374058910156
+      "eigenvector_centrality": 0.247374058910156,
+      "harmonic_centrality": 0.15912703638242856,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 337416
     },
     {
       "id": "NVDA",
@@ -61,7 +85,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.2075931558235422
+      "eigenvector_centrality": 0.2075931558235422,
+      "harmonic_centrality": 0.17100138543487536,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 305195
     },
     {
       "id": "MSFT",
@@ -70,7 +98,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.21368129754721646
+      "eigenvector_centrality": 0.21368129754721646,
+      "harmonic_centrality": 0.1307394197261478,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 307863
     },
     {
       "id": "TWTR",
@@ -79,7 +111,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.16607180652718712
+      "eigenvector_centrality": 0.16607180652718712,
+      "harmonic_centrality": 0.12739996888901067,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 240201
     },
     {
       "id": "SNAP",
@@ -88,7 +124,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.007653061224489796,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.04280641532153119
+      "eigenvector_centrality": 0.04280641532153119,
+      "harmonic_centrality": 0.28997276718055803,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 81756
     },
     {
       "id": "GS",
@@ -97,7 +137,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.10913898876083754
+      "eigenvector_centrality": 0.10913898876083754,
+      "harmonic_centrality": 0.1595699397351933,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 204541
     },
     {
       "id": "BAC",
@@ -106,7 +150,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.06966432131472432
+      "eigenvector_centrality": 0.06966432131472432,
+      "harmonic_centrality": 0.175217716422406,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 180261
     },
     {
       "id": "AMD",
@@ -115,7 +163,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.06937367432317738
+      "eigenvector_centrality": 0.06937367432317738,
+      "harmonic_centrality": 0.257816305781006,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 136306
     },
     {
       "id": "INTC",
@@ -124,7 +176,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.09893364910806973
+      "eigenvector_centrality": 0.09893364910806973,
+      "harmonic_centrality": 0.1637204891917543,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 165337
     },
     {
       "id": "JPM",
@@ -133,7 +189,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.05598929964400635
+      "eigenvector_centrality": 0.05598929964400635,
+      "harmonic_centrality": 0.20881630196474307,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 151418
     },
     {
       "id": "JNJ",
@@ -142,7 +202,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.03098740622297296
+      "eigenvector_centrality": 0.03098740622297296,
+      "harmonic_centrality": 0.24645014440735455,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 96867
     },
     {
       "id": "C",
@@ -151,7 +215,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.04666462317408196
+      "eigenvector_centrality": 0.04666462317408196,
+      "harmonic_centrality": 0.12678931939467927,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 127020
     },
     {
       "id": "T",
@@ -160,7 +228,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.040663146342582016
+      "eigenvector_centrality": 0.040663146342582016,
+      "harmonic_centrality": 0.1303548331173747,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 103716
     },
     {
       "id": "GILD",
@@ -169,7 +241,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.03169284685109912
+      "eigenvector_centrality": 0.03169284685109912,
+      "harmonic_centrality": 0.2577218571032794,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 78207
     },
     {
       "id": "IBM",
@@ -178,7 +254,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.056476693943362154
+      "eigenvector_centrality": 0.056476693943362154,
+      "harmonic_centrality": 0.15151203289149903,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 111310
     },
     {
       "id": "MU",
@@ -187,7 +267,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0017006802721088435,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.03647059840237237
+      "eigenvector_centrality": 0.03647059840237237,
+      "harmonic_centrality": 0.3167237628800495,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 75077
     },
     {
       "id": "DIS",
@@ -196,7 +280,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.05757955030455958
+      "eigenvector_centrality": 0.05757955030455958,
+      "harmonic_centrality": 0.3524131546534085,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 104583
     },
     {
       "id": "F",
@@ -205,7 +293,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.06406601209831533
+      "eigenvector_centrality": 0.06406601209831533,
+      "harmonic_centrality": 0.26530454608995485,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 114488
     },
     {
       "id": "WMT",
@@ -214,7 +306,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.05411623500062393
+      "eigenvector_centrality": 0.05411623500062393,
+      "harmonic_centrality": 0.3668642152607831,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 92935
     },
     {
       "id": "MRK",
@@ -223,7 +319,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.013605442176870748,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.02140464895995717
+      "eigenvector_centrality": 0.02140464895995717,
+      "harmonic_centrality": 0.2825627271161368,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 88455
     },
     {
       "id": "GE",
@@ -232,7 +332,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.035666658341470814
+      "eigenvector_centrality": 0.035666658341470814,
+      "harmonic_centrality": 0.29338431155972106,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 88829
     },
     {
       "id": "CSCO",
@@ -241,7 +345,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.05187074829931972,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.03271087774317018
+      "eigenvector_centrality": 0.03271087774317018,
+      "harmonic_centrality": 0.5284457702227,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 77819
     },
     {
       "id": "PCLN",
@@ -250,7 +358,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.03486394557823129,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.05062426705851554
+      "eigenvector_centrality": 0.05062426705851554,
+      "harmonic_centrality": 0.3092734700584891,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 76505
     },
     {
       "id": "AMGN",
@@ -259,7 +371,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.017857142857142856,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.03687561858224397
+      "eigenvector_centrality": 0.03687561858224397,
+      "harmonic_centrality": 0.34642416254309877,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 73219
     },
     {
       "id": "PFE",
@@ -268,7 +384,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.02254592494194525
+      "eigenvector_centrality": 0.02254592494194525,
+      "harmonic_centrality": 0.2465294915822422,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 75930
     },
     {
       "id": "GM",
@@ -277,7 +397,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.04049421570397936
+      "eigenvector_centrality": 0.04049421570397936,
+      "harmonic_centrality": 0.22698744311849697,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 85422
     },
     {
       "id": "KO",
@@ -286,7 +410,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.015306122448979591,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.031423212556092185
+      "eigenvector_centrality": 0.031423212556092185,
+      "harmonic_centrality": 0.2897438884713739,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 74863
     },
     {
       "id": "BA",
@@ -295,7 +423,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.028692382583138956
+      "eigenvector_centrality": 0.028692382583138956,
+      "harmonic_centrality": 0.35588847156979697,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 65609
     },
     {
       "id": "WFC",
@@ -304,7 +436,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0017006802721088435,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.025132789954302747
+      "eigenvector_centrality": 0.025132789954302747,
+      "harmonic_centrality": 0.40510054826114306,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 76900
     },
     {
       "id": "SBUX",
@@ -313,7 +449,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.018282312925170068,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.032183677243094955
+      "eigenvector_centrality": 0.032183677243094955,
+      "harmonic_centrality": 0.28611743053634386,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 52428
     },
     {
       "id": "MS",
@@ -322,7 +462,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.19982993197278912,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.017085383281305745
+      "eigenvector_centrality": 0.017085383281305745,
+      "harmonic_centrality": 0.3996639401584471,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 50526
     },
     {
       "id": "CMG",
@@ -331,7 +475,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0008503401360544217,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.0324548597373898
+      "eigenvector_centrality": 0.0324548597373898,
+      "harmonic_centrality": 0.35707824022785384,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 63293
     },
     {
       "id": "QCOM",
@@ -340,7 +488,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.002551020408163265,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.025324446154169754
+      "eigenvector_centrality": 0.025324446154169754,
+      "harmonic_centrality": 0.2707900542554311,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 50737
     },
     {
       "id": "SRPT",
@@ -349,7 +501,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.5412414965986394,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.029159136464438327
+      "eigenvector_centrality": 0.029159136464438327,
+      "harmonic_centrality": 0.6849170847680548,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 50472
     },
     {
       "id": "XOM",
@@ -358,7 +514,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.023334310256530644
+      "eigenvector_centrality": 0.023334310256530644,
+      "harmonic_centrality": 0.2523979287690992,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 52340
     },
     {
       "id": "TGT",
@@ -367,7 +527,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0008503401360544217,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.02088891699264193
+      "eigenvector_centrality": 0.02088891699264193,
+      "harmonic_centrality": 0.25025805076257424,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 48556
     },
     {
       "id": "CAT",
@@ -376,7 +540,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.011054421768707483,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.019909265434914423
+      "eigenvector_centrality": 0.019909265434914423,
+      "harmonic_centrality": 0.3860965021020518,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 50842
     },
     {
       "id": "V",
@@ -385,7 +553,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.11437074829931973,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.01011914967784765
+      "eigenvector_centrality": 0.01011914967784765,
+      "harmonic_centrality": 0.6121901952769453,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 25410
     },
     {
       "id": "BMY",
@@ -394,7 +566,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.19472789115646258,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.00982261408595446
+      "eigenvector_centrality": 0.00982261408595446,
+      "harmonic_centrality": 0.3686556117607018,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 49890
     },
     {
       "id": "VZ",
@@ -403,7 +579,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0008503401360544217,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.023274635513922608
+      "eigenvector_centrality": 0.023274635513922608,
+      "harmonic_centrality": 0.2687311292833307,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 59078
     },
     {
       "id": "M",
@@ -412,7 +592,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.27465986394557823,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.012432411380786587
+      "eigenvector_centrality": 0.012432411380786587,
+      "harmonic_centrality": 0.45880492004422757,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 28441
     },
     {
       "id": "HD",
@@ -421,7 +605,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.018107952408323615
+      "eigenvector_centrality": 0.018107952408323615,
+      "harmonic_centrality": 0.2313725004264054,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 43037
     },
     {
       "id": "MCD",
@@ -430,7 +618,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.0,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.022963338133547485
+      "eigenvector_centrality": 0.022963338133547485,
+      "harmonic_centrality": 0.32007036712739373,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 57169
     },
     {
       "id": "X",
@@ -439,7 +631,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.03486394557823129,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.017230420528903164
+      "eigenvector_centrality": 0.017230420528903164,
+      "harmonic_centrality": 0.35279059256832995,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 37060
     },
     {
       "id": "PEP",
@@ -448,7 +644,11 @@
       "degree_centrality": 0.9999999999999999,
       "betweenness_centrality": 0.09438775510204081,
       "closeness_centrality": 1.0,
-      "eigenvector_centrality": 0.020376235716072288
+      "eigenvector_centrality": 0.020376235716072288,
+      "harmonic_centrality": 0.3353962230726761,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 49530
     }
   ],
   "edges": [

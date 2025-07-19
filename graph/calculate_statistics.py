@@ -21,13 +21,22 @@ degree_centrality = nx.degree_centrality(G)
 betweenness_centrality = nx.betweenness_centrality(G, weight="weight")
 closeness_centrality = nx.closeness_centrality(G)
 eigenvector_centrality = nx.eigenvector_centrality_numpy(G, weight="weight")
+harmonic_centrality = nx.harmonic_centrality(G, distance='weight')
+eccentricity = nx.eccentricity(G)
+unweighted_degree = dict(G.degree())
+weighted_degree = dict(G.degree(weight="weight"))
+
 
 # Add metrics to nodes
 for node_id in G.nodes():
+    G.nodes[node_id]["degree"] = unweighted_degree[node_id]
+    G.nodes[node_id]["weighted_degree"] = weighted_degree[node_id]
     G.nodes[node_id]["degree_centrality"] = degree_centrality[node_id]
     G.nodes[node_id]["betweenness_centrality"] = betweenness_centrality[node_id]
     G.nodes[node_id]["closeness_centrality"] = closeness_centrality[node_id]
     G.nodes[node_id]["eigenvector_centrality"] = eigenvector_centrality[node_id]
+    G.nodes[node_id]["harmonic_centrality"] = harmonic_centrality[node_id]
+    G.nodes[node_id]["eccentricity"] = eccentricity[node_id]
 
 # Convert nodes and edges to exportable format
 nodes = []
@@ -39,7 +48,11 @@ for node_id, attrs in G.nodes(data=True):
         "degree_centrality": attrs["degree_centrality"],
         "betweenness_centrality": attrs["betweenness_centrality"],
         "closeness_centrality": attrs["closeness_centrality"],
-        "eigenvector_centrality": attrs["eigenvector_centrality"]
+        "eigenvector_centrality": attrs["eigenvector_centrality"],
+        "harmonic_centrality": attrs["harmonic_centrality"],
+        "eccentricity": attrs["eccentricity"],
+        "degree": attrs["degree"],
+        "weighted_degree": attrs["weighted_degree"]
     })
 
 edges = []

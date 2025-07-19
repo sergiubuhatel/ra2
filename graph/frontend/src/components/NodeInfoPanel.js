@@ -49,13 +49,21 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
 
   const formatDecimals = (value) => {
     if (typeof value !== "number") return "";
-    const rounded = Number(value.toFixed(4));
-    const decimals = rounded.toFixed(4).slice(2, 5);
-    if (decimals.split("").some(d => d !== "0")) {
-      if (decimals[2] !== "0") return rounded.toFixed(3);
-      return rounded.toFixed(2);
+
+    if (Number.isInteger(value)) {
+      return value.toFixed(1); // e.g. 2 → "2.0"
     }
-    return rounded.toFixed(1);
+
+    const rounded = Number(value.toFixed(4)); // keep 4-digit precision
+    const decimals = rounded.toString().split(".")[1] || "";
+
+    if (decimals.length >= 3 && decimals[2] !== "0") {
+      return rounded.toFixed(3);
+    } else if (decimals.length >= 2 && decimals[1] !== "0") {
+      return rounded.toFixed(2);
+    } else {
+      return rounded.toFixed(1);
+    }
   };
 
   return (
@@ -100,7 +108,7 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
             <strong>Closeness Centrality:</strong> {formatDecimals(node.closeness_centrality)}
           </p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Harmonic Closeness Centrality:</strong>
+            <strong>Harmonic Closeness Centrality:</strong>{formatDecimals(node.harmonic_centrality)}
           </p>
           <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
             <strong>Betweenness Centrality:</strong> {formatDecimals(node.betweenness_centrality)}
@@ -110,9 +118,9 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
           </p>
 
           <p style={{ fontSize: "0.85em" }}><strong>Other Measures:</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Degree:</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Weighted Degree:</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Eccentricity:</strong></p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Degree:</strong>{formatDecimals(node.degree)}</p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Weighted Degree:</strong>{formatDecimals(node.weighted_degree)}</p>
+          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Eccentricity:</strong>{formatDecimals(node.eccentricity)}</p>
 
           <p><strong>Connections:</strong></p>
           <p style={{ marginLeft: "5px", fontSize: "0.85em" }}>
