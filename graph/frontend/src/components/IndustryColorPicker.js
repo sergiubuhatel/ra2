@@ -23,7 +23,7 @@ export default function IndustryColorPicker({
   industryColors,
   updateIndustryColor,
 }) {
-  const [showColors, setShowColors] = useState(false);
+  const [showColors, setShowColors] = useState(true);
 
   if (!industries.length) return null;
 

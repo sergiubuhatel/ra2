@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import {
+  Button,
+  Select,
+  MenuItem,
+  InputLabel,
+  FormControl,
+} from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
-import Button from "@mui/material/Button";
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import IndustryColorPicker from "./IndustryColorPicker";
-import { updateIndustryColor as updateIndustryColorAction } from "../store/fileSlice"; // adjust path as needed
+import { updateIndustryColor as updateIndustryColorAction } from "../store/fileSlice";
 
 export default function GraphControlsPanel({
   fileInputRef,
@@ -11,6 +17,8 @@ export default function GraphControlsPanel({
   handleFileChange,
   fileName,
 }) {
+  const [selectedYear, setSelectedYear] = useState(2017); // default year 2017
+
   const dispatch = useDispatch();
   const industries = useSelector((state) => state.file.industries);
   const industryColors = useSelector((state) => state.file.industryColors);
@@ -18,6 +26,43 @@ export default function GraphControlsPanel({
   const updateIndustryColor = (industry, color) => {
     dispatch(updateIndustryColorAction({ industry, color }));
   };
+
+  const loadYearFile = async (year) => {
+    try {
+      const response = await fetch(`/data/${year}/graph_with_centrality.json`);
+      if (!response.ok) throw new Error(`Failed to load graph for ${year}`);
+
+      const json = await response.json();
+
+      const file = new File(
+        [JSON.stringify(json)],
+        `graph_${year}.json`,
+        { type: "application/json" }
+      );
+
+      const syntheticEvent = {
+        target: {
+          files: [file],
+        },
+      };
+
+      handleFileChange(syntheticEvent);
+    } catch (error) {
+      console.error("Error loading JSON for year:", year, error);
+      alert(`Failed to load graph data for ${year}`);
+    }
+  };
+
+  const handleYearChange = (event) => {
+    const year = event.target.value;
+    setSelectedYear(year);
+    loadYearFile(year);
+  };
+
+  // Load 2017 on mount
+  useEffect(() => {
+    loadYearFile(2017);
+  }, []);
 
   return (
     <div
@@ -30,36 +75,25 @@ export default function GraphControlsPanel({
         background: "#CECECC",
       }}
     >
-      <Button
-        variant="contained"
-        color="primary"
-        fullWidth
-        startIcon={<UploadFileIcon />}
-        onClick={openFileDialog}
-        sx={{ mb: 2 }}
-      >
-        Load Graph JSON
-      </Button>
-
-      <input
-        ref={fileInputRef}
-        type="file"
-        accept=".json"
-        onChange={handleFileChange}
-        style={{ display: "none" }}
-      />
-
-      {fileName && (
-        <div
-          style={{
-            marginBottom: 20,
-            fontSize: "0.9rem",
-            color: "#555",
-          }}
+      {/* Year dropdown */}
+      <FormControl fullWidth sx={{ mb: 2 }}>
+        <InputLabel id="year-select-label">Year</InputLabel>
+        <Select
+          labelId="year-select-label"
+          value={selectedYear}
+          label="Year"
+          onChange={handleYearChange}
         >
-          {fileName}
-        </div>
-      )}
+          {[...Array(2025 - 2017 + 1)].map((_, idx) => {
+            const year = 2017 + idx;
+            return (
+              <MenuItem key={year} value={year}>
+                {year}
+              </MenuItem>
+            );
+          })}
+        </Select>
+      </FormControl>
 
       <IndustryColorPicker
         industries={industries}
