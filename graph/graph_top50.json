@@ -3,252 +3,252 @@
     {
       "id": "AAPL",
       "label": "AAPL",
-      "industry": 35.0
+      "industry": "Comps"
     },
     {
       "id": "AMZN",
       "label": "AMZN",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "FB",
       "label": "FB",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "GOOGL",
       "label": "GOOGL",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "TSLA",
       "label": "TSLA",
-      "industry": -1.0
+      "industry": "Unclassified"
     },
     {
       "id": "NFLX",
       "label": "NFLX",
-      "industry": 7.0
+      "industry": "Fun"
     },
     {
       "id": "NVDA",
       "label": "NVDA",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "MSFT",
       "label": "MSFT",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "TWTR",
       "label": "TWTR",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "SNAP",
       "label": "SNAP",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "GS",
       "label": "GS",
-      "industry": 47.0
+      "industry": "Fin"
     },
     {
       "id": "BAC",
       "label": "BAC",
-      "industry": 44.0
+      "industry": "Banks"
     },
     {
       "id": "AMD",
       "label": "AMD",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "INTC",
       "label": "INTC",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "JPM",
       "label": "JPM",
-      "industry": 44.0
+      "industry": "Banks"
     },
     {
       "id": "JNJ",
       "label": "JNJ",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "C",
       "label": "C",
-      "industry": 44.0
+      "industry": "Banks"
     },
     {
       "id": "T",
       "label": "T",
-      "industry": 32.0
+      "industry": "Telcm"
     },
     {
       "id": "GILD",
       "label": "GILD",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "IBM",
       "label": "IBM",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "MU",
       "label": "MU",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "DIS",
       "label": "DIS",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "F",
       "label": "F",
-      "industry": 23.0
+      "industry": "Autos"
     },
     {
       "id": "WMT",
       "label": "WMT",
-      "industry": 42.0
+      "industry": "Rtail"
     },
     {
       "id": "MRK",
       "label": "MRK",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "GE",
       "label": "GE",
-      "industry": 21.0
+      "industry": "Mach"
     },
     {
       "id": "CSCO",
       "label": "CSCO",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "PCLN",
       "label": "PCLN",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "AMGN",
       "label": "AMGN",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "PFE",
       "label": "PFE",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "GM",
       "label": "GM",
-      "industry": 23.0
+      "industry": "Autos"
     },
     {
       "id": "KO",
       "label": "KO",
-      "industry": 3.0
+      "industry": "Soda"
     },
     {
       "id": "BA",
       "label": "BA",
-      "industry": 24.0
+      "industry": "Aero"
     },
     {
       "id": "WFC",
       "label": "WFC",
-      "industry": 44.0
+      "industry": "Banks"
     },
     {
       "id": "SBUX",
       "label": "SBUX",
-      "industry": 43.0
+      "industry": "Meals"
     },
     {
       "id": "MS",
       "label": "MS",
-      "industry": 47.0
+      "industry": "Fin"
     },
     {
       "id": "CMG",
       "label": "CMG",
-      "industry": 43.0
+      "industry": "Meals"
     },
     {
       "id": "QCOM",
       "label": "QCOM",
-      "industry": 36.0
+      "industry": "Chips"
     },
     {
       "id": "SRPT",
       "label": "SRPT",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "XOM",
       "label": "XOM",
-      "industry": 30.0
+      "industry": "Oil"
     },
     {
       "id": "TGT",
       "label": "TGT",
-      "industry": 42.0
+      "industry": "Rtail"
     },
     {
       "id": "CAT",
       "label": "CAT",
-      "industry": 21.0
+      "industry": "Mach"
     },
     {
       "id": "V",
       "label": "V",
-      "industry": 34.0
+      "industry": "BusSv"
     },
     {
       "id": "BMY",
       "label": "BMY",
-      "industry": 13.0
+      "industry": "Drugs"
     },
     {
       "id": "VZ",
       "label": "VZ",
-      "industry": 32.0
+      "industry": "Telcm"
     },
     {
       "id": "M",
       "label": "M",
-      "industry": 42.0
+      "industry": "Rtail"
     },
     {
       "id": "HD",
       "label": "HD",
-      "industry": 42.0
+      "industry": "Rtail"
     },
     {
       "id": "MCD",
       "label": "MCD",
-      "industry": 43.0
+      "industry": "Meals"
     },
     {
       "id": "X",
       "label": "X",
-      "industry": 19.0
+      "industry": "Steel"
     },
     {
       "id": "PEP",
       "label": "PEP",
-      "industry": 3.0
+      "industry": "Soda"
     }
   ],
   "edges": [

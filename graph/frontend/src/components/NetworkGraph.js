@@ -45,6 +45,9 @@ export default function NetworkGraph() {
     return Array.from(setIndustries);
   }, [fileContent]);
 
+  const rgbToHex = (r, g, b) =>
+  '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+
   // Set industries and their colors in Redux on file load
   useEffect(() => {
     if (!fileContent) {
@@ -60,8 +63,14 @@ export default function NetworkGraph() {
       defaultColors[ind] =
         industryColors[ind] || getDeterministicColor(ind);
     });
+    defaultColors["Comps"] = rgbToHex(242, 205, 249);
+    defaultColors["BusSv"] = rgbToHex(17, 229, 232);
+    defaultColors["Fun"] = rgbToHex(203, 216, 24);
+    defaultColors["Unclassified"] = rgbToHex(42, 213, 71);
+    defaultColors["Chips"] = rgbToHex(206, 155, 13);
 
     dispatch(setIndustryColors(defaultColors));
+
   }, [fileContent, calculatedIndustries]);
 
   const handleFileChange = (event) => {
