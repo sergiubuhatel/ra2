@@ -75,7 +75,10 @@ export default function NetworkGraph() {
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
-    if (!file) return;
+    if (!file) {
+      dispatch(setFileContent(null));
+      return;
+    }
 
     dispatch(setFileName(file.name));
 

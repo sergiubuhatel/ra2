@@ -34,6 +34,13 @@ export default function GraphControlsPanel({
 
       const json = await response.json();
 
+      // Check if JSON is empty or invalid in some way
+      if (!json || Object.keys(json).length === 0) {
+        alert(`Graph data for ${year} is empty.`);
+        handleFileChange({ target: { files: [] } }); // clear graph
+        return;
+      }
+
       const file = new File(
         [JSON.stringify(json)],
         `graph_${year}.json`,
@@ -49,7 +56,9 @@ export default function GraphControlsPanel({
       handleFileChange(syntheticEvent);
     } catch (error) {
       console.error("Error loading JSON for year:", year, error);
-      alert(`Failed to load graph data for ${year}`);
+
+      // Clear the graph on error
+      handleFileChange({ target: { files: [] } });
     }
   };
 
