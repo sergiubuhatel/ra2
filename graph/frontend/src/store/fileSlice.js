@@ -9,6 +9,8 @@ const fileSlice = createSlice({
     name: "",
     industries: [],
     industryColors: {},
+    selectedYear: 2017,         // <-- new
+    selectedFilter: "Top 50",   // <-- new
   },
   reducers: {
     setFileContent(state, action) {
@@ -37,6 +39,14 @@ const fileSlice = createSlice({
         (edge) => edge.source !== nodeId && edge.target !== nodeId
       );
     },
+
+    // ✅ new reducers
+    setSelectedYear(state, action) {
+      state.selectedYear = action.payload;
+    },
+    setSelectedFilter(state, action) {
+      state.selectedFilter = action.payload;
+    },
   },
 });
 
@@ -47,6 +57,8 @@ export const {
   setIndustryColors,
   updateIndustryColor,
   removeNode,
+  setSelectedYear,       // <-- export new actions
+  setSelectedFilter,     // <-- export new actions
 } = fileSlice.actions;
 
 export default fileSlice.reducer;

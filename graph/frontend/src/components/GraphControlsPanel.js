@@ -1,15 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import {
-  Button,
   Select,
   MenuItem,
   InputLabel,
   FormControl,
 } from "@mui/material";
 import { useSelector, useDispatch } from "react-redux";
-import UploadFileIcon from "@mui/icons-material/UploadFile";
 import IndustryColorPicker from "./IndustryColorPicker";
-import { updateIndustryColor as updateIndustryColorAction } from "../store/fileSlice";
+import {
+  updateIndustryColor as updateIndustryColorAction,
+  setSelectedYear,
+  setSelectedFilter,
+} from "../store/fileSlice";
 
 export default function GraphControlsPanel({
   fileInputRef,
@@ -17,10 +19,10 @@ export default function GraphControlsPanel({
   handleFileChange,
   fileName,
 }) {
-  const [selectedYear, setSelectedYear] = useState(2017); // default year
-  const [selectedFilter, setSelectedFilter] = useState("Top 50"); // default filter
-
   const dispatch = useDispatch();
+
+  const selectedYear = useSelector((state) => state.file.selectedYear);
+  const selectedFilter = useSelector((state) => state.file.selectedFilter);
   const industries = useSelector((state) => state.file.industries);
   const industryColors = useSelector((state) => state.file.industryColors);
 
@@ -30,7 +32,7 @@ export default function GraphControlsPanel({
 
   const loadYearFile = async (year, filter) => {
     try {
-      const formattedFilter = filter.toLowerCase().replace(/\s+/g, "_"); // e.g., "Top 50" → "top_50"
+      const formattedFilter = filter.toLowerCase().replace(/\s+/g, "_");
       const response = await fetch(`/data/${year}/graph_${formattedFilter}.json`);
 
       if (!response.ok) throw new Error(`Failed to load graph for ${year} with filter ${filter}`);
@@ -62,17 +64,17 @@ export default function GraphControlsPanel({
     }
   };
 
+  // Auto-load graph on year or filter change
+  useEffect(() => {
+    loadYearFile(selectedYear, selectedFilter);
+  }, [selectedYear, selectedFilter]);
+
   const handleYearChange = (event) => {
-    const year = event.target.value;
-    setSelectedYear(year);
+    dispatch(setSelectedYear(event.target.value));
   };
 
   const handleFilterChange = (event) => {
-    setSelectedFilter(event.target.value);
-  };
-
-  const handleViewGraph = () => {
-    loadYearFile(selectedYear, selectedFilter);
+    dispatch(setSelectedFilter(event.target.value));
   };
 
   const filterOptions = [
@@ -84,11 +86,6 @@ export default function GraphControlsPanel({
     "Retail", "Rubber", "Ships", "Smokem", "Soda", "Steel", "Telecom", "Textiles", "Toys",
     "Transportation", "Utilities", "Wholesale", "Other"
   ];
-
-  // Load the default year and filter when the component mounts
-  useEffect(() => {
-    loadYearFile(2017, "Top 50");
-  }, []);
 
   return (
     <div
@@ -138,17 +135,7 @@ export default function GraphControlsPanel({
         </Select>
       </FormControl>
 
-      {/* View Graph button */}
-      <Button
-        variant="contained"
-        color="primary"
-        fullWidth
-        sx={{ mb: 2 }}
-        onClick={handleViewGraph}
-      >
-        View Graph
-      </Button>
-
+      {/* Color Picker */}
       <IndustryColorPicker
         industries={industries}
         industryColors={industryColors}
