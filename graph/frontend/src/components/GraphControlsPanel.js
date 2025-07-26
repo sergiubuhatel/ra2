@@ -17,7 +17,8 @@ export default function GraphControlsPanel({
   handleFileChange,
   fileName,
 }) {
-  const [selectedYear, setSelectedYear] = useState(2017); // default year 2017
+  const [selectedYear, setSelectedYear] = useState(2017); // default year
+  const [selectedFilter, setSelectedFilter] = useState("Top 50"); // default filter
 
   const dispatch = useDispatch();
   const industries = useSelector((state) => state.file.industries);
@@ -34,10 +35,9 @@ export default function GraphControlsPanel({
 
       const json = await response.json();
 
-      // Check if JSON is empty or invalid in some way
       if (!json || Object.keys(json).length === 0) {
         alert(`Graph data for ${year} is empty.`);
-        handleFileChange({ target: { files: [] } }); // clear graph
+        handleFileChange({ target: { files: [] } });
         return;
       }
 
@@ -56,8 +56,6 @@ export default function GraphControlsPanel({
       handleFileChange(syntheticEvent);
     } catch (error) {
       console.error("Error loading JSON for year:", year, error);
-
-      // Clear the graph on error
       handleFileChange({ target: { files: [] } });
     }
   };
@@ -65,13 +63,27 @@ export default function GraphControlsPanel({
   const handleYearChange = (event) => {
     const year = event.target.value;
     setSelectedYear(year);
-    loadYearFile(year);
+    // No auto-loading here
   };
 
-  // Load 2017 on mount
-  useEffect(() => {
-    loadYearFile(2017);
-  }, []);
+  const handleFilterChange = (event) => {
+    setSelectedFilter(event.target.value);
+  };
+
+  const handleViewGraph = () => {
+    loadYearFile(selectedYear);
+    // You may also want to use selectedFilter to adjust logic in the future
+  };
+
+  const filterOptions = [
+    "Top 50", "Top 100", "Top 200", "Agriculture", "Aircraft", "Autos", "Banks", "Beer",
+    "BldMt", "Books", "Business Services", "Chemicals", "Chips", "Clothes", "Construction",
+    "Coal", "Computers", "Drugs", "Electronic Equipments", "Fabricated Products", "Finance",
+    "Food", "Fun", "Gold", "Guns", "Healthcare", "Household", "Insurance", "Lab Equipments",
+    "Mach", "Meals", "Medical Equipment", "Mines", "Oil", "Paper", "PerSv", "Real Estate",
+    "Retail", "Rubber", "Ships", "Smokem", "Soda", "Steel", "Telecom", "Textiles", "Toys",
+    "Transportation", "Utilities", "Wholesale", "Other"
+  ];
 
   return (
     <div
@@ -103,6 +115,34 @@ export default function GraphControlsPanel({
           })}
         </Select>
       </FormControl>
+
+      {/* Filter dropdown */}
+      <FormControl fullWidth sx={{ mb: 2 }}>
+        <InputLabel id="filter-select-label">Filter</InputLabel>
+        <Select
+          labelId="filter-select-label"
+          value={selectedFilter}
+          label="Filter"
+          onChange={handleFilterChange}
+        >
+          {filterOptions.map((option) => (
+            <MenuItem key={option} value={option}>
+              {option}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+
+      {/* View Graph button */}
+      <Button
+        variant="contained"
+        color="primary"
+        fullWidth
+        sx={{ mb: 2 }}
+        onClick={handleViewGraph}
+      >
+        View Graph
+      </Button>
 
       <IndustryColorPicker
         industries={industries}
