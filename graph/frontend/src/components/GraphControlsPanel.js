@@ -85,6 +85,11 @@ export default function GraphControlsPanel({
     "Transportation", "Utilities", "Wholesale", "Other"
   ];
 
+  // Load the default year once when the component mounts
+  useEffect(() => {
+    loadYearFile(2017);
+  }, []);
+
   return (
     <div
       style={{
