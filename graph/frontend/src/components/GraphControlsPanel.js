@@ -30,13 +30,119 @@ export default function GraphControlsPanel({
     dispatch(updateIndustryColorAction({ industry, color }));
   };
 
+  // Map from long industry name to short code
+  const industryNameToCode = {
+    "Agriculture": "Agric",
+    "Food Products": "Food",
+    "Candy & Soda": "Soda",
+    "Beer & Liquor": "Beer",
+    "Tobacco Products": "Smoke",
+    "Recreation": "Toys",
+    "Entertainment": "Fun",
+    "Printing and Publishing": "Books",
+    "Consumer Goods": "Hshld",
+    "Apparel": "Clths",
+    "Healthcare": "Hlth",
+    "Medical Equipment": "MedEq",
+    "Pharmaceutical Products": "Drugs",
+    "Chemicals": "Chems",
+    "Rubber and Plastic Products": "Rubbr",
+    "Textiles": "Txtls",
+    "Construction Materials": "BldMt",
+    "Construction": "Cnstr",
+    "Steel Works Etc": "Steel",
+    "Fabricated Products": "FabPr",
+    "Machinery": "Mach",
+    "Electrical Equipment": "ElcEq",
+    "Automobiles and Trucks": "Autos",
+    "Aircraft": "Aero",
+    "Shipbuilding, Railroad Equipment": "Ships",
+    "Defense": "Guns",
+    "Precious Metals": "Gold",
+    "Non-Metallic and Industrial Metal Mining": "Mines",
+    "Coal": "Coal",
+    "Petroleum and Natural Gas": "Oil",
+    "Utilities": "Util",
+    "Communication": "Telcm",
+    "Personal Services": "PerSv",
+    "Business Services": "BusSv",
+    "Computers": "Comps",
+    "Electronic Equipment": "Chips",
+    "Measuring and Control Equipment": "LabEq",
+    "Business Supplies": "Paper",
+    "Shipping Containers": "Boxes",
+    "Transportation": "Trans",
+    "Wholesale": "Whlsl",
+    "Retail": "Rtail",
+    "Restaurants, Hotels, Motels": "Meals",
+    "Banking": "Banks",
+    "Insurance": "Insur",
+    "Real Estate": "RlEst",
+    "Trading": "Fin",
+    "Almost Nothing": "Other",
+  };
+
+  const filterOptions = [
+    "Top 50", "Top 100", "Top 200",
+    "Agriculture",
+    "Food Products",
+    "Candy & Soda",
+    "Beer & Liquor",
+    "Tobacco Products",
+    "Recreation",
+    "Entertainment",
+    "Printing and Publishing",
+    "Consumer Goods",
+    "Apparel",
+    "Healthcare",
+    "Medical Equipment",
+    "Pharmaceutical Products",
+    "Chemicals",
+    "Rubber and Plastic Products",
+    "Textiles",
+    "Construction Materials",
+    "Construction",
+    "Steel Works Etc",
+    "Fabricated Products",
+    "Machinery",
+    "Electrical Equipment",
+    "Automobiles and Trucks",
+    "Aircraft",
+    "Shipbuilding, Railroad Equipment",
+    "Defense",
+    "Precious Metals",
+    "Non-Metallic and Industrial Metal Mining",
+    "Coal",
+    "Petroleum and Natural Gas",
+    "Utilities",
+    "Communication",
+    "Personal Services",
+    "Business Services",
+    "Computers",
+    "Electronic Equipment",
+    "Measuring and Control Equipment",
+    "Business Supplies",
+    "Shipping Containers",
+    "Transportation",
+    "Wholesale",
+    "Retail",
+    "Restaurants, Hotels, Motels",
+    "Banking",
+    "Insurance",
+    "Real Estate",
+    "Trading",
+    "Almost Nothing",
+  ];
+
   const loadYearFile = async (year, filter) => {
     try {
-      const formattedFilter = filter.toLowerCase().replace(/\s+/g, "_");
+      const topOptions = ["Top 50", "Top 100", "Top 200"];
+      // If filter is an industry, load Top 200 and filter nodes client-side
+      const effectiveFilter = topOptions.includes(filter) ? filter : "Top 200";
+      const formattedFilter = effectiveFilter.toLowerCase().replace(/\s+/g, "_");
+
       const response = await fetch(`/data/${year}/graph_${formattedFilter}.json`);
-
       if (!response.ok) throw new Error(`Failed to load graph for ${year} with filter ${filter}`);
-
       const json = await response.json();
 
       if (!json || Object.keys(json).length === 0) {
@@ -45,19 +151,36 @@ export default function GraphControlsPanel({
         return;
       }
 
+      let filteredJson = json;
+
+      if (!topOptions.includes(filter)) {
+        // Convert long industry name to short code
+        const industryCode = industryNameToCode[filter];
+        if (!industryCode) {
+          alert(`Unknown industry selected: ${filter}`);
+          handleFileChange({ target: { files: [] } });
+          return;
+        }
+
+        // Filter nodes by industry short code
+        const filteredNodes = json.nodes.filter((node) => node.industry === industryCode);
+        const nodeIds = new Set(filteredNodes.map((n) => n.id));
+
+        // Filter edges to only those connecting filtered nodes
+        const filteredEdges = json.edges.filter(
+          (edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)
+        );
+
+        filteredJson = { nodes: filteredNodes, edges: filteredEdges };
+      }
+
       const file = new File(
-        [JSON.stringify(json)],
-        `graph_${year}_${formattedFilter}.json`,
+        [JSON.stringify(filteredJson)],
+        `graph_${year}_${filter.replace(/\s+/g, "_")}.json`,
         { type: "application/json" }
       );
 
-      const syntheticEvent = {
-        target: {
-          files: [file],
-        },
-      };
-
-      handleFileChange(syntheticEvent);
+      handleFileChange({ target: { files: [file] } });
     } catch (error) {
       console.error("Error loading JSON:", { year, filter, error });
       handleFileChange({ target: { files: [] } });
@@ -76,16 +199,6 @@ export default function GraphControlsPanel({
   const handleFilterChange = (event) => {
     dispatch(setSelectedFilter(event.target.value));
   };
-
-  const filterOptions = [
-    "Top 50", "Top 100", "Top 200", "Agriculture", "Aircraft", "Autos", "Banks", "Beer",
-    "BldMt", "Books", "Business Services", "Chemicals", "Chips", "Clothes", "Construction",
-    "Coal", "Computers", "Drugs", "Electronic Equipments", "Fabricated Products", "Finance",
-    "Food", "Fun", "Gold", "Guns", "Healthcare", "Household", "Insurance", "Lab Equipments",
-    "Mach", "Meals", "Medical Equipment", "Mines", "Oil", "Paper", "PerSv", "Real Estate",
-    "Retail", "Rubber", "Ships", "Smokem", "Soda", "Steel", "Telecom", "Textiles", "Toys",
-    "Transportation", "Utilities", "Wholesale", "Other"
-  ];
 
   return (
     <div
@@ -107,7 +220,7 @@ export default function GraphControlsPanel({
           label="Year"
           onChange={handleYearChange}
         >
-          {[...Array(2025 - 2017 + 1)].map((_, idx) => {
+          {[...Array(2023 - 2017 + 1)].map((_, idx) => {
             const year = 2017 + idx;
             return (
               <MenuItem key={year} value={year}>
