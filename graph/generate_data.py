@@ -2,96 +2,99 @@ import pandas as pd
 import json
 import networkx as nx
 
-# === Step 1: Load and Prepare Graph Data ===
+def prepare_graph_data(nodes_file='Top50_tickers.csv', edges_file='edgesBtwTop50_2017.csv'):
+    """
+    Reads CSVs and builds a NetworkX Graph directly in memory.
 
-# Load data
-nodes_df = pd.read_csv('Top50_tickers.csv')
-edges_df = pd.read_csv('edgesBtwTop50_2017.csv')
+    Returns:
+        G (networkx.Graph): The constructed graph with node attributes.
+    """
+    # Load data
+    nodes_df = pd.read_csv(nodes_file)
+    edges_df = pd.read_csv(edges_file)
 
-# Clean and filter edges: keep only those between top 50
-top50_ids = set(nodes_df['ID'])
-filtered_edges = edges_df[
-    edges_df['Source'].isin(top50_ids) &
-    edges_df['Target'].isin(top50_ids)
-]
+    # Clean and filter edges: keep only those between top 50 nodes
+    top50_ids = set(nodes_df['ID'])
+    filtered_edges = edges_df[
+        edges_df['Source'].isin(top50_ids) & edges_df['Target'].isin(top50_ids)
+    ]
 
-# Handle missing industry data
-nodes_df['Industry'] = nodes_df['Industry'].fillna(-1)
+    # Handle missing industry data
+    nodes_df['Industry'] = nodes_df['Industry'].fillna(-1)
 
-# Prepare nodes and edges as dicts (in memory)
-nodes = [
-    {
-        "id": row["ID"],
-        "label": row["Label"],
-        "industry": row["Industry"]
-    }
-    for _, row in nodes_df.iterrows()
-]
+    # Initialize graph
+    G = nx.Graph()
 
-edges = [
-    {
-        "source": row["Source"],
-        "target": row["Target"],
-        "weight": row["Weight"]
-    }
-    for _, row in filtered_edges.iterrows()
-]
+    # Add nodes with attributes
+    for _, row in nodes_df.iterrows():
+        G.add_node(row["ID"], label=row["Label"], industry=row["Industry"])
 
-print("Step 1: Graph data prepared in memory.")
+    # Add edges with weight
+    for _, row in filtered_edges.iterrows():
+        G.add_edge(row["Source"], row["Target"], weight=row["Weight"])
 
-# === Step 2: Build Graph and Calculate Centrality Metrics ===
+    print("Step 1: Graph built in memory with", G.number_of_nodes(), "nodes and", G.number_of_edges(), "edges.")
+    return G
 
-# Create NetworkX graph
-G = nx.Graph()
 
-# Add nodes
-for node in nodes:
-    G.add_node(node["id"], label=node["label"], industry=node["industry"])
+def compute_centralities(G, output_file='graph_with_centrality.json'):
+    """
+    Computes various centrality metrics and exports the result as JSON.
 
-# Add edges
-for edge in edges:
-    G.add_edge(edge["source"], edge["target"], weight=edge["weight"])
+    Args:
+        G (networkx.Graph): Graph with node and edge data.
+        output_file (str): Path to output JSON file.
+    """
+    print("Step 2: Calculating centrality metrics...")
 
-# Compute centrality metrics
-degree_centrality = nx.degree_centrality(G)
-betweenness_centrality = nx.betweenness_centrality(G, weight="weight")
-closeness_centrality = nx.closeness_centrality(G)
-eigenvector_centrality = nx.eigenvector_centrality_numpy(G, weight="weight")
-harmonic_centrality = nx.harmonic_centrality(G, distance='weight')
-eccentricity = nx.eccentricity(G)
-unweighted_degree = dict(G.degree())
-weighted_degree = dict(G.degree(weight="weight"))
+    # Centrality computations
+    degree_centrality = nx.degree_centrality(G)
+    betweenness_centrality = nx.betweenness_centrality(G, weight="weight")
+    closeness_centrality = nx.closeness_centrality(G)
+    eigenvector_centrality = nx.eigenvector_centrality_numpy(G, weight="weight")
+    harmonic_centrality = nx.harmonic_centrality(G, distance="weight")
+    eccentricity = nx.eccentricity(G)
 
-# Add metrics to nodes
-final_nodes = []
-for node_id in G.nodes():
-    attrs = G.nodes[node_id]
-    final_nodes.append({
-        "id": node_id,
-        "label": attrs["label"],
-        "industry": attrs["industry"],
-        "degree_centrality": degree_centrality[node_id],
-        "betweenness_centrality": betweenness_centrality[node_id],
-        "closeness_centrality": closeness_centrality[node_id],
-        "eigenvector_centrality": eigenvector_centrality[node_id],
-        "harmonic_centrality": harmonic_centrality[node_id],
-        "eccentricity": eccentricity[node_id],
-        "degree": unweighted_degree[node_id],
-        "weighted_degree": weighted_degree[node_id]
-    })
+    # Degree stats
+    unweighted_degree = dict(G.degree())
+    weighted_degree = dict(G.degree(weight="weight"))
 
-# Prepare final edges
-final_edges = [
-    {
-        "source": u,
-        "target": v,
-        "weight": d["weight"]
-    }
-    for u, v, d in G.edges(data=True)
-]
+    # Compile node data
+    nodes_out = []
+    for node_id in G.nodes():
+        attr = G.nodes[node_id]
+        nodes_out.append({
+            "id": node_id,
+            "label": attr.get("label"),
+            "industry": attr.get("industry"),
+            "degree_centrality": degree_centrality[node_id],
+            "betweenness_centrality": betweenness_centrality[node_id],
+            "closeness_centrality": closeness_centrality[node_id],
+            "eigenvector_centrality": eigenvector_centrality[node_id],
+            "harmonic_centrality": harmonic_centrality[node_id],
+            "eccentricity": eccentricity[node_id],
+            "degree": unweighted_degree[node_id],
+            "weighted_degree": weighted_degree[node_id]
+        })
 
-# Save final graph with centralities
-with open("graph_with_centrality.json", "w") as f:
-    json.dump({"nodes": final_nodes, "edges": final_edges}, f, indent=2)
+    # Compile edge data
+    edges_out = [
+        {
+            "source": u,
+            "target": v,
+            "weight": d["weight"]
+        }
+        for u, v, d in G.edges(data=True)
+    ]
 
-print("Step 2: Final graph saved as graph_with_centrality.json")
+    # Export as JSON
+    with open(output_file, "w") as f:
+        json.dump({"nodes": nodes_out, "edges": edges_out}, f, indent=2)
+
+    print(f"Step 2: Graph with centrality metrics saved to {output_file}")
+
+
+# === Pipeline Entry Point ===
+if __name__ == "__main__":
+    G = prepare_graph_data()
+    compute_centralities(G)
