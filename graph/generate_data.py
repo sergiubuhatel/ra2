@@ -1,8 +1,18 @@
+# Example Usage:
+#
+# python your_script.py \
+#   --nodes ./frontend/public/data/2017/Top50_tickers.csv \
+#   --edges ./frontend/public/data/2017/edgesBtwTop50_2017.csv \
+#   --output ./frontend/public/data/2017/graph_with_centrality.json
+
+
 import pandas as pd
 import json
 import networkx as nx
+import argparse
 
-def prepare_graph_data(nodes_file='Top50_tickers.csv', edges_file='edgesBtwTop50_2017.csv'):
+
+def prepare_graph_data(nodes_file, edges_file):
     """
     Reads CSVs and builds a NetworkX Graph directly in memory.
 
@@ -33,11 +43,11 @@ def prepare_graph_data(nodes_file='Top50_tickers.csv', edges_file='edgesBtwTop50
     for _, row in filtered_edges.iterrows():
         G.add_edge(row["Source"], row["Target"], weight=row["Weight"])
 
-    print("Step 1: Graph built in memory with", G.number_of_nodes(), "nodes and", G.number_of_edges(), "edges.")
+    print(f"Step 1: Graph built in memory with {G.number_of_nodes()} nodes and {G.number_of_edges()} edges.")
     return G
 
 
-def compute_centralities(G, output_file='graph_with_centrality.json'):
+def compute_centralities(G, output_file):
     """
     Computes various centrality metrics and exports the result as JSON.
 
@@ -91,10 +101,17 @@ def compute_centralities(G, output_file='graph_with_centrality.json'):
     with open(output_file, "w") as f:
         json.dump({"nodes": nodes_out, "edges": edges_out}, f, indent=2)
 
-    print(f"Step 2: Graph with centrality metrics saved to {output_file}")
+    print(f"Step 3: Graph with centrality metrics saved to {output_file}")
 
 
-# === Pipeline Entry Point ===
+# === CLI Entry Point ===
 if __name__ == "__main__":
-    G = prepare_graph_data()
-    compute_centralities(G)
+    parser = argparse.ArgumentParser(description="Build graph and compute centrality metrics.")
+    parser.add_argument('--nodes', required=True, help="Path to nodes CSV (e.g., Top50_tickers.csv)")
+    parser.add_argument('--edges', required=True, help="Path to edges CSV (e.g., edgesBtwTop50_2017.csv)")
+    parser.add_argument('--output', required=True, help="Path to output JSON file")
+
+    args = parser.parse_args()
+
+    G = prepare_graph_data(args.nodes, args.edges)
+    compute_centralities(G, args.output)
