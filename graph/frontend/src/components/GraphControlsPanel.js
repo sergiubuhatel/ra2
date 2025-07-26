@@ -28,22 +28,24 @@ export default function GraphControlsPanel({
     dispatch(updateIndustryColorAction({ industry, color }));
   };
 
-  const loadYearFile = async (year) => {
+  const loadYearFile = async (year, filter) => {
     try {
-      const response = await fetch(`/data/${year}/graph_with_centrality.json`);
-      if (!response.ok) throw new Error(`Failed to load graph for ${year}`);
+      const formattedFilter = filter.toLowerCase().replace(/\s+/g, "_"); // e.g., "Top 50" → "top_50"
+      const response = await fetch(`/data/${year}/graph_${formattedFilter}.json`);
+
+      if (!response.ok) throw new Error(`Failed to load graph for ${year} with filter ${filter}`);
 
       const json = await response.json();
 
       if (!json || Object.keys(json).length === 0) {
-        alert(`Graph data for ${year} is empty.`);
+        alert(`Graph data for ${year} with filter "${filter}" is empty.`);
         handleFileChange({ target: { files: [] } });
         return;
       }
 
       const file = new File(
         [JSON.stringify(json)],
-        `graph_${year}.json`,
+        `graph_${year}_${formattedFilter}.json`,
         { type: "application/json" }
       );
 
@@ -55,7 +57,7 @@ export default function GraphControlsPanel({
 
       handleFileChange(syntheticEvent);
     } catch (error) {
-      console.error("Error loading JSON for year:", year, error);
+      console.error("Error loading JSON:", { year, filter, error });
       handleFileChange({ target: { files: [] } });
     }
   };
@@ -63,7 +65,6 @@ export default function GraphControlsPanel({
   const handleYearChange = (event) => {
     const year = event.target.value;
     setSelectedYear(year);
-    // No auto-loading here
   };
 
   const handleFilterChange = (event) => {
@@ -71,8 +72,7 @@ export default function GraphControlsPanel({
   };
 
   const handleViewGraph = () => {
-    loadYearFile(selectedYear);
-    // You may also want to use selectedFilter to adjust logic in the future
+    loadYearFile(selectedYear, selectedFilter);
   };
 
   const filterOptions = [
@@ -85,9 +85,9 @@ export default function GraphControlsPanel({
     "Transportation", "Utilities", "Wholesale", "Other"
   ];
 
-  // Load the default year once when the component mounts
+  // Load the default year and filter when the component mounts
   useEffect(() => {
-    loadYearFile(2017);
+    loadYearFile(2017, "Top 50");
   }, []);
 
   return (
