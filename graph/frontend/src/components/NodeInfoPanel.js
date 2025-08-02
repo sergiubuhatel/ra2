@@ -1,13 +1,11 @@
 import React, { useEffect, useState, useMemo } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  IconButton,
-  Tooltip,
-} from "@mui/material";
+import { IconButton, Tooltip } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { removeNode, addNodeWithEdges } from "../store/fileSlice";
 import AddNodeDialog from "./AddNodeDialog";
+import NodeStatistics from "./NodeStatistics";
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
   const dispatch = useDispatch();
@@ -111,12 +109,6 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
     simulateClick(newNodeId);
   };
 
-  const formatDecimals = (val) => {
-    if (typeof val !== "number") return "";
-    const rounded = Number(val.toFixed(4));
-    return rounded % 1 === 0 ? rounded.toFixed(1) : rounded.toString();
-  };
-
   return (
     <div
       style={{
@@ -174,27 +166,7 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
             <strong>Industry:</strong> {node.industry}
           </p>
 
-          <p style={{ fontSize: "0.85em" }}><strong>Centrality Measures:</strong></p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Closeness: {formatDecimals(node.closeness_centrality)}
-          </p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Harmonic: {formatDecimals(node.harmonic_centrality)}
-          </p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Betweenness: {formatDecimals(node.betweenness_centrality)}
-          </p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Eigenvector: {formatDecimals(node.eigenvector_centrality)}
-          </p>
-
-          <p style={{ fontSize: "0.85em" }}><strong>Other:</strong></p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Degree: {formatDecimals(node.degree)} | Weighted: {formatDecimals(node.weighted_degree)}
-          </p>
-          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
-            Eccentricity: {formatDecimals(node.eccentricity)}
-          </p>
+          <NodeStatistics node={node} />
 
           <p><strong>Connections</strong></p>
           <ul style={{ fontSize: "0.85em", marginLeft: 10, listStyle: "none", padding: 0 }}>
