@@ -4,7 +4,7 @@ import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";  // added Button
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
-import { removeNode as removeNodeAction } from "../store/fileSlice";  // import your removeNode action
+import { removeNode } from "../store/fileSlice";  // import your removeNode action
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
   const dispatch = useDispatch();
@@ -71,7 +71,7 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
 
   const handleRemoveNode = () => {
     if (!node) return;
-    dispatch(removeNodeAction(node.id));
+    dispatch(removeNode(node.id));
     onClose();
   };
 

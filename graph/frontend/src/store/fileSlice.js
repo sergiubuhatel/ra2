@@ -3,21 +3,17 @@ import { createSlice } from "@reduxjs/toolkit";
 const fileSlice = createSlice({
   name: "file",
   initialState: {
-    nodes: [],
-    edges: [],
     content: null,
     name: "",
     industries: [],
     industryColors: {},
-    selectedYear: 2017,         // <-- new
-    selectedFilter: "Top 50",   // <-- new
+    selectedYear: 2017,
+    selectedFilter: "Top 50",
   },
   reducers: {
     setFileContent(state, action) {
       const content = action.payload || {};
       state.content = content;
-      state.nodes = content.nodes || [];
-      state.edges = content.edges || [];
     },
     setFileName(state, action) {
       state.name = action.payload;
@@ -34,13 +30,15 @@ const fileSlice = createSlice({
     },
     removeNode(state, action) {
       const nodeId = action.payload;
-      state.nodes = state.nodes.filter((node) => node.id !== nodeId);
-      state.edges = state.edges.filter(
-        (edge) => edge.source !== nodeId && edge.target !== nodeId
-      );
+      if (state.content) {
+        state.content.nodes = (state.content.nodes || []).filter(
+          (node) => node.id !== nodeId
+        );
+        state.content.edges = (state.content.edges || []).filter(
+          (edge) => edge.source !== nodeId && edge.target !== nodeId
+        );
+      }
     },
-
-    // ✅ new reducers
     setSelectedYear(state, action) {
       state.selectedYear = action.payload;
     },
@@ -57,8 +55,8 @@ export const {
   setIndustryColors,
   updateIndustryColor,
   removeNode,
-  setSelectedYear,       // <-- export new actions
-  setSelectedFilter,     // <-- export new actions
+  setSelectedYear,
+  setSelectedFilter,
 } = fileSlice.actions;
 
 export default fileSlice.reducer;
