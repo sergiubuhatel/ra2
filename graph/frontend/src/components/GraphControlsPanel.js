@@ -30,164 +30,102 @@ export default function GraphControlsPanel({
     dispatch(updateIndustryColorAction({ industry, color }));
   };
 
-  // Map from long industry name to short code
-  const industryNameToCode = {
-    "Agriculture": "Agric",
-    "Food Products": "Food",
-    "Candy & Soda": "Soda",
-    "Beer & Liquor": "Beer",
-    "Tobacco Products": "Smoke",
-    "Recreation": "Toys",
-    "Entertainment": "Fun",
-    "Printing and Publishing": "Books",
-    "Consumer Goods": "Hshld",
-    "Apparel": "Clths",
-    "Healthcare": "Hlth",
-    "Medical Equipment": "MedEq",
-    "Pharmaceutical Products": "Drugs",
-    "Chemicals": "Chems",
-    "Rubber and Plastic Products": "Rubbr",
-    "Textiles": "Txtls",
-    "Construction Materials": "BldMt",
-    "Construction": "Cnstr",
-    "Steel Works Etc": "Steel",
-    "Fabricated Products": "FabPr",
-    "Machinery": "Mach",
-    "Electrical Equipment": "ElcEq",
-    "Automobiles and Trucks": "Autos",
-    "Aircraft": "Aero",
-    "Shipbuilding, Railroad Equipment": "Ships",
-    "Defense": "Guns",
-    "Precious Metals": "Gold",
-    "Non-Metallic and Industrial Metal Mining": "Mines",
-    "Coal": "Coal",
-    "Petroleum and Natural Gas": "Oil",
-    "Utilities": "Util",
-    "Communication": "Telcm",
-    "Personal Services": "PerSv",
-    "Business Services": "BusSv",
-    "Computers": "Comps",
-    "Electronic Equipment": "Chips",
-    "Measuring and Control Equipment": "LabEq",
-    "Business Supplies": "Paper",
-    "Shipping Containers": "Boxes",
-    "Transportation": "Trans",
-    "Wholesale": "Whlsl",
-    "Retail": "Rtail",
-    "Restaurants, Hotels, Motels": "Meals",
-    "Banking": "Banks",
-    "Insurance": "Insur",
-    "Real Estate": "RlEst",
-    "Trading": "Fin",
-    "Almost Nothing": "Other",
+  // Long name → industry number (make sure this matches your real data)
+  const industryNameToNumber = {
+    "Agriculture": 1,
+    "Food Products": 2,
+    "Candy & Soda": 3,
+    "Beer & Liquor": 4,
+    "Tobacco Products": 5,
+    "Recreation": 6,
+    "Entertainment": 7,
+    "Printing and Publishing": 8,
+    "Consumer Goods": 9,
+    "Apparel": 10,
+    "Healthcare": 13,
+    "Medical Equipment": 12,
+    "Pharmaceutical Products": 14,
+    "Chemicals": 15,
+    "Rubber and Plastic Products": 16,
+    "Textiles": 17,
+    "Construction Materials": 18,
+    "Construction": 19,
+    "Steel Works Etc": 20,
+    "Fabricated Products": 21,
+    "Machinery": 22,
+    "Electrical Equipment": 23,
+    "Automobiles and Trucks": 24,
+    "Aircraft": 25,
+    "Shipbuilding, Railroad Equipment": 26,
+    "Defense": 27,
+    "Precious Metals": 28,
+    "Non-Metallic and Industrial Metal Mining": 29,
+    "Coal": 30,
+    "Petroleum and Natural Gas": 31,
+    "Utilities": 32,
+    "Communication": 33,
+    "Personal Services": 34,
+    "Business Services": 35,
+    "Computers": 36,
+    "Electronic Equipment": 37,
+    "Measuring and Control Equipment": 38,
+    "Business Supplies": 39,
+    "Shipping Containers": 40,
+    "Transportation": 41,
+    "Wholesale": 42,
+    "Retail": 43,
+    "Restaurants, Hotels, Motels": 44,
+    "Banking": 45,
+    "Insurance": 46,
+    "Real Estate": 47,
+    "Trading": 48,
+    "Almost Nothing": 49,
   };
 
   const filterOptions = [
     "Top 50", "Top 100", "Top 200",
-    "Agriculture",
-    "Food Products",
-    "Candy & Soda",
-    "Beer & Liquor",
-    "Tobacco Products",
-    "Recreation",
-    "Entertainment",
-    "Printing and Publishing",
-    "Consumer Goods",
-    "Apparel",
-    "Healthcare",
-    "Medical Equipment",
-    "Pharmaceutical Products",
-    "Chemicals",
-    "Rubber and Plastic Products",
-    "Textiles",
-    "Construction Materials",
-    "Construction",
-    "Steel Works Etc",
-    "Fabricated Products",
-    "Machinery",
-    "Electrical Equipment",
-    "Automobiles and Trucks",
-    "Aircraft",
-    "Shipbuilding, Railroad Equipment",
-    "Defense",
-    "Precious Metals",
-    "Non-Metallic and Industrial Metal Mining",
-    "Coal",
-    "Petroleum and Natural Gas",
-    "Utilities",
-    "Communication",
-    "Personal Services",
-    "Business Services",
-    "Computers",
-    "Electronic Equipment",
-    "Measuring and Control Equipment",
-    "Business Supplies",
-    "Shipping Containers",
-    "Transportation",
-    "Wholesale",
-    "Retail",
-    "Restaurants, Hotels, Motels",
-    "Banking",
-    "Insurance",
-    "Real Estate",
-    "Trading",
-    "Almost Nothing",
+    ...Object.keys(industryNameToNumber),
   ];
 
   const loadYearFile = async (year, filter) => {
     try {
       const topOptions = ["Top 50", "Top 100", "Top 200"];
-      // If filter is an industry, load Top 200 and filter nodes client-side
-      const effectiveFilter = topOptions.includes(filter) ? filter : "Top 200";
-      const formattedFilter = effectiveFilter.toLowerCase().replace(/\s+/g, "_");
+      let fileName;
 
-      const response = await fetch(`/data/${year}/graph_${formattedFilter}.json`);
-      if (!response.ok) throw new Error(`Failed to load graph for ${year} with filter ${filter}`);
-      const json = await response.json();
-
-      if (!json || Object.keys(json).length === 0) {
-        alert(`Graph data for ${year} with filter "${filter}" is empty.`);
-        handleFileChange({ target: { files: [] } });
-        return;
-      }
-
-      let filteredJson = json;
-
-      if (!topOptions.includes(filter)) {
-        // Convert long industry name to short code
-        const industryCode = industryNameToCode[filter];
-        if (!industryCode) {
+      if (topOptions.includes(filter)) {
+        const formattedFilter = filter.toLowerCase().replace(/\s+/g, "_");
+        fileName = `graph_${formattedFilter}.json`;
+      } else {
+        const industryNumber = industryNameToNumber[filter];
+        if (industryNumber === undefined) {
           alert(`Unknown industry selected: ${filter}`);
           handleFileChange({ target: { files: [] } });
           return;
         }
-
-        // Filter nodes by industry short code
-        const filteredNodes = json.nodes.filter((node) => node.industry === industryCode);
-        const nodeIds = new Set(filteredNodes.map((n) => n.id));
-
-        // Filter edges to only those connecting filtered nodes
-        const filteredEdges = json.edges.filter(
-          (edge) => nodeIds.has(edge.source) && nodeIds.has(edge.target)
-        );
-
-        filteredJson = { nodes: filteredNodes, edges: filteredEdges };
+        fileName = `graph_industry_${industryNumber}.json`;
       }
 
-      const file = new File(
-        [JSON.stringify(filteredJson)],
-        `graph_${year}_${filter.replace(/\s+/g, "_")}.json`,
-        { type: "application/json" }
-      );
+      const response = await fetch(`/data/${year}/${fileName}`);
+      if (!response.ok) throw new Error(`Failed to load ${fileName}`);
+
+      const json = await response.json();
+      if (!json || Object.keys(json).length === 0) {
+        alert(`Graph data for "${filter}" (${fileName}) is empty.`);
+        handleFileChange({ target: { files: [] } });
+        return;
+      }
+
+      const file = new File([JSON.stringify(json)], fileName, {
+        type: "application/json",
+      });
 
       handleFileChange({ target: { files: [file] } });
     } catch (error) {
-      console.error("Error loading JSON:", { year, filter, error });
+      console.error("Error loading graph data:", { year, filter, error });
       handleFileChange({ target: { files: [] } });
     }
   };
 
-  // Auto-load graph on year or filter change
   useEffect(() => {
     loadYearFile(selectedYear, selectedFilter);
   }, [selectedYear, selectedFilter]);

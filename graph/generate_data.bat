@@ -20,6 +20,22 @@ for %%T in (50 100 200) do (
     python generate_data.py --nodes !NODES! --edges !EDGES! --output !OUTPUT!
 )
 
+REM ===== NEW SECTION: Generate graph per industry =====
+echo -----------------------------------------
+echo Generating per-industry graphs - Year %YEAR%
+
+for %%F in (%DATADIR%\industry_tickers_*.csv) do (
+    set "FILENAME=%%~nxF"
+    set "INDUSTRY=!FILENAME:~17,-4!"
+
+    set NODES=%%F
+    set EDGES=%DATADIR%\edgesBtwAllTickers.csv
+    set OUTPUT=%DATADIR%\graph_industry_!INDUSTRY!.json
+
+    echo Generating graph for industry !INDUSTRY!
+    python generate_data.py --nodes !NODES! --edges !EDGES! --output !OUTPUT!
+)
+
 echo -----------------------------------------
 echo ✅ All graphs generated for year: %YEAR%
 
