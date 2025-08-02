@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
+import Tooltip from "@mui/material/Tooltip"; // Import Tooltip
 import { useSelector, useDispatch } from "react-redux";  // added useDispatch
 import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";  // added Button
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { removeNode } from "../store/fileSlice";  // import your removeNode action
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
@@ -105,15 +106,22 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
 
       <h3 style={{ marginTop: 0,  marginBottom: 0 }}>Information Pane</h3>
       {/* Remove Node Button with blue background and white text */}
-      <Button
-        variant="contained"   // changed from outlined to contained
-        color="primary"
-        size="small"
-        onClick={handleRemoveNode}
-        sx={{ marginTop: 2 }}
-      >
-        Remove Node
-      </Button>
+      <Tooltip title="Remove node" arrow>
+        <IconButton
+          onClick={handleRemoveNode}
+          size="small"
+          sx={{
+            marginTop: 2,
+            backgroundColor: "transparent",
+            color: "#1976d2",
+            "&:hover": {
+              backgroundColor: "#fff",
+            },
+          }}
+        >
+          <FontAwesomeIcon icon={faTrash} />
+        </IconButton>
+      </Tooltip>
 
       {node ? (
         <div>
