@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";  // added useDispatch
 import IconButton from "@mui/material/IconButton";
 import Button from "@mui/material/Button";  // added Button
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { removeNode } from "../store/fileSlice";  // import your removeNode action
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
@@ -71,9 +71,25 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
   };
 
   const handleRemoveNode = () => {
-    if (!node) return;
+    if (!node || !fileContent?.nodes) return;
+
+    // Remove the current node
     dispatch(removeNode(node.id));
-    onClose();
+
+    // Get the remaining nodes after removal
+    const remainingNodes = fileContent.nodes.filter(n => n.id !== node.id);
+
+    if (remainingNodes.length === 0) return; // No nodes left
+
+    // Find the node with the highest eigenvector centrality
+    const mostCentral = remainingNodes.reduce((maxNode, currentNode) => {
+      return (currentNode.eigenvector_centrality || 0) > (maxNode.eigenvector_centrality || 0)
+        ? currentNode
+        : maxNode;
+    }, remainingNodes[0]);
+
+    // Simulate click to update the panel with the most central node
+    simulateClick(mostCentral.id);
   };
 
   return (
@@ -105,23 +121,42 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
       </IconButton>
 
       <h3 style={{ marginTop: 0,  marginBottom: 0 }}>Information Pane</h3>
-      {/* Remove Node Button with blue background and white text */}
-      <Tooltip title="Remove node" arrow>
-        <IconButton
-          onClick={handleRemoveNode}
-          size="small"
-          sx={{
-            marginTop: 2,
-            backgroundColor: "transparent",
-            color: "#1976d2",
-            "&:hover": {
-              backgroundColor: "#fff",
-            },
-          }}
-        >
-          <FontAwesomeIcon icon={faTrash} />
-        </IconButton>
-      </Tooltip>
+      <div style={{ display: "flex", gap: "8px", marginTop: "8px" }}>
+        {/* Add Node */}
+        <Tooltip title="Add node" arrow placement="top">
+          <IconButton
+            // onClick={handleAddNode}
+            size="small"
+            sx={{
+              backgroundColor: "transparent",
+              color: "#1976d2",
+              "&:hover": {
+                backgroundColor: "#fff",
+              },
+            }}
+          >
+            <FontAwesomeIcon icon={faPlus} />
+          </IconButton>
+        </Tooltip>
+
+        {/* Remove Node */}
+        <Tooltip title="Remove node" arrow placement="top">
+          <IconButton
+            onClick={handleRemoveNode}
+            size="small"
+            sx={{
+              backgroundColor: "transparent",
+              color: "#1976d2",
+              "&:hover": {
+                backgroundColor: "#fff",
+              },
+            }}
+          >
+            <FontAwesomeIcon icon={faTrash} />
+          </IconButton>
+        </Tooltip>
+      </div>
+
 
       {node ? (
         <div>

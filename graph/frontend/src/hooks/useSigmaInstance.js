@@ -15,11 +15,14 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
     // Highlight the node
     graph.setNodeAttribute(nodeId, "highlighted", true);
 
-    // Remove highlight after 2 seconds
+    // Remove highlight after 1 second
     setTimeout(() => {
       if (graph.hasNode(nodeId)) {
         graph.setNodeAttribute(nodeId, "highlighted", false);
-        sigma.refresh();
+        try {
+          sigma.refresh();
+        } catch {
+        }
       }
     }, 1000);
   }, [graph, onNodeSelect]);
@@ -46,6 +49,7 @@ export default function useSigmaInstance(containerRef, graph, onNodeSelect) {
       edgeProgramClasses: {
         curve: EdgeCurveProgram,
       },
+      // No need for nodeProgramClasses here, Sigma has circle built-in
       labelColor: { color: "gray" },
     });
 
