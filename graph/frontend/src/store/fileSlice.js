@@ -39,6 +39,25 @@ const fileSlice = createSlice({
         );
       }
     },
+    // <-- New action to add a node and edges
+    addNodeWithEdges(state, action) {
+      const { node, edges } = action.payload;
+
+      if (!state.content) {
+        state.content = {
+          nodes: [],
+          edges: [],
+        };
+      }
+
+      // Add the new node
+      state.content.nodes = state.content.nodes || [];
+      state.content.nodes.push(node);
+
+      // Add the new edges
+      state.content.edges = state.content.edges || [];
+      state.content.edges.push(...edges);
+    },
     setSelectedYear(state, action) {
       state.selectedYear = action.payload;
     },
@@ -55,6 +74,7 @@ export const {
   setIndustryColors,
   updateIndustryColor,
   removeNode,
+  addNodeWithEdges,  // <-- export the new action
   setSelectedYear,
   setSelectedFilter,
 } = fileSlice.actions;

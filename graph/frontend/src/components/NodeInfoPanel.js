@@ -1,25 +1,26 @@
-import React, { useEffect, useState } from "react";
-import Tooltip from "@mui/material/Tooltip"; // Import Tooltip
-import { useSelector, useDispatch } from "react-redux";  // added useDispatch
-import IconButton from "@mui/material/IconButton";
-import Button from "@mui/material/Button";  // added Button
+import React, { useEffect, useState, useMemo } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  IconButton,
+  Tooltip,
+} from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
-import { removeNode } from "../store/fileSlice";  // import your removeNode action
+import { removeNode, addNodeWithEdges } from "../store/fileSlice";
+import AddNodeDialog from "./AddNodeDialog";
 
 export default function NodeInfoPanel({ node, onClose, simulateClick }) {
   const dispatch = useDispatch();
-  const [connections, setConnections] = useState([]);
   const fileContent = useSelector((state) => state.file.content);
   const industryColors = useSelector((state) => state.file.industryColors);
+  const [connections, setConnections] = useState([]);
+  const [addDialogOpen, setAddDialogOpen] = useState(false);
+  const [newNodeTicker, setNewNodeTicker] = useState("");
+  const [selectedConnections, setSelectedConnections] = useState({});
 
-  const nodeMap = React.useMemo(() => {
+  const nodeMap = useMemo(() => {
     const map = {};
-    if (fileContent?.nodes) {
-      for (let node of fileContent.nodes) {
-        map[node.id] = node;
-      }
-    }
+    fileContent?.nodes?.forEach((node) => (map[node.id] = node));
     return map;
   }, [fileContent]);
 
@@ -30,9 +31,9 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
     const connections = [];
 
     edges
-      .filter(edge => edge.source === ticker || edge.target === ticker)
+      .filter((edge) => edge.source === ticker || edge.target === ticker)
       .sort((a, b) => b.weight - a.weight)
-      .forEach(edge => {
+      .forEach((edge) => {
         const other = edge.source === ticker ? edge.target : edge.source;
         if (!seen.has(other)) {
           seen.add(other);
@@ -51,45 +52,69 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
     }
   }, [node, fileContent]);
 
-  const formatDecimals = (value) => {
-    if (typeof value !== "number") return "";
+  const handleRemoveNode = () => {
+    if (!node) return;
 
-    if (Number.isInteger(value)) {
-      return value.toFixed(1);
-    }
+    dispatch(removeNode(node.id));
+    const remainingNodes = fileContent.nodes?.filter((n) => n.id !== node.id) || [];
 
-    const rounded = Number(value.toFixed(4));
-    const decimals = rounded.toString().split(".")[1] || "";
-
-    if (decimals.length >= 3 && decimals[2] !== "0") {
-      return rounded.toFixed(3);
-    } else if (decimals.length >= 2 && decimals[1] !== "0") {
-      return rounded.toFixed(2);
-    } else {
-      return rounded.toFixed(1);
+    if (remainingNodes.length > 0) {
+      const mostCentral = remainingNodes.reduce((a, b) =>
+        (a.eigenvector_centrality || 0) > (b.eigenvector_centrality || 0) ? a : b
+      );
+      simulateClick(mostCentral.id);
     }
   };
 
-  const handleRemoveNode = () => {
-    if (!node || !fileContent?.nodes) return;
+  const openAddDialog = () => {
+    setNewNodeTicker("");
+    setSelectedConnections({});
+    setAddDialogOpen(true);
+  };
 
-    // Remove the current node
-    dispatch(removeNode(node.id));
+  const closeAddDialog = () => setAddDialogOpen(false);
 
-    // Get the remaining nodes after removal
-    const remainingNodes = fileContent.nodes.filter(n => n.id !== node.id);
+  const toggleConnection = (nodeId) => {
+    setSelectedConnections((prev) => {
+      const updated = { ...prev };
+      if (updated[nodeId]) delete updated[nodeId];
+      else updated[nodeId] = 1;
+      return updated;
+    });
+  };
 
-    if (remainingNodes.length === 0) return; // No nodes left
+  const handleWeightChange = (nodeId, weight) => {
+    setSelectedConnections((prev) => ({
+      ...prev,
+      [nodeId]: weight,
+    }));
+  };
 
-    // Find the node with the highest eigenvector centrality
-    const mostCentral = remainingNodes.reduce((maxNode, currentNode) => {
-      return (currentNode.eigenvector_centrality || 0) > (maxNode.eigenvector_centrality || 0)
-        ? currentNode
-        : maxNode;
-    }, remainingNodes[0]);
+  const handleAddNodeSubmit = () => {
+    if (!newNodeTicker.trim()) return alert("Please enter a ticker.");
 
-    // Simulate click to update the panel with the most central node
-    simulateClick(mostCentral.id);
+    const newNodeId = `node-${Date.now()}`;
+    const edges = Object.entries(selectedConnections).map(([targetId, weight]) => ({
+      source: newNodeId,
+      target: targetId,
+      weight: parseFloat(weight),
+    }));
+
+    const node = {
+      id: newNodeId,
+      label: newNodeTicker.trim(),
+      industry: "Unknown",
+    };
+
+    dispatch(addNodeWithEdges({ node, edges }));
+    setAddDialogOpen(false);
+    simulateClick(newNodeId);
+  };
+
+  const formatDecimals = (val) => {
+    if (typeof val !== "number") return "";
+    const rounded = Number(val.toFixed(4));
+    return rounded % 1 === 0 ? rounded.toFixed(1) : rounded.toString();
   };
 
   return (
@@ -108,96 +133,77 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
       <IconButton
         onClick={onClose}
         size="small"
-        sx={{
-          position: "absolute",
-          top: 8,
-          right: 8,
-          color: "#333",
-          zIndex: 1,
-        }}
+        sx={{ position: "absolute", top: 8, right: 8, color: "#333" }}
         title="Close panel"
       >
         <FontAwesomeIcon icon={faTimes} />
       </IconButton>
 
-      <h3 style={{ marginTop: 0,  marginBottom: 0 }}>Information Pane</h3>
+      <h3 style={{ marginTop: 0 }}>Information Pane</h3>
+
       <div style={{ display: "flex", gap: "8px", marginTop: "8px" }}>
-        {/* Add Node */}
         <Tooltip title="Add node" arrow placement="top">
-          <IconButton
-            // onClick={handleAddNode}
-            size="small"
-            sx={{
-              backgroundColor: "transparent",
-              color: "#1976d2",
-              "&:hover": {
-                backgroundColor: "#fff",
-              },
-            }}
-          >
+          <IconButton onClick={openAddDialog} size="small" sx={{ color: "#1976d2" }}>
             <FontAwesomeIcon icon={faPlus} />
           </IconButton>
         </Tooltip>
 
-        {/* Remove Node */}
         <Tooltip title="Remove node" arrow placement="top">
-          <IconButton
-            onClick={handleRemoveNode}
-            size="small"
-            sx={{
-              backgroundColor: "transparent",
-              color: "#1976d2",
-              "&:hover": {
-                backgroundColor: "#fff",
-              },
-            }}
-          >
+          <IconButton onClick={handleRemoveNode} size="small" sx={{ color: "#1976d2" }}>
             <FontAwesomeIcon icon={faTrash} />
           </IconButton>
         </Tooltip>
       </div>
 
+      <AddNodeDialog
+        open={addDialogOpen}
+        onClose={closeAddDialog}
+        onSubmit={handleAddNodeSubmit}
+        newNodeTicker={newNodeTicker}
+        setNewNodeTicker={setNewNodeTicker}
+        selectedConnections={selectedConnections}
+        toggleConnection={toggleConnection}
+        handleWeightChange={handleWeightChange}
+        existingNodes={fileContent?.nodes?.filter((n) => n.id !== node?.id) || []}
+      />
 
       {node ? (
         <div>
           <p><strong>{node.label}</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
             <strong>Industry:</strong> {node.industry}
           </p>
 
           <p style={{ fontSize: "0.85em" }}><strong>Centrality Measures:</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Closeness Centrality:</strong> {formatDecimals(node.closeness_centrality)}
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Closeness: {formatDecimals(node.closeness_centrality)}
           </p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Harmonic Closeness Centrality:</strong>{formatDecimals(node.harmonic_centrality)}
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Harmonic: {formatDecimals(node.harmonic_centrality)}
           </p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Betweenness Centrality:</strong> {formatDecimals(node.betweenness_centrality)}
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Betweenness: {formatDecimals(node.betweenness_centrality)}
           </p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}>
-            <strong>Eigenvector Centrality:</strong> {formatDecimals(node.eigenvector_centrality)}
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Eigenvector: {formatDecimals(node.eigenvector_centrality)}
           </p>
 
-          <p style={{ fontSize: "0.85em" }}><strong>Other Measures:</strong></p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Degree:</strong>{formatDecimals(node.degree)}</p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Weighted Degree:</strong>{formatDecimals(node.weighted_degree)}</p>
-          <p style={{ marginLeft: "16px", fontSize: "0.85em" }}><strong>Eccentricity:</strong>{formatDecimals(node.eccentricity)}</p>
-
-          <p><strong>Connections:</strong></p>
-          <p style={{ marginLeft: "5px", fontSize: "0.85em" }}>
-            <strong>Connected Firms ({connections.length})</strong>
+          <p style={{ fontSize: "0.85em" }}><strong>Other:</strong></p>
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Degree: {formatDecimals(node.degree)} | Weighted: {formatDecimals(node.weighted_degree)}
           </p>
-          <ul style={{ marginLeft: "5px", fontSize: "0.85em", listStyleType: "none", padding: 0 }}>
+          <p style={{ marginLeft: 16, fontSize: "0.85em" }}>
+            Eccentricity: {formatDecimals(node.eccentricity)}
+          </p>
+
+          <p><strong>Connections</strong></p>
+          <ul style={{ fontSize: "0.85em", marginLeft: 10, listStyle: "none", padding: 0 }}>
             {connections.map((ticker) => {
               const connNode = getNodeByTicker(ticker);
               if (!connNode) return null;
-
               const color = industryColors[connNode.industry] || "#000";
-
               return (
-                <li key={ticker} style={{ display: "flex", alignItems: "center", marginBottom: 4 }}>
-                  {/* Color square */}
+                <li key={ticker} style={{ marginBottom: 4 }}>
                   <span
                     style={{
                       display: "inline-block",
@@ -206,18 +212,14 @@ export default function NodeInfoPanel({ node, onClose, simulateClick }) {
                       backgroundColor: color,
                       marginRight: 8,
                       borderRadius: 2,
-                      flexShrink: 0,
+                      verticalAlign: "middle",
                     }}
-                    title={`Industry color: ${connNode.industry}`}
                   />
-                  
-                  {/* Ticker + industry */}
                   <span
                     onClick={() => simulateClick(connNode.id)}
                     style={{ color: "#0055cc", textDecoration: "underline", cursor: "pointer" }}
-                    title="Click to view node"
                   >
-                    {ticker} ({connNode.industry})
+                    {connNode.label} ({connNode.industry})
                   </span>
                 </li>
               );
