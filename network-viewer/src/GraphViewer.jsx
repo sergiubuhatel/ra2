@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import ForceGraph2D from "react-force-graph-2d";
 import * as d3 from "d3-force";
 
+// Generate links based on selected topology
 function generateTopologyLinks(nodes, originalLinks, topology) {
   const n = nodes.length;
   if (topology === "hub-spoke" || topology === "star") {
@@ -61,10 +62,10 @@ export default function GraphViewer() {
     // Generate links based on selected topology
     const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
 
-    // Map node ids to node objects (needed when nodes have x,y)
+    // Map node ids to node objects (needed when nodes have fixed positions)
     const nodeById = new Map(newNodes.map(n => [n.id, n]));
 
-    // If nodes have fixed positions, links source/target must be node objects
+    // Prepare links with node objects for ForceGraph2D (except for forceAtlas2)
     const linksWithNodeObjects = newLinks.map(link => ({
       ...link,
       source: nodeById.get(link.source),
@@ -90,24 +91,18 @@ export default function GraphViewer() {
       });
       setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
     } else if (layout === "fruchterman") {
+      // For simulation, links must have source/target as node ids (strings)
       const sim = d3.forceSimulation(newNodes)
-        .force("link", d3.forceLink(linksWithNodeObjects).id(d => d.id).distance(100))
+        .force("link", d3.forceLink(newLinks).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-150))
         .force("center", d3.forceCenter(0, 0));
-
-      sim.force("link").links(linksWithNodeObjects);
-
-      newNodes.forEach(node => {
-        node.vx = 0;
-        node.vy = 0;
-      });
 
       sim.stop();
       for (let i = 0; i < 300; i++) sim.tick();
 
       setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
     } else if (layout === "forceAtlas2") {
-      // Clear positions and velocities to let react-force-graph handle layout
+      // Clear positions and velocities so react-force-graph does default layout
       const resetNodes = newNodes.map(node => {
         const n = { ...node };
         delete n.x;
@@ -116,7 +111,6 @@ export default function GraphViewer() {
         delete n.vy;
         return n;
       });
-      // For forceAtlas2, links source/target as ids (strings)
       setGraphData({ nodes: resetNodes, links: newLinks });
     }
   }, [layout, topology, graphData.nodes.length]);
@@ -155,7 +149,7 @@ export default function GraphViewer() {
         <ForceGraph2D
           ref={fgRef}
           graphData={graphData}
-          nodeLabel={node => `${node.id} (${node.industry})`}
+          nodeLabel={node => `${node.id} (${node.industry || "N/A"})`}
           nodeAutoColorBy="industry"
           linkDirectionalParticles={2}
           linkDirectionalParticleSpeed={0.005}
