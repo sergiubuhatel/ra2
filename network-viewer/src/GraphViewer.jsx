@@ -2,9 +2,39 @@ import React, { useState, useEffect, useRef } from "react";
 import ForceGraph2D from "react-force-graph-2d";
 import * as d3 from "d3-force";
 
+function generateTopologyLinks(nodes, originalLinks, topology) {
+  const n = nodes.length;
+  if (topology === "hub-spoke" || topology === "star") {
+    const hub = nodes[0].id;
+    return nodes.slice(1).map(node => ({
+      source: hub,
+      target: node.id,
+      value: 1
+    }));
+  } else if (topology === "mesh") {
+    let links = [];
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        links.push({ source: nodes[i].id, target: nodes[j].id, value: 1 });
+      }
+    }
+    return links;
+  } else if (topology === "point-to-point") {
+    let links = [];
+    for (let i = 0; i < n - 1; i++) {
+      links.push({ source: nodes[i].id, target: nodes[i + 1].id, value: 1 });
+    }
+    return links;
+  } else {
+    // original topology
+    return originalLinks;
+  }
+}
+
 export default function GraphViewer() {
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
   const [layout, setLayout] = useState("forceAtlas2");
+  const [topology, setTopology] = useState("original");
   const fgRef = useRef();
 
   // Load graph data once
@@ -12,34 +42,44 @@ export default function GraphViewer() {
     fetch("/graph_top_50.json")
       .then(res => res.json())
       .then(data => {
-        const links = data.edges.map(e => ({
+        const originalLinks = data.edges.map(e => ({
           source: e.source,
           target: e.target,
           value: e.weight
         }));
-        setGraphData({ nodes: data.nodes, links });
+        setGraphData({ nodes: data.nodes, links: originalLinks });
       });
   }, []);
 
-  // Apply layout when layout or nodes change
+  // Apply topology and layout when either changes or data loaded
   useEffect(() => {
     if (!graphData.nodes.length) return;
 
-    // Clone nodes so we don't mutate original state
+    // Clone nodes to avoid mutating state
     let newNodes = graphData.nodes.map(node => ({ ...node }));
-    let newLinks = graphData.links;
+
+    // Generate links based on selected topology
+    const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
+
+    // Map node ids to node objects (needed when nodes have x,y)
+    const nodeById = new Map(newNodes.map(n => [n.id, n]));
+
+    // If nodes have fixed positions, links source/target must be node objects
+    const linksWithNodeObjects = newLinks.map(link => ({
+      ...link,
+      source: nodeById.get(link.source),
+      target: nodeById.get(link.target)
+    }));
 
     if (layout === "random") {
       newNodes.forEach(node => {
         node.x = Math.random() * 800;
         node.y = Math.random() * 600;
-        // Clear velocities to avoid simulation issues
         delete node.vx;
         delete node.vy;
       });
-      setGraphData({ nodes: newNodes, links: newLinks });
-    }
-    else if (layout === "circular") {
+      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
+    } else if (layout === "circular") {
       const radius = 300;
       newNodes.forEach((node, i) => {
         const angle = (i / newNodes.length) * 2 * Math.PI;
@@ -48,17 +88,15 @@ export default function GraphViewer() {
         delete node.vx;
         delete node.vy;
       });
-      setGraphData({ nodes: newNodes, links: newLinks });
-    }
-    else if (layout === "fruchterman") {
+      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
+    } else if (layout === "fruchterman") {
       const sim = d3.forceSimulation(newNodes)
-        .force("link", d3.forceLink(newLinks).id(d => d.id).distance(100))
+        .force("link", d3.forceLink(linksWithNodeObjects).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-150))
         .force("center", d3.forceCenter(0, 0));
 
-      sim.force("link").links(newLinks);
+      sim.force("link").links(linksWithNodeObjects);
 
-      // Reset velocities
       newNodes.forEach(node => {
         node.vx = 0;
         node.vy = 0;
@@ -67,11 +105,10 @@ export default function GraphViewer() {
       sim.stop();
       for (let i = 0; i < 300; i++) sim.tick();
 
-      setGraphData({ nodes: newNodes, links: newLinks });
-    }
-    else if (layout === "forceAtlas2") {
-      // Reset to letting react-force-graph do default layout by clearing positions
-      let resetNodes = graphData.nodes.map(node => {
+      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
+    } else if (layout === "forceAtlas2") {
+      // Clear positions and velocities to let react-force-graph handle layout
+      const resetNodes = newNodes.map(node => {
         const n = { ...node };
         delete n.x;
         delete n.y;
@@ -79,31 +116,41 @@ export default function GraphViewer() {
         delete n.vy;
         return n;
       });
-      setGraphData({ nodes: resetNodes, links: graphData.links });
+      // For forceAtlas2, links source/target as ids (strings)
+      setGraphData({ nodes: resetNodes, links: newLinks });
     }
-  }, [layout, graphData.nodes.length]);
+  }, [layout, topology, graphData.nodes.length]);
 
-  // Zoom and center graph after layout changes
+  // Zoom and center graph after graphData updates
   useEffect(() => {
     if (fgRef.current && graphData.nodes.length) {
-      // Give time for graph to update before zoomToFit
       setTimeout(() => {
-        fgRef.current.zoomToFit(400, 100); // 400ms animation, 100px padding
+        fgRef.current.zoomToFit(400, 100);
       }, 500);
     }
   }, [graphData]);
 
   return (
     <div>
-      <div style={{ marginBottom: "10px" }}>
-        <label>Layout: </label>
+      <div style={{ marginBottom: 10 }}>
+        <label style={{ marginRight: 10 }}>Layout:</label>
         <select value={layout} onChange={e => setLayout(e.target.value)}>
           <option value="forceAtlas2">ForceAtlas2 (default)</option>
           <option value="fruchterman">Fruchterman–Reingold</option>
           <option value="circular">Circular</option>
           <option value="random">Random</option>
         </select>
+
+        <label style={{ marginLeft: 20, marginRight: 10 }}>Topology:</label>
+        <select value={topology} onChange={e => setTopology(e.target.value)}>
+          <option value="original">Original</option>
+          <option value="hub-spoke">Hub & Spoke</option>
+          <option value="star">Star</option>
+          <option value="mesh">Mesh</option>
+          <option value="point-to-point">Point-to-Point</option>
+        </select>
       </div>
+
       <div style={{ width: "100vw", height: "100vh" }}>
         <ForceGraph2D
           ref={fgRef}

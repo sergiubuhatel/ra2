@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "aframe": "^1.7.1",
-    "react-force-graph": "^1.48.0",
-    "react-force-graph-2d": "^1.28.0",
-    "react-force-graph-3d": "^1.28.0",
-    "react-force-graph-vr": "^2.1.0"
-  }
-}
