@@ -18,4 +18,4 @@ for /D %%Y in (%DATADIR%\*) do (
 
 echo All years processed.
 endlocal
-pause
+
