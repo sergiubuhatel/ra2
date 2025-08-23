@@ -1,0 +1,1091 @@
+{
+  "nodes": [
+    {
+      "id": "ACHR",
+      "label": "ACHR",
+      "industry": "Aero",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.1245614035087719,
+      "closeness_centrality": 0.7037037037037037,
+      "eigenvector_centrality": 0.0069713835483543925,
+      "harmonic_centrality": 9.433333333333334,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 137
+    },
+    {
+      "id": "AIR",
+      "label": "AIR",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.004873294346978557,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.02104052555377689,
+      "harmonic_centrality": 7.433333333333334,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 492
+    },
+    {
+      "id": "AIRI",
+      "label": "AIRI",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.058966861598440536,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.0019363689667291585,
+      "harmonic_centrality": 8.083333333333332,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 116
+    },
+    {
+      "id": "AVAV",
+      "label": "AVAV",
+      "industry": "Aero",
+      "degree_centrality": 0.894736842105263,
+      "betweenness_centrality": 0.05847953216374269,
+      "closeness_centrality": 0.9047619047619048,
+      "eigenvector_centrality": 0.017082803693138585,
+      "harmonic_centrality": 7.116666666666666,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 458
+    },
+    {
+      "id": "BA",
+      "label": "BA",
+      "industry": "Aero",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6712383013530672,
+      "harmonic_centrality": 6.816666666666667,
+      "eccentricity": 1,
+      "degree": 19,
+      "weighted_degree": 11748
+    },
+    {
+      "id": "CVU",
+      "label": "CVU",
+      "industry": "Aero",
+      "degree_centrality": 0.7894736842105263,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8260869565217391,
+      "eigenvector_centrality": 0.0059398615099183465,
+      "harmonic_centrality": 4.6833333333333345,
+      "eccentricity": 2,
+      "degree": 15,
+      "weighted_degree": 212
+    },
+    {
+      "id": "GD",
+      "label": "GD",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.02631578947368421,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.28989631821422435,
+      "harmonic_centrality": 6.983333333333333,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 4242
+    },
+    {
+      "id": "GTX",
+      "label": "GTX",
+      "industry": "Aero",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.3620857699805068,
+      "closeness_centrality": 0.7307692307692307,
+      "eigenvector_centrality": 0.002979125677993666,
+      "harmonic_centrality": 10.333333333333334,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 72
+    },
+    {
+      "id": "HEI",
+      "label": "HEI",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.009368594155236864,
+      "harmonic_centrality": 6.776190476190476,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 508
+    },
+    {
+      "id": "HON",
+      "label": "HON",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.16032091329441822,
+      "harmonic_centrality": 4.1261904761904775,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 2460
+    },
+    {
+      "id": "HXL",
+      "label": "HXL",
+      "industry": "Aero",
+      "degree_centrality": 0.894736842105263,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9047619047619048,
+      "eigenvector_centrality": 0.007217163994996799,
+      "harmonic_centrality": 4.733333333333333,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 289
+    },
+    {
+      "id": "RTX",
+      "label": "RTX",
+      "industry": "Aero",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.09610136452241715,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6580275822413486,
+      "harmonic_centrality": 8.783333333333333,
+      "eccentricity": 1,
+      "degree": 19,
+      "weighted_degree": 9502
+    },
+    {
+      "id": "SIF",
+      "label": "SIF",
+      "industry": "Aero",
+      "degree_centrality": 0.8421052631578947,
+      "betweenness_centrality": 0.042105263157894736,
+      "closeness_centrality": 0.8636363636363636,
+      "eigenvector_centrality": 0.0010295809032800818,
+      "harmonic_centrality": 5.05,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 184
+    },
+    {
+      "id": "SPR",
+      "label": "SPR",
+      "industry": "Aero",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.05565302144249512,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04038787423566999,
+      "harmonic_centrality": 8.733333333333334,
+      "eccentricity": 1,
+      "degree": 19,
+      "weighted_degree": 839
+    },
+    {
+      "id": "SVT",
+      "label": "SVT",
+      "industry": "Aero",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.3393762183235867,
+      "closeness_centrality": 0.7037037037037037,
+      "eigenvector_centrality": 0.0002607647375663661,
+      "harmonic_centrality": 10.649999999999999,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 34
+    },
+    {
+      "id": "TDG",
+      "label": "TDG",
+      "industry": "Aero",
+      "degree_centrality": 0.894736842105263,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9047619047619048,
+      "eigenvector_centrality": 0.016887551113435127,
+      "harmonic_centrality": 5.233333333333333,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 588
+    },
+    {
+      "id": "TGI",
+      "label": "TGI",
+      "industry": "Aero",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.1259259259259259,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.011047677905143003,
+      "harmonic_centrality": 9.483333333333334,
+      "eccentricity": 1,
+      "degree": 19,
+      "weighted_degree": 523
+    },
+    {
+      "id": "TXT",
+      "label": "TXT",
+      "industry": "Aero",
+      "degree_centrality": 0.8421052631578947,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8636363636363636,
+      "eigenvector_centrality": 0.038352821529858305,
+      "harmonic_centrality": 6.816666666666667,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 891
+    },
+    {
+      "id": "UAVS",
+      "label": "UAVS",
+      "industry": "Aero",
+      "degree_centrality": 0.9473684210526315,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.95,
+      "eigenvector_centrality": 0.04703159954505638,
+      "harmonic_centrality": 4.333333333333333,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 797
+    },
+    {
+      "id": "WWD",
+      "label": "WWD",
+      "industry": "Aero",
+      "degree_centrality": 0.7368421052631579,
+      "betweenness_centrality": 0.12933723196881095,
+      "closeness_centrality": 0.7916666666666666,
+      "eigenvector_centrality": 0.0016802438251271275,
+      "harmonic_centrality": 8.616666666666667,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 68
+    }
+  ],
+  "edges": [
+    {
+      "source": "ACHR",
+      "target": "HON",
+      "weight": 13
+    },
+    {
+      "source": "ACHR",
+      "target": "BA",
+      "weight": 70
+    },
+    {
+      "source": "ACHR",
+      "target": "RTX",
+      "weight": 8
+    },
+    {
+      "source": "ACHR",
+      "target": "TGI",
+      "weight": 1
+    },
+    {
+      "source": "ACHR",
+      "target": "AVAV",
+      "weight": 24
+    },
+    {
+      "source": "ACHR",
+      "target": "SPR",
+      "weight": 1
+    },
+    {
+      "source": "ACHR",
+      "target": "HXL",
+      "weight": 10
+    },
+    {
+      "source": "ACHR",
+      "target": "UAVS",
+      "weight": 7
+    },
+    {
+      "source": "ACHR",
+      "target": "AIR",
+      "weight": 1
+    },
+    {
+      "source": "ACHR",
+      "target": "AIRI",
+      "weight": 1
+    },
+    {
+      "source": "ACHR",
+      "target": "WWD",
+      "weight": 1
+    },
+    {
+      "source": "AIR",
+      "target": "UAVS",
+      "weight": 5
+    },
+    {
+      "source": "AIR",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "AIR",
+      "target": "TDG",
+      "weight": 10
+    },
+    {
+      "source": "AIR",
+      "target": "AVAV",
+      "weight": 13
+    },
+    {
+      "source": "AIR",
+      "target": "HEI",
+      "weight": 34
+    },
+    {
+      "source": "AIR",
+      "target": "TXT",
+      "weight": 35
+    },
+    {
+      "source": "AIR",
+      "target": "RTX",
+      "weight": 38
+    },
+    {
+      "source": "AIR",
+      "target": "TGI",
+      "weight": 30
+    },
+    {
+      "source": "AIR",
+      "target": "HXL",
+      "weight": 10
+    },
+    {
+      "source": "AIR",
+      "target": "AIRI",
+      "weight": 10
+    },
+    {
+      "source": "AIR",
+      "target": "HON",
+      "weight": 7
+    },
+    {
+      "source": "AIR",
+      "target": "BA",
+      "weight": 181
+    },
+    {
+      "source": "AIR",
+      "target": "CVU",
+      "weight": 10
+    },
+    {
+      "source": "AIR",
+      "target": "SPR",
+      "weight": 51
+    },
+    {
+      "source": "AIR",
+      "target": "WWD",
+      "weight": 1
+    },
+    {
+      "source": "AIR",
+      "target": "GD",
+      "weight": 49
+    },
+    {
+      "source": "AIR",
+      "target": "SVT",
+      "weight": 3
+    },
+    {
+      "source": "AIRI",
+      "target": "CVU",
+      "weight": 9
+    },
+    {
+      "source": "AIRI",
+      "target": "WWD",
+      "weight": 2
+    },
+    {
+      "source": "AIRI",
+      "target": "AVAV",
+      "weight": 5
+    },
+    {
+      "source": "AIRI",
+      "target": "SPR",
+      "weight": 16
+    },
+    {
+      "source": "AIRI",
+      "target": "HXL",
+      "weight": 3
+    },
+    {
+      "source": "AIRI",
+      "target": "HON",
+      "weight": 3
+    },
+    {
+      "source": "AIRI",
+      "target": "GD",
+      "weight": 5
+    },
+    {
+      "source": "AIRI",
+      "target": "TGI",
+      "weight": 5
+    },
+    {
+      "source": "AIRI",
+      "target": "UAVS",
+      "weight": 11
+    },
+    {
+      "source": "AIRI",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "AIRI",
+      "target": "TDG",
+      "weight": 15
+    },
+    {
+      "source": "AIRI",
+      "target": "TXT",
+      "weight": 5
+    },
+    {
+      "source": "AIRI",
+      "target": "BA",
+      "weight": 10
+    },
+    {
+      "source": "AIRI",
+      "target": "RTX",
+      "weight": 7
+    },
+    {
+      "source": "AIRI",
+      "target": "HEI",
+      "weight": 4
+    },
+    {
+      "source": "AIRI",
+      "target": "GTX",
+      "weight": 1
+    },
+    {
+      "source": "AVAV",
+      "target": "GTX",
+      "weight": 1
+    },
+    {
+      "source": "AVAV",
+      "target": "HEI",
+      "weight": 6
+    },
+    {
+      "source": "AVAV",
+      "target": "CVU",
+      "weight": 2
+    },
+    {
+      "source": "AVAV",
+      "target": "UAVS",
+      "weight": 111
+    },
+    {
+      "source": "AVAV",
+      "target": "HXL",
+      "weight": 7
+    },
+    {
+      "source": "AVAV",
+      "target": "TDG",
+      "weight": 6
+    },
+    {
+      "source": "AVAV",
+      "target": "HON",
+      "weight": 19
+    },
+    {
+      "source": "AVAV",
+      "target": "GD",
+      "weight": 54
+    },
+    {
+      "source": "AVAV",
+      "target": "TXT",
+      "weight": 25
+    },
+    {
+      "source": "AVAV",
+      "target": "TGI",
+      "weight": 9
+    },
+    {
+      "source": "AVAV",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "AVAV",
+      "target": "SPR",
+      "weight": 7
+    },
+    {
+      "source": "AVAV",
+      "target": "BA",
+      "weight": 61
+    },
+    {
+      "source": "AVAV",
+      "target": "RTX",
+      "weight": 104
+    },
+    {
+      "source": "BA",
+      "target": "TGI",
+      "weight": 74
+    },
+    {
+      "source": "BA",
+      "target": "TDG",
+      "weight": 80
+    },
+    {
+      "source": "BA",
+      "target": "SPR",
+      "weight": 423
+    },
+    {
+      "source": "BA",
+      "target": "WWD",
+      "weight": 6
+    },
+    {
+      "source": "BA",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "BA",
+      "target": "SVT",
+      "weight": 1
+    },
+    {
+      "source": "BA",
+      "target": "RTX",
+      "weight": 6931
+    },
+    {
+      "source": "BA",
+      "target": "UAVS",
+      "weight": 510
+    },
+    {
+      "source": "BA",
+      "target": "HEI",
+      "weight": 28
+    },
+    {
+      "source": "BA",
+      "target": "TXT",
+      "weight": 259
+    },
+    {
+      "source": "BA",
+      "target": "GD",
+      "weight": 1666
+    },
+    {
+      "source": "BA",
+      "target": "HXL",
+      "weight": 31
+    },
+    {
+      "source": "BA",
+      "target": "HON",
+      "weight": 1335
+    },
+    {
+      "source": "BA",
+      "target": "GTX",
+      "weight": 28
+    },
+    {
+      "source": "BA",
+      "target": "CVU",
+      "weight": 50
+    },
+    {
+      "source": "CVU",
+      "target": "TDG",
+      "weight": 15
+    },
+    {
+      "source": "CVU",
+      "target": "UAVS",
+      "weight": 6
+    },
+    {
+      "source": "CVU",
+      "target": "GD",
+      "weight": 3
+    },
+    {
+      "source": "CVU",
+      "target": "HON",
+      "weight": 10
+    },
+    {
+      "source": "CVU",
+      "target": "TGI",
+      "weight": 35
+    },
+    {
+      "source": "CVU",
+      "target": "RTX",
+      "weight": 13
+    },
+    {
+      "source": "CVU",
+      "target": "HXL",
+      "weight": 15
+    },
+    {
+      "source": "CVU",
+      "target": "SIF",
+      "weight": 3
+    },
+    {
+      "source": "CVU",
+      "target": "SVT",
+      "weight": 6
+    },
+    {
+      "source": "CVU",
+      "target": "HEI",
+      "weight": 8
+    },
+    {
+      "source": "CVU",
+      "target": "SPR",
+      "weight": 27
+    },
+    {
+      "source": "GD",
+      "target": "TGI",
+      "weight": 38
+    },
+    {
+      "source": "GD",
+      "target": "HON",
+      "weight": 371
+    },
+    {
+      "source": "GD",
+      "target": "HXL",
+      "weight": 25
+    },
+    {
+      "source": "GD",
+      "target": "TXT",
+      "weight": 182
+    },
+    {
+      "source": "GD",
+      "target": "HEI",
+      "weight": 36
+    },
+    {
+      "source": "GD",
+      "target": "UAVS",
+      "weight": 5
+    },
+    {
+      "source": "GD",
+      "target": "SVT",
+      "weight": 1
+    },
+    {
+      "source": "GD",
+      "target": "RTX",
+      "weight": 1680
+    },
+    {
+      "source": "GD",
+      "target": "SPR",
+      "weight": 46
+    },
+    {
+      "source": "GD",
+      "target": "WWD",
+      "weight": 8
+    },
+    {
+      "source": "GD",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "GD",
+      "target": "TDG",
+      "weight": 66
+    },
+    {
+      "source": "GD",
+      "target": "GTX",
+      "weight": 3
+    },
+    {
+      "source": "GTX",
+      "target": "RTX",
+      "weight": 1
+    },
+    {
+      "source": "GTX",
+      "target": "HON",
+      "weight": 18
+    },
+    {
+      "source": "GTX",
+      "target": "TDG",
+      "weight": 2
+    },
+    {
+      "source": "GTX",
+      "target": "SPR",
+      "weight": 2
+    },
+    {
+      "source": "GTX",
+      "target": "UAVS",
+      "weight": 3
+    },
+    {
+      "source": "GTX",
+      "target": "HEI",
+      "weight": 11
+    },
+    {
+      "source": "GTX",
+      "target": "WWD",
+      "weight": 1
+    },
+    {
+      "source": "GTX",
+      "target": "TGI",
+      "weight": 1
+    },
+    {
+      "source": "HEI",
+      "target": "SIF",
+      "weight": 70
+    },
+    {
+      "source": "HEI",
+      "target": "TDG",
+      "weight": 110
+    },
+    {
+      "source": "HEI",
+      "target": "HON",
+      "weight": 18
+    },
+    {
+      "source": "HEI",
+      "target": "WWD",
+      "weight": 4
+    },
+    {
+      "source": "HEI",
+      "target": "SPR",
+      "weight": 14
+    },
+    {
+      "source": "HEI",
+      "target": "UAVS",
+      "weight": 5
+    },
+    {
+      "source": "HEI",
+      "target": "HXL",
+      "weight": 14
+    },
+    {
+      "source": "HEI",
+      "target": "SVT",
+      "weight": 1
+    },
+    {
+      "source": "HEI",
+      "target": "TXT",
+      "weight": 19
+    },
+    {
+      "source": "HEI",
+      "target": "TGI",
+      "weight": 70
+    },
+    {
+      "source": "HEI",
+      "target": "RTX",
+      "weight": 56
+    },
+    {
+      "source": "HON",
+      "target": "SPR",
+      "weight": 24
+    },
+    {
+      "source": "HON",
+      "target": "RTX",
+      "weight": 391
+    },
+    {
+      "source": "HON",
+      "target": "HXL",
+      "weight": 20
+    },
+    {
+      "source": "HON",
+      "target": "TXT",
+      "weight": 134
+    },
+    {
+      "source": "HON",
+      "target": "SIF",
+      "weight": 2
+    },
+    {
+      "source": "HON",
+      "target": "UAVS",
+      "weight": 15
+    },
+    {
+      "source": "HON",
+      "target": "TGI",
+      "weight": 15
+    },
+    {
+      "source": "HON",
+      "target": "WWD",
+      "weight": 4
+    },
+    {
+      "source": "HON",
+      "target": "TDG",
+      "weight": 61
+    },
+    {
+      "source": "HXL",
+      "target": "UAVS",
+      "weight": 4
+    },
+    {
+      "source": "HXL",
+      "target": "TDG",
+      "weight": 35
+    },
+    {
+      "source": "HXL",
+      "target": "WWD",
+      "weight": 2
+    },
+    {
+      "source": "HXL",
+      "target": "TGI",
+      "weight": 30
+    },
+    {
+      "source": "HXL",
+      "target": "SIF",
+      "weight": 4
+    },
+    {
+      "source": "HXL",
+      "target": "SPR",
+      "weight": 32
+    },
+    {
+      "source": "HXL",
+      "target": "RTX",
+      "weight": 34
+    },
+    {
+      "source": "HXL",
+      "target": "TXT",
+      "weight": 13
+    },
+    {
+      "source": "RTX",
+      "target": "TDG",
+      "weight": 69
+    },
+    {
+      "source": "RTX",
+      "target": "WWD",
+      "weight": 8
+    },
+    {
+      "source": "RTX",
+      "target": "SIF",
+      "weight": 3
+    },
+    {
+      "source": "RTX",
+      "target": "TXT",
+      "weight": 77
+    },
+    {
+      "source": "RTX",
+      "target": "SVT",
+      "weight": 1
+    },
+    {
+      "source": "RTX",
+      "target": "TGI",
+      "weight": 26
+    },
+    {
+      "source": "RTX",
+      "target": "UAVS",
+      "weight": 35
+    },
+    {
+      "source": "RTX",
+      "target": "SPR",
+      "weight": 20
+    },
+    {
+      "source": "SIF",
+      "target": "TDG",
+      "weight": 3
+    },
+    {
+      "source": "SIF",
+      "target": "TXT",
+      "weight": 4
+    },
+    {
+      "source": "SIF",
+      "target": "SPR",
+      "weight": 4
+    },
+    {
+      "source": "SIF",
+      "target": "UAVS",
+      "weight": 4
+    },
+    {
+      "source": "SIF",
+      "target": "SVT",
+      "weight": 13
+    },
+    {
+      "source": "SIF",
+      "target": "TGI",
+      "weight": 54
+    },
+    {
+      "source": "SPR",
+      "target": "SVT",
+      "weight": 1
+    },
+    {
+      "source": "SPR",
+      "target": "WWD",
+      "weight": 7
+    },
+    {
+      "source": "SPR",
+      "target": "TXT",
+      "weight": 58
+    },
+    {
+      "source": "SPR",
+      "target": "TDG",
+      "weight": 57
+    },
+    {
+      "source": "SPR",
+      "target": "TGI",
+      "weight": 45
+    },
+    {
+      "source": "SPR",
+      "target": "UAVS",
+      "weight": 4
+    },
+    {
+      "source": "SVT",
+      "target": "UAVS",
+      "weight": 5
+    },
+    {
+      "source": "SVT",
+      "target": "TXT",
+      "weight": 1
+    },
+    {
+      "source": "SVT",
+      "target": "TGI",
+      "weight": 1
+    },
+    {
+      "source": "TDG",
+      "target": "UAVS",
+      "weight": 3
+    },
+    {
+      "source": "TDG",
+      "target": "TGI",
+      "weight": 11
+    },
+    {
+      "source": "TDG",
+      "target": "WWD",
+      "weight": 7
+    },
+    {
+      "source": "TDG",
+      "target": "TXT",
+      "weight": 38
+    },
+    {
+      "source": "TGI",
+      "target": "UAVS",
+      "weight": 56
+    },
+    {
+      "source": "TGI",
+      "target": "WWD",
+      "weight": 3
+    },
+    {
+      "source": "TGI",
+      "target": "TXT",
+      "weight": 19
+    },
+    {
+      "source": "TXT",
+      "target": "UAVS",
+      "weight": 8
+    },
+    {
+      "source": "TXT",
+      "target": "WWD",
+      "weight": 14
+    }
+  ]
+}

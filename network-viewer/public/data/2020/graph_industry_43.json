@@ -1,0 +1,4505 @@
+{
+  "nodes": [
+    {
+      "id": "ARKR",
+      "label": "ARKR",
+      "industry": "Meals",
+      "degree_centrality": 0.48936170212765956,
+      "betweenness_centrality": 0.04676996995368233,
+      "closeness_centrality": 0.64306128929819,
+      "eigenvector_centrality": 0.00014486221798110384,
+      "harmonic_centrality": 25.866666666666664,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 102
+    },
+    {
+      "id": "ARMK",
+      "label": "ARMK",
+      "industry": "Meals",
+      "degree_centrality": 0.7872340425531915,
+      "betweenness_centrality": 0.008241334983593083,
+      "closeness_centrality": 0.8129265355279005,
+      "eigenvector_centrality": 0.005022750087411914,
+      "harmonic_centrality": 22.5,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 449
+    },
+    {
+      "id": "BALY",
+      "label": "BALY",
+      "industry": "Meals",
+      "degree_centrality": 0.6382978723404256,
+      "betweenness_centrality": 0.05565607534064649,
+      "closeness_centrality": 0.7180851063829787,
+      "eigenvector_centrality": 0.00042123581822369366,
+      "harmonic_centrality": 26.25,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 98
+    },
+    {
+      "id": "BBQ",
+      "label": "BBQ",
+      "industry": "Meals",
+      "degree_centrality": 0.6808510638297872,
+      "betweenness_centrality": 0.010974316975704583,
+      "closeness_centrality": 0.7428466617754953,
+      "eigenvector_centrality": 0.0004897266715429316,
+      "harmonic_centrality": 22.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 131
+    },
+    {
+      "id": "BDL",
+      "label": "BDL",
+      "industry": "Meals",
+      "degree_centrality": 0.5531914893617021,
+      "betweenness_centrality": 0.061726000760438895,
+      "closeness_centrality": 0.6732047872340425,
+      "eigenvector_centrality": 0.00015967093476462873,
+      "harmonic_centrality": 25.75,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 95
+    },
+    {
+      "id": "BJRI",
+      "label": "BJRI",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.0068862035444246525,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.006981699272213787,
+      "harmonic_centrality": 22.249999999999996,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1322
+    },
+    {
+      "id": "CAKE",
+      "label": "CAKE",
+      "industry": "Meals",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.0020283622052917e-75,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "CBRL",
+      "label": "CBRL",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.007087841999658755,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.010033637779138863,
+      "harmonic_centrality": 21.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1294
+    },
+    {
+      "id": "CHH",
+      "label": "CHH",
+      "industry": "Meals",
+      "degree_centrality": 0.6808510638297872,
+      "betweenness_centrality": 0.061223151099497,
+      "closeness_centrality": 0.7428466617754953,
+      "eigenvector_centrality": 0.002884565367388207,
+      "harmonic_centrality": 25.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 870
+    },
+    {
+      "id": "CMG",
+      "label": "CMG",
+      "industry": "Meals",
+      "degree_centrality": 0.8936170212765957,
+      "betweenness_centrality": 0.0013601919897833267,
+      "closeness_centrality": 0.8976063829787234,
+      "eigenvector_centrality": 0.4868872317569927,
+      "harmonic_centrality": 20.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 42,
+      "weighted_degree": 16343
+    },
+    {
+      "id": "CSBR",
+      "label": "CSBR",
+      "industry": "Meals",
+      "degree_centrality": 0.2765957446808511,
+      "betweenness_centrality": 0.032014280773527894,
+      "closeness_centrality": 0.5595468361425808,
+      "eigenvector_centrality": 0.00032714328420938634,
+      "harmonic_centrality": 23.75,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 357
+    },
+    {
+      "id": "DENN",
+      "label": "DENN",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.003306319541287164,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.008586549349540685,
+      "harmonic_centrality": 20.25,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1229
+    },
+    {
+      "id": "DIN",
+      "label": "DIN",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.006803043515437964,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.011294105354739592,
+      "harmonic_centrality": 21.249999999999996,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1628
+    },
+    {
+      "id": "DPZ",
+      "label": "DPZ",
+      "industry": "Meals",
+      "degree_centrality": 0.7872340425531915,
+      "betweenness_centrality": 0.00787492301885293,
+      "closeness_centrality": 0.8129265355279005,
+      "eigenvector_centrality": 0.1004045395668401,
+      "harmonic_centrality": 20.25,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 4559
+    },
+    {
+      "id": "DRI",
+      "label": "DRI",
+      "industry": "Meals",
+      "degree_centrality": 0.8723404255319148,
+      "betweenness_centrality": 0.004590254650969722,
+      "closeness_centrality": 0.8792878853669128,
+      "eigenvector_centrality": 0.04771017252791547,
+      "harmonic_centrality": 21.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 3844
+    },
+    {
+      "id": "EAT",
+      "label": "EAT",
+      "industry": "Meals",
+      "degree_centrality": 0.9148936170212766,
+      "betweenness_centrality": 0.00828762811628918,
+      "closeness_centrality": 0.916704391127207,
+      "eigenvector_centrality": 0.026372256792762318,
+      "harmonic_centrality": 20.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 2791
+    },
+    {
+      "id": "FLL",
+      "label": "FLL",
+      "industry": "Meals",
+      "degree_centrality": 0.5744680851063829,
+      "betweenness_centrality": 0.13563794992204412,
+      "closeness_centrality": 0.6838905775075989,
+      "eigenvector_centrality": 0.00019930151412772762,
+      "harmonic_centrality": 29.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 74
+    },
+    {
+      "id": "GTIM",
+      "label": "GTIM",
+      "industry": "Meals",
+      "degree_centrality": 0.6595744680851063,
+      "betweenness_centrality": 0.0379161391412428,
+      "closeness_centrality": 0.7302560403894699,
+      "eigenvector_centrality": 0.0017771910562922922,
+      "harmonic_centrality": 23.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 295
+    },
+    {
+      "id": "H",
+      "label": "H",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.014575318676232862,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.013203887278746782,
+      "harmonic_centrality": 23.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 2654
+    },
+    {
+      "id": "HGV",
+      "label": "HGV",
+      "industry": "Meals",
+      "degree_centrality": 0.5319148936170213,
+      "betweenness_centrality": 0.004101908472861294,
+      "closeness_centrality": 0.662847790507365,
+      "eigenvector_centrality": 0.0016239343484057128,
+      "harmonic_centrality": 19.75,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 240
+    },
+    {
+      "id": "HLT",
+      "label": "HLT",
+      "industry": "Meals",
+      "degree_centrality": 0.851063829787234,
+      "betweenness_centrality": 0.00045387762370947886,
+      "closeness_centrality": 0.8617021276595745,
+      "eigenvector_centrality": 0.028468760538944687,
+      "harmonic_centrality": 18.45,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 3952
+    },
+    {
+      "id": "JACK",
+      "label": "JACK",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.005376759123290113,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.019003988126193454,
+      "harmonic_centrality": 20.25,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1376
+    },
+    {
+      "id": "JAX",
+      "label": "JAX",
+      "industry": "Meals",
+      "degree_centrality": 0.5531914893617021,
+      "betweenness_centrality": 0.05036342332739437,
+      "closeness_centrality": 0.6732047872340425,
+      "eigenvector_centrality": 0.00025173881005383683,
+      "harmonic_centrality": 24.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 115
+    },
+    {
+      "id": "LOCO",
+      "label": "LOCO",
+      "industry": "Meals",
+      "degree_centrality": 0.6595744680851063,
+      "betweenness_centrality": 0.03145826318433258,
+      "closeness_centrality": 0.7302560403894699,
+      "eigenvector_centrality": 0.005693564997699503,
+      "harmonic_centrality": 24.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 497
+    },
+    {
+      "id": "LUB",
+      "label": "LUB",
+      "industry": "Meals",
+      "degree_centrality": 0.7872340425531915,
+      "betweenness_centrality": 0.022632510165159672,
+      "closeness_centrality": 0.8129265355279005,
+      "eigenvector_centrality": 0.0027617370191019563,
+      "harmonic_centrality": 23.75,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 472
+    },
+    {
+      "id": "MAR",
+      "label": "MAR",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.0060026649948835276,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.057188675707829636,
+      "harmonic_centrality": 20.866666666666667,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 5013
+    },
+    {
+      "id": "MCD",
+      "label": "MCD",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.594758544783465,
+      "harmonic_centrality": 12.216666666666667,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 20811
+    },
+    {
+      "id": "MCS",
+      "label": "MCS",
+      "industry": "Meals",
+      "degree_centrality": 0.7021276595744681,
+      "betweenness_centrality": 0.06558413256434666,
+      "closeness_centrality": 0.7558790593505039,
+      "eigenvector_centrality": 0.0016674450630540867,
+      "harmonic_centrality": 26.083333333333325,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 139
+    },
+    {
+      "id": "MTN",
+      "label": "MTN",
+      "industry": "Meals",
+      "degree_centrality": 0.6595744680851063,
+      "betweenness_centrality": 0.0014983057817200686,
+      "closeness_centrality": 0.7302560403894699,
+      "eigenvector_centrality": 0.00330593811037882,
+      "harmonic_centrality": 21.416666666666664,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 623
+    },
+    {
+      "id": "NATH",
+      "label": "NATH",
+      "industry": "Meals",
+      "degree_centrality": 0.46808510638297873,
+      "betweenness_centrality": 0.06795727767316785,
+      "closeness_centrality": 0.6336045056320401,
+      "eigenvector_centrality": 0.0002751582178335958,
+      "harmonic_centrality": 24.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 77
+    },
+    {
+      "id": "PK",
+      "label": "PK",
+      "industry": "Meals",
+      "degree_centrality": 0.7872340425531915,
+      "betweenness_centrality": 0.003489210450357537,
+      "closeness_centrality": 0.8129265355279005,
+      "eigenvector_centrality": 0.00436091364179469,
+      "harmonic_centrality": 19.45,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 781
+    },
+    {
+      "id": "PZZA",
+      "label": "PZZA",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.007706832488552722,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.03512714752429371,
+      "harmonic_centrality": 22.08333333333333,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 2417
+    },
+    {
+      "id": "RAVE",
+      "label": "RAVE",
+      "industry": "Meals",
+      "degree_centrality": 0.5106382978723404,
+      "betweenness_centrality": 0.007054054486986958,
+      "closeness_centrality": 0.6528046421663443,
+      "eigenvector_centrality": 0.0018176845462340846,
+      "harmonic_centrality": 20.583333333333332,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 323
+    },
+    {
+      "id": "RICK",
+      "label": "RICK",
+      "industry": "Meals",
+      "degree_centrality": 0.7234042553191489,
+      "betweenness_centrality": 0.034831470589847556,
+      "closeness_centrality": 0.7693768996960487,
+      "eigenvector_centrality": 0.0010600027227454262,
+      "harmonic_centrality": 23.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 140
+    },
+    {
+      "id": "RLH",
+      "label": "RLH",
+      "industry": "Meals",
+      "degree_centrality": 0.3829787234042553,
+      "betweenness_centrality": 0.022206414204564068,
+      "closeness_centrality": 0.598404255319149,
+      "eigenvector_centrality": 0.00047324551334873804,
+      "harmonic_centrality": 21.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 127
+    },
+    {
+      "id": "RRGB",
+      "label": "RRGB",
+      "industry": "Meals",
+      "degree_centrality": 0.8723404255319148,
+      "betweenness_centrality": 0.006010678029268698,
+      "closeness_centrality": 0.8792878853669128,
+      "eigenvector_centrality": 0.008682595285177357,
+      "harmonic_centrality": 21.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 1350
+    },
+    {
+      "id": "RUTH",
+      "label": "RUTH",
+      "industry": "Meals",
+      "degree_centrality": 0.8297872340425532,
+      "betweenness_centrality": 0.03978663991795239,
+      "closeness_centrality": 0.8448060075093867,
+      "eigenvector_centrality": 0.008648322673990436,
+      "harmonic_centrality": 24.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1090
+    },
+    {
+      "id": "SBUX",
+      "label": "SBUX",
+      "industry": "Meals",
+      "degree_centrality": 0.8723404255319148,
+      "betweenness_centrality": 0.004910843560750313,
+      "closeness_centrality": 0.8792878853669128,
+      "eigenvector_centrality": 0.5372810956724627,
+      "harmonic_centrality": 21.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 16846
+    },
+    {
+      "id": "SHAK",
+      "label": "SHAK",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.0015146077873648492,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.29182319981748084,
+      "harmonic_centrality": 20.749999999999996,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 9072
+    },
+    {
+      "id": "STAF",
+      "label": "STAF",
+      "industry": "Meals",
+      "degree_centrality": 0.2978723404255319,
+      "betweenness_centrality": 0.021255245011654596,
+      "closeness_centrality": 0.566909294512878,
+      "eigenvector_centrality": 0.0007292956512504875,
+      "harmonic_centrality": 22.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 275
+    },
+    {
+      "id": "TAST",
+      "label": "TAST",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.04954755059059933,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.006854723790770155,
+      "harmonic_centrality": 26.416666666666664,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 769
+    },
+    {
+      "id": "TRWH",
+      "label": "TRWH",
+      "industry": "Meals",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.0020283622052917e-75,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "TXRH",
+      "label": "TXRH",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.009530136445574218,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.012436542774691115,
+      "harmonic_centrality": 21.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 1279
+    },
+    {
+      "id": "WEN",
+      "label": "WEN",
+      "industry": "Meals",
+      "degree_centrality": 0.8085106382978723,
+      "betweenness_centrality": 0.008481400959319272,
+      "closeness_centrality": 0.8285597381342062,
+      "eigenvector_centrality": 0.06689126045542526,
+      "harmonic_centrality": 23.08333333333333,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 3230
+    },
+    {
+      "id": "WH",
+      "label": "WH",
+      "industry": "Meals",
+      "degree_centrality": 0.7446808510638298,
+      "betweenness_centrality": 0.0110780871321202,
+      "closeness_centrality": 0.7833655705996132,
+      "eigenvector_centrality": 0.00348806641977634,
+      "harmonic_centrality": 22.749999999999996,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 747
+    },
+    {
+      "id": "WYND",
+      "label": "WYND",
+      "industry": "Meals",
+      "degree_centrality": 0.7659574468085106,
+      "betweenness_centrality": 0.04385652051392663,
+      "closeness_centrality": 0.797872340425532,
+      "eigenvector_centrality": 0.0020095906635933768,
+      "harmonic_centrality": 24.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 710
+    },
+    {
+      "id": "YUM",
+      "label": "YUM",
+      "industry": "Meals",
+      "degree_centrality": 0.7872340425531915,
+      "betweenness_centrality": 8.409721638213776e-05,
+      "closeness_centrality": 0.8129265355279005,
+      "eigenvector_centrality": 0.1034299575185839,
+      "harmonic_centrality": 17.41666666666667,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 4548
+    },
+    {
+      "id": "YUMC",
+      "label": "YUMC",
+      "industry": "Meals",
+      "degree_centrality": 0.7446808510638298,
+      "betweenness_centrality": 0.003917228315933219,
+      "closeness_centrality": 0.7833655705996132,
+      "eigenvector_centrality": 0.021426568766771136,
+      "harmonic_centrality": 18.583333333333332,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 978
+    }
+  ],
+  "edges": [
+    {
+      "source": "ARKR",
+      "target": "NATH",
+      "weight": 3
+    },
+    {
+      "source": "ARKR",
+      "target": "HLT",
+      "weight": 6
+    },
+    {
+      "source": "ARKR",
+      "target": "BALY",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "CBRL",
+      "weight": 4
+    },
+    {
+      "source": "ARKR",
+      "target": "SBUX",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "RRGB",
+      "weight": 7
+    },
+    {
+      "source": "ARKR",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "TXRH",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "RUTH",
+      "weight": 13
+    },
+    {
+      "source": "ARKR",
+      "target": "ARMK",
+      "weight": 2
+    },
+    {
+      "source": "ARKR",
+      "target": "EAT",
+      "weight": 7
+    },
+    {
+      "source": "ARKR",
+      "target": "RICK",
+      "weight": 2
+    },
+    {
+      "source": "ARKR",
+      "target": "PK",
+      "weight": 2
+    },
+    {
+      "source": "ARKR",
+      "target": "BJRI",
+      "weight": 15
+    },
+    {
+      "source": "ARKR",
+      "target": "JAX",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "DENN",
+      "weight": 2
+    },
+    {
+      "source": "ARKR",
+      "target": "DRI",
+      "weight": 10
+    },
+    {
+      "source": "ARKR",
+      "target": "GTIM",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "BBQ",
+      "weight": 3
+    },
+    {
+      "source": "ARKR",
+      "target": "DIN",
+      "weight": 17
+    },
+    {
+      "source": "ARKR",
+      "target": "LUB",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "STAF",
+      "weight": 1
+    },
+    {
+      "source": "ARKR",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "DIN",
+      "weight": 7
+    },
+    {
+      "source": "ARMK",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "LOCO",
+      "weight": 6
+    },
+    {
+      "source": "ARMK",
+      "target": "CBRL",
+      "weight": 8
+    },
+    {
+      "source": "ARMK",
+      "target": "EAT",
+      "weight": 33
+    },
+    {
+      "source": "ARMK",
+      "target": "WEN",
+      "weight": 16
+    },
+    {
+      "source": "ARMK",
+      "target": "YUMC",
+      "weight": 7
+    },
+    {
+      "source": "ARMK",
+      "target": "BJRI",
+      "weight": 17
+    },
+    {
+      "source": "ARMK",
+      "target": "DRI",
+      "weight": 48
+    },
+    {
+      "source": "ARMK",
+      "target": "CMG",
+      "weight": 32
+    },
+    {
+      "source": "ARMK",
+      "target": "TAST",
+      "weight": 2
+    },
+    {
+      "source": "ARMK",
+      "target": "JACK",
+      "weight": 16
+    },
+    {
+      "source": "ARMK",
+      "target": "CHH",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "LUB",
+      "weight": 6
+    },
+    {
+      "source": "ARMK",
+      "target": "JAX",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "YUM",
+      "weight": 36
+    },
+    {
+      "source": "ARMK",
+      "target": "MAR",
+      "weight": 14
+    },
+    {
+      "source": "ARMK",
+      "target": "HLT",
+      "weight": 18
+    },
+    {
+      "source": "ARMK",
+      "target": "MTN",
+      "weight": 7
+    },
+    {
+      "source": "ARMK",
+      "target": "WYND",
+      "weight": 6
+    },
+    {
+      "source": "ARMK",
+      "target": "TXRH",
+      "weight": 19
+    },
+    {
+      "source": "ARMK",
+      "target": "WH",
+      "weight": 5
+    },
+    {
+      "source": "ARMK",
+      "target": "SBUX",
+      "weight": 36
+    },
+    {
+      "source": "ARMK",
+      "target": "DPZ",
+      "weight": 20
+    },
+    {
+      "source": "ARMK",
+      "target": "CSBR",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "BALY",
+      "weight": 1
+    },
+    {
+      "source": "ARMK",
+      "target": "H",
+      "weight": 10
+    },
+    {
+      "source": "ARMK",
+      "target": "SHAK",
+      "weight": 7
+    },
+    {
+      "source": "ARMK",
+      "target": "HGV",
+      "weight": 4
+    },
+    {
+      "source": "ARMK",
+      "target": "PZZA",
+      "weight": 14
+    },
+    {
+      "source": "ARMK",
+      "target": "GTIM",
+      "weight": 2
+    },
+    {
+      "source": "ARMK",
+      "target": "RRGB",
+      "weight": 4
+    },
+    {
+      "source": "ARMK",
+      "target": "PK",
+      "weight": 4
+    },
+    {
+      "source": "ARMK",
+      "target": "DENN",
+      "weight": 3
+    },
+    {
+      "source": "ARMK",
+      "target": "MCD",
+      "weight": 29
+    },
+    {
+      "source": "ARMK",
+      "target": "RUTH",
+      "weight": 6
+    },
+    {
+      "source": "BALY",
+      "target": "EAT",
+      "weight": 3
+    },
+    {
+      "source": "BALY",
+      "target": "RUTH",
+      "weight": 4
+    },
+    {
+      "source": "BALY",
+      "target": "WYND",
+      "weight": 5
+    },
+    {
+      "source": "BALY",
+      "target": "DENN",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "RLH",
+      "weight": 2
+    },
+    {
+      "source": "BALY",
+      "target": "BJRI",
+      "weight": 5
+    },
+    {
+      "source": "BALY",
+      "target": "CMG",
+      "weight": 4
+    },
+    {
+      "source": "BALY",
+      "target": "FLL",
+      "weight": 16
+    },
+    {
+      "source": "BALY",
+      "target": "TXRH",
+      "weight": 2
+    },
+    {
+      "source": "BALY",
+      "target": "DIN",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "HGV",
+      "weight": 3
+    },
+    {
+      "source": "BALY",
+      "target": "SBUX",
+      "weight": 4
+    },
+    {
+      "source": "BALY",
+      "target": "JACK",
+      "weight": 6
+    },
+    {
+      "source": "BALY",
+      "target": "RRGB",
+      "weight": 2
+    },
+    {
+      "source": "BALY",
+      "target": "DRI",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "CBRL",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "BBQ",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "WEN",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "MAR",
+      "weight": 8
+    },
+    {
+      "source": "BALY",
+      "target": "YUM",
+      "weight": 3
+    },
+    {
+      "source": "BALY",
+      "target": "RICK",
+      "weight": 6
+    },
+    {
+      "source": "BALY",
+      "target": "PZZA",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "WH",
+      "weight": 3
+    },
+    {
+      "source": "BALY",
+      "target": "HLT",
+      "weight": 7
+    },
+    {
+      "source": "BALY",
+      "target": "MTN",
+      "weight": 2
+    },
+    {
+      "source": "BALY",
+      "target": "CHH",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "LOCO",
+      "weight": 1
+    },
+    {
+      "source": "BALY",
+      "target": "YUMC",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "BBQ",
+      "target": "EAT",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "YUM",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "PZZA",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "RUTH",
+      "weight": 15
+    },
+    {
+      "source": "BBQ",
+      "target": "YUMC",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "WEN",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "BDL",
+      "weight": 6
+    },
+    {
+      "source": "BBQ",
+      "target": "CMG",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "H",
+      "weight": 1
+    },
+    {
+      "source": "BBQ",
+      "target": "GTIM",
+      "weight": 12
+    },
+    {
+      "source": "BBQ",
+      "target": "BJRI",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "LUB",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "MCD",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "LOCO",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "RRGB",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "JACK",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "DIN",
+      "weight": 4
+    },
+    {
+      "source": "BBQ",
+      "target": "TXRH",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "JAX",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "RAVE",
+      "weight": 20
+    },
+    {
+      "source": "BBQ",
+      "target": "DPZ",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "FLL",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "CBRL",
+      "weight": 15
+    },
+    {
+      "source": "BBQ",
+      "target": "SHAK",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "DRI",
+      "weight": 4
+    },
+    {
+      "source": "BBQ",
+      "target": "DENN",
+      "weight": 3
+    },
+    {
+      "source": "BBQ",
+      "target": "TAST",
+      "weight": 2
+    },
+    {
+      "source": "BBQ",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "BBQ",
+      "target": "SBUX",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "DIN",
+      "weight": 10
+    },
+    {
+      "source": "BDL",
+      "target": "CBRL",
+      "weight": 8
+    },
+    {
+      "source": "BDL",
+      "target": "FLL",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "EAT",
+      "weight": 27
+    },
+    {
+      "source": "BDL",
+      "target": "PZZA",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "LUB",
+      "weight": 5
+    },
+    {
+      "source": "BDL",
+      "target": "JACK",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "BJRI",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "JAX",
+      "weight": 3
+    },
+    {
+      "source": "BDL",
+      "target": "GTIM",
+      "weight": 3
+    },
+    {
+      "source": "BDL",
+      "target": "MCS",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "TXRH",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "HLT",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "MAR",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "RRGB",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "RAVE",
+      "weight": 3
+    },
+    {
+      "source": "BDL",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "DRI",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "CMG",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "NATH",
+      "weight": 2
+    },
+    {
+      "source": "BDL",
+      "target": "SHAK",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "CSBR",
+      "weight": 7
+    },
+    {
+      "source": "BDL",
+      "target": "DPZ",
+      "weight": 1
+    },
+    {
+      "source": "BDL",
+      "target": "H",
+      "weight": 1
+    },
+    {
+      "source": "BJRI",
+      "target": "WH",
+      "weight": 30
+    },
+    {
+      "source": "BJRI",
+      "target": "CBRL",
+      "weight": 66
+    },
+    {
+      "source": "BJRI",
+      "target": "PK",
+      "weight": 11
+    },
+    {
+      "source": "BJRI",
+      "target": "HLT",
+      "weight": 7
+    },
+    {
+      "source": "BJRI",
+      "target": "H",
+      "weight": 11
+    },
+    {
+      "source": "BJRI",
+      "target": "JACK",
+      "weight": 35
+    },
+    {
+      "source": "BJRI",
+      "target": "CHH",
+      "weight": 2
+    },
+    {
+      "source": "BJRI",
+      "target": "YUM",
+      "weight": 46
+    },
+    {
+      "source": "BJRI",
+      "target": "RICK",
+      "weight": 2
+    },
+    {
+      "source": "BJRI",
+      "target": "FLL",
+      "weight": 1
+    },
+    {
+      "source": "BJRI",
+      "target": "HGV",
+      "weight": 2
+    },
+    {
+      "source": "BJRI",
+      "target": "TAST",
+      "weight": 41
+    },
+    {
+      "source": "BJRI",
+      "target": "GTIM",
+      "weight": 10
+    },
+    {
+      "source": "BJRI",
+      "target": "LOCO",
+      "weight": 23
+    },
+    {
+      "source": "BJRI",
+      "target": "DENN",
+      "weight": 78
+    },
+    {
+      "source": "BJRI",
+      "target": "MCD",
+      "weight": 39
+    },
+    {
+      "source": "BJRI",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "BJRI",
+      "target": "MAR",
+      "weight": 17
+    },
+    {
+      "source": "BJRI",
+      "target": "WEN",
+      "weight": 31
+    },
+    {
+      "source": "BJRI",
+      "target": "EAT",
+      "weight": 121
+    },
+    {
+      "source": "BJRI",
+      "target": "PZZA",
+      "weight": 48
+    },
+    {
+      "source": "BJRI",
+      "target": "DPZ",
+      "weight": 25
+    },
+    {
+      "source": "BJRI",
+      "target": "DRI",
+      "weight": 132
+    },
+    {
+      "source": "BJRI",
+      "target": "DIN",
+      "weight": 78
+    },
+    {
+      "source": "BJRI",
+      "target": "SBUX",
+      "weight": 15
+    },
+    {
+      "source": "BJRI",
+      "target": "WYND",
+      "weight": 4
+    },
+    {
+      "source": "BJRI",
+      "target": "SHAK",
+      "weight": 31
+    },
+    {
+      "source": "BJRI",
+      "target": "YUMC",
+      "weight": 9
+    },
+    {
+      "source": "BJRI",
+      "target": "TXRH",
+      "weight": 65
+    },
+    {
+      "source": "BJRI",
+      "target": "RUTH",
+      "weight": 145
+    },
+    {
+      "source": "BJRI",
+      "target": "LUB",
+      "weight": 15
+    },
+    {
+      "source": "BJRI",
+      "target": "STAF",
+      "weight": 1
+    },
+    {
+      "source": "BJRI",
+      "target": "CMG",
+      "weight": 51
+    },
+    {
+      "source": "BJRI",
+      "target": "RRGB",
+      "weight": 89
+    },
+    {
+      "source": "CBRL",
+      "target": "CHH",
+      "weight": 5
+    },
+    {
+      "source": "CBRL",
+      "target": "TAST",
+      "weight": 54
+    },
+    {
+      "source": "CBRL",
+      "target": "DIN",
+      "weight": 76
+    },
+    {
+      "source": "CBRL",
+      "target": "RUTH",
+      "weight": 37
+    },
+    {
+      "source": "CBRL",
+      "target": "DRI",
+      "weight": 107
+    },
+    {
+      "source": "CBRL",
+      "target": "CMG",
+      "weight": 65
+    },
+    {
+      "source": "CBRL",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "CBRL",
+      "target": "HGV",
+      "weight": 3
+    },
+    {
+      "source": "CBRL",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "CBRL",
+      "target": "YUM",
+      "weight": 34
+    },
+    {
+      "source": "CBRL",
+      "target": "PK",
+      "weight": 4
+    },
+    {
+      "source": "CBRL",
+      "target": "LUB",
+      "weight": 12
+    },
+    {
+      "source": "CBRL",
+      "target": "PZZA",
+      "weight": 31
+    },
+    {
+      "source": "CBRL",
+      "target": "MAR",
+      "weight": 23
+    },
+    {
+      "source": "CBRL",
+      "target": "HLT",
+      "weight": 7
+    },
+    {
+      "source": "CBRL",
+      "target": "MCD",
+      "weight": 68
+    },
+    {
+      "source": "CBRL",
+      "target": "WYND",
+      "weight": 4
+    },
+    {
+      "source": "CBRL",
+      "target": "EAT",
+      "weight": 111
+    },
+    {
+      "source": "CBRL",
+      "target": "WH",
+      "weight": 1
+    },
+    {
+      "source": "CBRL",
+      "target": "RRGB",
+      "weight": 45
+    },
+    {
+      "source": "CBRL",
+      "target": "DPZ",
+      "weight": 24
+    },
+    {
+      "source": "CBRL",
+      "target": "LOCO",
+      "weight": 15
+    },
+    {
+      "source": "CBRL",
+      "target": "SBUX",
+      "weight": 36
+    },
+    {
+      "source": "CBRL",
+      "target": "DENN",
+      "weight": 35
+    },
+    {
+      "source": "CBRL",
+      "target": "TXRH",
+      "weight": 53
+    },
+    {
+      "source": "CBRL",
+      "target": "CSBR",
+      "weight": 187
+    },
+    {
+      "source": "CBRL",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "CBRL",
+      "target": "JACK",
+      "weight": 33
+    },
+    {
+      "source": "CBRL",
+      "target": "WEN",
+      "weight": 33
+    },
+    {
+      "source": "CBRL",
+      "target": "YUMC",
+      "weight": 3
+    },
+    {
+      "source": "CBRL",
+      "target": "MTN",
+      "weight": 5
+    },
+    {
+      "source": "CBRL",
+      "target": "SHAK",
+      "weight": 68
+    },
+    {
+      "source": "CBRL",
+      "target": "H",
+      "weight": 10
+    },
+    {
+      "source": "CHH",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "SBUX",
+      "weight": 4
+    },
+    {
+      "source": "CHH",
+      "target": "YUM",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "RLH",
+      "weight": 8
+    },
+    {
+      "source": "CHH",
+      "target": "DIN",
+      "weight": 2
+    },
+    {
+      "source": "CHH",
+      "target": "WH",
+      "weight": 58
+    },
+    {
+      "source": "CHH",
+      "target": "MCD",
+      "weight": 3
+    },
+    {
+      "source": "CHH",
+      "target": "DRI",
+      "weight": 3
+    },
+    {
+      "source": "CHH",
+      "target": "DENN",
+      "weight": 3
+    },
+    {
+      "source": "CHH",
+      "target": "RRGB",
+      "weight": 5
+    },
+    {
+      "source": "CHH",
+      "target": "WEN",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "TXRH",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "EAT",
+      "weight": 8
+    },
+    {
+      "source": "CHH",
+      "target": "HLT",
+      "weight": 163
+    },
+    {
+      "source": "CHH",
+      "target": "PK",
+      "weight": 48
+    },
+    {
+      "source": "CHH",
+      "target": "H",
+      "weight": 195
+    },
+    {
+      "source": "CHH",
+      "target": "SHAK",
+      "weight": 5
+    },
+    {
+      "source": "CHH",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "HGV",
+      "weight": 8
+    },
+    {
+      "source": "CHH",
+      "target": "JACK",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "CMG",
+      "weight": 21
+    },
+    {
+      "source": "CHH",
+      "target": "MAR",
+      "weight": 219
+    },
+    {
+      "source": "CHH",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "CHH",
+      "target": "WYND",
+      "weight": 38
+    },
+    {
+      "source": "CHH",
+      "target": "MTN",
+      "weight": 39
+    },
+    {
+      "source": "CHH",
+      "target": "MCS",
+      "weight": 2
+    },
+    {
+      "source": "CHH",
+      "target": "PZZA",
+      "weight": 4
+    },
+    {
+      "source": "CHH",
+      "target": "DPZ",
+      "weight": 18
+    },
+    {
+      "source": "CMG",
+      "target": "MTN",
+      "weight": 14
+    },
+    {
+      "source": "CMG",
+      "target": "PZZA",
+      "weight": 229
+    },
+    {
+      "source": "CMG",
+      "target": "DRI",
+      "weight": 279
+    },
+    {
+      "source": "CMG",
+      "target": "MAR",
+      "weight": 167
+    },
+    {
+      "source": "CMG",
+      "target": "DPZ",
+      "weight": 992
+    },
+    {
+      "source": "CMG",
+      "target": "STAF",
+      "weight": 3
+    },
+    {
+      "source": "CMG",
+      "target": "SBUX",
+      "weight": 3989
+    },
+    {
+      "source": "CMG",
+      "target": "YUMC",
+      "weight": 54
+    },
+    {
+      "source": "CMG",
+      "target": "TXRH",
+      "weight": 72
+    },
+    {
+      "source": "CMG",
+      "target": "WEN",
+      "weight": 290
+    },
+    {
+      "source": "CMG",
+      "target": "WH",
+      "weight": 6
+    },
+    {
+      "source": "CMG",
+      "target": "MCD",
+      "weight": 5462
+    },
+    {
+      "source": "CMG",
+      "target": "FLL",
+      "weight": 1
+    },
+    {
+      "source": "CMG",
+      "target": "TAST",
+      "weight": 37
+    },
+    {
+      "source": "CMG",
+      "target": "RLH",
+      "weight": 6
+    },
+    {
+      "source": "CMG",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "CMG",
+      "target": "RUTH",
+      "weight": 76
+    },
+    {
+      "source": "CMG",
+      "target": "SHAK",
+      "weight": 3120
+    },
+    {
+      "source": "CMG",
+      "target": "H",
+      "weight": 16
+    },
+    {
+      "source": "CMG",
+      "target": "RICK",
+      "weight": 6
+    },
+    {
+      "source": "CMG",
+      "target": "HLT",
+      "weight": 160
+    },
+    {
+      "source": "CMG",
+      "target": "LOCO",
+      "weight": 73
+    },
+    {
+      "source": "CMG",
+      "target": "DENN",
+      "weight": 46
+    },
+    {
+      "source": "CMG",
+      "target": "MCS",
+      "weight": 23
+    },
+    {
+      "source": "CMG",
+      "target": "WYND",
+      "weight": 2
+    },
+    {
+      "source": "CMG",
+      "target": "GTIM",
+      "weight": 15
+    },
+    {
+      "source": "CMG",
+      "target": "PK",
+      "weight": 18
+    },
+    {
+      "source": "CMG",
+      "target": "RRGB",
+      "weight": 45
+    },
+    {
+      "source": "CMG",
+      "target": "HGV",
+      "weight": 24
+    },
+    {
+      "source": "CMG",
+      "target": "JACK",
+      "weight": 110
+    },
+    {
+      "source": "CMG",
+      "target": "YUM",
+      "weight": 557
+    },
+    {
+      "source": "CMG",
+      "target": "EAT",
+      "weight": 186
+    },
+    {
+      "source": "CMG",
+      "target": "LUB",
+      "weight": 21
+    },
+    {
+      "source": "CMG",
+      "target": "RAVE",
+      "weight": 3
+    },
+    {
+      "source": "CMG",
+      "target": "DIN",
+      "weight": 63
+    },
+    {
+      "source": "CSBR",
+      "target": "EAT",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "H",
+      "weight": 138
+    },
+    {
+      "source": "CSBR",
+      "target": "MAR",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "DRI",
+      "weight": 11
+    },
+    {
+      "source": "CSBR",
+      "target": "RLH",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "JAX",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "GTIM",
+      "weight": 5
+    },
+    {
+      "source": "CSBR",
+      "target": "LOCO",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "CSBR",
+      "target": "HLT",
+      "weight": 2
+    },
+    {
+      "source": "DENN",
+      "target": "HLT",
+      "weight": 10
+    },
+    {
+      "source": "DENN",
+      "target": "YUMC",
+      "weight": 7
+    },
+    {
+      "source": "DENN",
+      "target": "SHAK",
+      "weight": 21
+    },
+    {
+      "source": "DENN",
+      "target": "JACK",
+      "weight": 38
+    },
+    {
+      "source": "DENN",
+      "target": "RUTH",
+      "weight": 82
+    },
+    {
+      "source": "DENN",
+      "target": "LOCO",
+      "weight": 28
+    },
+    {
+      "source": "DENN",
+      "target": "TAST",
+      "weight": 58
+    },
+    {
+      "source": "DENN",
+      "target": "GTIM",
+      "weight": 75
+    },
+    {
+      "source": "DENN",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "DENN",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "DENN",
+      "target": "MCS",
+      "weight": 6
+    },
+    {
+      "source": "DENN",
+      "target": "WEN",
+      "weight": 34
+    },
+    {
+      "source": "DENN",
+      "target": "HGV",
+      "weight": 2
+    },
+    {
+      "source": "DENN",
+      "target": "MAR",
+      "weight": 10
+    },
+    {
+      "source": "DENN",
+      "target": "MCD",
+      "weight": 54
+    },
+    {
+      "source": "DENN",
+      "target": "MTN",
+      "weight": 2
+    },
+    {
+      "source": "DENN",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "DENN",
+      "target": "NATH",
+      "weight": 10
+    },
+    {
+      "source": "DENN",
+      "target": "DPZ",
+      "weight": 24
+    },
+    {
+      "source": "DENN",
+      "target": "PZZA",
+      "weight": 22
+    },
+    {
+      "source": "DENN",
+      "target": "DRI",
+      "weight": 72
+    },
+    {
+      "source": "DENN",
+      "target": "TXRH",
+      "weight": 46
+    },
+    {
+      "source": "DENN",
+      "target": "RRGB",
+      "weight": 131
+    },
+    {
+      "source": "DENN",
+      "target": "LUB",
+      "weight": 13
+    },
+    {
+      "source": "DENN",
+      "target": "EAT",
+      "weight": 82
+    },
+    {
+      "source": "DENN",
+      "target": "H",
+      "weight": 11
+    },
+    {
+      "source": "DENN",
+      "target": "PK",
+      "weight": 13
+    },
+    {
+      "source": "DENN",
+      "target": "DIN",
+      "weight": 107
+    },
+    {
+      "source": "DENN",
+      "target": "RAVE",
+      "weight": 2
+    },
+    {
+      "source": "DENN",
+      "target": "YUM",
+      "weight": 33
+    },
+    {
+      "source": "DENN",
+      "target": "SBUX",
+      "weight": 61
+    },
+    {
+      "source": "DIN",
+      "target": "SHAK",
+      "weight": 84
+    },
+    {
+      "source": "DIN",
+      "target": "RUTH",
+      "weight": 95
+    },
+    {
+      "source": "DIN",
+      "target": "PZZA",
+      "weight": 20
+    },
+    {
+      "source": "DIN",
+      "target": "YUMC",
+      "weight": 10
+    },
+    {
+      "source": "DIN",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "DIN",
+      "target": "DPZ",
+      "weight": 35
+    },
+    {
+      "source": "DIN",
+      "target": "JACK",
+      "weight": 54
+    },
+    {
+      "source": "DIN",
+      "target": "RRGB",
+      "weight": 89
+    },
+    {
+      "source": "DIN",
+      "target": "MCD",
+      "weight": 61
+    },
+    {
+      "source": "DIN",
+      "target": "PK",
+      "weight": 29
+    },
+    {
+      "source": "DIN",
+      "target": "TAST",
+      "weight": 19
+    },
+    {
+      "source": "DIN",
+      "target": "HLT",
+      "weight": 20
+    },
+    {
+      "source": "DIN",
+      "target": "MAR",
+      "weight": 15
+    },
+    {
+      "source": "DIN",
+      "target": "TXRH",
+      "weight": 65
+    },
+    {
+      "source": "DIN",
+      "target": "JAX",
+      "weight": 1
+    },
+    {
+      "source": "DIN",
+      "target": "YUM",
+      "weight": 40
+    },
+    {
+      "source": "DIN",
+      "target": "H",
+      "weight": 7
+    },
+    {
+      "source": "DIN",
+      "target": "WYND",
+      "weight": 4
+    },
+    {
+      "source": "DIN",
+      "target": "GTIM",
+      "weight": 1
+    },
+    {
+      "source": "DIN",
+      "target": "EAT",
+      "weight": 264
+    },
+    {
+      "source": "DIN",
+      "target": "DRI",
+      "weight": 196
+    },
+    {
+      "source": "DIN",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "DIN",
+      "target": "WEN",
+      "weight": 56
+    },
+    {
+      "source": "DIN",
+      "target": "SBUX",
+      "weight": 44
+    },
+    {
+      "source": "DIN",
+      "target": "MCS",
+      "weight": 4
+    },
+    {
+      "source": "DIN",
+      "target": "LOCO",
+      "weight": 24
+    },
+    {
+      "source": "DIN",
+      "target": "MTN",
+      "weight": 3
+    },
+    {
+      "source": "DIN",
+      "target": "RICK",
+      "weight": 7
+    },
+    {
+      "source": "DIN",
+      "target": "LUB",
+      "weight": 13
+    },
+    {
+      "source": "DPZ",
+      "target": "RUTH",
+      "weight": 15
+    },
+    {
+      "source": "DPZ",
+      "target": "NATH",
+      "weight": 2
+    },
+    {
+      "source": "DPZ",
+      "target": "LUB",
+      "weight": 25
+    },
+    {
+      "source": "DPZ",
+      "target": "SBUX",
+      "weight": 383
+    },
+    {
+      "source": "DPZ",
+      "target": "H",
+      "weight": 20
+    },
+    {
+      "source": "DPZ",
+      "target": "RICK",
+      "weight": 7
+    },
+    {
+      "source": "DPZ",
+      "target": "RRGB",
+      "weight": 18
+    },
+    {
+      "source": "DPZ",
+      "target": "MCD",
+      "weight": 868
+    },
+    {
+      "source": "DPZ",
+      "target": "RAVE",
+      "weight": 31
+    },
+    {
+      "source": "DPZ",
+      "target": "SHAK",
+      "weight": 145
+    },
+    {
+      "source": "DPZ",
+      "target": "GTIM",
+      "weight": 10
+    },
+    {
+      "source": "DPZ",
+      "target": "YUMC",
+      "weight": 54
+    },
+    {
+      "source": "DPZ",
+      "target": "YUM",
+      "weight": 433
+    },
+    {
+      "source": "DPZ",
+      "target": "LOCO",
+      "weight": 25
+    },
+    {
+      "source": "DPZ",
+      "target": "PZZA",
+      "weight": 749
+    },
+    {
+      "source": "DPZ",
+      "target": "DRI",
+      "weight": 173
+    },
+    {
+      "source": "DPZ",
+      "target": "PK",
+      "weight": 3
+    },
+    {
+      "source": "DPZ",
+      "target": "RLH",
+      "weight": 1
+    },
+    {
+      "source": "DPZ",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "DPZ",
+      "target": "MCS",
+      "weight": 26
+    },
+    {
+      "source": "DPZ",
+      "target": "JACK",
+      "weight": 53
+    },
+    {
+      "source": "DPZ",
+      "target": "TXRH",
+      "weight": 56
+    },
+    {
+      "source": "DPZ",
+      "target": "HLT",
+      "weight": 31
+    },
+    {
+      "source": "DPZ",
+      "target": "WEN",
+      "weight": 148
+    },
+    {
+      "source": "DPZ",
+      "target": "TAST",
+      "weight": 21
+    },
+    {
+      "source": "DPZ",
+      "target": "EAT",
+      "weight": 80
+    },
+    {
+      "source": "DPZ",
+      "target": "MTN",
+      "weight": 13
+    },
+    {
+      "source": "DPZ",
+      "target": "MAR",
+      "weight": 26
+    },
+    {
+      "source": "DRI",
+      "target": "TXRH",
+      "weight": 155
+    },
+    {
+      "source": "DRI",
+      "target": "WH",
+      "weight": 6
+    },
+    {
+      "source": "DRI",
+      "target": "HLT",
+      "weight": 67
+    },
+    {
+      "source": "DRI",
+      "target": "GTIM",
+      "weight": 3
+    },
+    {
+      "source": "DRI",
+      "target": "LUB",
+      "weight": 14
+    },
+    {
+      "source": "DRI",
+      "target": "MAR",
+      "weight": 176
+    },
+    {
+      "source": "DRI",
+      "target": "SBUX",
+      "weight": 295
+    },
+    {
+      "source": "DRI",
+      "target": "WYND",
+      "weight": 22
+    },
+    {
+      "source": "DRI",
+      "target": "RICK",
+      "weight": 1
+    },
+    {
+      "source": "DRI",
+      "target": "H",
+      "weight": 19
+    },
+    {
+      "source": "DRI",
+      "target": "WEN",
+      "weight": 107
+    },
+    {
+      "source": "DRI",
+      "target": "SHAK",
+      "weight": 124
+    },
+    {
+      "source": "DRI",
+      "target": "YUM",
+      "weight": 172
+    },
+    {
+      "source": "DRI",
+      "target": "LOCO",
+      "weight": 20
+    },
+    {
+      "source": "DRI",
+      "target": "STAF",
+      "weight": 162
+    },
+    {
+      "source": "DRI",
+      "target": "FLL",
+      "weight": 1
+    },
+    {
+      "source": "DRI",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "DRI",
+      "target": "TAST",
+      "weight": 21
+    },
+    {
+      "source": "DRI",
+      "target": "PK",
+      "weight": 30
+    },
+    {
+      "source": "DRI",
+      "target": "MCD",
+      "weight": 384
+    },
+    {
+      "source": "DRI",
+      "target": "HGV",
+      "weight": 10
+    },
+    {
+      "source": "DRI",
+      "target": "RRGB",
+      "weight": 64
+    },
+    {
+      "source": "DRI",
+      "target": "YUMC",
+      "weight": 11
+    },
+    {
+      "source": "DRI",
+      "target": "MTN",
+      "weight": 252
+    },
+    {
+      "source": "DRI",
+      "target": "JACK",
+      "weight": 60
+    },
+    {
+      "source": "DRI",
+      "target": "RUTH",
+      "weight": 93
+    },
+    {
+      "source": "DRI",
+      "target": "EAT",
+      "weight": 436
+    },
+    {
+      "source": "DRI",
+      "target": "PZZA",
+      "weight": 100
+    },
+    {
+      "source": "EAT",
+      "target": "TAST",
+      "weight": 48
+    },
+    {
+      "source": "EAT",
+      "target": "MTN",
+      "weight": 5
+    },
+    {
+      "source": "EAT",
+      "target": "LUB",
+      "weight": 18
+    },
+    {
+      "source": "EAT",
+      "target": "H",
+      "weight": 7
+    },
+    {
+      "source": "EAT",
+      "target": "JACK",
+      "weight": 71
+    },
+    {
+      "source": "EAT",
+      "target": "LOCO",
+      "weight": 30
+    },
+    {
+      "source": "EAT",
+      "target": "WH",
+      "weight": 3
+    },
+    {
+      "source": "EAT",
+      "target": "HLT",
+      "weight": 21
+    },
+    {
+      "source": "EAT",
+      "target": "STAF",
+      "weight": 1
+    },
+    {
+      "source": "EAT",
+      "target": "MCD",
+      "weight": 189
+    },
+    {
+      "source": "EAT",
+      "target": "PZZA",
+      "weight": 30
+    },
+    {
+      "source": "EAT",
+      "target": "SHAK",
+      "weight": 67
+    },
+    {
+      "source": "EAT",
+      "target": "PK",
+      "weight": 37
+    },
+    {
+      "source": "EAT",
+      "target": "TXRH",
+      "weight": 99
+    },
+    {
+      "source": "EAT",
+      "target": "JAX",
+      "weight": 1
+    },
+    {
+      "source": "EAT",
+      "target": "FLL",
+      "weight": 2
+    },
+    {
+      "source": "EAT",
+      "target": "MCS",
+      "weight": 4
+    },
+    {
+      "source": "EAT",
+      "target": "YUMC",
+      "weight": 17
+    },
+    {
+      "source": "EAT",
+      "target": "WYND",
+      "weight": 14
+    },
+    {
+      "source": "EAT",
+      "target": "RICK",
+      "weight": 4
+    },
+    {
+      "source": "EAT",
+      "target": "MAR",
+      "weight": 19
+    },
+    {
+      "source": "EAT",
+      "target": "YUM",
+      "weight": 243
+    },
+    {
+      "source": "EAT",
+      "target": "RAVE",
+      "weight": 3
+    },
+    {
+      "source": "EAT",
+      "target": "RRGB",
+      "weight": 230
+    },
+    {
+      "source": "EAT",
+      "target": "GTIM",
+      "weight": 10
+    },
+    {
+      "source": "EAT",
+      "target": "WEN",
+      "weight": 58
+    },
+    {
+      "source": "EAT",
+      "target": "RUTH",
+      "weight": 90
+    },
+    {
+      "source": "EAT",
+      "target": "SBUX",
+      "weight": 108
+    },
+    {
+      "source": "EAT",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "SBUX",
+      "weight": 2
+    },
+    {
+      "source": "FLL",
+      "target": "MCS",
+      "weight": 2
+    },
+    {
+      "source": "FLL",
+      "target": "MAR",
+      "weight": 4
+    },
+    {
+      "source": "FLL",
+      "target": "HGV",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "HLT",
+      "weight": 2
+    },
+    {
+      "source": "FLL",
+      "target": "JACK",
+      "weight": 13
+    },
+    {
+      "source": "FLL",
+      "target": "H",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "PZZA",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "MTN",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "RRGB",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "STAF",
+      "weight": 2
+    },
+    {
+      "source": "FLL",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "LUB",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "GTIM",
+      "weight": 2
+    },
+    {
+      "source": "FLL",
+      "target": "WH",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "RICK",
+      "weight": 11
+    },
+    {
+      "source": "FLL",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "WEN",
+      "weight": 1
+    },
+    {
+      "source": "FLL",
+      "target": "SHAK",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "LOCO",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "MCD",
+      "weight": 14
+    },
+    {
+      "source": "GTIM",
+      "target": "JACK",
+      "weight": 8
+    },
+    {
+      "source": "GTIM",
+      "target": "RRGB",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "PK",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "TAST",
+      "weight": 3
+    },
+    {
+      "source": "GTIM",
+      "target": "JAX",
+      "weight": 5
+    },
+    {
+      "source": "GTIM",
+      "target": "WH",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "NATH",
+      "weight": 3
+    },
+    {
+      "source": "GTIM",
+      "target": "YUM",
+      "weight": 25
+    },
+    {
+      "source": "GTIM",
+      "target": "PZZA",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "RAVE",
+      "weight": 30
+    },
+    {
+      "source": "GTIM",
+      "target": "SHAK",
+      "weight": 4
+    },
+    {
+      "source": "GTIM",
+      "target": "WEN",
+      "weight": 21
+    },
+    {
+      "source": "GTIM",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "LUB",
+      "weight": 15
+    },
+    {
+      "source": "GTIM",
+      "target": "SBUX",
+      "weight": 1
+    },
+    {
+      "source": "GTIM",
+      "target": "RICK",
+      "weight": 11
+    },
+    {
+      "source": "H",
+      "target": "SHAK",
+      "weight": 49
+    },
+    {
+      "source": "H",
+      "target": "RLH",
+      "weight": 12
+    },
+    {
+      "source": "H",
+      "target": "HGV",
+      "weight": 17
+    },
+    {
+      "source": "H",
+      "target": "MCS",
+      "weight": 5
+    },
+    {
+      "source": "H",
+      "target": "PK",
+      "weight": 48
+    },
+    {
+      "source": "H",
+      "target": "MAR",
+      "weight": 778
+    },
+    {
+      "source": "H",
+      "target": "LUB",
+      "weight": 1
+    },
+    {
+      "source": "H",
+      "target": "HLT",
+      "weight": 751
+    },
+    {
+      "source": "H",
+      "target": "MTN",
+      "weight": 59
+    },
+    {
+      "source": "H",
+      "target": "RRGB",
+      "weight": 6
+    },
+    {
+      "source": "H",
+      "target": "RUTH",
+      "weight": 2
+    },
+    {
+      "source": "H",
+      "target": "TXRH",
+      "weight": 30
+    },
+    {
+      "source": "H",
+      "target": "YUM",
+      "weight": 12
+    },
+    {
+      "source": "H",
+      "target": "JACK",
+      "weight": 27
+    },
+    {
+      "source": "H",
+      "target": "WYND",
+      "weight": 73
+    },
+    {
+      "source": "H",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "H",
+      "target": "YUMC",
+      "weight": 5
+    },
+    {
+      "source": "H",
+      "target": "SBUX",
+      "weight": 70
+    },
+    {
+      "source": "H",
+      "target": "WH",
+      "weight": 134
+    },
+    {
+      "source": "H",
+      "target": "WEN",
+      "weight": 26
+    },
+    {
+      "source": "H",
+      "target": "MCD",
+      "weight": 70
+    },
+    {
+      "source": "H",
+      "target": "PZZA",
+      "weight": 17
+    },
+    {
+      "source": "H",
+      "target": "NATH",
+      "weight": 5
+    },
+    {
+      "source": "H",
+      "target": "RAVE",
+      "weight": 1
+    },
+    {
+      "source": "H",
+      "target": "STAF",
+      "weight": 8
+    },
+    {
+      "source": "HGV",
+      "target": "MAR",
+      "weight": 21
+    },
+    {
+      "source": "HGV",
+      "target": "MCD",
+      "weight": 6
+    },
+    {
+      "source": "HGV",
+      "target": "MTN",
+      "weight": 6
+    },
+    {
+      "source": "HGV",
+      "target": "SBUX",
+      "weight": 5
+    },
+    {
+      "source": "HGV",
+      "target": "WEN",
+      "weight": 4
+    },
+    {
+      "source": "HGV",
+      "target": "WYND",
+      "weight": 46
+    },
+    {
+      "source": "HGV",
+      "target": "HLT",
+      "weight": 36
+    },
+    {
+      "source": "HGV",
+      "target": "MCS",
+      "weight": 3
+    },
+    {
+      "source": "HGV",
+      "target": "RUTH",
+      "weight": 6
+    },
+    {
+      "source": "HGV",
+      "target": "YUMC",
+      "weight": 2
+    },
+    {
+      "source": "HGV",
+      "target": "TXRH",
+      "weight": 1
+    },
+    {
+      "source": "HGV",
+      "target": "PK",
+      "weight": 11
+    },
+    {
+      "source": "HGV",
+      "target": "JAX",
+      "weight": 2
+    },
+    {
+      "source": "HGV",
+      "target": "WH",
+      "weight": 15
+    },
+    {
+      "source": "HGV",
+      "target": "YUM",
+      "weight": 2
+    },
+    {
+      "source": "HLT",
+      "target": "PK",
+      "weight": 99
+    },
+    {
+      "source": "HLT",
+      "target": "JACK",
+      "weight": 11
+    },
+    {
+      "source": "HLT",
+      "target": "YUM",
+      "weight": 24
+    },
+    {
+      "source": "HLT",
+      "target": "MAR",
+      "weight": 1744
+    },
+    {
+      "source": "HLT",
+      "target": "TAST",
+      "weight": 2
+    },
+    {
+      "source": "HLT",
+      "target": "RUTH",
+      "weight": 12
+    },
+    {
+      "source": "HLT",
+      "target": "YUMC",
+      "weight": 8
+    },
+    {
+      "source": "HLT",
+      "target": "RICK",
+      "weight": 2
+    },
+    {
+      "source": "HLT",
+      "target": "RAVE",
+      "weight": 2
+    },
+    {
+      "source": "HLT",
+      "target": "RLH",
+      "weight": 11
+    },
+    {
+      "source": "HLT",
+      "target": "WEN",
+      "weight": 78
+    },
+    {
+      "source": "HLT",
+      "target": "PZZA",
+      "weight": 30
+    },
+    {
+      "source": "HLT",
+      "target": "SHAK",
+      "weight": 39
+    },
+    {
+      "source": "HLT",
+      "target": "MCD",
+      "weight": 71
+    },
+    {
+      "source": "HLT",
+      "target": "MTN",
+      "weight": 48
+    },
+    {
+      "source": "HLT",
+      "target": "LUB",
+      "weight": 1
+    },
+    {
+      "source": "HLT",
+      "target": "JAX",
+      "weight": 3
+    },
+    {
+      "source": "HLT",
+      "target": "MCS",
+      "weight": 4
+    },
+    {
+      "source": "HLT",
+      "target": "RRGB",
+      "weight": 3
+    },
+    {
+      "source": "HLT",
+      "target": "WYND",
+      "weight": 82
+    },
+    {
+      "source": "HLT",
+      "target": "TXRH",
+      "weight": 12
+    },
+    {
+      "source": "HLT",
+      "target": "WH",
+      "weight": 130
+    },
+    {
+      "source": "HLT",
+      "target": "SBUX",
+      "weight": 227
+    },
+    {
+      "source": "JACK",
+      "target": "WEN",
+      "weight": 129
+    },
+    {
+      "source": "JACK",
+      "target": "TXRH",
+      "weight": 29
+    },
+    {
+      "source": "JACK",
+      "target": "SHAK",
+      "weight": 68
+    },
+    {
+      "source": "JACK",
+      "target": "RUTH",
+      "weight": 21
+    },
+    {
+      "source": "JACK",
+      "target": "LUB",
+      "weight": 17
+    },
+    {
+      "source": "JACK",
+      "target": "YUM",
+      "weight": 91
+    },
+    {
+      "source": "JACK",
+      "target": "JAX",
+      "weight": 12
+    },
+    {
+      "source": "JACK",
+      "target": "MCS",
+      "weight": 11
+    },
+    {
+      "source": "JACK",
+      "target": "MCD",
+      "weight": 179
+    },
+    {
+      "source": "JACK",
+      "target": "SBUX",
+      "weight": 74
+    },
+    {
+      "source": "JACK",
+      "target": "LOCO",
+      "weight": 30
+    },
+    {
+      "source": "JACK",
+      "target": "RICK",
+      "weight": 4
+    },
+    {
+      "source": "JACK",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "JACK",
+      "target": "MAR",
+      "weight": 22
+    },
+    {
+      "source": "JACK",
+      "target": "YUMC",
+      "weight": 16
+    },
+    {
+      "source": "JACK",
+      "target": "PK",
+      "weight": 3
+    },
+    {
+      "source": "JACK",
+      "target": "MTN",
+      "weight": 4
+    },
+    {
+      "source": "JACK",
+      "target": "TAST",
+      "weight": 35
+    },
+    {
+      "source": "JACK",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "JACK",
+      "target": "RLH",
+      "weight": 1
+    },
+    {
+      "source": "JACK",
+      "target": "RRGB",
+      "weight": 35
+    },
+    {
+      "source": "JACK",
+      "target": "PZZA",
+      "weight": 52
+    },
+    {
+      "source": "JAX",
+      "target": "PK",
+      "weight": 1
+    },
+    {
+      "source": "JAX",
+      "target": "YUMC",
+      "weight": 10
+    },
+    {
+      "source": "JAX",
+      "target": "RUTH",
+      "weight": 9
+    },
+    {
+      "source": "JAX",
+      "target": "RRGB",
+      "weight": 4
+    },
+    {
+      "source": "JAX",
+      "target": "SHAK",
+      "weight": 3
+    },
+    {
+      "source": "JAX",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "JAX",
+      "target": "TXRH",
+      "weight": 1
+    },
+    {
+      "source": "JAX",
+      "target": "NATH",
+      "weight": 4
+    },
+    {
+      "source": "JAX",
+      "target": "RAVE",
+      "weight": 24
+    },
+    {
+      "source": "JAX",
+      "target": "LOCO",
+      "weight": 2
+    },
+    {
+      "source": "JAX",
+      "target": "WEN",
+      "weight": 1
+    },
+    {
+      "source": "JAX",
+      "target": "SBUX",
+      "weight": 3
+    },
+    {
+      "source": "JAX",
+      "target": "RICK",
+      "weight": 6
+    },
+    {
+      "source": "JAX",
+      "target": "LUB",
+      "weight": 13
+    },
+    {
+      "source": "JAX",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "LOCO",
+      "target": "WEN",
+      "weight": 20
+    },
+    {
+      "source": "LOCO",
+      "target": "MCD",
+      "weight": 25
+    },
+    {
+      "source": "LOCO",
+      "target": "RUTH",
+      "weight": 7
+    },
+    {
+      "source": "LOCO",
+      "target": "PZZA",
+      "weight": 21
+    },
+    {
+      "source": "LOCO",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "LOCO",
+      "target": "SHAK",
+      "weight": 34
+    },
+    {
+      "source": "LOCO",
+      "target": "TAST",
+      "weight": 16
+    },
+    {
+      "source": "LOCO",
+      "target": "SBUX",
+      "weight": 10
+    },
+    {
+      "source": "LOCO",
+      "target": "RAVE",
+      "weight": 1
+    },
+    {
+      "source": "LOCO",
+      "target": "YUM",
+      "weight": 21
+    },
+    {
+      "source": "LOCO",
+      "target": "LUB",
+      "weight": 16
+    },
+    {
+      "source": "LOCO",
+      "target": "MCS",
+      "weight": 1
+    },
+    {
+      "source": "LOCO",
+      "target": "YUMC",
+      "weight": 5
+    },
+    {
+      "source": "LOCO",
+      "target": "NATH",
+      "weight": 1
+    },
+    {
+      "source": "LOCO",
+      "target": "RRGB",
+      "weight": 23
+    },
+    {
+      "source": "LOCO",
+      "target": "TXRH",
+      "weight": 14
+    },
+    {
+      "source": "LUB",
+      "target": "TXRH",
+      "weight": 11
+    },
+    {
+      "source": "LUB",
+      "target": "SHAK",
+      "weight": 19
+    },
+    {
+      "source": "LUB",
+      "target": "PZZA",
+      "weight": 20
+    },
+    {
+      "source": "LUB",
+      "target": "STAF",
+      "weight": 22
+    },
+    {
+      "source": "LUB",
+      "target": "MCS",
+      "weight": 4
+    },
+    {
+      "source": "LUB",
+      "target": "WEN",
+      "weight": 13
+    },
+    {
+      "source": "LUB",
+      "target": "RLH",
+      "weight": 13
+    },
+    {
+      "source": "LUB",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "LUB",
+      "target": "YUMC",
+      "weight": 2
+    },
+    {
+      "source": "LUB",
+      "target": "NATH",
+      "weight": 3
+    },
+    {
+      "source": "LUB",
+      "target": "RAVE",
+      "weight": 84
+    },
+    {
+      "source": "LUB",
+      "target": "RRGB",
+      "weight": 17
+    },
+    {
+      "source": "LUB",
+      "target": "YUM",
+      "weight": 14
+    },
+    {
+      "source": "LUB",
+      "target": "TAST",
+      "weight": 14
+    },
+    {
+      "source": "LUB",
+      "target": "MCD",
+      "weight": 19
+    },
+    {
+      "source": "LUB",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "LUB",
+      "target": "MAR",
+      "weight": 1
+    },
+    {
+      "source": "LUB",
+      "target": "SBUX",
+      "weight": 3
+    },
+    {
+      "source": "MAR",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "MAR",
+      "target": "RUTH",
+      "weight": 16
+    },
+    {
+      "source": "MAR",
+      "target": "RICK",
+      "weight": 2
+    },
+    {
+      "source": "MAR",
+      "target": "YUM",
+      "weight": 96
+    },
+    {
+      "source": "MAR",
+      "target": "MCS",
+      "weight": 4
+    },
+    {
+      "source": "MAR",
+      "target": "SHAK",
+      "weight": 63
+    },
+    {
+      "source": "MAR",
+      "target": "MCD",
+      "weight": 352
+    },
+    {
+      "source": "MAR",
+      "target": "MTN",
+      "weight": 39
+    },
+    {
+      "source": "MAR",
+      "target": "WH",
+      "weight": 134
+    },
+    {
+      "source": "MAR",
+      "target": "PZZA",
+      "weight": 13
+    },
+    {
+      "source": "MAR",
+      "target": "WEN",
+      "weight": 24
+    },
+    {
+      "source": "MAR",
+      "target": "RLH",
+      "weight": 11
+    },
+    {
+      "source": "MAR",
+      "target": "RRGB",
+      "weight": 19
+    },
+    {
+      "source": "MAR",
+      "target": "TXRH",
+      "weight": 21
+    },
+    {
+      "source": "MAR",
+      "target": "WYND",
+      "weight": 90
+    },
+    {
+      "source": "MAR",
+      "target": "YUMC",
+      "weight": 14
+    },
+    {
+      "source": "MAR",
+      "target": "SBUX",
+      "weight": 689
+    },
+    {
+      "source": "MAR",
+      "target": "PK",
+      "weight": 155
+    },
+    {
+      "source": "MAR",
+      "target": "RAVE",
+      "weight": 4
+    },
+    {
+      "source": "MCD",
+      "target": "RAVE",
+      "weight": 27
+    },
+    {
+      "source": "MCD",
+      "target": "RRGB",
+      "weight": 48
+    },
+    {
+      "source": "MCD",
+      "target": "WYND",
+      "weight": 6
+    },
+    {
+      "source": "MCD",
+      "target": "TAST",
+      "weight": 70
+    },
+    {
+      "source": "MCD",
+      "target": "MTN",
+      "weight": 19
+    },
+    {
+      "source": "MCD",
+      "target": "YUM",
+      "weight": 997
+    },
+    {
+      "source": "MCD",
+      "target": "RUTH",
+      "weight": 17
+    },
+    {
+      "source": "MCD",
+      "target": "TXRH",
+      "weight": 64
+    },
+    {
+      "source": "MCD",
+      "target": "SHAK",
+      "weight": 2708
+    },
+    {
+      "source": "MCD",
+      "target": "RLH",
+      "weight": 3
+    },
+    {
+      "source": "MCD",
+      "target": "YUMC",
+      "weight": 130
+    },
+    {
+      "source": "MCD",
+      "target": "WEN",
+      "weight": 706
+    },
+    {
+      "source": "MCD",
+      "target": "RICK",
+      "weight": 3
+    },
+    {
+      "source": "MCD",
+      "target": "NATH",
+      "weight": 2
+    },
+    {
+      "source": "MCD",
+      "target": "PZZA",
+      "weight": 236
+    },
+    {
+      "source": "MCD",
+      "target": "PK",
+      "weight": 6
+    },
+    {
+      "source": "MCD",
+      "target": "SBUX",
+      "weight": 7858
+    },
+    {
+      "source": "MCD",
+      "target": "MCS",
+      "weight": 11
+    },
+    {
+      "source": "MCD",
+      "target": "WH",
+      "weight": 4
+    },
+    {
+      "source": "MCS",
+      "target": "PK",
+      "weight": 3
+    },
+    {
+      "source": "MCS",
+      "target": "RLH",
+      "weight": 2
+    },
+    {
+      "source": "MCS",
+      "target": "WYND",
+      "weight": 2
+    },
+    {
+      "source": "MCS",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "RRGB",
+      "weight": 2
+    },
+    {
+      "source": "MCS",
+      "target": "SBUX",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "MTN",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "WH",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "PZZA",
+      "weight": 5
+    },
+    {
+      "source": "MCS",
+      "target": "SHAK",
+      "weight": 1
+    },
+    {
+      "source": "MCS",
+      "target": "TXRH",
+      "weight": 2
+    },
+    {
+      "source": "MTN",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "MTN",
+      "target": "WYND",
+      "weight": 4
+    },
+    {
+      "source": "MTN",
+      "target": "SHAK",
+      "weight": 15
+    },
+    {
+      "source": "MTN",
+      "target": "WH",
+      "weight": 17
+    },
+    {
+      "source": "MTN",
+      "target": "RRGB",
+      "weight": 4
+    },
+    {
+      "source": "MTN",
+      "target": "TXRH",
+      "weight": 11
+    },
+    {
+      "source": "MTN",
+      "target": "WEN",
+      "weight": 3
+    },
+    {
+      "source": "MTN",
+      "target": "YUM",
+      "weight": 2
+    },
+    {
+      "source": "MTN",
+      "target": "RICK",
+      "weight": 4
+    },
+    {
+      "source": "MTN",
+      "target": "YUMC",
+      "weight": 9
+    },
+    {
+      "source": "MTN",
+      "target": "SBUX",
+      "weight": 5
+    },
+    {
+      "source": "MTN",
+      "target": "RLH",
+      "weight": 2
+    },
+    {
+      "source": "MTN",
+      "target": "PK",
+      "weight": 27
+    },
+    {
+      "source": "NATH",
+      "target": "PZZA",
+      "weight": 2
+    },
+    {
+      "source": "NATH",
+      "target": "RUTH",
+      "weight": 26
+    },
+    {
+      "source": "NATH",
+      "target": "RRGB",
+      "weight": 1
+    },
+    {
+      "source": "NATH",
+      "target": "YUM",
+      "weight": 2
+    },
+    {
+      "source": "NATH",
+      "target": "SBUX",
+      "weight": 2
+    },
+    {
+      "source": "NATH",
+      "target": "RAVE",
+      "weight": 3
+    },
+    {
+      "source": "PK",
+      "target": "RICK",
+      "weight": 4
+    },
+    {
+      "source": "PK",
+      "target": "PZZA",
+      "weight": 5
+    },
+    {
+      "source": "PK",
+      "target": "RLH",
+      "weight": 5
+    },
+    {
+      "source": "PK",
+      "target": "RRGB",
+      "weight": 16
+    },
+    {
+      "source": "PK",
+      "target": "RUTH",
+      "weight": 17
+    },
+    {
+      "source": "PK",
+      "target": "SHAK",
+      "weight": 15
+    },
+    {
+      "source": "PK",
+      "target": "STAF",
+      "weight": 1
+    },
+    {
+      "source": "PK",
+      "target": "YUMC",
+      "weight": 3
+    },
+    {
+      "source": "PK",
+      "target": "YUM",
+      "weight": 4
+    },
+    {
+      "source": "PK",
+      "target": "SBUX",
+      "weight": 45
+    },
+    {
+      "source": "PK",
+      "target": "TXRH",
+      "weight": 4
+    },
+    {
+      "source": "PK",
+      "target": "WH",
+      "weight": 16
+    },
+    {
+      "source": "PK",
+      "target": "RAVE",
+      "weight": 2
+    },
+    {
+      "source": "PK",
+      "target": "TAST",
+      "weight": 9
+    },
+    {
+      "source": "PK",
+      "target": "WEN",
+      "weight": 6
+    },
+    {
+      "source": "PK",
+      "target": "WYND",
+      "weight": 76
+    },
+    {
+      "source": "PZZA",
+      "target": "RUTH",
+      "weight": 8
+    },
+    {
+      "source": "PZZA",
+      "target": "RICK",
+      "weight": 3
+    },
+    {
+      "source": "PZZA",
+      "target": "WEN",
+      "weight": 177
+    },
+    {
+      "source": "PZZA",
+      "target": "SBUX",
+      "weight": 151
+    },
+    {
+      "source": "PZZA",
+      "target": "RAVE",
+      "weight": 6
+    },
+    {
+      "source": "PZZA",
+      "target": "YUM",
+      "weight": 170
+    },
+    {
+      "source": "PZZA",
+      "target": "WH",
+      "weight": 2
+    },
+    {
+      "source": "PZZA",
+      "target": "SHAK",
+      "weight": 75
+    },
+    {
+      "source": "PZZA",
+      "target": "WYND",
+      "weight": 56
+    },
+    {
+      "source": "PZZA",
+      "target": "RRGB",
+      "weight": 27
+    },
+    {
+      "source": "PZZA",
+      "target": "TXRH",
+      "weight": 31
+    },
+    {
+      "source": "PZZA",
+      "target": "TAST",
+      "weight": 19
+    },
+    {
+      "source": "PZZA",
+      "target": "YUMC",
+      "weight": 37
+    },
+    {
+      "source": "RAVE",
+      "target": "RUTH",
+      "weight": 1
+    },
+    {
+      "source": "RAVE",
+      "target": "YUM",
+      "weight": 9
+    },
+    {
+      "source": "RAVE",
+      "target": "WEN",
+      "weight": 4
+    },
+    {
+      "source": "RAVE",
+      "target": "STAF",
+      "weight": 34
+    },
+    {
+      "source": "RAVE",
+      "target": "SHAK",
+      "weight": 3
+    },
+    {
+      "source": "RAVE",
+      "target": "TAST",
+      "weight": 25
+    },
+    {
+      "source": "RAVE",
+      "target": "SBUX",
+      "weight": 1
+    },
+    {
+      "source": "RICK",
+      "target": "YUM",
+      "weight": 4
+    },
+    {
+      "source": "RICK",
+      "target": "STAF",
+      "weight": 2
+    },
+    {
+      "source": "RICK",
+      "target": "RUTH",
+      "weight": 9
+    },
+    {
+      "source": "RICK",
+      "target": "TXRH",
+      "weight": 2
+    },
+    {
+      "source": "RICK",
+      "target": "YUMC",
+      "weight": 7
+    },
+    {
+      "source": "RICK",
+      "target": "SHAK",
+      "weight": 3
+    },
+    {
+      "source": "RICK",
+      "target": "RRGB",
+      "weight": 7
+    },
+    {
+      "source": "RICK",
+      "target": "WYND",
+      "weight": 2
+    },
+    {
+      "source": "RICK",
+      "target": "SBUX",
+      "weight": 12
+    },
+    {
+      "source": "RICK",
+      "target": "WH",
+      "weight": 1
+    },
+    {
+      "source": "RICK",
+      "target": "WEN",
+      "weight": 1
+    },
+    {
+      "source": "RLH",
+      "target": "STAF",
+      "weight": 1
+    },
+    {
+      "source": "RLH",
+      "target": "TAST",
+      "weight": 42
+    },
+    {
+      "source": "RLH",
+      "target": "YUMC",
+      "weight": 1
+    },
+    {
+      "source": "RLH",
+      "target": "WH",
+      "weight": 5
+    },
+    {
+      "source": "RRGB",
+      "target": "YUM",
+      "weight": 35
+    },
+    {
+      "source": "RRGB",
+      "target": "TXRH",
+      "weight": 51
+    },
+    {
+      "source": "RRGB",
+      "target": "STAF",
+      "weight": 36
+    },
+    {
+      "source": "RRGB",
+      "target": "TAST",
+      "weight": 75
+    },
+    {
+      "source": "RRGB",
+      "target": "SBUX",
+      "weight": 47
+    },
+    {
+      "source": "RRGB",
+      "target": "WYND",
+      "weight": 6
+    },
+    {
+      "source": "RRGB",
+      "target": "WH",
+      "weight": 3
+    },
+    {
+      "source": "RRGB",
+      "target": "WEN",
+      "weight": 47
+    },
+    {
+      "source": "RRGB",
+      "target": "RUTH",
+      "weight": 44
+    },
+    {
+      "source": "RRGB",
+      "target": "SHAK",
+      "weight": 51
+    },
+    {
+      "source": "RRGB",
+      "target": "YUMC",
+      "weight": 8
+    },
+    {
+      "source": "RUTH",
+      "target": "WYND",
+      "weight": 6
+    },
+    {
+      "source": "RUTH",
+      "target": "SBUX",
+      "weight": 28
+    },
+    {
+      "source": "RUTH",
+      "target": "YUM",
+      "weight": 12
+    },
+    {
+      "source": "RUTH",
+      "target": "WEN",
+      "weight": 12
+    },
+    {
+      "source": "RUTH",
+      "target": "TXRH",
+      "weight": 23
+    },
+    {
+      "source": "RUTH",
+      "target": "TAST",
+      "weight": 9
+    },
+    {
+      "source": "RUTH",
+      "target": "SHAK",
+      "weight": 128
+    },
+    {
+      "source": "RUTH",
+      "target": "YUMC",
+      "weight": 1
+    },
+    {
+      "source": "SBUX",
+      "target": "SHAK",
+      "weight": 1301
+    },
+    {
+      "source": "SBUX",
+      "target": "YUM",
+      "weight": 685
+    },
+    {
+      "source": "SBUX",
+      "target": "YUMC",
+      "weight": 256
+    },
+    {
+      "source": "SBUX",
+      "target": "TXRH",
+      "weight": 53
+    },
+    {
+      "source": "SBUX",
+      "target": "WYND",
+      "weight": 3
+    },
+    {
+      "source": "SBUX",
+      "target": "WH",
+      "weight": 22
+    },
+    {
+      "source": "SBUX",
+      "target": "WEN",
+      "weight": 289
+    },
+    {
+      "source": "SBUX",
+      "target": "TAST",
+      "weight": 25
+    },
+    {
+      "source": "SHAK",
+      "target": "WH",
+      "weight": 47
+    },
+    {
+      "source": "SHAK",
+      "target": "TAST",
+      "weight": 14
+    },
+    {
+      "source": "SHAK",
+      "target": "WYND",
+      "weight": 2
+    },
+    {
+      "source": "SHAK",
+      "target": "WEN",
+      "weight": 384
+    },
+    {
+      "source": "SHAK",
+      "target": "TXRH",
+      "weight": 125
+    },
+    {
+      "source": "SHAK",
+      "target": "YUMC",
+      "weight": 54
+    },
+    {
+      "source": "SHAK",
+      "target": "YUM",
+      "weight": 191
+    },
+    {
+      "source": "STAF",
+      "target": "TAST",
+      "weight": 1
+    },
+    {
+      "source": "TAST",
+      "target": "TXRH",
+      "weight": 15
+    },
+    {
+      "source": "TAST",
+      "target": "YUM",
+      "weight": 32
+    },
+    {
+      "source": "TAST",
+      "target": "WH",
+      "weight": 3
+    },
+    {
+      "source": "TAST",
+      "target": "WYND",
+      "weight": 1
+    },
+    {
+      "source": "TAST",
+      "target": "WEN",
+      "weight": 40
+    },
+    {
+      "source": "TAST",
+      "target": "YUMC",
+      "weight": 9
+    },
+    {
+      "source": "TXRH",
+      "target": "WEN",
+      "weight": 42
+    },
+    {
+      "source": "TXRH",
+      "target": "YUM",
+      "weight": 30
+    },
+    {
+      "source": "TXRH",
+      "target": "WH",
+      "weight": 46
+    },
+    {
+      "source": "TXRH",
+      "target": "WYND",
+      "weight": 12
+    },
+    {
+      "source": "TXRH",
+      "target": "YUMC",
+      "weight": 11
+    },
+    {
+      "source": "WEN",
+      "target": "WYND",
+      "weight": 103
+    },
+    {
+      "source": "WEN",
+      "target": "YUM",
+      "weight": 296
+    },
+    {
+      "source": "WEN",
+      "target": "YUMC",
+      "weight": 17
+    },
+    {
+      "source": "WEN",
+      "target": "WH",
+      "weight": 8
+    },
+    {
+      "source": "WH",
+      "target": "YUM",
+      "weight": 4
+    },
+    {
+      "source": "WH",
+      "target": "YUMC",
+      "weight": 4
+    },
+    {
+      "source": "WH",
+      "target": "WYND",
+      "weight": 27
+    },
+    {
+      "source": "WYND",
+      "target": "YUM",
+      "weight": 2
+    },
+    {
+      "source": "WYND",
+      "target": "YUMC",
+      "weight": 5
+    },
+    {
+      "source": "YUM",
+      "target": "YUMC",
+      "weight": 188
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "AAXN",
+      "label": "AAXN",
+      "industry": "Guns",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.47619047619047616,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05040738951091773,
+      "harmonic_centrality": 4.166666666666667,
+      "eccentricity": 1,
+      "degree": 7,
+      "weighted_degree": 104
+    },
+    {
+      "id": "ACCO",
+      "label": "ACCO",
+      "industry": "Guns",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5384615384615384,
+      "eigenvector_centrality": 0.00026989145374398306,
+      "harmonic_centrality": 2.0666666666666664,
+      "eccentricity": 2,
+      "degree": 1,
+      "weighted_degree": 2
+    },
+    {
+      "id": "AOBC",
+      "label": "AOBC",
+      "industry": "Guns",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.6429869534768049,
+      "harmonic_centrality": 3.3333333333333335,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 443
+    },
+    {
+      "id": "ASTC",
+      "label": "ASTC",
+      "industry": "Guns",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.5238095238095237,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.0038474492544812748,
+      "harmonic_centrality": 4.666666666666666,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 8
+    },
+    {
+      "id": "HI",
+      "label": "HI",
+      "industry": "Guns",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5833333333333334,
+      "eigenvector_centrality": 0.0035776041614836358,
+      "harmonic_centrality": 3.166666666666667,
+      "eccentricity": 2,
+      "degree": 2,
+      "weighted_degree": 3
+    },
+    {
+      "id": "LMT",
+      "label": "LMT",
+      "industry": "Guns",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.14285714285714285,
+      "closeness_centrality": 0.7777777777777778,
+      "eigenvector_centrality": 0.021207310627916236,
+      "harmonic_centrality": 3.6166666666666667,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 84
+    },
+    {
+      "id": "RGR",
+      "label": "RGR",
+      "industry": "Guns",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.3333333333333333,
+      "closeness_centrality": 0.7777777777777778,
+      "eigenvector_centrality": 0.6377412040356352,
+      "harmonic_centrality": 4.083333333333333,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 421
+    },
+    {
+      "id": "VSTO",
+      "label": "VSTO",
+      "industry": "Guns",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.4205182569564872,
+      "harmonic_centrality": 2.8666666666666667,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 249
+    }
+  ],
+  "edges": [
+    {
+      "source": "AAXN",
+      "target": "ASTC",
+      "weight": 1
+    },
+    {
+      "source": "AAXN",
+      "target": "AOBC",
+      "weight": 17
+    },
+    {
+      "source": "AAXN",
+      "target": "VSTO",
+      "weight": 3
+    },
+    {
+      "source": "AAXN",
+      "target": "ACCO",
+      "weight": 2
+    },
+    {
+      "source": "AAXN",
+      "target": "RGR",
+      "weight": 8
+    },
+    {
+      "source": "AAXN",
+      "target": "LMT",
+      "weight": 72
+    },
+    {
+      "source": "AAXN",
+      "target": "HI",
+      "weight": 1
+    },
+    {
+      "source": "AOBC",
+      "target": "RGR",
+      "weight": 292
+    },
+    {
+      "source": "AOBC",
+      "target": "VSTO",
+      "weight": 126
+    },
+    {
+      "source": "AOBC",
+      "target": "ASTC",
+      "weight": 1
+    },
+    {
+      "source": "AOBC",
+      "target": "HI",
+      "weight": 2
+    },
+    {
+      "source": "AOBC",
+      "target": "LMT",
+      "weight": 5
+    },
+    {
+      "source": "ASTC",
+      "target": "RGR",
+      "weight": 1
+    },
+    {
+      "source": "ASTC",
+      "target": "LMT",
+      "weight": 5
+    },
+    {
+      "source": "LMT",
+      "target": "VSTO",
+      "weight": 1
+    },
+    {
+      "source": "LMT",
+      "target": "RGR",
+      "weight": 1
+    },
+    {
+      "source": "RGR",
+      "target": "VSTO",
+      "weight": 119
+    }
+  ]
+}

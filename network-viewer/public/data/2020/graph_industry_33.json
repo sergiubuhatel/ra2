@@ -1,0 +1,1201 @@
+{
+  "nodes": [
+    {
+      "id": "APEI",
+      "label": "APEI",
+      "industry": "PerSv",
+      "degree_centrality": 0.41666666666666663,
+      "betweenness_centrality": 0.00040257648953301127,
+      "closeness_centrality": 0.631578947368421,
+      "eigenvector_centrality": 0.04865177892106671,
+      "harmonic_centrality": 7.557723577235771,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 102
+    },
+    {
+      "id": "ATGE",
+      "label": "ATGE",
+      "industry": "PerSv",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.061257713703365885,
+      "closeness_centrality": 0.7058823529411765,
+      "eigenvector_centrality": 0.14204078416166385,
+      "harmonic_centrality": 12.525,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 331
+    },
+    {
+      "id": "BFAM",
+      "label": "BFAM",
+      "industry": "PerSv",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.08333333333333333,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.17222318813105267,
+      "harmonic_centrality": 7.927777777777776,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 353
+    },
+    {
+      "id": "CHGG",
+      "label": "CHGG",
+      "industry": "PerSv",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.6186996784804227,
+      "harmonic_centrality": 9.141666666666667,
+      "eccentricity": 2,
+      "degree": 20,
+      "weighted_degree": 988
+    },
+    {
+      "id": "CRCM",
+      "label": "CRCM",
+      "industry": "PerSv",
+      "degree_centrality": 0.041666666666666664,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4067796610169492,
+      "eigenvector_centrality": 0.010076816807924107,
+      "harmonic_centrality": 0.6133018917999664,
+      "eccentricity": 3,
+      "degree": 1,
+      "weighted_degree": 36
+    },
+    {
+      "id": "CSV",
+      "label": "CSV",
+      "industry": "PerSv",
+      "degree_centrality": 0.5416666666666666,
+      "betweenness_centrality": 0.0616030004616961,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.004300000932096494,
+      "harmonic_centrality": 13.525641025641027,
+      "eccentricity": 3,
+      "degree": 13,
+      "weighted_degree": 124
+    },
+    {
+      "id": "FRG",
+      "label": "FRG",
+      "industry": "PerSv",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.07796803639194945,
+      "closeness_centrality": 0.5581395348837209,
+      "eigenvector_centrality": 0.0022080348276261015,
+      "harmonic_centrality": 12.60897435897436,
+      "eccentricity": 3,
+      "degree": 6,
+      "weighted_degree": 11
+    },
+    {
+      "id": "HRB",
+      "label": "HRB",
+      "industry": "PerSv",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.03554440728353772,
+      "closeness_centrality": 0.7058823529411765,
+      "eigenvector_centrality": 0.0838467475245978,
+      "harmonic_centrality": 11.941666666666666,
+      "eccentricity": 3,
+      "degree": 15,
+      "weighted_degree": 577
+    },
+    {
+      "id": "HSTM",
+      "label": "HSTM",
+      "industry": "PerSv",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.006485704311791269,
+      "closeness_centrality": 0.5714285714285714,
+      "eigenvector_centrality": 0.07541874935361549,
+      "harmonic_centrality": 10.525641025641024,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 80
+    },
+    {
+      "id": "HTZ",
+      "label": "HTZ",
+      "industry": "PerSv",
+      "degree_centrality": 0.7083333333333333,
+      "betweenness_centrality": 0.10337040173996696,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.05864312511652888,
+      "harmonic_centrality": 10.525,
+      "eccentricity": 3,
+      "degree": 17,
+      "weighted_degree": 146
+    },
+    {
+      "id": "LINC",
+      "label": "LINC",
+      "industry": "PerSv",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7058823529411765,
+      "eigenvector_centrality": 0.12613253940328334,
+      "harmonic_centrality": 9.942307692307692,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 325
+    },
+    {
+      "id": "LRN",
+      "label": "LRN",
+      "industry": "PerSv",
+      "degree_centrality": 0.9166666666666666,
+      "betweenness_centrality": 0.006056031327770458,
+      "closeness_centrality": 0.9230769230769231,
+      "eigenvector_centrality": 0.6340133325315912,
+      "harmonic_centrality": 11.358974358974358,
+      "eccentricity": 2,
+      "degree": 22,
+      "weighted_degree": 1029
+    },
+    {
+      "id": "MNRO",
+      "label": "MNRO",
+      "industry": "PerSv",
+      "degree_centrality": 0.7083333333333333,
+      "betweenness_centrality": 0.142063331193766,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.007747626864402037,
+      "harmonic_centrality": 13.775641025641027,
+      "eccentricity": 3,
+      "degree": 17,
+      "weighted_degree": 49
+    },
+    {
+      "id": "PPSI",
+      "label": "PPSI",
+      "industry": "PerSv",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.011047979797979796,
+      "closeness_centrality": 0.6486486486486487,
+      "eigenvector_centrality": 0.034269412076431555,
+      "harmonic_centrality": 8.641666666666666,
+      "eccentricity": 3,
+      "degree": 12,
+      "weighted_degree": 109
+    },
+    {
+      "id": "PRDO",
+      "label": "PRDO",
+      "industry": "PerSv",
+      "degree_centrality": 0.7916666666666666,
+      "betweenness_centrality": 0.09274817372643461,
+      "closeness_centrality": 0.8275862068965517,
+      "eigenvector_centrality": 0.16995687753372252,
+      "harmonic_centrality": 13.192307692307693,
+      "eccentricity": 2,
+      "degree": 19,
+      "weighted_degree": 355
+    },
+    {
+      "id": "PRSC",
+      "label": "PRSC",
+      "industry": "PerSv",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.11939201096809794,
+      "closeness_centrality": 0.6857142857142857,
+      "eigenvector_centrality": 0.03513664588972028,
+      "harmonic_centrality": 14.442307692307693,
+      "eccentricity": 3,
+      "degree": 14,
+      "weighted_degree": 91
+    },
+    {
+      "id": "R",
+      "label": "R",
+      "industry": "PerSv",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.04873266829788569,
+      "closeness_centrality": 0.7272727272727273,
+      "eigenvector_centrality": 0.02236787591076867,
+      "harmonic_centrality": 10.191666666666666,
+      "eccentricity": 3,
+      "degree": 16,
+      "weighted_degree": 84
+    },
+    {
+      "id": "RGS",
+      "label": "RGS",
+      "industry": "PerSv",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.014187724513811471,
+      "closeness_centrality": 0.6857142857142857,
+      "eigenvector_centrality": 0.08087348513582875,
+      "harmonic_centrality": 9.942307692307692,
+      "eccentricity": 3,
+      "degree": 14,
+      "weighted_degree": 614
+    },
+    {
+      "id": "SCI",
+      "label": "SCI",
+      "industry": "PerSv",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.007723978919631094,
+      "closeness_centrality": 0.6486486486486487,
+      "eigenvector_centrality": 0.009721257961163687,
+      "harmonic_centrality": 9.307723577235771,
+      "eccentricity": 3,
+      "degree": 12,
+      "weighted_degree": 135
+    },
+    {
+      "id": "SP",
+      "label": "SP",
+      "industry": "PerSv",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.04838040381518643,
+      "closeness_centrality": 0.7058823529411765,
+      "eigenvector_centrality": 0.009815667845767847,
+      "harmonic_centrality": 12.442982456140351,
+      "eccentricity": 3,
+      "degree": 15,
+      "weighted_degree": 44
+    },
+    {
+      "id": "STRA",
+      "label": "STRA",
+      "industry": "PerSv",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.03726067611937177,
+      "closeness_centrality": 0.8,
+      "eigenvector_centrality": 0.17094997129523345,
+      "harmonic_centrality": 9.608333333333334,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 400
+    },
+    {
+      "id": "TISI",
+      "label": "TISI",
+      "industry": "PerSv",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.12919994659125095,
+      "closeness_centrality": 0.7058823529411765,
+      "eigenvector_centrality": 0.009675752269624928,
+      "harmonic_centrality": 13.609649122807017,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 73
+    },
+    {
+      "id": "UTI",
+      "label": "UTI",
+      "industry": "PerSv",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.08812124871907481,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.19859312130198528,
+      "harmonic_centrality": 12.276315789473685,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 361
+    },
+    {
+      "id": "WW",
+      "label": "WW",
+      "industry": "PerSv",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.1600694997434128,
+      "closeness_centrality": 0.7272727272727273,
+      "eigenvector_centrality": 0.011792392633823427,
+      "harmonic_centrality": 11.527027027027028,
+      "eccentricity": 2,
+      "degree": 15,
+      "weighted_degree": 60
+    },
+    {
+      "id": "ZVO",
+      "label": "ZVO",
+      "industry": "PerSv",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.014190821256038646,
+      "closeness_centrality": 0.7272727272727273,
+      "eigenvector_centrality": 0.15284290337364276,
+      "harmonic_centrality": 9.941666666666666,
+      "eccentricity": 3,
+      "degree": 16,
+      "weighted_degree": 225
+    }
+  ],
+  "edges": [
+    {
+      "source": "APEI",
+      "target": "HTZ",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "CHGG",
+      "weight": 10
+    },
+    {
+      "source": "APEI",
+      "target": "ATGE",
+      "weight": 11
+    },
+    {
+      "source": "APEI",
+      "target": "LINC",
+      "weight": 5
+    },
+    {
+      "source": "APEI",
+      "target": "UTI",
+      "weight": 14
+    },
+    {
+      "source": "APEI",
+      "target": "LRN",
+      "weight": 18
+    },
+    {
+      "source": "APEI",
+      "target": "PRDO",
+      "weight": 5
+    },
+    {
+      "source": "APEI",
+      "target": "STRA",
+      "weight": 26
+    },
+    {
+      "source": "APEI",
+      "target": "BFAM",
+      "weight": 9
+    },
+    {
+      "source": "APEI",
+      "target": "ZVO",
+      "weight": 3
+    },
+    {
+      "source": "ATGE",
+      "target": "UTI",
+      "weight": 52
+    },
+    {
+      "source": "ATGE",
+      "target": "PRDO",
+      "weight": 59
+    },
+    {
+      "source": "ATGE",
+      "target": "FRG",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "STRA",
+      "weight": 49
+    },
+    {
+      "source": "ATGE",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "CHGG",
+      "weight": 25
+    },
+    {
+      "source": "ATGE",
+      "target": "HRB",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "LINC",
+      "weight": 42
+    },
+    {
+      "source": "ATGE",
+      "target": "BFAM",
+      "weight": 35
+    },
+    {
+      "source": "ATGE",
+      "target": "ZVO",
+      "weight": 5
+    },
+    {
+      "source": "ATGE",
+      "target": "SCI",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "LRN",
+      "weight": 48
+    },
+    {
+      "source": "ATGE",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "CHGG",
+      "weight": 53
+    },
+    {
+      "source": "BFAM",
+      "target": "CRCM",
+      "weight": 36
+    },
+    {
+      "source": "BFAM",
+      "target": "LRN",
+      "weight": 68
+    },
+    {
+      "source": "BFAM",
+      "target": "LINC",
+      "weight": 32
+    },
+    {
+      "source": "BFAM",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "UTI",
+      "weight": 25
+    },
+    {
+      "source": "BFAM",
+      "target": "HSTM",
+      "weight": 3
+    },
+    {
+      "source": "BFAM",
+      "target": "STRA",
+      "weight": 65
+    },
+    {
+      "source": "BFAM",
+      "target": "PRDO",
+      "weight": 23
+    },
+    {
+      "source": "BFAM",
+      "target": "TISI",
+      "weight": 3
+    },
+    {
+      "source": "CHGG",
+      "target": "HRB",
+      "weight": 10
+    },
+    {
+      "source": "CHGG",
+      "target": "LRN",
+      "weight": 504
+    },
+    {
+      "source": "CHGG",
+      "target": "RGS",
+      "weight": 3
+    },
+    {
+      "source": "CHGG",
+      "target": "WW",
+      "weight": 4
+    },
+    {
+      "source": "CHGG",
+      "target": "PRSC",
+      "weight": 19
+    },
+    {
+      "source": "CHGG",
+      "target": "PPSI",
+      "weight": 12
+    },
+    {
+      "source": "CHGG",
+      "target": "ZVO",
+      "weight": 65
+    },
+    {
+      "source": "CHGG",
+      "target": "UTI",
+      "weight": 35
+    },
+    {
+      "source": "CHGG",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "LINC",
+      "weight": 32
+    },
+    {
+      "source": "CHGG",
+      "target": "R",
+      "weight": 5
+    },
+    {
+      "source": "CHGG",
+      "target": "STRA",
+      "weight": 52
+    },
+    {
+      "source": "CHGG",
+      "target": "PRDO",
+      "weight": 53
+    },
+    {
+      "source": "CHGG",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "CHGG",
+      "target": "HTZ",
+      "weight": 50
+    },
+    {
+      "source": "CHGG",
+      "target": "HSTM",
+      "weight": 51
+    },
+    {
+      "source": "CHGG",
+      "target": "SP",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "PRDO",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "RGS",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "R",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "LINC",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "HRB",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "TISI",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "SP",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "LRN",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "SCI",
+      "weight": 104
+    },
+    {
+      "source": "CSV",
+      "target": "HTZ",
+      "weight": 4
+    },
+    {
+      "source": "FRG",
+      "target": "TISI",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "R",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "HTZ",
+      "weight": 6
+    },
+    {
+      "source": "FRG",
+      "target": "LRN",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "HRB",
+      "target": "HTZ",
+      "weight": 4
+    },
+    {
+      "source": "HRB",
+      "target": "LRN",
+      "weight": 2
+    },
+    {
+      "source": "HRB",
+      "target": "SCI",
+      "weight": 6
+    },
+    {
+      "source": "HRB",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "HRB",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "HRB",
+      "target": "R",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "PRDO",
+      "weight": 2
+    },
+    {
+      "source": "HRB",
+      "target": "RGS",
+      "weight": 524
+    },
+    {
+      "source": "HRB",
+      "target": "SP",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "STRA",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "WW",
+      "weight": 14
+    },
+    {
+      "source": "HRB",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "HSTM",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "HSTM",
+      "target": "STRA",
+      "weight": 2
+    },
+    {
+      "source": "HSTM",
+      "target": "LRN",
+      "weight": 22
+    },
+    {
+      "source": "HSTM",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "HTZ",
+      "target": "STRA",
+      "weight": 1
+    },
+    {
+      "source": "HTZ",
+      "target": "PRDO",
+      "weight": 1
+    },
+    {
+      "source": "HTZ",
+      "target": "UTI",
+      "weight": 2
+    },
+    {
+      "source": "HTZ",
+      "target": "TISI",
+      "weight": 4
+    },
+    {
+      "source": "HTZ",
+      "target": "SP",
+      "weight": 8
+    },
+    {
+      "source": "HTZ",
+      "target": "PRSC",
+      "weight": 2
+    },
+    {
+      "source": "HTZ",
+      "target": "RGS",
+      "weight": 6
+    },
+    {
+      "source": "HTZ",
+      "target": "PPSI",
+      "weight": 30
+    },
+    {
+      "source": "HTZ",
+      "target": "R",
+      "weight": 11
+    },
+    {
+      "source": "HTZ",
+      "target": "LRN",
+      "weight": 3
+    },
+    {
+      "source": "HTZ",
+      "target": "WW",
+      "weight": 11
+    },
+    {
+      "source": "HTZ",
+      "target": "MNRO",
+      "weight": 2
+    },
+    {
+      "source": "LINC",
+      "target": "MNRO",
+      "weight": 6
+    },
+    {
+      "source": "LINC",
+      "target": "PPSI",
+      "weight": 12
+    },
+    {
+      "source": "LINC",
+      "target": "PRSC",
+      "weight": 27
+    },
+    {
+      "source": "LINC",
+      "target": "STRA",
+      "weight": 37
+    },
+    {
+      "source": "LINC",
+      "target": "PRDO",
+      "weight": 50
+    },
+    {
+      "source": "LINC",
+      "target": "ZVO",
+      "weight": 9
+    },
+    {
+      "source": "LINC",
+      "target": "TISI",
+      "weight": 1
+    },
+    {
+      "source": "LINC",
+      "target": "UTI",
+      "weight": 38
+    },
+    {
+      "source": "LINC",
+      "target": "LRN",
+      "weight": 33
+    },
+    {
+      "source": "LRN",
+      "target": "STRA",
+      "weight": 53
+    },
+    {
+      "source": "LRN",
+      "target": "PRDO",
+      "weight": 58
+    },
+    {
+      "source": "LRN",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "LRN",
+      "target": "ZVO",
+      "weight": 70
+    },
+    {
+      "source": "LRN",
+      "target": "RGS",
+      "weight": 3
+    },
+    {
+      "source": "LRN",
+      "target": "R",
+      "weight": 9
+    },
+    {
+      "source": "LRN",
+      "target": "SP",
+      "weight": 4
+    },
+    {
+      "source": "LRN",
+      "target": "MNRO",
+      "weight": 2
+    },
+    {
+      "source": "LRN",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "LRN",
+      "target": "SCI",
+      "weight": 3
+    },
+    {
+      "source": "LRN",
+      "target": "UTI",
+      "weight": 111
+    },
+    {
+      "source": "LRN",
+      "target": "PPSI",
+      "weight": 13
+    },
+    {
+      "source": "MNRO",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "MNRO",
+      "target": "R",
+      "weight": 8
+    },
+    {
+      "source": "MNRO",
+      "target": "TISI",
+      "weight": 1
+    },
+    {
+      "source": "MNRO",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "MNRO",
+      "target": "PRSC",
+      "weight": 4
+    },
+    {
+      "source": "MNRO",
+      "target": "PRDO",
+      "weight": 1
+    },
+    {
+      "source": "MNRO",
+      "target": "PPSI",
+      "weight": 8
+    },
+    {
+      "source": "MNRO",
+      "target": "SP",
+      "weight": 3
+    },
+    {
+      "source": "MNRO",
+      "target": "STRA",
+      "weight": 5
+    },
+    {
+      "source": "PPSI",
+      "target": "WW",
+      "weight": 3
+    },
+    {
+      "source": "PPSI",
+      "target": "STRA",
+      "weight": 1
+    },
+    {
+      "source": "PPSI",
+      "target": "R",
+      "weight": 1
+    },
+    {
+      "source": "PPSI",
+      "target": "RGS",
+      "weight": 4
+    },
+    {
+      "source": "PPSI",
+      "target": "ZVO",
+      "weight": 9
+    },
+    {
+      "source": "PPSI",
+      "target": "TISI",
+      "weight": 8
+    },
+    {
+      "source": "PPSI",
+      "target": "SP",
+      "weight": 8
+    },
+    {
+      "source": "PRDO",
+      "target": "PRSC",
+      "weight": 1
+    },
+    {
+      "source": "PRDO",
+      "target": "R",
+      "weight": 2
+    },
+    {
+      "source": "PRDO",
+      "target": "RGS",
+      "weight": 2
+    },
+    {
+      "source": "PRDO",
+      "target": "SCI",
+      "weight": 4
+    },
+    {
+      "source": "PRDO",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "PRDO",
+      "target": "STRA",
+      "weight": 32
+    },
+    {
+      "source": "PRDO",
+      "target": "UTI",
+      "weight": 33
+    },
+    {
+      "source": "PRDO",
+      "target": "WW",
+      "weight": 4
+    },
+    {
+      "source": "PRDO",
+      "target": "ZVO",
+      "weight": 23
+    },
+    {
+      "source": "PRSC",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "PRSC",
+      "target": "STRA",
+      "weight": 14
+    },
+    {
+      "source": "PRSC",
+      "target": "ZVO",
+      "weight": 17
+    },
+    {
+      "source": "PRSC",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "R",
+      "target": "RGS",
+      "weight": 16
+    },
+    {
+      "source": "R",
+      "target": "WW",
+      "weight": 6
+    },
+    {
+      "source": "R",
+      "target": "SP",
+      "weight": 3
+    },
+    {
+      "source": "R",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "R",
+      "target": "STRA",
+      "weight": 11
+    },
+    {
+      "source": "R",
+      "target": "TISI",
+      "weight": 2
+    },
+    {
+      "source": "R",
+      "target": "ZVO",
+      "weight": 2
+    },
+    {
+      "source": "RGS",
+      "target": "WW",
+      "weight": 4
+    },
+    {
+      "source": "RGS",
+      "target": "SP",
+      "weight": 3
+    },
+    {
+      "source": "RGS",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "RGS",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "RGS",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "RGS",
+      "target": "TISI",
+      "weight": 43
+    },
+    {
+      "source": "SCI",
+      "target": "ZVO",
+      "weight": 3
+    },
+    {
+      "source": "SCI",
+      "target": "STRA",
+      "weight": 2
+    },
+    {
+      "source": "SCI",
+      "target": "WW",
+      "weight": 4
+    },
+    {
+      "source": "SP",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "SP",
+      "target": "ZVO",
+      "weight": 2
+    },
+    {
+      "source": "SP",
+      "target": "UTI",
+      "weight": 2
+    },
+    {
+      "source": "SP",
+      "target": "TISI",
+      "weight": 1
+    },
+    {
+      "source": "STRA",
+      "target": "ZVO",
+      "weight": 8
+    },
+    {
+      "source": "STRA",
+      "target": "TISI",
+      "weight": 2
+    },
+    {
+      "source": "STRA",
+      "target": "UTI",
+      "weight": 37
+    },
+    {
+      "source": "TISI",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "TISI",
+      "target": "ZVO",
+      "weight": 2
+    },
+    {
+      "source": "TISI",
+      "target": "UTI",
+      "weight": 3
+    },
+    {
+      "source": "UTI",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "UTI",
+      "target": "ZVO",
+      "weight": 5
+    }
+  ]
+}

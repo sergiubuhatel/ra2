@@ -1,0 +1,1290 @@
+{
+  "nodes": [
+    {
+      "id": "ADTN",
+      "label": "ADTN",
+      "industry": "ElcEq",
+      "degree_centrality": 0.16216216216216217,
+      "betweenness_centrality": 0.0396312979646313,
+      "closeness_centrality": 0.46631138180433956,
+      "eigenvector_centrality": 0.003396707171904534,
+      "harmonic_centrality": 12.816666666666665,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 34
+    },
+    {
+      "id": "AME",
+      "label": "AME",
+      "industry": "ElcEq",
+      "degree_centrality": 0.35135135135135137,
+      "betweenness_centrality": 0.0493702035368702,
+      "closeness_centrality": 0.5611543747136967,
+      "eigenvector_centrality": 0.029663231755307027,
+      "harmonic_centrality": 14.566666666666666,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 113
+    },
+    {
+      "id": "ARTX",
+      "label": "ARTX",
+      "industry": "ElcEq",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.05977405977405977,
+      "closeness_centrality": 0.5340017436791631,
+      "eigenvector_centrality": 0.03439488275936163,
+      "harmonic_centrality": 11.507575757575756,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 84
+    },
+    {
+      "id": "AZZ",
+      "label": "AZZ",
+      "industry": "ElcEq",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.16984186567519902,
+      "closeness_centrality": 0.5611543747136967,
+      "eigenvector_centrality": 0.011056099707615227,
+      "harmonic_centrality": 14.611111111111114,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 128
+    },
+    {
+      "id": "BW",
+      "label": "BW",
+      "industry": "ElcEq",
+      "degree_centrality": 0.4594594594594595,
+      "betweenness_centrality": 0.19969433719433718,
+      "closeness_centrality": 0.6246812850586435,
+      "eigenvector_centrality": 0.0535249366955359,
+      "harmonic_centrality": 16.457575757575757,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 108
+    },
+    {
+      "id": "CBAK",
+      "label": "CBAK",
+      "industry": "ElcEq",
+      "degree_centrality": 0.2702702702702703,
+      "betweenness_centrality": 0.03372300872300872,
+      "closeness_centrality": 0.5173141891891891,
+      "eigenvector_centrality": 0.027208308548679866,
+      "harmonic_centrality": 13.983333333333334,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 72
+    },
+    {
+      "id": "CBAT",
+      "label": "CBAT",
+      "industry": "ElcEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.7421486674093587e-159,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "CCF",
+      "label": "CCF",
+      "industry": "ElcEq",
+      "degree_centrality": 0.10810810810810811,
+      "betweenness_centrality": 0.04939284522617856,
+      "closeness_centrality": 0.4356330014224751,
+      "eigenvector_centrality": 0.0005886932352894102,
+      "harmonic_centrality": 14.01666666666667,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 6
+    },
+    {
+      "id": "CMTL",
+      "label": "CMTL",
+      "industry": "ElcEq",
+      "degree_centrality": 0.16216216216216217,
+      "betweenness_centrality": 0.03050967634300968,
+      "closeness_centrality": 0.46631138180433956,
+      "eigenvector_centrality": 0.018859198259726654,
+      "harmonic_centrality": 12.033333333333335,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 31
+    },
+    {
+      "id": "CPST",
+      "label": "CPST",
+      "industry": "ElcEq",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5708294501397949,
+      "eigenvector_centrality": 0.3475168577806989,
+      "harmonic_centrality": 7.2007326007326045,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 416
+    },
+    {
+      "id": "EAF",
+      "label": "EAF",
+      "industry": "ElcEq",
+      "degree_centrality": 0.24324324324324326,
+      "betweenness_centrality": 0.054938271604938284,
+      "closeness_centrality": 0.5340017436791631,
+      "eigenvector_centrality": 0.04899523648210803,
+      "harmonic_centrality": 13.6,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 51
+    },
+    {
+      "id": "EFOI",
+      "label": "EFOI",
+      "industry": "ElcEq",
+      "degree_centrality": 0.1891891891891892,
+      "betweenness_centrality": 0.034248534248534246,
+      "closeness_centrality": 0.47297297297297297,
+      "eigenvector_centrality": 0.005603218841388365,
+      "harmonic_centrality": 11.042857142857143,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 116
+    },
+    {
+      "id": "ESNC",
+      "label": "ESNC",
+      "industry": "ElcEq",
+      "degree_centrality": 0.2972972972972973,
+      "betweenness_centrality": 0.06777908861242193,
+      "closeness_centrality": 0.5340017436791631,
+      "eigenvector_centrality": 0.1266765336347429,
+      "harmonic_centrality": 13.9,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 189
+    },
+    {
+      "id": "FCEL",
+      "label": "FCEL",
+      "industry": "ElcEq",
+      "degree_centrality": 0.4864864864864865,
+      "betweenness_centrality": 0.0014657514657514658,
+      "closeness_centrality": 0.6366943866943867,
+      "eigenvector_centrality": 0.6555094610471901,
+      "harmonic_centrality": 11.219780219780219,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 759
+    },
+    {
+      "id": "FCRE",
+      "label": "FCRE",
+      "industry": "ElcEq",
+      "degree_centrality": 0.10810810810810811,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.44740686632578525,
+      "eigenvector_centrality": 0.010226964085117514,
+      "harmonic_centrality": 12.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 28
+    },
+    {
+      "id": "FELE",
+      "label": "FELE",
+      "industry": "ElcEq",
+      "degree_centrality": 0.21621621621621623,
+      "betweenness_centrality": 0.051296534629867954,
+      "closeness_centrality": 0.47982765374069725,
+      "eigenvector_centrality": 0.007288994624213205,
+      "harmonic_centrality": 12.766666666666666,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 84
+    },
+    {
+      "id": "GNRC",
+      "label": "GNRC",
+      "industry": "ElcEq",
+      "degree_centrality": 0.3783783783783784,
+      "betweenness_centrality": 0.11559476142809476,
+      "closeness_centrality": 0.5708294501397949,
+      "eigenvector_centrality": 0.05832710414842432,
+      "harmonic_centrality": 14.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 228
+    },
+    {
+      "id": "HLIT",
+      "label": "HLIT",
+      "industry": "ElcEq",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.021376733876733875,
+      "closeness_centrality": 0.5708294501397949,
+      "eigenvector_centrality": 0.04701405593109448,
+      "harmonic_centrality": 13.507575757575761,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 97
+    },
+    {
+      "id": "HPJ",
+      "label": "HPJ",
+      "industry": "ElcEq",
+      "degree_centrality": 0.2702702702702703,
+      "betweenness_centrality": 0.0022522522522522522,
+      "closeness_centrality": 0.5093555093555093,
+      "eigenvector_centrality": 0.0174664365128659,
+      "harmonic_centrality": 8.402380952380955,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 62
+    },
+    {
+      "id": "ITGR",
+      "label": "ITGR",
+      "industry": "ElcEq",
+      "degree_centrality": 0.24324324324324326,
+      "betweenness_centrality": 0.006220506220506221,
+      "closeness_centrality": 0.5093555093555093,
+      "eigenvector_centrality": 0.03157742447718341,
+      "harmonic_centrality": 10.516666666666666,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 58
+    },
+    {
+      "id": "JCS",
+      "label": "JCS",
+      "industry": "ElcEq",
+      "degree_centrality": 0.16216216216216217,
+      "betweenness_centrality": 0.03242528242528243,
+      "closeness_centrality": 0.46631138180433956,
+      "eigenvector_centrality": 0.00714937088566609,
+      "harmonic_centrality": 10.06111111111111,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 34
+    },
+    {
+      "id": "LYTS",
+      "label": "LYTS",
+      "industry": "ElcEq",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.11958923208923211,
+      "closeness_centrality": 0.5708294501397949,
+      "eigenvector_centrality": 0.04245561268400408,
+      "harmonic_centrality": 16.233333333333334,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 123
+    },
+    {
+      "id": "MPAA",
+      "label": "MPAA",
+      "industry": "ElcEq",
+      "degree_centrality": 0.02702702702702703,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3720012146978439,
+      "eigenvector_centrality": 0.010799992596614866,
+      "harmonic_centrality": 3.121930846930848,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 8
+    },
+    {
+      "id": "MXWL",
+      "label": "MXWL",
+      "industry": "ElcEq",
+      "degree_centrality": 0.2972972972972973,
+      "betweenness_centrality": 0.09782461032461034,
+      "closeness_centrality": 0.5340017436791631,
+      "eigenvector_centrality": 0.025900223034933178,
+      "harmonic_centrality": 15.533333333333333,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 79
+    },
+    {
+      "id": "OESX",
+      "label": "OESX",
+      "industry": "ElcEq",
+      "degree_centrality": 0.24324324324324326,
+      "betweenness_centrality": 0.027477477477477478,
+      "closeness_centrality": 0.5173141891891891,
+      "eigenvector_centrality": 0.0163105369443823,
+      "harmonic_centrality": 12.290909090909091,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 140
+    },
+    {
+      "id": "PLPC",
+      "label": "PLPC",
+      "industry": "ElcEq",
+      "degree_centrality": 0.13513513513513514,
+      "betweenness_centrality": 0.007972257972257972,
+      "closeness_centrality": 0.4535357275083302,
+      "eigenvector_centrality": 0.011757329658650603,
+      "harmonic_centrality": 11.567099567099568,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 14
+    },
+    {
+      "id": "PLUG",
+      "label": "PLUG",
+      "industry": "ElcEq",
+      "degree_centrality": 0.4594594594594595,
+      "betweenness_centrality": 0.0991884741884742,
+      "closeness_centrality": 0.601965601965602,
+      "eigenvector_centrality": 0.586781915585068,
+      "harmonic_centrality": 11.641666666666667,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 577
+    },
+    {
+      "id": "RAVN",
+      "label": "RAVN",
+      "industry": "ElcEq",
+      "degree_centrality": 0.13513513513513514,
+      "betweenness_centrality": 0.06400030983364317,
+      "closeness_centrality": 0.46631138180433956,
+      "eigenvector_centrality": 0.0042268560308756364,
+      "harmonic_centrality": 13.057575757575757,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 8
+    },
+    {
+      "id": "RBC",
+      "label": "RBC",
+      "industry": "ElcEq",
+      "degree_centrality": 0.24324324324324326,
+      "betweenness_centrality": 0.012867033700367032,
+      "closeness_centrality": 0.5093555093555093,
+      "eigenvector_centrality": 0.021853350612413197,
+      "harmonic_centrality": 12.516666666666667,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 91
+    },
+    {
+      "id": "REZI",
+      "label": "REZI",
+      "industry": "ElcEq",
+      "degree_centrality": 0.05405405405405406,
+      "betweenness_centrality": 0.005680680680680681,
+      "closeness_centrality": 0.38950715421303655,
+      "eigenvector_centrality": 0.00020244091965694624,
+      "harmonic_centrality": 12.257575757575758,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "RMED",
+      "label": "RMED",
+      "industry": "ElcEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.7421486674093587e-159,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "ROK",
+      "label": "ROK",
+      "industry": "ElcEq",
+      "degree_centrality": 0.24324324324324326,
+      "betweenness_centrality": 0.03743326659993327,
+      "closeness_centrality": 0.5255255255255256,
+      "eigenvector_centrality": 0.0030704863687074004,
+      "harmonic_centrality": 13.883333333333331,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 46
+    },
+    {
+      "id": "SEAC",
+      "label": "SEAC",
+      "industry": "ElcEq",
+      "degree_centrality": 0.21621621621621623,
+      "betweenness_centrality": 0.03908908908908909,
+      "closeness_centrality": 0.5016380016380017,
+      "eigenvector_centrality": 0.2614604290293,
+      "harmonic_centrality": 12.766666666666667,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 224
+    },
+    {
+      "id": "SGMA",
+      "label": "SGMA",
+      "industry": "ElcEq",
+      "degree_centrality": 0.05405405405405406,
+      "betweenness_centrality": 0.006506506506506506,
+      "closeness_centrality": 0.3720012146978439,
+      "eigenvector_centrality": 0.0012159627978324357,
+      "harmonic_centrality": 9.429304029304031,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 3
+    },
+    {
+      "id": "TRS",
+      "label": "TRS",
+      "industry": "ElcEq",
+      "degree_centrality": 0.13513513513513514,
+      "betweenness_centrality": 0.06463725630392297,
+      "closeness_centrality": 0.44144144144144143,
+      "eigenvector_centrality": 0.0006485280664048672,
+      "harmonic_centrality": 12.483333333333333,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 9
+    },
+    {
+      "id": "ULBI",
+      "label": "ULBI",
+      "industry": "ElcEq",
+      "degree_centrality": 0.21621621621621623,
+      "betweenness_centrality": 0.01599516182849516,
+      "closeness_centrality": 0.48688394276629565,
+      "eigenvector_centrality": 0.03953370800204497,
+      "harmonic_centrality": 11.25,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 75
+    },
+    {
+      "id": "VRNS",
+      "label": "VRNS",
+      "industry": "ElcEq",
+      "degree_centrality": 0.16216216216216217,
+      "betweenness_centrality": 0.07644072644072643,
+      "closeness_centrality": 0.4535357275083302,
+      "eigenvector_centrality": 0.0010385489942314925,
+      "harmonic_centrality": 14.826190476190478,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 14
+    },
+    {
+      "id": "VSAT",
+      "label": "VSAT",
+      "industry": "ElcEq",
+      "degree_centrality": 0.1891891891891892,
+      "betweenness_centrality": 0.06628890795557461,
+      "closeness_centrality": 0.4941508672851956,
+      "eigenvector_centrality": 0.00629253077474663,
+      "harmonic_centrality": 14.290909090909093,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 27
+    }
+  ],
+  "edges": [
+    {
+      "source": "ADTN",
+      "target": "JCS",
+      "weight": 8
+    },
+    {
+      "source": "ADTN",
+      "target": "SEAC",
+      "weight": 1
+    },
+    {
+      "source": "ADTN",
+      "target": "BW",
+      "weight": 19
+    },
+    {
+      "source": "ADTN",
+      "target": "CMTL",
+      "weight": 4
+    },
+    {
+      "source": "ADTN",
+      "target": "OESX",
+      "weight": 1
+    },
+    {
+      "source": "ADTN",
+      "target": "EAF",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "LYTS",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "VRNS",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "OESX",
+      "weight": 20
+    },
+    {
+      "source": "AME",
+      "target": "EFOI",
+      "weight": 12
+    },
+    {
+      "source": "AME",
+      "target": "REZI",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "RBC",
+      "weight": 3
+    },
+    {
+      "source": "AME",
+      "target": "FELE",
+      "weight": 9
+    },
+    {
+      "source": "AME",
+      "target": "ROK",
+      "weight": 20
+    },
+    {
+      "source": "AME",
+      "target": "EAF",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "CPST",
+      "weight": 13
+    },
+    {
+      "source": "AME",
+      "target": "AZZ",
+      "weight": 3
+    },
+    {
+      "source": "AME",
+      "target": "FCEL",
+      "weight": 10
+    },
+    {
+      "source": "AME",
+      "target": "GNRC",
+      "weight": 19
+    },
+    {
+      "source": "ARTX",
+      "target": "ITGR",
+      "weight": 8
+    },
+    {
+      "source": "ARTX",
+      "target": "FCEL",
+      "weight": 13
+    },
+    {
+      "source": "ARTX",
+      "target": "TRS",
+      "weight": 1
+    },
+    {
+      "source": "ARTX",
+      "target": "ROK",
+      "weight": 3
+    },
+    {
+      "source": "ARTX",
+      "target": "CMTL",
+      "weight": 2
+    },
+    {
+      "source": "ARTX",
+      "target": "HLIT",
+      "weight": 6
+    },
+    {
+      "source": "ARTX",
+      "target": "HPJ",
+      "weight": 8
+    },
+    {
+      "source": "ARTX",
+      "target": "PLUG",
+      "weight": 7
+    },
+    {
+      "source": "ARTX",
+      "target": "MXWL",
+      "weight": 26
+    },
+    {
+      "source": "ARTX",
+      "target": "ULBI",
+      "weight": 1
+    },
+    {
+      "source": "ARTX",
+      "target": "CBAK",
+      "weight": 7
+    },
+    {
+      "source": "ARTX",
+      "target": "CPST",
+      "weight": 2
+    },
+    {
+      "source": "AZZ",
+      "target": "RBC",
+      "weight": 3
+    },
+    {
+      "source": "AZZ",
+      "target": "PLUG",
+      "weight": 1
+    },
+    {
+      "source": "AZZ",
+      "target": "FELE",
+      "weight": 6
+    },
+    {
+      "source": "AZZ",
+      "target": "LYTS",
+      "weight": 31
+    },
+    {
+      "source": "AZZ",
+      "target": "CPST",
+      "weight": 5
+    },
+    {
+      "source": "AZZ",
+      "target": "OESX",
+      "weight": 36
+    },
+    {
+      "source": "AZZ",
+      "target": "GNRC",
+      "weight": 1
+    },
+    {
+      "source": "AZZ",
+      "target": "TRS",
+      "weight": 1
+    },
+    {
+      "source": "AZZ",
+      "target": "EFOI",
+      "weight": 38
+    },
+    {
+      "source": "AZZ",
+      "target": "BW",
+      "weight": 2
+    },
+    {
+      "source": "AZZ",
+      "target": "CCF",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "EAF",
+      "weight": 5
+    },
+    {
+      "source": "BW",
+      "target": "ESNC",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "FCEL",
+      "weight": 14
+    },
+    {
+      "source": "BW",
+      "target": "VSAT",
+      "weight": 9
+    },
+    {
+      "source": "BW",
+      "target": "MXWL",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "GNRC",
+      "weight": 11
+    },
+    {
+      "source": "BW",
+      "target": "PLUG",
+      "weight": 10
+    },
+    {
+      "source": "BW",
+      "target": "JCS",
+      "weight": 3
+    },
+    {
+      "source": "BW",
+      "target": "CCF",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "ROK",
+      "weight": 8
+    },
+    {
+      "source": "BW",
+      "target": "CPST",
+      "weight": 19
+    },
+    {
+      "source": "BW",
+      "target": "SEAC",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "HLIT",
+      "weight": 2
+    },
+    {
+      "source": "BW",
+      "target": "RBC",
+      "weight": 1
+    },
+    {
+      "source": "BW",
+      "target": "FCRE",
+      "weight": 1
+    },
+    {
+      "source": "CBAK",
+      "target": "LYTS",
+      "weight": 1
+    },
+    {
+      "source": "CBAK",
+      "target": "MXWL",
+      "weight": 1
+    },
+    {
+      "source": "CBAK",
+      "target": "ULBI",
+      "weight": 20
+    },
+    {
+      "source": "CBAK",
+      "target": "HPJ",
+      "weight": 21
+    },
+    {
+      "source": "CBAK",
+      "target": "ITGR",
+      "weight": 3
+    },
+    {
+      "source": "CBAK",
+      "target": "RAVN",
+      "weight": 1
+    },
+    {
+      "source": "CBAK",
+      "target": "PLUG",
+      "weight": 7
+    },
+    {
+      "source": "CBAK",
+      "target": "ESNC",
+      "weight": 2
+    },
+    {
+      "source": "CBAK",
+      "target": "FCEL",
+      "weight": 9
+    },
+    {
+      "source": "CCF",
+      "target": "OESX",
+      "weight": 1
+    },
+    {
+      "source": "CCF",
+      "target": "GNRC",
+      "weight": 3
+    },
+    {
+      "source": "CMTL",
+      "target": "ESNC",
+      "weight": 1
+    },
+    {
+      "source": "CMTL",
+      "target": "SEAC",
+      "weight": 18
+    },
+    {
+      "source": "CMTL",
+      "target": "FCEL",
+      "weight": 5
+    },
+    {
+      "source": "CMTL",
+      "target": "RAVN",
+      "weight": 1
+    },
+    {
+      "source": "CPST",
+      "target": "OESX",
+      "weight": 3
+    },
+    {
+      "source": "CPST",
+      "target": "PLUG",
+      "weight": 92
+    },
+    {
+      "source": "CPST",
+      "target": "RBC",
+      "weight": 19
+    },
+    {
+      "source": "CPST",
+      "target": "GNRC",
+      "weight": 48
+    },
+    {
+      "source": "CPST",
+      "target": "FCEL",
+      "weight": 124
+    },
+    {
+      "source": "CPST",
+      "target": "SEAC",
+      "weight": 6
+    },
+    {
+      "source": "CPST",
+      "target": "LYTS",
+      "weight": 16
+    },
+    {
+      "source": "CPST",
+      "target": "ESNC",
+      "weight": 69
+    },
+    {
+      "source": "EAF",
+      "target": "FCEL",
+      "weight": 2
+    },
+    {
+      "source": "EAF",
+      "target": "GNRC",
+      "weight": 3
+    },
+    {
+      "source": "EAF",
+      "target": "HLIT",
+      "weight": 3
+    },
+    {
+      "source": "EAF",
+      "target": "PLUG",
+      "weight": 33
+    },
+    {
+      "source": "EAF",
+      "target": "ROK",
+      "weight": 1
+    },
+    {
+      "source": "EAF",
+      "target": "TRS",
+      "weight": 2
+    },
+    {
+      "source": "EFOI",
+      "target": "SGMA",
+      "weight": 1
+    },
+    {
+      "source": "EFOI",
+      "target": "OESX",
+      "weight": 42
+    },
+    {
+      "source": "EFOI",
+      "target": "GNRC",
+      "weight": 2
+    },
+    {
+      "source": "EFOI",
+      "target": "LYTS",
+      "weight": 20
+    },
+    {
+      "source": "EFOI",
+      "target": "FELE",
+      "weight": 1
+    },
+    {
+      "source": "ESNC",
+      "target": "ULBI",
+      "weight": 1
+    },
+    {
+      "source": "ESNC",
+      "target": "PLUG",
+      "weight": 31
+    },
+    {
+      "source": "ESNC",
+      "target": "FCEL",
+      "weight": 15
+    },
+    {
+      "source": "ESNC",
+      "target": "GNRC",
+      "weight": 46
+    },
+    {
+      "source": "ESNC",
+      "target": "HPJ",
+      "weight": 4
+    },
+    {
+      "source": "ESNC",
+      "target": "FCRE",
+      "weight": 1
+    },
+    {
+      "source": "ESNC",
+      "target": "JCS",
+      "weight": 18
+    },
+    {
+      "source": "FCEL",
+      "target": "LYTS",
+      "weight": 1
+    },
+    {
+      "source": "FCEL",
+      "target": "HLIT",
+      "weight": 8
+    },
+    {
+      "source": "FCEL",
+      "target": "ULBI",
+      "weight": 16
+    },
+    {
+      "source": "FCEL",
+      "target": "PLPC",
+      "weight": 5
+    },
+    {
+      "source": "FCEL",
+      "target": "MXWL",
+      "weight": 14
+    },
+    {
+      "source": "FCEL",
+      "target": "ITGR",
+      "weight": 19
+    },
+    {
+      "source": "FCEL",
+      "target": "PLUG",
+      "weight": 327
+    },
+    {
+      "source": "FCEL",
+      "target": "HPJ",
+      "weight": 4
+    },
+    {
+      "source": "FCEL",
+      "target": "FCRE",
+      "weight": 5
+    },
+    {
+      "source": "FCEL",
+      "target": "SEAC",
+      "weight": 168
+    },
+    {
+      "source": "FCRE",
+      "target": "HLIT",
+      "weight": 21
+    },
+    {
+      "source": "FELE",
+      "target": "ROK",
+      "weight": 8
+    },
+    {
+      "source": "FELE",
+      "target": "RBC",
+      "weight": 16
+    },
+    {
+      "source": "FELE",
+      "target": "RAVN",
+      "weight": 1
+    },
+    {
+      "source": "FELE",
+      "target": "VRNS",
+      "weight": 1
+    },
+    {
+      "source": "FELE",
+      "target": "GNRC",
+      "weight": 42
+    },
+    {
+      "source": "GNRC",
+      "target": "VSAT",
+      "weight": 1
+    },
+    {
+      "source": "GNRC",
+      "target": "REZI",
+      "weight": 1
+    },
+    {
+      "source": "GNRC",
+      "target": "RBC",
+      "weight": 43
+    },
+    {
+      "source": "GNRC",
+      "target": "HLIT",
+      "weight": 1
+    },
+    {
+      "source": "GNRC",
+      "target": "ITGR",
+      "weight": 7
+    },
+    {
+      "source": "HLIT",
+      "target": "LYTS",
+      "weight": 1
+    },
+    {
+      "source": "HLIT",
+      "target": "PLUG",
+      "weight": 15
+    },
+    {
+      "source": "HLIT",
+      "target": "HPJ",
+      "weight": 4
+    },
+    {
+      "source": "HLIT",
+      "target": "VSAT",
+      "weight": 7
+    },
+    {
+      "source": "HLIT",
+      "target": "VRNS",
+      "weight": 8
+    },
+    {
+      "source": "HLIT",
+      "target": "SEAC",
+      "weight": 21
+    },
+    {
+      "source": "HPJ",
+      "target": "ULBI",
+      "weight": 6
+    },
+    {
+      "source": "HPJ",
+      "target": "MXWL",
+      "weight": 6
+    },
+    {
+      "source": "HPJ",
+      "target": "JCS",
+      "weight": 1
+    },
+    {
+      "source": "HPJ",
+      "target": "PLUG",
+      "weight": 5
+    },
+    {
+      "source": "HPJ",
+      "target": "ITGR",
+      "weight": 3
+    },
+    {
+      "source": "ITGR",
+      "target": "VSAT",
+      "weight": 1
+    },
+    {
+      "source": "ITGR",
+      "target": "MXWL",
+      "weight": 8
+    },
+    {
+      "source": "ITGR",
+      "target": "TRS",
+      "weight": 3
+    },
+    {
+      "source": "ITGR",
+      "target": "ULBI",
+      "weight": 6
+    },
+    {
+      "source": "JCS",
+      "target": "PLPC",
+      "weight": 3
+    },
+    {
+      "source": "JCS",
+      "target": "PLUG",
+      "weight": 1
+    },
+    {
+      "source": "LYTS",
+      "target": "PLPC",
+      "weight": 1
+    },
+    {
+      "source": "LYTS",
+      "target": "OESX",
+      "weight": 30
+    },
+    {
+      "source": "LYTS",
+      "target": "PLUG",
+      "weight": 19
+    },
+    {
+      "source": "LYTS",
+      "target": "MXWL",
+      "weight": 1
+    },
+    {
+      "source": "LYTS",
+      "target": "ROK",
+      "weight": 1
+    },
+    {
+      "source": "MPAA",
+      "target": "PLUG",
+      "weight": 8
+    },
+    {
+      "source": "MXWL",
+      "target": "ULBI",
+      "weight": 16
+    },
+    {
+      "source": "MXWL",
+      "target": "VRNS",
+      "weight": 1
+    },
+    {
+      "source": "MXWL",
+      "target": "ROK",
+      "weight": 2
+    },
+    {
+      "source": "MXWL",
+      "target": "RBC",
+      "weight": 3
+    },
+    {
+      "source": "OESX",
+      "target": "RBC",
+      "weight": 1
+    },
+    {
+      "source": "OESX",
+      "target": "PLUG",
+      "weight": 6
+    },
+    {
+      "source": "PLPC",
+      "target": "PLUG",
+      "weight": 3
+    },
+    {
+      "source": "PLPC",
+      "target": "RAVN",
+      "weight": 2
+    },
+    {
+      "source": "PLUG",
+      "target": "ULBI",
+      "weight": 9
+    },
+    {
+      "source": "PLUG",
+      "target": "RAVN",
+      "weight": 3
+    },
+    {
+      "source": "RBC",
+      "target": "TRS",
+      "weight": 2
+    },
+    {
+      "source": "ROK",
+      "target": "VRNS",
+      "weight": 2
+    },
+    {
+      "source": "ROK",
+      "target": "VSAT",
+      "weight": 1
+    },
+    {
+      "source": "SEAC",
+      "target": "SGMA",
+      "weight": 2
+    },
+    {
+      "source": "SEAC",
+      "target": "VSAT",
+      "weight": 7
+    },
+    {
+      "source": "VRNS",
+      "target": "VSAT",
+      "weight": 1
+    }
+  ]
+}

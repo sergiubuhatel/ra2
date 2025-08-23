@@ -1,0 +1,1030 @@
+{
+  "nodes": [
+    {
+      "id": "AA",
+      "label": "AA",
+      "industry": "Steel",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.029154795821462482,
+      "closeness_centrality": 0.6808278867102397,
+      "eigenvector_centrality": 0.5166997712535324,
+      "harmonic_centrality": 11.566666666666666,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 655
+    },
+    {
+      "id": "ARNC",
+      "label": "ARNC",
+      "industry": "Steel",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.003798670465337132,
+      "closeness_centrality": 0.5383290267011197,
+      "eigenvector_centrality": 0.03255898482450448,
+      "harmonic_centrality": 9.80952380952381,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 67
+    },
+    {
+      "id": "ATI",
+      "label": "ATI",
+      "industry": "Steel",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.12524306968751414,
+      "closeness_centrality": 0.7233796296296297,
+      "eigenvector_centrality": 0.23882879880599175,
+      "harmonic_centrality": 13.366666666666667,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 307
+    },
+    {
+      "id": "BDC",
+      "label": "BDC",
+      "industry": "Steel",
+      "degree_centrality": 0.25925925925925924,
+      "betweenness_centrality": 0.023436440103106766,
+      "closeness_centrality": 0.5032206119162641,
+      "eigenvector_centrality": 0.003283422216884375,
+      "harmonic_centrality": 12.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 13
+    },
+    {
+      "id": "CENX",
+      "label": "CENX",
+      "industry": "Steel",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.029202279202279205,
+      "closeness_centrality": 0.5787037037037037,
+      "eigenvector_centrality": 0.14900035349710028,
+      "harmonic_centrality": 9.658333333333333,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 219
+    },
+    {
+      "id": "CMC",
+      "label": "CMC",
+      "industry": "Steel",
+      "degree_centrality": 0.5185185185185185,
+      "betweenness_centrality": 0.005392755392755393,
+      "closeness_centrality": 0.6256256256256256,
+      "eigenvector_centrality": 0.21718233870380665,
+      "harmonic_centrality": 11.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 290
+    },
+    {
+      "id": "CRS",
+      "label": "CRS",
+      "industry": "Steel",
+      "degree_centrality": 0.5185185185185185,
+      "betweenness_centrality": 0.01190250079138968,
+      "closeness_centrality": 0.6256256256256256,
+      "eigenvector_centrality": 0.059125746889170945,
+      "harmonic_centrality": 10.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 139
+    },
+    {
+      "id": "FRD",
+      "label": "FRD",
+      "industry": "Steel",
+      "degree_centrality": 0.2962962962962963,
+      "betweenness_centrality": 0.08673178673178675,
+      "closeness_centrality": 0.5383290267011197,
+      "eigenvector_centrality": 0.006474018435581662,
+      "harmonic_centrality": 11.75,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 22
+    },
+    {
+      "id": "FSTR",
+      "label": "FSTR",
+      "industry": "Steel",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.009211775878442546,
+      "closeness_centrality": 0.4538852578068264,
+      "eigenvector_centrality": 0.0012481956440635665,
+      "harmonic_centrality": 10.75,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "HAYN",
+      "label": "HAYN",
+      "industry": "Steel",
+      "degree_centrality": 0.48148148148148145,
+      "betweenness_centrality": 0.21644733866956092,
+      "closeness_centrality": 0.6091617933723197,
+      "eigenvector_centrality": 0.0075728182400776264,
+      "harmonic_centrality": 15.916666666666666,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 30
+    },
+    {
+      "id": "HWM",
+      "label": "HWM",
+      "industry": "Steel",
+      "degree_centrality": 0.2962962962962963,
+      "betweenness_centrality": 0.005935422602089268,
+      "closeness_centrality": 0.51440329218107,
+      "eigenvector_centrality": 0.012449615191123923,
+      "harmonic_centrality": 8.458333333333334,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 29
+    },
+    {
+      "id": "KALU",
+      "label": "KALU",
+      "industry": "Steel",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.018945868945868947,
+      "closeness_centrality": 0.593542260208927,
+      "eigenvector_centrality": 0.07790379137819281,
+      "harmonic_centrality": 11.642857142857142,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 130
+    },
+    {
+      "id": "MATW",
+      "label": "MATW",
+      "industry": "Steel",
+      "degree_centrality": 0.14814814814814814,
+      "betweenness_centrality": 0.009171075837742505,
+      "closeness_centrality": 0.46296296296296297,
+      "eigenvector_centrality": 0.0009402721950599953,
+      "harmonic_centrality": 12.700000000000001,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 4
+    },
+    {
+      "id": "NWPX",
+      "label": "NWPX",
+      "industry": "Steel",
+      "degree_centrality": 0.18518518518518517,
+      "betweenness_centrality": 0.04097589653145209,
+      "closeness_centrality": 0.4822530864197531,
+      "eigenvector_centrality": 0.001340182304142911,
+      "harmonic_centrality": 12.39285714285714,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 5
+    },
+    {
+      "id": "OCC",
+      "label": "OCC",
+      "industry": "Steel",
+      "degree_centrality": 0.037037037037037035,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.34549474847982314,
+      "eigenvector_centrality": 5.087171430142924e-05,
+      "harmonic_centrality": 4.033333333333332,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 4
+    },
+    {
+      "id": "RDUS",
+      "label": "RDUS",
+      "industry": "Steel",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.987569405620228e-77,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "ROCK",
+      "label": "ROCK",
+      "industry": "Steel",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.06067019400352735,
+      "closeness_centrality": 0.5511463844797179,
+      "eigenvector_centrality": 0.012480145565192087,
+      "harmonic_centrality": 13.009523809523808,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 21
+    },
+    {
+      "id": "SCHN",
+      "label": "SCHN",
+      "industry": "Steel",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.07938542938542939,
+      "closeness_centrality": 0.5787037037037037,
+      "eigenvector_centrality": 0.01817360458614831,
+      "harmonic_centrality": 11.809523809523808,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 31
+    },
+    {
+      "id": "STLD",
+      "label": "STLD",
+      "industry": "Steel",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.01566951566951567,
+      "closeness_centrality": 0.7716049382716049,
+      "eigenvector_centrality": 0.4492845612492605,
+      "harmonic_centrality": 11.416666666666666,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 573
+    },
+    {
+      "id": "SXC",
+      "label": "SXC",
+      "industry": "Steel",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.027601410934744264,
+      "closeness_centrality": 0.593542260208927,
+      "eigenvector_centrality": 0.016522675610674054,
+      "harmonic_centrality": 11.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 39
+    },
+    {
+      "id": "TMST",
+      "label": "TMST",
+      "industry": "Steel",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.0975059919504364,
+      "closeness_centrality": 0.593542260208927,
+      "eigenvector_centrality": 0.015348869127939958,
+      "harmonic_centrality": 13.009523809523811,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 32
+    },
+    {
+      "id": "TWI",
+      "label": "TWI",
+      "industry": "Steel",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.0794510016732239,
+      "closeness_centrality": 0.5645889792231256,
+      "eigenvector_centrality": 0.0020283957095846507,
+      "harmonic_centrality": 14.700000000000001,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 18
+    },
+    {
+      "id": "UAMY",
+      "label": "UAMY",
+      "industry": "Steel",
+      "degree_centrality": 0.037037037037037035,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3616898148148148,
+      "eigenvector_centrality": 0.00010710307644106745,
+      "harmonic_centrality": 4.8500000000000005,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 3
+    },
+    {
+      "id": "USAP",
+      "label": "USAP",
+      "industry": "Steel",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.44515669515669515,
+      "eigenvector_centrality": 0.010634457760075851,
+      "harmonic_centrality": 8.80952380952381,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 10
+    },
+    {
+      "id": "WIRE",
+      "label": "WIRE",
+      "industry": "Steel",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.18396644507755625,
+      "closeness_centrality": 0.593542260208927,
+      "eigenvector_centrality": 0.019763518199645485,
+      "harmonic_centrality": 15.733333333333333,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 32
+    },
+    {
+      "id": "WOR",
+      "label": "WOR",
+      "industry": "Steel",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.018032379143490256,
+      "closeness_centrality": 0.5787037037037037,
+      "eigenvector_centrality": 0.07758621033945301,
+      "harmonic_centrality": 12.283333333333335,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 105
+    },
+    {
+      "id": "WS",
+      "label": "WS",
+      "industry": "Steel",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.987569405620228e-77,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "X",
+      "label": "X",
+      "industry": "Steel",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.026977343644010304,
+      "closeness_centrality": 0.7233796296296297,
+      "eigenvector_centrality": 0.6215625380559409,
+      "harmonic_centrality": 11.316666666666666,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 821
+    }
+  ],
+  "edges": [
+    {
+      "source": "AA",
+      "target": "ROCK",
+      "weight": 3
+    },
+    {
+      "source": "AA",
+      "target": "CENX",
+      "weight": 98
+    },
+    {
+      "source": "AA",
+      "target": "ATI",
+      "weight": 76
+    },
+    {
+      "source": "AA",
+      "target": "X",
+      "weight": 311
+    },
+    {
+      "source": "AA",
+      "target": "CMC",
+      "weight": 8
+    },
+    {
+      "source": "AA",
+      "target": "USAP",
+      "weight": 4
+    },
+    {
+      "source": "AA",
+      "target": "HWM",
+      "weight": 4
+    },
+    {
+      "source": "AA",
+      "target": "STLD",
+      "weight": 66
+    },
+    {
+      "source": "AA",
+      "target": "ARNC",
+      "weight": 18
+    },
+    {
+      "source": "AA",
+      "target": "CRS",
+      "weight": 2
+    },
+    {
+      "source": "AA",
+      "target": "SCHN",
+      "weight": 2
+    },
+    {
+      "source": "AA",
+      "target": "KALU",
+      "weight": 54
+    },
+    {
+      "source": "AA",
+      "target": "HAYN",
+      "weight": 1
+    },
+    {
+      "source": "AA",
+      "target": "SXC",
+      "weight": 1
+    },
+    {
+      "source": "AA",
+      "target": "WOR",
+      "weight": 6
+    },
+    {
+      "source": "AA",
+      "target": "FRD",
+      "weight": 1
+    },
+    {
+      "source": "ARNC",
+      "target": "ATI",
+      "weight": 1
+    },
+    {
+      "source": "ARNC",
+      "target": "TWI",
+      "weight": 3
+    },
+    {
+      "source": "ARNC",
+      "target": "X",
+      "weight": 4
+    },
+    {
+      "source": "ARNC",
+      "target": "WOR",
+      "weight": 2
+    },
+    {
+      "source": "ARNC",
+      "target": "CRS",
+      "weight": 1
+    },
+    {
+      "source": "ARNC",
+      "target": "CENX",
+      "weight": 22
+    },
+    {
+      "source": "ARNC",
+      "target": "KALU",
+      "weight": 13
+    },
+    {
+      "source": "ARNC",
+      "target": "HWM",
+      "weight": 3
+    },
+    {
+      "source": "ATI",
+      "target": "SXC",
+      "weight": 5
+    },
+    {
+      "source": "ATI",
+      "target": "HWM",
+      "weight": 10
+    },
+    {
+      "source": "ATI",
+      "target": "SCHN",
+      "weight": 2
+    },
+    {
+      "source": "ATI",
+      "target": "CENX",
+      "weight": 3
+    },
+    {
+      "source": "ATI",
+      "target": "STLD",
+      "weight": 47
+    },
+    {
+      "source": "ATI",
+      "target": "X",
+      "weight": 85
+    },
+    {
+      "source": "ATI",
+      "target": "ROCK",
+      "weight": 4
+    },
+    {
+      "source": "ATI",
+      "target": "HAYN",
+      "weight": 4
+    },
+    {
+      "source": "ATI",
+      "target": "CMC",
+      "weight": 23
+    },
+    {
+      "source": "ATI",
+      "target": "USAP",
+      "weight": 1
+    },
+    {
+      "source": "ATI",
+      "target": "WOR",
+      "weight": 4
+    },
+    {
+      "source": "ATI",
+      "target": "TMST",
+      "weight": 1
+    },
+    {
+      "source": "ATI",
+      "target": "CRS",
+      "weight": 37
+    },
+    {
+      "source": "ATI",
+      "target": "FRD",
+      "weight": 2
+    },
+    {
+      "source": "ATI",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "ATI",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "BDC",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "BDC",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "BDC",
+      "target": "KALU",
+      "weight": 3
+    },
+    {
+      "source": "BDC",
+      "target": "TMST",
+      "weight": 2
+    },
+    {
+      "source": "BDC",
+      "target": "HWM",
+      "weight": 2
+    },
+    {
+      "source": "BDC",
+      "target": "ROCK",
+      "weight": 1
+    },
+    {
+      "source": "BDC",
+      "target": "STLD",
+      "weight": 3
+    },
+    {
+      "source": "CENX",
+      "target": "CRS",
+      "weight": 4
+    },
+    {
+      "source": "CENX",
+      "target": "TMST",
+      "weight": 1
+    },
+    {
+      "source": "CENX",
+      "target": "X",
+      "weight": 17
+    },
+    {
+      "source": "CENX",
+      "target": "SCHN",
+      "weight": 2
+    },
+    {
+      "source": "CENX",
+      "target": "KALU",
+      "weight": 43
+    },
+    {
+      "source": "CENX",
+      "target": "STLD",
+      "weight": 15
+    },
+    {
+      "source": "CENX",
+      "target": "HWM",
+      "weight": 1
+    },
+    {
+      "source": "CENX",
+      "target": "CMC",
+      "weight": 13
+    },
+    {
+      "source": "CMC",
+      "target": "CRS",
+      "weight": 30
+    },
+    {
+      "source": "CMC",
+      "target": "SCHN",
+      "weight": 4
+    },
+    {
+      "source": "CMC",
+      "target": "KALU",
+      "weight": 3
+    },
+    {
+      "source": "CMC",
+      "target": "STLD",
+      "weight": 105
+    },
+    {
+      "source": "CMC",
+      "target": "NWPX",
+      "weight": 1
+    },
+    {
+      "source": "CMC",
+      "target": "WOR",
+      "weight": 14
+    },
+    {
+      "source": "CMC",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "CMC",
+      "target": "HWM",
+      "weight": 3
+    },
+    {
+      "source": "CMC",
+      "target": "TMST",
+      "weight": 4
+    },
+    {
+      "source": "CMC",
+      "target": "X",
+      "weight": 78
+    },
+    {
+      "source": "CMC",
+      "target": "SXC",
+      "weight": 3
+    },
+    {
+      "source": "CRS",
+      "target": "SXC",
+      "weight": 7
+    },
+    {
+      "source": "CRS",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "CRS",
+      "target": "FRD",
+      "weight": 5
+    },
+    {
+      "source": "CRS",
+      "target": "HAYN",
+      "weight": 11
+    },
+    {
+      "source": "CRS",
+      "target": "X",
+      "weight": 8
+    },
+    {
+      "source": "CRS",
+      "target": "TWI",
+      "weight": 2
+    },
+    {
+      "source": "CRS",
+      "target": "TMST",
+      "weight": 2
+    },
+    {
+      "source": "CRS",
+      "target": "WOR",
+      "weight": 14
+    },
+    {
+      "source": "CRS",
+      "target": "STLD",
+      "weight": 15
+    },
+    {
+      "source": "FRD",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "FRD",
+      "target": "OCC",
+      "weight": 4
+    },
+    {
+      "source": "FRD",
+      "target": "STLD",
+      "weight": 2
+    },
+    {
+      "source": "FRD",
+      "target": "X",
+      "weight": 1
+    },
+    {
+      "source": "FRD",
+      "target": "WOR",
+      "weight": 6
+    },
+    {
+      "source": "FSTR",
+      "target": "X",
+      "weight": 1
+    },
+    {
+      "source": "FSTR",
+      "target": "ROCK",
+      "weight": 1
+    },
+    {
+      "source": "FSTR",
+      "target": "NWPX",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "WOR",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "X",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "SXC",
+      "weight": 4
+    },
+    {
+      "source": "HAYN",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "TMST",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "MATW",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "ROCK",
+      "weight": 1
+    },
+    {
+      "source": "HAYN",
+      "target": "STLD",
+      "weight": 2
+    },
+    {
+      "source": "HAYN",
+      "target": "SCHN",
+      "weight": 1
+    },
+    {
+      "source": "HWM",
+      "target": "STLD",
+      "weight": 2
+    },
+    {
+      "source": "HWM",
+      "target": "WIRE",
+      "weight": 4
+    },
+    {
+      "source": "KALU",
+      "target": "TMST",
+      "weight": 1
+    },
+    {
+      "source": "KALU",
+      "target": "STLD",
+      "weight": 5
+    },
+    {
+      "source": "KALU",
+      "target": "WOR",
+      "weight": 1
+    },
+    {
+      "source": "KALU",
+      "target": "SXC",
+      "weight": 1
+    },
+    {
+      "source": "KALU",
+      "target": "ROCK",
+      "weight": 2
+    },
+    {
+      "source": "KALU",
+      "target": "SCHN",
+      "weight": 1
+    },
+    {
+      "source": "KALU",
+      "target": "X",
+      "weight": 3
+    },
+    {
+      "source": "MATW",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "MATW",
+      "target": "STLD",
+      "weight": 1
+    },
+    {
+      "source": "MATW",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "NWPX",
+      "target": "ROCK",
+      "weight": 1
+    },
+    {
+      "source": "NWPX",
+      "target": "STLD",
+      "weight": 1
+    },
+    {
+      "source": "NWPX",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "ROCK",
+      "target": "SXC",
+      "weight": 1
+    },
+    {
+      "source": "ROCK",
+      "target": "STLD",
+      "weight": 4
+    },
+    {
+      "source": "ROCK",
+      "target": "X",
+      "weight": 3
+    },
+    {
+      "source": "SCHN",
+      "target": "SXC",
+      "weight": 1
+    },
+    {
+      "source": "SCHN",
+      "target": "TMST",
+      "weight": 3
+    },
+    {
+      "source": "SCHN",
+      "target": "STLD",
+      "weight": 6
+    },
+    {
+      "source": "SCHN",
+      "target": "UAMY",
+      "weight": 3
+    },
+    {
+      "source": "SCHN",
+      "target": "X",
+      "weight": 6
+    },
+    {
+      "source": "STLD",
+      "target": "WOR",
+      "weight": 20
+    },
+    {
+      "source": "STLD",
+      "target": "SXC",
+      "weight": 8
+    },
+    {
+      "source": "STLD",
+      "target": "TMST",
+      "weight": 7
+    },
+    {
+      "source": "STLD",
+      "target": "TWI",
+      "weight": 1
+    },
+    {
+      "source": "STLD",
+      "target": "X",
+      "weight": 249
+    },
+    {
+      "source": "STLD",
+      "target": "WIRE",
+      "weight": 14
+    },
+    {
+      "source": "SXC",
+      "target": "TMST",
+      "weight": 2
+    },
+    {
+      "source": "SXC",
+      "target": "X",
+      "weight": 3
+    },
+    {
+      "source": "SXC",
+      "target": "TWI",
+      "weight": 3
+    },
+    {
+      "source": "TMST",
+      "target": "TWI",
+      "weight": 3
+    },
+    {
+      "source": "TMST",
+      "target": "X",
+      "weight": 5
+    },
+    {
+      "source": "TWI",
+      "target": "WIRE",
+      "weight": 1
+    },
+    {
+      "source": "USAP",
+      "target": "X",
+      "weight": 5
+    },
+    {
+      "source": "WIRE",
+      "target": "WOR",
+      "weight": 1
+    },
+    {
+      "source": "WIRE",
+      "target": "X",
+      "weight": 5
+    },
+    {
+      "source": "WOR",
+      "target": "X",
+      "weight": 36
+    }
+  ]
+}

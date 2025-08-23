@@ -1,0 +1,1590 @@
+{
+  "nodes": [
+    {
+      "id": "ADM",
+      "label": "ADM",
+      "industry": "Food",
+      "degree_centrality": 0.4864864864864865,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5765765765765766,
+      "eigenvector_centrality": 0.12041510247924428,
+      "harmonic_centrality": 11.150000000000002,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 560
+    },
+    {
+      "id": "BGS",
+      "label": "BGS",
+      "industry": "Food",
+      "degree_centrality": 0.5135135135135136,
+      "betweenness_centrality": 0.10537274287274287,
+      "closeness_centrality": 0.5888441633122484,
+      "eigenvector_centrality": 0.018421319089392218,
+      "harmonic_centrality": 17.0,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 113
+    },
+    {
+      "id": "BRBR",
+      "label": "BRBR",
+      "industry": "Food",
+      "degree_centrality": 0.32432432432432434,
+      "betweenness_centrality": 0.0692049192049192,
+      "closeness_centrality": 0.5031941031941032,
+      "eigenvector_centrality": 0.010074219247118599,
+      "harmonic_centrality": 16.75,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 57
+    },
+    {
+      "id": "BRID",
+      "label": "BRID",
+      "industry": "Food",
+      "degree_centrality": 0.02702702702702703,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.29132290184921766,
+      "eigenvector_centrality": 5.121162684176819e-06,
+      "harmonic_centrality": 10.266666666666666,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "CAG",
+      "label": "CAG",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.010860860860860862,
+      "closeness_centrality": 0.6150150150150151,
+      "eigenvector_centrality": 0.21704353277531083,
+      "harmonic_centrality": 12.400000000000002,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 1213
+    },
+    {
+      "id": "CPB",
+      "label": "CPB",
+      "industry": "Food",
+      "degree_centrality": 0.6216216216216217,
+      "betweenness_centrality": 0.045011732511732516,
+      "closeness_centrality": 0.6436203645505971,
+      "eigenvector_centrality": 0.15477350700092304,
+      "harmonic_centrality": 15.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 695
+    },
+    {
+      "id": "DAR",
+      "label": "DAR",
+      "industry": "Food",
+      "degree_centrality": 0.5135135135135136,
+      "betweenness_centrality": 0.012562562562562564,
+      "closeness_centrality": 0.5888441633122484,
+      "eigenvector_centrality": 0.012824039925126467,
+      "harmonic_centrality": 12.100000000000001,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 127
+    },
+    {
+      "id": "FARM",
+      "label": "FARM",
+      "industry": "Food",
+      "degree_centrality": 0.16216216216216217,
+      "betweenness_centrality": 0.0063206063206063205,
+      "closeness_centrality": 0.43243243243243246,
+      "eigenvector_centrality": 0.0008915651271858504,
+      "harmonic_centrality": 13.250000000000004,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 45
+    },
+    {
+      "id": "FLO",
+      "label": "FLO",
+      "industry": "Food",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 6.504065925262757e-138,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "GIS",
+      "label": "GIS",
+      "industry": "Food",
+      "degree_centrality": 0.5675675675675675,
+      "betweenness_centrality": 0.026950814450814452,
+      "closeness_centrality": 0.6150150150150151,
+      "eigenvector_centrality": 0.2391289287554728,
+      "harmonic_centrality": 14.283333333333335,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 1098
+    },
+    {
+      "id": "HAIN",
+      "label": "HAIN",
+      "industry": "Food",
+      "degree_centrality": 0.43243243243243246,
+      "betweenness_centrality": 0.11959638209638208,
+      "closeness_centrality": 0.5535135135135135,
+      "eigenvector_centrality": 0.013682022641600415,
+      "harmonic_centrality": 16.91666666666667,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 74
+    },
+    {
+      "id": "HRL",
+      "label": "HRL",
+      "industry": "Food",
+      "degree_centrality": 0.5945945945945946,
+      "betweenness_centrality": 0.10110825110825108,
+      "closeness_centrality": 0.6589446589446589,
+      "eigenvector_centrality": 0.6023707275420048,
+      "harmonic_centrality": 16.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 1501
+    },
+    {
+      "id": "INGR",
+      "label": "INGR",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.05811785811785811,
+      "closeness_centrality": 0.6016451233842538,
+      "eigenvector_centrality": 0.007876553696928933,
+      "harmonic_centrality": 15.583333333333336,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 80
+    },
+    {
+      "id": "JJSF",
+      "label": "JJSF",
+      "industry": "Food",
+      "degree_centrality": 0.3783783783783784,
+      "betweenness_centrality": 0.07795019045019046,
+      "closeness_centrality": 0.5322245322245323,
+      "eigenvector_centrality": 0.005173346465191494,
+      "harmonic_centrality": 14.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 38
+    },
+    {
+      "id": "JVA",
+      "label": "JVA",
+      "industry": "Food",
+      "degree_centrality": 0.08108108108108109,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4069952305246423,
+      "eigenvector_centrality": 0.00025334187567911426,
+      "harmonic_centrality": 8.683333333333334,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 9
+    },
+    {
+      "id": "K",
+      "label": "K",
+      "industry": "Food",
+      "degree_centrality": 0.5945945945945946,
+      "betweenness_centrality": 0.02914521664521665,
+      "closeness_centrality": 0.6436203645505971,
+      "eigenvector_centrality": 0.17484394297152192,
+      "harmonic_centrality": 14.41666666666667,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 761
+    },
+    {
+      "id": "KLG",
+      "label": "KLG",
+      "industry": "Food",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 6.504065925262757e-138,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "LANC",
+      "label": "LANC",
+      "industry": "Food",
+      "degree_centrality": 0.4594594594594595,
+      "betweenness_centrality": 0.08623509873509874,
+      "closeness_centrality": 0.5648097076668505,
+      "eigenvector_centrality": 0.014517108829239797,
+      "harmonic_centrality": 16.866666666666667,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 61
+    },
+    {
+      "id": "LPCN",
+      "label": "LPCN",
+      "industry": "Food",
+      "degree_centrality": 0.08108108108108109,
+      "betweenness_centrality": 0.004104104104104104,
+      "closeness_centrality": 0.37911884487226954,
+      "eigenvector_centrality": 0.00014936962499824549,
+      "harmonic_centrality": 12.233333333333333,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "LSF",
+      "label": "LSF",
+      "industry": "Food",
+      "degree_centrality": 0.10810810810810811,
+      "betweenness_centrality": 0.06046403546403546,
+      "closeness_centrality": 0.4257796257796258,
+      "eigenvector_centrality": 0.0009110895078401999,
+      "harmonic_centrality": 14.000000000000002,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 4
+    },
+    {
+      "id": "LW",
+      "label": "LW",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.009196696696696696,
+      "closeness_centrality": 0.6016451233842538,
+      "eigenvector_centrality": 0.12232600226325833,
+      "harmonic_centrality": 11.716666666666667,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 638
+    },
+    {
+      "id": "LWAY",
+      "label": "LWAY",
+      "industry": "Food",
+      "degree_centrality": 0.08108108108108109,
+      "betweenness_centrality": 0.0020055770055770056,
+      "closeness_centrality": 0.4069952305246423,
+      "eigenvector_centrality": 0.0014404273226728574,
+      "harmonic_centrality": 12.316666666666668,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 10
+    },
+    {
+      "id": "MDLZ",
+      "label": "MDLZ",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.020532545532545535,
+      "closeness_centrality": 0.6016451233842538,
+      "eigenvector_centrality": 0.16524539545545416,
+      "harmonic_centrality": 14.250000000000005,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 817
+    },
+    {
+      "id": "MED",
+      "label": "MED",
+      "industry": "Food",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 6.504065925262757e-138,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "MKC",
+      "label": "MKC",
+      "industry": "Food",
+      "degree_centrality": 0.4594594594594595,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5648097076668505,
+      "eigenvector_centrality": 0.1372070831537365,
+      "harmonic_centrality": 9.933333333333334,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 635
+    },
+    {
+      "id": "PACK",
+      "label": "PACK",
+      "industry": "Food",
+      "degree_centrality": 0.08108108108108109,
+      "betweenness_centrality": 0.012109837109837108,
+      "closeness_centrality": 0.39536679536679536,
+      "eigenvector_centrality": 0.00042191137241978476,
+      "harmonic_centrality": 12.283333333333337,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 4
+    },
+    {
+      "id": "PLAG",
+      "label": "PLAG",
+      "industry": "Food",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 6.504065925262757e-138,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "POST",
+      "label": "POST",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.027979765479765484,
+      "closeness_centrality": 0.6016451233842538,
+      "eigenvector_centrality": 0.033408163233777294,
+      "harmonic_centrality": 13.333333333333337,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 185
+    },
+    {
+      "id": "PPC",
+      "label": "PPC",
+      "industry": "Food",
+      "degree_centrality": 0.13513513513513514,
+      "betweenness_centrality": 0.05938617188617189,
+      "closeness_centrality": 0.43243243243243246,
+      "eigenvector_centrality": 0.005588734953135193,
+      "harmonic_centrality": 14.916666666666671,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 36
+    },
+    {
+      "id": "RIBT",
+      "label": "RIBT",
+      "industry": "Food",
+      "degree_centrality": 0.02702702702702703,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.2882882882882883,
+      "eigenvector_centrality": 8.348470957796292e-07,
+      "harmonic_centrality": 9.783333333333331,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "RMCF",
+      "label": "RMCF",
+      "industry": "Food",
+      "degree_centrality": 0.13513513513513514,
+      "betweenness_centrality": 0.05238273988273988,
+      "closeness_centrality": 0.4392964392964393,
+      "eigenvector_centrality": 0.000927054148428579,
+      "harmonic_centrality": 16.0,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 5
+    },
+    {
+      "id": "SEB",
+      "label": "SEB",
+      "industry": "Food",
+      "degree_centrality": 0.35135135135135137,
+      "betweenness_centrality": 0.11435136435136437,
+      "closeness_centrality": 0.5125125125125125,
+      "eigenvector_centrality": 0.013520646128879918,
+      "harmonic_centrality": 16.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 81
+    },
+    {
+      "id": "SENEA",
+      "label": "SENEA",
+      "industry": "Food",
+      "degree_centrality": 0.1891891891891892,
+      "betweenness_centrality": 0.07796400296400298,
+      "closeness_centrality": 0.4257796257796258,
+      "eigenvector_centrality": 0.0008970537616059091,
+      "harmonic_centrality": 15.91666666666667,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 8
+    },
+    {
+      "id": "SENEB",
+      "label": "SENEB",
+      "industry": "Food",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 6.504065925262757e-138,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SJM",
+      "label": "SJM",
+      "industry": "Food",
+      "degree_centrality": 0.5135135135135136,
+      "betweenness_centrality": 0.005778505778505778,
+      "closeness_centrality": 0.5888441633122484,
+      "eigenvector_centrality": 0.6078767764457765,
+      "harmonic_centrality": 12.183333333333335,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 1607
+    },
+    {
+      "id": "SXT",
+      "label": "SXT",
+      "industry": "Food",
+      "degree_centrality": 0.08108108108108109,
+      "betweenness_centrality": 0.007857857857857857,
+      "closeness_centrality": 0.4069952305246423,
+      "eigenvector_centrality": 0.00015517907706965746,
+      "harmonic_centrality": 13.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "THS",
+      "label": "THS",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.029154154154154156,
+      "closeness_centrality": 0.6016451233842538,
+      "eigenvector_centrality": 0.03978457604026805,
+      "harmonic_centrality": 14.000000000000004,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 208
+    },
+    {
+      "id": "TSN",
+      "label": "TSN",
+      "industry": "Food",
+      "degree_centrality": 0.5405405405405406,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6150150150150151,
+      "eigenvector_centrality": 0.1709199393050042,
+      "harmonic_centrality": 11.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 698
+    }
+  ],
+  "edges": [
+    {
+      "source": "ADM",
+      "target": "CAG",
+      "weight": 46
+    },
+    {
+      "source": "ADM",
+      "target": "INGR",
+      "weight": 8
+    },
+    {
+      "source": "ADM",
+      "target": "K",
+      "weight": 38
+    },
+    {
+      "source": "ADM",
+      "target": "TSN",
+      "weight": 60
+    },
+    {
+      "source": "ADM",
+      "target": "BRBR",
+      "weight": 2
+    },
+    {
+      "source": "ADM",
+      "target": "MDLZ",
+      "weight": 50
+    },
+    {
+      "source": "ADM",
+      "target": "CPB",
+      "weight": 29
+    },
+    {
+      "source": "ADM",
+      "target": "DAR",
+      "weight": 12
+    },
+    {
+      "source": "ADM",
+      "target": "GIS",
+      "weight": 53
+    },
+    {
+      "source": "ADM",
+      "target": "BGS",
+      "weight": 1
+    },
+    {
+      "source": "ADM",
+      "target": "POST",
+      "weight": 5
+    },
+    {
+      "source": "ADM",
+      "target": "MKC",
+      "weight": 114
+    },
+    {
+      "source": "ADM",
+      "target": "THS",
+      "weight": 6
+    },
+    {
+      "source": "ADM",
+      "target": "SEB",
+      "weight": 21
+    },
+    {
+      "source": "ADM",
+      "target": "LANC",
+      "weight": 3
+    },
+    {
+      "source": "ADM",
+      "target": "HRL",
+      "weight": 49
+    },
+    {
+      "source": "ADM",
+      "target": "LW",
+      "weight": 11
+    },
+    {
+      "source": "ADM",
+      "target": "SJM",
+      "weight": 52
+    },
+    {
+      "source": "BGS",
+      "target": "MKC",
+      "weight": 7
+    },
+    {
+      "source": "BGS",
+      "target": "HAIN",
+      "weight": 1
+    },
+    {
+      "source": "BGS",
+      "target": "DAR",
+      "weight": 3
+    },
+    {
+      "source": "BGS",
+      "target": "POST",
+      "weight": 11
+    },
+    {
+      "source": "BGS",
+      "target": "THS",
+      "weight": 13
+    },
+    {
+      "source": "BGS",
+      "target": "CPB",
+      "weight": 4
+    },
+    {
+      "source": "BGS",
+      "target": "K",
+      "weight": 4
+    },
+    {
+      "source": "BGS",
+      "target": "CAG",
+      "weight": 16
+    },
+    {
+      "source": "BGS",
+      "target": "LWAY",
+      "weight": 1
+    },
+    {
+      "source": "BGS",
+      "target": "GIS",
+      "weight": 20
+    },
+    {
+      "source": "BGS",
+      "target": "SJM",
+      "weight": 8
+    },
+    {
+      "source": "BGS",
+      "target": "LW",
+      "weight": 7
+    },
+    {
+      "source": "BGS",
+      "target": "TSN",
+      "weight": 9
+    },
+    {
+      "source": "BGS",
+      "target": "SENEA",
+      "weight": 1
+    },
+    {
+      "source": "BGS",
+      "target": "HRL",
+      "weight": 2
+    },
+    {
+      "source": "BGS",
+      "target": "INGR",
+      "weight": 3
+    },
+    {
+      "source": "BGS",
+      "target": "BRBR",
+      "weight": 1
+    },
+    {
+      "source": "BGS",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "BRBR",
+      "target": "HAIN",
+      "weight": 1
+    },
+    {
+      "source": "BRBR",
+      "target": "MDLZ",
+      "weight": 11
+    },
+    {
+      "source": "BRBR",
+      "target": "POST",
+      "weight": 13
+    },
+    {
+      "source": "BRBR",
+      "target": "THS",
+      "weight": 4
+    },
+    {
+      "source": "BRBR",
+      "target": "FARM",
+      "weight": 1
+    },
+    {
+      "source": "BRBR",
+      "target": "K",
+      "weight": 1
+    },
+    {
+      "source": "BRBR",
+      "target": "GIS",
+      "weight": 13
+    },
+    {
+      "source": "BRBR",
+      "target": "SJM",
+      "weight": 8
+    },
+    {
+      "source": "BRBR",
+      "target": "CPB",
+      "weight": 1
+    },
+    {
+      "source": "BRBR",
+      "target": "INGR",
+      "weight": 1
+    },
+    {
+      "source": "BRID",
+      "target": "PPC",
+      "weight": 1
+    },
+    {
+      "source": "CAG",
+      "target": "MKC",
+      "weight": 58
+    },
+    {
+      "source": "CAG",
+      "target": "MDLZ",
+      "weight": 82
+    },
+    {
+      "source": "CAG",
+      "target": "LW",
+      "weight": 452
+    },
+    {
+      "source": "CAG",
+      "target": "LANC",
+      "weight": 3
+    },
+    {
+      "source": "CAG",
+      "target": "PACK",
+      "weight": 2
+    },
+    {
+      "source": "CAG",
+      "target": "CPB",
+      "weight": 81
+    },
+    {
+      "source": "CAG",
+      "target": "INGR",
+      "weight": 4
+    },
+    {
+      "source": "CAG",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "CAG",
+      "target": "HAIN",
+      "weight": 13
+    },
+    {
+      "source": "CAG",
+      "target": "TSN",
+      "weight": 74
+    },
+    {
+      "source": "CAG",
+      "target": "GIS",
+      "weight": 138
+    },
+    {
+      "source": "CAG",
+      "target": "POST",
+      "weight": 11
+    },
+    {
+      "source": "CAG",
+      "target": "K",
+      "weight": 73
+    },
+    {
+      "source": "CAG",
+      "target": "HRL",
+      "weight": 46
+    },
+    {
+      "source": "CAG",
+      "target": "DAR",
+      "weight": 3
+    },
+    {
+      "source": "CAG",
+      "target": "THS",
+      "weight": 20
+    },
+    {
+      "source": "CAG",
+      "target": "SJM",
+      "weight": 89
+    },
+    {
+      "source": "CAG",
+      "target": "LSF",
+      "weight": 1
+    },
+    {
+      "source": "CPB",
+      "target": "THS",
+      "weight": 10
+    },
+    {
+      "source": "CPB",
+      "target": "SXT",
+      "weight": 1
+    },
+    {
+      "source": "CPB",
+      "target": "SENEA",
+      "weight": 1
+    },
+    {
+      "source": "CPB",
+      "target": "HRL",
+      "weight": 43
+    },
+    {
+      "source": "CPB",
+      "target": "LANC",
+      "weight": 4
+    },
+    {
+      "source": "CPB",
+      "target": "INGR",
+      "weight": 2
+    },
+    {
+      "source": "CPB",
+      "target": "GIS",
+      "weight": 146
+    },
+    {
+      "source": "CPB",
+      "target": "MKC",
+      "weight": 33
+    },
+    {
+      "source": "CPB",
+      "target": "DAR",
+      "weight": 3
+    },
+    {
+      "source": "CPB",
+      "target": "TSN",
+      "weight": 34
+    },
+    {
+      "source": "CPB",
+      "target": "HAIN",
+      "weight": 10
+    },
+    {
+      "source": "CPB",
+      "target": "JJSF",
+      "weight": 4
+    },
+    {
+      "source": "CPB",
+      "target": "RMCF",
+      "weight": 1
+    },
+    {
+      "source": "CPB",
+      "target": "SJM",
+      "weight": 65
+    },
+    {
+      "source": "CPB",
+      "target": "LWAY",
+      "weight": 1
+    },
+    {
+      "source": "CPB",
+      "target": "LW",
+      "weight": 11
+    },
+    {
+      "source": "CPB",
+      "target": "K",
+      "weight": 62
+    },
+    {
+      "source": "CPB",
+      "target": "MDLZ",
+      "weight": 146
+    },
+    {
+      "source": "CPB",
+      "target": "POST",
+      "weight": 3
+    },
+    {
+      "source": "DAR",
+      "target": "INGR",
+      "weight": 15
+    },
+    {
+      "source": "DAR",
+      "target": "LW",
+      "weight": 6
+    },
+    {
+      "source": "DAR",
+      "target": "MKC",
+      "weight": 11
+    },
+    {
+      "source": "DAR",
+      "target": "MDLZ",
+      "weight": 3
+    },
+    {
+      "source": "DAR",
+      "target": "GIS",
+      "weight": 6
+    },
+    {
+      "source": "DAR",
+      "target": "FARM",
+      "weight": 34
+    },
+    {
+      "source": "DAR",
+      "target": "K",
+      "weight": 2
+    },
+    {
+      "source": "DAR",
+      "target": "PACK",
+      "weight": 1
+    },
+    {
+      "source": "DAR",
+      "target": "HRL",
+      "weight": 7
+    },
+    {
+      "source": "DAR",
+      "target": "POST",
+      "weight": 4
+    },
+    {
+      "source": "DAR",
+      "target": "SJM",
+      "weight": 2
+    },
+    {
+      "source": "DAR",
+      "target": "TSN",
+      "weight": 6
+    },
+    {
+      "source": "DAR",
+      "target": "SEB",
+      "weight": 6
+    },
+    {
+      "source": "DAR",
+      "target": "LANC",
+      "weight": 2
+    },
+    {
+      "source": "DAR",
+      "target": "JJSF",
+      "weight": 1
+    },
+    {
+      "source": "FARM",
+      "target": "K",
+      "weight": 3
+    },
+    {
+      "source": "FARM",
+      "target": "RMCF",
+      "weight": 1
+    },
+    {
+      "source": "FARM",
+      "target": "JVA",
+      "weight": 5
+    },
+    {
+      "source": "FARM",
+      "target": "SXT",
+      "weight": 1
+    },
+    {
+      "source": "GIS",
+      "target": "MKC",
+      "weight": 84
+    },
+    {
+      "source": "GIS",
+      "target": "POST",
+      "weight": 17
+    },
+    {
+      "source": "GIS",
+      "target": "K",
+      "weight": 157
+    },
+    {
+      "source": "GIS",
+      "target": "JJSF",
+      "weight": 1
+    },
+    {
+      "source": "GIS",
+      "target": "SENEA",
+      "weight": 2
+    },
+    {
+      "source": "GIS",
+      "target": "THS",
+      "weight": 17
+    },
+    {
+      "source": "GIS",
+      "target": "INGR",
+      "weight": 4
+    },
+    {
+      "source": "GIS",
+      "target": "MDLZ",
+      "weight": 132
+    },
+    {
+      "source": "GIS",
+      "target": "RMCF",
+      "weight": 1
+    },
+    {
+      "source": "GIS",
+      "target": "LW",
+      "weight": 28
+    },
+    {
+      "source": "GIS",
+      "target": "HAIN",
+      "weight": 12
+    },
+    {
+      "source": "GIS",
+      "target": "SJM",
+      "weight": 104
+    },
+    {
+      "source": "GIS",
+      "target": "LANC",
+      "weight": 1
+    },
+    {
+      "source": "GIS",
+      "target": "HRL",
+      "weight": 104
+    },
+    {
+      "source": "GIS",
+      "target": "TSN",
+      "weight": 58
+    },
+    {
+      "source": "HAIN",
+      "target": "K",
+      "weight": 5
+    },
+    {
+      "source": "HAIN",
+      "target": "MDLZ",
+      "weight": 7
+    },
+    {
+      "source": "HAIN",
+      "target": "SXT",
+      "weight": 1
+    },
+    {
+      "source": "HAIN",
+      "target": "INGR",
+      "weight": 4
+    },
+    {
+      "source": "HAIN",
+      "target": "JVA",
+      "weight": 2
+    },
+    {
+      "source": "HAIN",
+      "target": "POST",
+      "weight": 1
+    },
+    {
+      "source": "HAIN",
+      "target": "PPC",
+      "weight": 1
+    },
+    {
+      "source": "HAIN",
+      "target": "SJM",
+      "weight": 7
+    },
+    {
+      "source": "HAIN",
+      "target": "JJSF",
+      "weight": 4
+    },
+    {
+      "source": "HAIN",
+      "target": "TSN",
+      "weight": 4
+    },
+    {
+      "source": "HAIN",
+      "target": "HRL",
+      "weight": 1
+    },
+    {
+      "source": "HRL",
+      "target": "INGR",
+      "weight": 2
+    },
+    {
+      "source": "HRL",
+      "target": "PPC",
+      "weight": 1
+    },
+    {
+      "source": "HRL",
+      "target": "LW",
+      "weight": 14
+    },
+    {
+      "source": "HRL",
+      "target": "THS",
+      "weight": 1
+    },
+    {
+      "source": "HRL",
+      "target": "LANC",
+      "weight": 10
+    },
+    {
+      "source": "HRL",
+      "target": "SEB",
+      "weight": 14
+    },
+    {
+      "source": "HRL",
+      "target": "JJSF",
+      "weight": 2
+    },
+    {
+      "source": "HRL",
+      "target": "MKC",
+      "weight": 38
+    },
+    {
+      "source": "HRL",
+      "target": "TSN",
+      "weight": 112
+    },
+    {
+      "source": "HRL",
+      "target": "LSF",
+      "weight": 1
+    },
+    {
+      "source": "HRL",
+      "target": "SJM",
+      "weight": 924
+    },
+    {
+      "source": "HRL",
+      "target": "POST",
+      "weight": 3
+    },
+    {
+      "source": "HRL",
+      "target": "K",
+      "weight": 79
+    },
+    {
+      "source": "HRL",
+      "target": "RMCF",
+      "weight": 1
+    },
+    {
+      "source": "HRL",
+      "target": "MDLZ",
+      "weight": 47
+    },
+    {
+      "source": "INGR",
+      "target": "MKC",
+      "weight": 12
+    },
+    {
+      "source": "INGR",
+      "target": "TSN",
+      "weight": 3
+    },
+    {
+      "source": "INGR",
+      "target": "K",
+      "weight": 3
+    },
+    {
+      "source": "INGR",
+      "target": "MDLZ",
+      "weight": 1
+    },
+    {
+      "source": "INGR",
+      "target": "SJM",
+      "weight": 1
+    },
+    {
+      "source": "INGR",
+      "target": "SEB",
+      "weight": 8
+    },
+    {
+      "source": "INGR",
+      "target": "JJSF",
+      "weight": 2
+    },
+    {
+      "source": "INGR",
+      "target": "LW",
+      "weight": 2
+    },
+    {
+      "source": "INGR",
+      "target": "POST",
+      "weight": 2
+    },
+    {
+      "source": "INGR",
+      "target": "LANC",
+      "weight": 1
+    },
+    {
+      "source": "INGR",
+      "target": "THS",
+      "weight": 2
+    },
+    {
+      "source": "JJSF",
+      "target": "MDLZ",
+      "weight": 6
+    },
+    {
+      "source": "JJSF",
+      "target": "LW",
+      "weight": 4
+    },
+    {
+      "source": "JJSF",
+      "target": "SJM",
+      "weight": 1
+    },
+    {
+      "source": "JJSF",
+      "target": "K",
+      "weight": 4
+    },
+    {
+      "source": "JJSF",
+      "target": "THS",
+      "weight": 5
+    },
+    {
+      "source": "JJSF",
+      "target": "MKC",
+      "weight": 1
+    },
+    {
+      "source": "JJSF",
+      "target": "POST",
+      "weight": 1
+    },
+    {
+      "source": "JJSF",
+      "target": "TSN",
+      "weight": 2
+    },
+    {
+      "source": "JVA",
+      "target": "LW",
+      "weight": 2
+    },
+    {
+      "source": "K",
+      "target": "THS",
+      "weight": 10
+    },
+    {
+      "source": "K",
+      "target": "POST",
+      "weight": 13
+    },
+    {
+      "source": "K",
+      "target": "MDLZ",
+      "weight": 110
+    },
+    {
+      "source": "K",
+      "target": "TSN",
+      "weight": 66
+    },
+    {
+      "source": "K",
+      "target": "LANC",
+      "weight": 1
+    },
+    {
+      "source": "K",
+      "target": "SJM",
+      "weight": 61
+    },
+    {
+      "source": "K",
+      "target": "MKC",
+      "weight": 47
+    },
+    {
+      "source": "K",
+      "target": "LSF",
+      "weight": 1
+    },
+    {
+      "source": "K",
+      "target": "LW",
+      "weight": 13
+    },
+    {
+      "source": "K",
+      "target": "LWAY",
+      "weight": 8
+    },
+    {
+      "source": "LANC",
+      "target": "SJM",
+      "weight": 8
+    },
+    {
+      "source": "LANC",
+      "target": "TSN",
+      "weight": 1
+    },
+    {
+      "source": "LANC",
+      "target": "POST",
+      "weight": 6
+    },
+    {
+      "source": "LANC",
+      "target": "MKC",
+      "weight": 5
+    },
+    {
+      "source": "LANC",
+      "target": "THS",
+      "weight": 2
+    },
+    {
+      "source": "LANC",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "LANC",
+      "target": "MDLZ",
+      "weight": 6
+    },
+    {
+      "source": "LANC",
+      "target": "RMCF",
+      "weight": 1
+    },
+    {
+      "source": "LANC",
+      "target": "LW",
+      "weight": 6
+    },
+    {
+      "source": "LPCN",
+      "target": "THS",
+      "weight": 1
+    },
+    {
+      "source": "LPCN",
+      "target": "SENEA",
+      "weight": 1
+    },
+    {
+      "source": "LPCN",
+      "target": "LW",
+      "weight": 1
+    },
+    {
+      "source": "LSF",
+      "target": "RIBT",
+      "weight": 1
+    },
+    {
+      "source": "LW",
+      "target": "MKC",
+      "weight": 15
+    },
+    {
+      "source": "LW",
+      "target": "SENEA",
+      "weight": 1
+    },
+    {
+      "source": "LW",
+      "target": "TSN",
+      "weight": 10
+    },
+    {
+      "source": "LW",
+      "target": "POST",
+      "weight": 13
+    },
+    {
+      "source": "LW",
+      "target": "MDLZ",
+      "weight": 20
+    },
+    {
+      "source": "LW",
+      "target": "THS",
+      "weight": 11
+    },
+    {
+      "source": "LW",
+      "target": "SJM",
+      "weight": 11
+    },
+    {
+      "source": "MDLZ",
+      "target": "POST",
+      "weight": 7
+    },
+    {
+      "source": "MDLZ",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "MDLZ",
+      "target": "THS",
+      "weight": 17
+    },
+    {
+      "source": "MDLZ",
+      "target": "SJM",
+      "weight": 55
+    },
+    {
+      "source": "MDLZ",
+      "target": "MKC",
+      "weight": 60
+    },
+    {
+      "source": "MDLZ",
+      "target": "SENEA",
+      "weight": 1
+    },
+    {
+      "source": "MDLZ",
+      "target": "TSN",
+      "weight": 55
+    },
+    {
+      "source": "MKC",
+      "target": "SJM",
+      "weight": 71
+    },
+    {
+      "source": "MKC",
+      "target": "TSN",
+      "weight": 66
+    },
+    {
+      "source": "MKC",
+      "target": "THS",
+      "weight": 8
+    },
+    {
+      "source": "MKC",
+      "target": "POST",
+      "weight": 5
+    },
+    {
+      "source": "PACK",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "POST",
+      "target": "TSN",
+      "weight": 5
+    },
+    {
+      "source": "POST",
+      "target": "SJM",
+      "weight": 31
+    },
+    {
+      "source": "POST",
+      "target": "SEB",
+      "weight": 5
+    },
+    {
+      "source": "POST",
+      "target": "THS",
+      "weight": 29
+    },
+    {
+      "source": "PPC",
+      "target": "TSN",
+      "weight": 32
+    },
+    {
+      "source": "PPC",
+      "target": "SEB",
+      "weight": 1
+    },
+    {
+      "source": "SEB",
+      "target": "TSN",
+      "weight": 17
+    },
+    {
+      "source": "SEB",
+      "target": "THS",
+      "weight": 4
+    },
+    {
+      "source": "SENEA",
+      "target": "THS",
+      "weight": 1
+    },
+    {
+      "source": "SJM",
+      "target": "TSN",
+      "weight": 73
+    },
+    {
+      "source": "SJM",
+      "target": "THS",
+      "weight": 36
+    },
+    {
+      "source": "THS",
+      "target": "TSN",
+      "weight": 11
+    }
+  ]
+}

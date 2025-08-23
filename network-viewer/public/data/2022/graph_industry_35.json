@@ -1,0 +1,5127 @@
+{
+  "nodes": [
+    {
+      "id": "AAPL",
+      "label": "AAPL",
+      "industry": "Comps",
+      "degree_centrality": 0.9180327868852459,
+      "betweenness_centrality": 0.001665088099514329,
+      "closeness_centrality": 0.9221311475409836,
+      "eigenvector_centrality": 0.7002540847797585,
+      "harmonic_centrality": 28.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 56,
+      "weighted_degree": 17320
+    },
+    {
+      "id": "ALOT",
+      "label": "ALOT",
+      "industry": "Comps",
+      "degree_centrality": 0.24590163934426232,
+      "betweenness_centrality": 0.002822607416869712,
+      "closeness_centrality": 0.5620608899297423,
+      "eigenvector_centrality": 1.6913886157991322e-05,
+      "harmonic_centrality": 31.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 53
+    },
+    {
+      "id": "ANET",
+      "label": "ANET",
+      "industry": "Comps",
+      "degree_centrality": 0.5901639344262295,
+      "betweenness_centrality": 0.0028869631568036206,
+      "closeness_centrality": 0.702576112412178,
+      "eigenvector_centrality": 0.06585509120626441,
+      "harmonic_centrality": 29.333333333333325,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 2466
+    },
+    {
+      "id": "ANIX",
+      "label": "ANIX",
+      "industry": "Comps",
+      "degree_centrality": 0.3278688524590164,
+      "betweenness_centrality": 0.020460002699314677,
+      "closeness_centrality": 0.5901639344262295,
+      "eigenvector_centrality": 0.00014095536636927244,
+      "harmonic_centrality": 35.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 30
+    },
+    {
+      "id": "ATEN",
+      "label": "ATEN",
+      "industry": "Comps",
+      "degree_centrality": 0.6721311475409837,
+      "betweenness_centrality": 0.018761053102755408,
+      "closeness_centrality": 0.7470429549699108,
+      "eigenvector_centrality": 0.001654711387440637,
+      "harmonic_centrality": 35.5,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 400
+    },
+    {
+      "id": "AYX",
+      "label": "AYX",
+      "industry": "Comps",
+      "degree_centrality": 0.5573770491803279,
+      "betweenness_centrality": 0.02434714955454796,
+      "closeness_centrality": 0.6862371330537552,
+      "eigenvector_centrality": 0.0083968173407312,
+      "harmonic_centrality": 37.0,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 361
+    },
+    {
+      "id": "BCOR",
+      "label": "BCOR",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.00971850336485996,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.0012202258671635362,
+      "harmonic_centrality": 34.5,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 114
+    },
+    {
+      "id": "BKYI",
+      "label": "BKYI",
+      "industry": "Comps",
+      "degree_centrality": 0.36065573770491804,
+      "betweenness_centrality": 0.027186636933499618,
+      "closeness_centrality": 0.6022080963532954,
+      "eigenvector_centrality": 0.040007736699096866,
+      "harmonic_centrality": 36.5,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 734
+    },
+    {
+      "id": "CACI",
+      "label": "CACI",
+      "industry": "Comps",
+      "degree_centrality": 0.45901639344262296,
+      "betweenness_centrality": 0.020666162302435967,
+      "closeness_centrality": 0.6414825374198146,
+      "eigenvector_centrality": 0.0009332303884945394,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 169
+    },
+    {
+      "id": "CERN",
+      "label": "CERN",
+      "industry": "Comps",
+      "degree_centrality": 0.3278688524590164,
+      "betweenness_centrality": 0.013828291056251267,
+      "closeness_centrality": 0.5901639344262295,
+      "eigenvector_centrality": 0.022835644647611907,
+      "harmonic_centrality": 32.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 450
+    },
+    {
+      "id": "CSPI",
+      "label": "CSPI",
+      "industry": "Comps",
+      "degree_centrality": 0.3442622950819672,
+      "betweenness_centrality": 0.017538746989756784,
+      "closeness_centrality": 0.5961251862891207,
+      "eigenvector_centrality": 0.0004887766112422043,
+      "harmonic_centrality": 35.0,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 70
+    },
+    {
+      "id": "CXDO",
+      "label": "CXDO",
+      "industry": "Comps",
+      "degree_centrality": 0.3114754098360656,
+      "betweenness_centrality": 0.020756883556296506,
+      "closeness_centrality": 0.5843207271546826,
+      "eigenvector_centrality": 0.0001634046204064441,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 47
+    },
+    {
+      "id": "DAIO",
+      "label": "DAIO",
+      "industry": "Comps",
+      "degree_centrality": 0.21311475409836067,
+      "betweenness_centrality": 0.0011357312996657257,
+      "closeness_centrality": 0.5515550789030181,
+      "eigenvector_centrality": 0.001320180823900837,
+      "harmonic_centrality": 28.166666666666654,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 83
+    },
+    {
+      "id": "DBD",
+      "label": "DBD",
+      "industry": "Comps",
+      "degree_centrality": 0.5081967213114754,
+      "betweenness_centrality": 0.027250425351209084,
+      "closeness_centrality": 0.6631055442991343,
+      "eigenvector_centrality": 0.0016282418705904221,
+      "harmonic_centrality": 35.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 151
+    },
+    {
+      "id": "DELL",
+      "label": "DELL",
+      "industry": "Comps",
+      "degree_centrality": 0.6229508196721312,
+      "betweenness_centrality": 0.015995407570460547,
+      "closeness_centrality": 0.7197121151539384,
+      "eigenvector_centrality": 0.04444264528364017,
+      "harmonic_centrality": 34.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 2175
+    },
+    {
+      "id": "DGII",
+      "label": "DGII",
+      "industry": "Comps",
+      "degree_centrality": 0.5081967213114754,
+      "betweenness_centrality": 0.012036799367927986,
+      "closeness_centrality": 0.6631055442991343,
+      "eigenvector_centrality": 0.005162431842712494,
+      "harmonic_centrality": 33.999999999999986,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 815
+    },
+    {
+      "id": "DSS",
+      "label": "DSS",
+      "industry": "Comps",
+      "degree_centrality": 0.42622950819672134,
+      "betweenness_centrality": 0.019608892043367798,
+      "closeness_centrality": 0.6278339727938612,
+      "eigenvector_centrality": 0.0005800749988621203,
+      "harmonic_centrality": 35.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 155
+    },
+    {
+      "id": "DXC",
+      "label": "DXC",
+      "industry": "Comps",
+      "degree_centrality": 0.6721311475409837,
+      "betweenness_centrality": 0.012264811799951158,
+      "closeness_centrality": 0.7470429549699108,
+      "eigenvector_centrality": 0.018518210613709098,
+      "harmonic_centrality": 35.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 500
+    },
+    {
+      "id": "EBIX",
+      "label": "EBIX",
+      "industry": "Comps",
+      "degree_centrality": 0.49180327868852464,
+      "betweenness_centrality": 0.014834572741935382,
+      "closeness_centrality": 0.6557377049180327,
+      "eigenvector_centrality": 0.001617512038604303,
+      "harmonic_centrality": 35.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 87
+    },
+    {
+      "id": "EXTR",
+      "label": "EXTR",
+      "industry": "Comps",
+      "degree_centrality": 0.6229508196721312,
+      "betweenness_centrality": 0.009467427057895512,
+      "closeness_centrality": 0.7197121151539384,
+      "eigenvector_centrality": 0.0016675871571107308,
+      "harmonic_centrality": 32.5,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 457
+    },
+    {
+      "id": "FKWL",
+      "label": "FKWL",
+      "industry": "Comps",
+      "degree_centrality": 0.18032786885245902,
+      "betweenness_centrality": 0.0018194910735894344,
+      "closeness_centrality": 0.5365126676602086,
+      "eigenvector_centrality": 1.5068037904002467e-05,
+      "harmonic_centrality": 28.249999999999986,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 24
+    },
+    {
+      "id": "GDDY",
+      "label": "GDDY",
+      "industry": "Comps",
+      "degree_centrality": 0.5245901639344263,
+      "betweenness_centrality": 0.016570987657294308,
+      "closeness_centrality": 0.6706408345752607,
+      "eigenvector_centrality": 0.02905947123117674,
+      "harmonic_centrality": 33.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 652
+    },
+    {
+      "id": "HPQ",
+      "label": "HPQ",
+      "industry": "Comps",
+      "degree_centrality": 0.7540983606557378,
+      "betweenness_centrality": 0.034068483567618296,
+      "closeness_centrality": 0.7975188303057156,
+      "eigenvector_centrality": 0.07997466813664653,
+      "harmonic_centrality": 37.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 46,
+      "weighted_degree": 3676
+    },
+    {
+      "id": "IBM",
+      "label": "IBM",
+      "industry": "Comps",
+      "degree_centrality": 0.7540983606557378,
+      "betweenness_centrality": 0.011812057197902525,
+      "closeness_centrality": 0.7975188303057156,
+      "eigenvector_centrality": 0.6955444837260749,
+      "harmonic_centrality": 33.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 46,
+      "weighted_degree": 14322
+    },
+    {
+      "id": "ICAD",
+      "label": "ICAD",
+      "industry": "Comps",
+      "degree_centrality": 0.3114754098360656,
+      "betweenness_centrality": 0.01825903200884468,
+      "closeness_centrality": 0.5843207271546826,
+      "eigenvector_centrality": 0.0002175016468914411,
+      "harmonic_centrality": 35.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 29
+    },
+    {
+      "id": "IMMR",
+      "label": "IMMR",
+      "industry": "Comps",
+      "degree_centrality": 0.39344262295081966,
+      "betweenness_centrality": 0.025802499410494808,
+      "closeness_centrality": 0.6147540983606558,
+      "eigenvector_centrality": 0.0002675299063282993,
+      "harmonic_centrality": 36.5,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 56
+    },
+    {
+      "id": "INVE",
+      "label": "INVE",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.026621286794266834,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.0005456917312687938,
+      "harmonic_centrality": 35.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 85
+    },
+    {
+      "id": "ITRI",
+      "label": "ITRI",
+      "industry": "Comps",
+      "degree_centrality": 0.42622950819672134,
+      "betweenness_centrality": 0.01733111594484638,
+      "closeness_centrality": 0.6278339727938612,
+      "eigenvector_centrality": 0.00036885125644920135,
+      "harmonic_centrality": 35.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 49
+    },
+    {
+      "id": "JKHY",
+      "label": "JKHY",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.004570933419270745,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.0032012842822578646,
+      "harmonic_centrality": 30.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 158
+    },
+    {
+      "id": "JNPR",
+      "label": "JNPR",
+      "industry": "Comps",
+      "degree_centrality": 0.5901639344262295,
+      "betweenness_centrality": 0.011229292389957296,
+      "closeness_centrality": 0.702576112412178,
+      "eigenvector_centrality": 0.01707494752133785,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 807
+    },
+    {
+      "id": "KTCC",
+      "label": "KTCC",
+      "industry": "Comps",
+      "degree_centrality": 0.29508196721311475,
+      "betweenness_centrality": 0.010641493389717016,
+      "closeness_centrality": 0.5785920925747349,
+      "eigenvector_centrality": 9.510304731783234e-05,
+      "harmonic_centrality": 33.5,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 107
+    },
+    {
+      "id": "LNW",
+      "label": "LNW",
+      "industry": "Comps",
+      "degree_centrality": 0.4098360655737705,
+      "betweenness_centrality": 0.02038007820978682,
+      "closeness_centrality": 0.6212251941328731,
+      "eigenvector_centrality": 0.0004134842463692599,
+      "harmonic_centrality": 36.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 51
+    },
+    {
+      "id": "LTRX",
+      "label": "LTRX",
+      "industry": "Comps",
+      "degree_centrality": 0.5081967213114754,
+      "betweenness_centrality": 0.016819505945148756,
+      "closeness_centrality": 0.6631055442991343,
+      "eigenvector_centrality": 0.00042391937862294244,
+      "harmonic_centrality": 36.0,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 172
+    },
+    {
+      "id": "MHH",
+      "label": "MHH",
+      "industry": "Comps",
+      "degree_centrality": 0.3114754098360656,
+      "betweenness_centrality": 0.022107648300636967,
+      "closeness_centrality": 0.5843207271546826,
+      "eigenvector_centrality": 7.345724222705882e-05,
+      "harmonic_centrality": 35.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 27
+    },
+    {
+      "id": "MKFG",
+      "label": "MKFG",
+      "industry": "Comps",
+      "degree_centrality": 0.3278688524590164,
+      "betweenness_centrality": 0.010317304518441402,
+      "closeness_centrality": 0.5901639344262295,
+      "eigenvector_centrality": 0.0007073520863060403,
+      "harmonic_centrality": 34.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 52
+    },
+    {
+      "id": "NATI",
+      "label": "NATI",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.012648186362454602,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.0016782985763078935,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 109
+    },
+    {
+      "id": "NCR",
+      "label": "NCR",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.0017318129564995524,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.015151481019301997,
+      "harmonic_centrality": 28.333333333333325,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 444
+    },
+    {
+      "id": "NTAP",
+      "label": "NTAP",
+      "industry": "Comps",
+      "degree_centrality": 0.6065573770491803,
+      "betweenness_centrality": 0.009584933936613638,
+      "closeness_centrality": 0.7110408848508789,
+      "eigenvector_centrality": 0.01858107641622756,
+      "harmonic_centrality": 33.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 1699
+    },
+    {
+      "id": "OLED",
+      "label": "OLED",
+      "industry": "Comps",
+      "degree_centrality": 0.45901639344262296,
+      "betweenness_centrality": 0.010212392126224776,
+      "closeness_centrality": 0.6414825374198146,
+      "eigenvector_centrality": 0.002780548406553395,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 170
+    },
+    {
+      "id": "OMCL",
+      "label": "OMCL",
+      "industry": "Comps",
+      "degree_centrality": 0.4426229508196722,
+      "betweenness_centrality": 0.011939239479556874,
+      "closeness_centrality": 0.6345848757271285,
+      "eigenvector_centrality": 0.0014268517881562818,
+      "harmonic_centrality": 32.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 158
+    },
+    {
+      "id": "OSPN",
+      "label": "OSPN",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.03743245775089064,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.0002321243072689798,
+      "harmonic_centrality": 37.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 61
+    },
+    {
+      "id": "PSN",
+      "label": "PSN",
+      "industry": "Comps",
+      "degree_centrality": 0.5245901639344263,
+      "betweenness_centrality": 0.04490403848750374,
+      "closeness_centrality": 0.6706408345752607,
+      "eigenvector_centrality": 0.00022386275554882852,
+      "harmonic_centrality": 38.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 104
+    },
+    {
+      "id": "PSTG",
+      "label": "PSTG",
+      "industry": "Comps",
+      "degree_centrality": 0.6557377049180328,
+      "betweenness_centrality": 0.0190054599974862,
+      "closeness_centrality": 0.7377049180327868,
+      "eigenvector_centrality": 0.015284285531602092,
+      "harmonic_centrality": 36.0,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 1375
+    },
+    {
+      "id": "QMCO",
+      "label": "QMCO",
+      "industry": "Comps",
+      "degree_centrality": 0.4098360655737705,
+      "betweenness_centrality": 0.02050402715491011,
+      "closeness_centrality": 0.6212251941328731,
+      "eigenvector_centrality": 0.0016876898205654977,
+      "harmonic_centrality": 36.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 109
+    },
+    {
+      "id": "QUMU",
+      "label": "QUMU",
+      "industry": "Comps",
+      "degree_centrality": 0.3442622950819672,
+      "betweenness_centrality": 0.019792046416889857,
+      "closeness_centrality": 0.5961251862891207,
+      "eigenvector_centrality": 0.0002659522367043559,
+      "harmonic_centrality": 35.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 36
+    },
+    {
+      "id": "SAIC",
+      "label": "SAIC",
+      "industry": "Comps",
+      "degree_centrality": 0.5081967213114754,
+      "betweenness_centrality": 0.012381957294574173,
+      "closeness_centrality": 0.6631055442991343,
+      "eigenvector_centrality": 0.0028998819204946375,
+      "harmonic_centrality": 33.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 580
+    },
+    {
+      "id": "SCKT",
+      "label": "SCKT",
+      "industry": "Comps",
+      "degree_centrality": 0.3770491803278689,
+      "betweenness_centrality": 0.006997121793551735,
+      "closeness_centrality": 0.6084164272435356,
+      "eigenvector_centrality": 0.00021864416874768495,
+      "harmonic_centrality": 32.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 61
+    },
+    {
+      "id": "SGMS",
+      "label": "SGMS",
+      "industry": "Comps",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SLP",
+      "label": "SLP",
+      "industry": "Comps",
+      "degree_centrality": 0.49180327868852464,
+      "betweenness_centrality": 0.02545154454661562,
+      "closeness_centrality": 0.6557377049180327,
+      "eigenvector_centrality": 0.013308671736461514,
+      "harmonic_centrality": 35.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 293
+    },
+    {
+      "id": "SMCI",
+      "label": "SMCI",
+      "industry": "Comps",
+      "degree_centrality": 0.6065573770491803,
+      "betweenness_centrality": 0.009460787528357611,
+      "closeness_centrality": 0.7110408848508789,
+      "eigenvector_centrality": 0.014262483700470278,
+      "harmonic_centrality": 32.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 1172
+    },
+    {
+      "id": "STRM",
+      "label": "STRM",
+      "industry": "Comps",
+      "degree_centrality": 0.26229508196721313,
+      "betweenness_centrality": 0.0016574494829075348,
+      "closeness_centrality": 0.5674653215636821,
+      "eigenvector_centrality": 0.00013464978609487607,
+      "harmonic_centrality": 27.583333333333325,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 179
+    },
+    {
+      "id": "TACT",
+      "label": "TACT",
+      "industry": "Comps",
+      "degree_centrality": 0.36065573770491804,
+      "betweenness_centrality": 0.021793490167792105,
+      "closeness_centrality": 0.6022080963532954,
+      "eigenvector_centrality": 0.00020131071212820616,
+      "harmonic_centrality": 35.16666666666667,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 51
+    },
+    {
+      "id": "TDC",
+      "label": "TDC",
+      "industry": "Comps",
+      "degree_centrality": 0.4754098360655738,
+      "betweenness_centrality": 0.005716121450442788,
+      "closeness_centrality": 0.6485317960727797,
+      "eigenvector_centrality": 0.003425241453371777,
+      "harmonic_centrality": 31.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 218
+    },
+    {
+      "id": "UI",
+      "label": "UI",
+      "industry": "Comps",
+      "degree_centrality": 0.5245901639344263,
+      "betweenness_centrality": 0.010139038194494996,
+      "closeness_centrality": 0.6706408345752607,
+      "eigenvector_centrality": 0.002018172191122939,
+      "harmonic_centrality": 33.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 133
+    },
+    {
+      "id": "UIS",
+      "label": "UIS",
+      "industry": "Comps",
+      "degree_centrality": 0.29508196721311475,
+      "betweenness_centrality": 0.0037564802841241287,
+      "closeness_centrality": 0.5785920925747349,
+      "eigenvector_centrality": 0.0009353033433162917,
+      "harmonic_centrality": 30.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 67
+    },
+    {
+      "id": "USAU",
+      "label": "USAU",
+      "industry": "Comps",
+      "degree_centrality": 0.13114754098360656,
+      "betweenness_centrality": 0.004239674991760122,
+      "closeness_centrality": 0.5222689685187872,
+      "eigenvector_centrality": 7.519233861464924e-05,
+      "harmonic_centrality": 29.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 12
+    },
+    {
+      "id": "VRNT",
+      "label": "VRNT",
+      "industry": "Comps",
+      "degree_centrality": 0.49180327868852464,
+      "betweenness_centrality": 0.012594594037209486,
+      "closeness_centrality": 0.6557377049180327,
+      "eigenvector_centrality": 0.0007164649313364893,
+      "harmonic_centrality": 35.5,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 361
+    },
+    {
+      "id": "WDC",
+      "label": "WDC",
+      "industry": "Comps",
+      "degree_centrality": 0.7377049180327869,
+      "betweenness_centrality": 0.023473419793073918,
+      "closeness_centrality": 0.7868852459016393,
+      "eigenvector_centrality": 0.08671149823542806,
+      "harmonic_centrality": 36.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 45,
+      "weighted_degree": 1883
+    },
+    {
+      "id": "WEAV",
+      "label": "WEAV",
+      "industry": "Comps",
+      "degree_centrality": 0.4098360655737705,
+      "betweenness_centrality": 0.03559970925646816,
+      "closeness_centrality": 0.6212251941328731,
+      "eigenvector_centrality": 0.0006729775800310661,
+      "harmonic_centrality": 36.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 65
+    },
+    {
+      "id": "WYY",
+      "label": "WYY",
+      "industry": "Comps",
+      "degree_centrality": 0.3114754098360656,
+      "betweenness_centrality": 0.0005554137726268873,
+      "closeness_centrality": 0.5843207271546826,
+      "eigenvector_centrality": 0.0007867414154017683,
+      "harmonic_centrality": 26.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 68
+    },
+    {
+      "id": "XRX",
+      "label": "XRX",
+      "industry": "Comps",
+      "degree_centrality": 0.5081967213114754,
+      "betweenness_centrality": 0.007430087347510952,
+      "closeness_centrality": 0.6631055442991343,
+      "eigenvector_centrality": 0.02593602274386394,
+      "harmonic_centrality": 31.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 613
+    },
+    {
+      "id": "ZBRA",
+      "label": "ZBRA",
+      "industry": "Comps",
+      "degree_centrality": 0.5409836065573771,
+      "betweenness_centrality": 0.0051113281377908664,
+      "closeness_centrality": 0.6783493499152063,
+      "eigenvector_centrality": 0.0024123656162960247,
+      "harmonic_centrality": 31.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 175
+    }
+  ],
+  "edges": [
+    {
+      "source": "AAPL",
+      "target": "WYY",
+      "weight": 8
+    },
+    {
+      "source": "AAPL",
+      "target": "UI",
+      "weight": 30
+    },
+    {
+      "source": "AAPL",
+      "target": "ZBRA",
+      "weight": 32
+    },
+    {
+      "source": "AAPL",
+      "target": "EXTR",
+      "weight": 3
+    },
+    {
+      "source": "AAPL",
+      "target": "WEAV",
+      "weight": 11
+    },
+    {
+      "source": "AAPL",
+      "target": "TACT",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "DBD",
+      "weight": 25
+    },
+    {
+      "source": "AAPL",
+      "target": "QMCO",
+      "weight": 27
+    },
+    {
+      "source": "AAPL",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "AAPL",
+      "target": "NATI",
+      "weight": 22
+    },
+    {
+      "source": "AAPL",
+      "target": "CSPI",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "SMCI",
+      "weight": 131
+    },
+    {
+      "source": "AAPL",
+      "target": "PSTG",
+      "weight": 153
+    },
+    {
+      "source": "AAPL",
+      "target": "OLED",
+      "weight": 35
+    },
+    {
+      "source": "AAPL",
+      "target": "PSN",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "ITRI",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "AAPL",
+      "target": "JKHY",
+      "weight": 31
+    },
+    {
+      "source": "AAPL",
+      "target": "VRNT",
+      "weight": 7
+    },
+    {
+      "source": "AAPL",
+      "target": "JNPR",
+      "weight": 154
+    },
+    {
+      "source": "AAPL",
+      "target": "ATEN",
+      "weight": 10
+    },
+    {
+      "source": "AAPL",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "AAPL",
+      "target": "DSS",
+      "weight": 8
+    },
+    {
+      "source": "AAPL",
+      "target": "TDC",
+      "weight": 17
+    },
+    {
+      "source": "AAPL",
+      "target": "DGII",
+      "weight": 48
+    },
+    {
+      "source": "AAPL",
+      "target": "DXC",
+      "weight": 73
+    },
+    {
+      "source": "AAPL",
+      "target": "BCOR",
+      "weight": 17
+    },
+    {
+      "source": "AAPL",
+      "target": "HPQ",
+      "weight": 972
+    },
+    {
+      "source": "AAPL",
+      "target": "ANIX",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "ANET",
+      "weight": 498
+    },
+    {
+      "source": "AAPL",
+      "target": "SCKT",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "INVE",
+      "weight": 8
+    },
+    {
+      "source": "AAPL",
+      "target": "QUMU",
+      "weight": 4
+    },
+    {
+      "source": "AAPL",
+      "target": "NCR",
+      "weight": 189
+    },
+    {
+      "source": "AAPL",
+      "target": "DELL",
+      "weight": 526
+    },
+    {
+      "source": "AAPL",
+      "target": "NTAP",
+      "weight": 195
+    },
+    {
+      "source": "AAPL",
+      "target": "STRM",
+      "weight": 2
+    },
+    {
+      "source": "AAPL",
+      "target": "OMCL",
+      "weight": 12
+    },
+    {
+      "source": "AAPL",
+      "target": "EBIX",
+      "weight": 24
+    },
+    {
+      "source": "AAPL",
+      "target": "CACI",
+      "weight": 8
+    },
+    {
+      "source": "AAPL",
+      "target": "IMMR",
+      "weight": 4
+    },
+    {
+      "source": "AAPL",
+      "target": "DAIO",
+      "weight": 21
+    },
+    {
+      "source": "AAPL",
+      "target": "BKYI",
+      "weight": 664
+    },
+    {
+      "source": "AAPL",
+      "target": "UIS",
+      "weight": 9
+    },
+    {
+      "source": "AAPL",
+      "target": "AYX",
+      "weight": 120
+    },
+    {
+      "source": "AAPL",
+      "target": "GDDY",
+      "weight": 481
+    },
+    {
+      "source": "AAPL",
+      "target": "IBM",
+      "weight": 11457
+    },
+    {
+      "source": "AAPL",
+      "target": "LNW",
+      "weight": 5
+    },
+    {
+      "source": "AAPL",
+      "target": "CERN",
+      "weight": 263
+    },
+    {
+      "source": "AAPL",
+      "target": "CXDO",
+      "weight": 1
+    },
+    {
+      "source": "AAPL",
+      "target": "WDC",
+      "weight": 691
+    },
+    {
+      "source": "AAPL",
+      "target": "SAIC",
+      "weight": 29
+    },
+    {
+      "source": "AAPL",
+      "target": "XRX",
+      "weight": 48
+    },
+    {
+      "source": "AAPL",
+      "target": "SLP",
+      "weight": 220
+    },
+    {
+      "source": "AAPL",
+      "target": "MKFG",
+      "weight": 9
+    },
+    {
+      "source": "AAPL",
+      "target": "ICAD",
+      "weight": 3
+    },
+    {
+      "source": "ALOT",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "VRNT",
+      "weight": 21
+    },
+    {
+      "source": "ALOT",
+      "target": "HPQ",
+      "weight": 2
+    },
+    {
+      "source": "ALOT",
+      "target": "UIS",
+      "weight": 2
+    },
+    {
+      "source": "ALOT",
+      "target": "ATEN",
+      "weight": 2
+    },
+    {
+      "source": "ALOT",
+      "target": "ANIX",
+      "weight": 2
+    },
+    {
+      "source": "ALOT",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "STRM",
+      "weight": 8
+    },
+    {
+      "source": "ALOT",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "QMCO",
+      "weight": 7
+    },
+    {
+      "source": "ALOT",
+      "target": "OSPN",
+      "weight": 2
+    },
+    {
+      "source": "ALOT",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "ALOT",
+      "target": "CSPI",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "ZBRA",
+      "weight": 31
+    },
+    {
+      "source": "ANET",
+      "target": "TDC",
+      "weight": 24
+    },
+    {
+      "source": "ANET",
+      "target": "GDDY",
+      "weight": 8
+    },
+    {
+      "source": "ANET",
+      "target": "ATEN",
+      "weight": 9
+    },
+    {
+      "source": "ANET",
+      "target": "LTRX",
+      "weight": 4
+    },
+    {
+      "source": "ANET",
+      "target": "NTAP",
+      "weight": 21
+    },
+    {
+      "source": "ANET",
+      "target": "JKHY",
+      "weight": 7
+    },
+    {
+      "source": "ANET",
+      "target": "OMCL",
+      "weight": 68
+    },
+    {
+      "source": "ANET",
+      "target": "UI",
+      "weight": 11
+    },
+    {
+      "source": "ANET",
+      "target": "OLED",
+      "weight": 8
+    },
+    {
+      "source": "ANET",
+      "target": "DXC",
+      "weight": 2
+    },
+    {
+      "source": "ANET",
+      "target": "SMCI",
+      "weight": 215
+    },
+    {
+      "source": "ANET",
+      "target": "DGII",
+      "weight": 268
+    },
+    {
+      "source": "ANET",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "IMMR",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "BKYI",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "PSTG",
+      "weight": 279
+    },
+    {
+      "source": "ANET",
+      "target": "IBM",
+      "weight": 585
+    },
+    {
+      "source": "ANET",
+      "target": "WDC",
+      "weight": 33
+    },
+    {
+      "source": "ANET",
+      "target": "CACI",
+      "weight": 1
+    },
+    {
+      "source": "ANET",
+      "target": "ITRI",
+      "weight": 5
+    },
+    {
+      "source": "ANET",
+      "target": "CERN",
+      "weight": 10
+    },
+    {
+      "source": "ANET",
+      "target": "BCOR",
+      "weight": 3
+    },
+    {
+      "source": "ANET",
+      "target": "JNPR",
+      "weight": 116
+    },
+    {
+      "source": "ANET",
+      "target": "DELL",
+      "weight": 18
+    },
+    {
+      "source": "ANET",
+      "target": "SAIC",
+      "weight": 4
+    },
+    {
+      "source": "ANET",
+      "target": "INVE",
+      "weight": 2
+    },
+    {
+      "source": "ANET",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "ANET",
+      "target": "HPQ",
+      "weight": 20
+    },
+    {
+      "source": "ANET",
+      "target": "EXTR",
+      "weight": 102
+    },
+    {
+      "source": "ANET",
+      "target": "EBIX",
+      "weight": 3
+    },
+    {
+      "source": "ANET",
+      "target": "NCR",
+      "weight": 4
+    },
+    {
+      "source": "ANET",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "ANET",
+      "target": "AYX",
+      "weight": 99
+    },
+    {
+      "source": "ANIX",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "ANIX",
+      "target": "CERN",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "CSPI",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "STRM",
+      "weight": 2
+    },
+    {
+      "source": "ANIX",
+      "target": "DELL",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "DSS",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "EXTR",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "CACI",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "XRX",
+      "weight": 3
+    },
+    {
+      "source": "ANIX",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "ANIX",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "GDDY",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "CXDO",
+      "weight": 2
+    },
+    {
+      "source": "ANIX",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "NCR",
+      "weight": 3
+    },
+    {
+      "source": "ANIX",
+      "target": "IMMR",
+      "weight": 1
+    },
+    {
+      "source": "ANIX",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "OLED",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "WDC",
+      "weight": 12
+    },
+    {
+      "source": "ATEN",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "HPQ",
+      "weight": 5
+    },
+    {
+      "source": "ATEN",
+      "target": "IBM",
+      "weight": 11
+    },
+    {
+      "source": "ATEN",
+      "target": "KTCC",
+      "weight": 62
+    },
+    {
+      "source": "ATEN",
+      "target": "LTRX",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "UIS",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "EBIX",
+      "weight": 3
+    },
+    {
+      "source": "ATEN",
+      "target": "JNPR",
+      "weight": 21
+    },
+    {
+      "source": "ATEN",
+      "target": "CACI",
+      "weight": 8
+    },
+    {
+      "source": "ATEN",
+      "target": "IMMR",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "CERN",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "WYY",
+      "weight": 3
+    },
+    {
+      "source": "ATEN",
+      "target": "AYX",
+      "weight": 32
+    },
+    {
+      "source": "ATEN",
+      "target": "TDC",
+      "weight": 4
+    },
+    {
+      "source": "ATEN",
+      "target": "DGII",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "DELL",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "WEAV",
+      "weight": 3
+    },
+    {
+      "source": "ATEN",
+      "target": "EXTR",
+      "weight": 13
+    },
+    {
+      "source": "ATEN",
+      "target": "OSPN",
+      "weight": 5
+    },
+    {
+      "source": "ATEN",
+      "target": "SMCI",
+      "weight": 115
+    },
+    {
+      "source": "ATEN",
+      "target": "DXC",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "INVE",
+      "weight": 2
+    },
+    {
+      "source": "ATEN",
+      "target": "CSPI",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "ZBRA",
+      "weight": 6
+    },
+    {
+      "source": "ATEN",
+      "target": "NTAP",
+      "weight": 11
+    },
+    {
+      "source": "ATEN",
+      "target": "PSN",
+      "weight": 20
+    },
+    {
+      "source": "ATEN",
+      "target": "DAIO",
+      "weight": 11
+    },
+    {
+      "source": "ATEN",
+      "target": "SAIC",
+      "weight": 8
+    },
+    {
+      "source": "ATEN",
+      "target": "NATI",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "CXDO",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "DBD",
+      "weight": 1
+    },
+    {
+      "source": "ATEN",
+      "target": "BCOR",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "EBIX",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "ZBRA",
+      "weight": 11
+    },
+    {
+      "source": "AYX",
+      "target": "PSTG",
+      "weight": 7
+    },
+    {
+      "source": "AYX",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "BKYI",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "DELL",
+      "weight": 4
+    },
+    {
+      "source": "AYX",
+      "target": "GDDY",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "TDC",
+      "weight": 14
+    },
+    {
+      "source": "AYX",
+      "target": "DXC",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "DBD",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "OLED",
+      "weight": 8
+    },
+    {
+      "source": "AYX",
+      "target": "ICAD",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "NTAP",
+      "weight": 3
+    },
+    {
+      "source": "AYX",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "AYX",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "BCOR",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "SMCI",
+      "weight": 20
+    },
+    {
+      "source": "AYX",
+      "target": "LNW",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "OMCL",
+      "weight": 2
+    },
+    {
+      "source": "AYX",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "JNPR",
+      "weight": 3
+    },
+    {
+      "source": "AYX",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "IBM",
+      "weight": 10
+    },
+    {
+      "source": "AYX",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "AYX",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "IBM",
+      "weight": 2
+    },
+    {
+      "source": "BCOR",
+      "target": "NCR",
+      "weight": 3
+    },
+    {
+      "source": "BCOR",
+      "target": "EBIX",
+      "weight": 10
+    },
+    {
+      "source": "BCOR",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "JKHY",
+      "weight": 6
+    },
+    {
+      "source": "BCOR",
+      "target": "USAU",
+      "weight": 4
+    },
+    {
+      "source": "BCOR",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "SCKT",
+      "weight": 2
+    },
+    {
+      "source": "BCOR",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "SMCI",
+      "weight": 5
+    },
+    {
+      "source": "BCOR",
+      "target": "GDDY",
+      "weight": 10
+    },
+    {
+      "source": "BCOR",
+      "target": "CACI",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "BCOR",
+      "target": "DBD",
+      "weight": 10
+    },
+    {
+      "source": "BCOR",
+      "target": "PSN",
+      "weight": 5
+    },
+    {
+      "source": "BCOR",
+      "target": "UI",
+      "weight": 5
+    },
+    {
+      "source": "BCOR",
+      "target": "EXTR",
+      "weight": 2
+    },
+    {
+      "source": "BCOR",
+      "target": "SLP",
+      "weight": 11
+    },
+    {
+      "source": "BCOR",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "BCOR",
+      "target": "XRX",
+      "weight": 4
+    },
+    {
+      "source": "BKYI",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "BKYI",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "DELL",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "DAIO",
+      "weight": 13
+    },
+    {
+      "source": "BKYI",
+      "target": "FKWL",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "DBD",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "EBIX",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "IBM",
+      "weight": 7
+    },
+    {
+      "source": "BKYI",
+      "target": "DSS",
+      "weight": 4
+    },
+    {
+      "source": "BKYI",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "CSPI",
+      "weight": 20
+    },
+    {
+      "source": "BKYI",
+      "target": "INVE",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "WYY",
+      "weight": 5
+    },
+    {
+      "source": "BKYI",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "BKYI",
+      "target": "GDDY",
+      "weight": 5
+    },
+    {
+      "source": "CACI",
+      "target": "PSN",
+      "weight": 8
+    },
+    {
+      "source": "CACI",
+      "target": "NTAP",
+      "weight": 2
+    },
+    {
+      "source": "CACI",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "IMMR",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "DGII",
+      "weight": 3
+    },
+    {
+      "source": "CACI",
+      "target": "SMCI",
+      "weight": 2
+    },
+    {
+      "source": "CACI",
+      "target": "EBIX",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "SAIC",
+      "weight": 81
+    },
+    {
+      "source": "CACI",
+      "target": "DXC",
+      "weight": 3
+    },
+    {
+      "source": "CACI",
+      "target": "JNPR",
+      "weight": 8
+    },
+    {
+      "source": "CACI",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "CACI",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "EXTR",
+      "weight": 3
+    },
+    {
+      "source": "CACI",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "CACI",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "IBM",
+      "weight": 6
+    },
+    {
+      "source": "CACI",
+      "target": "HPQ",
+      "weight": 3
+    },
+    {
+      "source": "CACI",
+      "target": "CSPI",
+      "weight": 7
+    },
+    {
+      "source": "CACI",
+      "target": "ICAD",
+      "weight": 1
+    },
+    {
+      "source": "CACI",
+      "target": "PSTG",
+      "weight": 7
+    },
+    {
+      "source": "CACI",
+      "target": "GDDY",
+      "weight": 5
+    },
+    {
+      "source": "CACI",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "DELL",
+      "weight": 4
+    },
+    {
+      "source": "CERN",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "HPQ",
+      "weight": 6
+    },
+    {
+      "source": "CERN",
+      "target": "INVE",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "STRM",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "OMCL",
+      "weight": 3
+    },
+    {
+      "source": "CERN",
+      "target": "JKHY",
+      "weight": 5
+    },
+    {
+      "source": "CERN",
+      "target": "IBM",
+      "weight": 118
+    },
+    {
+      "source": "CERN",
+      "target": "NCR",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "CERN",
+      "target": "NTAP",
+      "weight": 13
+    },
+    {
+      "source": "CERN",
+      "target": "GDDY",
+      "weight": 8
+    },
+    {
+      "source": "CERN",
+      "target": "DXC",
+      "weight": 4
+    },
+    {
+      "source": "CERN",
+      "target": "PSTG",
+      "weight": 6
+    },
+    {
+      "source": "CERN",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "CERN",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "EBIX",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "DSS",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "MHH",
+      "weight": 3
+    },
+    {
+      "source": "CSPI",
+      "target": "DAIO",
+      "weight": 13
+    },
+    {
+      "source": "CSPI",
+      "target": "ICAD",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "IBM",
+      "weight": 5
+    },
+    {
+      "source": "CSPI",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "CSPI",
+      "target": "SCKT",
+      "weight": 3
+    },
+    {
+      "source": "CSPI",
+      "target": "OMCL",
+      "weight": 3
+    },
+    {
+      "source": "CSPI",
+      "target": "CXDO",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "GDDY",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "CSPI",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "LTRX",
+      "weight": 5
+    },
+    {
+      "source": "CXDO",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "CXDO",
+      "target": "INVE",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "GDDY",
+      "weight": 15
+    },
+    {
+      "source": "CXDO",
+      "target": "ICAD",
+      "weight": 2
+    },
+    {
+      "source": "CXDO",
+      "target": "JKHY",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "DAIO",
+      "weight": 4
+    },
+    {
+      "source": "CXDO",
+      "target": "DSS",
+      "weight": 2
+    },
+    {
+      "source": "CXDO",
+      "target": "UI",
+      "weight": 4
+    },
+    {
+      "source": "CXDO",
+      "target": "IBM",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "DELL",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "NATI",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "CXDO",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "DAIO",
+      "target": "FKWL",
+      "weight": 1
+    },
+    {
+      "source": "DAIO",
+      "target": "SCKT",
+      "weight": 3
+    },
+    {
+      "source": "DAIO",
+      "target": "DELL",
+      "weight": 4
+    },
+    {
+      "source": "DAIO",
+      "target": "DBD",
+      "weight": 1
+    },
+    {
+      "source": "DAIO",
+      "target": "KTCC",
+      "weight": 8
+    },
+    {
+      "source": "DAIO",
+      "target": "QMCO",
+      "weight": 2
+    },
+    {
+      "source": "DAIO",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "DAIO",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "XRX",
+      "weight": 5
+    },
+    {
+      "source": "DBD",
+      "target": "HPQ",
+      "weight": 6
+    },
+    {
+      "source": "DBD",
+      "target": "DGII",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "SMCI",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "QMCO",
+      "weight": 2
+    },
+    {
+      "source": "DBD",
+      "target": "ZBRA",
+      "weight": 3
+    },
+    {
+      "source": "DBD",
+      "target": "FKWL",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "MHH",
+      "weight": 2
+    },
+    {
+      "source": "DBD",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "DBD",
+      "target": "UIS",
+      "weight": 2
+    },
+    {
+      "source": "DBD",
+      "target": "EXTR",
+      "weight": 6
+    },
+    {
+      "source": "DBD",
+      "target": "WEAV",
+      "weight": 3
+    },
+    {
+      "source": "DBD",
+      "target": "EBIX",
+      "weight": 5
+    },
+    {
+      "source": "DBD",
+      "target": "DSS",
+      "weight": 10
+    },
+    {
+      "source": "DBD",
+      "target": "NCR",
+      "weight": 48
+    },
+    {
+      "source": "DBD",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "DBD",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "DELL",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "GDDY",
+      "weight": 2
+    },
+    {
+      "source": "DBD",
+      "target": "ITRI",
+      "weight": 3
+    },
+    {
+      "source": "DBD",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "DBD",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "NTAP",
+      "weight": 324
+    },
+    {
+      "source": "DELL",
+      "target": "GDDY",
+      "weight": 3
+    },
+    {
+      "source": "DELL",
+      "target": "LTRX",
+      "weight": 46
+    },
+    {
+      "source": "DELL",
+      "target": "ZBRA",
+      "weight": 8
+    },
+    {
+      "source": "DELL",
+      "target": "SAIC",
+      "weight": 6
+    },
+    {
+      "source": "DELL",
+      "target": "UIS",
+      "weight": 2
+    },
+    {
+      "source": "DELL",
+      "target": "WDC",
+      "weight": 30
+    },
+    {
+      "source": "DELL",
+      "target": "ICAD",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "OLED",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "EXTR",
+      "weight": 8
+    },
+    {
+      "source": "DELL",
+      "target": "MHH",
+      "weight": 2
+    },
+    {
+      "source": "DELL",
+      "target": "XRX",
+      "weight": 3
+    },
+    {
+      "source": "DELL",
+      "target": "JNPR",
+      "weight": 27
+    },
+    {
+      "source": "DELL",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "DXC",
+      "weight": 15
+    },
+    {
+      "source": "DELL",
+      "target": "PSTG",
+      "weight": 34
+    },
+    {
+      "source": "DELL",
+      "target": "IBM",
+      "weight": 93
+    },
+    {
+      "source": "DELL",
+      "target": "DGII",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "DELL",
+      "target": "SMCI",
+      "weight": 19
+    },
+    {
+      "source": "DELL",
+      "target": "NCR",
+      "weight": 4
+    },
+    {
+      "source": "DELL",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "DELL",
+      "target": "VRNT",
+      "weight": 3
+    },
+    {
+      "source": "DELL",
+      "target": "LNW",
+      "weight": 3
+    },
+    {
+      "source": "DELL",
+      "target": "UI",
+      "weight": 4
+    },
+    {
+      "source": "DELL",
+      "target": "HPQ",
+      "weight": 968
+    },
+    {
+      "source": "DELL",
+      "target": "TDC",
+      "weight": 4
+    },
+    {
+      "source": "DELL",
+      "target": "JKHY",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "IMMR",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "DGII",
+      "target": "DXC",
+      "weight": 11
+    },
+    {
+      "source": "DGII",
+      "target": "SLP",
+      "weight": 8
+    },
+    {
+      "source": "DGII",
+      "target": "OLED",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "JKHY",
+      "weight": 17
+    },
+    {
+      "source": "DGII",
+      "target": "ZBRA",
+      "weight": 4
+    },
+    {
+      "source": "DGII",
+      "target": "LTRX",
+      "weight": 5
+    },
+    {
+      "source": "DGII",
+      "target": "DSS",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "EXTR",
+      "weight": 115
+    },
+    {
+      "source": "DGII",
+      "target": "PSN",
+      "weight": 4
+    },
+    {
+      "source": "DGII",
+      "target": "SAIC",
+      "weight": 2
+    },
+    {
+      "source": "DGII",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "JNPR",
+      "weight": 6
+    },
+    {
+      "source": "DGII",
+      "target": "PSTG",
+      "weight": 8
+    },
+    {
+      "source": "DGII",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "DGII",
+      "target": "VRNT",
+      "weight": 3
+    },
+    {
+      "source": "DGII",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "DGII",
+      "target": "SMCI",
+      "weight": 287
+    },
+    {
+      "source": "DGII",
+      "target": "IBM",
+      "weight": 6
+    },
+    {
+      "source": "DGII",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "DSS",
+      "target": "ICAD",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "MKFG",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "PSTG",
+      "weight": 7
+    },
+    {
+      "source": "DSS",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "DSS",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "WEAV",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "IBM",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "INVE",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "QMCO",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "WYY",
+      "weight": 3
+    },
+    {
+      "source": "DSS",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "DSS",
+      "target": "STRM",
+      "weight": 91
+    },
+    {
+      "source": "DSS",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "NCR",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "JKHY",
+      "weight": 6
+    },
+    {
+      "source": "DXC",
+      "target": "PSN",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "PSTG",
+      "weight": 3
+    },
+    {
+      "source": "DXC",
+      "target": "IBM",
+      "weight": 232
+    },
+    {
+      "source": "DXC",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "HPQ",
+      "weight": 28
+    },
+    {
+      "source": "DXC",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "NATI",
+      "weight": 9
+    },
+    {
+      "source": "DXC",
+      "target": "UIS",
+      "weight": 19
+    },
+    {
+      "source": "DXC",
+      "target": "ITRI",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "MHH",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "SAIC",
+      "weight": 6
+    },
+    {
+      "source": "DXC",
+      "target": "JNPR",
+      "weight": 10
+    },
+    {
+      "source": "DXC",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "FKWL",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "TDC",
+      "weight": 4
+    },
+    {
+      "source": "DXC",
+      "target": "NTAP",
+      "weight": 5
+    },
+    {
+      "source": "DXC",
+      "target": "WDC",
+      "weight": 9
+    },
+    {
+      "source": "DXC",
+      "target": "INVE",
+      "weight": 2
+    },
+    {
+      "source": "DXC",
+      "target": "ZBRA",
+      "weight": 3
+    },
+    {
+      "source": "DXC",
+      "target": "XRX",
+      "weight": 19
+    },
+    {
+      "source": "DXC",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "SMCI",
+      "weight": 1
+    },
+    {
+      "source": "DXC",
+      "target": "OLED",
+      "weight": 4
+    },
+    {
+      "source": "DXC",
+      "target": "GDDY",
+      "weight": 7
+    },
+    {
+      "source": "EBIX",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "SCKT",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "LTRX",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "NTAP",
+      "weight": 4
+    },
+    {
+      "source": "EBIX",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "TACT",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "GDDY",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "NCR",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "OLED",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "IBM",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "EBIX",
+      "target": "TDC",
+      "weight": 4
+    },
+    {
+      "source": "EBIX",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "EBIX",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "NTAP",
+      "weight": 4
+    },
+    {
+      "source": "EXTR",
+      "target": "WEAV",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "IBM",
+      "weight": 10
+    },
+    {
+      "source": "EXTR",
+      "target": "TACT",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "JKHY",
+      "weight": 3
+    },
+    {
+      "source": "EXTR",
+      "target": "NCR",
+      "weight": 6
+    },
+    {
+      "source": "EXTR",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "HPQ",
+      "weight": 4
+    },
+    {
+      "source": "EXTR",
+      "target": "JNPR",
+      "weight": 39
+    },
+    {
+      "source": "EXTR",
+      "target": "SAIC",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "LTRX",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "UI",
+      "weight": 5
+    },
+    {
+      "source": "EXTR",
+      "target": "PSN",
+      "weight": 4
+    },
+    {
+      "source": "EXTR",
+      "target": "INVE",
+      "weight": 5
+    },
+    {
+      "source": "EXTR",
+      "target": "WDC",
+      "weight": 5
+    },
+    {
+      "source": "EXTR",
+      "target": "SCKT",
+      "weight": 3
+    },
+    {
+      "source": "EXTR",
+      "target": "PSTG",
+      "weight": 14
+    },
+    {
+      "source": "EXTR",
+      "target": "ICAD",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "IMMR",
+      "weight": 11
+    },
+    {
+      "source": "EXTR",
+      "target": "SMCI",
+      "weight": 67
+    },
+    {
+      "source": "EXTR",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "STRM",
+      "weight": 2
+    },
+    {
+      "source": "EXTR",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "EXTR",
+      "target": "FKWL",
+      "weight": 3
+    },
+    {
+      "source": "EXTR",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "FKWL",
+      "target": "LTRX",
+      "weight": 8
+    },
+    {
+      "source": "FKWL",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "FKWL",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "FKWL",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "FKWL",
+      "target": "IMMR",
+      "weight": 2
+    },
+    {
+      "source": "FKWL",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "NCR",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "JNPR",
+      "weight": 18
+    },
+    {
+      "source": "GDDY",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "GDDY",
+      "target": "UI",
+      "weight": 2
+    },
+    {
+      "source": "GDDY",
+      "target": "IBM",
+      "weight": 4
+    },
+    {
+      "source": "GDDY",
+      "target": "OLED",
+      "weight": 2
+    },
+    {
+      "source": "GDDY",
+      "target": "JKHY",
+      "weight": 3
+    },
+    {
+      "source": "GDDY",
+      "target": "LTRX",
+      "weight": 55
+    },
+    {
+      "source": "GDDY",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "GDDY",
+      "target": "INVE",
+      "weight": 4
+    },
+    {
+      "source": "GDDY",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "GDDY",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "GDDY",
+      "target": "HPQ",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "XRX",
+      "weight": 96
+    },
+    {
+      "source": "HPQ",
+      "target": "ICAD",
+      "weight": 2
+    },
+    {
+      "source": "HPQ",
+      "target": "PSTG",
+      "weight": 449
+    },
+    {
+      "source": "HPQ",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "HPQ",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "IMMR",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "MKFG",
+      "weight": 12
+    },
+    {
+      "source": "HPQ",
+      "target": "WYY",
+      "weight": 3
+    },
+    {
+      "source": "HPQ",
+      "target": "OLED",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "ITRI",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "SLP",
+      "weight": 3
+    },
+    {
+      "source": "HPQ",
+      "target": "NCR",
+      "weight": 17
+    },
+    {
+      "source": "HPQ",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "SAIC",
+      "weight": 50
+    },
+    {
+      "source": "HPQ",
+      "target": "SMCI",
+      "weight": 45
+    },
+    {
+      "source": "HPQ",
+      "target": "TDC",
+      "weight": 11
+    },
+    {
+      "source": "HPQ",
+      "target": "IBM",
+      "weight": 270
+    },
+    {
+      "source": "HPQ",
+      "target": "NTAP",
+      "weight": 542
+    },
+    {
+      "source": "HPQ",
+      "target": "TACT",
+      "weight": 9
+    },
+    {
+      "source": "HPQ",
+      "target": "NATI",
+      "weight": 4
+    },
+    {
+      "source": "HPQ",
+      "target": "WDC",
+      "weight": 55
+    },
+    {
+      "source": "HPQ",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "JNPR",
+      "weight": 59
+    },
+    {
+      "source": "HPQ",
+      "target": "VRNT",
+      "weight": 4
+    },
+    {
+      "source": "HPQ",
+      "target": "ZBRA",
+      "weight": 10
+    },
+    {
+      "source": "HPQ",
+      "target": "INVE",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "HPQ",
+      "target": "OSPN",
+      "weight": 3
+    },
+    {
+      "source": "IBM",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "NCR",
+      "weight": 59
+    },
+    {
+      "source": "IBM",
+      "target": "OMCL",
+      "weight": 5
+    },
+    {
+      "source": "IBM",
+      "target": "ITRI",
+      "weight": 3
+    },
+    {
+      "source": "IBM",
+      "target": "UIS",
+      "weight": 6
+    },
+    {
+      "source": "IBM",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "IBM",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "NTAP",
+      "weight": 16
+    },
+    {
+      "source": "IBM",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "ZBRA",
+      "weight": 3
+    },
+    {
+      "source": "IBM",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "PSTG",
+      "weight": 14
+    },
+    {
+      "source": "IBM",
+      "target": "OLED",
+      "weight": 8
+    },
+    {
+      "source": "IBM",
+      "target": "XRX",
+      "weight": 377
+    },
+    {
+      "source": "IBM",
+      "target": "JNPR",
+      "weight": 103
+    },
+    {
+      "source": "IBM",
+      "target": "WDC",
+      "weight": 753
+    },
+    {
+      "source": "IBM",
+      "target": "WYY",
+      "weight": 4
+    },
+    {
+      "source": "IBM",
+      "target": "TDC",
+      "weight": 32
+    },
+    {
+      "source": "IBM",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "JKHY",
+      "weight": 20
+    },
+    {
+      "source": "IBM",
+      "target": "SMCI",
+      "weight": 72
+    },
+    {
+      "source": "IBM",
+      "target": "SAIC",
+      "weight": 11
+    },
+    {
+      "source": "IBM",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "IBM",
+      "target": "NATI",
+      "weight": 2
+    },
+    {
+      "source": "IBM",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "IBM",
+      "target": "OSPN",
+      "weight": 2
+    },
+    {
+      "source": "ICAD",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "ICAD",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "NCR",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "ICAD",
+      "target": "QUMU",
+      "weight": 3
+    },
+    {
+      "source": "ICAD",
+      "target": "NATI",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "NATI",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "WYY",
+      "weight": 2
+    },
+    {
+      "source": "IMMR",
+      "target": "MKFG",
+      "weight": 3
+    },
+    {
+      "source": "IMMR",
+      "target": "SAIC",
+      "weight": 5
+    },
+    {
+      "source": "IMMR",
+      "target": "NTAP",
+      "weight": 2
+    },
+    {
+      "source": "IMMR",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "LTRX",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "KTCC",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "SCKT",
+      "weight": 2
+    },
+    {
+      "source": "IMMR",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "TACT",
+      "weight": 9
+    },
+    {
+      "source": "IMMR",
+      "target": "JKHY",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "IMMR",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "SMCI",
+      "weight": 2
+    },
+    {
+      "source": "INVE",
+      "target": "LTRX",
+      "weight": 3
+    },
+    {
+      "source": "INVE",
+      "target": "OMCL",
+      "weight": 4
+    },
+    {
+      "source": "INVE",
+      "target": "MKFG",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "PSTG",
+      "weight": 6
+    },
+    {
+      "source": "INVE",
+      "target": "JKHY",
+      "weight": 2
+    },
+    {
+      "source": "INVE",
+      "target": "KTCC",
+      "weight": 2
+    },
+    {
+      "source": "INVE",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "ITRI",
+      "weight": 3
+    },
+    {
+      "source": "INVE",
+      "target": "WEAV",
+      "weight": 18
+    },
+    {
+      "source": "INVE",
+      "target": "NTAP",
+      "weight": 3
+    },
+    {
+      "source": "INVE",
+      "target": "JNPR",
+      "weight": 2
+    },
+    {
+      "source": "INVE",
+      "target": "WYY",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "INVE",
+      "target": "XRX",
+      "weight": 5
+    },
+    {
+      "source": "INVE",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "PSTG",
+      "weight": 5
+    },
+    {
+      "source": "ITRI",
+      "target": "JNPR",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "OLED",
+      "weight": 2
+    },
+    {
+      "source": "ITRI",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "LNW",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "SMCI",
+      "weight": 3
+    },
+    {
+      "source": "ITRI",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "ITRI",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "ITRI",
+      "target": "UI",
+      "weight": 2
+    },
+    {
+      "source": "ITRI",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "ITRI",
+      "target": "OSPN",
+      "weight": 2
+    },
+    {
+      "source": "JKHY",
+      "target": "PSTG",
+      "weight": 3
+    },
+    {
+      "source": "JKHY",
+      "target": "ZBRA",
+      "weight": 5
+    },
+    {
+      "source": "JKHY",
+      "target": "SLP",
+      "weight": 3
+    },
+    {
+      "source": "JKHY",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "JKHY",
+      "target": "WDC",
+      "weight": 4
+    },
+    {
+      "source": "JKHY",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "JKHY",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "JKHY",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "JKHY",
+      "target": "JNPR",
+      "weight": 9
+    },
+    {
+      "source": "JKHY",
+      "target": "NCR",
+      "weight": 5
+    },
+    {
+      "source": "JKHY",
+      "target": "SMCI",
+      "weight": 11
+    },
+    {
+      "source": "JNPR",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "JNPR",
+      "target": "PSTG",
+      "weight": 28
+    },
+    {
+      "source": "JNPR",
+      "target": "TDC",
+      "weight": 3
+    },
+    {
+      "source": "JNPR",
+      "target": "ZBRA",
+      "weight": 4
+    },
+    {
+      "source": "JNPR",
+      "target": "SMCI",
+      "weight": 7
+    },
+    {
+      "source": "JNPR",
+      "target": "LTRX",
+      "weight": 4
+    },
+    {
+      "source": "JNPR",
+      "target": "QUMU",
+      "weight": 2
+    },
+    {
+      "source": "JNPR",
+      "target": "UI",
+      "weight": 5
+    },
+    {
+      "source": "JNPR",
+      "target": "WDC",
+      "weight": 45
+    },
+    {
+      "source": "JNPR",
+      "target": "XRX",
+      "weight": 8
+    },
+    {
+      "source": "JNPR",
+      "target": "NATI",
+      "weight": 4
+    },
+    {
+      "source": "JNPR",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "JNPR",
+      "target": "NCR",
+      "weight": 21
+    },
+    {
+      "source": "JNPR",
+      "target": "NTAP",
+      "weight": 91
+    },
+    {
+      "source": "JNPR",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "JNPR",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "KTCC",
+      "target": "OMCL",
+      "weight": 1
+    },
+    {
+      "source": "KTCC",
+      "target": "LNW",
+      "weight": 2
+    },
+    {
+      "source": "KTCC",
+      "target": "SMCI",
+      "weight": 15
+    },
+    {
+      "source": "KTCC",
+      "target": "OSPN",
+      "weight": 3
+    },
+    {
+      "source": "KTCC",
+      "target": "SCKT",
+      "weight": 3
+    },
+    {
+      "source": "KTCC",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "KTCC",
+      "target": "NATI",
+      "weight": 1
+    },
+    {
+      "source": "KTCC",
+      "target": "OLED",
+      "weight": 2
+    },
+    {
+      "source": "LNW",
+      "target": "NCR",
+      "weight": 2
+    },
+    {
+      "source": "LNW",
+      "target": "OMCL",
+      "weight": 4
+    },
+    {
+      "source": "LNW",
+      "target": "SMCI",
+      "weight": 6
+    },
+    {
+      "source": "LNW",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "LNW",
+      "target": "WEAV",
+      "weight": 3
+    },
+    {
+      "source": "LNW",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "LNW",
+      "target": "NTAP",
+      "weight": 1
+    },
+    {
+      "source": "LNW",
+      "target": "LTRX",
+      "weight": 3
+    },
+    {
+      "source": "LNW",
+      "target": "MKFG",
+      "weight": 3
+    },
+    {
+      "source": "LNW",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "LNW",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "LNW",
+      "target": "VRNT",
+      "weight": 2
+    },
+    {
+      "source": "LNW",
+      "target": "WDC",
+      "weight": 3
+    },
+    {
+      "source": "LTRX",
+      "target": "NATI",
+      "weight": 3
+    },
+    {
+      "source": "LTRX",
+      "target": "STRM",
+      "weight": 5
+    },
+    {
+      "source": "LTRX",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "MKFG",
+      "weight": 3
+    },
+    {
+      "source": "LTRX",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "OLED",
+      "weight": 5
+    },
+    {
+      "source": "LTRX",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "OMCL",
+      "weight": 2
+    },
+    {
+      "source": "LTRX",
+      "target": "OSPN",
+      "weight": 2
+    },
+    {
+      "source": "LTRX",
+      "target": "MHH",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "TDC",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "LTRX",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "SAIC",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "OMCL",
+      "weight": 3
+    },
+    {
+      "source": "MHH",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "MHH",
+      "target": "UI",
+      "weight": 2
+    },
+    {
+      "source": "MKFG",
+      "target": "WDC",
+      "weight": 3
+    },
+    {
+      "source": "MKFG",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "MKFG",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "MKFG",
+      "target": "PSTG",
+      "weight": 1
+    },
+    {
+      "source": "MKFG",
+      "target": "QUMU",
+      "weight": 3
+    },
+    {
+      "source": "MKFG",
+      "target": "OSPN",
+      "weight": 1
+    },
+    {
+      "source": "MKFG",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "NATI",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "NATI",
+      "target": "OMCL",
+      "weight": 5
+    },
+    {
+      "source": "NATI",
+      "target": "SMCI",
+      "weight": 2
+    },
+    {
+      "source": "NATI",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "NATI",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "NATI",
+      "target": "TDC",
+      "weight": 2
+    },
+    {
+      "source": "NATI",
+      "target": "WDC",
+      "weight": 24
+    },
+    {
+      "source": "NATI",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "NATI",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "NATI",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "NATI",
+      "target": "SCKT",
+      "weight": 5
+    },
+    {
+      "source": "NATI",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "NATI",
+      "target": "NCR",
+      "weight": 2
+    },
+    {
+      "source": "NCR",
+      "target": "TDC",
+      "weight": 8
+    },
+    {
+      "source": "NCR",
+      "target": "SLP",
+      "weight": 7
+    },
+    {
+      "source": "NCR",
+      "target": "WDC",
+      "weight": 19
+    },
+    {
+      "source": "NCR",
+      "target": "OLED",
+      "weight": 2
+    },
+    {
+      "source": "NCR",
+      "target": "PSTG",
+      "weight": 2
+    },
+    {
+      "source": "NCR",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "NCR",
+      "target": "SMCI",
+      "weight": 11
+    },
+    {
+      "source": "NCR",
+      "target": "QUMU",
+      "weight": 4
+    },
+    {
+      "source": "NCR",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "NCR",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "NCR",
+      "target": "NTAP",
+      "weight": 16
+    },
+    {
+      "source": "NTAP",
+      "target": "OSPN",
+      "weight": 2
+    },
+    {
+      "source": "NTAP",
+      "target": "UI",
+      "weight": 18
+    },
+    {
+      "source": "NTAP",
+      "target": "SAIC",
+      "weight": 3
+    },
+    {
+      "source": "NTAP",
+      "target": "XRX",
+      "weight": 3
+    },
+    {
+      "source": "NTAP",
+      "target": "QUMU",
+      "weight": 1
+    },
+    {
+      "source": "NTAP",
+      "target": "VRNT",
+      "weight": 10
+    },
+    {
+      "source": "NTAP",
+      "target": "OLED",
+      "weight": 51
+    },
+    {
+      "source": "NTAP",
+      "target": "QMCO",
+      "weight": 4
+    },
+    {
+      "source": "NTAP",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "NTAP",
+      "target": "ZBRA",
+      "weight": 4
+    },
+    {
+      "source": "NTAP",
+      "target": "PSTG",
+      "weight": 241
+    },
+    {
+      "source": "NTAP",
+      "target": "WDC",
+      "weight": 55
+    },
+    {
+      "source": "NTAP",
+      "target": "SMCI",
+      "weight": 30
+    },
+    {
+      "source": "NTAP",
+      "target": "TDC",
+      "weight": 17
+    },
+    {
+      "source": "OLED",
+      "target": "SMCI",
+      "weight": 1
+    },
+    {
+      "source": "OLED",
+      "target": "ZBRA",
+      "weight": 3
+    },
+    {
+      "source": "OLED",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "OLED",
+      "target": "WDC",
+      "weight": 7
+    },
+    {
+      "source": "OLED",
+      "target": "OMCL",
+      "weight": 6
+    },
+    {
+      "source": "OLED",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "OLED",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "OLED",
+      "target": "SAIC",
+      "weight": 5
+    },
+    {
+      "source": "OLED",
+      "target": "QMCO",
+      "weight": 2
+    },
+    {
+      "source": "OLED",
+      "target": "PSTG",
+      "weight": 5
+    },
+    {
+      "source": "OLED",
+      "target": "TDC",
+      "weight": 5
+    },
+    {
+      "source": "OLED",
+      "target": "PSN",
+      "weight": 1
+    },
+    {
+      "source": "OMCL",
+      "target": "QMCO",
+      "weight": 2
+    },
+    {
+      "source": "OMCL",
+      "target": "ZBRA",
+      "weight": 15
+    },
+    {
+      "source": "OMCL",
+      "target": "PSN",
+      "weight": 4
+    },
+    {
+      "source": "OMCL",
+      "target": "VRNT",
+      "weight": 3
+    },
+    {
+      "source": "OMCL",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "OMCL",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "OMCL",
+      "target": "SMCI",
+      "weight": 4
+    },
+    {
+      "source": "OMCL",
+      "target": "STRM",
+      "weight": 1
+    },
+    {
+      "source": "OMCL",
+      "target": "SCKT",
+      "weight": 4
+    },
+    {
+      "source": "OSPN",
+      "target": "SMCI",
+      "weight": 11
+    },
+    {
+      "source": "OSPN",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "OSPN",
+      "target": "UIS",
+      "weight": 4
+    },
+    {
+      "source": "OSPN",
+      "target": "STRM",
+      "weight": 3
+    },
+    {
+      "source": "OSPN",
+      "target": "PSN",
+      "weight": 2
+    },
+    {
+      "source": "OSPN",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "OSPN",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "OSPN",
+      "target": "VRNT",
+      "weight": 4
+    },
+    {
+      "source": "OSPN",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "OSPN",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "OSPN",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "PSN",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "PSN",
+      "target": "SMCI",
+      "weight": 5
+    },
+    {
+      "source": "PSN",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "PSN",
+      "target": "STRM",
+      "weight": 3
+    },
+    {
+      "source": "PSN",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "PSN",
+      "target": "PSTG",
+      "weight": 2
+    },
+    {
+      "source": "PSN",
+      "target": "SAIC",
+      "weight": 21
+    },
+    {
+      "source": "PSN",
+      "target": "VRNT",
+      "weight": 1
+    },
+    {
+      "source": "PSN",
+      "target": "SLP",
+      "weight": 3
+    },
+    {
+      "source": "PSN",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "PSTG",
+      "target": "XRX",
+      "weight": 2
+    },
+    {
+      "source": "PSTG",
+      "target": "SAIC",
+      "weight": 52
+    },
+    {
+      "source": "PSTG",
+      "target": "QMCO",
+      "weight": 1
+    },
+    {
+      "source": "PSTG",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "PSTG",
+      "target": "TDC",
+      "weight": 3
+    },
+    {
+      "source": "PSTG",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "PSTG",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "PSTG",
+      "target": "WDC",
+      "weight": 13
+    },
+    {
+      "source": "PSTG",
+      "target": "SMCI",
+      "weight": 16
+    },
+    {
+      "source": "PSTG",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "QMCO",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "QMCO",
+      "target": "SMCI",
+      "weight": 1
+    },
+    {
+      "source": "QMCO",
+      "target": "SCKT",
+      "weight": 1
+    },
+    {
+      "source": "QMCO",
+      "target": "STRM",
+      "weight": 43
+    },
+    {
+      "source": "QUMU",
+      "target": "WYY",
+      "weight": 1
+    },
+    {
+      "source": "QUMU",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "QUMU",
+      "target": "SMCI",
+      "weight": 2
+    },
+    {
+      "source": "QUMU",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "QUMU",
+      "target": "TACT",
+      "weight": 2
+    },
+    {
+      "source": "QUMU",
+      "target": "SLP",
+      "weight": 2
+    },
+    {
+      "source": "QUMU",
+      "target": "SCKT",
+      "weight": 2
+    },
+    {
+      "source": "SAIC",
+      "target": "USAU",
+      "weight": 1
+    },
+    {
+      "source": "SAIC",
+      "target": "XRX",
+      "weight": 4
+    },
+    {
+      "source": "SAIC",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "SAIC",
+      "target": "SLP",
+      "weight": 1
+    },
+    {
+      "source": "SAIC",
+      "target": "VRNT",
+      "weight": 263
+    },
+    {
+      "source": "SAIC",
+      "target": "WYY",
+      "weight": 7
+    },
+    {
+      "source": "SAIC",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "SAIC",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "SAIC",
+      "target": "SMCI",
+      "weight": 4
+    },
+    {
+      "source": "SAIC",
+      "target": "TACT",
+      "weight": 4
+    },
+    {
+      "source": "SCKT",
+      "target": "WDC",
+      "weight": 3
+    },
+    {
+      "source": "SCKT",
+      "target": "WYY",
+      "weight": 12
+    },
+    {
+      "source": "SCKT",
+      "target": "XRX",
+      "weight": 3
+    },
+    {
+      "source": "SCKT",
+      "target": "SLP",
+      "weight": 4
+    },
+    {
+      "source": "SLP",
+      "target": "STRM",
+      "weight": 1
+    },
+    {
+      "source": "SLP",
+      "target": "XRX",
+      "weight": 3
+    },
+    {
+      "source": "SLP",
+      "target": "UI",
+      "weight": 3
+    },
+    {
+      "source": "SLP",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "SLP",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "SLP",
+      "target": "SMCI",
+      "weight": 1
+    },
+    {
+      "source": "SMCI",
+      "target": "WDC",
+      "weight": 46
+    },
+    {
+      "source": "SMCI",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "SMCI",
+      "target": "UI",
+      "weight": 1
+    },
+    {
+      "source": "SMCI",
+      "target": "TACT",
+      "weight": 1
+    },
+    {
+      "source": "SMCI",
+      "target": "TDC",
+      "weight": 10
+    },
+    {
+      "source": "SMCI",
+      "target": "XRX",
+      "weight": 1
+    },
+    {
+      "source": "STRM",
+      "target": "TACT",
+      "weight": 2
+    },
+    {
+      "source": "STRM",
+      "target": "UIS",
+      "weight": 3
+    },
+    {
+      "source": "STRM",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "STRM",
+      "target": "VRNT",
+      "weight": 11
+    },
+    {
+      "source": "TACT",
+      "target": "WYY",
+      "weight": 1
+    },
+    {
+      "source": "TACT",
+      "target": "WEAV",
+      "weight": 3
+    },
+    {
+      "source": "TACT",
+      "target": "WDC",
+      "weight": 1
+    },
+    {
+      "source": "TACT",
+      "target": "XRX",
+      "weight": 4
+    },
+    {
+      "source": "TDC",
+      "target": "ZBRA",
+      "weight": 6
+    },
+    {
+      "source": "TDC",
+      "target": "UIS",
+      "weight": 6
+    },
+    {
+      "source": "TDC",
+      "target": "VRNT",
+      "weight": 3
+    },
+    {
+      "source": "TDC",
+      "target": "UI",
+      "weight": 4
+    },
+    {
+      "source": "TDC",
+      "target": "WDC",
+      "weight": 29
+    },
+    {
+      "source": "UI",
+      "target": "ZBRA",
+      "weight": 3
+    },
+    {
+      "source": "UI",
+      "target": "XRX",
+      "weight": 4
+    },
+    {
+      "source": "UI",
+      "target": "WDC",
+      "weight": 3
+    },
+    {
+      "source": "UI",
+      "target": "UIS",
+      "weight": 1
+    },
+    {
+      "source": "UIS",
+      "target": "WYY",
+      "weight": 4
+    },
+    {
+      "source": "UIS",
+      "target": "WEAV",
+      "weight": 2
+    },
+    {
+      "source": "USAU",
+      "target": "WDC",
+      "weight": 2
+    },
+    {
+      "source": "VRNT",
+      "target": "WDC",
+      "weight": 5
+    },
+    {
+      "source": "WDC",
+      "target": "WEAV",
+      "weight": 1
+    },
+    {
+      "source": "WDC",
+      "target": "XRX",
+      "weight": 4
+    },
+    {
+      "source": "WDC",
+      "target": "WYY",
+      "weight": 4
+    },
+    {
+      "source": "WDC",
+      "target": "ZBRA",
+      "weight": 1
+    },
+    {
+      "source": "WEAV",
+      "target": "ZBRA",
+      "weight": 2
+    },
+    {
+      "source": "XRX",
+      "target": "ZBRA",
+      "weight": 1
+    }
+  ]
+}

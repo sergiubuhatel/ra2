@@ -1,0 +1,271 @@
+{
+  "nodes": [
+    {
+      "id": "DALN",
+      "label": "DALN",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.04059125949797e-28,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "DJCO",
+      "label": "DJCO",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.04059125949797e-28,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "DLX",
+      "label": "DLX",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.04059125949797e-28,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "FSR",
+      "label": "FSR",
+      "industry": "Books",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.08241758241758243,
+      "closeness_centrality": 0.3616071428571429,
+      "eigenvector_centrality": 0.30699054335505505,
+      "harmonic_centrality": 3.95,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 9
+    },
+    {
+      "id": "GCI",
+      "label": "GCI",
+      "industry": "Books",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.1098901098901099,
+      "closeness_centrality": 0.3403361344537815,
+      "eigenvector_centrality": 0.34752169612887884,
+      "harmonic_centrality": 4.616666666666667,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 9
+    },
+    {
+      "id": "LEE",
+      "label": "LEE",
+      "industry": "Books",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.05494505494505495,
+      "closeness_centrality": 0.3403361344537815,
+      "eigenvector_centrality": 0.6301388819772671,
+      "harmonic_centrality": 4.283333333333333,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 14
+    },
+    {
+      "id": "LOAN",
+      "label": "LOAN",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.04059125949797e-28,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "NYT",
+      "label": "NYT",
+      "industry": "Books",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.18131868131868134,
+      "closeness_centrality": 0.3616071428571429,
+      "eigenvector_centrality": 0.6091365585062554,
+      "harmonic_centrality": 4.749999999999999,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 13
+    },
+    {
+      "id": "SCHL",
+      "label": "SCHL",
+      "industry": "Books",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.13186813186813187,
+      "closeness_centrality": 0.30451127819548873,
+      "eigenvector_centrality": 0.05817436802501082,
+      "harmonic_centrality": 4.366666666666667,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "SR",
+      "label": "SR",
+      "industry": "Books",
+      "degree_centrality": 0.07142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.19285714285714287,
+      "eigenvector_centrality": 0.008170810883056493,
+      "harmonic_centrality": 3.4833333333333334,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "SSP",
+      "label": "SSP",
+      "industry": "Books",
+      "degree_centrality": 0.21428571428571427,
+      "betweenness_centrality": 0.13186813186813187,
+      "closeness_centrality": 0.26298701298701305,
+      "eigenvector_centrality": 0.0897495670917639,
+      "harmonic_centrality": 5.033333333333333,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "TZOO",
+      "label": "TZOO",
+      "industry": "Books",
+      "degree_centrality": 0.07142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.19285714285714287,
+      "eigenvector_centrality": 0.0027183066476638255,
+      "harmonic_centrality": 3.016666666666667,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "VALU",
+      "label": "VALU",
+      "industry": "Books",
+      "degree_centrality": 0.21428571428571427,
+      "betweenness_centrality": 0.09340659340659341,
+      "closeness_centrality": 0.26298701298701305,
+      "eigenvector_centrality": 0.029858508978982057,
+      "harmonic_centrality": 3.983333333333334,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 6
+    },
+    {
+      "id": "WLY",
+      "label": "WLY",
+      "industry": "Books",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.30451127819548873,
+      "eigenvector_centrality": 0.06676972168308548,
+      "harmonic_centrality": 2.3833333333333333,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 6
+    },
+    {
+      "id": "WLYB",
+      "label": "WLYB",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.04059125949797e-28,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "FSR",
+      "target": "NYT",
+      "weight": 2
+    },
+    {
+      "source": "FSR",
+      "target": "LEE",
+      "weight": 1
+    },
+    {
+      "source": "FSR",
+      "target": "WLY",
+      "weight": 2
+    },
+    {
+      "source": "FSR",
+      "target": "GCI",
+      "weight": 4
+    },
+    {
+      "source": "GCI",
+      "target": "LEE",
+      "weight": 3
+    },
+    {
+      "source": "GCI",
+      "target": "NYT",
+      "weight": 1
+    },
+    {
+      "source": "GCI",
+      "target": "SSP",
+      "weight": 1
+    },
+    {
+      "source": "LEE",
+      "target": "NYT",
+      "weight": 9
+    },
+    {
+      "source": "LEE",
+      "target": "SSP",
+      "weight": 1
+    },
+    {
+      "source": "NYT",
+      "target": "SCHL",
+      "weight": 1
+    },
+    {
+      "source": "SCHL",
+      "target": "VALU",
+      "weight": 1
+    },
+    {
+      "source": "SR",
+      "target": "SSP",
+      "weight": 1
+    },
+    {
+      "source": "TZOO",
+      "target": "VALU",
+      "weight": 1
+    },
+    {
+      "source": "VALU",
+      "target": "WLY",
+      "weight": 4
+    }
+  ]
+}

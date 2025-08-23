@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "ATRO",
+      "label": "ATRO",
+      "industry": "Boxes",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.8333333333333333,
+      "closeness_centrality": 0.8,
+      "eigenvector_centrality": 0.005027063334946042,
+      "harmonic_centrality": 3.0555555555555554,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "BLL",
+      "label": "BLL",
+      "industry": "Boxes",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6364962189825503,
+      "harmonic_centrality": 2.052631578947368,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 307
+    },
+    {
+      "id": "CCK",
+      "label": "CCK",
+      "industry": "Boxes",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8,
+      "eigenvector_centrality": 0.44568960602466856,
+      "harmonic_centrality": 0.21964224286205708,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 204
+    },
+    {
+      "id": "GEF",
+      "label": "GEF",
+      "industry": "Boxes",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.5,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08668255506741447,
+      "harmonic_centrality": 2.0588235294117645,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 43
+    },
+    {
+      "id": "OI",
+      "label": "OI",
+      "industry": "Boxes",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6234534478080174,
+      "harmonic_centrality": 2.052631578947368,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 307
+    }
+  ],
+  "edges": [
+    {
+      "source": "ATRO",
+      "target": "OI",
+      "weight": 1
+    },
+    {
+      "source": "ATRO",
+      "target": "BLL",
+      "weight": 1
+    },
+    {
+      "source": "ATRO",
+      "target": "GEF",
+      "weight": 1
+    },
+    {
+      "source": "BLL",
+      "target": "CCK",
+      "weight": 102
+    },
+    {
+      "source": "BLL",
+      "target": "OI",
+      "weight": 200
+    },
+    {
+      "source": "BLL",
+      "target": "GEF",
+      "weight": 4
+    },
+    {
+      "source": "CCK",
+      "target": "GEF",
+      "weight": 17
+    },
+    {
+      "source": "CCK",
+      "target": "OI",
+      "weight": 85
+    },
+    {
+      "source": "GEF",
+      "target": "OI",
+      "weight": 21
+    }
+  ]
+}

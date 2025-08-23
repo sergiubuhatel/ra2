@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "ATRO",
+      "label": "ATRO",
+      "industry": "Boxes",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.929902804335723e-163,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "BLL",
+      "label": "BLL",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.16666666666666666,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.6623468002401267,
+      "harmonic_centrality": 0.602113572701808,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 445
+    },
+    {
+      "id": "CCK",
+      "label": "CCK",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.4296708731551632,
+      "harmonic_centrality": 0.18715624000253978,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 277
+    },
+    {
+      "id": "GEF",
+      "label": "GEF",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.13333333333333333,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.12568415066687474,
+      "harmonic_centrality": 0.32713945261899224,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 135
+    },
+    {
+      "id": "OI",
+      "label": "OI",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.5622008314773654,
+      "harmonic_centrality": 0.40780687519817954,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 307
+    },
+    {
+      "id": "PKG",
+      "label": "PKG",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.06666666666666667,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.17579850906084077,
+      "harmonic_centrality": 0.36894257703081235,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 118
+    },
+    {
+      "id": "SON",
+      "label": "SON",
+      "industry": "Boxes",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.16666666666666666,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.11793328852803146,
+      "harmonic_centrality": 0.6195596518177162,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 136
+    }
+  ],
+  "edges": [
+    {
+      "source": "BLL",
+      "target": "CCK",
+      "weight": 150
+    },
+    {
+      "source": "BLL",
+      "target": "GEF",
+      "weight": 11
+    },
+    {
+      "source": "BLL",
+      "target": "OI",
+      "weight": 230
+    },
+    {
+      "source": "BLL",
+      "target": "PKG",
+      "weight": 51
+    },
+    {
+      "source": "BLL",
+      "target": "SON",
+      "weight": 3
+    },
+    {
+      "source": "CCK",
+      "target": "OI",
+      "weight": 37
+    },
+    {
+      "source": "CCK",
+      "target": "SON",
+      "weight": 43
+    },
+    {
+      "source": "CCK",
+      "target": "PKG",
+      "weight": 30
+    },
+    {
+      "source": "CCK",
+      "target": "GEF",
+      "weight": 17
+    },
+    {
+      "source": "GEF",
+      "target": "OI",
+      "weight": 24
+    },
+    {
+      "source": "GEF",
+      "target": "PKG",
+      "weight": 16
+    },
+    {
+      "source": "GEF",
+      "target": "SON",
+      "weight": 67
+    },
+    {
+      "source": "OI",
+      "target": "PKG",
+      "weight": 7
+    },
+    {
+      "source": "OI",
+      "target": "SON",
+      "weight": 9
+    },
+    {
+      "source": "PKG",
+      "target": "SON",
+      "weight": 14
+    }
+  ]
+}

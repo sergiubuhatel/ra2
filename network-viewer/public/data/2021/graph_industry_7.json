@@ -1,0 +1,1580 @@
+{
+  "nodes": [
+    {
+      "id": "ACEL",
+      "label": "ACEL",
+      "industry": "Fun",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.006933806933806934,
+      "closeness_centrality": 0.7363834422657951,
+      "eigenvector_centrality": 0.0010006926516449024,
+      "harmonic_centrality": 11.033333333333335,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 343
+    },
+    {
+      "id": "AMC",
+      "label": "AMC",
+      "industry": "Fun",
+      "degree_centrality": 0.9259259259259258,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9272976680384086,
+      "eigenvector_centrality": 0.6142985580563096,
+      "harmonic_centrality": 6.050000000000002,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 81389
+    },
+    {
+      "id": "BWL",
+      "label": "BWL",
+      "industry": "Fun",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.04791568830030368,
+      "closeness_centrality": 0.5109599395313681,
+      "eigenvector_centrality": 3.451431256836918e-05,
+      "harmonic_centrality": 10.333333333333334,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 4
+    },
+    {
+      "id": "CHDN",
+      "label": "CHDN",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.008285849952516619,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.004809799348430071,
+      "harmonic_centrality": 11.783333333333335,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 1121
+    },
+    {
+      "id": "CNK",
+      "label": "CNK",
+      "industry": "Fun",
+      "degree_centrality": 0.8148148148148148,
+      "betweenness_centrality": 0.06709866581661454,
+      "closeness_centrality": 0.8345679012345679,
+      "eigenvector_centrality": 0.04251641184774821,
+      "harmonic_centrality": 15.000000000000002,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 3839
+    },
+    {
+      "id": "CNTY",
+      "label": "CNTY",
+      "industry": "Fun",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.004273504273504274,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.002219953905195319,
+      "harmonic_centrality": 10.583333333333334,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 655
+    },
+    {
+      "id": "CPHC",
+      "label": "CPHC",
+      "industry": "Fun",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.18189004727466268,
+      "closeness_centrality": 0.6106594399277326,
+      "eigenvector_centrality": 3.367445532332872e-05,
+      "harmonic_centrality": 14.333333333333336,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 31
+    },
+    {
+      "id": "DVD",
+      "label": "DVD",
+      "industry": "Fun",
+      "degree_centrality": 0.4074074074074074,
+      "betweenness_centrality": 0.03260319926986594,
+      "closeness_centrality": 0.6106594399277326,
+      "eigenvector_centrality": 0.0006556965510936355,
+      "harmonic_centrality": 12.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 105
+    },
+    {
+      "id": "EDR",
+      "label": "EDR",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.14721916260377801,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.0026606400665939974,
+      "harmonic_centrality": 15.700000000000001,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 322
+    },
+    {
+      "id": "FUBO",
+      "label": "FUBO",
+      "industry": "Fun",
+      "degree_centrality": 0.8518518518518519,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8633461047254151,
+      "eigenvector_centrality": 0.4685583552737223,
+      "harmonic_centrality": 9.416666666666666,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 47035
+    },
+    {
+      "id": "FXLV",
+      "label": "FXLV",
+      "industry": "Fun",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.057644824311490976,
+      "closeness_centrality": 0.5961199294532628,
+      "eigenvector_centrality": 0.0003922469290997484,
+      "harmonic_centrality": 12.283333333333337,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 251
+    },
+    {
+      "id": "GDEN",
+      "label": "GDEN",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.15429809981092033,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.021968811766552906,
+      "harmonic_centrality": 15.250000000000002,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 2388
+    },
+    {
+      "id": "LTH",
+      "label": "LTH",
+      "industry": "Fun",
+      "degree_centrality": 0.25925925925925924,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5563786008230451,
+      "eigenvector_centrality": 0.00017552039301051164,
+      "harmonic_centrality": 10.033333333333333,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 150
+    },
+    {
+      "id": "MCRI",
+      "label": "MCRI",
+      "industry": "Fun",
+      "degree_centrality": 0.6296296296296295,
+      "betweenness_centrality": 0.040706563142460586,
+      "closeness_centrality": 0.7153439153439153,
+      "eigenvector_centrality": 0.0007033635943233592,
+      "harmonic_centrality": 12.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 293
+    },
+    {
+      "id": "MMAT",
+      "label": "MMAT",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.07208010413138619,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.12847753892688873,
+      "harmonic_centrality": 14.200000000000001,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 11254
+    },
+    {
+      "id": "MSGE",
+      "label": "MSGE",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.024585148944123305,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.0017777066595357834,
+      "harmonic_centrality": 13.5,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 331
+    },
+    {
+      "id": "NFLX",
+      "label": "NFLX",
+      "industry": "Fun",
+      "degree_centrality": 0.8148148148148148,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8345679012345679,
+      "eigenvector_centrality": 0.3733399939282289,
+      "harmonic_centrality": 10.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 37014
+    },
+    {
+      "id": "NLS",
+      "label": "NLS",
+      "industry": "Fun",
+      "degree_centrality": 0.7777777777777777,
+      "betweenness_centrality": 0.02203907203907204,
+      "closeness_centrality": 0.8076463560334528,
+      "eigenvector_centrality": 0.005041955564698834,
+      "harmonic_centrality": 12.083333333333336,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 970
+    },
+    {
+      "id": "OCUP",
+      "label": "OCUP",
+      "industry": "Fun",
+      "degree_centrality": 0.48148148148148145,
+      "betweenness_centrality": 0.08378658378658378,
+      "closeness_centrality": 0.6419753086419753,
+      "eigenvector_centrality": 0.0019810505805355643,
+      "harmonic_centrality": 13.533333333333335,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 196
+    },
+    {
+      "id": "PENN",
+      "label": "PENN",
+      "industry": "Fun",
+      "degree_centrality": 0.8888888888888888,
+      "betweenness_centrality": 0.004985754985754986,
+      "closeness_centrality": 0.8941798941798942,
+      "eigenvector_centrality": 0.48972454827904355,
+      "harmonic_centrality": 8.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 53148
+    },
+    {
+      "id": "PLNT",
+      "label": "PLNT",
+      "industry": "Fun",
+      "degree_centrality": 0.7777777777777777,
+      "betweenness_centrality": 0.019230769230769232,
+      "closeness_centrality": 0.8076463560334528,
+      "eigenvector_centrality": 0.03275988052286186,
+      "harmonic_centrality": 11.950000000000003,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 3663
+    },
+    {
+      "id": "RSI",
+      "label": "RSI",
+      "industry": "Fun",
+      "degree_centrality": 0.8888888888888888,
+      "betweenness_centrality": 0.002849002849002849,
+      "closeness_centrality": 0.8941798941798942,
+      "eigenvector_centrality": 0.02205471516002261,
+      "harmonic_centrality": 9.416666666666666,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 2864
+    },
+    {
+      "id": "SEAS",
+      "label": "SEAS",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.00035612535612535614,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.006744366162826676,
+      "harmonic_centrality": 10.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 899
+    },
+    {
+      "id": "TGNA",
+      "label": "TGNA",
+      "industry": "Fun",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.10779469817931357,
+      "closeness_centrality": 0.7363834422657951,
+      "eigenvector_centrality": 0.009290993543267637,
+      "harmonic_centrality": 15.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 1113
+    },
+    {
+      "id": "TRCH",
+      "label": "TRCH",
+      "industry": "Fun",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 4.034587437446395e-109,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "WWE",
+      "label": "WWE",
+      "industry": "Fun",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.13209530260812313,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.004405616087279239,
+      "harmonic_centrality": 14.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 682
+    },
+    {
+      "id": "WYNN",
+      "label": "WYNN",
+      "industry": "Fun",
+      "degree_centrality": 0.8148148148148148,
+      "betweenness_centrality": 0.0012358012358012359,
+      "closeness_centrality": 0.8345679012345679,
+      "eigenvector_centrality": 0.05744606487760748,
+      "harmonic_centrality": 9.416666666666666,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 7231
+    },
+    {
+      "id": "XPOF",
+      "label": "XPOF",
+      "industry": "Fun",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.09150450688912226,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.0002518514398022156,
+      "harmonic_centrality": 15.2,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 321
+    }
+  ],
+  "edges": [
+    {
+      "source": "ACEL",
+      "target": "GDEN",
+      "weight": 6
+    },
+    {
+      "source": "ACEL",
+      "target": "PENN",
+      "weight": 71
+    },
+    {
+      "source": "ACEL",
+      "target": "CPHC",
+      "weight": 5
+    },
+    {
+      "source": "ACEL",
+      "target": "RSI",
+      "weight": 74
+    },
+    {
+      "source": "ACEL",
+      "target": "AMC",
+      "weight": 7
+    },
+    {
+      "source": "ACEL",
+      "target": "EDR",
+      "weight": 3
+    },
+    {
+      "source": "ACEL",
+      "target": "MCRI",
+      "weight": 3
+    },
+    {
+      "source": "ACEL",
+      "target": "NLS",
+      "weight": 4
+    },
+    {
+      "source": "ACEL",
+      "target": "MSGE",
+      "weight": 9
+    },
+    {
+      "source": "ACEL",
+      "target": "XPOF",
+      "weight": 3
+    },
+    {
+      "source": "ACEL",
+      "target": "CNK",
+      "weight": 2
+    },
+    {
+      "source": "ACEL",
+      "target": "NFLX",
+      "weight": 3
+    },
+    {
+      "source": "ACEL",
+      "target": "CNTY",
+      "weight": 5
+    },
+    {
+      "source": "ACEL",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "ACEL",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "ACEL",
+      "target": "CHDN",
+      "weight": 68
+    },
+    {
+      "source": "ACEL",
+      "target": "WYNN",
+      "weight": 71
+    },
+    {
+      "source": "ACEL",
+      "target": "FUBO",
+      "weight": 7
+    },
+    {
+      "source": "AMC",
+      "target": "WWE",
+      "weight": 180
+    },
+    {
+      "source": "AMC",
+      "target": "PENN",
+      "weight": 23997
+    },
+    {
+      "source": "AMC",
+      "target": "BWL",
+      "weight": 2
+    },
+    {
+      "source": "AMC",
+      "target": "SEAS",
+      "weight": 343
+    },
+    {
+      "source": "AMC",
+      "target": "CNTY",
+      "weight": 21
+    },
+    {
+      "source": "AMC",
+      "target": "CNK",
+      "weight": 3230
+    },
+    {
+      "source": "AMC",
+      "target": "TGNA",
+      "weight": 9
+    },
+    {
+      "source": "AMC",
+      "target": "MSGE",
+      "weight": 58
+    },
+    {
+      "source": "AMC",
+      "target": "DVD",
+      "weight": 41
+    },
+    {
+      "source": "AMC",
+      "target": "FUBO",
+      "weight": 24671
+    },
+    {
+      "source": "AMC",
+      "target": "NLS",
+      "weight": 254
+    },
+    {
+      "source": "AMC",
+      "target": "CHDN",
+      "weight": 22
+    },
+    {
+      "source": "AMC",
+      "target": "GDEN",
+      "weight": 289
+    },
+    {
+      "source": "AMC",
+      "target": "EDR",
+      "weight": 135
+    },
+    {
+      "source": "AMC",
+      "target": "XPOF",
+      "weight": 5
+    },
+    {
+      "source": "AMC",
+      "target": "NFLX",
+      "weight": 15704
+    },
+    {
+      "source": "AMC",
+      "target": "LTH",
+      "weight": 9
+    },
+    {
+      "source": "AMC",
+      "target": "MCRI",
+      "weight": 3
+    },
+    {
+      "source": "AMC",
+      "target": "MMAT",
+      "weight": 8712
+    },
+    {
+      "source": "AMC",
+      "target": "WYNN",
+      "weight": 1142
+    },
+    {
+      "source": "AMC",
+      "target": "RSI",
+      "weight": 409
+    },
+    {
+      "source": "AMC",
+      "target": "PLNT",
+      "weight": 2007
+    },
+    {
+      "source": "AMC",
+      "target": "FXLV",
+      "weight": 12
+    },
+    {
+      "source": "AMC",
+      "target": "OCUP",
+      "weight": 127
+    },
+    {
+      "source": "BWL",
+      "target": "CPHC",
+      "weight": 1
+    },
+    {
+      "source": "BWL",
+      "target": "PENN",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "MMAT",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "WYNN",
+      "weight": 261
+    },
+    {
+      "source": "CHDN",
+      "target": "EDR",
+      "weight": 6
+    },
+    {
+      "source": "CHDN",
+      "target": "CNK",
+      "weight": 58
+    },
+    {
+      "source": "CHDN",
+      "target": "NLS",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "RSI",
+      "weight": 145
+    },
+    {
+      "source": "CHDN",
+      "target": "DVD",
+      "weight": 2
+    },
+    {
+      "source": "CHDN",
+      "target": "PLNT",
+      "weight": 30
+    },
+    {
+      "source": "CHDN",
+      "target": "NFLX",
+      "weight": 11
+    },
+    {
+      "source": "CHDN",
+      "target": "GDEN",
+      "weight": 16
+    },
+    {
+      "source": "CHDN",
+      "target": "MCRI",
+      "weight": 29
+    },
+    {
+      "source": "CHDN",
+      "target": "CNTY",
+      "weight": 45
+    },
+    {
+      "source": "CHDN",
+      "target": "MSGE",
+      "weight": 7
+    },
+    {
+      "source": "CHDN",
+      "target": "FUBO",
+      "weight": 16
+    },
+    {
+      "source": "CHDN",
+      "target": "WWE",
+      "weight": 4
+    },
+    {
+      "source": "CHDN",
+      "target": "PENN",
+      "weight": 392
+    },
+    {
+      "source": "CHDN",
+      "target": "CPHC",
+      "weight": 6
+    },
+    {
+      "source": "CHDN",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "RSI",
+      "weight": 6
+    },
+    {
+      "source": "CNK",
+      "target": "CNTY",
+      "weight": 84
+    },
+    {
+      "source": "CNK",
+      "target": "PLNT",
+      "weight": 10
+    },
+    {
+      "source": "CNK",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "WYNN",
+      "weight": 19
+    },
+    {
+      "source": "CNK",
+      "target": "MSGE",
+      "weight": 17
+    },
+    {
+      "source": "CNK",
+      "target": "OCUP",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "EDR",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "FUBO",
+      "weight": 114
+    },
+    {
+      "source": "CNK",
+      "target": "GDEN",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "MMAT",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "NFLX",
+      "weight": 173
+    },
+    {
+      "source": "CNK",
+      "target": "TGNA",
+      "weight": 8
+    },
+    {
+      "source": "CNK",
+      "target": "SEAS",
+      "weight": 70
+    },
+    {
+      "source": "CNK",
+      "target": "PENN",
+      "weight": 24
+    },
+    {
+      "source": "CNK",
+      "target": "DVD",
+      "weight": 2
+    },
+    {
+      "source": "CNK",
+      "target": "NLS",
+      "weight": 2
+    },
+    {
+      "source": "CNK",
+      "target": "WWE",
+      "weight": 14
+    },
+    {
+      "source": "CNK",
+      "target": "MCRI",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "MMAT",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "PENN",
+      "weight": 126
+    },
+    {
+      "source": "CNTY",
+      "target": "MCRI",
+      "weight": 84
+    },
+    {
+      "source": "CNTY",
+      "target": "RSI",
+      "weight": 43
+    },
+    {
+      "source": "CNTY",
+      "target": "MSGE",
+      "weight": 2
+    },
+    {
+      "source": "CNTY",
+      "target": "GDEN",
+      "weight": 31
+    },
+    {
+      "source": "CNTY",
+      "target": "OCUP",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "FUBO",
+      "weight": 31
+    },
+    {
+      "source": "CNTY",
+      "target": "NFLX",
+      "weight": 24
+    },
+    {
+      "source": "CNTY",
+      "target": "SEAS",
+      "weight": 14
+    },
+    {
+      "source": "CNTY",
+      "target": "TGNA",
+      "weight": 31
+    },
+    {
+      "source": "CNTY",
+      "target": "WYNN",
+      "weight": 112
+    },
+    {
+      "source": "CPHC",
+      "target": "RSI",
+      "weight": 6
+    },
+    {
+      "source": "CPHC",
+      "target": "NLS",
+      "weight": 5
+    },
+    {
+      "source": "CPHC",
+      "target": "PENN",
+      "weight": 2
+    },
+    {
+      "source": "CPHC",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "FUBO",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "GDEN",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "MCRI",
+      "weight": 2
+    },
+    {
+      "source": "DVD",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "NFLX",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "MMAT",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "RSI",
+      "weight": 2
+    },
+    {
+      "source": "DVD",
+      "target": "FUBO",
+      "weight": 14
+    },
+    {
+      "source": "DVD",
+      "target": "EDR",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "SEAS",
+      "weight": 37
+    },
+    {
+      "source": "DVD",
+      "target": "OCUP",
+      "weight": 3
+    },
+    {
+      "source": "EDR",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "EDR",
+      "target": "NFLX",
+      "weight": 18
+    },
+    {
+      "source": "EDR",
+      "target": "MMAT",
+      "weight": 11
+    },
+    {
+      "source": "EDR",
+      "target": "WYNN",
+      "weight": 6
+    },
+    {
+      "source": "EDR",
+      "target": "FUBO",
+      "weight": 29
+    },
+    {
+      "source": "EDR",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "EDR",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "EDR",
+      "target": "NLS",
+      "weight": 7
+    },
+    {
+      "source": "EDR",
+      "target": "RSI",
+      "weight": 11
+    },
+    {
+      "source": "EDR",
+      "target": "MSGE",
+      "weight": 14
+    },
+    {
+      "source": "EDR",
+      "target": "PENN",
+      "weight": 55
+    },
+    {
+      "source": "EDR",
+      "target": "WWE",
+      "weight": 19
+    },
+    {
+      "source": "EDR",
+      "target": "FXLV",
+      "weight": 1
+    },
+    {
+      "source": "EDR",
+      "target": "GDEN",
+      "weight": 1
+    },
+    {
+      "source": "EDR",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "FUBO",
+      "target": "MMAT",
+      "weight": 1767
+    },
+    {
+      "source": "FUBO",
+      "target": "SEAS",
+      "weight": 83
+    },
+    {
+      "source": "FUBO",
+      "target": "NLS",
+      "weight": 143
+    },
+    {
+      "source": "FUBO",
+      "target": "TGNA",
+      "weight": 939
+    },
+    {
+      "source": "FUBO",
+      "target": "WWE",
+      "weight": 51
+    },
+    {
+      "source": "FUBO",
+      "target": "WYNN",
+      "weight": 852
+    },
+    {
+      "source": "FUBO",
+      "target": "RSI",
+      "weight": 282
+    },
+    {
+      "source": "FUBO",
+      "target": "PLNT",
+      "weight": 325
+    },
+    {
+      "source": "FUBO",
+      "target": "OCUP",
+      "weight": 10
+    },
+    {
+      "source": "FUBO",
+      "target": "GDEN",
+      "weight": 5
+    },
+    {
+      "source": "FUBO",
+      "target": "PENN",
+      "weight": 10912
+    },
+    {
+      "source": "FUBO",
+      "target": "MCRI",
+      "weight": 3
+    },
+    {
+      "source": "FUBO",
+      "target": "MSGE",
+      "weight": 20
+    },
+    {
+      "source": "FUBO",
+      "target": "FXLV",
+      "weight": 9
+    },
+    {
+      "source": "FUBO",
+      "target": "NFLX",
+      "weight": 6751
+    },
+    {
+      "source": "FXLV",
+      "target": "GDEN",
+      "weight": 1
+    },
+    {
+      "source": "FXLV",
+      "target": "NFLX",
+      "weight": 6
+    },
+    {
+      "source": "FXLV",
+      "target": "NLS",
+      "weight": 92
+    },
+    {
+      "source": "FXLV",
+      "target": "PENN",
+      "weight": 2
+    },
+    {
+      "source": "FXLV",
+      "target": "PLNT",
+      "weight": 125
+    },
+    {
+      "source": "FXLV",
+      "target": "RSI",
+      "weight": 1
+    },
+    {
+      "source": "FXLV",
+      "target": "WYNN",
+      "weight": 2
+    },
+    {
+      "source": "GDEN",
+      "target": "OCUP",
+      "weight": 2
+    },
+    {
+      "source": "GDEN",
+      "target": "LTH",
+      "weight": 1
+    },
+    {
+      "source": "GDEN",
+      "target": "NFLX",
+      "weight": 30
+    },
+    {
+      "source": "GDEN",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "GDEN",
+      "target": "MSGE",
+      "weight": 1
+    },
+    {
+      "source": "GDEN",
+      "target": "MCRI",
+      "weight": 17
+    },
+    {
+      "source": "GDEN",
+      "target": "PENN",
+      "weight": 1800
+    },
+    {
+      "source": "GDEN",
+      "target": "RSI",
+      "weight": 7
+    },
+    {
+      "source": "GDEN",
+      "target": "WYNN",
+      "weight": 16
+    },
+    {
+      "source": "GDEN",
+      "target": "SEAS",
+      "weight": 8
+    },
+    {
+      "source": "GDEN",
+      "target": "MMAT",
+      "weight": 154
+    },
+    {
+      "source": "LTH",
+      "target": "MMAT",
+      "weight": 2
+    },
+    {
+      "source": "LTH",
+      "target": "NLS",
+      "weight": 53
+    },
+    {
+      "source": "LTH",
+      "target": "PLNT",
+      "weight": 78
+    },
+    {
+      "source": "LTH",
+      "target": "RSI",
+      "weight": 4
+    },
+    {
+      "source": "LTH",
+      "target": "SEAS",
+      "weight": 3
+    },
+    {
+      "source": "MCRI",
+      "target": "PENN",
+      "weight": 56
+    },
+    {
+      "source": "MCRI",
+      "target": "RSI",
+      "weight": 3
+    },
+    {
+      "source": "MCRI",
+      "target": "NLS",
+      "weight": 1
+    },
+    {
+      "source": "MCRI",
+      "target": "WYNN",
+      "weight": 51
+    },
+    {
+      "source": "MCRI",
+      "target": "SEAS",
+      "weight": 22
+    },
+    {
+      "source": "MCRI",
+      "target": "WWE",
+      "weight": 3
+    },
+    {
+      "source": "MCRI",
+      "target": "MSGE",
+      "weight": 1
+    },
+    {
+      "source": "MCRI",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "MCRI",
+      "target": "PLNT",
+      "weight": 13
+    },
+    {
+      "source": "MMAT",
+      "target": "OCUP",
+      "weight": 12
+    },
+    {
+      "source": "MMAT",
+      "target": "RSI",
+      "weight": 36
+    },
+    {
+      "source": "MMAT",
+      "target": "NFLX",
+      "weight": 284
+    },
+    {
+      "source": "MMAT",
+      "target": "WWE",
+      "weight": 6
+    },
+    {
+      "source": "MMAT",
+      "target": "NLS",
+      "weight": 15
+    },
+    {
+      "source": "MMAT",
+      "target": "WYNN",
+      "weight": 20
+    },
+    {
+      "source": "MMAT",
+      "target": "PENN",
+      "weight": 214
+    },
+    {
+      "source": "MMAT",
+      "target": "PLNT",
+      "weight": 12
+    },
+    {
+      "source": "MMAT",
+      "target": "MSGE",
+      "weight": 1
+    },
+    {
+      "source": "MMAT",
+      "target": "SEAS",
+      "weight": 3
+    },
+    {
+      "source": "MMAT",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "MSGE",
+      "target": "WWE",
+      "weight": 27
+    },
+    {
+      "source": "MSGE",
+      "target": "PLNT",
+      "weight": 29
+    },
+    {
+      "source": "MSGE",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "MSGE",
+      "target": "NFLX",
+      "weight": 81
+    },
+    {
+      "source": "MSGE",
+      "target": "SEAS",
+      "weight": 12
+    },
+    {
+      "source": "MSGE",
+      "target": "NLS",
+      "weight": 4
+    },
+    {
+      "source": "MSGE",
+      "target": "RSI",
+      "weight": 15
+    },
+    {
+      "source": "MSGE",
+      "target": "PENN",
+      "weight": 21
+    },
+    {
+      "source": "MSGE",
+      "target": "OCUP",
+      "weight": 2
+    },
+    {
+      "source": "MSGE",
+      "target": "WYNN",
+      "weight": 9
+    },
+    {
+      "source": "NFLX",
+      "target": "PENN",
+      "weight": 11482
+    },
+    {
+      "source": "NFLX",
+      "target": "OCUP",
+      "weight": 25
+    },
+    {
+      "source": "NFLX",
+      "target": "RSI",
+      "weight": 50
+    },
+    {
+      "source": "NFLX",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "NFLX",
+      "target": "WYNN",
+      "weight": 1606
+    },
+    {
+      "source": "NFLX",
+      "target": "SEAS",
+      "weight": 122
+    },
+    {
+      "source": "NFLX",
+      "target": "WWE",
+      "weight": 169
+    },
+    {
+      "source": "NFLX",
+      "target": "PLNT",
+      "weight": 425
+    },
+    {
+      "source": "NFLX",
+      "target": "TGNA",
+      "weight": 33
+    },
+    {
+      "source": "NFLX",
+      "target": "NLS",
+      "weight": 15
+    },
+    {
+      "source": "NLS",
+      "target": "PENN",
+      "weight": 23
+    },
+    {
+      "source": "NLS",
+      "target": "RSI",
+      "weight": 2
+    },
+    {
+      "source": "NLS",
+      "target": "PLNT",
+      "weight": 204
+    },
+    {
+      "source": "NLS",
+      "target": "TGNA",
+      "weight": 2
+    },
+    {
+      "source": "NLS",
+      "target": "WYNN",
+      "weight": 39
+    },
+    {
+      "source": "NLS",
+      "target": "SEAS",
+      "weight": 2
+    },
+    {
+      "source": "NLS",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "NLS",
+      "target": "XPOF",
+      "weight": 101
+    },
+    {
+      "source": "OCUP",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "OCUP",
+      "target": "PENN",
+      "weight": 10
+    },
+    {
+      "source": "OCUP",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "OCUP",
+      "target": "WYNN",
+      "weight": 1
+    },
+    {
+      "source": "PENN",
+      "target": "WYNN",
+      "weight": 2334
+    },
+    {
+      "source": "PENN",
+      "target": "XPOF",
+      "weight": 3
+    },
+    {
+      "source": "PENN",
+      "target": "RSI",
+      "weight": 1368
+    },
+    {
+      "source": "PENN",
+      "target": "WWE",
+      "weight": 22
+    },
+    {
+      "source": "PENN",
+      "target": "SEAS",
+      "weight": 68
+    },
+    {
+      "source": "PENN",
+      "target": "TGNA",
+      "weight": 2
+    },
+    {
+      "source": "PENN",
+      "target": "PLNT",
+      "weight": 163
+    },
+    {
+      "source": "PLNT",
+      "target": "RSI",
+      "weight": 3
+    },
+    {
+      "source": "PLNT",
+      "target": "WWE",
+      "weight": 4
+    },
+    {
+      "source": "PLNT",
+      "target": "TGNA",
+      "weight": 3
+    },
+    {
+      "source": "PLNT",
+      "target": "SEAS",
+      "weight": 16
+    },
+    {
+      "source": "PLNT",
+      "target": "WYNN",
+      "weight": 66
+    },
+    {
+      "source": "PLNT",
+      "target": "XPOF",
+      "weight": 147
+    },
+    {
+      "source": "RSI",
+      "target": "TGNA",
+      "weight": 23
+    },
+    {
+      "source": "RSI",
+      "target": "SEAS",
+      "weight": 20
+    },
+    {
+      "source": "RSI",
+      "target": "WWE",
+      "weight": 4
+    },
+    {
+      "source": "RSI",
+      "target": "XPOF",
+      "weight": 9
+    },
+    {
+      "source": "RSI",
+      "target": "WYNN",
+      "weight": 341
+    },
+    {
+      "source": "SEAS",
+      "target": "XPOF",
+      "weight": 8
+    },
+    {
+      "source": "SEAS",
+      "target": "WYNN",
+      "weight": 45
+    },
+    {
+      "source": "SEAS",
+      "target": "WWE",
+      "weight": 13
+    },
+    {
+      "source": "SEAS",
+      "target": "TGNA",
+      "weight": 9
+    },
+    {
+      "source": "TGNA",
+      "target": "WYNN",
+      "weight": 44
+    },
+    {
+      "source": "TGNA",
+      "target": "XPOF",
+      "weight": 4
+    },
+    {
+      "source": "TGNA",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "WWE",
+      "target": "WYNN",
+      "weight": 160
+    },
+    {
+      "source": "WWE",
+      "target": "XPOF",
+      "weight": 1
+    },
+    {
+      "source": "WYNN",
+      "target": "XPOF",
+      "weight": 34
+    }
+  ]
+}

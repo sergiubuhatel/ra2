@@ -1,0 +1,364 @@
+{
+  "nodes": [
+    {
+      "id": "AWX",
+      "label": "AWX",
+      "industry": "Other",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.2555555555555556,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.024271984985709594,
+      "harmonic_centrality": 2.6,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 38
+    },
+    {
+      "id": "CHRA",
+      "label": "CHRA",
+      "industry": "Other",
+      "degree_centrality": 0.4,
+      "betweenness_centrality": 0.4,
+      "closeness_centrality": 0.625,
+      "eigenvector_centrality": 0.005691196469958982,
+      "harmonic_centrality": 3.662301587301587,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 7
+    },
+    {
+      "id": "CLH",
+      "label": "CLH",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.26469003199706365,
+      "harmonic_centrality": 1.3361111111111112,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 229
+    },
+    {
+      "id": "CVA",
+      "label": "CVA",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.18308922663391342,
+      "harmonic_centrality": 2.2004329004329004,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 192
+    },
+    {
+      "id": "CWST",
+      "label": "CWST",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.14598667128914275,
+      "harmonic_centrality": 2.3150793650793653,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 151
+    },
+    {
+      "id": "ECOL",
+      "label": "ECOL",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.06541755744190651,
+      "harmonic_centrality": 1.8329365079365079,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 101
+    },
+    {
+      "id": "HCCI",
+      "label": "HCCI",
+      "industry": "Other",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.026230908678324054,
+      "harmonic_centrality": 1.6623015873015874,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 51
+    },
+    {
+      "id": "PESI",
+      "label": "PESI",
+      "industry": "Other",
+      "degree_centrality": 0.4,
+      "betweenness_centrality": 0.11111111111111112,
+      "closeness_centrality": 0.625,
+      "eigenvector_centrality": 0.0066148826345361665,
+      "harmonic_centrality": 3.0916666666666672,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 16
+    },
+    {
+      "id": "RSG",
+      "label": "RSG",
+      "industry": "Other",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.6465679381537742,
+      "harmonic_centrality": 1.2587662337662338,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 489
+    },
+    {
+      "id": "SRCL",
+      "label": "SRCL",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.022222222222222223,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.1217267893477199,
+      "harmonic_centrality": 2.994444444444445,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 128
+    },
+    {
+      "id": "WM",
+      "label": "WM",
+      "industry": "Other",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.45555555555555555,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.6607610089345066,
+      "harmonic_centrality": 3.6428571428571423,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 508
+    }
+  ],
+  "edges": [
+    {
+      "source": "AWX",
+      "target": "CWST",
+      "weight": 4
+    },
+    {
+      "source": "AWX",
+      "target": "RSG",
+      "weight": 5
+    },
+    {
+      "source": "AWX",
+      "target": "HCCI",
+      "weight": 4
+    },
+    {
+      "source": "AWX",
+      "target": "CVA",
+      "weight": 7
+    },
+    {
+      "source": "AWX",
+      "target": "ECOL",
+      "weight": 4
+    },
+    {
+      "source": "AWX",
+      "target": "SRCL",
+      "weight": 7
+    },
+    {
+      "source": "AWX",
+      "target": "WM",
+      "weight": 2
+    },
+    {
+      "source": "AWX",
+      "target": "CLH",
+      "weight": 5
+    },
+    {
+      "source": "CHRA",
+      "target": "CVA",
+      "weight": 2
+    },
+    {
+      "source": "CHRA",
+      "target": "CWST",
+      "weight": 2
+    },
+    {
+      "source": "CHRA",
+      "target": "SRCL",
+      "weight": 1
+    },
+    {
+      "source": "CHRA",
+      "target": "WM",
+      "weight": 2
+    },
+    {
+      "source": "CLH",
+      "target": "SRCL",
+      "weight": 10
+    },
+    {
+      "source": "CLH",
+      "target": "WM",
+      "weight": 81
+    },
+    {
+      "source": "CLH",
+      "target": "CWST",
+      "weight": 13
+    },
+    {
+      "source": "CLH",
+      "target": "PESI",
+      "weight": 5
+    },
+    {
+      "source": "CLH",
+      "target": "CVA",
+      "weight": 45
+    },
+    {
+      "source": "CLH",
+      "target": "RSG",
+      "weight": 49
+    },
+    {
+      "source": "CLH",
+      "target": "ECOL",
+      "weight": 12
+    },
+    {
+      "source": "CLH",
+      "target": "HCCI",
+      "weight": 9
+    },
+    {
+      "source": "CVA",
+      "target": "ECOL",
+      "weight": 15
+    },
+    {
+      "source": "CVA",
+      "target": "HCCI",
+      "weight": 6
+    },
+    {
+      "source": "CVA",
+      "target": "CWST",
+      "weight": 24
+    },
+    {
+      "source": "CVA",
+      "target": "SRCL",
+      "weight": 19
+    },
+    {
+      "source": "CVA",
+      "target": "WM",
+      "weight": 50
+    },
+    {
+      "source": "CVA",
+      "target": "RSG",
+      "weight": 24
+    },
+    {
+      "source": "CWST",
+      "target": "RSG",
+      "weight": 33
+    },
+    {
+      "source": "CWST",
+      "target": "SRCL",
+      "weight": 16
+    },
+    {
+      "source": "CWST",
+      "target": "ECOL",
+      "weight": 21
+    },
+    {
+      "source": "CWST",
+      "target": "HCCI",
+      "weight": 6
+    },
+    {
+      "source": "CWST",
+      "target": "WM",
+      "weight": 32
+    },
+    {
+      "source": "ECOL",
+      "target": "PESI",
+      "weight": 5
+    },
+    {
+      "source": "ECOL",
+      "target": "HCCI",
+      "weight": 9
+    },
+    {
+      "source": "ECOL",
+      "target": "RSG",
+      "weight": 17
+    },
+    {
+      "source": "ECOL",
+      "target": "WM",
+      "weight": 3
+    },
+    {
+      "source": "ECOL",
+      "target": "SRCL",
+      "weight": 15
+    },
+    {
+      "source": "HCCI",
+      "target": "PESI",
+      "weight": 5
+    },
+    {
+      "source": "HCCI",
+      "target": "SRCL",
+      "weight": 6
+    },
+    {
+      "source": "HCCI",
+      "target": "RSG",
+      "weight": 6
+    },
+    {
+      "source": "PESI",
+      "target": "WM",
+      "weight": 1
+    },
+    {
+      "source": "RSG",
+      "target": "WM",
+      "weight": 319
+    },
+    {
+      "source": "RSG",
+      "target": "SRCL",
+      "weight": 36
+    },
+    {
+      "source": "SRCL",
+      "target": "WM",
+      "weight": 18
+    }
+  ]
+}

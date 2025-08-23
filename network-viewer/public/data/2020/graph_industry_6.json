@@ -1,0 +1,686 @@
+{
+  "nodes": [
+    {
+      "id": "AGS",
+      "label": "AGS",
+      "industry": "Toys",
+      "degree_centrality": 0.42105263157894735,
+      "betweenness_centrality": 0.09675899149583359,
+      "closeness_centrality": 0.6129032258064516,
+      "eigenvector_centrality": 0.004704757135677802,
+      "harmonic_centrality": 11.166666666666666,
+      "eccentricity": 3,
+      "degree": 8,
+      "weighted_degree": 15
+    },
+    {
+      "id": "ARLO",
+      "label": "ARLO",
+      "industry": "Toys",
+      "degree_centrality": 0.7368421052631579,
+      "betweenness_centrality": 0.14209026840605785,
+      "closeness_centrality": 0.76,
+      "eigenvector_centrality": 0.014029292099912353,
+      "harmonic_centrality": 11.833333333333332,
+      "eccentricity": 3,
+      "degree": 14,
+      "weighted_degree": 65
+    },
+    {
+      "id": "DLB",
+      "label": "DLB",
+      "industry": "Toys",
+      "degree_centrality": 0.47368421052631576,
+      "betweenness_centrality": 0.1605991474412527,
+      "closeness_centrality": 0.59375,
+      "eigenvector_centrality": 0.010461327913024548,
+      "harmonic_centrality": 11.666666666666666,
+      "eccentricity": 4,
+      "degree": 9,
+      "weighted_degree": 19
+    },
+    {
+      "id": "ELY",
+      "label": "ELY",
+      "industry": "Toys",
+      "degree_centrality": 0.7368421052631579,
+      "betweenness_centrality": 0.08084420452841504,
+      "closeness_centrality": 0.76,
+      "eigenvector_centrality": 0.06878198535860108,
+      "harmonic_centrality": 11.0,
+      "eccentricity": 3,
+      "degree": 14,
+      "weighted_degree": 251
+    },
+    {
+      "id": "ESCA",
+      "label": "ESCA",
+      "industry": "Toys",
+      "degree_centrality": 0.3157894736842105,
+      "betweenness_centrality": 0.01931216931216931,
+      "closeness_centrality": 0.5428571428571428,
+      "eigenvector_centrality": 0.0038001253787890822,
+      "harmonic_centrality": 10.333333333333334,
+      "eccentricity": 4,
+      "degree": 6,
+      "weighted_degree": 46
+    },
+    {
+      "id": "FSI",
+      "label": "FSI",
+      "industry": "Toys",
+      "degree_centrality": 0.2631578947368421,
+      "betweenness_centrality": 0.12411048989996358,
+      "closeness_centrality": 0.5135135135135135,
+      "eigenvector_centrality": 0.029302836664054168,
+      "harmonic_centrality": 9.0,
+      "eccentricity": 3,
+      "degree": 5,
+      "weighted_degree": 147
+    },
+    {
+      "id": "GNSS",
+      "label": "GNSS",
+      "industry": "Toys",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.59375,
+      "eigenvector_centrality": 0.0066423289734136295,
+      "harmonic_centrality": 8.833333333333332,
+      "eccentricity": 3,
+      "degree": 7,
+      "weighted_degree": 98
+    },
+    {
+      "id": "GOLF",
+      "label": "GOLF",
+      "industry": "Toys",
+      "degree_centrality": 0.42105263157894735,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5757575757575758,
+      "eigenvector_centrality": 0.029689343355376603,
+      "harmonic_centrality": 8.5,
+      "eccentricity": 4,
+      "degree": 8,
+      "weighted_degree": 126
+    },
+    {
+      "id": "HAS",
+      "label": "HAS",
+      "industry": "Toys",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.0009746588693957114,
+      "closeness_centrality": 0.6785714285714286,
+      "eigenvector_centrality": 0.6887270970080451,
+      "harmonic_centrality": 7.983333333333333,
+      "eccentricity": 3,
+      "degree": 11,
+      "weighted_degree": 790
+    },
+    {
+      "id": "JAKK",
+      "label": "JAKK",
+      "industry": "Toys",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.0043859649122807015,
+      "closeness_centrality": 0.6785714285714286,
+      "eigenvector_centrality": 0.10302495652852861,
+      "harmonic_centrality": 9.333333333333334,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 246
+    },
+    {
+      "id": "JOUT",
+      "label": "JOUT",
+      "industry": "Toys",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.009022556390977444,
+      "closeness_centrality": 0.6785714285714286,
+      "eigenvector_centrality": 0.016801371743274094,
+      "harmonic_centrality": 8.583333333333332,
+      "eccentricity": 3,
+      "degree": 11,
+      "weighted_degree": 70
+    },
+    {
+      "id": "KBAL",
+      "label": "KBAL",
+      "industry": "Toys",
+      "degree_centrality": 0.2631578947368421,
+      "betweenness_centrality": 0.0014619883040935672,
+      "closeness_centrality": 0.5277777777777778,
+      "eigenvector_centrality": 0.005264936475008613,
+      "harmonic_centrality": 8.316666666666666,
+      "eccentricity": 4,
+      "degree": 5,
+      "weighted_degree": 13
+    },
+    {
+      "id": "KOSS",
+      "label": "KOSS",
+      "industry": "Toys",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.06488175567122935,
+      "closeness_centrality": 0.6129032258064516,
+      "eigenvector_centrality": 0.0020141662176453873,
+      "harmonic_centrality": 9.333333333333336,
+      "eccentricity": 2,
+      "degree": 7,
+      "weighted_degree": 46
+    },
+    {
+      "id": "MAT",
+      "label": "MAT",
+      "industry": "Toys",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.06255649808281387,
+      "closeness_centrality": 0.6551724137931034,
+      "eigenvector_centrality": 0.47857979608688334,
+      "harmonic_centrality": 10.666666666666668,
+      "eccentricity": 3,
+      "degree": 10,
+      "weighted_degree": 409
+    },
+    {
+      "id": "MJCO",
+      "label": "MJCO",
+      "industry": "Toys",
+      "degree_centrality": 0.05263157894736842,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.34545454545454546,
+      "eigenvector_centrality": 5.899358630108217e-05,
+      "harmonic_centrality": 6.316666666666667,
+      "eccentricity": 4,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "MPX",
+      "label": "MPX",
+      "industry": "Toys",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.2116450313818734,
+      "closeness_centrality": 0.6551724137931034,
+      "eigenvector_centrality": 0.08811728476553769,
+      "harmonic_centrality": 12.166666666666666,
+      "eccentricity": 3,
+      "degree": 10,
+      "weighted_degree": 74
+    },
+    {
+      "id": "MSN",
+      "label": "MSN",
+      "industry": "Toys",
+      "degree_centrality": 0.3157894736842105,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.59375,
+      "eigenvector_centrality": 0.005219099261564448,
+      "harmonic_centrality": 7.416666666666666,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 40
+    },
+    {
+      "id": "SLGG",
+      "label": "SLGG",
+      "industry": "Toys",
+      "degree_centrality": 0.47368421052631576,
+      "betweenness_centrality": 0.20455947561210716,
+      "closeness_centrality": 0.6551724137931034,
+      "eigenvector_centrality": 0.010832711490953781,
+      "harmonic_centrality": 10.75,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 22
+    },
+    {
+      "id": "UEIC",
+      "label": "UEIC",
+      "industry": "Toys",
+      "degree_centrality": 0.3157894736842105,
+      "betweenness_centrality": 0.17979939164149686,
+      "closeness_centrality": 0.5757575757575758,
+      "eigenvector_centrality": 0.00036281345513194393,
+      "harmonic_centrality": 11.2,
+      "eccentricity": 3,
+      "degree": 6,
+      "weighted_degree": 17
+    },
+    {
+      "id": "YETI",
+      "label": "YETI",
+      "industry": "Toys",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6785714285714286,
+      "eigenvector_centrality": 0.5205004815734938,
+      "harmonic_centrality": 5.1000000000000005,
+      "eccentricity": 3,
+      "degree": 11,
+      "weighted_degree": 453
+    }
+  ],
+  "edges": [
+    {
+      "source": "AGS",
+      "target": "ELY",
+      "weight": 1
+    },
+    {
+      "source": "AGS",
+      "target": "ARLO",
+      "weight": 5
+    },
+    {
+      "source": "AGS",
+      "target": "SLGG",
+      "weight": 1
+    },
+    {
+      "source": "AGS",
+      "target": "YETI",
+      "weight": 3
+    },
+    {
+      "source": "AGS",
+      "target": "JOUT",
+      "weight": 2
+    },
+    {
+      "source": "AGS",
+      "target": "DLB",
+      "weight": 1
+    },
+    {
+      "source": "AGS",
+      "target": "MAT",
+      "weight": 1
+    },
+    {
+      "source": "AGS",
+      "target": "JAKK",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "JAKK",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "MSN",
+      "weight": 4
+    },
+    {
+      "source": "ARLO",
+      "target": "HAS",
+      "weight": 2
+    },
+    {
+      "source": "ARLO",
+      "target": "KBAL",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "ESCA",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "ELY",
+      "weight": 7
+    },
+    {
+      "source": "ARLO",
+      "target": "SLGG",
+      "weight": 4
+    },
+    {
+      "source": "ARLO",
+      "target": "YETI",
+      "weight": 8
+    },
+    {
+      "source": "ARLO",
+      "target": "KOSS",
+      "weight": 3
+    },
+    {
+      "source": "ARLO",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "GNSS",
+      "weight": 26
+    },
+    {
+      "source": "ARLO",
+      "target": "MAT",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "HAS",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "ESCA",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "GNSS",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "JOUT",
+      "weight": 2
+    },
+    {
+      "source": "DLB",
+      "target": "YETI",
+      "weight": 8
+    },
+    {
+      "source": "DLB",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "DLB",
+      "target": "ELY",
+      "weight": 3
+    },
+    {
+      "source": "ELY",
+      "target": "MAT",
+      "weight": 8
+    },
+    {
+      "source": "ELY",
+      "target": "KBAL",
+      "weight": 1
+    },
+    {
+      "source": "ELY",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "ELY",
+      "target": "JAKK",
+      "weight": 1
+    },
+    {
+      "source": "ELY",
+      "target": "HAS",
+      "weight": 17
+    },
+    {
+      "source": "ELY",
+      "target": "GNSS",
+      "weight": 40
+    },
+    {
+      "source": "ELY",
+      "target": "GOLF",
+      "weight": 102
+    },
+    {
+      "source": "ELY",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "ELY",
+      "target": "YETI",
+      "weight": 28
+    },
+    {
+      "source": "ELY",
+      "target": "JOUT",
+      "weight": 21
+    },
+    {
+      "source": "ELY",
+      "target": "ESCA",
+      "weight": 20
+    },
+    {
+      "source": "ESCA",
+      "target": "GOLF",
+      "weight": 1
+    },
+    {
+      "source": "ESCA",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "ESCA",
+      "target": "JOUT",
+      "weight": 22
+    },
+    {
+      "source": "FSI",
+      "target": "JAKK",
+      "weight": 141
+    },
+    {
+      "source": "FSI",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "FSI",
+      "target": "MJCO",
+      "weight": 1
+    },
+    {
+      "source": "FSI",
+      "target": "MSN",
+      "weight": 3
+    },
+    {
+      "source": "FSI",
+      "target": "SLGG",
+      "weight": 1
+    },
+    {
+      "source": "GNSS",
+      "target": "SLGG",
+      "weight": 5
+    },
+    {
+      "source": "GNSS",
+      "target": "KOSS",
+      "weight": 13
+    },
+    {
+      "source": "GNSS",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "GNSS",
+      "target": "UEIC",
+      "weight": 12
+    },
+    {
+      "source": "GOLF",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "GOLF",
+      "target": "YETI",
+      "weight": 10
+    },
+    {
+      "source": "GOLF",
+      "target": "HAS",
+      "weight": 2
+    },
+    {
+      "source": "GOLF",
+      "target": "KBAL",
+      "weight": 3
+    },
+    {
+      "source": "GOLF",
+      "target": "JOUT",
+      "weight": 5
+    },
+    {
+      "source": "GOLF",
+      "target": "MAT",
+      "weight": 2
+    },
+    {
+      "source": "HAS",
+      "target": "MAT",
+      "weight": 314
+    },
+    {
+      "source": "HAS",
+      "target": "YETI",
+      "weight": 349
+    },
+    {
+      "source": "HAS",
+      "target": "JOUT",
+      "weight": 4
+    },
+    {
+      "source": "HAS",
+      "target": "MSN",
+      "weight": 2
+    },
+    {
+      "source": "HAS",
+      "target": "JAKK",
+      "weight": 33
+    },
+    {
+      "source": "HAS",
+      "target": "SLGG",
+      "weight": 5
+    },
+    {
+      "source": "HAS",
+      "target": "MPX",
+      "weight": 61
+    },
+    {
+      "source": "JAKK",
+      "target": "MSN",
+      "weight": 10
+    },
+    {
+      "source": "JAKK",
+      "target": "KOSS",
+      "weight": 7
+    },
+    {
+      "source": "JAKK",
+      "target": "MAT",
+      "weight": 45
+    },
+    {
+      "source": "JAKK",
+      "target": "YETI",
+      "weight": 5
+    },
+    {
+      "source": "JAKK",
+      "target": "SLGG",
+      "weight": 2
+    },
+    {
+      "source": "JOUT",
+      "target": "MPX",
+      "weight": 3
+    },
+    {
+      "source": "JOUT",
+      "target": "KBAL",
+      "weight": 3
+    },
+    {
+      "source": "JOUT",
+      "target": "MAT",
+      "weight": 1
+    },
+    {
+      "source": "JOUT",
+      "target": "YETI",
+      "weight": 6
+    },
+    {
+      "source": "JOUT",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "KBAL",
+      "target": "MAT",
+      "weight": 5
+    },
+    {
+      "source": "KOSS",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "KOSS",
+      "target": "MSN",
+      "weight": 20
+    },
+    {
+      "source": "MAT",
+      "target": "SLGG",
+      "weight": 1
+    },
+    {
+      "source": "MAT",
+      "target": "YETI",
+      "weight": 31
+    },
+    {
+      "source": "MPX",
+      "target": "YETI",
+      "weight": 3
+    },
+    {
+      "source": "MPX",
+      "target": "SLGG",
+      "weight": 1
+    },
+    {
+      "source": "MSN",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "SLGG",
+      "target": "YETI",
+      "weight": 2
+    }
+  ]
+}

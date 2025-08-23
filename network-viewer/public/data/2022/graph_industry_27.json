@@ -1,0 +1,382 @@
+{
+  "nodes": [
+    {
+      "id": "AUMN",
+      "label": "AUMN",
+      "industry": "Gold",
+      "degree_centrality": 0.7272727272727273,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7575757575757576,
+      "eigenvector_centrality": 0.10720178994605227,
+      "harmonic_centrality": 2.05,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 208
+    },
+    {
+      "id": "CDE",
+      "label": "CDE",
+      "industry": "Gold",
+      "degree_centrality": 0.8181818181818182,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8264462809917354,
+      "eigenvector_centrality": 0.5826182731389726,
+      "harmonic_centrality": 1.194047619047619,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 1104
+    },
+    {
+      "id": "CDEV",
+      "label": "CDEV",
+      "industry": "Gold",
+      "degree_centrality": 0.5454545454545454,
+      "betweenness_centrality": 0.01818181818181818,
+      "closeness_centrality": 0.6493506493506493,
+      "eigenvector_centrality": 0.02889104656256938,
+      "harmonic_centrality": 3.85,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 53
+    },
+    {
+      "id": "DC",
+      "label": "DC",
+      "industry": "Gold",
+      "degree_centrality": 0.36363636363636365,
+      "betweenness_centrality": 0.17272727272727273,
+      "closeness_centrality": 0.5681818181818181,
+      "eigenvector_centrality": 0.005573702101158859,
+      "harmonic_centrality": 4.333333333333333,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 11
+    },
+    {
+      "id": "GATO",
+      "label": "GATO",
+      "industry": "Gold",
+      "degree_centrality": 0.9090909090909092,
+      "betweenness_centrality": 0.17272727272727273,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.12302480923463949,
+      "harmonic_centrality": 4.694444444444445,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 219
+    },
+    {
+      "id": "GORO",
+      "label": "GORO",
+      "industry": "Gold",
+      "degree_centrality": 0.8181818181818182,
+      "betweenness_centrality": 0.10909090909090909,
+      "closeness_centrality": 0.8264462809917354,
+      "eigenvector_centrality": 0.09359495453855075,
+      "harmonic_centrality": 4.727777777777777,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 220
+    },
+    {
+      "id": "HL",
+      "label": "HL",
+      "industry": "Gold",
+      "degree_centrality": 0.9090909090909092,
+      "betweenness_centrality": 0.08484848484848484,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.6451621954133216,
+      "harmonic_centrality": 4.7595238095238095,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 1293
+    },
+    {
+      "id": "IDR",
+      "label": "IDR",
+      "industry": "Gold",
+      "degree_centrality": 0.5454545454545454,
+      "betweenness_centrality": 0.4151515151515151,
+      "closeness_centrality": 0.6493506493506493,
+      "eigenvector_centrality": 0.003232723015192138,
+      "harmonic_centrality": 6.208333333333333,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 18
+    },
+    {
+      "id": "LODE",
+      "label": "LODE",
+      "industry": "Gold",
+      "degree_centrality": 0.7272727272727273,
+      "betweenness_centrality": 0.03636363636363636,
+      "closeness_centrality": 0.7575757575757576,
+      "eigenvector_centrality": 0.04374850215009856,
+      "harmonic_centrality": 3.6,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 103
+    },
+    {
+      "id": "NEM",
+      "label": "NEM",
+      "industry": "Gold",
+      "degree_centrality": 0.9090909090909092,
+      "betweenness_centrality": 0.09696969696969696,
+      "closeness_centrality": 0.9090909090909091,
+      "eigenvector_centrality": 0.4531907271221141,
+      "harmonic_centrality": 4.75952380952381,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 721
+    },
+    {
+      "id": "PR",
+      "label": "PR",
+      "industry": "Gold",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.6386013551290288e-104,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "XPL",
+      "label": "XPL",
+      "industry": "Gold",
+      "degree_centrality": 0.7272727272727273,
+      "betweenness_centrality": 0.12727272727272726,
+      "closeness_centrality": 0.7575757575757576,
+      "eigenvector_centrality": 0.027611059913742988,
+      "harmonic_centrality": 4.977777777777778,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 78
+    }
+  ],
+  "edges": [
+    {
+      "source": "AUMN",
+      "target": "GORO",
+      "weight": 32
+    },
+    {
+      "source": "AUMN",
+      "target": "LODE",
+      "weight": 3
+    },
+    {
+      "source": "AUMN",
+      "target": "NEM",
+      "weight": 6
+    },
+    {
+      "source": "AUMN",
+      "target": "HL",
+      "weight": 81
+    },
+    {
+      "source": "AUMN",
+      "target": "CDE",
+      "weight": 62
+    },
+    {
+      "source": "AUMN",
+      "target": "XPL",
+      "weight": 13
+    },
+    {
+      "source": "AUMN",
+      "target": "IDR",
+      "weight": 4
+    },
+    {
+      "source": "AUMN",
+      "target": "GATO",
+      "weight": 7
+    },
+    {
+      "source": "CDE",
+      "target": "HL",
+      "weight": 616
+    },
+    {
+      "source": "CDE",
+      "target": "DC",
+      "weight": 6
+    },
+    {
+      "source": "CDE",
+      "target": "CDEV",
+      "weight": 18
+    },
+    {
+      "source": "CDE",
+      "target": "LODE",
+      "weight": 16
+    },
+    {
+      "source": "CDE",
+      "target": "XPL",
+      "weight": 12
+    },
+    {
+      "source": "CDE",
+      "target": "NEM",
+      "weight": 207
+    },
+    {
+      "source": "CDE",
+      "target": "GATO",
+      "weight": 126
+    },
+    {
+      "source": "CDE",
+      "target": "GORO",
+      "weight": 41
+    },
+    {
+      "source": "CDEV",
+      "target": "GORO",
+      "weight": 1
+    },
+    {
+      "source": "CDEV",
+      "target": "NEM",
+      "weight": 8
+    },
+    {
+      "source": "CDEV",
+      "target": "HL",
+      "weight": 17
+    },
+    {
+      "source": "CDEV",
+      "target": "LODE",
+      "weight": 7
+    },
+    {
+      "source": "CDEV",
+      "target": "GATO",
+      "weight": 2
+    },
+    {
+      "source": "DC",
+      "target": "GATO",
+      "weight": 3
+    },
+    {
+      "source": "DC",
+      "target": "HL",
+      "weight": 1
+    },
+    {
+      "source": "DC",
+      "target": "NEM",
+      "weight": 1
+    },
+    {
+      "source": "GATO",
+      "target": "HL",
+      "weight": 43
+    },
+    {
+      "source": "GATO",
+      "target": "LODE",
+      "weight": 1
+    },
+    {
+      "source": "GATO",
+      "target": "IDR",
+      "weight": 10
+    },
+    {
+      "source": "GATO",
+      "target": "NEM",
+      "weight": 14
+    },
+    {
+      "source": "GATO",
+      "target": "XPL",
+      "weight": 1
+    },
+    {
+      "source": "GATO",
+      "target": "GORO",
+      "weight": 12
+    },
+    {
+      "source": "GORO",
+      "target": "HL",
+      "weight": 57
+    },
+    {
+      "source": "GORO",
+      "target": "IDR",
+      "weight": 1
+    },
+    {
+      "source": "GORO",
+      "target": "NEM",
+      "weight": 36
+    },
+    {
+      "source": "GORO",
+      "target": "LODE",
+      "weight": 20
+    },
+    {
+      "source": "GORO",
+      "target": "XPL",
+      "weight": 20
+    },
+    {
+      "source": "HL",
+      "target": "NEM",
+      "weight": 428
+    },
+    {
+      "source": "HL",
+      "target": "IDR",
+      "weight": 1
+    },
+    {
+      "source": "HL",
+      "target": "XPL",
+      "weight": 20
+    },
+    {
+      "source": "HL",
+      "target": "LODE",
+      "weight": 29
+    },
+    {
+      "source": "IDR",
+      "target": "NEM",
+      "weight": 1
+    },
+    {
+      "source": "IDR",
+      "target": "XPL",
+      "weight": 1
+    },
+    {
+      "source": "LODE",
+      "target": "NEM",
+      "weight": 18
+    },
+    {
+      "source": "LODE",
+      "target": "XPL",
+      "weight": 9
+    },
+    {
+      "source": "NEM",
+      "target": "XPL",
+      "weight": 2
+    }
+  ]
+}

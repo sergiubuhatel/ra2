@@ -1,0 +1,3094 @@
+{
+  "nodes": [
+    {
+      "id": "ALV",
+      "label": "ALV",
+      "industry": "Autos",
+      "degree_centrality": 0.7250000000000001,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7680851063829787,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 13.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 797
+    },
+    {
+      "id": "AXL",
+      "label": "AXL",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.005129315129315129,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 17.000000000000004,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 864
+    },
+    {
+      "id": "BGG",
+      "label": "BGG",
+      "industry": "Autos",
+      "degree_centrality": 0.35000000000000003,
+      "betweenness_centrality": 0.07784305793921181,
+      "closeness_centrality": 0.582258064516129,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 66
+    },
+    {
+      "id": "BWA",
+      "label": "BWA",
+      "industry": "Autos",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.003621794871794872,
+      "closeness_centrality": 0.7847826086956522,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 908
+    },
+    {
+      "id": "CAAS",
+      "label": "CAAS",
+      "industry": "Autos",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.0009615384615384616,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 13.366666666666667,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 243
+    },
+    {
+      "id": "CPS",
+      "label": "CPS",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.053861501746117146,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.333333333333336,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 262
+    },
+    {
+      "id": "CTB",
+      "label": "CTB",
+      "industry": "Autos",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.005879473091011551,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 18.083333333333336,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 390
+    },
+    {
+      "id": "CVGI",
+      "label": "CVGI",
+      "industry": "Autos",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.01492979242979243,
+      "closeness_centrality": 0.6942307692307692,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 18.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 220
+    },
+    {
+      "id": "DAN",
+      "label": "DAN",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.01957585505662428,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 19.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 730
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "industry": "Autos",
+      "degree_centrality": 0.8500000000000001,
+      "betweenness_centrality": 0.010268666518666519,
+      "closeness_centrality": 0.8595238095238095,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 14227
+    },
+    {
+      "id": "FSS",
+      "label": "FSS",
+      "industry": "Autos",
+      "degree_centrality": 0.5750000000000001,
+      "betweenness_centrality": 0.057575110075110084,
+      "closeness_centrality": 0.6811320754716981,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 19.083333333333336,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 138
+    },
+    {
+      "id": "GM",
+      "label": "GM",
+      "industry": "Autos",
+      "degree_centrality": 0.9,
+      "betweenness_centrality": 0.02450800623877547,
+      "closeness_centrality": 0.9025,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 19.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 13683
+    },
+    {
+      "id": "GNTX",
+      "label": "GNTX",
+      "industry": "Autos",
+      "degree_centrality": 0.7250000000000001,
+      "betweenness_centrality": 0.0199805109420494,
+      "closeness_centrality": 0.7680851063829787,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.16666666666667,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 501
+    },
+    {
+      "id": "GT",
+      "label": "GT",
+      "industry": "Autos",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.009275147928994084,
+      "closeness_centrality": 0.707843137254902,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 605
+    },
+    {
+      "id": "HY",
+      "label": "HY",
+      "industry": "Autos",
+      "degree_centrality": 0.45,
+      "betweenness_centrality": 0.11171463152232386,
+      "closeness_centrality": 0.6224137931034482,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 22.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 44
+    },
+    {
+      "id": "KNDI",
+      "label": "KNDI",
+      "industry": "Autos",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.09200743344974113,
+      "closeness_centrality": 0.7847826086956522,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 1071
+    },
+    {
+      "id": "LCII",
+      "label": "LCII",
+      "industry": "Autos",
+      "degree_centrality": 0.7250000000000001,
+      "betweenness_centrality": 0.006274420024420024,
+      "closeness_centrality": 0.7680851063829787,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.58333333333334,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 404
+    },
+    {
+      "id": "LDL",
+      "label": "LDL",
+      "industry": "Autos",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.0015109890109890108,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.583333333333336,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 148
+    },
+    {
+      "id": "LEA",
+      "label": "LEA",
+      "industry": "Autos",
+      "degree_centrality": 0.8250000000000001,
+      "betweenness_centrality": 0.0031934731934731937,
+      "closeness_centrality": 0.8395348837209302,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.250000000000004,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 766
+    },
+    {
+      "id": "MLR",
+      "label": "MLR",
+      "industry": "Autos",
+      "degree_centrality": 0.30000000000000004,
+      "betweenness_centrality": 0.033857111549419235,
+      "closeness_centrality": 0.5640625,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 17.749999999999996,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 44
+    },
+    {
+      "id": "MNTX",
+      "label": "MNTX",
+      "industry": "Autos",
+      "degree_centrality": 0.275,
+      "betweenness_centrality": 0.034835997335997335,
+      "closeness_centrality": 0.5553846153846154,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 18.250000000000004,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 28
+    },
+    {
+      "id": "MOD",
+      "label": "MOD",
+      "industry": "Autos",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "MTOR",
+      "label": "MTOR",
+      "industry": "Autos",
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.06627321396552167,
+      "closeness_centrality": 0.8804878048780488,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 345
+    },
+    {
+      "id": "NAV",
+      "label": "NAV",
+      "industry": "Autos",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "PCAR",
+      "label": "PCAR",
+      "industry": "Autos",
+      "degree_centrality": 0.7250000000000001,
+      "betweenness_centrality": 0.05094502719502719,
+      "closeness_centrality": 0.7680851063829787,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 20.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 366
+    },
+    {
+      "id": "PII",
+      "label": "PII",
+      "industry": "Autos",
+      "degree_centrality": 0.7000000000000001,
+      "betweenness_centrality": 0.07237216842986073,
+      "closeness_centrality": 0.7520833333333332,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 772
+    },
+    {
+      "id": "REVG",
+      "label": "REVG",
+      "industry": "Autos",
+      "degree_centrality": 0.5750000000000001,
+      "betweenness_centrality": 0.015654808154808155,
+      "closeness_centrality": 0.6811320754716981,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.08333333333334,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 277
+    },
+    {
+      "id": "SMP",
+      "label": "SMP",
+      "industry": "Autos",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.04784715284715284,
+      "closeness_centrality": 0.707843137254902,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 19.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 294
+    },
+    {
+      "id": "SORL",
+      "label": "SORL",
+      "industry": "Autos",
+      "degree_centrality": 0.65,
+      "betweenness_centrality": 0.0927384083153314,
+      "closeness_centrality": 0.722,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.25,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 189
+    },
+    {
+      "id": "SPAR",
+      "label": "SPAR",
+      "industry": "Autos",
+      "degree_centrality": 0.525,
+      "betweenness_centrality": 0.012008130758130758,
+      "closeness_centrality": 0.6563636363636364,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 162
+    },
+    {
+      "id": "SRI",
+      "label": "SRI",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.0019230769230769232,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 14.000000000000005,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 355
+    },
+    {
+      "id": "STRT",
+      "label": "STRT",
+      "industry": "Autos",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.00603781901858825,
+      "closeness_centrality": 0.6446428571428572,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 15.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 110
+    },
+    {
+      "id": "SUP",
+      "label": "SUP",
+      "industry": "Autos",
+      "degree_centrality": 0.775,
+      "betweenness_centrality": 0.000437062937062937,
+      "closeness_centrality": 0.8022222222222222,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 14.83333333333334,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 342
+    },
+    {
+      "id": "TEN",
+      "label": "TEN",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.0031410256410256405,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 14.36666666666667,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 862
+    },
+    {
+      "id": "TEX",
+      "label": "TEX",
+      "industry": "Autos",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.005879120879120878,
+      "closeness_centrality": 0.6942307692307692,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 18.250000000000007,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 205
+    },
+    {
+      "id": "THO",
+      "label": "THO",
+      "industry": "Autos",
+      "degree_centrality": 0.65,
+      "betweenness_centrality": 0.012003043253043253,
+      "closeness_centrality": 0.722,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 16.083333333333336,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 771
+    },
+    {
+      "id": "VC",
+      "label": "VC",
+      "industry": "Autos",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.004845386095386095,
+      "closeness_centrality": 0.7847826086956522,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 17.250000000000004,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 354
+    },
+    {
+      "id": "VNE",
+      "label": "VNE",
+      "industry": "Autos",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.044977244977244986,
+      "closeness_centrality": 0.707843137254902,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 21.0,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 190
+    },
+    {
+      "id": "WBC",
+      "label": "WBC",
+      "industry": "Autos",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.003289424250962713,
+      "closeness_centrality": 0.6942307692307692,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 15.333333333333337,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 294
+    },
+    {
+      "id": "WGO",
+      "label": "WGO",
+      "industry": "Autos",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.09872463718617563,
+      "closeness_centrality": 0.8204545454545454,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 22.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 690
+    },
+    {
+      "id": "WNC",
+      "label": "WNC",
+      "industry": "Autos",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.02522019291250061,
+      "closeness_centrality": 0.6446428571428572,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 18.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 125
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALV",
+      "target": "VC",
+      "weight": 29
+    },
+    {
+      "source": "ALV",
+      "target": "TEX",
+      "weight": 10
+    },
+    {
+      "source": "ALV",
+      "target": "PCAR",
+      "weight": 17
+    },
+    {
+      "source": "ALV",
+      "target": "AXL",
+      "weight": 26
+    },
+    {
+      "source": "ALV",
+      "target": "DAN",
+      "weight": 31
+    },
+    {
+      "source": "ALV",
+      "target": "VNE",
+      "weight": 36
+    },
+    {
+      "source": "ALV",
+      "target": "SMP",
+      "weight": 42
+    },
+    {
+      "source": "ALV",
+      "target": "MTOR",
+      "weight": 27
+    },
+    {
+      "source": "ALV",
+      "target": "CTB",
+      "weight": 22
+    },
+    {
+      "source": "ALV",
+      "target": "SRI",
+      "weight": 7
+    },
+    {
+      "source": "ALV",
+      "target": "GM",
+      "weight": 70
+    },
+    {
+      "source": "ALV",
+      "target": "FSS",
+      "weight": 11
+    },
+    {
+      "source": "ALV",
+      "target": "GT",
+      "weight": 70
+    },
+    {
+      "source": "ALV",
+      "target": "STRT",
+      "weight": 4
+    },
+    {
+      "source": "ALV",
+      "target": "PII",
+      "weight": 28
+    },
+    {
+      "source": "ALV",
+      "target": "CAAS",
+      "weight": 11
+    },
+    {
+      "source": "ALV",
+      "target": "SUP",
+      "weight": 5
+    },
+    {
+      "source": "ALV",
+      "target": "LEA",
+      "weight": 46
+    },
+    {
+      "source": "ALV",
+      "target": "KNDI",
+      "weight": 1
+    },
+    {
+      "source": "ALV",
+      "target": "CVGI",
+      "weight": 8
+    },
+    {
+      "source": "ALV",
+      "target": "GNTX",
+      "weight": 34
+    },
+    {
+      "source": "ALV",
+      "target": "WBC",
+      "weight": 4
+    },
+    {
+      "source": "ALV",
+      "target": "LCII",
+      "weight": 13
+    },
+    {
+      "source": "ALV",
+      "target": "CPS",
+      "weight": 21
+    },
+    {
+      "source": "ALV",
+      "target": "F",
+      "weight": 68
+    },
+    {
+      "source": "ALV",
+      "target": "BWA",
+      "weight": 41
+    },
+    {
+      "source": "ALV",
+      "target": "LDL",
+      "weight": 13
+    },
+    {
+      "source": "ALV",
+      "target": "REVG",
+      "weight": 5
+    },
+    {
+      "source": "ALV",
+      "target": "TEN",
+      "weight": 97
+    },
+    {
+      "source": "AXL",
+      "target": "PII",
+      "weight": 7
+    },
+    {
+      "source": "AXL",
+      "target": "SRI",
+      "weight": 16
+    },
+    {
+      "source": "AXL",
+      "target": "LEA",
+      "weight": 81
+    },
+    {
+      "source": "AXL",
+      "target": "BGG",
+      "weight": 1
+    },
+    {
+      "source": "AXL",
+      "target": "PCAR",
+      "weight": 1
+    },
+    {
+      "source": "AXL",
+      "target": "MLR",
+      "weight": 7
+    },
+    {
+      "source": "AXL",
+      "target": "GM",
+      "weight": 72
+    },
+    {
+      "source": "AXL",
+      "target": "F",
+      "weight": 57
+    },
+    {
+      "source": "AXL",
+      "target": "CAAS",
+      "weight": 14
+    },
+    {
+      "source": "AXL",
+      "target": "VNE",
+      "weight": 5
+    },
+    {
+      "source": "AXL",
+      "target": "TEN",
+      "weight": 43
+    },
+    {
+      "source": "AXL",
+      "target": "WBC",
+      "weight": 31
+    },
+    {
+      "source": "AXL",
+      "target": "BWA",
+      "weight": 75
+    },
+    {
+      "source": "AXL",
+      "target": "CPS",
+      "weight": 48
+    },
+    {
+      "source": "AXL",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "AXL",
+      "target": "GT",
+      "weight": 13
+    },
+    {
+      "source": "AXL",
+      "target": "SORL",
+      "weight": 10
+    },
+    {
+      "source": "AXL",
+      "target": "MTOR",
+      "weight": 27
+    },
+    {
+      "source": "AXL",
+      "target": "FSS",
+      "weight": 1
+    },
+    {
+      "source": "AXL",
+      "target": "VC",
+      "weight": 25
+    },
+    {
+      "source": "AXL",
+      "target": "CVGI",
+      "weight": 15
+    },
+    {
+      "source": "AXL",
+      "target": "SMP",
+      "weight": 6
+    },
+    {
+      "source": "AXL",
+      "target": "WGO",
+      "weight": 4
+    },
+    {
+      "source": "AXL",
+      "target": "STRT",
+      "weight": 10
+    },
+    {
+      "source": "AXL",
+      "target": "TEX",
+      "weight": 67
+    },
+    {
+      "source": "AXL",
+      "target": "DAN",
+      "weight": 69
+    },
+    {
+      "source": "AXL",
+      "target": "GNTX",
+      "weight": 7
+    },
+    {
+      "source": "AXL",
+      "target": "CTB",
+      "weight": 5
+    },
+    {
+      "source": "AXL",
+      "target": "LCII",
+      "weight": 44
+    },
+    {
+      "source": "AXL",
+      "target": "LDL",
+      "weight": 4
+    },
+    {
+      "source": "AXL",
+      "target": "SUP",
+      "weight": 69
+    },
+    {
+      "source": "BGG",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "SMP",
+      "weight": 2
+    },
+    {
+      "source": "BGG",
+      "target": "F",
+      "weight": 44
+    },
+    {
+      "source": "BGG",
+      "target": "DAN",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "TEX",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "WBC",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "BWA",
+      "weight": 6
+    },
+    {
+      "source": "BGG",
+      "target": "LEA",
+      "weight": 2
+    },
+    {
+      "source": "BGG",
+      "target": "PCAR",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "GM",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "MTOR",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "SORL",
+      "weight": 1
+    },
+    {
+      "source": "BGG",
+      "target": "CPS",
+      "weight": 3
+    },
+    {
+      "source": "BWA",
+      "target": "CAAS",
+      "weight": 5
+    },
+    {
+      "source": "BWA",
+      "target": "F",
+      "weight": 55
+    },
+    {
+      "source": "BWA",
+      "target": "VC",
+      "weight": 47
+    },
+    {
+      "source": "BWA",
+      "target": "SMP",
+      "weight": 14
+    },
+    {
+      "source": "BWA",
+      "target": "MTOR",
+      "weight": 14
+    },
+    {
+      "source": "BWA",
+      "target": "THO",
+      "weight": 7
+    },
+    {
+      "source": "BWA",
+      "target": "TEN",
+      "weight": 210
+    },
+    {
+      "source": "BWA",
+      "target": "LCII",
+      "weight": 11
+    },
+    {
+      "source": "BWA",
+      "target": "GM",
+      "weight": 56
+    },
+    {
+      "source": "BWA",
+      "target": "LDL",
+      "weight": 1
+    },
+    {
+      "source": "BWA",
+      "target": "STRT",
+      "weight": 28
+    },
+    {
+      "source": "BWA",
+      "target": "SUP",
+      "weight": 32
+    },
+    {
+      "source": "BWA",
+      "target": "GNTX",
+      "weight": 18
+    },
+    {
+      "source": "BWA",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "BWA",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "BWA",
+      "target": "GT",
+      "weight": 46
+    },
+    {
+      "source": "BWA",
+      "target": "CPS",
+      "weight": 10
+    },
+    {
+      "source": "BWA",
+      "target": "VNE",
+      "weight": 9
+    },
+    {
+      "source": "BWA",
+      "target": "PCAR",
+      "weight": 6
+    },
+    {
+      "source": "BWA",
+      "target": "KNDI",
+      "weight": 3
+    },
+    {
+      "source": "BWA",
+      "target": "WBC",
+      "weight": 7
+    },
+    {
+      "source": "BWA",
+      "target": "CTB",
+      "weight": 19
+    },
+    {
+      "source": "BWA",
+      "target": "DAN",
+      "weight": 76
+    },
+    {
+      "source": "BWA",
+      "target": "CVGI",
+      "weight": 6
+    },
+    {
+      "source": "BWA",
+      "target": "LEA",
+      "weight": 87
+    },
+    {
+      "source": "BWA",
+      "target": "SORL",
+      "weight": 12
+    },
+    {
+      "source": "BWA",
+      "target": "SRI",
+      "weight": 5
+    },
+    {
+      "source": "CAAS",
+      "target": "DAN",
+      "weight": 10
+    },
+    {
+      "source": "CAAS",
+      "target": "SRI",
+      "weight": 21
+    },
+    {
+      "source": "CAAS",
+      "target": "GM",
+      "weight": 4
+    },
+    {
+      "source": "CAAS",
+      "target": "KNDI",
+      "weight": 23
+    },
+    {
+      "source": "CAAS",
+      "target": "TEN",
+      "weight": 10
+    },
+    {
+      "source": "CAAS",
+      "target": "REVG",
+      "weight": 3
+    },
+    {
+      "source": "CAAS",
+      "target": "F",
+      "weight": 4
+    },
+    {
+      "source": "CAAS",
+      "target": "LDL",
+      "weight": 9
+    },
+    {
+      "source": "CAAS",
+      "target": "CPS",
+      "weight": 9
+    },
+    {
+      "source": "CAAS",
+      "target": "LCII",
+      "weight": 11
+    },
+    {
+      "source": "CAAS",
+      "target": "MTOR",
+      "weight": 16
+    },
+    {
+      "source": "CAAS",
+      "target": "WGO",
+      "weight": 2
+    },
+    {
+      "source": "CAAS",
+      "target": "SUP",
+      "weight": 25
+    },
+    {
+      "source": "CAAS",
+      "target": "SORL",
+      "weight": 9
+    },
+    {
+      "source": "CAAS",
+      "target": "STRT",
+      "weight": 7
+    },
+    {
+      "source": "CAAS",
+      "target": "GNTX",
+      "weight": 1
+    },
+    {
+      "source": "CAAS",
+      "target": "CVGI",
+      "weight": 31
+    },
+    {
+      "source": "CAAS",
+      "target": "VNE",
+      "weight": 17
+    },
+    {
+      "source": "CAAS",
+      "target": "MLR",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "THO",
+      "weight": 2
+    },
+    {
+      "source": "CPS",
+      "target": "TEX",
+      "weight": 24
+    },
+    {
+      "source": "CPS",
+      "target": "LCII",
+      "weight": 7
+    },
+    {
+      "source": "CPS",
+      "target": "F",
+      "weight": 14
+    },
+    {
+      "source": "CPS",
+      "target": "FSS",
+      "weight": 2
+    },
+    {
+      "source": "CPS",
+      "target": "LEA",
+      "weight": 4
+    },
+    {
+      "source": "CPS",
+      "target": "STRT",
+      "weight": 2
+    },
+    {
+      "source": "CPS",
+      "target": "SORL",
+      "weight": 3
+    },
+    {
+      "source": "CPS",
+      "target": "CTB",
+      "weight": 19
+    },
+    {
+      "source": "CPS",
+      "target": "WBC",
+      "weight": 3
+    },
+    {
+      "source": "CPS",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "DAN",
+      "weight": 18
+    },
+    {
+      "source": "CPS",
+      "target": "SRI",
+      "weight": 2
+    },
+    {
+      "source": "CPS",
+      "target": "GT",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "SUP",
+      "weight": 3
+    },
+    {
+      "source": "CPS",
+      "target": "VC",
+      "weight": 6
+    },
+    {
+      "source": "CPS",
+      "target": "PCAR",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "VNE",
+      "weight": 5
+    },
+    {
+      "source": "CPS",
+      "target": "MTOR",
+      "weight": 6
+    },
+    {
+      "source": "CPS",
+      "target": "CVGI",
+      "weight": 13
+    },
+    {
+      "source": "CPS",
+      "target": "LDL",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "SMP",
+      "weight": 15
+    },
+    {
+      "source": "CPS",
+      "target": "HY",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "GNTX",
+      "weight": 9
+    },
+    {
+      "source": "CPS",
+      "target": "GM",
+      "weight": 1
+    },
+    {
+      "source": "CPS",
+      "target": "TEN",
+      "weight": 7
+    },
+    {
+      "source": "CPS",
+      "target": "KNDI",
+      "weight": 1
+    },
+    {
+      "source": "CTB",
+      "target": "DAN",
+      "weight": 85
+    },
+    {
+      "source": "CTB",
+      "target": "KNDI",
+      "weight": 18
+    },
+    {
+      "source": "CTB",
+      "target": "TEN",
+      "weight": 6
+    },
+    {
+      "source": "CTB",
+      "target": "SORL",
+      "weight": 1
+    },
+    {
+      "source": "CTB",
+      "target": "VC",
+      "weight": 3
+    },
+    {
+      "source": "CTB",
+      "target": "GT",
+      "weight": 81
+    },
+    {
+      "source": "CTB",
+      "target": "F",
+      "weight": 31
+    },
+    {
+      "source": "CTB",
+      "target": "SUP",
+      "weight": 4
+    },
+    {
+      "source": "CTB",
+      "target": "GM",
+      "weight": 12
+    },
+    {
+      "source": "CTB",
+      "target": "GNTX",
+      "weight": 3
+    },
+    {
+      "source": "CTB",
+      "target": "CVGI",
+      "weight": 5
+    },
+    {
+      "source": "CTB",
+      "target": "REVG",
+      "weight": 2
+    },
+    {
+      "source": "CTB",
+      "target": "MTOR",
+      "weight": 1
+    },
+    {
+      "source": "CTB",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "CTB",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "CTB",
+      "target": "SMP",
+      "weight": 13
+    },
+    {
+      "source": "CTB",
+      "target": "SRI",
+      "weight": 52
+    },
+    {
+      "source": "CTB",
+      "target": "LEA",
+      "weight": 6
+    },
+    {
+      "source": "CVGI",
+      "target": "F",
+      "weight": 1
+    },
+    {
+      "source": "CVGI",
+      "target": "FSS",
+      "weight": 17
+    },
+    {
+      "source": "CVGI",
+      "target": "GM",
+      "weight": 9
+    },
+    {
+      "source": "CVGI",
+      "target": "GNTX",
+      "weight": 16
+    },
+    {
+      "source": "CVGI",
+      "target": "LCII",
+      "weight": 17
+    },
+    {
+      "source": "CVGI",
+      "target": "LEA",
+      "weight": 10
+    },
+    {
+      "source": "CVGI",
+      "target": "MLR",
+      "weight": 3
+    },
+    {
+      "source": "CVGI",
+      "target": "MTOR",
+      "weight": 9
+    },
+    {
+      "source": "CVGI",
+      "target": "PCAR",
+      "weight": 1
+    },
+    {
+      "source": "CVGI",
+      "target": "SMP",
+      "weight": 1
+    },
+    {
+      "source": "CVGI",
+      "target": "SORL",
+      "weight": 19
+    },
+    {
+      "source": "CVGI",
+      "target": "SPAR",
+      "weight": 3
+    },
+    {
+      "source": "CVGI",
+      "target": "SRI",
+      "weight": 6
+    },
+    {
+      "source": "CVGI",
+      "target": "STRT",
+      "weight": 6
+    },
+    {
+      "source": "CVGI",
+      "target": "SUP",
+      "weight": 8
+    },
+    {
+      "source": "CVGI",
+      "target": "TEN",
+      "weight": 13
+    },
+    {
+      "source": "CVGI",
+      "target": "WBC",
+      "weight": 2
+    },
+    {
+      "source": "CVGI",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "DAN",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "DAN",
+      "target": "LDL",
+      "weight": 15
+    },
+    {
+      "source": "DAN",
+      "target": "GM",
+      "weight": 33
+    },
+    {
+      "source": "DAN",
+      "target": "SMP",
+      "weight": 12
+    },
+    {
+      "source": "DAN",
+      "target": "VC",
+      "weight": 17
+    },
+    {
+      "source": "DAN",
+      "target": "SPAR",
+      "weight": 4
+    },
+    {
+      "source": "DAN",
+      "target": "LCII",
+      "weight": 4
+    },
+    {
+      "source": "DAN",
+      "target": "VNE",
+      "weight": 18
+    },
+    {
+      "source": "DAN",
+      "target": "TEX",
+      "weight": 1
+    },
+    {
+      "source": "DAN",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "DAN",
+      "target": "MLR",
+      "weight": 3
+    },
+    {
+      "source": "DAN",
+      "target": "LEA",
+      "weight": 48
+    },
+    {
+      "source": "DAN",
+      "target": "HY",
+      "weight": 2
+    },
+    {
+      "source": "DAN",
+      "target": "SORL",
+      "weight": 12
+    },
+    {
+      "source": "DAN",
+      "target": "GNTX",
+      "weight": 27
+    },
+    {
+      "source": "DAN",
+      "target": "WNC",
+      "weight": 1
+    },
+    {
+      "source": "DAN",
+      "target": "SRI",
+      "weight": 39
+    },
+    {
+      "source": "DAN",
+      "target": "TEN",
+      "weight": 86
+    },
+    {
+      "source": "DAN",
+      "target": "MTOR",
+      "weight": 21
+    },
+    {
+      "source": "DAN",
+      "target": "GT",
+      "weight": 7
+    },
+    {
+      "source": "DAN",
+      "target": "PCAR",
+      "weight": 7
+    },
+    {
+      "source": "DAN",
+      "target": "F",
+      "weight": 54
+    },
+    {
+      "source": "DAN",
+      "target": "PII",
+      "weight": 12
+    },
+    {
+      "source": "DAN",
+      "target": "FSS",
+      "weight": 1
+    },
+    {
+      "source": "DAN",
+      "target": "SUP",
+      "weight": 11
+    },
+    {
+      "source": "F",
+      "target": "MTOR",
+      "weight": 5
+    },
+    {
+      "source": "F",
+      "target": "SUP",
+      "weight": 6
+    },
+    {
+      "source": "F",
+      "target": "THO",
+      "weight": 31
+    },
+    {
+      "source": "F",
+      "target": "KNDI",
+      "weight": 466
+    },
+    {
+      "source": "F",
+      "target": "TEN",
+      "weight": 19
+    },
+    {
+      "source": "F",
+      "target": "GT",
+      "weight": 84
+    },
+    {
+      "source": "F",
+      "target": "VNE",
+      "weight": 6
+    },
+    {
+      "source": "F",
+      "target": "PII",
+      "weight": 396
+    },
+    {
+      "source": "F",
+      "target": "PCAR",
+      "weight": 46
+    },
+    {
+      "source": "F",
+      "target": "VC",
+      "weight": 21
+    },
+    {
+      "source": "F",
+      "target": "FSS",
+      "weight": 18
+    },
+    {
+      "source": "F",
+      "target": "REVG",
+      "weight": 9
+    },
+    {
+      "source": "F",
+      "target": "SMP",
+      "weight": 6
+    },
+    {
+      "source": "F",
+      "target": "HY",
+      "weight": 1
+    },
+    {
+      "source": "F",
+      "target": "SORL",
+      "weight": 7
+    },
+    {
+      "source": "F",
+      "target": "TEX",
+      "weight": 15
+    },
+    {
+      "source": "F",
+      "target": "SRI",
+      "weight": 3
+    },
+    {
+      "source": "F",
+      "target": "GM",
+      "weight": 12490
+    },
+    {
+      "source": "F",
+      "target": "SPAR",
+      "weight": 19
+    },
+    {
+      "source": "F",
+      "target": "STRT",
+      "weight": 1
+    },
+    {
+      "source": "F",
+      "target": "WGO",
+      "weight": 20
+    },
+    {
+      "source": "F",
+      "target": "WBC",
+      "weight": 52
+    },
+    {
+      "source": "F",
+      "target": "LEA",
+      "weight": 43
+    },
+    {
+      "source": "F",
+      "target": "WNC",
+      "weight": 18
+    },
+    {
+      "source": "F",
+      "target": "GNTX",
+      "weight": 117
+    },
+    {
+      "source": "FSS",
+      "target": "VC",
+      "weight": 5
+    },
+    {
+      "source": "FSS",
+      "target": "KNDI",
+      "weight": 7
+    },
+    {
+      "source": "FSS",
+      "target": "GNTX",
+      "weight": 13
+    },
+    {
+      "source": "FSS",
+      "target": "MLR",
+      "weight": 4
+    },
+    {
+      "source": "FSS",
+      "target": "WGO",
+      "weight": 2
+    },
+    {
+      "source": "FSS",
+      "target": "SUP",
+      "weight": 2
+    },
+    {
+      "source": "FSS",
+      "target": "WNC",
+      "weight": 1
+    },
+    {
+      "source": "FSS",
+      "target": "TEN",
+      "weight": 1
+    },
+    {
+      "source": "FSS",
+      "target": "PII",
+      "weight": 5
+    },
+    {
+      "source": "FSS",
+      "target": "LEA",
+      "weight": 10
+    },
+    {
+      "source": "FSS",
+      "target": "SMP",
+      "weight": 1
+    },
+    {
+      "source": "FSS",
+      "target": "LCII",
+      "weight": 2
+    },
+    {
+      "source": "FSS",
+      "target": "GM",
+      "weight": 6
+    },
+    {
+      "source": "FSS",
+      "target": "REVG",
+      "weight": 9
+    },
+    {
+      "source": "FSS",
+      "target": "SRI",
+      "weight": 2
+    },
+    {
+      "source": "FSS",
+      "target": "SPAR",
+      "weight": 17
+    },
+    {
+      "source": "FSS",
+      "target": "STRT",
+      "weight": 1
+    },
+    {
+      "source": "GM",
+      "target": "KNDI",
+      "weight": 393
+    },
+    {
+      "source": "GM",
+      "target": "SUP",
+      "weight": 7
+    },
+    {
+      "source": "GM",
+      "target": "WBC",
+      "weight": 47
+    },
+    {
+      "source": "GM",
+      "target": "LDL",
+      "weight": 2
+    },
+    {
+      "source": "GM",
+      "target": "TEN",
+      "weight": 16
+    },
+    {
+      "source": "GM",
+      "target": "SMP",
+      "weight": 6
+    },
+    {
+      "source": "GM",
+      "target": "SPAR",
+      "weight": 19
+    },
+    {
+      "source": "GM",
+      "target": "STRT",
+      "weight": 3
+    },
+    {
+      "source": "GM",
+      "target": "GNTX",
+      "weight": 38
+    },
+    {
+      "source": "GM",
+      "target": "LCII",
+      "weight": 1
+    },
+    {
+      "source": "GM",
+      "target": "REVG",
+      "weight": 10
+    },
+    {
+      "source": "GM",
+      "target": "VNE",
+      "weight": 5
+    },
+    {
+      "source": "GM",
+      "target": "VC",
+      "weight": 16
+    },
+    {
+      "source": "GM",
+      "target": "GT",
+      "weight": 66
+    },
+    {
+      "source": "GM",
+      "target": "LEA",
+      "weight": 91
+    },
+    {
+      "source": "GM",
+      "target": "SORL",
+      "weight": 9
+    },
+    {
+      "source": "GM",
+      "target": "HY",
+      "weight": 1
+    },
+    {
+      "source": "GM",
+      "target": "PII",
+      "weight": 92
+    },
+    {
+      "source": "GM",
+      "target": "MTOR",
+      "weight": 20
+    },
+    {
+      "source": "GM",
+      "target": "SRI",
+      "weight": 3
+    },
+    {
+      "source": "GM",
+      "target": "TEX",
+      "weight": 14
+    },
+    {
+      "source": "GM",
+      "target": "MNTX",
+      "weight": 1
+    },
+    {
+      "source": "GM",
+      "target": "THO",
+      "weight": 21
+    },
+    {
+      "source": "GM",
+      "target": "WGO",
+      "weight": 23
+    },
+    {
+      "source": "GM",
+      "target": "PCAR",
+      "weight": 25
+    },
+    {
+      "source": "GNTX",
+      "target": "SRI",
+      "weight": 12
+    },
+    {
+      "source": "GNTX",
+      "target": "KNDI",
+      "weight": 23
+    },
+    {
+      "source": "GNTX",
+      "target": "HY",
+      "weight": 1
+    },
+    {
+      "source": "GNTX",
+      "target": "PCAR",
+      "weight": 2
+    },
+    {
+      "source": "GNTX",
+      "target": "TEN",
+      "weight": 16
+    },
+    {
+      "source": "GNTX",
+      "target": "LDL",
+      "weight": 9
+    },
+    {
+      "source": "GNTX",
+      "target": "VC",
+      "weight": 14
+    },
+    {
+      "source": "GNTX",
+      "target": "STRT",
+      "weight": 7
+    },
+    {
+      "source": "GNTX",
+      "target": "LCII",
+      "weight": 5
+    },
+    {
+      "source": "GNTX",
+      "target": "MTOR",
+      "weight": 12
+    },
+    {
+      "source": "GNTX",
+      "target": "SMP",
+      "weight": 3
+    },
+    {
+      "source": "GNTX",
+      "target": "PII",
+      "weight": 6
+    },
+    {
+      "source": "GNTX",
+      "target": "REVG",
+      "weight": 1
+    },
+    {
+      "source": "GNTX",
+      "target": "SUP",
+      "weight": 10
+    },
+    {
+      "source": "GNTX",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "GNTX",
+      "target": "GT",
+      "weight": 12
+    },
+    {
+      "source": "GNTX",
+      "target": "LEA",
+      "weight": 76
+    },
+    {
+      "source": "GNTX",
+      "target": "SORL",
+      "weight": 5
+    },
+    {
+      "source": "GT",
+      "target": "WBC",
+      "weight": 1
+    },
+    {
+      "source": "GT",
+      "target": "MTOR",
+      "weight": 2
+    },
+    {
+      "source": "GT",
+      "target": "THO",
+      "weight": 10
+    },
+    {
+      "source": "GT",
+      "target": "SORL",
+      "weight": 9
+    },
+    {
+      "source": "GT",
+      "target": "WGO",
+      "weight": 3
+    },
+    {
+      "source": "GT",
+      "target": "TEN",
+      "weight": 119
+    },
+    {
+      "source": "GT",
+      "target": "SRI",
+      "weight": 3
+    },
+    {
+      "source": "GT",
+      "target": "PCAR",
+      "weight": 2
+    },
+    {
+      "source": "GT",
+      "target": "LEA",
+      "weight": 8
+    },
+    {
+      "source": "GT",
+      "target": "VNE",
+      "weight": 2
+    },
+    {
+      "source": "GT",
+      "target": "VC",
+      "weight": 9
+    },
+    {
+      "source": "GT",
+      "target": "SUP",
+      "weight": 3
+    },
+    {
+      "source": "GT",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "GT",
+      "target": "TEX",
+      "weight": 4
+    },
+    {
+      "source": "GT",
+      "target": "KNDI",
+      "weight": 2
+    },
+    {
+      "source": "GT",
+      "target": "SMP",
+      "weight": 47
+    },
+    {
+      "source": "HY",
+      "target": "LDL",
+      "weight": 3
+    },
+    {
+      "source": "HY",
+      "target": "SPAR",
+      "weight": 3
+    },
+    {
+      "source": "HY",
+      "target": "WNC",
+      "weight": 7
+    },
+    {
+      "source": "HY",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "HY",
+      "target": "KNDI",
+      "weight": 1
+    },
+    {
+      "source": "HY",
+      "target": "PCAR",
+      "weight": 4
+    },
+    {
+      "source": "HY",
+      "target": "TEX",
+      "weight": 7
+    },
+    {
+      "source": "HY",
+      "target": "VC",
+      "weight": 1
+    },
+    {
+      "source": "HY",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "HY",
+      "target": "SORL",
+      "weight": 1
+    },
+    {
+      "source": "HY",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "HY",
+      "target": "MNTX",
+      "weight": 4
+    },
+    {
+      "source": "HY",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "KNDI",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "KNDI",
+      "target": "SMP",
+      "weight": 6
+    },
+    {
+      "source": "KNDI",
+      "target": "TEN",
+      "weight": 2
+    },
+    {
+      "source": "KNDI",
+      "target": "WBC",
+      "weight": 25
+    },
+    {
+      "source": "KNDI",
+      "target": "THO",
+      "weight": 2
+    },
+    {
+      "source": "KNDI",
+      "target": "SORL",
+      "weight": 10
+    },
+    {
+      "source": "KNDI",
+      "target": "PII",
+      "weight": 13
+    },
+    {
+      "source": "KNDI",
+      "target": "WGO",
+      "weight": 5
+    },
+    {
+      "source": "KNDI",
+      "target": "SUP",
+      "weight": 2
+    },
+    {
+      "source": "KNDI",
+      "target": "PCAR",
+      "weight": 19
+    },
+    {
+      "source": "KNDI",
+      "target": "SRI",
+      "weight": 6
+    },
+    {
+      "source": "KNDI",
+      "target": "LDL",
+      "weight": 3
+    },
+    {
+      "source": "KNDI",
+      "target": "MTOR",
+      "weight": 1
+    },
+    {
+      "source": "KNDI",
+      "target": "SPAR",
+      "weight": 9
+    },
+    {
+      "source": "KNDI",
+      "target": "WNC",
+      "weight": 1
+    },
+    {
+      "source": "KNDI",
+      "target": "VC",
+      "weight": 1
+    },
+    {
+      "source": "KNDI",
+      "target": "REVG",
+      "weight": 23
+    },
+    {
+      "source": "KNDI",
+      "target": "STRT",
+      "weight": 3
+    },
+    {
+      "source": "KNDI",
+      "target": "LEA",
+      "weight": 1
+    },
+    {
+      "source": "LCII",
+      "target": "SUP",
+      "weight": 7
+    },
+    {
+      "source": "LCII",
+      "target": "WNC",
+      "weight": 8
+    },
+    {
+      "source": "LCII",
+      "target": "REVG",
+      "weight": 7
+    },
+    {
+      "source": "LCII",
+      "target": "MNTX",
+      "weight": 4
+    },
+    {
+      "source": "LCII",
+      "target": "PII",
+      "weight": 6
+    },
+    {
+      "source": "LCII",
+      "target": "LDL",
+      "weight": 12
+    },
+    {
+      "source": "LCII",
+      "target": "SMP",
+      "weight": 2
+    },
+    {
+      "source": "LCII",
+      "target": "SORL",
+      "weight": 6
+    },
+    {
+      "source": "LCII",
+      "target": "WGO",
+      "weight": 82
+    },
+    {
+      "source": "LCII",
+      "target": "MTOR",
+      "weight": 10
+    },
+    {
+      "source": "LCII",
+      "target": "MLR",
+      "weight": 4
+    },
+    {
+      "source": "LCII",
+      "target": "TEN",
+      "weight": 11
+    },
+    {
+      "source": "LCII",
+      "target": "THO",
+      "weight": 101
+    },
+    {
+      "source": "LCII",
+      "target": "SRI",
+      "weight": 9
+    },
+    {
+      "source": "LCII",
+      "target": "STRT",
+      "weight": 4
+    },
+    {
+      "source": "LCII",
+      "target": "SPAR",
+      "weight": 1
+    },
+    {
+      "source": "LCII",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "LCII",
+      "target": "PCAR",
+      "weight": 9
+    },
+    {
+      "source": "LCII",
+      "target": "LEA",
+      "weight": 5
+    },
+    {
+      "source": "LDL",
+      "target": "SORL",
+      "weight": 10
+    },
+    {
+      "source": "LDL",
+      "target": "LEA",
+      "weight": 6
+    },
+    {
+      "source": "LDL",
+      "target": "MTOR",
+      "weight": 8
+    },
+    {
+      "source": "LDL",
+      "target": "TEX",
+      "weight": 6
+    },
+    {
+      "source": "LDL",
+      "target": "WNC",
+      "weight": 2
+    },
+    {
+      "source": "LDL",
+      "target": "MNTX",
+      "weight": 3
+    },
+    {
+      "source": "LDL",
+      "target": "VNE",
+      "weight": 16
+    },
+    {
+      "source": "LDL",
+      "target": "SUP",
+      "weight": 10
+    },
+    {
+      "source": "LDL",
+      "target": "STRT",
+      "weight": 6
+    },
+    {
+      "source": "LDL",
+      "target": "TEN",
+      "weight": 8
+    },
+    {
+      "source": "LDL",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "LEA",
+      "target": "PCAR",
+      "weight": 2
+    },
+    {
+      "source": "LEA",
+      "target": "VNE",
+      "weight": 12
+    },
+    {
+      "source": "LEA",
+      "target": "WGO",
+      "weight": 5
+    },
+    {
+      "source": "LEA",
+      "target": "WNC",
+      "weight": 2
+    },
+    {
+      "source": "LEA",
+      "target": "WBC",
+      "weight": 27
+    },
+    {
+      "source": "LEA",
+      "target": "SPAR",
+      "weight": 2
+    },
+    {
+      "source": "LEA",
+      "target": "PII",
+      "weight": 7
+    },
+    {
+      "source": "LEA",
+      "target": "TEX",
+      "weight": 2
+    },
+    {
+      "source": "LEA",
+      "target": "MTOR",
+      "weight": 16
+    },
+    {
+      "source": "LEA",
+      "target": "MLR",
+      "weight": 7
+    },
+    {
+      "source": "LEA",
+      "target": "TEN",
+      "weight": 31
+    },
+    {
+      "source": "LEA",
+      "target": "SORL",
+      "weight": 1
+    },
+    {
+      "source": "LEA",
+      "target": "SRI",
+      "weight": 18
+    },
+    {
+      "source": "LEA",
+      "target": "SMP",
+      "weight": 5
+    },
+    {
+      "source": "LEA",
+      "target": "SUP",
+      "weight": 23
+    },
+    {
+      "source": "LEA",
+      "target": "VC",
+      "weight": 56
+    },
+    {
+      "source": "LEA",
+      "target": "THO",
+      "weight": 26
+    },
+    {
+      "source": "MLR",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "MLR",
+      "target": "MTOR",
+      "weight": 1
+    },
+    {
+      "source": "MLR",
+      "target": "SRI",
+      "weight": 9
+    },
+    {
+      "source": "MLR",
+      "target": "SUP",
+      "weight": 3
+    },
+    {
+      "source": "MLR",
+      "target": "REVG",
+      "weight": 1
+    },
+    {
+      "source": "MNTX",
+      "target": "THO",
+      "weight": 1
+    },
+    {
+      "source": "MNTX",
+      "target": "PCAR",
+      "weight": 1
+    },
+    {
+      "source": "MNTX",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "MNTX",
+      "target": "VC",
+      "weight": 2
+    },
+    {
+      "source": "MNTX",
+      "target": "SRI",
+      "weight": 1
+    },
+    {
+      "source": "MNTX",
+      "target": "MTOR",
+      "weight": 7
+    },
+    {
+      "source": "MNTX",
+      "target": "TEX",
+      "weight": 3
+    },
+    {
+      "source": "MTOR",
+      "target": "SORL",
+      "weight": 9
+    },
+    {
+      "source": "MTOR",
+      "target": "REVG",
+      "weight": 18
+    },
+    {
+      "source": "MTOR",
+      "target": "VC",
+      "weight": 19
+    },
+    {
+      "source": "MTOR",
+      "target": "STRT",
+      "weight": 2
+    },
+    {
+      "source": "MTOR",
+      "target": "VNE",
+      "weight": 9
+    },
+    {
+      "source": "MTOR",
+      "target": "TEN",
+      "weight": 13
+    },
+    {
+      "source": "MTOR",
+      "target": "WNC",
+      "weight": 27
+    },
+    {
+      "source": "MTOR",
+      "target": "SRI",
+      "weight": 12
+    },
+    {
+      "source": "MTOR",
+      "target": "SUP",
+      "weight": 2
+    },
+    {
+      "source": "MTOR",
+      "target": "SMP",
+      "weight": 1
+    },
+    {
+      "source": "MTOR",
+      "target": "WBC",
+      "weight": 10
+    },
+    {
+      "source": "MTOR",
+      "target": "PII",
+      "weight": 1
+    },
+    {
+      "source": "MTOR",
+      "target": "PCAR",
+      "weight": 6
+    },
+    {
+      "source": "MTOR",
+      "target": "WGO",
+      "weight": 7
+    },
+    {
+      "source": "MTOR",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "MTOR",
+      "target": "TEX",
+      "weight": 1
+    },
+    {
+      "source": "PCAR",
+      "target": "WNC",
+      "weight": 23
+    },
+    {
+      "source": "PCAR",
+      "target": "TEX",
+      "weight": 12
+    },
+    {
+      "source": "PCAR",
+      "target": "PII",
+      "weight": 92
+    },
+    {
+      "source": "PCAR",
+      "target": "SMP",
+      "weight": 1
+    },
+    {
+      "source": "PCAR",
+      "target": "WGO",
+      "weight": 2
+    },
+    {
+      "source": "PCAR",
+      "target": "VC",
+      "weight": 4
+    },
+    {
+      "source": "PCAR",
+      "target": "SRI",
+      "weight": 2
+    },
+    {
+      "source": "PCAR",
+      "target": "REVG",
+      "weight": 29
+    },
+    {
+      "source": "PCAR",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "PCAR",
+      "target": "SPAR",
+      "weight": 13
+    },
+    {
+      "source": "PCAR",
+      "target": "THO",
+      "weight": 22
+    },
+    {
+      "source": "PCAR",
+      "target": "WBC",
+      "weight": 15
+    },
+    {
+      "source": "PII",
+      "target": "SPAR",
+      "weight": 3
+    },
+    {
+      "source": "PII",
+      "target": "REVG",
+      "weight": 12
+    },
+    {
+      "source": "PII",
+      "target": "TEN",
+      "weight": 3
+    },
+    {
+      "source": "PII",
+      "target": "STRT",
+      "weight": 2
+    },
+    {
+      "source": "PII",
+      "target": "WBC",
+      "weight": 3
+    },
+    {
+      "source": "PII",
+      "target": "WNC",
+      "weight": 1
+    },
+    {
+      "source": "PII",
+      "target": "VC",
+      "weight": 7
+    },
+    {
+      "source": "PII",
+      "target": "TEX",
+      "weight": 4
+    },
+    {
+      "source": "PII",
+      "target": "THO",
+      "weight": 35
+    },
+    {
+      "source": "PII",
+      "target": "WGO",
+      "weight": 31
+    },
+    {
+      "source": "REVG",
+      "target": "SRI",
+      "weight": 2
+    },
+    {
+      "source": "REVG",
+      "target": "TEN",
+      "weight": 3
+    },
+    {
+      "source": "REVG",
+      "target": "VC",
+      "weight": 2
+    },
+    {
+      "source": "REVG",
+      "target": "SPAR",
+      "weight": 12
+    },
+    {
+      "source": "REVG",
+      "target": "SUP",
+      "weight": 4
+    },
+    {
+      "source": "REVG",
+      "target": "THO",
+      "weight": 58
+    },
+    {
+      "source": "REVG",
+      "target": "TEX",
+      "weight": 4
+    },
+    {
+      "source": "REVG",
+      "target": "SORL",
+      "weight": 1
+    },
+    {
+      "source": "REVG",
+      "target": "WGO",
+      "weight": 51
+    },
+    {
+      "source": "REVG",
+      "target": "WBC",
+      "weight": 11
+    },
+    {
+      "source": "SMP",
+      "target": "VC",
+      "weight": 5
+    },
+    {
+      "source": "SMP",
+      "target": "SPAR",
+      "weight": 1
+    },
+    {
+      "source": "SMP",
+      "target": "SUP",
+      "weight": 13
+    },
+    {
+      "source": "SMP",
+      "target": "SRI",
+      "weight": 24
+    },
+    {
+      "source": "SMP",
+      "target": "TEN",
+      "weight": 49
+    },
+    {
+      "source": "SMP",
+      "target": "THO",
+      "weight": 1
+    },
+    {
+      "source": "SMP",
+      "target": "SORL",
+      "weight": 18
+    },
+    {
+      "source": "SORL",
+      "target": "SUP",
+      "weight": 1
+    },
+    {
+      "source": "SORL",
+      "target": "SRI",
+      "weight": 24
+    },
+    {
+      "source": "SORL",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "SORL",
+      "target": "TEN",
+      "weight": 7
+    },
+    {
+      "source": "SORL",
+      "target": "SPAR",
+      "weight": 1
+    },
+    {
+      "source": "SORL",
+      "target": "WBC",
+      "weight": 2
+    },
+    {
+      "source": "SPAR",
+      "target": "THO",
+      "weight": 4
+    },
+    {
+      "source": "SPAR",
+      "target": "TEN",
+      "weight": 5
+    },
+    {
+      "source": "SPAR",
+      "target": "WBC",
+      "weight": 10
+    },
+    {
+      "source": "SPAR",
+      "target": "WGO",
+      "weight": 9
+    },
+    {
+      "source": "SPAR",
+      "target": "SRI",
+      "weight": 13
+    },
+    {
+      "source": "SPAR",
+      "target": "SUP",
+      "weight": 9
+    },
+    {
+      "source": "SPAR",
+      "target": "WNC",
+      "weight": 5
+    },
+    {
+      "source": "SRI",
+      "target": "TEN",
+      "weight": 15
+    },
+    {
+      "source": "SRI",
+      "target": "VNE",
+      "weight": 3
+    },
+    {
+      "source": "SRI",
+      "target": "SUP",
+      "weight": 20
+    },
+    {
+      "source": "SRI",
+      "target": "WNC",
+      "weight": 5
+    },
+    {
+      "source": "SRI",
+      "target": "WGO",
+      "weight": 8
+    },
+    {
+      "source": "SRI",
+      "target": "WBC",
+      "weight": 3
+    },
+    {
+      "source": "SRI",
+      "target": "VC",
+      "weight": 5
+    },
+    {
+      "source": "SRI",
+      "target": "THO",
+      "weight": 5
+    },
+    {
+      "source": "STRT",
+      "target": "SUP",
+      "weight": 13
+    },
+    {
+      "source": "STRT",
+      "target": "VC",
+      "weight": 2
+    },
+    {
+      "source": "STRT",
+      "target": "TEN",
+      "weight": 5
+    },
+    {
+      "source": "STRT",
+      "target": "WGO",
+      "weight": 2
+    },
+    {
+      "source": "STRT",
+      "target": "WBC",
+      "weight": 2
+    },
+    {
+      "source": "SUP",
+      "target": "TEN",
+      "weight": 25
+    },
+    {
+      "source": "SUP",
+      "target": "VC",
+      "weight": 8
+    },
+    {
+      "source": "SUP",
+      "target": "TEX",
+      "weight": 2
+    },
+    {
+      "source": "SUP",
+      "target": "VNE",
+      "weight": 7
+    },
+    {
+      "source": "SUP",
+      "target": "WGO",
+      "weight": 5
+    },
+    {
+      "source": "SUP",
+      "target": "WNC",
+      "weight": 3
+    },
+    {
+      "source": "TEN",
+      "target": "TEX",
+      "weight": 4
+    },
+    {
+      "source": "TEN",
+      "target": "VNE",
+      "weight": 10
+    },
+    {
+      "source": "TEN",
+      "target": "WGO",
+      "weight": 3
+    },
+    {
+      "source": "TEN",
+      "target": "VC",
+      "weight": 13
+    },
+    {
+      "source": "TEN",
+      "target": "WBC",
+      "weight": 11
+    },
+    {
+      "source": "TEN",
+      "target": "THO",
+      "weight": 1
+    },
+    {
+      "source": "TEX",
+      "target": "WGO",
+      "weight": 3
+    },
+    {
+      "source": "TEX",
+      "target": "WBC",
+      "weight": 4
+    },
+    {
+      "source": "TEX",
+      "target": "VC",
+      "weight": 8
+    },
+    {
+      "source": "TEX",
+      "target": "WNC",
+      "weight": 6
+    },
+    {
+      "source": "TEX",
+      "target": "VNE",
+      "weight": 1
+    },
+    {
+      "source": "TEX",
+      "target": "THO",
+      "weight": 2
+    },
+    {
+      "source": "THO",
+      "target": "WNC",
+      "weight": 3
+    },
+    {
+      "source": "THO",
+      "target": "WGO",
+      "weight": 400
+    },
+    {
+      "source": "THO",
+      "target": "VNE",
+      "weight": 11
+    },
+    {
+      "source": "THO",
+      "target": "VC",
+      "weight": 8
+    },
+    {
+      "source": "VC",
+      "target": "VNE",
+      "weight": 9
+    },
+    {
+      "source": "VC",
+      "target": "WBC",
+      "weight": 8
+    },
+    {
+      "source": "VC",
+      "target": "WGO",
+      "weight": 3
+    },
+    {
+      "source": "VC",
+      "target": "WNC",
+      "weight": 1
+    },
+    {
+      "source": "VNE",
+      "target": "WGO",
+      "weight": 1
+    },
+    {
+      "source": "VNE",
+      "target": "WNC",
+      "weight": 3
+    },
+    {
+      "source": "WBC",
+      "target": "WGO",
+      "weight": 9
+    },
+    {
+      "source": "WBC",
+      "target": "WNC",
+      "weight": 6
+    },
+    {
+      "source": "WGO",
+      "target": "WNC",
+      "weight": 2
+    }
+  ]
+}

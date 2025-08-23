@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "RAIL",
+      "label": "RAIL",
+      "industry": "Ships",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.7071067811865476,
+      "harmonic_centrality": 0.05555555555555555,
+      "eccentricity": 1,
+      "degree": 1,
+      "weighted_degree": 18
+    },
+    {
+      "id": "WAB",
+      "label": "WAB",
+      "industry": "Ships",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.7071067811865476,
+      "harmonic_centrality": 0.05555555555555555,
+      "eccentricity": 1,
+      "degree": 1,
+      "weighted_degree": 18
+    }
+  ],
+  "edges": [
+    {
+      "source": "RAIL",
+      "target": "WAB",
+      "weight": 18
+    }
+  ]
+}

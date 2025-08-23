@@ -1,0 +1,1939 @@
+{
+  "nodes": [
+    {
+      "id": "ACNT",
+      "label": "ACNT",
+      "industry": "BldMt",
+      "degree_centrality": 0.11111111111111112,
+      "betweenness_centrality": 0.051550825717492386,
+      "closeness_centrality": 0.43711583924349884,
+      "eigenvector_centrality": 0.0018397717817994971,
+      "harmonic_centrality": 18.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 5
+    },
+    {
+      "id": "ACU",
+      "label": "ACU",
+      "industry": "BldMt",
+      "degree_centrality": 0.022222222222222223,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3701701701701702,
+      "eigenvector_centrality": 0.011689249135146242,
+      "harmonic_centrality": 7.027380952380958,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 4
+    },
+    {
+      "id": "AMWD",
+      "label": "AMWD",
+      "industry": "BldMt",
+      "degree_centrality": 0.22222222222222224,
+      "betweenness_centrality": 0.026107904441237777,
+      "closeness_centrality": 0.5201125175808721,
+      "eigenvector_centrality": 0.05295034992364901,
+      "harmonic_centrality": 18.366666666666664,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 24
+    },
+    {
+      "id": "ATKR",
+      "label": "ATKR",
+      "industry": "BldMt",
+      "degree_centrality": 0.5111111111111112,
+      "betweenness_centrality": 0.046912177328843986,
+      "closeness_centrality": 0.6225589225589225,
+      "eigenvector_centrality": 0.22590405330493174,
+      "harmonic_centrality": 22.059523809523807,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 117
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "industry": "BldMt",
+      "degree_centrality": 0.4222222222222222,
+      "betweenness_centrality": 0.05369668911335578,
+      "closeness_centrality": 0.586984126984127,
+      "eigenvector_centrality": 0.04810447702277065,
+      "harmonic_centrality": 22.91666666666666,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 38
+    },
+    {
+      "id": "BLDR",
+      "label": "BLDR",
+      "industry": "BldMt",
+      "degree_centrality": 0.4666666666666667,
+      "betweenness_centrality": 0.012764550264550265,
+      "closeness_centrality": 0.6132669983416252,
+      "eigenvector_centrality": 0.42664085229965165,
+      "harmonic_centrality": 19.64285714285714,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 208
+    },
+    {
+      "id": "BOOM",
+      "label": "BOOM",
+      "industry": "BldMt",
+      "degree_centrality": 0.11111111111111112,
+      "betweenness_centrality": 0.011169232002565338,
+      "closeness_centrality": 0.46167290886392015,
+      "eigenvector_centrality": 0.007824399547404734,
+      "harmonic_centrality": 19.50952380952381,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 6
+    },
+    {
+      "id": "CCRD",
+      "label": "CCRD",
+      "industry": "BldMt",
+      "degree_centrality": 0.06666666666666667,
+      "betweenness_centrality": 0.003333333333333333,
+      "closeness_centrality": 0.37696228338430177,
+      "eigenvector_centrality": 0.000997739838907247,
+      "harmonic_centrality": 16.583333333333336,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "CIR",
+      "label": "CIR",
+      "industry": "BldMt",
+      "degree_centrality": 0.22222222222222224,
+      "betweenness_centrality": 0.014853695687029019,
+      "closeness_centrality": 0.5072702331961592,
+      "eigenvector_centrality": 0.03238997755578784,
+      "harmonic_centrality": 18.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 43
+    },
+    {
+      "id": "CR",
+      "label": "CR",
+      "industry": "BldMt",
+      "degree_centrality": 0.37777777777777777,
+      "betweenness_centrality": 0.06554012345679011,
+      "closeness_centrality": 0.578716744913928,
+      "eigenvector_centrality": 0.03451931118841639,
+      "harmonic_centrality": 24.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 31
+    },
+    {
+      "id": "CSL",
+      "label": "CSL",
+      "industry": "BldMt",
+      "degree_centrality": 0.4,
+      "betweenness_centrality": 0.08172398589065259,
+      "closeness_centrality": 0.5954911433172303,
+      "eigenvector_centrality": 0.3565813840962622,
+      "harmonic_centrality": 21.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 149
+    },
+    {
+      "id": "CVR",
+      "label": "CVR",
+      "industry": "BldMt",
+      "degree_centrality": 0.11111111111111112,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.46691919191919196,
+      "eigenvector_centrality": 0.01089772546091038,
+      "harmonic_centrality": 15.158333333333335,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 13
+    },
+    {
+      "id": "CW",
+      "label": "CW",
+      "industry": "BldMt",
+      "degree_centrality": 0.2888888888888889,
+      "betweenness_centrality": 0.021705146705146703,
+      "closeness_centrality": 0.5406432748538011,
+      "eigenvector_centrality": 0.04047537685813869,
+      "harmonic_centrality": 21.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 32
+    },
+    {
+      "id": "CXT",
+      "label": "CXT",
+      "industry": "BldMt",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 3.1608071376029347e-45,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "EML",
+      "label": "EML",
+      "industry": "BldMt",
+      "degree_centrality": 0.022222222222222223,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.30212418300653593,
+      "eigenvector_centrality": 1.5077370240751912e-05,
+      "harmonic_centrality": 13.059523809523812,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "EMR",
+      "label": "EMR",
+      "industry": "BldMt",
+      "degree_centrality": 0.35555555555555557,
+      "betweenness_centrality": 0.057003367003366986,
+      "closeness_centrality": 0.578716744913928,
+      "eigenvector_centrality": 0.206531774648269,
+      "harmonic_centrality": 23.25,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 120
+    },
+    {
+      "id": "ENOV",
+      "label": "ENOV",
+      "industry": "BldMt",
+      "degree_centrality": 0.13333333333333333,
+      "betweenness_centrality": 0.034424202340869015,
+      "closeness_centrality": 0.4833986928104575,
+      "eigenvector_centrality": 0.0030304972952494564,
+      "harmonic_centrality": 21.249999999999993,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 7
+    },
+    {
+      "id": "EXP",
+      "label": "EXP",
+      "industry": "BldMt",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 3.1608071376029347e-45,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "FATH",
+      "label": "FATH",
+      "industry": "BldMt",
+      "degree_centrality": 0.08888888888888889,
+      "betweenness_centrality": 0.006346801346801346,
+      "closeness_centrality": 0.4150392817059484,
+      "eigenvector_centrality": 0.0005060461540035871,
+      "harmonic_centrality": 17.726190476190478,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 5
+    },
+    {
+      "id": "FBIN",
+      "label": "FBIN",
+      "industry": "BldMt",
+      "degree_centrality": 0.35555555555555557,
+      "betweenness_centrality": 0.08177769761103094,
+      "closeness_centrality": 0.5706790123456791,
+      "eigenvector_centrality": 0.040200360418052146,
+      "harmonic_centrality": 23.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 36
+    },
+    {
+      "id": "GFF",
+      "label": "GFF",
+      "industry": "BldMt",
+      "degree_centrality": 0.3111111111111111,
+      "betweenness_centrality": 0.052034030784030794,
+      "closeness_centrality": 0.5478518518518519,
+      "eigenvector_centrality": 0.06695571040788431,
+      "harmonic_centrality": 22.36666666666666,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 42
+    },
+    {
+      "id": "GIFI",
+      "label": "GIFI",
+      "industry": "BldMt",
+      "degree_centrality": 0.06666666666666667,
+      "betweenness_centrality": 0.006352413019079684,
+      "closeness_centrality": 0.44181600955794503,
+      "eigenvector_centrality": 0.002446247069960071,
+      "harmonic_centrality": 17.892857142857146,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "HLIO",
+      "label": "HLIO",
+      "industry": "BldMt",
+      "degree_centrality": 0.15555555555555556,
+      "betweenness_centrality": 0.01202701619368286,
+      "closeness_centrality": 0.46691919191919196,
+      "eigenvector_centrality": 0.00927993569792371,
+      "harmonic_centrality": 19.583333333333332,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 10
+    },
+    {
+      "id": "IIIN",
+      "label": "IIIN",
+      "industry": "BldMt",
+      "degree_centrality": 0.15555555555555556,
+      "betweenness_centrality": 0.025736732403399073,
+      "closeness_centrality": 0.4777777777777778,
+      "eigenvector_centrality": 0.01159072558833978,
+      "harmonic_centrality": 20.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 10
+    },
+    {
+      "id": "JELD",
+      "label": "JELD",
+      "industry": "BldMt",
+      "degree_centrality": 0.33333333333333337,
+      "betweenness_centrality": 0.0255647747314414,
+      "closeness_centrality": 0.562861491628615,
+      "eigenvector_centrality": 0.126603688537565,
+      "harmonic_centrality": 22.25,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 72
+    },
+    {
+      "id": "LPX",
+      "label": "LPX",
+      "industry": "BldMt",
+      "degree_centrality": 0.35555555555555557,
+      "betweenness_centrality": 0.021277256693923365,
+      "closeness_centrality": 0.562861491628615,
+      "eigenvector_centrality": 0.1510551763295503,
+      "harmonic_centrality": 21.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 90
+    },
+    {
+      "id": "MAS",
+      "label": "MAS",
+      "industry": "BldMt",
+      "degree_centrality": 0.4222222222222222,
+      "betweenness_centrality": 0.018789081289081286,
+      "closeness_centrality": 0.6042483660130719,
+      "eigenvector_centrality": 0.10224627723943278,
+      "harmonic_centrality": 20.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 69
+    },
+    {
+      "id": "MLI",
+      "label": "MLI",
+      "industry": "BldMt",
+      "degree_centrality": 0.4444444444444445,
+      "betweenness_centrality": 0.02013107263107263,
+      "closeness_centrality": 0.5954911433172303,
+      "eigenvector_centrality": 0.3591272071031859,
+      "harmonic_centrality": 20.55952380952381,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 154
+    },
+    {
+      "id": "MWA",
+      "label": "MWA",
+      "industry": "BldMt",
+      "degree_centrality": 0.35555555555555557,
+      "betweenness_centrality": 0.02990099406766073,
+      "closeness_centrality": 0.5478518518518519,
+      "eigenvector_centrality": 0.06202622887806171,
+      "harmonic_centrality": 20.949999999999996,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 67
+    },
+    {
+      "id": "NUE",
+      "label": "NUE",
+      "industry": "BldMt",
+      "degree_centrality": 0.4666666666666667,
+      "betweenness_centrality": 0.06402477152477153,
+      "closeness_centrality": 0.6321367521367521,
+      "eigenvector_centrality": 0.13032752604379155,
+      "harmonic_centrality": 22.95,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 73
+    },
+    {
+      "id": "NX",
+      "label": "NX",
+      "industry": "BldMt",
+      "degree_centrality": 0.4222222222222222,
+      "betweenness_centrality": 0.02119087702421036,
+      "closeness_centrality": 0.6042483660130719,
+      "eigenvector_centrality": 0.3842646263637176,
+      "harmonic_centrality": 20.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 169
+    },
+    {
+      "id": "OC",
+      "label": "OC",
+      "industry": "BldMt",
+      "degree_centrality": 0.3111111111111111,
+      "betweenness_centrality": 0.00048260381593714924,
+      "closeness_centrality": 0.5552552552552552,
+      "eigenvector_centrality": 0.09861272058485261,
+      "harmonic_centrality": 17.22619047619048,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 58
+    },
+    {
+      "id": "OFLX",
+      "label": "OFLX",
+      "industry": "BldMt",
+      "degree_centrality": 0.2,
+      "betweenness_centrality": 0.057927288760622093,
+      "closeness_centrality": 0.5010840108401085,
+      "eigenvector_centrality": 0.013082014367720532,
+      "harmonic_centrality": 22.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 10
+    },
+    {
+      "id": "PGTI",
+      "label": "PGTI",
+      "industry": "BldMt",
+      "degree_centrality": 0.4444444444444445,
+      "betweenness_centrality": 0.07212842712842711,
+      "closeness_centrality": 0.5954911433172303,
+      "eigenvector_centrality": 0.13206666355668933,
+      "harmonic_centrality": 23.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 83
+    },
+    {
+      "id": "PRLB",
+      "label": "PRLB",
+      "industry": "BldMt",
+      "degree_centrality": 0.26666666666666666,
+      "betweenness_centrality": 0.03432138848805516,
+      "closeness_centrality": 0.5267806267806269,
+      "eigenvector_centrality": 0.017854104098776757,
+      "harmonic_centrality": 21.78333333333333,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 22
+    },
+    {
+      "id": "RFP",
+      "label": "RFP",
+      "industry": "BldMt",
+      "degree_centrality": 0.044444444444444446,
+      "betweenness_centrality": 0.0023569023569023568,
+      "closeness_centrality": 0.4068206820682068,
+      "eigenvector_centrality": 0.0040046301603231,
+      "harmonic_centrality": 17.200000000000003,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "SKY",
+      "label": "SKY",
+      "industry": "BldMt",
+      "degree_centrality": 0.2888888888888889,
+      "betweenness_centrality": 0.00437890812890813,
+      "closeness_centrality": 0.5406432748538011,
+      "eigenvector_centrality": 0.05149805606473523,
+      "harmonic_centrality": 18.226190476190474,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 40
+    },
+    {
+      "id": "SMID",
+      "label": "SMID",
+      "industry": "BldMt",
+      "degree_centrality": 0.08888888888888889,
+      "betweenness_centrality": 0.008523328523328521,
+      "closeness_centrality": 0.4235967926689576,
+      "eigenvector_centrality": 0.0037346077326350447,
+      "harmonic_centrality": 17.59285714285714,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 5
+    },
+    {
+      "id": "SMR",
+      "label": "SMR",
+      "industry": "BldMt",
+      "degree_centrality": 0.15555555555555556,
+      "betweenness_centrality": 0.03448172198172198,
+      "closeness_centrality": 0.4833986928104575,
+      "eigenvector_centrality": 0.008065007810951085,
+      "harmonic_centrality": 21.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 9
+    },
+    {
+      "id": "SSD",
+      "label": "SSD",
+      "industry": "BldMt",
+      "degree_centrality": 0.37777777777777777,
+      "betweenness_centrality": 0.027613836780503442,
+      "closeness_centrality": 0.562861491628615,
+      "eigenvector_centrality": 0.1001666235188197,
+      "harmonic_centrality": 20.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 63
+    },
+    {
+      "id": "SWK",
+      "label": "SWK",
+      "industry": "BldMt",
+      "degree_centrality": 0.35555555555555557,
+      "betweenness_centrality": 0.038756012506012495,
+      "closeness_centrality": 0.578716744913928,
+      "eigenvector_centrality": 0.2517731659129746,
+      "harmonic_centrality": 21.309523809523807,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 142
+    },
+    {
+      "id": "UFPI",
+      "label": "UFPI",
+      "industry": "BldMt",
+      "degree_centrality": 0.4666666666666667,
+      "betweenness_centrality": 0.03178811928811929,
+      "closeness_centrality": 0.6132669983416252,
+      "eigenvector_centrality": 0.34678023107586226,
+      "harmonic_centrality": 20.976190476190474,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 168
+    },
+    {
+      "id": "USLM",
+      "label": "USLM",
+      "industry": "BldMt",
+      "degree_centrality": 0.11111111111111112,
+      "betweenness_centrality": 0.00676046176046176,
+      "closeness_centrality": 0.44181600955794503,
+      "eigenvector_centrality": 0.004126346327510445,
+      "harmonic_centrality": 18.392857142857146,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 7
+    },
+    {
+      "id": "VMI",
+      "label": "VMI",
+      "industry": "BldMt",
+      "degree_centrality": 0.24444444444444446,
+      "betweenness_centrality": 0.006489097322430655,
+      "closeness_centrality": 0.5136111111111111,
+      "eigenvector_centrality": 0.028015743507667154,
+      "harmonic_centrality": 17.426190476190477,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 25
+    },
+    {
+      "id": "WTS",
+      "label": "WTS",
+      "industry": "BldMt",
+      "degree_centrality": 0.4444444444444445,
+      "betweenness_centrality": 0.0022781385281385284,
+      "closeness_centrality": 0.586984126984127,
+      "eigenvector_centrality": 0.09815557291400068,
+      "harmonic_centrality": 16.676190476190477,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 88
+    },
+    {
+      "id": "ZWS",
+      "label": "ZWS",
+      "industry": "BldMt",
+      "degree_centrality": 0.2888888888888889,
+      "betweenness_centrality": 0.06820747154080486,
+      "closeness_centrality": 0.5136111111111111,
+      "eigenvector_centrality": 0.014241023134999713,
+      "harmonic_centrality": 22.05952380952381,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 23
+    }
+  ],
+  "edges": [
+    {
+      "source": "ACNT",
+      "target": "EML",
+      "weight": 1
+    },
+    {
+      "source": "ACNT",
+      "target": "CCRD",
+      "weight": 1
+    },
+    {
+      "source": "ACNT",
+      "target": "FBIN",
+      "weight": 1
+    },
+    {
+      "source": "ACNT",
+      "target": "AMWD",
+      "weight": 1
+    },
+    {
+      "source": "ACNT",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "ACU",
+      "target": "CSL",
+      "weight": 4
+    },
+    {
+      "source": "AMWD",
+      "target": "CSL",
+      "weight": 1
+    },
+    {
+      "source": "AMWD",
+      "target": "OC",
+      "weight": 2
+    },
+    {
+      "source": "AMWD",
+      "target": "SWK",
+      "weight": 2
+    },
+    {
+      "source": "AMWD",
+      "target": "CIR",
+      "weight": 1
+    },
+    {
+      "source": "AMWD",
+      "target": "JELD",
+      "weight": 2
+    },
+    {
+      "source": "AMWD",
+      "target": "NX",
+      "weight": 2
+    },
+    {
+      "source": "AMWD",
+      "target": "CCRD",
+      "weight": 1
+    },
+    {
+      "source": "AMWD",
+      "target": "BLDR",
+      "weight": 10
+    },
+    {
+      "source": "AMWD",
+      "target": "FBIN",
+      "weight": 2
+    },
+    {
+      "source": "ATKR",
+      "target": "MLI",
+      "weight": 6
+    },
+    {
+      "source": "ATKR",
+      "target": "HLIO",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "LPX",
+      "weight": 4
+    },
+    {
+      "source": "ATKR",
+      "target": "SKY",
+      "weight": 3
+    },
+    {
+      "source": "ATKR",
+      "target": "UFPI",
+      "weight": 12
+    },
+    {
+      "source": "ATKR",
+      "target": "PRLB",
+      "weight": 2
+    },
+    {
+      "source": "ATKR",
+      "target": "CIR",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "MWA",
+      "weight": 5
+    },
+    {
+      "source": "ATKR",
+      "target": "MAS",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "CR",
+      "weight": 3
+    },
+    {
+      "source": "ATKR",
+      "target": "SWK",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "GFF",
+      "weight": 7
+    },
+    {
+      "source": "ATKR",
+      "target": "NUE",
+      "weight": 11
+    },
+    {
+      "source": "ATKR",
+      "target": "JELD",
+      "weight": 4
+    },
+    {
+      "source": "ATKR",
+      "target": "EMR",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "OFLX",
+      "weight": 2
+    },
+    {
+      "source": "ATKR",
+      "target": "BOOM",
+      "weight": 1
+    },
+    {
+      "source": "ATKR",
+      "target": "NX",
+      "weight": 6
+    },
+    {
+      "source": "ATKR",
+      "target": "VMI",
+      "weight": 2
+    },
+    {
+      "source": "ATKR",
+      "target": "WTS",
+      "weight": 9
+    },
+    {
+      "source": "ATKR",
+      "target": "B",
+      "weight": 2
+    },
+    {
+      "source": "ATKR",
+      "target": "BLDR",
+      "weight": 32
+    },
+    {
+      "source": "ATKR",
+      "target": "GIFI",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "NUE",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "HLIO",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "LPX",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "SKY",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "OC",
+      "weight": 3
+    },
+    {
+      "source": "B",
+      "target": "ENOV",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "WTS",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "SSD",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "MLI",
+      "weight": 6
+    },
+    {
+      "source": "B",
+      "target": "OFLX",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "MWA",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "BLDR",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "BOOM",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "JELD",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "PGTI",
+      "weight": 2
+    },
+    {
+      "source": "B",
+      "target": "PRLB",
+      "weight": 5
+    },
+    {
+      "source": "B",
+      "target": "SWK",
+      "weight": 1
+    },
+    {
+      "source": "B",
+      "target": "UFPI",
+      "weight": 2
+    },
+    {
+      "source": "BLDR",
+      "target": "EMR",
+      "weight": 3
+    },
+    {
+      "source": "BLDR",
+      "target": "NUE",
+      "weight": 11
+    },
+    {
+      "source": "BLDR",
+      "target": "NX",
+      "weight": 30
+    },
+    {
+      "source": "BLDR",
+      "target": "OC",
+      "weight": 4
+    },
+    {
+      "source": "BLDR",
+      "target": "LPX",
+      "weight": 19
+    },
+    {
+      "source": "BLDR",
+      "target": "FBIN",
+      "weight": 1
+    },
+    {
+      "source": "BLDR",
+      "target": "SWK",
+      "weight": 2
+    },
+    {
+      "source": "BLDR",
+      "target": "WTS",
+      "weight": 6
+    },
+    {
+      "source": "BLDR",
+      "target": "SKY",
+      "weight": 3
+    },
+    {
+      "source": "BLDR",
+      "target": "GFF",
+      "weight": 3
+    },
+    {
+      "source": "BLDR",
+      "target": "OFLX",
+      "weight": 1
+    },
+    {
+      "source": "BLDR",
+      "target": "MLI",
+      "weight": 24
+    },
+    {
+      "source": "BLDR",
+      "target": "USLM",
+      "weight": 1
+    },
+    {
+      "source": "BLDR",
+      "target": "MAS",
+      "weight": 4
+    },
+    {
+      "source": "BLDR",
+      "target": "CSL",
+      "weight": 21
+    },
+    {
+      "source": "BLDR",
+      "target": "PGTI",
+      "weight": 5
+    },
+    {
+      "source": "BLDR",
+      "target": "VMI",
+      "weight": 2
+    },
+    {
+      "source": "BLDR",
+      "target": "UFPI",
+      "weight": 25
+    },
+    {
+      "source": "BOOM",
+      "target": "WTS",
+      "weight": 2
+    },
+    {
+      "source": "BOOM",
+      "target": "SSD",
+      "weight": 1
+    },
+    {
+      "source": "BOOM",
+      "target": "NX",
+      "weight": 1
+    },
+    {
+      "source": "CCRD",
+      "target": "GFF",
+      "weight": 1
+    },
+    {
+      "source": "CIR",
+      "target": "CR",
+      "weight": 2
+    },
+    {
+      "source": "CIR",
+      "target": "MLI",
+      "weight": 3
+    },
+    {
+      "source": "CIR",
+      "target": "SMR",
+      "weight": 3
+    },
+    {
+      "source": "CIR",
+      "target": "WTS",
+      "weight": 12
+    },
+    {
+      "source": "CIR",
+      "target": "SWK",
+      "weight": 1
+    },
+    {
+      "source": "CIR",
+      "target": "CW",
+      "weight": 5
+    },
+    {
+      "source": "CIR",
+      "target": "GIFI",
+      "weight": 1
+    },
+    {
+      "source": "CIR",
+      "target": "MWA",
+      "weight": 14
+    },
+    {
+      "source": "CR",
+      "target": "OC",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "EMR",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "CVR",
+      "weight": 4
+    },
+    {
+      "source": "CR",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "PRLB",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "SKY",
+      "weight": 2
+    },
+    {
+      "source": "CR",
+      "target": "WTS",
+      "weight": 4
+    },
+    {
+      "source": "CR",
+      "target": "JELD",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "LPX",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "USLM",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "HLIO",
+      "weight": 2
+    },
+    {
+      "source": "CR",
+      "target": "FBIN",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "CR",
+      "target": "CSL",
+      "weight": 3
+    },
+    {
+      "source": "CR",
+      "target": "MLI",
+      "weight": 2
+    },
+    {
+      "source": "CSL",
+      "target": "MLI",
+      "weight": 25
+    },
+    {
+      "source": "CSL",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "CSL",
+      "target": "FBIN",
+      "weight": 2
+    },
+    {
+      "source": "CSL",
+      "target": "RFP",
+      "weight": 1
+    },
+    {
+      "source": "CSL",
+      "target": "NX",
+      "weight": 24
+    },
+    {
+      "source": "CSL",
+      "target": "SWK",
+      "weight": 32
+    },
+    {
+      "source": "CSL",
+      "target": "UFPI",
+      "weight": 18
+    },
+    {
+      "source": "CSL",
+      "target": "PRLB",
+      "weight": 1
+    },
+    {
+      "source": "CSL",
+      "target": "MAS",
+      "weight": 2
+    },
+    {
+      "source": "CSL",
+      "target": "GFF",
+      "weight": 1
+    },
+    {
+      "source": "CSL",
+      "target": "EMR",
+      "weight": 2
+    },
+    {
+      "source": "CSL",
+      "target": "CW",
+      "weight": 2
+    },
+    {
+      "source": "CSL",
+      "target": "MWA",
+      "weight": 1
+    },
+    {
+      "source": "CSL",
+      "target": "OC",
+      "weight": 8
+    },
+    {
+      "source": "CVR",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "CVR",
+      "target": "USLM",
+      "weight": 2
+    },
+    {
+      "source": "CVR",
+      "target": "NX",
+      "weight": 2
+    },
+    {
+      "source": "CVR",
+      "target": "SSD",
+      "weight": 4
+    },
+    {
+      "source": "CW",
+      "target": "EMR",
+      "weight": 1
+    },
+    {
+      "source": "CW",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "CW",
+      "target": "MWA",
+      "weight": 6
+    },
+    {
+      "source": "CW",
+      "target": "WTS",
+      "weight": 4
+    },
+    {
+      "source": "CW",
+      "target": "JELD",
+      "weight": 2
+    },
+    {
+      "source": "CW",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "CW",
+      "target": "MLI",
+      "weight": 2
+    },
+    {
+      "source": "CW",
+      "target": "UFPI",
+      "weight": 4
+    },
+    {
+      "source": "CW",
+      "target": "SKY",
+      "weight": 1
+    },
+    {
+      "source": "CW",
+      "target": "NX",
+      "weight": 1
+    },
+    {
+      "source": "CW",
+      "target": "PRLB",
+      "weight": 2
+    },
+    {
+      "source": "EMR",
+      "target": "MAS",
+      "weight": 18
+    },
+    {
+      "source": "EMR",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "EMR",
+      "target": "SMR",
+      "weight": 1
+    },
+    {
+      "source": "EMR",
+      "target": "ZWS",
+      "weight": 2
+    },
+    {
+      "source": "EMR",
+      "target": "GFF",
+      "weight": 1
+    },
+    {
+      "source": "EMR",
+      "target": "NUE",
+      "weight": 7
+    },
+    {
+      "source": "EMR",
+      "target": "OC",
+      "weight": 1
+    },
+    {
+      "source": "EMR",
+      "target": "MWA",
+      "weight": 2
+    },
+    {
+      "source": "EMR",
+      "target": "SWK",
+      "weight": 76
+    },
+    {
+      "source": "EMR",
+      "target": "WTS",
+      "weight": 2
+    },
+    {
+      "source": "EMR",
+      "target": "LPX",
+      "weight": 1
+    },
+    {
+      "source": "ENOV",
+      "target": "GFF",
+      "weight": 1
+    },
+    {
+      "source": "ENOV",
+      "target": "FBIN",
+      "weight": 2
+    },
+    {
+      "source": "ENOV",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "ENOV",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "ENOV",
+      "target": "VMI",
+      "weight": 1
+    },
+    {
+      "source": "FATH",
+      "target": "SMR",
+      "weight": 1
+    },
+    {
+      "source": "FATH",
+      "target": "SMID",
+      "weight": 1
+    },
+    {
+      "source": "FATH",
+      "target": "PRLB",
+      "weight": 2
+    },
+    {
+      "source": "FATH",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "SKY",
+      "weight": 3
+    },
+    {
+      "source": "FBIN",
+      "target": "SWK",
+      "weight": 8
+    },
+    {
+      "source": "FBIN",
+      "target": "IIIN",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "OC",
+      "weight": 2
+    },
+    {
+      "source": "FBIN",
+      "target": "GFF",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "GIFI",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "MAS",
+      "weight": 6
+    },
+    {
+      "source": "FBIN",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "FBIN",
+      "target": "WTS",
+      "weight": 3
+    },
+    {
+      "source": "GFF",
+      "target": "PGTI",
+      "weight": 9
+    },
+    {
+      "source": "GFF",
+      "target": "JELD",
+      "weight": 1
+    },
+    {
+      "source": "GFF",
+      "target": "MAS",
+      "weight": 3
+    },
+    {
+      "source": "GFF",
+      "target": "SWK",
+      "weight": 2
+    },
+    {
+      "source": "GFF",
+      "target": "NX",
+      "weight": 6
+    },
+    {
+      "source": "GFF",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "GFF",
+      "target": "VMI",
+      "weight": 5
+    },
+    {
+      "source": "HLIO",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "HLIO",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "HLIO",
+      "target": "SSD",
+      "weight": 2
+    },
+    {
+      "source": "HLIO",
+      "target": "MWA",
+      "weight": 1
+    },
+    {
+      "source": "IIIN",
+      "target": "NX",
+      "weight": 2
+    },
+    {
+      "source": "IIIN",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "IIIN",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "IIIN",
+      "target": "PRLB",
+      "weight": 1
+    },
+    {
+      "source": "IIIN",
+      "target": "VMI",
+      "weight": 3
+    },
+    {
+      "source": "IIIN",
+      "target": "MLI",
+      "weight": 1
+    },
+    {
+      "source": "JELD",
+      "target": "UFPI",
+      "weight": 25
+    },
+    {
+      "source": "JELD",
+      "target": "LPX",
+      "weight": 22
+    },
+    {
+      "source": "JELD",
+      "target": "PRLB",
+      "weight": 1
+    },
+    {
+      "source": "JELD",
+      "target": "PGTI",
+      "weight": 3
+    },
+    {
+      "source": "JELD",
+      "target": "MLI",
+      "weight": 3
+    },
+    {
+      "source": "JELD",
+      "target": "MAS",
+      "weight": 1
+    },
+    {
+      "source": "JELD",
+      "target": "WTS",
+      "weight": 3
+    },
+    {
+      "source": "JELD",
+      "target": "NUE",
+      "weight": 1
+    },
+    {
+      "source": "JELD",
+      "target": "OC",
+      "weight": 2
+    },
+    {
+      "source": "LPX",
+      "target": "MWA",
+      "weight": 1
+    },
+    {
+      "source": "LPX",
+      "target": "SWK",
+      "weight": 1
+    },
+    {
+      "source": "LPX",
+      "target": "UFPI",
+      "weight": 6
+    },
+    {
+      "source": "LPX",
+      "target": "SSD",
+      "weight": 2
+    },
+    {
+      "source": "LPX",
+      "target": "SMR",
+      "weight": 1
+    },
+    {
+      "source": "LPX",
+      "target": "NUE",
+      "weight": 7
+    },
+    {
+      "source": "LPX",
+      "target": "MAS",
+      "weight": 6
+    },
+    {
+      "source": "LPX",
+      "target": "PGTI",
+      "weight": 7
+    },
+    {
+      "source": "LPX",
+      "target": "OC",
+      "weight": 9
+    },
+    {
+      "source": "LPX",
+      "target": "MLI",
+      "weight": 1
+    },
+    {
+      "source": "MAS",
+      "target": "OC",
+      "weight": 4
+    },
+    {
+      "source": "MAS",
+      "target": "SKY",
+      "weight": 2
+    },
+    {
+      "source": "MAS",
+      "target": "NX",
+      "weight": 1
+    },
+    {
+      "source": "MAS",
+      "target": "PGTI",
+      "weight": 4
+    },
+    {
+      "source": "MAS",
+      "target": "WTS",
+      "weight": 3
+    },
+    {
+      "source": "MAS",
+      "target": "UFPI",
+      "weight": 3
+    },
+    {
+      "source": "MAS",
+      "target": "SWK",
+      "weight": 4
+    },
+    {
+      "source": "MAS",
+      "target": "MLI",
+      "weight": 1
+    },
+    {
+      "source": "MAS",
+      "target": "SSD",
+      "weight": 1
+    },
+    {
+      "source": "MAS",
+      "target": "PRLB",
+      "weight": 2
+    },
+    {
+      "source": "MAS",
+      "target": "NUE",
+      "weight": 3
+    },
+    {
+      "source": "MLI",
+      "target": "NUE",
+      "weight": 3
+    },
+    {
+      "source": "MLI",
+      "target": "VMI",
+      "weight": 1
+    },
+    {
+      "source": "MLI",
+      "target": "UFPI",
+      "weight": 19
+    },
+    {
+      "source": "MLI",
+      "target": "SSD",
+      "weight": 7
+    },
+    {
+      "source": "MLI",
+      "target": "OFLX",
+      "weight": 1
+    },
+    {
+      "source": "MLI",
+      "target": "MWA",
+      "weight": 5
+    },
+    {
+      "source": "MLI",
+      "target": "WTS",
+      "weight": 4
+    },
+    {
+      "source": "MLI",
+      "target": "SKY",
+      "weight": 5
+    },
+    {
+      "source": "MLI",
+      "target": "NX",
+      "weight": 35
+    },
+    {
+      "source": "MWA",
+      "target": "SWK",
+      "weight": 3
+    },
+    {
+      "source": "MWA",
+      "target": "PGTI",
+      "weight": 5
+    },
+    {
+      "source": "MWA",
+      "target": "VMI",
+      "weight": 3
+    },
+    {
+      "source": "MWA",
+      "target": "OFLX",
+      "weight": 1
+    },
+    {
+      "source": "MWA",
+      "target": "ZWS",
+      "weight": 2
+    },
+    {
+      "source": "MWA",
+      "target": "PRLB",
+      "weight": 3
+    },
+    {
+      "source": "MWA",
+      "target": "WTS",
+      "weight": 14
+    },
+    {
+      "source": "NUE",
+      "target": "PGTI",
+      "weight": 6
+    },
+    {
+      "source": "NUE",
+      "target": "NX",
+      "weight": 3
+    },
+    {
+      "source": "NUE",
+      "target": "OC",
+      "weight": 4
+    },
+    {
+      "source": "NUE",
+      "target": "SWK",
+      "weight": 3
+    },
+    {
+      "source": "NUE",
+      "target": "SMR",
+      "weight": 1
+    },
+    {
+      "source": "NUE",
+      "target": "UFPI",
+      "weight": 2
+    },
+    {
+      "source": "NUE",
+      "target": "SSD",
+      "weight": 3
+    },
+    {
+      "source": "NX",
+      "target": "PGTI",
+      "weight": 17
+    },
+    {
+      "source": "NX",
+      "target": "PRLB",
+      "weight": 1
+    },
+    {
+      "source": "NX",
+      "target": "UFPI",
+      "weight": 19
+    },
+    {
+      "source": "NX",
+      "target": "SSD",
+      "weight": 13
+    },
+    {
+      "source": "NX",
+      "target": "VMI",
+      "weight": 2
+    },
+    {
+      "source": "NX",
+      "target": "SMR",
+      "weight": 1
+    },
+    {
+      "source": "NX",
+      "target": "WTS",
+      "weight": 3
+    },
+    {
+      "source": "OC",
+      "target": "PGTI",
+      "weight": 7
+    },
+    {
+      "source": "OC",
+      "target": "SWK",
+      "weight": 4
+    },
+    {
+      "source": "OC",
+      "target": "UFPI",
+      "weight": 7
+    },
+    {
+      "source": "OFLX",
+      "target": "USLM",
+      "weight": 1
+    },
+    {
+      "source": "OFLX",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "OFLX",
+      "target": "PGTI",
+      "weight": 1
+    },
+    {
+      "source": "OFLX",
+      "target": "WTS",
+      "weight": 1
+    },
+    {
+      "source": "PGTI",
+      "target": "SKY",
+      "weight": 2
+    },
+    {
+      "source": "PGTI",
+      "target": "RFP",
+      "weight": 1
+    },
+    {
+      "source": "PGTI",
+      "target": "UFPI",
+      "weight": 8
+    },
+    {
+      "source": "PGTI",
+      "target": "SSD",
+      "weight": 1
+    },
+    {
+      "source": "PRLB",
+      "target": "SSD",
+      "weight": 1
+    },
+    {
+      "source": "SKY",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "SKY",
+      "target": "SSD",
+      "weight": 10
+    },
+    {
+      "source": "SKY",
+      "target": "ZWS",
+      "weight": 3
+    },
+    {
+      "source": "SKY",
+      "target": "WTS",
+      "weight": 4
+    },
+    {
+      "source": "SMID",
+      "target": "SSD",
+      "weight": 1
+    },
+    {
+      "source": "SMID",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "SMID",
+      "target": "USLM",
+      "weight": 2
+    },
+    {
+      "source": "SMR",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "SSD",
+      "target": "UFPI",
+      "weight": 8
+    },
+    {
+      "source": "SSD",
+      "target": "VMI",
+      "weight": 3
+    },
+    {
+      "source": "SSD",
+      "target": "ZWS",
+      "weight": 2
+    },
+    {
+      "source": "SSD",
+      "target": "WTS",
+      "weight": 2
+    },
+    {
+      "source": "SWK",
+      "target": "ZWS",
+      "weight": 1
+    },
+    {
+      "source": "SWK",
+      "target": "UFPI",
+      "weight": 1
+    },
+    {
+      "source": "UFPI",
+      "target": "WTS",
+      "weight": 4
+    },
+    {
+      "source": "VMI",
+      "target": "WTS",
+      "weight": 1
+    },
+    {
+      "source": "VMI",
+      "target": "ZWS",
+      "weight": 2
+    },
+    {
+      "source": "WTS",
+      "target": "ZWS",
+      "weight": 5
+    }
+  ]
+}

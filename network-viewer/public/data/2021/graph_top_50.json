@@ -1,0 +1,6776 @@
+{
+  "nodes": [
+    {
+      "id": "TSLA",
+      "label": "TSLA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.3850257175968602,
+      "harmonic_centrality": 0.0037080843053503196,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 2603190
+    },
+    {
+      "id": "AAPL",
+      "label": "AAPL",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.343841690090653,
+      "harmonic_centrality": 0.0034423275852656565,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 2266670
+    },
+    {
+      "id": "AMC",
+      "label": "AMC",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.4209345847291779,
+      "harmonic_centrality": 0.011917482975844744,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1899733
+    },
+    {
+      "id": "AMZN",
+      "label": "AMZN",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.2624066447241363,
+      "harmonic_centrality": 0.009029308572543285,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1624294
+    },
+    {
+      "id": "GME",
+      "label": "GME",
+      "industry": "Rtail",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.407779503578916,
+      "harmonic_centrality": 0.012977013005275881,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1700858
+    },
+    {
+      "id": "FB",
+      "label": "FB",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.2296829970654052,
+      "harmonic_centrality": 0.013682761826486705,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1489707
+    },
+    {
+      "id": "MSFT",
+      "label": "MSFT",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.20255444852978916,
+      "harmonic_centrality": 0.01637206716930807,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1265922
+    },
+    {
+      "id": "AMD",
+      "label": "AMD",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.14923249657196894,
+      "harmonic_centrality": 0.009882961356228667,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 979647
+    },
+    {
+      "id": "NVDA",
+      "label": "NVDA",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.17056445876750764,
+      "harmonic_centrality": 0.01589804789584262,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1044885
+    },
+    {
+      "id": "GOOGL",
+      "label": "GOOGL",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.15907179892775755,
+      "harmonic_centrality": 0.027979159565403422,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 937804
+    },
+    {
+      "id": "NFLX",
+      "label": "NFLX",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.13194694991662417,
+      "harmonic_centrality": 0.022638616841471056,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 863490
+    },
+    {
+      "id": "BA",
+      "label": "BA",
+      "industry": "Aero",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.09811627074866631,
+      "harmonic_centrality": 0.01568519759325017,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 699079
+    },
+    {
+      "id": "PLTR",
+      "label": "PLTR",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.10963118865411883,
+      "harmonic_centrality": 0.022074846799020997,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 710695
+    },
+    {
+      "id": "AAL",
+      "label": "AAL",
+      "industry": "Trans",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07822794666741627,
+      "harmonic_centrality": 0.022487107551054115,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 574181
+    },
+    {
+      "id": "LCID",
+      "label": "LCID",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.05612244897959184,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07427005447158236,
+      "harmonic_centrality": 0.05542565110949459,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 465015
+    },
+    {
+      "id": "DKNG",
+      "label": "DKNG",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07253227381630994,
+      "harmonic_centrality": 0.02965902273828112,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 553351
+    },
+    {
+      "id": "ROKU",
+      "label": "ROKU",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08222686663522327,
+      "harmonic_centrality": 0.02124646139066841,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 590669
+    },
+    {
+      "id": "SQ",
+      "label": "SQ",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07345721514696053,
+      "harmonic_centrality": 0.04037557239654841,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 527480
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "industry": "Autos",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07995220000708708,
+      "harmonic_centrality": 0.020963166516205892,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 503125
+    },
+    {
+      "id": "SNAP",
+      "label": "SNAP",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07214112632325377,
+      "harmonic_centrality": 0.03696319114054572,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 526736
+    },
+    {
+      "id": "MRNA",
+      "label": "MRNA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.053051016514070556,
+      "harmonic_centrality": 0.018962213352119606,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 404502
+    },
+    {
+      "id": "TWTR",
+      "label": "TWTR",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07571457199943725,
+      "harmonic_centrality": 0.045072566630633054,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 536533
+    },
+    {
+      "id": "PENN",
+      "label": "PENN",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0008503401360544217,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07191195404741184,
+      "harmonic_centrality": 0.031758573773005,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 525474
+    },
+    {
+      "id": "DIS",
+      "label": "DIS",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05992569312528381,
+      "harmonic_centrality": 0.03258264415157975,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 429517
+    },
+    {
+      "id": "NKLA",
+      "label": "NKLA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04718504448199556,
+      "harmonic_centrality": 0.04091263317411332,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 331160
+    },
+    {
+      "id": "SPCE",
+      "label": "SPCE",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06972723551660481,
+      "harmonic_centrality": 0.026880370576157653,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 469921
+    },
+    {
+      "id": "FUBO",
+      "label": "FUBO",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05622917931589083,
+      "harmonic_centrality": 0.04107608157815917,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 392349
+    },
+    {
+      "id": "PYPL",
+      "label": "PYPL",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0551099402168618,
+      "harmonic_centrality": 0.050652026673480184,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 401338
+    },
+    {
+      "id": "WKHS",
+      "label": "WKHS",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05624165280861295,
+      "harmonic_centrality": 0.04389521528325748,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 383998
+    },
+    {
+      "id": "CLOV",
+      "label": "CLOV",
+      "industry": "Fin",
+      "degree_centrality": 0.9795918367346939,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.98,
+      "eigenvector_centrality": 0.06778430928092065,
+      "harmonic_centrality": 0.04676748320146258,
+      "eccentricity": 2,
+      "degree": 48,
+      "weighted_degree": 377858
+    },
+    {
+      "id": "ZM",
+      "label": "ZM",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04478067895116822,
+      "harmonic_centrality": 0.036872369054138036,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 314273
+    },
+    {
+      "id": "BAC",
+      "label": "BAC",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.040036887823952566,
+      "harmonic_centrality": 0.035449411398131896,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 312399
+    },
+    {
+      "id": "PFE",
+      "label": "PFE",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03944458313474005,
+      "harmonic_centrality": 0.038772546232197704,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 314831
+    },
+    {
+      "id": "DAL",
+      "label": "DAL",
+      "industry": "Trans",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.011054421768707483,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04024483761854236,
+      "harmonic_centrality": 0.03720291175274186,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 309479
+    },
+    {
+      "id": "FSR",
+      "label": "FSR",
+      "industry": "Books",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.10119047619047619,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05302801984362937,
+      "harmonic_centrality": 0.05757636221549054,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 357471
+    },
+    {
+      "id": "PLUG",
+      "label": "PLUG",
+      "industry": "ElcEq",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.046948798448829286,
+      "harmonic_centrality": 0.01731944717970851,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 333894
+    },
+    {
+      "id": "GE",
+      "label": "GE",
+      "industry": "Mach",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.034792221264633515,
+      "harmonic_centrality": 0.027071442000059308,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 258733
+    },
+    {
+      "id": "CRM",
+      "label": "CRM",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.12755102040816327,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.034257060852089224,
+      "harmonic_centrality": 0.06414159571391706,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 254852
+    },
+    {
+      "id": "WISH",
+      "label": "WISH",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06218626059745883,
+      "harmonic_centrality": 0.055259592120440085,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 364561
+    },
+    {
+      "id": "JPM",
+      "label": "JPM",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.46768707482993194,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0311867597038623,
+      "harmonic_centrality": 0.07941237976848792,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 237470
+    },
+    {
+      "id": "T",
+      "label": "T",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.04421768707482993,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.032767425094471024,
+      "harmonic_centrality": 0.047317107660619306,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 231831
+    },
+    {
+      "id": "COIN",
+      "label": "COIN",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9795918367346939,
+      "betweenness_centrality": 0.026360544217687073,
+      "closeness_centrality": 0.98,
+      "eigenvector_centrality": 0.04769991078044069,
+      "harmonic_centrality": 0.05164260910217929,
+      "eccentricity": 2,
+      "degree": 48,
+      "weighted_degree": 307787
+    },
+    {
+      "id": "TLRY",
+      "label": "TLRY",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04821073084742937,
+      "harmonic_centrality": 0.029916112185774967,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 310601
+    },
+    {
+      "id": "INTC",
+      "label": "INTC",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0008503401360544217,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.040468098409268946,
+      "harmonic_centrality": 0.04083844793470272,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 270886
+    },
+    {
+      "id": "INO",
+      "label": "INO",
+      "industry": "LabEq",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.08843537414965986,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03019421590266341,
+      "harmonic_centrality": 0.05884276334662353,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 222405
+    },
+    {
+      "id": "GNUS",
+      "label": "GNUS",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.4974489795918367,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.025685495597778437,
+      "harmonic_centrality": 0.08303923787311175,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 166730
+    },
+    {
+      "id": "PINS",
+      "label": "PINS",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.12755102040816327,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.029674238181876367,
+      "harmonic_centrality": 0.06942110296085788,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 240445
+    },
+    {
+      "id": "PTON",
+      "label": "PTON",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.037978472512093873,
+      "harmonic_centrality": 0.03241126518101137,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 270595
+    },
+    {
+      "id": "OCGN",
+      "label": "OCGN",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.2857142857142857,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.035592892982481104,
+      "harmonic_centrality": 0.06541308169109761,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 221309
+    },
+    {
+      "id": "WMT",
+      "label": "WMT",
+      "industry": "Rtail",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.022959183673469385,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03457057083126357,
+      "harmonic_centrality": 0.05171007096590154,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 238707
+    }
+  ],
+  "edges": [
+    {
+      "source": "TSLA",
+      "target": "AAL",
+      "weight": 45637
+    },
+    {
+      "source": "TSLA",
+      "target": "AAPL",
+      "weight": 272200
+    },
+    {
+      "source": "TSLA",
+      "target": "AMC",
+      "weight": 149018
+    },
+    {
+      "source": "TSLA",
+      "target": "AMD",
+      "weight": 87786
+    },
+    {
+      "source": "TSLA",
+      "target": "AMZN",
+      "weight": 180434
+    },
+    {
+      "source": "TSLA",
+      "target": "BA",
+      "weight": 54926
+    },
+    {
+      "source": "TSLA",
+      "target": "BAC",
+      "weight": 17915
+    },
+    {
+      "source": "TSLA",
+      "target": "CRM",
+      "weight": 15741
+    },
+    {
+      "source": "TSLA",
+      "target": "DAL",
+      "weight": 25574
+    },
+    {
+      "source": "TSLA",
+      "target": "DIS",
+      "weight": 27832
+    },
+    {
+      "source": "TSLA",
+      "target": "DKNG",
+      "weight": 46019
+    },
+    {
+      "source": "TSLA",
+      "target": "F",
+      "weight": 61980
+    },
+    {
+      "source": "TSLA",
+      "target": "FB",
+      "weight": 131248
+    },
+    {
+      "source": "TSLA",
+      "target": "FSR",
+      "weight": 36135
+    },
+    {
+      "source": "TSLA",
+      "target": "FUBO",
+      "weight": 27774
+    },
+    {
+      "source": "TSLA",
+      "target": "GE",
+      "weight": 16277
+    },
+    {
+      "source": "TSLA",
+      "target": "GME",
+      "weight": 136246
+    },
+    {
+      "source": "TSLA",
+      "target": "GNUS",
+      "weight": 17249
+    },
+    {
+      "source": "TSLA",
+      "target": "GOOGL",
+      "weight": 77951
+    },
+    {
+      "source": "TSLA",
+      "target": "INO",
+      "weight": 17819
+    },
+    {
+      "source": "TSLA",
+      "target": "INTC",
+      "weight": 20824
+    },
+    {
+      "source": "TSLA",
+      "target": "JPM",
+      "weight": 15305
+    },
+    {
+      "source": "TSLA",
+      "target": "LCID",
+      "weight": 94338
+    },
+    {
+      "source": "TSLA",
+      "target": "MRNA",
+      "weight": 32222
+    },
+    {
+      "source": "TSLA",
+      "target": "MSFT",
+      "weight": 102247
+    },
+    {
+      "source": "TSLA",
+      "target": "NFLX",
+      "weight": 75429
+    },
+    {
+      "source": "TSLA",
+      "target": "NKLA",
+      "weight": 39474
+    },
+    {
+      "source": "TSLA",
+      "target": "NVDA",
+      "weight": 121281
+    },
+    {
+      "source": "TSLA",
+      "target": "OCGN",
+      "weight": 16212
+    },
+    {
+      "source": "TSLA",
+      "target": "PENN",
+      "weight": 40914
+    },
+    {
+      "source": "TSLA",
+      "target": "PFE",
+      "weight": 16702
+    },
+    {
+      "source": "TSLA",
+      "target": "PINS",
+      "weight": 11940
+    },
+    {
+      "source": "TSLA",
+      "target": "PLTR",
+      "weight": 73565
+    },
+    {
+      "source": "TSLA",
+      "target": "PLUG",
+      "weight": 29335
+    },
+    {
+      "source": "TSLA",
+      "target": "PTON",
+      "weight": 21852
+    },
+    {
+      "source": "TSLA",
+      "target": "PYPL",
+      "weight": 26820
+    },
+    {
+      "source": "TSLA",
+      "target": "ROKU",
+      "weight": 48377
+    },
+    {
+      "source": "TSLA",
+      "target": "SNAP",
+      "weight": 29675
+    },
+    {
+      "source": "TSLA",
+      "target": "SPCE",
+      "weight": 33609
+    },
+    {
+      "source": "TSLA",
+      "target": "SQ",
+      "weight": 50897
+    },
+    {
+      "source": "TSLA",
+      "target": "T",
+      "weight": 19313
+    },
+    {
+      "source": "TSLA",
+      "target": "TLRY",
+      "weight": 23202
+    },
+    {
+      "source": "TSLA",
+      "target": "TWTR",
+      "weight": 37520
+    },
+    {
+      "source": "TSLA",
+      "target": "CLOV",
+      "weight": 29449
+    },
+    {
+      "source": "TSLA",
+      "target": "COIN",
+      "weight": 32928
+    },
+    {
+      "source": "TSLA",
+      "target": "WISH",
+      "weight": 32393
+    },
+    {
+      "source": "TSLA",
+      "target": "WMT",
+      "weight": 14955
+    },
+    {
+      "source": "TSLA",
+      "target": "ZM",
+      "weight": 31374
+    },
+    {
+      "source": "TSLA",
+      "target": "WKHS",
+      "weight": 35277
+    },
+    {
+      "source": "AAPL",
+      "target": "AAL",
+      "weight": 40439
+    },
+    {
+      "source": "AAPL",
+      "target": "SPCE",
+      "weight": 28721
+    },
+    {
+      "source": "AAPL",
+      "target": "FSR",
+      "weight": 17795
+    },
+    {
+      "source": "AAPL",
+      "target": "F",
+      "weight": 46170
+    },
+    {
+      "source": "AAPL",
+      "target": "GOOGL",
+      "weight": 114913
+    },
+    {
+      "source": "AAPL",
+      "target": "JPM",
+      "weight": 18302
+    },
+    {
+      "source": "AAPL",
+      "target": "NFLX",
+      "weight": 78366
+    },
+    {
+      "source": "AAPL",
+      "target": "PLUG",
+      "weight": 18989
+    },
+    {
+      "source": "AAPL",
+      "target": "INO",
+      "weight": 17641
+    },
+    {
+      "source": "AAPL",
+      "target": "PFE",
+      "weight": 21455
+    },
+    {
+      "source": "AAPL",
+      "target": "DAL",
+      "weight": 15866
+    },
+    {
+      "source": "AAPL",
+      "target": "NVDA",
+      "weight": 99456
+    },
+    {
+      "source": "AAPL",
+      "target": "TLRY",
+      "weight": 19008
+    },
+    {
+      "source": "AAPL",
+      "target": "DKNG",
+      "weight": 24913
+    },
+    {
+      "source": "AAPL",
+      "target": "WKHS",
+      "weight": 23028
+    },
+    {
+      "source": "AAPL",
+      "target": "SQ",
+      "weight": 34674
+    },
+    {
+      "source": "AAPL",
+      "target": "GE",
+      "weight": 20920
+    },
+    {
+      "source": "AAPL",
+      "target": "LCID",
+      "weight": 15250
+    },
+    {
+      "source": "AAPL",
+      "target": "AMZN",
+      "weight": 187668
+    },
+    {
+      "source": "AAPL",
+      "target": "FB",
+      "weight": 152848
+    },
+    {
+      "source": "AAPL",
+      "target": "ZM",
+      "weight": 20957
+    },
+    {
+      "source": "AAPL",
+      "target": "COIN",
+      "weight": 15927
+    },
+    {
+      "source": "AAPL",
+      "target": "AMC",
+      "weight": 79299
+    },
+    {
+      "source": "AAPL",
+      "target": "INTC",
+      "weight": 23855
+    },
+    {
+      "source": "AAPL",
+      "target": "BA",
+      "weight": 51924
+    },
+    {
+      "source": "AAPL",
+      "target": "ROKU",
+      "weight": 44383
+    },
+    {
+      "source": "AAPL",
+      "target": "TWTR",
+      "weight": 39699
+    },
+    {
+      "source": "AAPL",
+      "target": "GME",
+      "weight": 65286
+    },
+    {
+      "source": "AAPL",
+      "target": "CLOV",
+      "weight": 16702
+    },
+    {
+      "source": "AAPL",
+      "target": "BAC",
+      "weight": 23174
+    },
+    {
+      "source": "AAPL",
+      "target": "SNAP",
+      "weight": 37177
+    },
+    {
+      "source": "AAPL",
+      "target": "PINS",
+      "weight": 13945
+    },
+    {
+      "source": "AAPL",
+      "target": "PLTR",
+      "weight": 48210
+    },
+    {
+      "source": "AAPL",
+      "target": "WMT",
+      "weight": 20654
+    },
+    {
+      "source": "AAPL",
+      "target": "MSFT",
+      "weight": 151348
+    },
+    {
+      "source": "AAPL",
+      "target": "NKLA",
+      "weight": 19517
+    },
+    {
+      "source": "AAPL",
+      "target": "PTON",
+      "weight": 18064
+    },
+    {
+      "source": "AAPL",
+      "target": "AMD",
+      "weight": 91326
+    },
+    {
+      "source": "AAPL",
+      "target": "FUBO",
+      "weight": 19376
+    },
+    {
+      "source": "AAPL",
+      "target": "MRNA",
+      "weight": 23961
+    },
+    {
+      "source": "AAPL",
+      "target": "DIS",
+      "weight": 33232
+    },
+    {
+      "source": "AAPL",
+      "target": "GNUS",
+      "weight": 14226
+    },
+    {
+      "source": "AAPL",
+      "target": "CRM",
+      "weight": 16886
+    },
+    {
+      "source": "AAPL",
+      "target": "PYPL",
+      "weight": 28434
+    },
+    {
+      "source": "AAPL",
+      "target": "OCGN",
+      "weight": 12933
+    },
+    {
+      "source": "AAPL",
+      "target": "T",
+      "weight": 20507
+    },
+    {
+      "source": "AAPL",
+      "target": "PENN",
+      "weight": 28849
+    },
+    {
+      "source": "AAPL",
+      "target": "WISH",
+      "weight": 18197
+    },
+    {
+      "source": "AMC",
+      "target": "AAL",
+      "weight": 23670
+    },
+    {
+      "source": "AMC",
+      "target": "OCGN",
+      "weight": 24839
+    },
+    {
+      "source": "AMC",
+      "target": "GME",
+      "weight": 782077
+    },
+    {
+      "source": "AMC",
+      "target": "WKHS",
+      "weight": 26327
+    },
+    {
+      "source": "AMC",
+      "target": "MRNA",
+      "weight": 14337
+    },
+    {
+      "source": "AMC",
+      "target": "INTC",
+      "weight": 6601
+    },
+    {
+      "source": "AMC",
+      "target": "PENN",
+      "weight": 23997
+    },
+    {
+      "source": "AMC",
+      "target": "LCID",
+      "weight": 23159
+    },
+    {
+      "source": "AMC",
+      "target": "GE",
+      "weight": 9200
+    },
+    {
+      "source": "AMC",
+      "target": "NKLA",
+      "weight": 11508
+    },
+    {
+      "source": "AMC",
+      "target": "BAC",
+      "weight": 11672
+    },
+    {
+      "source": "AMC",
+      "target": "WISH",
+      "weight": 47631
+    },
+    {
+      "source": "AMC",
+      "target": "ROKU",
+      "weight": 11141
+    },
+    {
+      "source": "AMC",
+      "target": "PTON",
+      "weight": 9501
+    },
+    {
+      "source": "AMC",
+      "target": "MSFT",
+      "weight": 35284
+    },
+    {
+      "source": "AMC",
+      "target": "FB",
+      "weight": 39145
+    },
+    {
+      "source": "AMC",
+      "target": "PLTR",
+      "weight": 47689
+    },
+    {
+      "source": "AMC",
+      "target": "AMZN",
+      "weight": 43618
+    },
+    {
+      "source": "AMC",
+      "target": "TWTR",
+      "weight": 7974
+    },
+    {
+      "source": "AMC",
+      "target": "FUBO",
+      "weight": 24671
+    },
+    {
+      "source": "AMC",
+      "target": "TLRY",
+      "weight": 23025
+    },
+    {
+      "source": "AMC",
+      "target": "DAL",
+      "weight": 8936
+    },
+    {
+      "source": "AMC",
+      "target": "JPM",
+      "weight": 3547
+    },
+    {
+      "source": "AMC",
+      "target": "F",
+      "weight": 25202
+    },
+    {
+      "source": "AMC",
+      "target": "GNUS",
+      "weight": 10722
+    },
+    {
+      "source": "AMC",
+      "target": "FSR",
+      "weight": 22969
+    },
+    {
+      "source": "AMC",
+      "target": "PINS",
+      "weight": 3001
+    },
+    {
+      "source": "AMC",
+      "target": "T",
+      "weight": 7387
+    },
+    {
+      "source": "AMC",
+      "target": "WMT",
+      "weight": 5975
+    },
+    {
+      "source": "AMC",
+      "target": "CRM",
+      "weight": 3409
+    },
+    {
+      "source": "AMC",
+      "target": "SNAP",
+      "weight": 16728
+    },
+    {
+      "source": "AMC",
+      "target": "DKNG",
+      "weight": 22766
+    },
+    {
+      "source": "AMC",
+      "target": "NVDA",
+      "weight": 30940
+    },
+    {
+      "source": "AMC",
+      "target": "SPCE",
+      "weight": 32791
+    },
+    {
+      "source": "AMC",
+      "target": "CLOV",
+      "weight": 51995
+    },
+    {
+      "source": "AMC",
+      "target": "AMD",
+      "weight": 36171
+    },
+    {
+      "source": "AMC",
+      "target": "BA",
+      "weight": 17932
+    },
+    {
+      "source": "AMC",
+      "target": "PLUG",
+      "weight": 18343
+    },
+    {
+      "source": "AMC",
+      "target": "SQ",
+      "weight": 10585
+    },
+    {
+      "source": "AMC",
+      "target": "PFE",
+      "weight": 10369
+    },
+    {
+      "source": "AMC",
+      "target": "NFLX",
+      "weight": 15704
+    },
+    {
+      "source": "AMC",
+      "target": "PYPL",
+      "weight": 9018
+    },
+    {
+      "source": "AMC",
+      "target": "COIN",
+      "weight": 19267
+    },
+    {
+      "source": "AMC",
+      "target": "GOOGL",
+      "weight": 14799
+    },
+    {
+      "source": "AMC",
+      "target": "DIS",
+      "weight": 11808
+    },
+    {
+      "source": "AMC",
+      "target": "ZM",
+      "weight": 6544
+    },
+    {
+      "source": "AMC",
+      "target": "INO",
+      "weight": 7442
+    },
+    {
+      "source": "AMZN",
+      "target": "AAL",
+      "weight": 16891
+    },
+    {
+      "source": "AMZN",
+      "target": "AMD",
+      "weight": 52982
+    },
+    {
+      "source": "AMZN",
+      "target": "INO",
+      "weight": 7115
+    },
+    {
+      "source": "AMZN",
+      "target": "GOOGL",
+      "weight": 111364
+    },
+    {
+      "source": "AMZN",
+      "target": "PENN",
+      "weight": 16893
+    },
+    {
+      "source": "AMZN",
+      "target": "TLRY",
+      "weight": 11371
+    },
+    {
+      "source": "AMZN",
+      "target": "SQ",
+      "weight": 27495
+    },
+    {
+      "source": "AMZN",
+      "target": "GNUS",
+      "weight": 7498
+    },
+    {
+      "source": "AMZN",
+      "target": "INTC",
+      "weight": 15764
+    },
+    {
+      "source": "AMZN",
+      "target": "MRNA",
+      "weight": 17820
+    },
+    {
+      "source": "AMZN",
+      "target": "FB",
+      "weight": 123163
+    },
+    {
+      "source": "AMZN",
+      "target": "GE",
+      "weight": 10505
+    },
+    {
+      "source": "AMZN",
+      "target": "OCGN",
+      "weight": 4226
+    },
+    {
+      "source": "AMZN",
+      "target": "WKHS",
+      "weight": 8090
+    },
+    {
+      "source": "AMZN",
+      "target": "MSFT",
+      "weight": 103364
+    },
+    {
+      "source": "AMZN",
+      "target": "CRM",
+      "weight": 17423
+    },
+    {
+      "source": "AMZN",
+      "target": "FSR",
+      "weight": 5780
+    },
+    {
+      "source": "AMZN",
+      "target": "NKLA",
+      "weight": 11043
+    },
+    {
+      "source": "AMZN",
+      "target": "JPM",
+      "weight": 14518
+    },
+    {
+      "source": "AMZN",
+      "target": "BA",
+      "weight": 40656
+    },
+    {
+      "source": "AMZN",
+      "target": "DIS",
+      "weight": 25868
+    },
+    {
+      "source": "AMZN",
+      "target": "DAL",
+      "weight": 13403
+    },
+    {
+      "source": "AMZN",
+      "target": "FUBO",
+      "weight": 9742
+    },
+    {
+      "source": "AMZN",
+      "target": "SNAP",
+      "weight": 24464
+    },
+    {
+      "source": "AMZN",
+      "target": "NVDA",
+      "weight": 78630
+    },
+    {
+      "source": "AMZN",
+      "target": "PLUG",
+      "weight": 10088
+    },
+    {
+      "source": "AMZN",
+      "target": "ZM",
+      "weight": 18389
+    },
+    {
+      "source": "AMZN",
+      "target": "PFE",
+      "weight": 12588
+    },
+    {
+      "source": "AMZN",
+      "target": "PTON",
+      "weight": 11547
+    },
+    {
+      "source": "AMZN",
+      "target": "SPCE",
+      "weight": 18833
+    },
+    {
+      "source": "AMZN",
+      "target": "GME",
+      "weight": 37601
+    },
+    {
+      "source": "AMZN",
+      "target": "PYPL",
+      "weight": 26320
+    },
+    {
+      "source": "AMZN",
+      "target": "LCID",
+      "weight": 5458
+    },
+    {
+      "source": "AMZN",
+      "target": "WISH",
+      "weight": 11277
+    },
+    {
+      "source": "AMZN",
+      "target": "COIN",
+      "weight": 7679
+    },
+    {
+      "source": "AMZN",
+      "target": "TWTR",
+      "weight": 34732
+    },
+    {
+      "source": "AMZN",
+      "target": "PINS",
+      "weight": 13800
+    },
+    {
+      "source": "AMZN",
+      "target": "ROKU",
+      "weight": 40865
+    },
+    {
+      "source": "AMZN",
+      "target": "CLOV",
+      "weight": 8685
+    },
+    {
+      "source": "AMZN",
+      "target": "F",
+      "weight": 25986
+    },
+    {
+      "source": "AMZN",
+      "target": "T",
+      "weight": 10515
+    },
+    {
+      "source": "AMZN",
+      "target": "DKNG",
+      "weight": 11228
+    },
+    {
+      "source": "AMZN",
+      "target": "WMT",
+      "weight": 21410
+    },
+    {
+      "source": "AMZN",
+      "target": "BAC",
+      "weight": 12303
+    },
+    {
+      "source": "AMZN",
+      "target": "NFLX",
+      "weight": 76944
+    },
+    {
+      "source": "AMZN",
+      "target": "PLTR",
+      "weight": 20258
+    },
+    {
+      "source": "GME",
+      "target": "AAL",
+      "weight": 17448
+    },
+    {
+      "source": "GME",
+      "target": "AMD",
+      "weight": 23076
+    },
+    {
+      "source": "GME",
+      "target": "BA",
+      "weight": 13670
+    },
+    {
+      "source": "GME",
+      "target": "BAC",
+      "weight": 4568
+    },
+    {
+      "source": "GME",
+      "target": "CRM",
+      "weight": 2783
+    },
+    {
+      "source": "GME",
+      "target": "DAL",
+      "weight": 7052
+    },
+    {
+      "source": "GME",
+      "target": "DIS",
+      "weight": 6812
+    },
+    {
+      "source": "GME",
+      "target": "DKNG",
+      "weight": 21012
+    },
+    {
+      "source": "GME",
+      "target": "F",
+      "weight": 11507
+    },
+    {
+      "source": "GME",
+      "target": "FB",
+      "weight": 31677
+    },
+    {
+      "source": "GME",
+      "target": "FSR",
+      "weight": 22148
+    },
+    {
+      "source": "GME",
+      "target": "FUBO",
+      "weight": 25049
+    },
+    {
+      "source": "GME",
+      "target": "GE",
+      "weight": 5099
+    },
+    {
+      "source": "GME",
+      "target": "SPCE",
+      "weight": 25136
+    },
+    {
+      "source": "GME",
+      "target": "GNUS",
+      "weight": 7618
+    },
+    {
+      "source": "GME",
+      "target": "TLRY",
+      "weight": 21867
+    },
+    {
+      "source": "GME",
+      "target": "MSFT",
+      "weight": 32391
+    },
+    {
+      "source": "GME",
+      "target": "COIN",
+      "weight": 17331
+    },
+    {
+      "source": "GME",
+      "target": "T",
+      "weight": 3511
+    },
+    {
+      "source": "GME",
+      "target": "PFE",
+      "weight": 7347
+    },
+    {
+      "source": "GME",
+      "target": "WMT",
+      "weight": 3435
+    },
+    {
+      "source": "GME",
+      "target": "JPM",
+      "weight": 2810
+    },
+    {
+      "source": "GME",
+      "target": "MRNA",
+      "weight": 10522
+    },
+    {
+      "source": "GME",
+      "target": "ZM",
+      "weight": 6088
+    },
+    {
+      "source": "GME",
+      "target": "INTC",
+      "weight": 7630
+    },
+    {
+      "source": "GME",
+      "target": "NFLX",
+      "weight": 15252
+    },
+    {
+      "source": "GME",
+      "target": "INO",
+      "weight": 7445
+    },
+    {
+      "source": "GME",
+      "target": "WISH",
+      "weight": 28741
+    },
+    {
+      "source": "GME",
+      "target": "PINS",
+      "weight": 3138
+    },
+    {
+      "source": "GME",
+      "target": "PLUG",
+      "weight": 15168
+    },
+    {
+      "source": "GME",
+      "target": "SNAP",
+      "weight": 15156
+    },
+    {
+      "source": "GME",
+      "target": "OCGN",
+      "weight": 19005
+    },
+    {
+      "source": "GME",
+      "target": "ROKU",
+      "weight": 9086
+    },
+    {
+      "source": "GME",
+      "target": "GOOGL",
+      "weight": 12140
+    },
+    {
+      "source": "GME",
+      "target": "PYPL",
+      "weight": 5391
+    },
+    {
+      "source": "GME",
+      "target": "PTON",
+      "weight": 10564
+    },
+    {
+      "source": "GME",
+      "target": "PLTR",
+      "weight": 39689
+    },
+    {
+      "source": "GME",
+      "target": "NVDA",
+      "weight": 24135
+    },
+    {
+      "source": "GME",
+      "target": "PENN",
+      "weight": 21005
+    },
+    {
+      "source": "GME",
+      "target": "TWTR",
+      "weight": 7245
+    },
+    {
+      "source": "GME",
+      "target": "WKHS",
+      "weight": 20024
+    },
+    {
+      "source": "GME",
+      "target": "CLOV",
+      "weight": 47277
+    },
+    {
+      "source": "GME",
+      "target": "SQ",
+      "weight": 8966
+    },
+    {
+      "source": "GME",
+      "target": "NKLA",
+      "weight": 10808
+    },
+    {
+      "source": "GME",
+      "target": "LCID",
+      "weight": 21826
+    },
+    {
+      "source": "FB",
+      "target": "AAL",
+      "weight": 25407
+    },
+    {
+      "source": "FB",
+      "target": "AMD",
+      "weight": 51252
+    },
+    {
+      "source": "FB",
+      "target": "BA",
+      "weight": 39194
+    },
+    {
+      "source": "FB",
+      "target": "BAC",
+      "weight": 13183
+    },
+    {
+      "source": "FB",
+      "target": "CRM",
+      "weight": 13630
+    },
+    {
+      "source": "FB",
+      "target": "DAL",
+      "weight": 11473
+    },
+    {
+      "source": "FB",
+      "target": "DIS",
+      "weight": 22928
+    },
+    {
+      "source": "FB",
+      "target": "DKNG",
+      "weight": 23290
+    },
+    {
+      "source": "FB",
+      "target": "F",
+      "weight": 20491
+    },
+    {
+      "source": "FB",
+      "target": "INO",
+      "weight": 7473
+    },
+    {
+      "source": "FB",
+      "target": "PINS",
+      "weight": 15021
+    },
+    {
+      "source": "FB",
+      "target": "SQ",
+      "weight": 24298
+    },
+    {
+      "source": "FB",
+      "target": "ROKU",
+      "weight": 28113
+    },
+    {
+      "source": "FB",
+      "target": "TLRY",
+      "weight": 9507
+    },
+    {
+      "source": "FB",
+      "target": "LCID",
+      "weight": 6834
+    },
+    {
+      "source": "FB",
+      "target": "NFLX",
+      "weight": 60795
+    },
+    {
+      "source": "FB",
+      "target": "GOOGL",
+      "weight": 97729
+    },
+    {
+      "source": "FB",
+      "target": "GE",
+      "weight": 10273
+    },
+    {
+      "source": "FB",
+      "target": "ZM",
+      "weight": 15547
+    },
+    {
+      "source": "FB",
+      "target": "NVDA",
+      "weight": 62781
+    },
+    {
+      "source": "FB",
+      "target": "INTC",
+      "weight": 12465
+    },
+    {
+      "source": "FB",
+      "target": "JPM",
+      "weight": 13953
+    },
+    {
+      "source": "FB",
+      "target": "SPCE",
+      "weight": 13973
+    },
+    {
+      "source": "FB",
+      "target": "PLUG",
+      "weight": 9245
+    },
+    {
+      "source": "FB",
+      "target": "PFE",
+      "weight": 12524
+    },
+    {
+      "source": "FB",
+      "target": "SNAP",
+      "weight": 39284
+    },
+    {
+      "source": "FB",
+      "target": "COIN",
+      "weight": 12868
+    },
+    {
+      "source": "FB",
+      "target": "GNUS",
+      "weight": 2559
+    },
+    {
+      "source": "FB",
+      "target": "FUBO",
+      "weight": 13082
+    },
+    {
+      "source": "FB",
+      "target": "CLOV",
+      "weight": 7382
+    },
+    {
+      "source": "FB",
+      "target": "WISH",
+      "weight": 8482
+    },
+    {
+      "source": "FB",
+      "target": "PLTR",
+      "weight": 22317
+    },
+    {
+      "source": "FB",
+      "target": "MRNA",
+      "weight": 14446
+    },
+    {
+      "source": "FB",
+      "target": "PTON",
+      "weight": 10046
+    },
+    {
+      "source": "FB",
+      "target": "PYPL",
+      "weight": 22717
+    },
+    {
+      "source": "FB",
+      "target": "PENN",
+      "weight": 22204
+    },
+    {
+      "source": "FB",
+      "target": "FSR",
+      "weight": 12296
+    },
+    {
+      "source": "FB",
+      "target": "WMT",
+      "weight": 14435
+    },
+    {
+      "source": "FB",
+      "target": "T",
+      "weight": 10484
+    },
+    {
+      "source": "FB",
+      "target": "OCGN",
+      "weight": 5289
+    },
+    {
+      "source": "FB",
+      "target": "WKHS",
+      "weight": 13209
+    },
+    {
+      "source": "FB",
+      "target": "MSFT",
+      "weight": 97678
+    },
+    {
+      "source": "FB",
+      "target": "NKLA",
+      "weight": 11609
+    },
+    {
+      "source": "FB",
+      "target": "TWTR",
+      "weight": 49860
+    },
+    {
+      "source": "MSFT",
+      "target": "AAL",
+      "weight": 23736
+    },
+    {
+      "source": "MSFT",
+      "target": "AMD",
+      "weight": 49080
+    },
+    {
+      "source": "MSFT",
+      "target": "BA",
+      "weight": 30272
+    },
+    {
+      "source": "MSFT",
+      "target": "BAC",
+      "weight": 11774
+    },
+    {
+      "source": "MSFT",
+      "target": "CRM",
+      "weight": 15227
+    },
+    {
+      "source": "MSFT",
+      "target": "DAL",
+      "weight": 7474
+    },
+    {
+      "source": "MSFT",
+      "target": "DIS",
+      "weight": 19859
+    },
+    {
+      "source": "MSFT",
+      "target": "DKNG",
+      "weight": 17520
+    },
+    {
+      "source": "MSFT",
+      "target": "F",
+      "weight": 16536
+    },
+    {
+      "source": "MSFT",
+      "target": "FSR",
+      "weight": 12196
+    },
+    {
+      "source": "MSFT",
+      "target": "FUBO",
+      "weight": 13772
+    },
+    {
+      "source": "MSFT",
+      "target": "GE",
+      "weight": 12371
+    },
+    {
+      "source": "MSFT",
+      "target": "GNUS",
+      "weight": 2008
+    },
+    {
+      "source": "MSFT",
+      "target": "GOOGL",
+      "weight": 79709
+    },
+    {
+      "source": "MSFT",
+      "target": "INO",
+      "weight": 9429
+    },
+    {
+      "source": "MSFT",
+      "target": "INTC",
+      "weight": 12906
+    },
+    {
+      "source": "MSFT",
+      "target": "JPM",
+      "weight": 11320
+    },
+    {
+      "source": "MSFT",
+      "target": "LCID",
+      "weight": 12161
+    },
+    {
+      "source": "MSFT",
+      "target": "MRNA",
+      "weight": 10425
+    },
+    {
+      "source": "MSFT",
+      "target": "PTON",
+      "weight": 8491
+    },
+    {
+      "source": "MSFT",
+      "target": "PINS",
+      "weight": 9810
+    },
+    {
+      "source": "MSFT",
+      "target": "WMT",
+      "weight": 11051
+    },
+    {
+      "source": "MSFT",
+      "target": "PFE",
+      "weight": 12292
+    },
+    {
+      "source": "MSFT",
+      "target": "SNAP",
+      "weight": 22025
+    },
+    {
+      "source": "MSFT",
+      "target": "WISH",
+      "weight": 4830
+    },
+    {
+      "source": "MSFT",
+      "target": "NVDA",
+      "weight": 51411
+    },
+    {
+      "source": "MSFT",
+      "target": "CLOV",
+      "weight": 6479
+    },
+    {
+      "source": "MSFT",
+      "target": "PYPL",
+      "weight": 19386
+    },
+    {
+      "source": "MSFT",
+      "target": "NFLX",
+      "weight": 40143
+    },
+    {
+      "source": "MSFT",
+      "target": "PLUG",
+      "weight": 6847
+    },
+    {
+      "source": "MSFT",
+      "target": "WKHS",
+      "weight": 12672
+    },
+    {
+      "source": "MSFT",
+      "target": "SPCE",
+      "weight": 14828
+    },
+    {
+      "source": "MSFT",
+      "target": "NKLA",
+      "weight": 11163
+    },
+    {
+      "source": "MSFT",
+      "target": "TWTR",
+      "weight": 24240
+    },
+    {
+      "source": "MSFT",
+      "target": "PENN",
+      "weight": 18945
+    },
+    {
+      "source": "MSFT",
+      "target": "COIN",
+      "weight": 9424
+    },
+    {
+      "source": "MSFT",
+      "target": "OCGN",
+      "weight": 4342
+    },
+    {
+      "source": "MSFT",
+      "target": "T",
+      "weight": 9895
+    },
+    {
+      "source": "MSFT",
+      "target": "ZM",
+      "weight": 11558
+    },
+    {
+      "source": "MSFT",
+      "target": "PLTR",
+      "weight": 18158
+    },
+    {
+      "source": "MSFT",
+      "target": "ROKU",
+      "weight": 19734
+    },
+    {
+      "source": "MSFT",
+      "target": "TLRY",
+      "weight": 7945
+    },
+    {
+      "source": "MSFT",
+      "target": "SQ",
+      "weight": 20166
+    },
+    {
+      "source": "AMD",
+      "target": "AAL",
+      "weight": 18434
+    },
+    {
+      "source": "AMD",
+      "target": "T",
+      "weight": 8546
+    },
+    {
+      "source": "AMD",
+      "target": "PLUG",
+      "weight": 9950
+    },
+    {
+      "source": "AMD",
+      "target": "SNAP",
+      "weight": 13415
+    },
+    {
+      "source": "AMD",
+      "target": "PLTR",
+      "weight": 21772
+    },
+    {
+      "source": "AMD",
+      "target": "SPCE",
+      "weight": 14460
+    },
+    {
+      "source": "AMD",
+      "target": "PTON",
+      "weight": 8667
+    },
+    {
+      "source": "AMD",
+      "target": "PINS",
+      "weight": 8276
+    },
+    {
+      "source": "AMD",
+      "target": "F",
+      "weight": 20106
+    },
+    {
+      "source": "AMD",
+      "target": "BAC",
+      "weight": 13064
+    },
+    {
+      "source": "AMD",
+      "target": "SQ",
+      "weight": 17992
+    },
+    {
+      "source": "AMD",
+      "target": "CLOV",
+      "weight": 8320
+    },
+    {
+      "source": "AMD",
+      "target": "DIS",
+      "weight": 16286
+    },
+    {
+      "source": "AMD",
+      "target": "DAL",
+      "weight": 10350
+    },
+    {
+      "source": "AMD",
+      "target": "NVDA",
+      "weight": 67350
+    },
+    {
+      "source": "AMD",
+      "target": "LCID",
+      "weight": 3702
+    },
+    {
+      "source": "AMD",
+      "target": "INTC",
+      "weight": 18818
+    },
+    {
+      "source": "AMD",
+      "target": "JPM",
+      "weight": 6342
+    },
+    {
+      "source": "AMD",
+      "target": "WMT",
+      "weight": 7974
+    },
+    {
+      "source": "AMD",
+      "target": "DKNG",
+      "weight": 11812
+    },
+    {
+      "source": "AMD",
+      "target": "FSR",
+      "weight": 5883
+    },
+    {
+      "source": "AMD",
+      "target": "TLRY",
+      "weight": 10157
+    },
+    {
+      "source": "AMD",
+      "target": "CRM",
+      "weight": 6360
+    },
+    {
+      "source": "AMD",
+      "target": "COIN",
+      "weight": 10028
+    },
+    {
+      "source": "AMD",
+      "target": "PFE",
+      "weight": 12170
+    },
+    {
+      "source": "AMD",
+      "target": "GOOGL",
+      "weight": 25597
+    },
+    {
+      "source": "AMD",
+      "target": "TWTR",
+      "weight": 16411
+    },
+    {
+      "source": "AMD",
+      "target": "WISH",
+      "weight": 8154
+    },
+    {
+      "source": "AMD",
+      "target": "GE",
+      "weight": 12476
+    },
+    {
+      "source": "AMD",
+      "target": "MRNA",
+      "weight": 14503
+    },
+    {
+      "source": "AMD",
+      "target": "FUBO",
+      "weight": 7865
+    },
+    {
+      "source": "AMD",
+      "target": "GNUS",
+      "weight": 7426
+    },
+    {
+      "source": "AMD",
+      "target": "PYPL",
+      "weight": 13297
+    },
+    {
+      "source": "AMD",
+      "target": "NKLA",
+      "weight": 9788
+    },
+    {
+      "source": "AMD",
+      "target": "BA",
+      "weight": 31609
+    },
+    {
+      "source": "AMD",
+      "target": "ROKU",
+      "weight": 23911
+    },
+    {
+      "source": "AMD",
+      "target": "PENN",
+      "weight": 9224
+    },
+    {
+      "source": "AMD",
+      "target": "WKHS",
+      "weight": 9847
+    },
+    {
+      "source": "AMD",
+      "target": "NFLX",
+      "weight": 25925
+    },
+    {
+      "source": "AMD",
+      "target": "INO",
+      "weight": 6014
+    },
+    {
+      "source": "AMD",
+      "target": "OCGN",
+      "weight": 4669
+    },
+    {
+      "source": "AMD",
+      "target": "ZM",
+      "weight": 11024
+    },
+    {
+      "source": "NVDA",
+      "target": "AAL",
+      "weight": 11067
+    },
+    {
+      "source": "NVDA",
+      "target": "BA",
+      "weight": 26850
+    },
+    {
+      "source": "NVDA",
+      "target": "BAC",
+      "weight": 8766
+    },
+    {
+      "source": "NVDA",
+      "target": "CRM",
+      "weight": 13765
+    },
+    {
+      "source": "NVDA",
+      "target": "DAL",
+      "weight": 8302
+    },
+    {
+      "source": "NVDA",
+      "target": "DIS",
+      "weight": 13285
+    },
+    {
+      "source": "NVDA",
+      "target": "DKNG",
+      "weight": 10289
+    },
+    {
+      "source": "NVDA",
+      "target": "F",
+      "weight": 14143
+    },
+    {
+      "source": "NVDA",
+      "target": "FSR",
+      "weight": 2995
+    },
+    {
+      "source": "NVDA",
+      "target": "FUBO",
+      "weight": 6145
+    },
+    {
+      "source": "NVDA",
+      "target": "GE",
+      "weight": 3807
+    },
+    {
+      "source": "NVDA",
+      "target": "GNUS",
+      "weight": 4422
+    },
+    {
+      "source": "NVDA",
+      "target": "GOOGL",
+      "weight": 41398
+    },
+    {
+      "source": "NVDA",
+      "target": "INO",
+      "weight": 3923
+    },
+    {
+      "source": "NVDA",
+      "target": "INTC",
+      "weight": 14990
+    },
+    {
+      "source": "NVDA",
+      "target": "JPM",
+      "weight": 7836
+    },
+    {
+      "source": "NVDA",
+      "target": "LCID",
+      "weight": 12970
+    },
+    {
+      "source": "NVDA",
+      "target": "MRNA",
+      "weight": 16694
+    },
+    {
+      "source": "NVDA",
+      "target": "NFLX",
+      "weight": 42708
+    },
+    {
+      "source": "NVDA",
+      "target": "NKLA",
+      "weight": 6945
+    },
+    {
+      "source": "NVDA",
+      "target": "WISH",
+      "weight": 6868
+    },
+    {
+      "source": "NVDA",
+      "target": "ROKU",
+      "weight": 27580
+    },
+    {
+      "source": "NVDA",
+      "target": "SQ",
+      "weight": 26427
+    },
+    {
+      "source": "NVDA",
+      "target": "PINS",
+      "weight": 5968
+    },
+    {
+      "source": "NVDA",
+      "target": "SPCE",
+      "weight": 13794
+    },
+    {
+      "source": "NVDA",
+      "target": "WMT",
+      "weight": 9169
+    },
+    {
+      "source": "NVDA",
+      "target": "TLRY",
+      "weight": 8279
+    },
+    {
+      "source": "NVDA",
+      "target": "PLTR",
+      "weight": 19607
+    },
+    {
+      "source": "NVDA",
+      "target": "PYPL",
+      "weight": 17531
+    },
+    {
+      "source": "NVDA",
+      "target": "PTON",
+      "weight": 9498
+    },
+    {
+      "source": "NVDA",
+      "target": "SNAP",
+      "weight": 11427
+    },
+    {
+      "source": "NVDA",
+      "target": "OCGN",
+      "weight": 1988
+    },
+    {
+      "source": "NVDA",
+      "target": "PENN",
+      "weight": 9863
+    },
+    {
+      "source": "NVDA",
+      "target": "WKHS",
+      "weight": 3383
+    },
+    {
+      "source": "NVDA",
+      "target": "T",
+      "weight": 5364
+    },
+    {
+      "source": "NVDA",
+      "target": "PFE",
+      "weight": 9873
+    },
+    {
+      "source": "NVDA",
+      "target": "COIN",
+      "weight": 8624
+    },
+    {
+      "source": "NVDA",
+      "target": "PLUG",
+      "weight": 8536
+    },
+    {
+      "source": "NVDA",
+      "target": "CLOV",
+      "weight": 5234
+    },
+    {
+      "source": "NVDA",
+      "target": "TWTR",
+      "weight": 15619
+    },
+    {
+      "source": "NVDA",
+      "target": "ZM",
+      "weight": 12969
+    },
+    {
+      "source": "GOOGL",
+      "target": "AAL",
+      "weight": 5541
+    },
+    {
+      "source": "GOOGL",
+      "target": "BA",
+      "weight": 21917
+    },
+    {
+      "source": "GOOGL",
+      "target": "BAC",
+      "weight": 9413
+    },
+    {
+      "source": "GOOGL",
+      "target": "CRM",
+      "weight": 12323
+    },
+    {
+      "source": "GOOGL",
+      "target": "DAL",
+      "weight": 4242
+    },
+    {
+      "source": "GOOGL",
+      "target": "DIS",
+      "weight": 18052
+    },
+    {
+      "source": "GOOGL",
+      "target": "DKNG",
+      "weight": 5820
+    },
+    {
+      "source": "GOOGL",
+      "target": "F",
+      "weight": 14567
+    },
+    {
+      "source": "GOOGL",
+      "target": "FSR",
+      "weight": 2327
+    },
+    {
+      "source": "GOOGL",
+      "target": "FUBO",
+      "weight": 4694
+    },
+    {
+      "source": "GOOGL",
+      "target": "GE",
+      "weight": 7782
+    },
+    {
+      "source": "GOOGL",
+      "target": "GNUS",
+      "weight": 1386
+    },
+    {
+      "source": "GOOGL",
+      "target": "SPCE",
+      "weight": 6657
+    },
+    {
+      "source": "GOOGL",
+      "target": "NFLX",
+      "weight": 45010
+    },
+    {
+      "source": "GOOGL",
+      "target": "COIN",
+      "weight": 3792
+    },
+    {
+      "source": "GOOGL",
+      "target": "ROKU",
+      "weight": 16593
+    },
+    {
+      "source": "GOOGL",
+      "target": "WMT",
+      "weight": 9495
+    },
+    {
+      "source": "GOOGL",
+      "target": "PLTR",
+      "weight": 8577
+    },
+    {
+      "source": "GOOGL",
+      "target": "TWTR",
+      "weight": 26624
+    },
+    {
+      "source": "GOOGL",
+      "target": "OCGN",
+      "weight": 787
+    },
+    {
+      "source": "GOOGL",
+      "target": "NKLA",
+      "weight": 3344
+    },
+    {
+      "source": "GOOGL",
+      "target": "PLUG",
+      "weight": 3202
+    },
+    {
+      "source": "GOOGL",
+      "target": "MRNA",
+      "weight": 6781
+    },
+    {
+      "source": "GOOGL",
+      "target": "INO",
+      "weight": 2161
+    },
+    {
+      "source": "GOOGL",
+      "target": "LCID",
+      "weight": 1431
+    },
+    {
+      "source": "GOOGL",
+      "target": "WKHS",
+      "weight": 2163
+    },
+    {
+      "source": "GOOGL",
+      "target": "PENN",
+      "weight": 7472
+    },
+    {
+      "source": "GOOGL",
+      "target": "ZM",
+      "weight": 7495
+    },
+    {
+      "source": "GOOGL",
+      "target": "PINS",
+      "weight": 9327
+    },
+    {
+      "source": "GOOGL",
+      "target": "TLRY",
+      "weight": 4285
+    },
+    {
+      "source": "GOOGL",
+      "target": "PYPL",
+      "weight": 16008
+    },
+    {
+      "source": "GOOGL",
+      "target": "PFE",
+      "weight": 7937
+    },
+    {
+      "source": "GOOGL",
+      "target": "SNAP",
+      "weight": 16638
+    },
+    {
+      "source": "GOOGL",
+      "target": "PTON",
+      "weight": 4805
+    },
+    {
+      "source": "GOOGL",
+      "target": "JPM",
+      "weight": 10499
+    },
+    {
+      "source": "GOOGL",
+      "target": "INTC",
+      "weight": 8893
+    },
+    {
+      "source": "GOOGL",
+      "target": "SQ",
+      "weight": 14350
+    },
+    {
+      "source": "GOOGL",
+      "target": "CLOV",
+      "weight": 1736
+    },
+    {
+      "source": "GOOGL",
+      "target": "WISH",
+      "weight": 1497
+    },
+    {
+      "source": "GOOGL",
+      "target": "T",
+      "weight": 6581
+    },
+    {
+      "source": "NFLX",
+      "target": "AAL",
+      "weight": 15267
+    },
+    {
+      "source": "NFLX",
+      "target": "BA",
+      "weight": 25798
+    },
+    {
+      "source": "NFLX",
+      "target": "BAC",
+      "weight": 9007
+    },
+    {
+      "source": "NFLX",
+      "target": "CRM",
+      "weight": 12907
+    },
+    {
+      "source": "NFLX",
+      "target": "DAL",
+      "weight": 12430
+    },
+    {
+      "source": "NFLX",
+      "target": "DIS",
+      "weight": 24912
+    },
+    {
+      "source": "NFLX",
+      "target": "DKNG",
+      "weight": 11974
+    },
+    {
+      "source": "NFLX",
+      "target": "F",
+      "weight": 9445
+    },
+    {
+      "source": "NFLX",
+      "target": "FSR",
+      "weight": 1498
+    },
+    {
+      "source": "NFLX",
+      "target": "FUBO",
+      "weight": 6751
+    },
+    {
+      "source": "NFLX",
+      "target": "GE",
+      "weight": 5754
+    },
+    {
+      "source": "NFLX",
+      "target": "GNUS",
+      "weight": 1847
+    },
+    {
+      "source": "NFLX",
+      "target": "INO",
+      "weight": 4690
+    },
+    {
+      "source": "NFLX",
+      "target": "INTC",
+      "weight": 14161
+    },
+    {
+      "source": "NFLX",
+      "target": "JPM",
+      "weight": 10517
+    },
+    {
+      "source": "NFLX",
+      "target": "LCID",
+      "weight": 8030
+    },
+    {
+      "source": "NFLX",
+      "target": "MRNA",
+      "weight": 9051
+    },
+    {
+      "source": "NFLX",
+      "target": "OCGN",
+      "weight": 1166
+    },
+    {
+      "source": "NFLX",
+      "target": "PENN",
+      "weight": 11482
+    },
+    {
+      "source": "NFLX",
+      "target": "PFE",
+      "weight": 6532
+    },
+    {
+      "source": "NFLX",
+      "target": "WISH",
+      "weight": 5797
+    },
+    {
+      "source": "NFLX",
+      "target": "COIN",
+      "weight": 4211
+    },
+    {
+      "source": "NFLX",
+      "target": "SNAP",
+      "weight": 17026
+    },
+    {
+      "source": "NFLX",
+      "target": "PLUG",
+      "weight": 3827
+    },
+    {
+      "source": "NFLX",
+      "target": "PINS",
+      "weight": 4582
+    },
+    {
+      "source": "NFLX",
+      "target": "SPCE",
+      "weight": 7060
+    },
+    {
+      "source": "NFLX",
+      "target": "TWTR",
+      "weight": 22557
+    },
+    {
+      "source": "NFLX",
+      "target": "PLTR",
+      "weight": 8289
+    },
+    {
+      "source": "NFLX",
+      "target": "PYPL",
+      "weight": 12446
+    },
+    {
+      "source": "NFLX",
+      "target": "SQ",
+      "weight": 16723
+    },
+    {
+      "source": "NFLX",
+      "target": "PTON",
+      "weight": 5749
+    },
+    {
+      "source": "NFLX",
+      "target": "T",
+      "weight": 10908
+    },
+    {
+      "source": "NFLX",
+      "target": "WKHS",
+      "weight": 3701
+    },
+    {
+      "source": "NFLX",
+      "target": "NKLA",
+      "weight": 6284
+    },
+    {
+      "source": "NFLX",
+      "target": "TLRY",
+      "weight": 6275
+    },
+    {
+      "source": "NFLX",
+      "target": "CLOV",
+      "weight": 3486
+    },
+    {
+      "source": "NFLX",
+      "target": "ZM",
+      "weight": 10466
+    },
+    {
+      "source": "NFLX",
+      "target": "ROKU",
+      "weight": 25833
+    },
+    {
+      "source": "NFLX",
+      "target": "WMT",
+      "weight": 8775
+    },
+    {
+      "source": "BA",
+      "target": "AAL",
+      "weight": 21535
+    },
+    {
+      "source": "BA",
+      "target": "FUBO",
+      "weight": 3714
+    },
+    {
+      "source": "BA",
+      "target": "T",
+      "weight": 5233
+    },
+    {
+      "source": "BA",
+      "target": "F",
+      "weight": 14750
+    },
+    {
+      "source": "BA",
+      "target": "GE",
+      "weight": 11906
+    },
+    {
+      "source": "BA",
+      "target": "WMT",
+      "weight": 10340
+    },
+    {
+      "source": "BA",
+      "target": "PFE",
+      "weight": 8063
+    },
+    {
+      "source": "BA",
+      "target": "PENN",
+      "weight": 12968
+    },
+    {
+      "source": "BA",
+      "target": "DKNG",
+      "weight": 8799
+    },
+    {
+      "source": "BA",
+      "target": "INO",
+      "weight": 6121
+    },
+    {
+      "source": "BA",
+      "target": "BAC",
+      "weight": 11099
+    },
+    {
+      "source": "BA",
+      "target": "NKLA",
+      "weight": 8489
+    },
+    {
+      "source": "BA",
+      "target": "TWTR",
+      "weight": 14590
+    },
+    {
+      "source": "BA",
+      "target": "PINS",
+      "weight": 3899
+    },
+    {
+      "source": "BA",
+      "target": "DAL",
+      "weight": 14588
+    },
+    {
+      "source": "BA",
+      "target": "MRNA",
+      "weight": 10219
+    },
+    {
+      "source": "BA",
+      "target": "ZM",
+      "weight": 11198
+    },
+    {
+      "source": "BA",
+      "target": "SQ",
+      "weight": 13364
+    },
+    {
+      "source": "BA",
+      "target": "GNUS",
+      "weight": 5182
+    },
+    {
+      "source": "BA",
+      "target": "CRM",
+      "weight": 8062
+    },
+    {
+      "source": "BA",
+      "target": "PYPL",
+      "weight": 10188
+    },
+    {
+      "source": "BA",
+      "target": "WISH",
+      "weight": 3958
+    },
+    {
+      "source": "BA",
+      "target": "SPCE",
+      "weight": 9115
+    },
+    {
+      "source": "BA",
+      "target": "TLRY",
+      "weight": 7561
+    },
+    {
+      "source": "BA",
+      "target": "JPM",
+      "weight": 10013
+    },
+    {
+      "source": "BA",
+      "target": "PLUG",
+      "weight": 7043
+    },
+    {
+      "source": "BA",
+      "target": "DIS",
+      "weight": 15359
+    },
+    {
+      "source": "BA",
+      "target": "ROKU",
+      "weight": 17224
+    },
+    {
+      "source": "BA",
+      "target": "PLTR",
+      "weight": 8575
+    },
+    {
+      "source": "BA",
+      "target": "COIN",
+      "weight": 3924
+    },
+    {
+      "source": "BA",
+      "target": "PTON",
+      "weight": 5932
+    },
+    {
+      "source": "BA",
+      "target": "CLOV",
+      "weight": 4239
+    },
+    {
+      "source": "BA",
+      "target": "OCGN",
+      "weight": 2027
+    },
+    {
+      "source": "BA",
+      "target": "LCID",
+      "weight": 4617
+    },
+    {
+      "source": "BA",
+      "target": "SNAP",
+      "weight": 12593
+    },
+    {
+      "source": "BA",
+      "target": "INTC",
+      "weight": 8893
+    },
+    {
+      "source": "BA",
+      "target": "WKHS",
+      "weight": 3720
+    },
+    {
+      "source": "BA",
+      "target": "FSR",
+      "weight": 5231
+    },
+    {
+      "source": "PLTR",
+      "target": "AAL",
+      "weight": 8820
+    },
+    {
+      "source": "PLTR",
+      "target": "BAC",
+      "weight": 6990
+    },
+    {
+      "source": "PLTR",
+      "target": "CRM",
+      "weight": 4601
+    },
+    {
+      "source": "PLTR",
+      "target": "DAL",
+      "weight": 1065
+    },
+    {
+      "source": "PLTR",
+      "target": "DIS",
+      "weight": 7895
+    },
+    {
+      "source": "PLTR",
+      "target": "DKNG",
+      "weight": 17523
+    },
+    {
+      "source": "PLTR",
+      "target": "F",
+      "weight": 14031
+    },
+    {
+      "source": "PLTR",
+      "target": "FSR",
+      "weight": 14292
+    },
+    {
+      "source": "PLTR",
+      "target": "FUBO",
+      "weight": 20860
+    },
+    {
+      "source": "PLTR",
+      "target": "GE",
+      "weight": 7052
+    },
+    {
+      "source": "PLTR",
+      "target": "GNUS",
+      "weight": 1952
+    },
+    {
+      "source": "PLTR",
+      "target": "INO",
+      "weight": 1230
+    },
+    {
+      "source": "PLTR",
+      "target": "INTC",
+      "weight": 2881
+    },
+    {
+      "source": "PLTR",
+      "target": "JPM",
+      "weight": 1659
+    },
+    {
+      "source": "PLTR",
+      "target": "LCID",
+      "weight": 23548
+    },
+    {
+      "source": "PLTR",
+      "target": "MRNA",
+      "weight": 6666
+    },
+    {
+      "source": "PLTR",
+      "target": "NKLA",
+      "weight": 3714
+    },
+    {
+      "source": "PLTR",
+      "target": "OCGN",
+      "weight": 9095
+    },
+    {
+      "source": "PLTR",
+      "target": "PENN",
+      "weight": 12640
+    },
+    {
+      "source": "PLTR",
+      "target": "PFE",
+      "weight": 4402
+    },
+    {
+      "source": "PLTR",
+      "target": "PINS",
+      "weight": 5799
+    },
+    {
+      "source": "PLTR",
+      "target": "TWTR",
+      "weight": 10144
+    },
+    {
+      "source": "PLTR",
+      "target": "ZM",
+      "weight": 7818
+    },
+    {
+      "source": "PLTR",
+      "target": "T",
+      "weight": 4280
+    },
+    {
+      "source": "PLTR",
+      "target": "WISH",
+      "weight": 15041
+    },
+    {
+      "source": "PLTR",
+      "target": "WMT",
+      "weight": 3683
+    },
+    {
+      "source": "PLTR",
+      "target": "CLOV",
+      "weight": 17809
+    },
+    {
+      "source": "PLTR",
+      "target": "PLUG",
+      "weight": 14330
+    },
+    {
+      "source": "PLTR",
+      "target": "SNAP",
+      "weight": 13080
+    },
+    {
+      "source": "PLTR",
+      "target": "TLRY",
+      "weight": 12361
+    },
+    {
+      "source": "PLTR",
+      "target": "ROKU",
+      "weight": 12545
+    },
+    {
+      "source": "PLTR",
+      "target": "SQ",
+      "weight": 15777
+    },
+    {
+      "source": "PLTR",
+      "target": "COIN",
+      "weight": 18418
+    },
+    {
+      "source": "PLTR",
+      "target": "WKHS",
+      "weight": 12847
+    },
+    {
+      "source": "PLTR",
+      "target": "PTON",
+      "weight": 12192
+    },
+    {
+      "source": "PLTR",
+      "target": "SPCE",
+      "weight": 18950
+    },
+    {
+      "source": "PLTR",
+      "target": "PYPL",
+      "weight": 7999
+    },
+    {
+      "source": "AAL",
+      "target": "PLUG",
+      "weight": 9178
+    },
+    {
+      "source": "AAL",
+      "target": "ZM",
+      "weight": 5089
+    },
+    {
+      "source": "AAL",
+      "target": "CRM",
+      "weight": 2610
+    },
+    {
+      "source": "AAL",
+      "target": "DAL",
+      "weight": 23569
+    },
+    {
+      "source": "AAL",
+      "target": "TLRY",
+      "weight": 7625
+    },
+    {
+      "source": "AAL",
+      "target": "PYPL",
+      "weight": 2036
+    },
+    {
+      "source": "AAL",
+      "target": "DKNG",
+      "weight": 20279
+    },
+    {
+      "source": "AAL",
+      "target": "FSR",
+      "weight": 11981
+    },
+    {
+      "source": "AAL",
+      "target": "SNAP",
+      "weight": 13356
+    },
+    {
+      "source": "AAL",
+      "target": "BAC",
+      "weight": 8482
+    },
+    {
+      "source": "AAL",
+      "target": "LCID",
+      "weight": 9208
+    },
+    {
+      "source": "AAL",
+      "target": "JPM",
+      "weight": 1808
+    },
+    {
+      "source": "AAL",
+      "target": "INO",
+      "weight": 15075
+    },
+    {
+      "source": "AAL",
+      "target": "DIS",
+      "weight": 6813
+    },
+    {
+      "source": "AAL",
+      "target": "PENN",
+      "weight": 24747
+    },
+    {
+      "source": "AAL",
+      "target": "PFE",
+      "weight": 5345
+    },
+    {
+      "source": "AAL",
+      "target": "WKHS",
+      "weight": 13612
+    },
+    {
+      "source": "AAL",
+      "target": "NKLA",
+      "weight": 11797
+    },
+    {
+      "source": "AAL",
+      "target": "F",
+      "weight": 9309
+    },
+    {
+      "source": "AAL",
+      "target": "GNUS",
+      "weight": 6563
+    },
+    {
+      "source": "AAL",
+      "target": "T",
+      "weight": 6717
+    },
+    {
+      "source": "AAL",
+      "target": "WMT",
+      "weight": 4629
+    },
+    {
+      "source": "AAL",
+      "target": "INTC",
+      "weight": 3947
+    },
+    {
+      "source": "AAL",
+      "target": "COIN",
+      "weight": 4711
+    },
+    {
+      "source": "AAL",
+      "target": "SQ",
+      "weight": 4585
+    },
+    {
+      "source": "AAL",
+      "target": "GE",
+      "weight": 7951
+    },
+    {
+      "source": "AAL",
+      "target": "PTON",
+      "weight": 2875
+    },
+    {
+      "source": "AAL",
+      "target": "CLOV",
+      "weight": 5875
+    },
+    {
+      "source": "AAL",
+      "target": "ROKU",
+      "weight": 5633
+    },
+    {
+      "source": "AAL",
+      "target": "SPCE",
+      "weight": 9338
+    },
+    {
+      "source": "AAL",
+      "target": "WISH",
+      "weight": 7580
+    },
+    {
+      "source": "AAL",
+      "target": "PINS",
+      "weight": 1189
+    },
+    {
+      "source": "AAL",
+      "target": "TWTR",
+      "weight": 10570
+    },
+    {
+      "source": "AAL",
+      "target": "MRNA",
+      "weight": 6532
+    },
+    {
+      "source": "AAL",
+      "target": "OCGN",
+      "weight": 2646
+    },
+    {
+      "source": "AAL",
+      "target": "FUBO",
+      "weight": 7029
+    },
+    {
+      "source": "LCID",
+      "target": "BAC",
+      "weight": 692
+    },
+    {
+      "source": "LCID",
+      "target": "CRM",
+      "weight": 300
+    },
+    {
+      "source": "LCID",
+      "target": "DAL",
+      "weight": 5270
+    },
+    {
+      "source": "LCID",
+      "target": "DIS",
+      "weight": 1093
+    },
+    {
+      "source": "LCID",
+      "target": "DKNG",
+      "weight": 12986
+    },
+    {
+      "source": "LCID",
+      "target": "F",
+      "weight": 4120
+    },
+    {
+      "source": "LCID",
+      "target": "FSR",
+      "weight": 17127
+    },
+    {
+      "source": "LCID",
+      "target": "FUBO",
+      "weight": 12378
+    },
+    {
+      "source": "LCID",
+      "target": "GE",
+      "weight": 962
+    },
+    {
+      "source": "LCID",
+      "target": "GNUS",
+      "weight": 1422
+    },
+    {
+      "source": "LCID",
+      "target": "INO",
+      "weight": 1887
+    },
+    {
+      "source": "LCID",
+      "target": "INTC",
+      "weight": 1025
+    },
+    {
+      "source": "LCID",
+      "target": "JPM",
+      "weight": 254
+    },
+    {
+      "source": "LCID",
+      "target": "WKHS",
+      "weight": 12489
+    },
+    {
+      "source": "LCID",
+      "target": "NKLA",
+      "weight": 10035
+    },
+    {
+      "source": "LCID",
+      "target": "PFE",
+      "weight": 3612
+    },
+    {
+      "source": "LCID",
+      "target": "OCGN",
+      "weight": 10428
+    },
+    {
+      "source": "LCID",
+      "target": "ZM",
+      "weight": 2361
+    },
+    {
+      "source": "LCID",
+      "target": "WMT",
+      "weight": 1810
+    },
+    {
+      "source": "LCID",
+      "target": "SNAP",
+      "weight": 9550
+    },
+    {
+      "source": "LCID",
+      "target": "MRNA",
+      "weight": 4990
+    },
+    {
+      "source": "LCID",
+      "target": "SPCE",
+      "weight": 11694
+    },
+    {
+      "source": "LCID",
+      "target": "WISH",
+      "weight": 13814
+    },
+    {
+      "source": "LCID",
+      "target": "TWTR",
+      "weight": 4046
+    },
+    {
+      "source": "LCID",
+      "target": "TLRY",
+      "weight": 8605
+    },
+    {
+      "source": "LCID",
+      "target": "PTON",
+      "weight": 4846
+    },
+    {
+      "source": "LCID",
+      "target": "PINS",
+      "weight": 2606
+    },
+    {
+      "source": "LCID",
+      "target": "PLUG",
+      "weight": 12383
+    },
+    {
+      "source": "LCID",
+      "target": "T",
+      "weight": 2204
+    },
+    {
+      "source": "LCID",
+      "target": "SQ",
+      "weight": 4525
+    },
+    {
+      "source": "LCID",
+      "target": "ROKU",
+      "weight": 5070
+    },
+    {
+      "source": "LCID",
+      "target": "CLOV",
+      "weight": 8814
+    },
+    {
+      "source": "LCID",
+      "target": "COIN",
+      "weight": 5706
+    },
+    {
+      "source": "LCID",
+      "target": "PENN",
+      "weight": 19314
+    },
+    {
+      "source": "LCID",
+      "target": "PYPL",
+      "weight": 4065
+    },
+    {
+      "source": "DKNG",
+      "target": "BAC",
+      "weight": 1770
+    },
+    {
+      "source": "DKNG",
+      "target": "CRM",
+      "weight": 872
+    },
+    {
+      "source": "DKNG",
+      "target": "DAL",
+      "weight": 11446
+    },
+    {
+      "source": "DKNG",
+      "target": "DIS",
+      "weight": 5156
+    },
+    {
+      "source": "DKNG",
+      "target": "F",
+      "weight": 5007
+    },
+    {
+      "source": "DKNG",
+      "target": "SPCE",
+      "weight": 11832
+    },
+    {
+      "source": "DKNG",
+      "target": "OCGN",
+      "weight": 5652
+    },
+    {
+      "source": "DKNG",
+      "target": "WKHS",
+      "weight": 14250
+    },
+    {
+      "source": "DKNG",
+      "target": "NKLA",
+      "weight": 11155
+    },
+    {
+      "source": "DKNG",
+      "target": "ROKU",
+      "weight": 11862
+    },
+    {
+      "source": "DKNG",
+      "target": "PENN",
+      "weight": 45113
+    },
+    {
+      "source": "DKNG",
+      "target": "WMT",
+      "weight": 1628
+    },
+    {
+      "source": "DKNG",
+      "target": "WISH",
+      "weight": 8919
+    },
+    {
+      "source": "DKNG",
+      "target": "MRNA",
+      "weight": 8962
+    },
+    {
+      "source": "DKNG",
+      "target": "CLOV",
+      "weight": 7105
+    },
+    {
+      "source": "DKNG",
+      "target": "TLRY",
+      "weight": 5988
+    },
+    {
+      "source": "DKNG",
+      "target": "INTC",
+      "weight": 1205
+    },
+    {
+      "source": "DKNG",
+      "target": "TWTR",
+      "weight": 9655
+    },
+    {
+      "source": "DKNG",
+      "target": "PINS",
+      "weight": 5597
+    },
+    {
+      "source": "DKNG",
+      "target": "INO",
+      "weight": 7670
+    },
+    {
+      "source": "DKNG",
+      "target": "FUBO",
+      "weight": 13768
+    },
+    {
+      "source": "DKNG",
+      "target": "T",
+      "weight": 1083
+    },
+    {
+      "source": "DKNG",
+      "target": "PFE",
+      "weight": 4377
+    },
+    {
+      "source": "DKNG",
+      "target": "GNUS",
+      "weight": 4714
+    },
+    {
+      "source": "DKNG",
+      "target": "PTON",
+      "weight": 6560
+    },
+    {
+      "source": "DKNG",
+      "target": "ZM",
+      "weight": 4588
+    },
+    {
+      "source": "DKNG",
+      "target": "PLUG",
+      "weight": 8924
+    },
+    {
+      "source": "DKNG",
+      "target": "SNAP",
+      "weight": 12659
+    },
+    {
+      "source": "DKNG",
+      "target": "PYPL",
+      "weight": 6753
+    },
+    {
+      "source": "DKNG",
+      "target": "SQ",
+      "weight": 12872
+    },
+    {
+      "source": "DKNG",
+      "target": "JPM",
+      "weight": 892
+    },
+    {
+      "source": "DKNG",
+      "target": "FSR",
+      "weight": 16020
+    },
+    {
+      "source": "DKNG",
+      "target": "COIN",
+      "weight": 10373
+    },
+    {
+      "source": "DKNG",
+      "target": "GE",
+      "weight": 2694
+    },
+    {
+      "source": "ROKU",
+      "target": "BAC",
+      "weight": 2673
+    },
+    {
+      "source": "ROKU",
+      "target": "CRM",
+      "weight": 6108
+    },
+    {
+      "source": "ROKU",
+      "target": "DAL",
+      "weight": 10009
+    },
+    {
+      "source": "ROKU",
+      "target": "DIS",
+      "weight": 14078
+    },
+    {
+      "source": "ROKU",
+      "target": "F",
+      "weight": 2612
+    },
+    {
+      "source": "ROKU",
+      "target": "FSR",
+      "weight": 1269
+    },
+    {
+      "source": "ROKU",
+      "target": "FUBO",
+      "weight": 9712
+    },
+    {
+      "source": "ROKU",
+      "target": "GE",
+      "weight": 1599
+    },
+    {
+      "source": "ROKU",
+      "target": "GNUS",
+      "weight": 7706
+    },
+    {
+      "source": "ROKU",
+      "target": "INO",
+      "weight": 4824
+    },
+    {
+      "source": "ROKU",
+      "target": "INTC",
+      "weight": 3351
+    },
+    {
+      "source": "ROKU",
+      "target": "JPM",
+      "weight": 2619
+    },
+    {
+      "source": "ROKU",
+      "target": "MRNA",
+      "weight": 10023
+    },
+    {
+      "source": "ROKU",
+      "target": "NKLA",
+      "weight": 7282
+    },
+    {
+      "source": "ROKU",
+      "target": "OCGN",
+      "weight": 2685
+    },
+    {
+      "source": "ROKU",
+      "target": "PENN",
+      "weight": 6439
+    },
+    {
+      "source": "ROKU",
+      "target": "PFE",
+      "weight": 2498
+    },
+    {
+      "source": "ROKU",
+      "target": "PINS",
+      "weight": 12605
+    },
+    {
+      "source": "ROKU",
+      "target": "PLUG",
+      "weight": 3539
+    },
+    {
+      "source": "ROKU",
+      "target": "PTON",
+      "weight": 10022
+    },
+    {
+      "source": "ROKU",
+      "target": "PYPL",
+      "weight": 12452
+    },
+    {
+      "source": "ROKU",
+      "target": "WMT",
+      "weight": 3182
+    },
+    {
+      "source": "ROKU",
+      "target": "WKHS",
+      "weight": 4035
+    },
+    {
+      "source": "ROKU",
+      "target": "SPCE",
+      "weight": 9523
+    },
+    {
+      "source": "ROKU",
+      "target": "WISH",
+      "weight": 3102
+    },
+    {
+      "source": "ROKU",
+      "target": "T",
+      "weight": 4565
+    },
+    {
+      "source": "ROKU",
+      "target": "ZM",
+      "weight": 16399
+    },
+    {
+      "source": "ROKU",
+      "target": "TWTR",
+      "weight": 12529
+    },
+    {
+      "source": "ROKU",
+      "target": "TLRY",
+      "weight": 5163
+    },
+    {
+      "source": "ROKU",
+      "target": "SQ",
+      "weight": 27968
+    },
+    {
+      "source": "ROKU",
+      "target": "SNAP",
+      "weight": 13405
+    },
+    {
+      "source": "ROKU",
+      "target": "CLOV",
+      "weight": 3294
+    },
+    {
+      "source": "ROKU",
+      "target": "COIN",
+      "weight": 5449
+    },
+    {
+      "source": "SQ",
+      "target": "BAC",
+      "weight": 4979
+    },
+    {
+      "source": "SQ",
+      "target": "CRM",
+      "weight": 7085
+    },
+    {
+      "source": "SQ",
+      "target": "DAL",
+      "weight": 3792
+    },
+    {
+      "source": "SQ",
+      "target": "DIS",
+      "weight": 10507
+    },
+    {
+      "source": "SQ",
+      "target": "F",
+      "weight": 5468
+    },
+    {
+      "source": "SQ",
+      "target": "FSR",
+      "weight": 2202
+    },
+    {
+      "source": "SQ",
+      "target": "FUBO",
+      "weight": 3204
+    },
+    {
+      "source": "SQ",
+      "target": "GE",
+      "weight": 3007
+    },
+    {
+      "source": "SQ",
+      "target": "GNUS",
+      "weight": 444
+    },
+    {
+      "source": "SQ",
+      "target": "INO",
+      "weight": 2754
+    },
+    {
+      "source": "SQ",
+      "target": "INTC",
+      "weight": 2947
+    },
+    {
+      "source": "SQ",
+      "target": "JPM",
+      "weight": 4754
+    },
+    {
+      "source": "SQ",
+      "target": "MRNA",
+      "weight": 7396
+    },
+    {
+      "source": "SQ",
+      "target": "NKLA",
+      "weight": 3883
+    },
+    {
+      "source": "SQ",
+      "target": "OCGN",
+      "weight": 927
+    },
+    {
+      "source": "SQ",
+      "target": "PENN",
+      "weight": 4480
+    },
+    {
+      "source": "SQ",
+      "target": "PFE",
+      "weight": 3318
+    },
+    {
+      "source": "SQ",
+      "target": "PINS",
+      "weight": 11816
+    },
+    {
+      "source": "SQ",
+      "target": "PLUG",
+      "weight": 4672
+    },
+    {
+      "source": "SQ",
+      "target": "PTON",
+      "weight": 9366
+    },
+    {
+      "source": "SQ",
+      "target": "PYPL",
+      "weight": 31047
+    },
+    {
+      "source": "SQ",
+      "target": "SNAP",
+      "weight": 9937
+    },
+    {
+      "source": "SQ",
+      "target": "SPCE",
+      "weight": 5116
+    },
+    {
+      "source": "SQ",
+      "target": "TLRY",
+      "weight": 5160
+    },
+    {
+      "source": "SQ",
+      "target": "COIN",
+      "weight": 9643
+    },
+    {
+      "source": "SQ",
+      "target": "WISH",
+      "weight": 1697
+    },
+    {
+      "source": "SQ",
+      "target": "WKHS",
+      "weight": 1530
+    },
+    {
+      "source": "SQ",
+      "target": "CLOV",
+      "weight": 1666
+    },
+    {
+      "source": "SQ",
+      "target": "WMT",
+      "weight": 4071
+    },
+    {
+      "source": "SQ",
+      "target": "TWTR",
+      "weight": 15375
+    },
+    {
+      "source": "SQ",
+      "target": "T",
+      "weight": 1690
+    },
+    {
+      "source": "SQ",
+      "target": "ZM",
+      "weight": 11883
+    },
+    {
+      "source": "F",
+      "target": "BAC",
+      "weight": 13110
+    },
+    {
+      "source": "F",
+      "target": "CRM",
+      "weight": 6160
+    },
+    {
+      "source": "F",
+      "target": "DAL",
+      "weight": 4218
+    },
+    {
+      "source": "F",
+      "target": "DIS",
+      "weight": 6255
+    },
+    {
+      "source": "F",
+      "target": "JPM",
+      "weight": 4872
+    },
+    {
+      "source": "F",
+      "target": "WKHS",
+      "weight": 5220
+    },
+    {
+      "source": "F",
+      "target": "CLOV",
+      "weight": 5823
+    },
+    {
+      "source": "F",
+      "target": "SPCE",
+      "weight": 8502
+    },
+    {
+      "source": "F",
+      "target": "SNAP",
+      "weight": 7741
+    },
+    {
+      "source": "F",
+      "target": "PTON",
+      "weight": 4134
+    },
+    {
+      "source": "F",
+      "target": "INTC",
+      "weight": 5162
+    },
+    {
+      "source": "F",
+      "target": "TLRY",
+      "weight": 6752
+    },
+    {
+      "source": "F",
+      "target": "INO",
+      "weight": 1804
+    },
+    {
+      "source": "F",
+      "target": "PFE",
+      "weight": 8352
+    },
+    {
+      "source": "F",
+      "target": "PLUG",
+      "weight": 7765
+    },
+    {
+      "source": "F",
+      "target": "NKLA",
+      "weight": 4079
+    },
+    {
+      "source": "F",
+      "target": "MRNA",
+      "weight": 5060
+    },
+    {
+      "source": "F",
+      "target": "PENN",
+      "weight": 7848
+    },
+    {
+      "source": "F",
+      "target": "ZM",
+      "weight": 1538
+    },
+    {
+      "source": "F",
+      "target": "TWTR",
+      "weight": 8340
+    },
+    {
+      "source": "F",
+      "target": "FUBO",
+      "weight": 2190
+    },
+    {
+      "source": "F",
+      "target": "GNUS",
+      "weight": 1432
+    },
+    {
+      "source": "F",
+      "target": "GE",
+      "weight": 14305
+    },
+    {
+      "source": "F",
+      "target": "FSR",
+      "weight": 6326
+    },
+    {
+      "source": "F",
+      "target": "T",
+      "weight": 9122
+    },
+    {
+      "source": "F",
+      "target": "OCGN",
+      "weight": 3141
+    },
+    {
+      "source": "F",
+      "target": "WMT",
+      "weight": 3991
+    },
+    {
+      "source": "F",
+      "target": "COIN",
+      "weight": 1835
+    },
+    {
+      "source": "F",
+      "target": "PINS",
+      "weight": 4411
+    },
+    {
+      "source": "F",
+      "target": "WISH",
+      "weight": 6121
+    },
+    {
+      "source": "F",
+      "target": "PYPL",
+      "weight": 6086
+    },
+    {
+      "source": "SNAP",
+      "target": "BAC",
+      "weight": 5232
+    },
+    {
+      "source": "SNAP",
+      "target": "CRM",
+      "weight": 5170
+    },
+    {
+      "source": "SNAP",
+      "target": "DAL",
+      "weight": 2374
+    },
+    {
+      "source": "SNAP",
+      "target": "DIS",
+      "weight": 8378
+    },
+    {
+      "source": "SNAP",
+      "target": "FSR",
+      "weight": 10151
+    },
+    {
+      "source": "SNAP",
+      "target": "FUBO",
+      "weight": 11531
+    },
+    {
+      "source": "SNAP",
+      "target": "GE",
+      "weight": 3948
+    },
+    {
+      "source": "SNAP",
+      "target": "GNUS",
+      "weight": 533
+    },
+    {
+      "source": "SNAP",
+      "target": "INO",
+      "weight": 3381
+    },
+    {
+      "source": "SNAP",
+      "target": "INTC",
+      "weight": 7573
+    },
+    {
+      "source": "SNAP",
+      "target": "JPM",
+      "weight": 3327
+    },
+    {
+      "source": "SNAP",
+      "target": "MRNA",
+      "weight": 4487
+    },
+    {
+      "source": "SNAP",
+      "target": "NKLA",
+      "weight": 4699
+    },
+    {
+      "source": "SNAP",
+      "target": "OCGN",
+      "weight": 2408
+    },
+    {
+      "source": "SNAP",
+      "target": "PENN",
+      "weight": 9864
+    },
+    {
+      "source": "SNAP",
+      "target": "PFE",
+      "weight": 4142
+    },
+    {
+      "source": "SNAP",
+      "target": "PINS",
+      "weight": 14978
+    },
+    {
+      "source": "SNAP",
+      "target": "PLUG",
+      "weight": 4730
+    },
+    {
+      "source": "SNAP",
+      "target": "PTON",
+      "weight": 4533
+    },
+    {
+      "source": "SNAP",
+      "target": "PYPL",
+      "weight": 9227
+    },
+    {
+      "source": "SNAP",
+      "target": "WMT",
+      "weight": 4461
+    },
+    {
+      "source": "SNAP",
+      "target": "T",
+      "weight": 6283
+    },
+    {
+      "source": "SNAP",
+      "target": "WISH",
+      "weight": 4039
+    },
+    {
+      "source": "SNAP",
+      "target": "TWTR",
+      "weight": 22239
+    },
+    {
+      "source": "SNAP",
+      "target": "COIN",
+      "weight": 5647
+    },
+    {
+      "source": "SNAP",
+      "target": "SPCE",
+      "weight": 6560
+    },
+    {
+      "source": "SNAP",
+      "target": "ZM",
+      "weight": 6298
+    },
+    {
+      "source": "SNAP",
+      "target": "CLOV",
+      "weight": 3560
+    },
+    {
+      "source": "SNAP",
+      "target": "WKHS",
+      "weight": 7411
+    },
+    {
+      "source": "SNAP",
+      "target": "TLRY",
+      "weight": 4236
+    },
+    {
+      "source": "MRNA",
+      "target": "BAC",
+      "weight": 5762
+    },
+    {
+      "source": "MRNA",
+      "target": "CRM",
+      "weight": 6227
+    },
+    {
+      "source": "MRNA",
+      "target": "DAL",
+      "weight": 4540
+    },
+    {
+      "source": "MRNA",
+      "target": "DIS",
+      "weight": 3834
+    },
+    {
+      "source": "MRNA",
+      "target": "FSR",
+      "weight": 1608
+    },
+    {
+      "source": "MRNA",
+      "target": "FUBO",
+      "weight": 2728
+    },
+    {
+      "source": "MRNA",
+      "target": "GE",
+      "weight": 3889
+    },
+    {
+      "source": "MRNA",
+      "target": "GNUS",
+      "weight": 4607
+    },
+    {
+      "source": "MRNA",
+      "target": "INO",
+      "weight": 5642
+    },
+    {
+      "source": "MRNA",
+      "target": "INTC",
+      "weight": 3001
+    },
+    {
+      "source": "MRNA",
+      "target": "JPM",
+      "weight": 5179
+    },
+    {
+      "source": "MRNA",
+      "target": "T",
+      "weight": 1576
+    },
+    {
+      "source": "MRNA",
+      "target": "TLRY",
+      "weight": 2880
+    },
+    {
+      "source": "MRNA",
+      "target": "NKLA",
+      "weight": 6192
+    },
+    {
+      "source": "MRNA",
+      "target": "SPCE",
+      "weight": 9322
+    },
+    {
+      "source": "MRNA",
+      "target": "CLOV",
+      "weight": 4328
+    },
+    {
+      "source": "MRNA",
+      "target": "PTON",
+      "weight": 5679
+    },
+    {
+      "source": "MRNA",
+      "target": "WKHS",
+      "weight": 2449
+    },
+    {
+      "source": "MRNA",
+      "target": "PINS",
+      "weight": 1729
+    },
+    {
+      "source": "MRNA",
+      "target": "PFE",
+      "weight": 39739
+    },
+    {
+      "source": "MRNA",
+      "target": "WISH",
+      "weight": 4000
+    },
+    {
+      "source": "MRNA",
+      "target": "PENN",
+      "weight": 8299
+    },
+    {
+      "source": "MRNA",
+      "target": "COIN",
+      "weight": 4812
+    },
+    {
+      "source": "MRNA",
+      "target": "WMT",
+      "weight": 2494
+    },
+    {
+      "source": "MRNA",
+      "target": "ZM",
+      "weight": 7909
+    },
+    {
+      "source": "MRNA",
+      "target": "PLUG",
+      "weight": 5426
+    },
+    {
+      "source": "MRNA",
+      "target": "OCGN",
+      "weight": 4595
+    },
+    {
+      "source": "MRNA",
+      "target": "PYPL",
+      "weight": 5209
+    },
+    {
+      "source": "MRNA",
+      "target": "TWTR",
+      "weight": 5750
+    },
+    {
+      "source": "TWTR",
+      "target": "BAC",
+      "weight": 5141
+    },
+    {
+      "source": "TWTR",
+      "target": "CRM",
+      "weight": 6470
+    },
+    {
+      "source": "TWTR",
+      "target": "DAL",
+      "weight": 7494
+    },
+    {
+      "source": "TWTR",
+      "target": "DIS",
+      "weight": 13105
+    },
+    {
+      "source": "TWTR",
+      "target": "FSR",
+      "weight": 2520
+    },
+    {
+      "source": "TWTR",
+      "target": "FUBO",
+      "weight": 4628
+    },
+    {
+      "source": "TWTR",
+      "target": "GE",
+      "weight": 3973
+    },
+    {
+      "source": "TWTR",
+      "target": "GNUS",
+      "weight": 347
+    },
+    {
+      "source": "TWTR",
+      "target": "INO",
+      "weight": 3964
+    },
+    {
+      "source": "TWTR",
+      "target": "INTC",
+      "weight": 5273
+    },
+    {
+      "source": "TWTR",
+      "target": "JPM",
+      "weight": 3301
+    },
+    {
+      "source": "TWTR",
+      "target": "NKLA",
+      "weight": 6830
+    },
+    {
+      "source": "TWTR",
+      "target": "OCGN",
+      "weight": 1220
+    },
+    {
+      "source": "TWTR",
+      "target": "PENN",
+      "weight": 9362
+    },
+    {
+      "source": "TWTR",
+      "target": "PFE",
+      "weight": 3338
+    },
+    {
+      "source": "TWTR",
+      "target": "PINS",
+      "weight": 10689
+    },
+    {
+      "source": "TWTR",
+      "target": "PLUG",
+      "weight": 3891
+    },
+    {
+      "source": "TWTR",
+      "target": "PTON",
+      "weight": 4704
+    },
+    {
+      "source": "TWTR",
+      "target": "PYPL",
+      "weight": 9166
+    },
+    {
+      "source": "TWTR",
+      "target": "SPCE",
+      "weight": 6174
+    },
+    {
+      "source": "TWTR",
+      "target": "T",
+      "weight": 6217
+    },
+    {
+      "source": "TWTR",
+      "target": "TLRY",
+      "weight": 4523
+    },
+    {
+      "source": "TWTR",
+      "target": "WKHS",
+      "weight": 1565
+    },
+    {
+      "source": "TWTR",
+      "target": "WISH",
+      "weight": 1682
+    },
+    {
+      "source": "TWTR",
+      "target": "CLOV",
+      "weight": 1366
+    },
+    {
+      "source": "TWTR",
+      "target": "COIN",
+      "weight": 2791
+    },
+    {
+      "source": "TWTR",
+      "target": "ZM",
+      "weight": 6917
+    },
+    {
+      "source": "TWTR",
+      "target": "WMT",
+      "weight": 4163
+    },
+    {
+      "source": "PENN",
+      "target": "BAC",
+      "weight": 1660
+    },
+    {
+      "source": "PENN",
+      "target": "CRM",
+      "weight": 5235
+    },
+    {
+      "source": "PENN",
+      "target": "DAL",
+      "weight": 17815
+    },
+    {
+      "source": "PENN",
+      "target": "DIS",
+      "weight": 1917
+    },
+    {
+      "source": "PENN",
+      "target": "FSR",
+      "weight": 17102
+    },
+    {
+      "source": "PENN",
+      "target": "FUBO",
+      "weight": 10912
+    },
+    {
+      "source": "PENN",
+      "target": "GE",
+      "weight": 1087
+    },
+    {
+      "source": "PENN",
+      "target": "GNUS",
+      "weight": 4747
+    },
+    {
+      "source": "PENN",
+      "target": "INO",
+      "weight": 6847
+    },
+    {
+      "source": "PENN",
+      "target": "INTC",
+      "weight": 676
+    },
+    {
+      "source": "PENN",
+      "target": "JPM",
+      "weight": 1384
+    },
+    {
+      "source": "PENN",
+      "target": "NKLA",
+      "weight": 13946
+    },
+    {
+      "source": "PENN",
+      "target": "OCGN",
+      "weight": 2552
+    },
+    {
+      "source": "PENN",
+      "target": "TLRY",
+      "weight": 2180
+    },
+    {
+      "source": "PENN",
+      "target": "PYPL",
+      "weight": 3591
+    },
+    {
+      "source": "PENN",
+      "target": "WISH",
+      "weight": 6636
+    },
+    {
+      "source": "PENN",
+      "target": "ZM",
+      "weight": 2703
+    },
+    {
+      "source": "PENN",
+      "target": "SPCE",
+      "weight": 7950
+    },
+    {
+      "source": "PENN",
+      "target": "T",
+      "weight": 483
+    },
+    {
+      "source": "PENN",
+      "target": "WMT",
+      "weight": 1994
+    },
+    {
+      "source": "PENN",
+      "target": "PINS",
+      "weight": 3125
+    },
+    {
+      "source": "PENN",
+      "target": "PLUG",
+      "weight": 6849
+    },
+    {
+      "source": "PENN",
+      "target": "WKHS",
+      "weight": 11545
+    },
+    {
+      "source": "PENN",
+      "target": "COIN",
+      "weight": 7706
+    },
+    {
+      "source": "PENN",
+      "target": "PFE",
+      "weight": 1706
+    },
+    {
+      "source": "PENN",
+      "target": "CLOV",
+      "weight": 5648
+    },
+    {
+      "source": "PENN",
+      "target": "PTON",
+      "weight": 5556
+    },
+    {
+      "source": "DIS",
+      "target": "BAC",
+      "weight": 5250
+    },
+    {
+      "source": "DIS",
+      "target": "CRM",
+      "weight": 5440
+    },
+    {
+      "source": "DIS",
+      "target": "DAL",
+      "weight": 4603
+    },
+    {
+      "source": "DIS",
+      "target": "FSR",
+      "weight": 702
+    },
+    {
+      "source": "DIS",
+      "target": "SPCE",
+      "weight": 6493
+    },
+    {
+      "source": "DIS",
+      "target": "PINS",
+      "weight": 1618
+    },
+    {
+      "source": "DIS",
+      "target": "TLRY",
+      "weight": 4354
+    },
+    {
+      "source": "DIS",
+      "target": "INTC",
+      "weight": 4348
+    },
+    {
+      "source": "DIS",
+      "target": "WMT",
+      "weight": 8859
+    },
+    {
+      "source": "DIS",
+      "target": "CLOV",
+      "weight": 1741
+    },
+    {
+      "source": "DIS",
+      "target": "ZM",
+      "weight": 4965
+    },
+    {
+      "source": "DIS",
+      "target": "JPM",
+      "weight": 7205
+    },
+    {
+      "source": "DIS",
+      "target": "GE",
+      "weight": 4600
+    },
+    {
+      "source": "DIS",
+      "target": "WKHS",
+      "weight": 2872
+    },
+    {
+      "source": "DIS",
+      "target": "GNUS",
+      "weight": 727
+    },
+    {
+      "source": "DIS",
+      "target": "NKLA",
+      "weight": 2812
+    },
+    {
+      "source": "DIS",
+      "target": "PFE",
+      "weight": 5008
+    },
+    {
+      "source": "DIS",
+      "target": "PYPL",
+      "weight": 8537
+    },
+    {
+      "source": "DIS",
+      "target": "OCGN",
+      "weight": 1787
+    },
+    {
+      "source": "DIS",
+      "target": "WISH",
+      "weight": 3707
+    },
+    {
+      "source": "DIS",
+      "target": "PTON",
+      "weight": 3469
+    },
+    {
+      "source": "DIS",
+      "target": "COIN",
+      "weight": 4260
+    },
+    {
+      "source": "DIS",
+      "target": "INO",
+      "weight": 2857
+    },
+    {
+      "source": "DIS",
+      "target": "T",
+      "weight": 9079
+    },
+    {
+      "source": "DIS",
+      "target": "PLUG",
+      "weight": 2901
+    },
+    {
+      "source": "DIS",
+      "target": "FUBO",
+      "weight": 6059
+    },
+    {
+      "source": "NKLA",
+      "target": "BAC",
+      "weight": 1940
+    },
+    {
+      "source": "NKLA",
+      "target": "CRM",
+      "weight": 350
+    },
+    {
+      "source": "NKLA",
+      "target": "DAL",
+      "weight": 8095
+    },
+    {
+      "source": "NKLA",
+      "target": "FSR",
+      "weight": 7753
+    },
+    {
+      "source": "NKLA",
+      "target": "FUBO",
+      "weight": 2427
+    },
+    {
+      "source": "NKLA",
+      "target": "GE",
+      "weight": 2049
+    },
+    {
+      "source": "NKLA",
+      "target": "GNUS",
+      "weight": 4510
+    },
+    {
+      "source": "NKLA",
+      "target": "INO",
+      "weight": 5548
+    },
+    {
+      "source": "NKLA",
+      "target": "INTC",
+      "weight": 1813
+    },
+    {
+      "source": "NKLA",
+      "target": "JPM",
+      "weight": 1122
+    },
+    {
+      "source": "NKLA",
+      "target": "WISH",
+      "weight": 2439
+    },
+    {
+      "source": "NKLA",
+      "target": "PFE",
+      "weight": 3258
+    },
+    {
+      "source": "NKLA",
+      "target": "PLUG",
+      "weight": 8558
+    },
+    {
+      "source": "NKLA",
+      "target": "ZM",
+      "weight": 3885
+    },
+    {
+      "source": "NKLA",
+      "target": "PTON",
+      "weight": 2567
+    },
+    {
+      "source": "NKLA",
+      "target": "PINS",
+      "weight": 2718
+    },
+    {
+      "source": "NKLA",
+      "target": "PYPL",
+      "weight": 4094
+    },
+    {
+      "source": "NKLA",
+      "target": "CLOV",
+      "weight": 4722
+    },
+    {
+      "source": "NKLA",
+      "target": "SPCE",
+      "weight": 5544
+    },
+    {
+      "source": "NKLA",
+      "target": "WKHS",
+      "weight": 14524
+    },
+    {
+      "source": "NKLA",
+      "target": "COIN",
+      "weight": 601
+    },
+    {
+      "source": "NKLA",
+      "target": "OCGN",
+      "weight": 1392
+    },
+    {
+      "source": "NKLA",
+      "target": "T",
+      "weight": 761
+    },
+    {
+      "source": "NKLA",
+      "target": "TLRY",
+      "weight": 2915
+    },
+    {
+      "source": "NKLA",
+      "target": "WMT",
+      "weight": 1179
+    },
+    {
+      "source": "SPCE",
+      "target": "BAC",
+      "weight": 3484
+    },
+    {
+      "source": "SPCE",
+      "target": "CRM",
+      "weight": 5043
+    },
+    {
+      "source": "SPCE",
+      "target": "DAL",
+      "weight": 4398
+    },
+    {
+      "source": "SPCE",
+      "target": "FSR",
+      "weight": 8838
+    },
+    {
+      "source": "SPCE",
+      "target": "FUBO",
+      "weight": 11990
+    },
+    {
+      "source": "SPCE",
+      "target": "GE",
+      "weight": 4515
+    },
+    {
+      "source": "SPCE",
+      "target": "GNUS",
+      "weight": 3910
+    },
+    {
+      "source": "SPCE",
+      "target": "INO",
+      "weight": 2916
+    },
+    {
+      "source": "SPCE",
+      "target": "INTC",
+      "weight": 1808
+    },
+    {
+      "source": "SPCE",
+      "target": "JPM",
+      "weight": 953
+    },
+    {
+      "source": "SPCE",
+      "target": "OCGN",
+      "weight": 5208
+    },
+    {
+      "source": "SPCE",
+      "target": "PFE",
+      "weight": 2905
+    },
+    {
+      "source": "SPCE",
+      "target": "PINS",
+      "weight": 1304
+    },
+    {
+      "source": "SPCE",
+      "target": "PLUG",
+      "weight": 9357
+    },
+    {
+      "source": "SPCE",
+      "target": "PTON",
+      "weight": 4331
+    },
+    {
+      "source": "SPCE",
+      "target": "PYPL",
+      "weight": 3252
+    },
+    {
+      "source": "SPCE",
+      "target": "WKHS",
+      "weight": 11051
+    },
+    {
+      "source": "SPCE",
+      "target": "TLRY",
+      "weight": 8207
+    },
+    {
+      "source": "SPCE",
+      "target": "COIN",
+      "weight": 8586
+    },
+    {
+      "source": "SPCE",
+      "target": "WMT",
+      "weight": 2065
+    },
+    {
+      "source": "SPCE",
+      "target": "T",
+      "weight": 2670
+    },
+    {
+      "source": "SPCE",
+      "target": "ZM",
+      "weight": 3858
+    },
+    {
+      "source": "SPCE",
+      "target": "CLOV",
+      "weight": 13582
+    },
+    {
+      "source": "SPCE",
+      "target": "WISH",
+      "weight": 9715
+    },
+    {
+      "source": "FUBO",
+      "target": "BAC",
+      "weight": 1497
+    },
+    {
+      "source": "FUBO",
+      "target": "CRM",
+      "weight": 686
+    },
+    {
+      "source": "FUBO",
+      "target": "DAL",
+      "weight": 735
+    },
+    {
+      "source": "FUBO",
+      "target": "FSR",
+      "weight": 13951
+    },
+    {
+      "source": "FUBO",
+      "target": "PLUG",
+      "weight": 8566
+    },
+    {
+      "source": "FUBO",
+      "target": "WKHS",
+      "weight": 12390
+    },
+    {
+      "source": "FUBO",
+      "target": "CLOV",
+      "weight": 10837
+    },
+    {
+      "source": "FUBO",
+      "target": "INTC",
+      "weight": 1407
+    },
+    {
+      "source": "FUBO",
+      "target": "JPM",
+      "weight": 456
+    },
+    {
+      "source": "FUBO",
+      "target": "INO",
+      "weight": 4354
+    },
+    {
+      "source": "FUBO",
+      "target": "PFE",
+      "weight": 1625
+    },
+    {
+      "source": "FUBO",
+      "target": "T",
+      "weight": 2810
+    },
+    {
+      "source": "FUBO",
+      "target": "GE",
+      "weight": 1481
+    },
+    {
+      "source": "FUBO",
+      "target": "WISH",
+      "weight": 8155
+    },
+    {
+      "source": "FUBO",
+      "target": "COIN",
+      "weight": 11626
+    },
+    {
+      "source": "FUBO",
+      "target": "OCGN",
+      "weight": 8325
+    },
+    {
+      "source": "FUBO",
+      "target": "GNUS",
+      "weight": 1444
+    },
+    {
+      "source": "FUBO",
+      "target": "WMT",
+      "weight": 1772
+    },
+    {
+      "source": "FUBO",
+      "target": "PTON",
+      "weight": 2743
+    },
+    {
+      "source": "FUBO",
+      "target": "PYPL",
+      "weight": 2593
+    },
+    {
+      "source": "FUBO",
+      "target": "TLRY",
+      "weight": 5858
+    },
+    {
+      "source": "FUBO",
+      "target": "ZM",
+      "weight": 3885
+    },
+    {
+      "source": "FUBO",
+      "target": "PINS",
+      "weight": 3102
+    },
+    {
+      "source": "PYPL",
+      "target": "BAC",
+      "weight": 4001
+    },
+    {
+      "source": "PYPL",
+      "target": "CRM",
+      "weight": 6423
+    },
+    {
+      "source": "PYPL",
+      "target": "DAL",
+      "weight": 1277
+    },
+    {
+      "source": "PYPL",
+      "target": "FSR",
+      "weight": 590
+    },
+    {
+      "source": "PYPL",
+      "target": "GE",
+      "weight": 2534
+    },
+    {
+      "source": "PYPL",
+      "target": "GNUS",
+      "weight": 310
+    },
+    {
+      "source": "PYPL",
+      "target": "INO",
+      "weight": 411
+    },
+    {
+      "source": "PYPL",
+      "target": "INTC",
+      "weight": 4106
+    },
+    {
+      "source": "PYPL",
+      "target": "JPM",
+      "weight": 4789
+    },
+    {
+      "source": "PYPL",
+      "target": "OCGN",
+      "weight": 540
+    },
+    {
+      "source": "PYPL",
+      "target": "PFE",
+      "weight": 6497
+    },
+    {
+      "source": "PYPL",
+      "target": "PINS",
+      "weight": 10982
+    },
+    {
+      "source": "PYPL",
+      "target": "PLUG",
+      "weight": 2604
+    },
+    {
+      "source": "PYPL",
+      "target": "PTON",
+      "weight": 5213
+    },
+    {
+      "source": "PYPL",
+      "target": "T",
+      "weight": 1599
+    },
+    {
+      "source": "PYPL",
+      "target": "COIN",
+      "weight": 6359
+    },
+    {
+      "source": "PYPL",
+      "target": "WISH",
+      "weight": 2177
+    },
+    {
+      "source": "PYPL",
+      "target": "CLOV",
+      "weight": 776
+    },
+    {
+      "source": "PYPL",
+      "target": "ZM",
+      "weight": 7043
+    },
+    {
+      "source": "PYPL",
+      "target": "WMT",
+      "weight": 5256
+    },
+    {
+      "source": "PYPL",
+      "target": "WKHS",
+      "weight": 1881
+    },
+    {
+      "source": "PYPL",
+      "target": "TLRY",
+      "weight": 2307
+    },
+    {
+      "source": "WKHS",
+      "target": "BAC",
+      "weight": 1269
+    },
+    {
+      "source": "WKHS",
+      "target": "CRM",
+      "weight": 1620
+    },
+    {
+      "source": "WKHS",
+      "target": "DAL",
+      "weight": 1337
+    },
+    {
+      "source": "WKHS",
+      "target": "FSR",
+      "weight": 15687
+    },
+    {
+      "source": "WKHS",
+      "target": "GE",
+      "weight": 2622
+    },
+    {
+      "source": "WKHS",
+      "target": "GNUS",
+      "weight": 6513
+    },
+    {
+      "source": "WKHS",
+      "target": "INO",
+      "weight": 11697
+    },
+    {
+      "source": "WKHS",
+      "target": "INTC",
+      "weight": 1010
+    },
+    {
+      "source": "WKHS",
+      "target": "JPM",
+      "weight": 370
+    },
+    {
+      "source": "WKHS",
+      "target": "OCGN",
+      "weight": 3500
+    },
+    {
+      "source": "WKHS",
+      "target": "PFE",
+      "weight": 1786
+    },
+    {
+      "source": "WKHS",
+      "target": "PINS",
+      "weight": 1282
+    },
+    {
+      "source": "WKHS",
+      "target": "PLUG",
+      "weight": 7383
+    },
+    {
+      "source": "WKHS",
+      "target": "PTON",
+      "weight": 3879
+    },
+    {
+      "source": "WKHS",
+      "target": "T",
+      "weight": 792
+    },
+    {
+      "source": "WKHS",
+      "target": "TLRY",
+      "weight": 4463
+    },
+    {
+      "source": "WKHS",
+      "target": "WISH",
+      "weight": 7360
+    },
+    {
+      "source": "WKHS",
+      "target": "CLOV",
+      "weight": 9882
+    },
+    {
+      "source": "WKHS",
+      "target": "WMT",
+      "weight": 1098
+    },
+    {
+      "source": "WKHS",
+      "target": "ZM",
+      "weight": 2024
+    },
+    {
+      "source": "WKHS",
+      "target": "COIN",
+      "weight": 7312
+    },
+    {
+      "source": "CLOV",
+      "target": "BAC",
+      "weight": 1889
+    },
+    {
+      "source": "CLOV",
+      "target": "CRM",
+      "weight": 230
+    },
+    {
+      "source": "CLOV",
+      "target": "DAL",
+      "weight": 2567
+    },
+    {
+      "source": "CLOV",
+      "target": "FSR",
+      "weight": 7922
+    },
+    {
+      "source": "CLOV",
+      "target": "GE",
+      "weight": 2587
+    },
+    {
+      "source": "CLOV",
+      "target": "GNUS",
+      "weight": 923
+    },
+    {
+      "source": "CLOV",
+      "target": "INO",
+      "weight": 721
+    },
+    {
+      "source": "CLOV",
+      "target": "INTC",
+      "weight": 770
+    },
+    {
+      "source": "CLOV",
+      "target": "JPM",
+      "weight": 666
+    },
+    {
+      "source": "CLOV",
+      "target": "OCGN",
+      "weight": 9291
+    },
+    {
+      "source": "CLOV",
+      "target": "PFE",
+      "weight": 2253
+    },
+    {
+      "source": "CLOV",
+      "target": "PINS",
+      "weight": 1386
+    },
+    {
+      "source": "CLOV",
+      "target": "PLUG",
+      "weight": 5779
+    },
+    {
+      "source": "CLOV",
+      "target": "PTON",
+      "weight": 1274
+    },
+    {
+      "source": "CLOV",
+      "target": "T",
+      "weight": 1561
+    },
+    {
+      "source": "CLOV",
+      "target": "TLRY",
+      "weight": 9449
+    },
+    {
+      "source": "CLOV",
+      "target": "WISH",
+      "weight": 28493
+    },
+    {
+      "source": "CLOV",
+      "target": "WMT",
+      "weight": 1398
+    },
+    {
+      "source": "CLOV",
+      "target": "ZM",
+      "weight": 887
+    },
+    {
+      "source": "ZM",
+      "target": "BAC",
+      "weight": 2134
+    },
+    {
+      "source": "ZM",
+      "target": "CRM",
+      "weight": 3266
+    },
+    {
+      "source": "ZM",
+      "target": "DAL",
+      "weight": 1480
+    },
+    {
+      "source": "ZM",
+      "target": "FSR",
+      "weight": 1317
+    },
+    {
+      "source": "ZM",
+      "target": "GE",
+      "weight": 1516
+    },
+    {
+      "source": "ZM",
+      "target": "GNUS",
+      "weight": 723
+    },
+    {
+      "source": "ZM",
+      "target": "INO",
+      "weight": 518
+    },
+    {
+      "source": "ZM",
+      "target": "INTC",
+      "weight": 2076
+    },
+    {
+      "source": "ZM",
+      "target": "JPM",
+      "weight": 1770
+    },
+    {
+      "source": "ZM",
+      "target": "OCGN",
+      "weight": 689
+    },
+    {
+      "source": "ZM",
+      "target": "PFE",
+      "weight": 3083
+    },
+    {
+      "source": "ZM",
+      "target": "PINS",
+      "weight": 6641
+    },
+    {
+      "source": "ZM",
+      "target": "PLUG",
+      "weight": 2184
+    },
+    {
+      "source": "ZM",
+      "target": "PTON",
+      "weight": 10406
+    },
+    {
+      "source": "ZM",
+      "target": "T",
+      "weight": 1328
+    },
+    {
+      "source": "ZM",
+      "target": "TLRY",
+      "weight": 2209
+    },
+    {
+      "source": "ZM",
+      "target": "WISH",
+      "weight": 1962
+    },
+    {
+      "source": "ZM",
+      "target": "WMT",
+      "weight": 4223
+    },
+    {
+      "source": "ZM",
+      "target": "COIN",
+      "weight": 3089
+    },
+    {
+      "source": "BAC",
+      "target": "PFE",
+      "weight": 9910
+    },
+    {
+      "source": "BAC",
+      "target": "INTC",
+      "weight": 7308
+    },
+    {
+      "source": "BAC",
+      "target": "GNUS",
+      "weight": 993
+    },
+    {
+      "source": "BAC",
+      "target": "GE",
+      "weight": 9585
+    },
+    {
+      "source": "BAC",
+      "target": "PLUG",
+      "weight": 4811
+    },
+    {
+      "source": "BAC",
+      "target": "CRM",
+      "weight": 4182
+    },
+    {
+      "source": "BAC",
+      "target": "DAL",
+      "weight": 6556
+    },
+    {
+      "source": "BAC",
+      "target": "COIN",
+      "weight": 1429
+    },
+    {
+      "source": "BAC",
+      "target": "T",
+      "weight": 7730
+    },
+    {
+      "source": "BAC",
+      "target": "OCGN",
+      "weight": 1151
+    },
+    {
+      "source": "BAC",
+      "target": "JPM",
+      "weight": 20113
+    },
+    {
+      "source": "BAC",
+      "target": "PTON",
+      "weight": 1712
+    },
+    {
+      "source": "BAC",
+      "target": "PINS",
+      "weight": 1799
+    },
+    {
+      "source": "BAC",
+      "target": "TLRY",
+      "weight": 2421
+    },
+    {
+      "source": "BAC",
+      "target": "INO",
+      "weight": 931
+    },
+    {
+      "source": "BAC",
+      "target": "WISH",
+      "weight": 2674
+    },
+    {
+      "source": "BAC",
+      "target": "FSR",
+      "weight": 460
+    },
+    {
+      "source": "BAC",
+      "target": "WMT",
+      "weight": 4741
+    },
+    {
+      "source": "PFE",
+      "target": "CRM",
+      "weight": 4243
+    },
+    {
+      "source": "PFE",
+      "target": "DAL",
+      "weight": 2746
+    },
+    {
+      "source": "PFE",
+      "target": "FSR",
+      "weight": 2156
+    },
+    {
+      "source": "PFE",
+      "target": "GE",
+      "weight": 5636
+    },
+    {
+      "source": "PFE",
+      "target": "GNUS",
+      "weight": 484
+    },
+    {
+      "source": "PFE",
+      "target": "INO",
+      "weight": 3676
+    },
+    {
+      "source": "PFE",
+      "target": "INTC",
+      "weight": 4659
+    },
+    {
+      "source": "PFE",
+      "target": "JPM",
+      "weight": 7432
+    },
+    {
+      "source": "PFE",
+      "target": "OCGN",
+      "weight": 4022
+    },
+    {
+      "source": "PFE",
+      "target": "COIN",
+      "weight": 2066
+    },
+    {
+      "source": "PFE",
+      "target": "PTON",
+      "weight": 3500
+    },
+    {
+      "source": "PFE",
+      "target": "TLRY",
+      "weight": 2474
+    },
+    {
+      "source": "PFE",
+      "target": "WMT",
+      "weight": 3456
+    },
+    {
+      "source": "PFE",
+      "target": "WISH",
+      "weight": 2272
+    },
+    {
+      "source": "PFE",
+      "target": "PLUG",
+      "weight": 2466
+    },
+    {
+      "source": "PFE",
+      "target": "T",
+      "weight": 5752
+    },
+    {
+      "source": "PFE",
+      "target": "PINS",
+      "weight": 2785
+    },
+    {
+      "source": "DAL",
+      "target": "CRM",
+      "weight": 3647
+    },
+    {
+      "source": "DAL",
+      "target": "TLRY",
+      "weight": 2589
+    },
+    {
+      "source": "DAL",
+      "target": "FSR",
+      "weight": 3538
+    },
+    {
+      "source": "DAL",
+      "target": "PTON",
+      "weight": 1441
+    },
+    {
+      "source": "DAL",
+      "target": "T",
+      "weight": 2441
+    },
+    {
+      "source": "DAL",
+      "target": "INO",
+      "weight": 4395
+    },
+    {
+      "source": "DAL",
+      "target": "PINS",
+      "weight": 1259
+    },
+    {
+      "source": "DAL",
+      "target": "COIN",
+      "weight": 442
+    },
+    {
+      "source": "DAL",
+      "target": "GE",
+      "weight": 3448
+    },
+    {
+      "source": "DAL",
+      "target": "PLUG",
+      "weight": 2274
+    },
+    {
+      "source": "DAL",
+      "target": "GNUS",
+      "weight": 4298
+    },
+    {
+      "source": "DAL",
+      "target": "JPM",
+      "weight": 5162
+    },
+    {
+      "source": "DAL",
+      "target": "OCGN",
+      "weight": 584
+    },
+    {
+      "source": "DAL",
+      "target": "WISH",
+      "weight": 5669
+    },
+    {
+      "source": "DAL",
+      "target": "WMT",
+      "weight": 1208
+    },
+    {
+      "source": "DAL",
+      "target": "INTC",
+      "weight": 2008
+    },
+    {
+      "source": "FSR",
+      "target": "CRM",
+      "weight": 421
+    },
+    {
+      "source": "FSR",
+      "target": "GE",
+      "weight": 1353
+    },
+    {
+      "source": "FSR",
+      "target": "GNUS",
+      "weight": 560
+    },
+    {
+      "source": "FSR",
+      "target": "WISH",
+      "weight": 4796
+    },
+    {
+      "source": "FSR",
+      "target": "INTC",
+      "weight": 466
+    },
+    {
+      "source": "FSR",
+      "target": "PLUG",
+      "weight": 8345
+    },
+    {
+      "source": "FSR",
+      "target": "PTON",
+      "weight": 2460
+    },
+    {
+      "source": "FSR",
+      "target": "T",
+      "weight": 547
+    },
+    {
+      "source": "FSR",
+      "target": "PINS",
+      "weight": 356
+    },
+    {
+      "source": "FSR",
+      "target": "INO",
+      "weight": 5562
+    },
+    {
+      "source": "FSR",
+      "target": "COIN",
+      "weight": 9697
+    },
+    {
+      "source": "FSR",
+      "target": "OCGN",
+      "weight": 6882
+    },
+    {
+      "source": "FSR",
+      "target": "TLRY",
+      "weight": 4586
+    },
+    {
+      "source": "FSR",
+      "target": "WMT",
+      "weight": 410
+    },
+    {
+      "source": "FSR",
+      "target": "JPM",
+      "weight": 265
+    },
+    {
+      "source": "PLUG",
+      "target": "CRM",
+      "weight": 2088
+    },
+    {
+      "source": "PLUG",
+      "target": "GE",
+      "weight": 3855
+    },
+    {
+      "source": "PLUG",
+      "target": "GNUS",
+      "weight": 2569
+    },
+    {
+      "source": "PLUG",
+      "target": "INO",
+      "weight": 2203
+    },
+    {
+      "source": "PLUG",
+      "target": "INTC",
+      "weight": 3035
+    },
+    {
+      "source": "PLUG",
+      "target": "JPM",
+      "weight": 2020
+    },
+    {
+      "source": "PLUG",
+      "target": "OCGN",
+      "weight": 4241
+    },
+    {
+      "source": "PLUG",
+      "target": "PINS",
+      "weight": 2575
+    },
+    {
+      "source": "PLUG",
+      "target": "TLRY",
+      "weight": 5683
+    },
+    {
+      "source": "PLUG",
+      "target": "COIN",
+      "weight": 3922
+    },
+    {
+      "source": "PLUG",
+      "target": "WMT",
+      "weight": 1772
+    },
+    {
+      "source": "PLUG",
+      "target": "WISH",
+      "weight": 4723
+    },
+    {
+      "source": "PLUG",
+      "target": "T",
+      "weight": 1985
+    },
+    {
+      "source": "PLUG",
+      "target": "PTON",
+      "weight": 5735
+    },
+    {
+      "source": "GE",
+      "target": "CRM",
+      "weight": 1868
+    },
+    {
+      "source": "GE",
+      "target": "OCGN",
+      "weight": 1964
+    },
+    {
+      "source": "GE",
+      "target": "WISH",
+      "weight": 2038
+    },
+    {
+      "source": "GE",
+      "target": "PINS",
+      "weight": 3019
+    },
+    {
+      "source": "GE",
+      "target": "INO",
+      "weight": 2070
+    },
+    {
+      "source": "GE",
+      "target": "T",
+      "weight": 6983
+    },
+    {
+      "source": "GE",
+      "target": "WMT",
+      "weight": 3125
+    },
+    {
+      "source": "GE",
+      "target": "INTC",
+      "weight": 3481
+    },
+    {
+      "source": "GE",
+      "target": "COIN",
+      "weight": 931
+    },
+    {
+      "source": "GE",
+      "target": "PTON",
+      "weight": 1266
+    },
+    {
+      "source": "GE",
+      "target": "TLRY",
+      "weight": 4639
+    },
+    {
+      "source": "GE",
+      "target": "JPM",
+      "weight": 3564
+    },
+    {
+      "source": "GE",
+      "target": "GNUS",
+      "weight": 1167
+    },
+    {
+      "source": "CRM",
+      "target": "INTC",
+      "weight": 3203
+    },
+    {
+      "source": "CRM",
+      "target": "OCGN",
+      "weight": 119
+    },
+    {
+      "source": "CRM",
+      "target": "INO",
+      "weight": 1006
+    },
+    {
+      "source": "CRM",
+      "target": "GNUS",
+      "weight": 2648
+    },
+    {
+      "source": "CRM",
+      "target": "COIN",
+      "weight": 1535
+    },
+    {
+      "source": "CRM",
+      "target": "WISH",
+      "weight": 410
+    },
+    {
+      "source": "CRM",
+      "target": "T",
+      "weight": 1479
+    },
+    {
+      "source": "CRM",
+      "target": "PINS",
+      "weight": 2681
+    },
+    {
+      "source": "CRM",
+      "target": "PTON",
+      "weight": 1821
+    },
+    {
+      "source": "CRM",
+      "target": "WMT",
+      "weight": 4908
+    },
+    {
+      "source": "CRM",
+      "target": "JPM",
+      "weight": 5436
+    },
+    {
+      "source": "CRM",
+      "target": "TLRY",
+      "weight": 745
+    },
+    {
+      "source": "WISH",
+      "target": "GNUS",
+      "weight": 285
+    },
+    {
+      "source": "WISH",
+      "target": "INO",
+      "weight": 277
+    },
+    {
+      "source": "WISH",
+      "target": "INTC",
+      "weight": 869
+    },
+    {
+      "source": "WISH",
+      "target": "JPM",
+      "weight": 562
+    },
+    {
+      "source": "WISH",
+      "target": "OCGN",
+      "weight": 8121
+    },
+    {
+      "source": "WISH",
+      "target": "PINS",
+      "weight": 1769
+    },
+    {
+      "source": "WISH",
+      "target": "PTON",
+      "weight": 1076
+    },
+    {
+      "source": "WISH",
+      "target": "T",
+      "weight": 1754
+    },
+    {
+      "source": "WISH",
+      "target": "TLRY",
+      "weight": 6303
+    },
+    {
+      "source": "WISH",
+      "target": "COIN",
+      "weight": 5899
+    },
+    {
+      "source": "WISH",
+      "target": "WMT",
+      "weight": 600
+    },
+    {
+      "source": "JPM",
+      "target": "GNUS",
+      "weight": 115
+    },
+    {
+      "source": "JPM",
+      "target": "INO",
+      "weight": 253
+    },
+    {
+      "source": "JPM",
+      "target": "INTC",
+      "weight": 6185
+    },
+    {
+      "source": "JPM",
+      "target": "COIN",
+      "weight": 1495
+    },
+    {
+      "source": "JPM",
+      "target": "WMT",
+      "weight": 5329
+    },
+    {
+      "source": "JPM",
+      "target": "OCGN",
+      "weight": 262
+    },
+    {
+      "source": "JPM",
+      "target": "PTON",
+      "weight": 1584
+    },
+    {
+      "source": "JPM",
+      "target": "PINS",
+      "weight": 801
+    },
+    {
+      "source": "JPM",
+      "target": "T",
+      "weight": 3626
+    },
+    {
+      "source": "JPM",
+      "target": "TLRY",
+      "weight": 924
+    },
+    {
+      "source": "T",
+      "target": "GNUS",
+      "weight": 828
+    },
+    {
+      "source": "T",
+      "target": "INO",
+      "weight": 243
+    },
+    {
+      "source": "T",
+      "target": "INTC",
+      "weight": 6199
+    },
+    {
+      "source": "T",
+      "target": "OCGN",
+      "weight": 1428
+    },
+    {
+      "source": "T",
+      "target": "PINS",
+      "weight": 580
+    },
+    {
+      "source": "T",
+      "target": "PTON",
+      "weight": 1006
+    },
+    {
+      "source": "T",
+      "target": "WMT",
+      "weight": 3040
+    },
+    {
+      "source": "T",
+      "target": "COIN",
+      "weight": 849
+    },
+    {
+      "source": "T",
+      "target": "TLRY",
+      "weight": 2297
+    },
+    {
+      "source": "COIN",
+      "target": "GNUS",
+      "weight": 283
+    },
+    {
+      "source": "COIN",
+      "target": "INO",
+      "weight": 1081
+    },
+    {
+      "source": "COIN",
+      "target": "INTC",
+      "weight": 914
+    },
+    {
+      "source": "COIN",
+      "target": "OCGN",
+      "weight": 6387
+    },
+    {
+      "source": "COIN",
+      "target": "PINS",
+      "weight": 1356
+    },
+    {
+      "source": "COIN",
+      "target": "PTON",
+      "weight": 1981
+    },
+    {
+      "source": "COIN",
+      "target": "TLRY",
+      "weight": 1678
+    },
+    {
+      "source": "COIN",
+      "target": "WMT",
+      "weight": 915
+    },
+    {
+      "source": "TLRY",
+      "target": "GNUS",
+      "weight": 3104
+    },
+    {
+      "source": "TLRY",
+      "target": "INO",
+      "weight": 3958
+    },
+    {
+      "source": "TLRY",
+      "target": "INTC",
+      "weight": 2445
+    },
+    {
+      "source": "TLRY",
+      "target": "OCGN",
+      "weight": 4249
+    },
+    {
+      "source": "TLRY",
+      "target": "PINS",
+      "weight": 1996
+    },
+    {
+      "source": "TLRY",
+      "target": "PTON",
+      "weight": 1565
+    },
+    {
+      "source": "TLRY",
+      "target": "WMT",
+      "weight": 1228
+    },
+    {
+      "source": "INTC",
+      "target": "GNUS",
+      "weight": 524
+    },
+    {
+      "source": "INTC",
+      "target": "INO",
+      "weight": 1073
+    },
+    {
+      "source": "INTC",
+      "target": "PTON",
+      "weight": 2018
+    },
+    {
+      "source": "INTC",
+      "target": "PINS",
+      "weight": 1253
+    },
+    {
+      "source": "INTC",
+      "target": "OCGN",
+      "weight": 875
+    },
+    {
+      "source": "INTC",
+      "target": "WMT",
+      "weight": 4192
+    },
+    {
+      "source": "INO",
+      "target": "GNUS",
+      "weight": 8710
+    },
+    {
+      "source": "INO",
+      "target": "OCGN",
+      "weight": 1452
+    },
+    {
+      "source": "INO",
+      "target": "PTON",
+      "weight": 2228
+    },
+    {
+      "source": "INO",
+      "target": "WMT",
+      "weight": 1328
+    },
+    {
+      "source": "INO",
+      "target": "PINS",
+      "weight": 586
+    },
+    {
+      "source": "GNUS",
+      "target": "WMT",
+      "weight": 322
+    },
+    {
+      "source": "GNUS",
+      "target": "PTON",
+      "weight": 717
+    },
+    {
+      "source": "GNUS",
+      "target": "PINS",
+      "weight": 104
+    },
+    {
+      "source": "GNUS",
+      "target": "OCGN",
+      "weight": 3349
+    },
+    {
+      "source": "PINS",
+      "target": "OCGN",
+      "weight": 1153
+    },
+    {
+      "source": "PINS",
+      "target": "PTON",
+      "weight": 9109
+    },
+    {
+      "source": "PINS",
+      "target": "WMT",
+      "weight": 980
+    },
+    {
+      "source": "PTON",
+      "target": "OCGN",
+      "weight": 1144
+    },
+    {
+      "source": "PTON",
+      "target": "WMT",
+      "weight": 1167
+    },
+    {
+      "source": "OCGN",
+      "target": "WMT",
+      "weight": 362
+    }
+  ]
+}

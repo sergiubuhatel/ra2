@@ -1,0 +1,3703 @@
+{
+  "nodes": [
+    {
+      "id": "AMED",
+      "label": "AMED",
+      "industry": "Hlth",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.02331458594365353,
+      "closeness_centrality": 0.7347222222222223,
+      "eigenvector_centrality": 0.013039473787244408,
+      "harmonic_centrality": 26.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 471
+    },
+    {
+      "id": "ARA",
+      "label": "ARA",
+      "industry": "Hlth",
+      "degree_centrality": 0.2708333333333333,
+      "betweenness_centrality": 0.010249057714639692,
+      "closeness_centrality": 0.5510416666666667,
+      "eigenvector_centrality": 0.0009583799107824185,
+      "harmonic_centrality": 22.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 39
+    },
+    {
+      "id": "ATIP",
+      "label": "ATIP",
+      "industry": "Hlth",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.025165276985912158,
+      "closeness_centrality": 0.5957207207207207,
+      "eigenvector_centrality": 0.002095173763262921,
+      "harmonic_centrality": 26.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 104
+    },
+    {
+      "id": "BEAT",
+      "label": "BEAT",
+      "industry": "Hlth",
+      "degree_centrality": 0.1875,
+      "betweenness_centrality": 0.007489353632970655,
+      "closeness_centrality": 0.5248015873015873,
+      "eigenvector_centrality": 0.0014920738041251384,
+      "harmonic_centrality": 22.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 74
+    },
+    {
+      "id": "BKD",
+      "label": "BKD",
+      "industry": "Hlth",
+      "degree_centrality": 0.7083333333333333,
+      "betweenness_centrality": 0.007490748514684686,
+      "closeness_centrality": 0.7600574712643678,
+      "eigenvector_centrality": 0.02500413307031393,
+      "harmonic_centrality": 24.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 660
+    },
+    {
+      "id": "CDNA",
+      "label": "CDNA",
+      "industry": "Hlth",
+      "degree_centrality": 0.6875,
+      "betweenness_centrality": 0.021598914285084498,
+      "closeness_centrality": 0.7471751412429379,
+      "eigenvector_centrality": 0.07748366699419597,
+      "harmonic_centrality": 25.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 939
+    },
+    {
+      "id": "CGIX",
+      "label": "CGIX",
+      "industry": "Hlth",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "CLBS",
+      "label": "CLBS",
+      "industry": "Hlth",
+      "degree_centrality": 0.6041666666666666,
+      "betweenness_centrality": 0.07390748064050628,
+      "closeness_centrality": 0.6997354497354498,
+      "eigenvector_centrality": 0.008485354480410425,
+      "harmonic_centrality": 29.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 139
+    },
+    {
+      "id": "CSU",
+      "label": "CSU",
+      "industry": "Hlth",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.016404840466167123,
+      "closeness_centrality": 0.7872023809523809,
+      "eigenvector_centrality": 0.01979026842748928,
+      "harmonic_centrality": 25.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 471
+    },
+    {
+      "id": "CYH",
+      "label": "CYH",
+      "industry": "Hlth",
+      "degree_centrality": 0.6875,
+      "betweenness_centrality": 0.010359736419655069,
+      "closeness_centrality": 0.7471751412429379,
+      "eigenvector_centrality": 0.07083311710374493,
+      "harmonic_centrality": 23.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 939
+    },
+    {
+      "id": "DGX",
+      "label": "DGX",
+      "industry": "Hlth",
+      "degree_centrality": 0.7083333333333333,
+      "betweenness_centrality": 0.050149702543319546,
+      "closeness_centrality": 0.7600574712643678,
+      "eigenvector_centrality": 0.041995828470744,
+      "harmonic_centrality": 27.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 765
+    },
+    {
+      "id": "DVA",
+      "label": "DVA",
+      "industry": "Hlth",
+      "degree_centrality": 0.6875,
+      "betweenness_centrality": 0.014626751794304988,
+      "closeness_centrality": 0.7471751412429379,
+      "eigenvector_centrality": 0.02143608161222035,
+      "harmonic_centrality": 24.5,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 439
+    },
+    {
+      "id": "EHC",
+      "label": "EHC",
+      "industry": "Hlth",
+      "degree_centrality": 0.5208333333333333,
+      "betweenness_centrality": 0.007298201945808327,
+      "closeness_centrality": 0.6579601990049752,
+      "eigenvector_centrality": 0.013464570296974057,
+      "harmonic_centrality": 22.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 259
+    },
+    {
+      "id": "ENSG",
+      "label": "ENSG",
+      "industry": "Hlth",
+      "degree_centrality": 0.6875,
+      "betweenness_centrality": 0.04350359918843962,
+      "closeness_centrality": 0.7471751412429379,
+      "eigenvector_centrality": 0.016195506381044833,
+      "harmonic_centrality": 26.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 395
+    },
+    {
+      "id": "ENZ",
+      "label": "ENZ",
+      "industry": "Hlth",
+      "degree_centrality": 0.5208333333333333,
+      "betweenness_centrality": 0.03609577305603588,
+      "closeness_centrality": 0.6482843137254902,
+      "eigenvector_centrality": 0.24056180425323556,
+      "harmonic_centrality": 27.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 490
+    },
+    {
+      "id": "FNA",
+      "label": "FNA",
+      "industry": "Hlth",
+      "degree_centrality": 0.08333333333333333,
+      "betweenness_centrality": 0.00041863672182821114,
+      "closeness_centrality": 0.4898148148148148,
+      "eigenvector_centrality": 0.0010377132770289037,
+      "harmonic_centrality": 18.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 9
+    },
+    {
+      "id": "FVE",
+      "label": "FVE",
+      "industry": "Hlth",
+      "degree_centrality": 0.47916666666666663,
+      "betweenness_centrality": 0.006178297667659368,
+      "closeness_centrality": 0.6388888888888888,
+      "eigenvector_centrality": 0.012302103992889325,
+      "harmonic_centrality": 22.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 325
+    },
+    {
+      "id": "GEN",
+      "label": "GEN",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.02940186537261005,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.01196198599738653,
+      "harmonic_centrality": 26.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 247
+    },
+    {
+      "id": "HCA",
+      "label": "HCA",
+      "industry": "Hlth",
+      "degree_centrality": 0.8125,
+      "betweenness_centrality": 0.01867223718952442,
+      "closeness_centrality": 0.8317610062893083,
+      "eigenvector_centrality": 0.11505013103637302,
+      "harmonic_centrality": 25.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1188
+    },
+    {
+      "id": "HGBL",
+      "label": "HGBL",
+      "industry": "Hlth",
+      "degree_centrality": 0.2708333333333333,
+      "betweenness_centrality": 0.04380897937296561,
+      "closeness_centrality": 0.5580168776371308,
+      "eigenvector_centrality": 0.0018470880131891921,
+      "harmonic_centrality": 26.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 18
+    },
+    {
+      "id": "LH",
+      "label": "LH",
+      "industry": "Hlth",
+      "degree_centrality": 0.5625,
+      "betweenness_centrality": 0.0047669154971251345,
+      "closeness_centrality": 0.6782051282051282,
+      "eigenvector_centrality": 0.05097789026561929,
+      "harmonic_centrality": 22.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 955
+    },
+    {
+      "id": "LHCG",
+      "label": "LHCG",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.019771985795921963,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.010466295059510454,
+      "harmonic_centrality": 25.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 423
+    },
+    {
+      "id": "MD",
+      "label": "MD",
+      "industry": "Hlth",
+      "degree_centrality": 0.7083333333333333,
+      "betweenness_centrality": 0.0033042398401440954,
+      "closeness_centrality": 0.7600574712643678,
+      "eigenvector_centrality": 0.06285706893216439,
+      "harmonic_centrality": 22.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 528
+    },
+    {
+      "id": "MGLN",
+      "label": "MGLN",
+      "industry": "Hlth",
+      "degree_centrality": 0.3958333333333333,
+      "betweenness_centrality": 0.002454032736025852,
+      "closeness_centrality": 0.6038812785388128,
+      "eigenvector_centrality": 0.003672283579864724,
+      "harmonic_centrality": 21.416666666666664,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 109
+    },
+    {
+      "id": "MOH",
+      "label": "MOH",
+      "industry": "Hlth",
+      "degree_centrality": 0.6041666666666666,
+      "betweenness_centrality": 0.0022626408264706135,
+      "closeness_centrality": 0.6997354497354498,
+      "eigenvector_centrality": 0.023185755687944544,
+      "harmonic_centrality": 22.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 535
+    },
+    {
+      "id": "NHC",
+      "label": "NHC",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.013166048638123104,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.013184935713712624,
+      "harmonic_centrality": 25.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 226
+    },
+    {
+      "id": "NSPR",
+      "label": "NSPR",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.02045695390110284,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.02490523209568008,
+      "harmonic_centrality": 25.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 251
+    },
+    {
+      "id": "OCX",
+      "label": "OCX",
+      "industry": "Hlth",
+      "degree_centrality": 0.5625,
+      "betweenness_centrality": 0.020333375253588016,
+      "closeness_centrality": 0.6782051282051282,
+      "eigenvector_centrality": 0.007212202947493771,
+      "harmonic_centrality": 25.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 121
+    },
+    {
+      "id": "OPCH",
+      "label": "OPCH",
+      "industry": "Hlth",
+      "degree_centrality": 0.4375,
+      "betweenness_centrality": 0.0162319432931135,
+      "closeness_centrality": 0.6208920187793427,
+      "eigenvector_centrality": 0.0037397280253760627,
+      "harmonic_centrality": 24.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 84
+    },
+    {
+      "id": "OSH",
+      "label": "OSH",
+      "industry": "Hlth",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.00733570876523004,
+      "closeness_centrality": 0.7347222222222223,
+      "eigenvector_centrality": 0.028054204253088223,
+      "harmonic_centrality": 23.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 502
+    },
+    {
+      "id": "PDEX",
+      "label": "PDEX",
+      "industry": "Hlth",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.004047647830892512,
+      "closeness_centrality": 0.5800438596491229,
+      "eigenvector_centrality": 0.013068944243876323,
+      "harmonic_centrality": 22.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 70
+    },
+    {
+      "id": "PHR",
+      "label": "PHR",
+      "industry": "Hlth",
+      "degree_centrality": 0.5208333333333333,
+      "betweenness_centrality": 0.03694780556091571,
+      "closeness_centrality": 0.6579601990049752,
+      "eigenvector_centrality": 0.025322930236934868,
+      "harmonic_centrality": 26.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 334
+    },
+    {
+      "id": "PMD",
+      "label": "PMD",
+      "industry": "Hlth",
+      "degree_centrality": 0.29166666666666663,
+      "betweenness_centrality": 0.015400353930939034,
+      "closeness_centrality": 0.5651709401709402,
+      "eigenvector_centrality": 0.0028841866970800182,
+      "harmonic_centrality": 25.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 25
+    },
+    {
+      "id": "RDNT",
+      "label": "RDNT",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.022619828197112314,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.004492138937579407,
+      "harmonic_centrality": 25.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 102
+    },
+    {
+      "id": "RHE",
+      "label": "RHE",
+      "industry": "Hlth",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.02443271771338104,
+      "closeness_centrality": 0.7347222222222223,
+      "eigenvector_centrality": 0.6452304181872686,
+      "harmonic_centrality": 24.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 1273
+    },
+    {
+      "id": "SBEV",
+      "label": "SBEV",
+      "industry": "Hlth",
+      "degree_centrality": 0.16666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5186274509803921,
+      "eigenvector_centrality": 0.00556601011349723,
+      "harmonic_centrality": 19.25,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 35
+    },
+    {
+      "id": "SEM",
+      "label": "SEM",
+      "industry": "Hlth",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.0029266192830022615,
+      "closeness_centrality": 0.7347222222222223,
+      "eigenvector_centrality": 0.028398425434443725,
+      "harmonic_centrality": 20.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 406
+    },
+    {
+      "id": "SGFY",
+      "label": "SGFY",
+      "industry": "Hlth",
+      "degree_centrality": 0.3958333333333333,
+      "betweenness_centrality": 0.011219424638542284,
+      "closeness_centrality": 0.6038812785388128,
+      "eigenvector_centrality": 0.05556072788451948,
+      "harmonic_centrality": 23.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 838
+    },
+    {
+      "id": "SNDA",
+      "label": "SNDA",
+      "industry": "Hlth",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SSY",
+      "label": "SSY",
+      "industry": "Hlth",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.020145332637510362,
+      "closeness_centrality": 0.7110215053763441,
+      "eigenvector_centrality": 0.6847214677221802,
+      "harmonic_centrality": 26.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 1548
+    },
+    {
+      "id": "TDOC",
+      "label": "TDOC",
+      "industry": "Hlth",
+      "degree_centrality": 0.7916666666666666,
+      "betweenness_centrality": 0.0043215394905006905,
+      "closeness_centrality": 0.8163580246913581,
+      "eigenvector_centrality": 0.0756171306523057,
+      "harmonic_centrality": 20.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 1569
+    },
+    {
+      "id": "THC",
+      "label": "THC",
+      "industry": "Hlth",
+      "degree_centrality": 0.7916666666666666,
+      "betweenness_centrality": 0.022137913062115194,
+      "closeness_centrality": 0.8163580246913581,
+      "eigenvector_centrality": 0.0775252246807188,
+      "harmonic_centrality": 25.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 1199
+    },
+    {
+      "id": "TVTY",
+      "label": "TVTY",
+      "industry": "Hlth",
+      "degree_centrality": 0.47916666666666663,
+      "betweenness_centrality": 0.025106384946810476,
+      "closeness_centrality": 0.6388888888888888,
+      "eigenvector_centrality": 0.003808156606461196,
+      "harmonic_centrality": 26.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 89
+    },
+    {
+      "id": "UHS",
+      "label": "UHS",
+      "industry": "Hlth",
+      "degree_centrality": 0.6458333333333333,
+      "betweenness_centrality": 0.004233974376339831,
+      "closeness_centrality": 0.7226775956284153,
+      "eigenvector_centrality": 0.05032354793522876,
+      "harmonic_centrality": 21.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 648
+    },
+    {
+      "id": "UPH",
+      "label": "UPH",
+      "industry": "Hlth",
+      "degree_centrality": 0.5416666666666666,
+      "betweenness_centrality": 0.07191003687014323,
+      "closeness_centrality": 0.667929292929293,
+      "eigenvector_centrality": 0.00981895075079476,
+      "harmonic_centrality": 29.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 197
+    },
+    {
+      "id": "USPH",
+      "label": "USPH",
+      "industry": "Hlth",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.037957504343220864,
+      "closeness_centrality": 0.6888020833333334,
+      "eigenvector_centrality": 0.0049380721696295335,
+      "harmonic_centrality": 27.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 165
+    },
+    {
+      "id": "VNRX",
+      "label": "VNRX",
+      "industry": "Hlth",
+      "degree_centrality": 0.4583333333333333,
+      "betweenness_centrality": 0.021817946385765532,
+      "closeness_centrality": 0.6297619047619047,
+      "eigenvector_centrality": 0.0022409929599002234,
+      "harmonic_centrality": 26.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 99
+    },
+    {
+      "id": "VYNT",
+      "label": "VYNT",
+      "industry": "Hlth",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.0136696538292283,
+      "closeness_centrality": 0.5957207207207207,
+      "eigenvector_centrality": 0.01979262143821243,
+      "harmonic_centrality": 25.666666666666657,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 178
+    },
+    {
+      "id": "ZIOP",
+      "label": "ZIOP",
+      "industry": "Hlth",
+      "degree_centrality": 0.6041666666666666,
+      "betweenness_centrality": 0.05945054994257122,
+      "closeness_centrality": 0.6997354497354498,
+      "eigenvector_centrality": 0.007708377505765661,
+      "harmonic_centrality": 27.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 130
+    }
+  ],
+  "edges": [
+    {
+      "source": "AMED",
+      "target": "ATIP",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "MGLN",
+      "weight": 6
+    },
+    {
+      "source": "AMED",
+      "target": "CSU",
+      "weight": 40
+    },
+    {
+      "source": "AMED",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "ENSG",
+      "weight": 7
+    },
+    {
+      "source": "AMED",
+      "target": "ENZ",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "NSPR",
+      "weight": 2
+    },
+    {
+      "source": "AMED",
+      "target": "DGX",
+      "weight": 9
+    },
+    {
+      "source": "AMED",
+      "target": "LHCG",
+      "weight": 98
+    },
+    {
+      "source": "AMED",
+      "target": "UHS",
+      "weight": 5
+    },
+    {
+      "source": "AMED",
+      "target": "HCA",
+      "weight": 9
+    },
+    {
+      "source": "AMED",
+      "target": "OCX",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "THC",
+      "weight": 9
+    },
+    {
+      "source": "AMED",
+      "target": "BKD",
+      "weight": 60
+    },
+    {
+      "source": "AMED",
+      "target": "LH",
+      "weight": 2
+    },
+    {
+      "source": "AMED",
+      "target": "SGFY",
+      "weight": 7
+    },
+    {
+      "source": "AMED",
+      "target": "FVE",
+      "weight": 53
+    },
+    {
+      "source": "AMED",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "CYH",
+      "weight": 17
+    },
+    {
+      "source": "AMED",
+      "target": "OSH",
+      "weight": 5
+    },
+    {
+      "source": "AMED",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "MD",
+      "weight": 6
+    },
+    {
+      "source": "AMED",
+      "target": "TDOC",
+      "weight": 33
+    },
+    {
+      "source": "AMED",
+      "target": "MOH",
+      "weight": 29
+    },
+    {
+      "source": "AMED",
+      "target": "UPH",
+      "weight": 6
+    },
+    {
+      "source": "AMED",
+      "target": "EHC",
+      "weight": 31
+    },
+    {
+      "source": "AMED",
+      "target": "CLBS",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "DVA",
+      "weight": 11
+    },
+    {
+      "source": "AMED",
+      "target": "NHC",
+      "weight": 5
+    },
+    {
+      "source": "AMED",
+      "target": "CDNA",
+      "weight": 12
+    },
+    {
+      "source": "AMED",
+      "target": "BEAT",
+      "weight": 1
+    },
+    {
+      "source": "AMED",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "DGX",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "GEN",
+      "weight": 4
+    },
+    {
+      "source": "ARA",
+      "target": "LH",
+      "weight": 2
+    },
+    {
+      "source": "ARA",
+      "target": "BKD",
+      "weight": 2
+    },
+    {
+      "source": "ARA",
+      "target": "RDNT",
+      "weight": 3
+    },
+    {
+      "source": "ARA",
+      "target": "DVA",
+      "weight": 15
+    },
+    {
+      "source": "ARA",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "MOH",
+      "weight": 4
+    },
+    {
+      "source": "ARA",
+      "target": "MGLN",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "CYH",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "ENSG",
+      "weight": 1
+    },
+    {
+      "source": "ARA",
+      "target": "SEM",
+      "weight": 2
+    },
+    {
+      "source": "ARA",
+      "target": "MD",
+      "weight": 2
+    },
+    {
+      "source": "ATIP",
+      "target": "DVA",
+      "weight": 2
+    },
+    {
+      "source": "ATIP",
+      "target": "UPH",
+      "weight": 22
+    },
+    {
+      "source": "ATIP",
+      "target": "EHC",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "TDOC",
+      "weight": 6
+    },
+    {
+      "source": "ATIP",
+      "target": "BKD",
+      "weight": 3
+    },
+    {
+      "source": "ATIP",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "USPH",
+      "weight": 52
+    },
+    {
+      "source": "ATIP",
+      "target": "DGX",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "CLBS",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "HCA",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "LHCG",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "NSPR",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "OSH",
+      "weight": 3
+    },
+    {
+      "source": "ATIP",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "ATIP",
+      "target": "TVTY",
+      "weight": 3
+    },
+    {
+      "source": "ATIP",
+      "target": "UHS",
+      "weight": 3
+    },
+    {
+      "source": "ATIP",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "BEAT",
+      "target": "MGLN",
+      "weight": 18
+    },
+    {
+      "source": "BEAT",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "BEAT",
+      "target": "VNRX",
+      "weight": 29
+    },
+    {
+      "source": "BEAT",
+      "target": "TDOC",
+      "weight": 1
+    },
+    {
+      "source": "BEAT",
+      "target": "CDNA",
+      "weight": 6
+    },
+    {
+      "source": "BEAT",
+      "target": "MD",
+      "weight": 12
+    },
+    {
+      "source": "BEAT",
+      "target": "HCA",
+      "weight": 1
+    },
+    {
+      "source": "BEAT",
+      "target": "USPH",
+      "weight": 5
+    },
+    {
+      "source": "BKD",
+      "target": "SBEV",
+      "weight": 18
+    },
+    {
+      "source": "BKD",
+      "target": "TDOC",
+      "weight": 61
+    },
+    {
+      "source": "BKD",
+      "target": "CSU",
+      "weight": 107
+    },
+    {
+      "source": "BKD",
+      "target": "LHCG",
+      "weight": 72
+    },
+    {
+      "source": "BKD",
+      "target": "RDNT",
+      "weight": 2
+    },
+    {
+      "source": "BKD",
+      "target": "NHC",
+      "weight": 10
+    },
+    {
+      "source": "BKD",
+      "target": "THC",
+      "weight": 64
+    },
+    {
+      "source": "BKD",
+      "target": "ZIOP",
+      "weight": 11
+    },
+    {
+      "source": "BKD",
+      "target": "SEM",
+      "weight": 9
+    },
+    {
+      "source": "BKD",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "EHC",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "GEN",
+      "weight": 8
+    },
+    {
+      "source": "BKD",
+      "target": "MOH",
+      "weight": 2
+    },
+    {
+      "source": "BKD",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "UHS",
+      "weight": 8
+    },
+    {
+      "source": "BKD",
+      "target": "FVE",
+      "weight": 80
+    },
+    {
+      "source": "BKD",
+      "target": "ENSG",
+      "weight": 5
+    },
+    {
+      "source": "BKD",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "OSH",
+      "weight": 1
+    },
+    {
+      "source": "BKD",
+      "target": "CYH",
+      "weight": 74
+    },
+    {
+      "source": "BKD",
+      "target": "LH",
+      "weight": 2
+    },
+    {
+      "source": "BKD",
+      "target": "PHR",
+      "weight": 2
+    },
+    {
+      "source": "BKD",
+      "target": "CDNA",
+      "weight": 5
+    },
+    {
+      "source": "BKD",
+      "target": "DVA",
+      "weight": 6
+    },
+    {
+      "source": "BKD",
+      "target": "MD",
+      "weight": 5
+    },
+    {
+      "source": "BKD",
+      "target": "DGX",
+      "weight": 5
+    },
+    {
+      "source": "BKD",
+      "target": "CLBS",
+      "weight": 12
+    },
+    {
+      "source": "BKD",
+      "target": "RHE",
+      "weight": 3
+    },
+    {
+      "source": "BKD",
+      "target": "HCA",
+      "weight": 17
+    },
+    {
+      "source": "BKD",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "MOH",
+      "weight": 7
+    },
+    {
+      "source": "CDNA",
+      "target": "CSU",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "GEN",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "DVA",
+      "weight": 13
+    },
+    {
+      "source": "CDNA",
+      "target": "CYH",
+      "weight": 27
+    },
+    {
+      "source": "CDNA",
+      "target": "OCX",
+      "weight": 22
+    },
+    {
+      "source": "CDNA",
+      "target": "SEM",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "UHS",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "HCA",
+      "weight": 6
+    },
+    {
+      "source": "CDNA",
+      "target": "ENSG",
+      "weight": 10
+    },
+    {
+      "source": "CDNA",
+      "target": "MD",
+      "weight": 28
+    },
+    {
+      "source": "CDNA",
+      "target": "RDNT",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "THC",
+      "weight": 48
+    },
+    {
+      "source": "CDNA",
+      "target": "TVTY",
+      "weight": 11
+    },
+    {
+      "source": "CDNA",
+      "target": "CLBS",
+      "weight": 3
+    },
+    {
+      "source": "CDNA",
+      "target": "ENZ",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "NSPR",
+      "weight": 10
+    },
+    {
+      "source": "CDNA",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "CDNA",
+      "target": "OSH",
+      "weight": 13
+    },
+    {
+      "source": "CDNA",
+      "target": "SGFY",
+      "weight": 351
+    },
+    {
+      "source": "CDNA",
+      "target": "FVE",
+      "weight": 2
+    },
+    {
+      "source": "CDNA",
+      "target": "NHC",
+      "weight": 8
+    },
+    {
+      "source": "CDNA",
+      "target": "PHR",
+      "weight": 41
+    },
+    {
+      "source": "CDNA",
+      "target": "TDOC",
+      "weight": 225
+    },
+    {
+      "source": "CDNA",
+      "target": "RHE",
+      "weight": 25
+    },
+    {
+      "source": "CDNA",
+      "target": "MGLN",
+      "weight": 18
+    },
+    {
+      "source": "CDNA",
+      "target": "SSY",
+      "weight": 26
+    },
+    {
+      "source": "CDNA",
+      "target": "LH",
+      "weight": 12
+    },
+    {
+      "source": "CDNA",
+      "target": "OPCH",
+      "weight": 2
+    },
+    {
+      "source": "CLBS",
+      "target": "VYNT",
+      "weight": 45
+    },
+    {
+      "source": "CLBS",
+      "target": "HCA",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "OSH",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "HGBL",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "DVA",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "RHE",
+      "weight": 3
+    },
+    {
+      "source": "CLBS",
+      "target": "SSY",
+      "weight": 5
+    },
+    {
+      "source": "CLBS",
+      "target": "FVE",
+      "weight": 6
+    },
+    {
+      "source": "CLBS",
+      "target": "ZIOP",
+      "weight": 4
+    },
+    {
+      "source": "CLBS",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "ENZ",
+      "weight": 2
+    },
+    {
+      "source": "CLBS",
+      "target": "LHCG",
+      "weight": 3
+    },
+    {
+      "source": "CLBS",
+      "target": "NSPR",
+      "weight": 19
+    },
+    {
+      "source": "CLBS",
+      "target": "UPH",
+      "weight": 3
+    },
+    {
+      "source": "CLBS",
+      "target": "MD",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "ENSG",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "LH",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "DGX",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "TDOC",
+      "weight": 7
+    },
+    {
+      "source": "CLBS",
+      "target": "OCX",
+      "weight": 3
+    },
+    {
+      "source": "CLBS",
+      "target": "GEN",
+      "weight": 6
+    },
+    {
+      "source": "CLBS",
+      "target": "MOH",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "NHC",
+      "weight": 1
+    },
+    {
+      "source": "CLBS",
+      "target": "SEM",
+      "weight": 4
+    },
+    {
+      "source": "CSU",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "CSU",
+      "target": "HGBL",
+      "weight": 1
+    },
+    {
+      "source": "CSU",
+      "target": "NHC",
+      "weight": 27
+    },
+    {
+      "source": "CSU",
+      "target": "MD",
+      "weight": 4
+    },
+    {
+      "source": "CSU",
+      "target": "UHS",
+      "weight": 10
+    },
+    {
+      "source": "CSU",
+      "target": "TDOC",
+      "weight": 3
+    },
+    {
+      "source": "CSU",
+      "target": "EHC",
+      "weight": 4
+    },
+    {
+      "source": "CSU",
+      "target": "USPH",
+      "weight": 3
+    },
+    {
+      "source": "CSU",
+      "target": "NSPR",
+      "weight": 6
+    },
+    {
+      "source": "CSU",
+      "target": "RHE",
+      "weight": 5
+    },
+    {
+      "source": "CSU",
+      "target": "CYH",
+      "weight": 6
+    },
+    {
+      "source": "CSU",
+      "target": "RDNT",
+      "weight": 4
+    },
+    {
+      "source": "CSU",
+      "target": "ENZ",
+      "weight": 16
+    },
+    {
+      "source": "CSU",
+      "target": "SSY",
+      "weight": 6
+    },
+    {
+      "source": "CSU",
+      "target": "SGFY",
+      "weight": 1
+    },
+    {
+      "source": "CSU",
+      "target": "DVA",
+      "weight": 2
+    },
+    {
+      "source": "CSU",
+      "target": "THC",
+      "weight": 5
+    },
+    {
+      "source": "CSU",
+      "target": "ENSG",
+      "weight": 5
+    },
+    {
+      "source": "CSU",
+      "target": "LHCG",
+      "weight": 63
+    },
+    {
+      "source": "CSU",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "CSU",
+      "target": "SEM",
+      "weight": 6
+    },
+    {
+      "source": "CSU",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "CSU",
+      "target": "OCX",
+      "weight": 2
+    },
+    {
+      "source": "CSU",
+      "target": "FVE",
+      "weight": 73
+    },
+    {
+      "source": "CSU",
+      "target": "PDEX",
+      "weight": 2
+    },
+    {
+      "source": "CSU",
+      "target": "DGX",
+      "weight": 4
+    },
+    {
+      "source": "CSU",
+      "target": "GEN",
+      "weight": 33
+    },
+    {
+      "source": "CSU",
+      "target": "MOH",
+      "weight": 3
+    },
+    {
+      "source": "CSU",
+      "target": "VYNT",
+      "weight": 3
+    },
+    {
+      "source": "CSU",
+      "target": "LH",
+      "weight": 6
+    },
+    {
+      "source": "CSU",
+      "target": "HCA",
+      "weight": 9
+    },
+    {
+      "source": "CSU",
+      "target": "OSH",
+      "weight": 7
+    },
+    {
+      "source": "CSU",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "CYH",
+      "target": "NHC",
+      "weight": 21
+    },
+    {
+      "source": "CYH",
+      "target": "SSY",
+      "weight": 30
+    },
+    {
+      "source": "CYH",
+      "target": "HCA",
+      "weight": 144
+    },
+    {
+      "source": "CYH",
+      "target": "EHC",
+      "weight": 20
+    },
+    {
+      "source": "CYH",
+      "target": "DGX",
+      "weight": 20
+    },
+    {
+      "source": "CYH",
+      "target": "USPH",
+      "weight": 5
+    },
+    {
+      "source": "CYH",
+      "target": "DVA",
+      "weight": 11
+    },
+    {
+      "source": "CYH",
+      "target": "MGLN",
+      "weight": 1
+    },
+    {
+      "source": "CYH",
+      "target": "RDNT",
+      "weight": 9
+    },
+    {
+      "source": "CYH",
+      "target": "ENSG",
+      "weight": 42
+    },
+    {
+      "source": "CYH",
+      "target": "UPH",
+      "weight": 2
+    },
+    {
+      "source": "CYH",
+      "target": "LH",
+      "weight": 2
+    },
+    {
+      "source": "CYH",
+      "target": "TDOC",
+      "weight": 17
+    },
+    {
+      "source": "CYH",
+      "target": "ENZ",
+      "weight": 8
+    },
+    {
+      "source": "CYH",
+      "target": "PHR",
+      "weight": 5
+    },
+    {
+      "source": "CYH",
+      "target": "THC",
+      "weight": 192
+    },
+    {
+      "source": "CYH",
+      "target": "RHE",
+      "weight": 2
+    },
+    {
+      "source": "CYH",
+      "target": "GEN",
+      "weight": 2
+    },
+    {
+      "source": "CYH",
+      "target": "OPCH",
+      "weight": 7
+    },
+    {
+      "source": "CYH",
+      "target": "SEM",
+      "weight": 55
+    },
+    {
+      "source": "CYH",
+      "target": "LHCG",
+      "weight": 1
+    },
+    {
+      "source": "CYH",
+      "target": "MOH",
+      "weight": 36
+    },
+    {
+      "source": "CYH",
+      "target": "OSH",
+      "weight": 17
+    },
+    {
+      "source": "CYH",
+      "target": "PDEX",
+      "weight": 1
+    },
+    {
+      "source": "CYH",
+      "target": "MD",
+      "weight": 72
+    },
+    {
+      "source": "CYH",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "CYH",
+      "target": "UHS",
+      "weight": 90
+    },
+    {
+      "source": "CYH",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "PMD",
+      "weight": 2
+    },
+    {
+      "source": "DGX",
+      "target": "GEN",
+      "weight": 25
+    },
+    {
+      "source": "DGX",
+      "target": "TDOC",
+      "weight": 22
+    },
+    {
+      "source": "DGX",
+      "target": "THC",
+      "weight": 65
+    },
+    {
+      "source": "DGX",
+      "target": "ENZ",
+      "weight": 26
+    },
+    {
+      "source": "DGX",
+      "target": "UHS",
+      "weight": 16
+    },
+    {
+      "source": "DGX",
+      "target": "RDNT",
+      "weight": 3
+    },
+    {
+      "source": "DGX",
+      "target": "DVA",
+      "weight": 64
+    },
+    {
+      "source": "DGX",
+      "target": "LH",
+      "weight": 331
+    },
+    {
+      "source": "DGX",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "OSH",
+      "weight": 10
+    },
+    {
+      "source": "DGX",
+      "target": "MD",
+      "weight": 16
+    },
+    {
+      "source": "DGX",
+      "target": "LHCG",
+      "weight": 8
+    },
+    {
+      "source": "DGX",
+      "target": "MOH",
+      "weight": 29
+    },
+    {
+      "source": "DGX",
+      "target": "ENSG",
+      "weight": 9
+    },
+    {
+      "source": "DGX",
+      "target": "SEM",
+      "weight": 6
+    },
+    {
+      "source": "DGX",
+      "target": "MGLN",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "NHC",
+      "weight": 12
+    },
+    {
+      "source": "DGX",
+      "target": "ZIOP",
+      "weight": 6
+    },
+    {
+      "source": "DGX",
+      "target": "OCX",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "HCA",
+      "weight": 63
+    },
+    {
+      "source": "DGX",
+      "target": "EHC",
+      "weight": 3
+    },
+    {
+      "source": "DGX",
+      "target": "SGFY",
+      "weight": 1
+    },
+    {
+      "source": "DGX",
+      "target": "PDEX",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "USPH",
+      "weight": 14
+    },
+    {
+      "source": "DVA",
+      "target": "RHE",
+      "weight": 4
+    },
+    {
+      "source": "DVA",
+      "target": "SBEV",
+      "weight": 3
+    },
+    {
+      "source": "DVA",
+      "target": "SEM",
+      "weight": 10
+    },
+    {
+      "source": "DVA",
+      "target": "ENSG",
+      "weight": 2
+    },
+    {
+      "source": "DVA",
+      "target": "OCX",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "RDNT",
+      "weight": 4
+    },
+    {
+      "source": "DVA",
+      "target": "SGFY",
+      "weight": 3
+    },
+    {
+      "source": "DVA",
+      "target": "MOH",
+      "weight": 17
+    },
+    {
+      "source": "DVA",
+      "target": "MGLN",
+      "weight": 5
+    },
+    {
+      "source": "DVA",
+      "target": "LH",
+      "weight": 86
+    },
+    {
+      "source": "DVA",
+      "target": "HCA",
+      "weight": 16
+    },
+    {
+      "source": "DVA",
+      "target": "OSH",
+      "weight": 9
+    },
+    {
+      "source": "DVA",
+      "target": "THC",
+      "weight": 47
+    },
+    {
+      "source": "DVA",
+      "target": "TDOC",
+      "weight": 11
+    },
+    {
+      "source": "DVA",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "MD",
+      "weight": 11
+    },
+    {
+      "source": "DVA",
+      "target": "LHCG",
+      "weight": 6
+    },
+    {
+      "source": "DVA",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "GEN",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "EHC",
+      "weight": 11
+    },
+    {
+      "source": "DVA",
+      "target": "UHS",
+      "weight": 49
+    },
+    {
+      "source": "DVA",
+      "target": "FVE",
+      "weight": 1
+    },
+    {
+      "source": "DVA",
+      "target": "NSPR",
+      "weight": 1
+    },
+    {
+      "source": "EHC",
+      "target": "RHE",
+      "weight": 3
+    },
+    {
+      "source": "EHC",
+      "target": "ENZ",
+      "weight": 1
+    },
+    {
+      "source": "EHC",
+      "target": "LHCG",
+      "weight": 27
+    },
+    {
+      "source": "EHC",
+      "target": "ENSG",
+      "weight": 8
+    },
+    {
+      "source": "EHC",
+      "target": "MOH",
+      "weight": 11
+    },
+    {
+      "source": "EHC",
+      "target": "RDNT",
+      "weight": 1
+    },
+    {
+      "source": "EHC",
+      "target": "LH",
+      "weight": 11
+    },
+    {
+      "source": "EHC",
+      "target": "UPH",
+      "weight": 2
+    },
+    {
+      "source": "EHC",
+      "target": "OPCH",
+      "weight": 3
+    },
+    {
+      "source": "EHC",
+      "target": "PHR",
+      "weight": 7
+    },
+    {
+      "source": "EHC",
+      "target": "SEM",
+      "weight": 5
+    },
+    {
+      "source": "EHC",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "EHC",
+      "target": "TDOC",
+      "weight": 16
+    },
+    {
+      "source": "EHC",
+      "target": "USPH",
+      "weight": 7
+    },
+    {
+      "source": "EHC",
+      "target": "HCA",
+      "weight": 37
+    },
+    {
+      "source": "EHC",
+      "target": "MD",
+      "weight": 1
+    },
+    {
+      "source": "EHC",
+      "target": "UHS",
+      "weight": 34
+    },
+    {
+      "source": "EHC",
+      "target": "THC",
+      "weight": 13
+    },
+    {
+      "source": "ENSG",
+      "target": "FVE",
+      "weight": 2
+    },
+    {
+      "source": "ENSG",
+      "target": "MD",
+      "weight": 18
+    },
+    {
+      "source": "ENSG",
+      "target": "HCA",
+      "weight": 13
+    },
+    {
+      "source": "ENSG",
+      "target": "ENZ",
+      "weight": 2
+    },
+    {
+      "source": "ENSG",
+      "target": "VNRX",
+      "weight": 3
+    },
+    {
+      "source": "ENSG",
+      "target": "TDOC",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "SGFY",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "SEM",
+      "weight": 28
+    },
+    {
+      "source": "ENSG",
+      "target": "OSH",
+      "weight": 2
+    },
+    {
+      "source": "ENSG",
+      "target": "MOH",
+      "weight": 138
+    },
+    {
+      "source": "ENSG",
+      "target": "THC",
+      "weight": 41
+    },
+    {
+      "source": "ENSG",
+      "target": "OPCH",
+      "weight": 13
+    },
+    {
+      "source": "ENSG",
+      "target": "RHE",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "TVTY",
+      "weight": 3
+    },
+    {
+      "source": "ENSG",
+      "target": "LH",
+      "weight": 7
+    },
+    {
+      "source": "ENSG",
+      "target": "UHS",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "ENSG",
+      "target": "NHC",
+      "weight": 17
+    },
+    {
+      "source": "ENSG",
+      "target": "MGLN",
+      "weight": 5
+    },
+    {
+      "source": "ENSG",
+      "target": "GEN",
+      "weight": 4
+    },
+    {
+      "source": "ENSG",
+      "target": "LHCG",
+      "weight": 2
+    },
+    {
+      "source": "ENSG",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "LH",
+      "weight": 32
+    },
+    {
+      "source": "ENZ",
+      "target": "GEN",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "MOH",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "SEM",
+      "weight": 3
+    },
+    {
+      "source": "ENZ",
+      "target": "THC",
+      "weight": 3
+    },
+    {
+      "source": "ENZ",
+      "target": "UHS",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "SSY",
+      "weight": 367
+    },
+    {
+      "source": "ENZ",
+      "target": "VYNT",
+      "weight": 5
+    },
+    {
+      "source": "ENZ",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "OPCH",
+      "weight": 6
+    },
+    {
+      "source": "ENZ",
+      "target": "HGBL",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "OCX",
+      "weight": 3
+    },
+    {
+      "source": "ENZ",
+      "target": "HCA",
+      "weight": 3
+    },
+    {
+      "source": "ENZ",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "LHCG",
+      "weight": 2
+    },
+    {
+      "source": "ENZ",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "ENZ",
+      "target": "MD",
+      "weight": 2
+    },
+    {
+      "source": "FNA",
+      "target": "OSH",
+      "weight": 2
+    },
+    {
+      "source": "FNA",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "FNA",
+      "target": "RHE",
+      "weight": 1
+    },
+    {
+      "source": "FNA",
+      "target": "TDOC",
+      "weight": 5
+    },
+    {
+      "source": "FVE",
+      "target": "USPH",
+      "weight": 4
+    },
+    {
+      "source": "FVE",
+      "target": "RHE",
+      "weight": 5
+    },
+    {
+      "source": "FVE",
+      "target": "PDEX",
+      "weight": 2
+    },
+    {
+      "source": "FVE",
+      "target": "SSY",
+      "weight": 6
+    },
+    {
+      "source": "FVE",
+      "target": "LHCG",
+      "weight": 65
+    },
+    {
+      "source": "FVE",
+      "target": "NHC",
+      "weight": 1
+    },
+    {
+      "source": "FVE",
+      "target": "VYNT",
+      "weight": 2
+    },
+    {
+      "source": "FVE",
+      "target": "NSPR",
+      "weight": 2
+    },
+    {
+      "source": "FVE",
+      "target": "OCX",
+      "weight": 2
+    },
+    {
+      "source": "FVE",
+      "target": "ZIOP",
+      "weight": 3
+    },
+    {
+      "source": "FVE",
+      "target": "TDOC",
+      "weight": 3
+    },
+    {
+      "source": "FVE",
+      "target": "SGFY",
+      "weight": 1
+    },
+    {
+      "source": "FVE",
+      "target": "VNRX",
+      "weight": 8
+    },
+    {
+      "source": "FVE",
+      "target": "HCA",
+      "weight": 1
+    },
+    {
+      "source": "FVE",
+      "target": "OPCH",
+      "weight": 2
+    },
+    {
+      "source": "FVE",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "NSPR",
+      "weight": 52
+    },
+    {
+      "source": "GEN",
+      "target": "MOH",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "OCX",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "SEM",
+      "weight": 3
+    },
+    {
+      "source": "GEN",
+      "target": "RDNT",
+      "weight": 3
+    },
+    {
+      "source": "GEN",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "TDOC",
+      "weight": 68
+    },
+    {
+      "source": "GEN",
+      "target": "THC",
+      "weight": 4
+    },
+    {
+      "source": "GEN",
+      "target": "RHE",
+      "weight": 3
+    },
+    {
+      "source": "GEN",
+      "target": "OSH",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "MD",
+      "weight": 2
+    },
+    {
+      "source": "GEN",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "NHC",
+      "weight": 14
+    },
+    {
+      "source": "GEN",
+      "target": "HCA",
+      "weight": 2
+    },
+    {
+      "source": "GEN",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "GEN",
+      "target": "UHS",
+      "weight": 2
+    },
+    {
+      "source": "GEN",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "HCA",
+      "target": "VYNT",
+      "weight": 84
+    },
+    {
+      "source": "HCA",
+      "target": "LHCG",
+      "weight": 16
+    },
+    {
+      "source": "HCA",
+      "target": "TVTY",
+      "weight": 2
+    },
+    {
+      "source": "HCA",
+      "target": "UHS",
+      "weight": 143
+    },
+    {
+      "source": "HCA",
+      "target": "SSY",
+      "weight": 20
+    },
+    {
+      "source": "HCA",
+      "target": "RHE",
+      "weight": 83
+    },
+    {
+      "source": "HCA",
+      "target": "NSPR",
+      "weight": 1
+    },
+    {
+      "source": "HCA",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "HCA",
+      "target": "SEM",
+      "weight": 22
+    },
+    {
+      "source": "HCA",
+      "target": "THC",
+      "weight": 247
+    },
+    {
+      "source": "HCA",
+      "target": "OPCH",
+      "weight": 2
+    },
+    {
+      "source": "HCA",
+      "target": "NHC",
+      "weight": 9
+    },
+    {
+      "source": "HCA",
+      "target": "OCX",
+      "weight": 2
+    },
+    {
+      "source": "HCA",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "HCA",
+      "target": "MD",
+      "weight": 38
+    },
+    {
+      "source": "HCA",
+      "target": "SGFY",
+      "weight": 4
+    },
+    {
+      "source": "HCA",
+      "target": "OSH",
+      "weight": 12
+    },
+    {
+      "source": "HCA",
+      "target": "MGLN",
+      "weight": 4
+    },
+    {
+      "source": "HCA",
+      "target": "LH",
+      "weight": 69
+    },
+    {
+      "source": "HCA",
+      "target": "TDOC",
+      "weight": 31
+    },
+    {
+      "source": "HCA",
+      "target": "MOH",
+      "weight": 60
+    },
+    {
+      "source": "HCA",
+      "target": "RDNT",
+      "weight": 7
+    },
+    {
+      "source": "HCA",
+      "target": "PHR",
+      "weight": 6
+    },
+    {
+      "source": "HCA",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "PMD",
+      "weight": 2
+    },
+    {
+      "source": "HGBL",
+      "target": "NSPR",
+      "weight": 3
+    },
+    {
+      "source": "HGBL",
+      "target": "SBEV",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "SEM",
+      "weight": 1
+    },
+    {
+      "source": "HGBL",
+      "target": "PHR",
+      "weight": 2
+    },
+    {
+      "source": "HGBL",
+      "target": "SSY",
+      "weight": 2
+    },
+    {
+      "source": "HGBL",
+      "target": "TDOC",
+      "weight": 1
+    },
+    {
+      "source": "LH",
+      "target": "MOH",
+      "weight": 28
+    },
+    {
+      "source": "LH",
+      "target": "SEM",
+      "weight": 16
+    },
+    {
+      "source": "LH",
+      "target": "TDOC",
+      "weight": 113
+    },
+    {
+      "source": "LH",
+      "target": "UHS",
+      "weight": 27
+    },
+    {
+      "source": "LH",
+      "target": "OSH",
+      "weight": 91
+    },
+    {
+      "source": "LH",
+      "target": "THC",
+      "weight": 83
+    },
+    {
+      "source": "LH",
+      "target": "SGFY",
+      "weight": 1
+    },
+    {
+      "source": "LH",
+      "target": "RDNT",
+      "weight": 5
+    },
+    {
+      "source": "LH",
+      "target": "OCX",
+      "weight": 2
+    },
+    {
+      "source": "LH",
+      "target": "NHC",
+      "weight": 1
+    },
+    {
+      "source": "LH",
+      "target": "PHR",
+      "weight": 5
+    },
+    {
+      "source": "LH",
+      "target": "MD",
+      "weight": 17
+    },
+    {
+      "source": "LH",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "LH",
+      "target": "NSPR",
+      "weight": 2
+    },
+    {
+      "source": "LHCG",
+      "target": "RDNT",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "TDOC",
+      "weight": 11
+    },
+    {
+      "source": "LHCG",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "SEM",
+      "weight": 2
+    },
+    {
+      "source": "LHCG",
+      "target": "MD",
+      "weight": 2
+    },
+    {
+      "source": "LHCG",
+      "target": "THC",
+      "weight": 6
+    },
+    {
+      "source": "LHCG",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "UHS",
+      "weight": 13
+    },
+    {
+      "source": "LHCG",
+      "target": "MGLN",
+      "weight": 2
+    },
+    {
+      "source": "LHCG",
+      "target": "NHC",
+      "weight": 1
+    },
+    {
+      "source": "LHCG",
+      "target": "MOH",
+      "weight": 6
+    },
+    {
+      "source": "LHCG",
+      "target": "SGFY",
+      "weight": 4
+    },
+    {
+      "source": "LHCG",
+      "target": "OSH",
+      "weight": 7
+    },
+    {
+      "source": "MD",
+      "target": "UHS",
+      "weight": 31
+    },
+    {
+      "source": "MD",
+      "target": "SEM",
+      "weight": 18
+    },
+    {
+      "source": "MD",
+      "target": "PHR",
+      "weight": 2
+    },
+    {
+      "source": "MD",
+      "target": "RHE",
+      "weight": 53
+    },
+    {
+      "source": "MD",
+      "target": "TVTY",
+      "weight": 3
+    },
+    {
+      "source": "MD",
+      "target": "THC",
+      "weight": 89
+    },
+    {
+      "source": "MD",
+      "target": "MOH",
+      "weight": 21
+    },
+    {
+      "source": "MD",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "MD",
+      "target": "RDNT",
+      "weight": 1
+    },
+    {
+      "source": "MD",
+      "target": "SSY",
+      "weight": 11
+    },
+    {
+      "source": "MD",
+      "target": "PDEX",
+      "weight": 13
+    },
+    {
+      "source": "MD",
+      "target": "NHC",
+      "weight": 14
+    },
+    {
+      "source": "MD",
+      "target": "MGLN",
+      "weight": 6
+    },
+    {
+      "source": "MD",
+      "target": "OSH",
+      "weight": 9
+    },
+    {
+      "source": "MD",
+      "target": "TDOC",
+      "weight": 5
+    },
+    {
+      "source": "MD",
+      "target": "USPH",
+      "weight": 12
+    },
+    {
+      "source": "MD",
+      "target": "NSPR",
+      "weight": 1
+    },
+    {
+      "source": "MGLN",
+      "target": "TDOC",
+      "weight": 4
+    },
+    {
+      "source": "MGLN",
+      "target": "NSPR",
+      "weight": 13
+    },
+    {
+      "source": "MGLN",
+      "target": "TVTY",
+      "weight": 2
+    },
+    {
+      "source": "MGLN",
+      "target": "UHS",
+      "weight": 3
+    },
+    {
+      "source": "MGLN",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "MGLN",
+      "target": "SEM",
+      "weight": 7
+    },
+    {
+      "source": "MGLN",
+      "target": "MOH",
+      "weight": 10
+    },
+    {
+      "source": "MGLN",
+      "target": "NHC",
+      "weight": 2
+    },
+    {
+      "source": "MOH",
+      "target": "OSH",
+      "weight": 6
+    },
+    {
+      "source": "MOH",
+      "target": "SEM",
+      "weight": 10
+    },
+    {
+      "source": "MOH",
+      "target": "TDOC",
+      "weight": 22
+    },
+    {
+      "source": "MOH",
+      "target": "PHR",
+      "weight": 2
+    },
+    {
+      "source": "MOH",
+      "target": "THC",
+      "weight": 50
+    },
+    {
+      "source": "MOH",
+      "target": "USPH",
+      "weight": 3
+    },
+    {
+      "source": "MOH",
+      "target": "VNRX",
+      "weight": 2
+    },
+    {
+      "source": "MOH",
+      "target": "UHS",
+      "weight": 17
+    },
+    {
+      "source": "MOH",
+      "target": "NHC",
+      "weight": 14
+    },
+    {
+      "source": "MOH",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "MOH",
+      "target": "RDNT",
+      "weight": 4
+    },
+    {
+      "source": "NHC",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "NHC",
+      "target": "PDEX",
+      "weight": 2
+    },
+    {
+      "source": "NHC",
+      "target": "THC",
+      "weight": 20
+    },
+    {
+      "source": "NHC",
+      "target": "PHR",
+      "weight": 1
+    },
+    {
+      "source": "NHC",
+      "target": "NSPR",
+      "weight": 9
+    },
+    {
+      "source": "NHC",
+      "target": "OSH",
+      "weight": 15
+    },
+    {
+      "source": "NHC",
+      "target": "VNRX",
+      "weight": 7
+    },
+    {
+      "source": "NHC",
+      "target": "SSY",
+      "weight": 5
+    },
+    {
+      "source": "NHC",
+      "target": "RHE",
+      "weight": 3
+    },
+    {
+      "source": "NHC",
+      "target": "SEM",
+      "weight": 2
+    },
+    {
+      "source": "NHC",
+      "target": "OCX",
+      "weight": 2
+    },
+    {
+      "source": "NHC",
+      "target": "UHS",
+      "weight": 2
+    },
+    {
+      "source": "NSPR",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "NSPR",
+      "target": "VNRX",
+      "weight": 13
+    },
+    {
+      "source": "NSPR",
+      "target": "UPH",
+      "weight": 43
+    },
+    {
+      "source": "NSPR",
+      "target": "OCX",
+      "weight": 11
+    },
+    {
+      "source": "NSPR",
+      "target": "SSY",
+      "weight": 15
+    },
+    {
+      "source": "NSPR",
+      "target": "RHE",
+      "weight": 20
+    },
+    {
+      "source": "NSPR",
+      "target": "VYNT",
+      "weight": 12
+    },
+    {
+      "source": "NSPR",
+      "target": "TDOC",
+      "weight": 2
+    },
+    {
+      "source": "NSPR",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "NSPR",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "NSPR",
+      "target": "RDNT",
+      "weight": 1
+    },
+    {
+      "source": "NSPR",
+      "target": "PDEX",
+      "weight": 3
+    },
+    {
+      "source": "NSPR",
+      "target": "ZIOP",
+      "weight": 4
+    },
+    {
+      "source": "NSPR",
+      "target": "SEM",
+      "weight": 2
+    },
+    {
+      "source": "OCX",
+      "target": "THC",
+      "weight": 4
+    },
+    {
+      "source": "OCX",
+      "target": "OSH",
+      "weight": 2
+    },
+    {
+      "source": "OCX",
+      "target": "TVTY",
+      "weight": 11
+    },
+    {
+      "source": "OCX",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "OCX",
+      "target": "OPCH",
+      "weight": 1
+    },
+    {
+      "source": "OCX",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "OCX",
+      "target": "VYNT",
+      "weight": 3
+    },
+    {
+      "source": "OCX",
+      "target": "SGFY",
+      "weight": 3
+    },
+    {
+      "source": "OCX",
+      "target": "VNRX",
+      "weight": 13
+    },
+    {
+      "source": "OCX",
+      "target": "SEM",
+      "weight": 1
+    },
+    {
+      "source": "OCX",
+      "target": "TDOC",
+      "weight": 14
+    },
+    {
+      "source": "OCX",
+      "target": "ZIOP",
+      "weight": 6
+    },
+    {
+      "source": "OCX",
+      "target": "RHE",
+      "weight": 4
+    },
+    {
+      "source": "OCX",
+      "target": "PDEX",
+      "weight": 4
+    },
+    {
+      "source": "OPCH",
+      "target": "TVTY",
+      "weight": 2
+    },
+    {
+      "source": "OPCH",
+      "target": "VNRX",
+      "weight": 2
+    },
+    {
+      "source": "OPCH",
+      "target": "SEM",
+      "weight": 14
+    },
+    {
+      "source": "OPCH",
+      "target": "UHS",
+      "weight": 1
+    },
+    {
+      "source": "OPCH",
+      "target": "THC",
+      "weight": 6
+    },
+    {
+      "source": "OPCH",
+      "target": "PHR",
+      "weight": 9
+    },
+    {
+      "source": "OPCH",
+      "target": "RDNT",
+      "weight": 6
+    },
+    {
+      "source": "OPCH",
+      "target": "OSH",
+      "weight": 3
+    },
+    {
+      "source": "OSH",
+      "target": "RHE",
+      "weight": 1
+    },
+    {
+      "source": "OSH",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "OSH",
+      "target": "TDOC",
+      "weight": 212
+    },
+    {
+      "source": "OSH",
+      "target": "PHR",
+      "weight": 18
+    },
+    {
+      "source": "OSH",
+      "target": "SEM",
+      "weight": 3
+    },
+    {
+      "source": "OSH",
+      "target": "UPH",
+      "weight": 5
+    },
+    {
+      "source": "OSH",
+      "target": "UHS",
+      "weight": 8
+    },
+    {
+      "source": "OSH",
+      "target": "THC",
+      "weight": 16
+    },
+    {
+      "source": "OSH",
+      "target": "PMD",
+      "weight": 1
+    },
+    {
+      "source": "OSH",
+      "target": "RDNT",
+      "weight": 5
+    },
+    {
+      "source": "OSH",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "OSH",
+      "target": "SGFY",
+      "weight": 14
+    },
+    {
+      "source": "PDEX",
+      "target": "RHE",
+      "weight": 13
+    },
+    {
+      "source": "PDEX",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "PDEX",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "PDEX",
+      "target": "PMD",
+      "weight": 7
+    },
+    {
+      "source": "PDEX",
+      "target": "SSY",
+      "weight": 5
+    },
+    {
+      "source": "PDEX",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "PDEX",
+      "target": "TDOC",
+      "weight": 12
+    },
+    {
+      "source": "PDEX",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "PHR",
+      "target": "RHE",
+      "weight": 10
+    },
+    {
+      "source": "PHR",
+      "target": "SEM",
+      "weight": 7
+    },
+    {
+      "source": "PHR",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "PHR",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "PHR",
+      "target": "RDNT",
+      "weight": 2
+    },
+    {
+      "source": "PHR",
+      "target": "TDOC",
+      "weight": 130
+    },
+    {
+      "source": "PHR",
+      "target": "SGFY",
+      "weight": 77
+    },
+    {
+      "source": "PHR",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "PMD",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "PMD",
+      "target": "RHE",
+      "weight": 2
+    },
+    {
+      "source": "PMD",
+      "target": "SSY",
+      "weight": 2
+    },
+    {
+      "source": "PMD",
+      "target": "SBEV",
+      "weight": 2
+    },
+    {
+      "source": "RDNT",
+      "target": "THC",
+      "weight": 3
+    },
+    {
+      "source": "RDNT",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "RDNT",
+      "target": "TVTY",
+      "weight": 15
+    },
+    {
+      "source": "RDNT",
+      "target": "VNRX",
+      "weight": 2
+    },
+    {
+      "source": "RDNT",
+      "target": "SEM",
+      "weight": 9
+    },
+    {
+      "source": "RDNT",
+      "target": "UHS",
+      "weight": 4
+    },
+    {
+      "source": "RDNT",
+      "target": "RHE",
+      "weight": 1
+    },
+    {
+      "source": "RDNT",
+      "target": "USPH",
+      "weight": 2
+    },
+    {
+      "source": "RDNT",
+      "target": "SGFY",
+      "weight": 2
+    },
+    {
+      "source": "RDNT",
+      "target": "SSY",
+      "weight": 1
+    },
+    {
+      "source": "RHE",
+      "target": "ZIOP",
+      "weight": 6
+    },
+    {
+      "source": "RHE",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "RHE",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "RHE",
+      "target": "TDOC",
+      "weight": 20
+    },
+    {
+      "source": "RHE",
+      "target": "UHS",
+      "weight": 3
+    },
+    {
+      "source": "RHE",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "RHE",
+      "target": "VYNT",
+      "weight": 10
+    },
+    {
+      "source": "RHE",
+      "target": "THC",
+      "weight": 2
+    },
+    {
+      "source": "RHE",
+      "target": "SGFY",
+      "weight": 2
+    },
+    {
+      "source": "RHE",
+      "target": "SSY",
+      "weight": 976
+    },
+    {
+      "source": "RHE",
+      "target": "SBEV",
+      "weight": 6
+    },
+    {
+      "source": "SBEV",
+      "target": "SSY",
+      "weight": 2
+    },
+    {
+      "source": "SBEV",
+      "target": "THC",
+      "weight": 2
+    },
+    {
+      "source": "SBEV",
+      "target": "ZIOP",
+      "weight": 1
+    },
+    {
+      "source": "SEM",
+      "target": "ZIOP",
+      "weight": 31
+    },
+    {
+      "source": "SEM",
+      "target": "TVTY",
+      "weight": 5
+    },
+    {
+      "source": "SEM",
+      "target": "THC",
+      "weight": 36
+    },
+    {
+      "source": "SEM",
+      "target": "UHS",
+      "weight": 41
+    },
+    {
+      "source": "SEM",
+      "target": "SSY",
+      "weight": 20
+    },
+    {
+      "source": "SEM",
+      "target": "USPH",
+      "weight": 27
+    },
+    {
+      "source": "SGFY",
+      "target": "TDOC",
+      "weight": 361
+    },
+    {
+      "source": "SGFY",
+      "target": "THC",
+      "weight": 1
+    },
+    {
+      "source": "SGFY",
+      "target": "UHS",
+      "weight": 2
+    },
+    {
+      "source": "SGFY",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "SSY",
+      "target": "VYNT",
+      "weight": 4
+    },
+    {
+      "source": "SSY",
+      "target": "THC",
+      "weight": 14
+    },
+    {
+      "source": "SSY",
+      "target": "TVTY",
+      "weight": 1
+    },
+    {
+      "source": "SSY",
+      "target": "TDOC",
+      "weight": 3
+    },
+    {
+      "source": "SSY",
+      "target": "UPH",
+      "weight": 2
+    },
+    {
+      "source": "SSY",
+      "target": "USPH",
+      "weight": 1
+    },
+    {
+      "source": "SSY",
+      "target": "UHS",
+      "weight": 18
+    },
+    {
+      "source": "TDOC",
+      "target": "VNRX",
+      "weight": 4
+    },
+    {
+      "source": "TDOC",
+      "target": "VYNT",
+      "weight": 2
+    },
+    {
+      "source": "TDOC",
+      "target": "UHS",
+      "weight": 11
+    },
+    {
+      "source": "TDOC",
+      "target": "ZIOP",
+      "weight": 19
+    },
+    {
+      "source": "TDOC",
+      "target": "USPH",
+      "weight": 3
+    },
+    {
+      "source": "TDOC",
+      "target": "UPH",
+      "weight": 78
+    },
+    {
+      "source": "TDOC",
+      "target": "THC",
+      "weight": 14
+    },
+    {
+      "source": "TDOC",
+      "target": "TVTY",
+      "weight": 18
+    },
+    {
+      "source": "THC",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "THC",
+      "target": "VNRX",
+      "weight": 3
+    },
+    {
+      "source": "THC",
+      "target": "ZIOP",
+      "weight": 3
+    },
+    {
+      "source": "THC",
+      "target": "USPH",
+      "weight": 9
+    },
+    {
+      "source": "THC",
+      "target": "TVTY",
+      "weight": 2
+    },
+    {
+      "source": "THC",
+      "target": "UHS",
+      "weight": 92
+    },
+    {
+      "source": "TVTY",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "TVTY",
+      "target": "USPH",
+      "weight": 2
+    },
+    {
+      "source": "TVTY",
+      "target": "VNRX",
+      "weight": 1
+    },
+    {
+      "source": "TVTY",
+      "target": "UPH",
+      "weight": 1
+    },
+    {
+      "source": "UHS",
+      "target": "ZIOP",
+      "weight": 3
+    },
+    {
+      "source": "UHS",
+      "target": "UPH",
+      "weight": 7
+    },
+    {
+      "source": "UHS",
+      "target": "USPH",
+      "weight": 2
+    },
+    {
+      "source": "UPH",
+      "target": "VNRX",
+      "weight": 2
+    },
+    {
+      "source": "UPH",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "UPH",
+      "target": "ZIOP",
+      "weight": 11
+    },
+    {
+      "source": "USPH",
+      "target": "VNRX",
+      "weight": 2
+    },
+    {
+      "source": "USPH",
+      "target": "ZIOP",
+      "weight": 2
+    },
+    {
+      "source": "VNRX",
+      "target": "VYNT",
+      "weight": 1
+    },
+    {
+      "source": "VYNT",
+      "target": "ZIOP",
+      "weight": 1
+    }
+  ]
+}

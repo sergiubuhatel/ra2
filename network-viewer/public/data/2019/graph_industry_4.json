@@ -1,0 +1,253 @@
+{
+  "nodes": [
+    {
+      "id": "BF",
+      "label": "BF",
+      "industry": "Beer",
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.06508735162137656,
+      "harmonic_centrality": 0.27561477222467934,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 511
+    },
+    {
+      "id": "BREW",
+      "label": "BREW",
+      "industry": "Beer",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.765625,
+      "eigenvector_centrality": 0.4322603466809827,
+      "harmonic_centrality": 1.89390756302521,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 2602
+    },
+    {
+      "id": "CREG",
+      "label": "CREG",
+      "industry": "Beer",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.2249415301184882e-46,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "MGPI",
+      "label": "MGPI",
+      "industry": "Beer",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.3571428571428571,
+      "closeness_centrality": 0.765625,
+      "eigenvector_centrality": 0.012358127906096585,
+      "harmonic_centrality": 1.6700584007187782,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 160
+    },
+    {
+      "id": "ROX",
+      "label": "ROX",
+      "industry": "Beer",
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.39285714285714285,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.029030846518362168,
+      "harmonic_centrality": 2.0055727554179565,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 197
+    },
+    {
+      "id": "SAM",
+      "label": "SAM",
+      "industry": "Beer",
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.48466849255237837,
+      "harmonic_centrality": 1.5839514189514188,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 3147
+    },
+    {
+      "id": "STZ",
+      "label": "STZ",
+      "industry": "Beer",
+      "degree_centrality": 0.875,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.5328223017661006,
+      "harmonic_centrality": 0.12676085948006036,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 3585
+    },
+    {
+      "id": "TAP",
+      "label": "TAP",
+      "industry": "Beer",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.765625,
+      "eigenvector_centrality": 0.5375785160651175,
+      "harmonic_centrality": 0.4241840675664206,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 3448
+    },
+    {
+      "id": "WVVI",
+      "label": "WVVI",
+      "industry": "Beer",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.2857142857142857,
+      "closeness_centrality": 0.765625,
+      "eigenvector_centrality": 0.011193842242120293,
+      "harmonic_centrality": 2.442023809523809,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 152
+    }
+  ],
+  "edges": [
+    {
+      "source": "BF",
+      "target": "STZ",
+      "weight": 142
+    },
+    {
+      "source": "BF",
+      "target": "TAP",
+      "weight": 60
+    },
+    {
+      "source": "BF",
+      "target": "MGPI",
+      "weight": 49
+    },
+    {
+      "source": "BF",
+      "target": "BREW",
+      "weight": 40
+    },
+    {
+      "source": "BF",
+      "target": "ROX",
+      "weight": 19
+    },
+    {
+      "source": "BF",
+      "target": "SAM",
+      "weight": 150
+    },
+    {
+      "source": "BF",
+      "target": "WVVI",
+      "weight": 51
+    },
+    {
+      "source": "BREW",
+      "target": "STZ",
+      "weight": 823
+    },
+    {
+      "source": "BREW",
+      "target": "ROX",
+      "weight": 8
+    },
+    {
+      "source": "BREW",
+      "target": "SAM",
+      "weight": 861
+    },
+    {
+      "source": "BREW",
+      "target": "TAP",
+      "weight": 869
+    },
+    {
+      "source": "BREW",
+      "target": "WVVI",
+      "weight": 1
+    },
+    {
+      "source": "MGPI",
+      "target": "ROX",
+      "weight": 5
+    },
+    {
+      "source": "MGPI",
+      "target": "STZ",
+      "weight": 53
+    },
+    {
+      "source": "MGPI",
+      "target": "TAP",
+      "weight": 10
+    },
+    {
+      "source": "MGPI",
+      "target": "SAM",
+      "weight": 1
+    },
+    {
+      "source": "MGPI",
+      "target": "WVVI",
+      "weight": 42
+    },
+    {
+      "source": "ROX",
+      "target": "WVVI",
+      "weight": 1
+    },
+    {
+      "source": "ROX",
+      "target": "STZ",
+      "weight": 61
+    },
+    {
+      "source": "ROX",
+      "target": "SAM",
+      "weight": 68
+    },
+    {
+      "source": "ROX",
+      "target": "TAP",
+      "weight": 35
+    },
+    {
+      "source": "SAM",
+      "target": "TAP",
+      "weight": 1039
+    },
+    {
+      "source": "SAM",
+      "target": "WVVI",
+      "weight": 7
+    },
+    {
+      "source": "SAM",
+      "target": "STZ",
+      "weight": 1021
+    },
+    {
+      "source": "STZ",
+      "target": "WVVI",
+      "weight": 50
+    },
+    {
+      "source": "STZ",
+      "target": "TAP",
+      "weight": 1435
+    }
+  ]
+}

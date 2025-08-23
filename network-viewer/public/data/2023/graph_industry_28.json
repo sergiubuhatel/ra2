@@ -1,0 +1,665 @@
+{
+  "nodes": [
+    {
+      "id": "AESI",
+      "label": "AESI",
+      "industry": "Mines",
+      "degree_centrality": 0.2272727272727273,
+      "betweenness_centrality": 0.02417027417027417,
+      "closeness_centrality": 0.4555785123966943,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 9.007575757575758,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 7
+    },
+    {
+      "id": "CELH",
+      "label": "CELH",
+      "industry": "Mines",
+      "degree_centrality": 0.2272727272727273,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4772727272727273,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 7.133333333333333,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 37
+    },
+    {
+      "id": "CLF",
+      "label": "CLF",
+      "industry": "Mines",
+      "degree_centrality": 0.4545454545454546,
+      "betweenness_centrality": 0.06204906204906204,
+      "closeness_centrality": 0.6074380165289256,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 8.416666666666666,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 994
+    },
+    {
+      "id": "CMP",
+      "label": "CMP",
+      "industry": "Mines",
+      "degree_centrality": 0.2272727272727273,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5011363636363637,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 7.199999999999998,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 34
+    },
+    {
+      "id": "CTGO",
+      "label": "CTGO",
+      "industry": "Mines",
+      "degree_centrality": 0.09090909090909091,
+      "betweenness_centrality": 0.08658008658008658,
+      "closeness_centrality": 0.3854895104895105,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 4.950000000000002,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 7
+    },
+    {
+      "id": "FCX",
+      "label": "FCX",
+      "industry": "Mines",
+      "degree_centrality": 0.6363636363636364,
+      "betweenness_centrality": 0.34523809523809523,
+      "closeness_centrality": 0.6912225705329154,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 12.041666666666668,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 1379
+    },
+    {
+      "id": "HROW",
+      "label": "HROW",
+      "industry": "Mines",
+      "degree_centrality": 0.2272727272727273,
+      "betweenness_centrality": 0.031746031746031744,
+      "closeness_centrality": 0.4772727272727273,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 10.133333333333333,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 7
+    },
+    {
+      "id": "IPI",
+      "label": "IPI",
+      "industry": "Mines",
+      "degree_centrality": 0.18181818181818182,
+      "betweenness_centrality": 0.12878787878787878,
+      "closeness_centrality": 0.46617336152219874,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 9.944444444444445,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 15
+    },
+    {
+      "id": "KNF",
+      "label": "KNF",
+      "industry": "Mines",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "LTBR",
+      "label": "LTBR",
+      "industry": "Mines",
+      "degree_centrality": 0.13636363636363635,
+      "betweenness_centrality": 0.019480519480519477,
+      "closeness_centrality": 0.4357707509881423,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 9.133333333333333,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 9
+    },
+    {
+      "id": "MLM",
+      "label": "MLM",
+      "industry": "Mines",
+      "degree_centrality": 0.3181818181818182,
+      "betweenness_centrality": 0.018759018759018756,
+      "closeness_centrality": 0.513986013986014,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 9.466666666666667,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 99
+    },
+    {
+      "id": "MUX",
+      "label": "MUX",
+      "industry": "Mines",
+      "degree_centrality": 0.4090909090909091,
+      "betweenness_centrality": 0.05194805194805195,
+      "closeness_centrality": 0.5568181818181819,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 10.3,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 29
+    },
+    {
+      "id": "NVFY",
+      "label": "NVFY",
+      "industry": "Mines",
+      "degree_centrality": 0.09090909090909091,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4454545454545455,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 8.324999999999998,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "ORMP",
+      "label": "ORMP",
+      "industry": "Mines",
+      "degree_centrality": 0.4545454545454546,
+      "betweenness_centrality": 0.17532467532467533,
+      "closeness_centrality": 0.6074380165289256,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 11.694444444444445,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 24
+    },
+    {
+      "id": "PZG",
+      "label": "PZG",
+      "industry": "Mines",
+      "degree_centrality": 0.045454545454545456,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.27840909090909094,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 2.323917748917749,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 5
+    },
+    {
+      "id": "SCCO",
+      "label": "SCCO",
+      "industry": "Mines",
+      "degree_centrality": 0.5454545454545454,
+      "betweenness_centrality": 0.07611832611832611,
+      "closeness_centrality": 0.6074380165289256,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 10.466666666666667,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 339
+    },
+    {
+      "id": "SLCA",
+      "label": "SLCA",
+      "industry": "Mines",
+      "degree_centrality": 0.36363636363636365,
+      "betweenness_centrality": 0.1305916305916306,
+      "closeness_centrality": 0.5417690417690417,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 10.694444444444446,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 19
+    },
+    {
+      "id": "SUM",
+      "label": "SUM",
+      "industry": "Mines",
+      "degree_centrality": 0.18181818181818182,
+      "betweenness_centrality": 0.003246753246753247,
+      "closeness_centrality": 0.4555785123966943,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 6.824242424242425,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 29
+    },
+    {
+      "id": "TNXP",
+      "label": "TNXP",
+      "industry": "Mines",
+      "degree_centrality": 0.36363636363636365,
+      "betweenness_centrality": 0.1717171717171717,
+      "closeness_centrality": 0.589572192513369,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 9.226190476190476,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 868
+    },
+    {
+      "id": "UEC",
+      "label": "UEC",
+      "industry": "Mines",
+      "degree_centrality": 0.4545454545454546,
+      "betweenness_centrality": 0.007575757575757576,
+      "closeness_centrality": 0.6074380165289256,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 8.216666666666667,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 63
+    },
+    {
+      "id": "USEG",
+      "label": "USEG",
+      "industry": "Mines",
+      "degree_centrality": 0.18181818181818182,
+      "betweenness_centrality": 0.0367965367965368,
+      "closeness_centrality": 0.4889135254988914,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 8.708333333333332,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 8
+    },
+    {
+      "id": "VMC",
+      "label": "VMC",
+      "industry": "Mines",
+      "degree_centrality": 0.36363636363636365,
+      "betweenness_centrality": 0.027056277056277056,
+      "closeness_centrality": 0.5417690417690417,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 8.59090909090909,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 182
+    },
+    {
+      "id": "WWR",
+      "label": "WWR",
+      "industry": "Mines",
+      "degree_centrality": 0.36363636363636365,
+      "betweenness_centrality": 0.13203463203463203,
+      "closeness_centrality": 0.5727272727272728,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 10.216666666666667,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 876
+    }
+  ],
+  "edges": [
+    {
+      "source": "AESI",
+      "target": "MLM",
+      "weight": 1
+    },
+    {
+      "source": "AESI",
+      "target": "MUX",
+      "weight": 1
+    },
+    {
+      "source": "AESI",
+      "target": "ORMP",
+      "weight": 2
+    },
+    {
+      "source": "AESI",
+      "target": "SLCA",
+      "weight": 2
+    },
+    {
+      "source": "AESI",
+      "target": "VMC",
+      "weight": 1
+    },
+    {
+      "source": "CELH",
+      "target": "FCX",
+      "weight": 13
+    },
+    {
+      "source": "CELH",
+      "target": "SCCO",
+      "weight": 3
+    },
+    {
+      "source": "CELH",
+      "target": "CLF",
+      "weight": 17
+    },
+    {
+      "source": "CELH",
+      "target": "HROW",
+      "weight": 3
+    },
+    {
+      "source": "CELH",
+      "target": "IPI",
+      "weight": 1
+    },
+    {
+      "source": "CLF",
+      "target": "USEG",
+      "weight": 2
+    },
+    {
+      "source": "CLF",
+      "target": "SCCO",
+      "weight": 9
+    },
+    {
+      "source": "CLF",
+      "target": "WWR",
+      "weight": 1
+    },
+    {
+      "source": "CLF",
+      "target": "TNXP",
+      "weight": 5
+    },
+    {
+      "source": "CLF",
+      "target": "FCX",
+      "weight": 944
+    },
+    {
+      "source": "CLF",
+      "target": "UEC",
+      "weight": 2
+    },
+    {
+      "source": "CLF",
+      "target": "SUM",
+      "weight": 1
+    },
+    {
+      "source": "CLF",
+      "target": "VMC",
+      "weight": 7
+    },
+    {
+      "source": "CLF",
+      "target": "ORMP",
+      "weight": 6
+    },
+    {
+      "source": "CMP",
+      "target": "UEC",
+      "weight": 4
+    },
+    {
+      "source": "CMP",
+      "target": "IPI",
+      "weight": 12
+    },
+    {
+      "source": "CMP",
+      "target": "FCX",
+      "weight": 11
+    },
+    {
+      "source": "CMP",
+      "target": "SLCA",
+      "weight": 1
+    },
+    {
+      "source": "CMP",
+      "target": "SCCO",
+      "weight": 6
+    },
+    {
+      "source": "CTGO",
+      "target": "PZG",
+      "weight": 5
+    },
+    {
+      "source": "CTGO",
+      "target": "TNXP",
+      "weight": 2
+    },
+    {
+      "source": "FCX",
+      "target": "SLCA",
+      "weight": 1
+    },
+    {
+      "source": "FCX",
+      "target": "ORMP",
+      "weight": 1
+    },
+    {
+      "source": "FCX",
+      "target": "MUX",
+      "weight": 7
+    },
+    {
+      "source": "FCX",
+      "target": "USEG",
+      "weight": 1
+    },
+    {
+      "source": "FCX",
+      "target": "VMC",
+      "weight": 77
+    },
+    {
+      "source": "FCX",
+      "target": "MLM",
+      "weight": 2
+    },
+    {
+      "source": "FCX",
+      "target": "UEC",
+      "weight": 16
+    },
+    {
+      "source": "FCX",
+      "target": "SCCO",
+      "weight": 303
+    },
+    {
+      "source": "FCX",
+      "target": "TNXP",
+      "weight": 1
+    },
+    {
+      "source": "FCX",
+      "target": "NVFY",
+      "weight": 1
+    },
+    {
+      "source": "FCX",
+      "target": "IPI",
+      "weight": 1
+    },
+    {
+      "source": "HROW",
+      "target": "UEC",
+      "weight": 1
+    },
+    {
+      "source": "HROW",
+      "target": "ORMP",
+      "weight": 1
+    },
+    {
+      "source": "HROW",
+      "target": "MUX",
+      "weight": 1
+    },
+    {
+      "source": "HROW",
+      "target": "SCCO",
+      "weight": 1
+    },
+    {
+      "source": "IPI",
+      "target": "WWR",
+      "weight": 1
+    },
+    {
+      "source": "LTBR",
+      "target": "ORMP",
+      "weight": 1
+    },
+    {
+      "source": "LTBR",
+      "target": "WWR",
+      "weight": 1
+    },
+    {
+      "source": "LTBR",
+      "target": "UEC",
+      "weight": 7
+    },
+    {
+      "source": "MLM",
+      "target": "MUX",
+      "weight": 1
+    },
+    {
+      "source": "MLM",
+      "target": "SCCO",
+      "weight": 1
+    },
+    {
+      "source": "MLM",
+      "target": "SUM",
+      "weight": 13
+    },
+    {
+      "source": "MLM",
+      "target": "SLCA",
+      "weight": 4
+    },
+    {
+      "source": "MLM",
+      "target": "VMC",
+      "weight": 77
+    },
+    {
+      "source": "MUX",
+      "target": "SCCO",
+      "weight": 5
+    },
+    {
+      "source": "MUX",
+      "target": "ORMP",
+      "weight": 2
+    },
+    {
+      "source": "MUX",
+      "target": "SLCA",
+      "weight": 1
+    },
+    {
+      "source": "MUX",
+      "target": "WWR",
+      "weight": 2
+    },
+    {
+      "source": "MUX",
+      "target": "UEC",
+      "weight": 9
+    },
+    {
+      "source": "NVFY",
+      "target": "TNXP",
+      "weight": 1
+    },
+    {
+      "source": "ORMP",
+      "target": "SLCA",
+      "weight": 1
+    },
+    {
+      "source": "ORMP",
+      "target": "SCCO",
+      "weight": 1
+    },
+    {
+      "source": "ORMP",
+      "target": "UEC",
+      "weight": 6
+    },
+    {
+      "source": "ORMP",
+      "target": "TNXP",
+      "weight": 3
+    },
+    {
+      "source": "SCCO",
+      "target": "VMC",
+      "weight": 2
+    },
+    {
+      "source": "SCCO",
+      "target": "SLCA",
+      "weight": 5
+    },
+    {
+      "source": "SCCO",
+      "target": "UEC",
+      "weight": 1
+    },
+    {
+      "source": "SCCO",
+      "target": "SUM",
+      "weight": 2
+    },
+    {
+      "source": "SLCA",
+      "target": "VMC",
+      "weight": 4
+    },
+    {
+      "source": "SUM",
+      "target": "VMC",
+      "weight": 13
+    },
+    {
+      "source": "TNXP",
+      "target": "WWR",
+      "weight": 852
+    },
+    {
+      "source": "TNXP",
+      "target": "UEC",
+      "weight": 3
+    },
+    {
+      "source": "TNXP",
+      "target": "USEG",
+      "weight": 1
+    },
+    {
+      "source": "UEC",
+      "target": "WWR",
+      "weight": 14
+    },
+    {
+      "source": "USEG",
+      "target": "WWR",
+      "weight": 4
+    },
+    {
+      "source": "VMC",
+      "target": "WWR",
+      "weight": 1
+    }
+  ]
+}

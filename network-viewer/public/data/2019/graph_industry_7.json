@@ -1,0 +1,1376 @@
+{
+  "nodes": [
+    {
+      "id": "AMC",
+      "label": "AMC",
+      "industry": "Fun",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.06334447572132301,
+      "closeness_centrality": 0.7073170731707317,
+      "eigenvector_centrality": 0.0785752435730499,
+      "harmonic_centrality": 13.833333333333334,
+      "eccentricity": 3,
+      "degree": 18,
+      "weighted_degree": 991
+    },
+    {
+      "id": "BWL",
+      "label": "BWL",
+      "industry": "Fun",
+      "degree_centrality": 0.06896551724137931,
+      "betweenness_centrality": 0.0036359371334740796,
+      "closeness_centrality": 0.46774193548387094,
+      "eigenvector_centrality": 1.5000469669665507e-05,
+      "harmonic_centrality": 9.783333333333331,
+      "eccentricity": 3,
+      "degree": 2,
+      "weighted_degree": 3
+    },
+    {
+      "id": "BYD",
+      "label": "BYD",
+      "industry": "Fun",
+      "degree_centrality": 0.6896551724137931,
+      "betweenness_centrality": 0.07104649592334324,
+      "closeness_centrality": 0.7631578947368421,
+      "eigenvector_centrality": 0.04991773238393598,
+      "harmonic_centrality": 13.333333333333334,
+      "eccentricity": 2,
+      "degree": 20,
+      "weighted_degree": 613
+    },
+    {
+      "id": "CHDN",
+      "label": "CHDN",
+      "industry": "Fun",
+      "degree_centrality": 0.7241379310344828,
+      "betweenness_centrality": 0.12223883806396121,
+      "closeness_centrality": 0.7837837837837838,
+      "eigenvector_centrality": 0.007582913892066054,
+      "harmonic_centrality": 17.5,
+      "eccentricity": 2,
+      "degree": 21,
+      "weighted_degree": 167
+    },
+    {
+      "id": "CLUB",
+      "label": "CLUB",
+      "industry": "Fun",
+      "degree_centrality": 0.3448275862068966,
+      "betweenness_centrality": 0.06616437065944455,
+      "closeness_centrality": 0.58,
+      "eigenvector_centrality": 0.0014468453308060366,
+      "harmonic_centrality": 13.333333333333334,
+      "eccentricity": 3,
+      "degree": 10,
+      "weighted_degree": 32
+    },
+    {
+      "id": "CNK",
+      "label": "CNK",
+      "industry": "Fun",
+      "degree_centrality": 0.4482758620689655,
+      "betweenness_centrality": 0.036826747417880425,
+      "closeness_centrality": 0.6304347826086957,
+      "eigenvector_centrality": 0.028451248259589976,
+      "harmonic_centrality": 14.750000000000002,
+      "eccentricity": 3,
+      "degree": 13,
+      "weighted_degree": 570
+    },
+    {
+      "id": "CNTY",
+      "label": "CNTY",
+      "industry": "Fun",
+      "degree_centrality": 0.4482758620689655,
+      "betweenness_centrality": 0.07850887481429353,
+      "closeness_centrality": 0.6444444444444445,
+      "eigenvector_centrality": 0.023851709831700353,
+      "harmonic_centrality": 15.000000000000004,
+      "eccentricity": 2,
+      "degree": 13,
+      "weighted_degree": 298
+    },
+    {
+      "id": "CPHC",
+      "label": "CPHC",
+      "industry": "Fun",
+      "degree_centrality": 0.13793103448275862,
+      "betweenness_centrality": 0.01089217296113848,
+      "closeness_centrality": 0.5087719298245614,
+      "eigenvector_centrality": 0.0004346242522789163,
+      "harmonic_centrality": 11.333333333333336,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 9
+    },
+    {
+      "id": "DDE",
+      "label": "DDE",
+      "industry": "Fun",
+      "degree_centrality": 0.20689655172413793,
+      "betweenness_centrality": 0.04548440065681444,
+      "closeness_centrality": 0.5471698113207547,
+      "eigenvector_centrality": 3.692128518972042e-05,
+      "harmonic_centrality": 14.250000000000004,
+      "eccentricity": 3,
+      "degree": 6,
+      "weighted_degree": 15
+    },
+    {
+      "id": "DS",
+      "label": "DS",
+      "industry": "Fun",
+      "degree_centrality": 0.4482758620689655,
+      "betweenness_centrality": 0.17150711904406485,
+      "closeness_centrality": 0.6304347826086957,
+      "eigenvector_centrality": 0.0020469091652108415,
+      "harmonic_centrality": 17.916666666666668,
+      "eccentricity": 3,
+      "degree": 13,
+      "weighted_degree": 25
+    },
+    {
+      "id": "DVD",
+      "label": "DVD",
+      "industry": "Fun",
+      "degree_centrality": 0.24137931034482757,
+      "betweenness_centrality": 0.011312456016889516,
+      "closeness_centrality": 0.5370370370370371,
+      "eigenvector_centrality": 0.00029770416486655214,
+      "harmonic_centrality": 10.950000000000001,
+      "eccentricity": 3,
+      "degree": 7,
+      "weighted_degree": 58
+    },
+    {
+      "id": "GDEN",
+      "label": "GDEN",
+      "industry": "Fun",
+      "degree_centrality": 0.41379310344827586,
+      "betweenness_centrality": 0.005336617405582922,
+      "closeness_centrality": 0.6304347826086957,
+      "eigenvector_centrality": 0.004920344779504735,
+      "harmonic_centrality": 12.500000000000004,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 100
+    },
+    {
+      "id": "ISCA",
+      "label": "ISCA",
+      "industry": "Fun",
+      "degree_centrality": 0.3793103448275862,
+      "betweenness_centrality": 0.05409007385608372,
+      "closeness_centrality": 0.6170212765957447,
+      "eigenvector_centrality": 0.0025926445215271616,
+      "harmonic_centrality": 15.333333333333336,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 54
+    },
+    {
+      "id": "LYV",
+      "label": "LYV",
+      "industry": "Fun",
+      "degree_centrality": 0.5862068965517241,
+      "betweenness_centrality": 0.05707088478024439,
+      "closeness_centrality": 0.7073170731707317,
+      "eigenvector_centrality": 0.012620991605290467,
+      "harmonic_centrality": 15.000000000000002,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 213
+    },
+    {
+      "id": "MCRI",
+      "label": "MCRI",
+      "industry": "Fun",
+      "degree_centrality": 0.3793103448275862,
+      "betweenness_centrality": 0.01036935150235643,
+      "closeness_centrality": 0.6170212765957447,
+      "eigenvector_centrality": 0.010784109459505512,
+      "harmonic_centrality": 11.833333333333332,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 170
+    },
+    {
+      "id": "MGM",
+      "label": "MGM",
+      "industry": "Fun",
+      "degree_centrality": 0.7241379310344828,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7837837837837838,
+      "eigenvector_centrality": 0.3979918238919148,
+      "harmonic_centrality": 11.533333333333333,
+      "eccentricity": 2,
+      "degree": 21,
+      "weighted_degree": 2559
+    },
+    {
+      "id": "NFLX",
+      "label": "NFLX",
+      "industry": "Fun",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.03494604738447103,
+      "closeness_centrality": 0.8055555555555556,
+      "eigenvector_centrality": 0.6127527325294311,
+      "harmonic_centrality": 12.583333333333336,
+      "eccentricity": 2,
+      "degree": 22,
+      "weighted_degree": 4221
+    },
+    {
+      "id": "NYNY",
+      "label": "NYNY",
+      "industry": "Fun",
+      "degree_centrality": 0.24137931034482757,
+      "betweenness_centrality": 0.029097448801882298,
+      "closeness_centrality": 0.5576923076923077,
+      "eigenvector_centrality": 0.002488167692188754,
+      "harmonic_centrality": 12.583333333333336,
+      "eccentricity": 3,
+      "degree": 7,
+      "weighted_degree": 45
+    },
+    {
+      "id": "PENN",
+      "label": "PENN",
+      "industry": "Fun",
+      "degree_centrality": 0.6551724137931034,
+      "betweenness_centrality": 0.10492637493869023,
+      "closeness_centrality": 0.7435897435897436,
+      "eigenvector_centrality": 0.04289986877943316,
+      "harmonic_centrality": 14.75,
+      "eccentricity": 2,
+      "degree": 19,
+      "weighted_degree": 587
+    },
+    {
+      "id": "PLNT",
+      "label": "PLNT",
+      "industry": "Fun",
+      "degree_centrality": 0.5862068965517241,
+      "betweenness_centrality": 0.02965261339645576,
+      "closeness_centrality": 0.7073170731707317,
+      "eigenvector_centrality": 0.03801192061639619,
+      "harmonic_centrality": 15.166666666666668,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 365
+    },
+    {
+      "id": "REXN",
+      "label": "REXN",
+      "industry": "Fun",
+      "degree_centrality": 0.3103448275862069,
+      "betweenness_centrality": 0.03898485203903924,
+      "closeness_centrality": 0.58,
+      "eigenvector_centrality": 0.009180388234558459,
+      "harmonic_centrality": 13.833333333333337,
+      "eccentricity": 3,
+      "degree": 9,
+      "weighted_degree": 64
+    },
+    {
+      "id": "SEAS",
+      "label": "SEAS",
+      "industry": "Fun",
+      "degree_centrality": 0.7241379310344828,
+      "betweenness_centrality": 0.06395766247982997,
+      "closeness_centrality": 0.7837837837837838,
+      "eigenvector_centrality": 0.011602331250563412,
+      "harmonic_centrality": 15.416666666666668,
+      "eccentricity": 2,
+      "degree": 21,
+      "weighted_degree": 262
+    },
+    {
+      "id": "SIX",
+      "label": "SIX",
+      "industry": "Fun",
+      "degree_centrality": 0.41379310344827586,
+      "betweenness_centrality": 0.00993431855500821,
+      "closeness_centrality": 0.6170212765957447,
+      "eigenvector_centrality": 0.012706489921144336,
+      "harmonic_centrality": 12.166666666666671,
+      "eccentricity": 3,
+      "degree": 12,
+      "weighted_degree": 211
+    },
+    {
+      "id": "TGNA",
+      "label": "TGNA",
+      "industry": "Fun",
+      "degree_centrality": 0.5862068965517241,
+      "betweenness_centrality": 0.145051500223914,
+      "closeness_centrality": 0.7073170731707317,
+      "eigenvector_centrality": 0.005946810131136432,
+      "harmonic_centrality": 16.75,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 115
+    },
+    {
+      "id": "TIVO",
+      "label": "TIVO",
+      "industry": "Fun",
+      "degree_centrality": 0.41379310344827586,
+      "betweenness_centrality": 0.08302465186701641,
+      "closeness_centrality": 0.6304347826086957,
+      "eigenvector_centrality": 0.006611125069956468,
+      "harmonic_centrality": 15.5,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 102
+    },
+    {
+      "id": "TRCH",
+      "label": "TRCH",
+      "industry": "Fun",
+      "degree_centrality": 0.13793103448275862,
+      "betweenness_centrality": 0.0035714285714285713,
+      "closeness_centrality": 0.5178571428571429,
+      "eigenvector_centrality": 0.00315423812696184,
+      "harmonic_centrality": 10.250000000000002,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 23
+    },
+    {
+      "id": "TRK",
+      "label": "TRK",
+      "industry": "Fun",
+      "degree_centrality": 0.3793103448275862,
+      "betweenness_centrality": 0.06795683790757683,
+      "closeness_centrality": 0.6041666666666666,
+      "eigenvector_centrality": 0.0007323303521314155,
+      "harmonic_centrality": 14.66666666666667,
+      "eccentricity": 3,
+      "degree": 11,
+      "weighted_degree": 63
+    },
+    {
+      "id": "UWN",
+      "label": "UWN",
+      "industry": "Fun",
+      "degree_centrality": 0.06896551724137931,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4393939393939394,
+      "eigenvector_centrality": 1.814173259847308e-05,
+      "harmonic_centrality": 11.116666666666665,
+      "eccentricity": 3,
+      "degree": 2,
+      "weighted_degree": 13
+    },
+    {
+      "id": "WWE",
+      "label": "WWE",
+      "industry": "Fun",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.010691894312583966,
+      "closeness_centrality": 0.725,
+      "eigenvector_centrality": 0.04521089721895784,
+      "harmonic_centrality": 13.416666666666668,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 416
+    },
+    {
+      "id": "WYNN",
+      "label": "WYNN",
+      "industry": "Fun",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.009339080459770114,
+      "closeness_centrality": 0.8055555555555556,
+      "eigenvector_centrality": 0.6707580506510632,
+      "harmonic_centrality": 9.983333333333334,
+      "eccentricity": 2,
+      "degree": 22,
+      "weighted_degree": 4782
+    }
+  ],
+  "edges": [
+    {
+      "source": "AMC",
+      "target": "MGM",
+      "weight": 11
+    },
+    {
+      "source": "AMC",
+      "target": "TIVO",
+      "weight": 3
+    },
+    {
+      "source": "AMC",
+      "target": "CNK",
+      "weight": 435
+    },
+    {
+      "source": "AMC",
+      "target": "WYNN",
+      "weight": 43
+    },
+    {
+      "source": "AMC",
+      "target": "SEAS",
+      "weight": 47
+    },
+    {
+      "source": "AMC",
+      "target": "DVD",
+      "weight": 1
+    },
+    {
+      "source": "AMC",
+      "target": "WWE",
+      "weight": 8
+    },
+    {
+      "source": "AMC",
+      "target": "CNTY",
+      "weight": 2
+    },
+    {
+      "source": "AMC",
+      "target": "LYV",
+      "weight": 20
+    },
+    {
+      "source": "AMC",
+      "target": "BYD",
+      "weight": 6
+    },
+    {
+      "source": "AMC",
+      "target": "REXN",
+      "weight": 1
+    },
+    {
+      "source": "AMC",
+      "target": "PLNT",
+      "weight": 21
+    },
+    {
+      "source": "AMC",
+      "target": "TGNA",
+      "weight": 22
+    },
+    {
+      "source": "AMC",
+      "target": "CHDN",
+      "weight": 3
+    },
+    {
+      "source": "AMC",
+      "target": "SIX",
+      "weight": 13
+    },
+    {
+      "source": "AMC",
+      "target": "TRK",
+      "weight": 1
+    },
+    {
+      "source": "AMC",
+      "target": "PENN",
+      "weight": 1
+    },
+    {
+      "source": "AMC",
+      "target": "NFLX",
+      "weight": 353
+    },
+    {
+      "source": "BWL",
+      "target": "BYD",
+      "weight": 1
+    },
+    {
+      "source": "BWL",
+      "target": "DVD",
+      "weight": 2
+    },
+    {
+      "source": "BYD",
+      "target": "SIX",
+      "weight": 45
+    },
+    {
+      "source": "BYD",
+      "target": "NFLX",
+      "weight": 19
+    },
+    {
+      "source": "BYD",
+      "target": "DDE",
+      "weight": 1
+    },
+    {
+      "source": "BYD",
+      "target": "CHDN",
+      "weight": 45
+    },
+    {
+      "source": "BYD",
+      "target": "LYV",
+      "weight": 3
+    },
+    {
+      "source": "BYD",
+      "target": "TIVO",
+      "weight": 1
+    },
+    {
+      "source": "BYD",
+      "target": "PENN",
+      "weight": 133
+    },
+    {
+      "source": "BYD",
+      "target": "PLNT",
+      "weight": 2
+    },
+    {
+      "source": "BYD",
+      "target": "CNK",
+      "weight": 5
+    },
+    {
+      "source": "BYD",
+      "target": "MCRI",
+      "weight": 7
+    },
+    {
+      "source": "BYD",
+      "target": "SEAS",
+      "weight": 2
+    },
+    {
+      "source": "BYD",
+      "target": "MGM",
+      "weight": 173
+    },
+    {
+      "source": "BYD",
+      "target": "NYNY",
+      "weight": 2
+    },
+    {
+      "source": "BYD",
+      "target": "WWE",
+      "weight": 3
+    },
+    {
+      "source": "BYD",
+      "target": "WYNN",
+      "weight": 118
+    },
+    {
+      "source": "BYD",
+      "target": "GDEN",
+      "weight": 11
+    },
+    {
+      "source": "BYD",
+      "target": "TGNA",
+      "weight": 3
+    },
+    {
+      "source": "BYD",
+      "target": "CNTY",
+      "weight": 33
+    },
+    {
+      "source": "CHDN",
+      "target": "MGM",
+      "weight": 25
+    },
+    {
+      "source": "CHDN",
+      "target": "CLUB",
+      "weight": 2
+    },
+    {
+      "source": "CHDN",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "MCRI",
+      "weight": 4
+    },
+    {
+      "source": "CHDN",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "ISCA",
+      "weight": 2
+    },
+    {
+      "source": "CHDN",
+      "target": "CPHC",
+      "weight": 4
+    },
+    {
+      "source": "CHDN",
+      "target": "PENN",
+      "weight": 43
+    },
+    {
+      "source": "CHDN",
+      "target": "WYNN",
+      "weight": 8
+    },
+    {
+      "source": "CHDN",
+      "target": "DS",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "TRK",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "CNTY",
+      "weight": 4
+    },
+    {
+      "source": "CHDN",
+      "target": "GDEN",
+      "weight": 8
+    },
+    {
+      "source": "CHDN",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "NFLX",
+      "weight": 9
+    },
+    {
+      "source": "CHDN",
+      "target": "LYV",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "CNK",
+      "weight": 1
+    },
+    {
+      "source": "CHDN",
+      "target": "WWE",
+      "weight": 2
+    },
+    {
+      "source": "CHDN",
+      "target": "DDE",
+      "weight": 1
+    },
+    {
+      "source": "CLUB",
+      "target": "REXN",
+      "weight": 1
+    },
+    {
+      "source": "CLUB",
+      "target": "NFLX",
+      "weight": 2
+    },
+    {
+      "source": "CLUB",
+      "target": "WYNN",
+      "weight": 1
+    },
+    {
+      "source": "CLUB",
+      "target": "NYNY",
+      "weight": 1
+    },
+    {
+      "source": "CLUB",
+      "target": "WWE",
+      "weight": 2
+    },
+    {
+      "source": "CLUB",
+      "target": "TRK",
+      "weight": 4
+    },
+    {
+      "source": "CLUB",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "CLUB",
+      "target": "MGM",
+      "weight": 6
+    },
+    {
+      "source": "CLUB",
+      "target": "PLNT",
+      "weight": 12
+    },
+    {
+      "source": "CNK",
+      "target": "TIVO",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "WYNN",
+      "weight": 6
+    },
+    {
+      "source": "CNK",
+      "target": "WWE",
+      "weight": 7
+    },
+    {
+      "source": "CNK",
+      "target": "MCRI",
+      "weight": 2
+    },
+    {
+      "source": "CNK",
+      "target": "NFLX",
+      "weight": 90
+    },
+    {
+      "source": "CNK",
+      "target": "MGM",
+      "weight": 4
+    },
+    {
+      "source": "CNK",
+      "target": "PENN",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "CNK",
+      "target": "LYV",
+      "weight": 15
+    },
+    {
+      "source": "CNK",
+      "target": "SEAS",
+      "weight": 2
+    },
+    {
+      "source": "CNTY",
+      "target": "NFLX",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "WYNN",
+      "weight": 79
+    },
+    {
+      "source": "CNTY",
+      "target": "PENN",
+      "weight": 64
+    },
+    {
+      "source": "CNTY",
+      "target": "MGM",
+      "weight": 54
+    },
+    {
+      "source": "CNTY",
+      "target": "NYNY",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "GDEN",
+      "weight": 4
+    },
+    {
+      "source": "CNTY",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "DS",
+      "weight": 1
+    },
+    {
+      "source": "CNTY",
+      "target": "MCRI",
+      "weight": 53
+    },
+    {
+      "source": "CNTY",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "CPHC",
+      "target": "WYNN",
+      "weight": 2
+    },
+    {
+      "source": "CPHC",
+      "target": "PENN",
+      "weight": 2
+    },
+    {
+      "source": "DDE",
+      "target": "REXN",
+      "weight": 1
+    },
+    {
+      "source": "DDE",
+      "target": "DVD",
+      "weight": 6
+    },
+    {
+      "source": "DDE",
+      "target": "PENN",
+      "weight": 1
+    },
+    {
+      "source": "DDE",
+      "target": "ISCA",
+      "weight": 5
+    },
+    {
+      "source": "DS",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "NFLX",
+      "weight": 9
+    },
+    {
+      "source": "DS",
+      "target": "TIVO",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "LYV",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "MGM",
+      "weight": 3
+    },
+    {
+      "source": "DS",
+      "target": "REXN",
+      "weight": 2
+    },
+    {
+      "source": "DS",
+      "target": "SEAS",
+      "weight": 2
+    },
+    {
+      "source": "DS",
+      "target": "UWN",
+      "weight": 1
+    },
+    {
+      "source": "DS",
+      "target": "ISCA",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "ISCA",
+      "weight": 8
+    },
+    {
+      "source": "DVD",
+      "target": "TRK",
+      "weight": 16
+    },
+    {
+      "source": "DVD",
+      "target": "NFLX",
+      "weight": 1
+    },
+    {
+      "source": "DVD",
+      "target": "SEAS",
+      "weight": 24
+    },
+    {
+      "source": "GDEN",
+      "target": "MGM",
+      "weight": 17
+    },
+    {
+      "source": "GDEN",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "GDEN",
+      "target": "LYV",
+      "weight": 1
+    },
+    {
+      "source": "GDEN",
+      "target": "MCRI",
+      "weight": 2
+    },
+    {
+      "source": "GDEN",
+      "target": "SEAS",
+      "weight": 2
+    },
+    {
+      "source": "GDEN",
+      "target": "WYNN",
+      "weight": 13
+    },
+    {
+      "source": "GDEN",
+      "target": "NYNY",
+      "weight": 23
+    },
+    {
+      "source": "GDEN",
+      "target": "PENN",
+      "weight": 6
+    },
+    {
+      "source": "GDEN",
+      "target": "UWN",
+      "weight": 12
+    },
+    {
+      "source": "ISCA",
+      "target": "MCRI",
+      "weight": 1
+    },
+    {
+      "source": "ISCA",
+      "target": "LYV",
+      "weight": 1
+    },
+    {
+      "source": "ISCA",
+      "target": "NFLX",
+      "weight": 14
+    },
+    {
+      "source": "ISCA",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "ISCA",
+      "target": "PLNT",
+      "weight": 1
+    },
+    {
+      "source": "ISCA",
+      "target": "TRK",
+      "weight": 19
+    },
+    {
+      "source": "ISCA",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "LYV",
+      "target": "PLNT",
+      "weight": 17
+    },
+    {
+      "source": "LYV",
+      "target": "SEAS",
+      "weight": 12
+    },
+    {
+      "source": "LYV",
+      "target": "TGNA",
+      "weight": 16
+    },
+    {
+      "source": "LYV",
+      "target": "NFLX",
+      "weight": 43
+    },
+    {
+      "source": "LYV",
+      "target": "TRK",
+      "weight": 8
+    },
+    {
+      "source": "LYV",
+      "target": "MGM",
+      "weight": 14
+    },
+    {
+      "source": "LYV",
+      "target": "PENN",
+      "weight": 1
+    },
+    {
+      "source": "LYV",
+      "target": "WWE",
+      "weight": 46
+    },
+    {
+      "source": "LYV",
+      "target": "TIVO",
+      "weight": 6
+    },
+    {
+      "source": "LYV",
+      "target": "WYNN",
+      "weight": 8
+    },
+    {
+      "source": "MCRI",
+      "target": "WYNN",
+      "weight": 35
+    },
+    {
+      "source": "MCRI",
+      "target": "MGM",
+      "weight": 24
+    },
+    {
+      "source": "MCRI",
+      "target": "NYNY",
+      "weight": 1
+    },
+    {
+      "source": "MCRI",
+      "target": "PENN",
+      "weight": 35
+    },
+    {
+      "source": "MCRI",
+      "target": "SEAS",
+      "weight": 6
+    },
+    {
+      "source": "MGM",
+      "target": "NYNY",
+      "weight": 12
+    },
+    {
+      "source": "MGM",
+      "target": "SIX",
+      "weight": 25
+    },
+    {
+      "source": "MGM",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "MGM",
+      "target": "WYNN",
+      "weight": 1480
+    },
+    {
+      "source": "MGM",
+      "target": "PENN",
+      "weight": 113
+    },
+    {
+      "source": "MGM",
+      "target": "TRK",
+      "weight": 3
+    },
+    {
+      "source": "MGM",
+      "target": "PLNT",
+      "weight": 15
+    },
+    {
+      "source": "MGM",
+      "target": "WWE",
+      "weight": 35
+    },
+    {
+      "source": "MGM",
+      "target": "SEAS",
+      "weight": 7
+    },
+    {
+      "source": "MGM",
+      "target": "NFLX",
+      "weight": 536
+    },
+    {
+      "source": "MGM",
+      "target": "TIVO",
+      "weight": 1
+    },
+    {
+      "source": "NFLX",
+      "target": "PENN",
+      "weight": 6
+    },
+    {
+      "source": "NFLX",
+      "target": "SEAS",
+      "weight": 20
+    },
+    {
+      "source": "NFLX",
+      "target": "TIVO",
+      "weight": 25
+    },
+    {
+      "source": "NFLX",
+      "target": "PLNT",
+      "weight": 100
+    },
+    {
+      "source": "NFLX",
+      "target": "TGNA",
+      "weight": 14
+    },
+    {
+      "source": "NFLX",
+      "target": "REXN",
+      "weight": 36
+    },
+    {
+      "source": "NFLX",
+      "target": "SIX",
+      "weight": 36
+    },
+    {
+      "source": "NFLX",
+      "target": "WYNN",
+      "weight": 2689
+    },
+    {
+      "source": "NFLX",
+      "target": "WWE",
+      "weight": 202
+    },
+    {
+      "source": "NFLX",
+      "target": "TRCH",
+      "weight": 15
+    },
+    {
+      "source": "NFLX",
+      "target": "TRK",
+      "weight": 1
+    },
+    {
+      "source": "NYNY",
+      "target": "WYNN",
+      "weight": 5
+    },
+    {
+      "source": "PENN",
+      "target": "PLNT",
+      "weight": 3
+    },
+    {
+      "source": "PENN",
+      "target": "TGNA",
+      "weight": 6
+    },
+    {
+      "source": "PENN",
+      "target": "SIX",
+      "weight": 4
+    },
+    {
+      "source": "PENN",
+      "target": "SEAS",
+      "weight": 12
+    },
+    {
+      "source": "PENN",
+      "target": "WWE",
+      "weight": 28
+    },
+    {
+      "source": "PENN",
+      "target": "TRCH",
+      "weight": 1
+    },
+    {
+      "source": "PENN",
+      "target": "WYNN",
+      "weight": 127
+    },
+    {
+      "source": "PLNT",
+      "target": "WYNN",
+      "weight": 85
+    },
+    {
+      "source": "PLNT",
+      "target": "TIVO",
+      "weight": 54
+    },
+    {
+      "source": "PLNT",
+      "target": "SEAS",
+      "weight": 24
+    },
+    {
+      "source": "PLNT",
+      "target": "TRK",
+      "weight": 1
+    },
+    {
+      "source": "PLNT",
+      "target": "WWE",
+      "weight": 19
+    },
+    {
+      "source": "PLNT",
+      "target": "SIX",
+      "weight": 8
+    },
+    {
+      "source": "REXN",
+      "target": "TRCH",
+      "weight": 5
+    },
+    {
+      "source": "REXN",
+      "target": "TGNA",
+      "weight": 4
+    },
+    {
+      "source": "REXN",
+      "target": "WYNN",
+      "weight": 13
+    },
+    {
+      "source": "REXN",
+      "target": "SEAS",
+      "weight": 1
+    },
+    {
+      "source": "SEAS",
+      "target": "WWE",
+      "weight": 5
+    },
+    {
+      "source": "SEAS",
+      "target": "WYNN",
+      "weight": 26
+    },
+    {
+      "source": "SEAS",
+      "target": "SIX",
+      "weight": 61
+    },
+    {
+      "source": "SEAS",
+      "target": "TGNA",
+      "weight": 5
+    },
+    {
+      "source": "SIX",
+      "target": "TRK",
+      "weight": 1
+    },
+    {
+      "source": "SIX",
+      "target": "TIVO",
+      "weight": 2
+    },
+    {
+      "source": "SIX",
+      "target": "WWE",
+      "weight": 6
+    },
+    {
+      "source": "SIX",
+      "target": "TGNA",
+      "weight": 1
+    },
+    {
+      "source": "SIX",
+      "target": "WYNN",
+      "weight": 9
+    },
+    {
+      "source": "TGNA",
+      "target": "TIVO",
+      "weight": 1
+    },
+    {
+      "source": "TGNA",
+      "target": "WWE",
+      "weight": 26
+    },
+    {
+      "source": "TGNA",
+      "target": "WYNN",
+      "weight": 11
+    },
+    {
+      "source": "TIVO",
+      "target": "WYNN",
+      "weight": 6
+    },
+    {
+      "source": "TIVO",
+      "target": "WWE",
+      "weight": 1
+    },
+    {
+      "source": "TRCH",
+      "target": "WYNN",
+      "weight": 2
+    },
+    {
+      "source": "TRK",
+      "target": "WWE",
+      "weight": 8
+    },
+    {
+      "source": "WWE",
+      "target": "WYNN",
+      "weight": 16
+    }
+  ]
+}

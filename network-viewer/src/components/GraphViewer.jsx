@@ -7,16 +7,17 @@ export default function GraphViewer() {
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
   const [layout, setLayout] = useState("forceAtlas2");
   const [topology, setTopology] = useState("original");
-  const [dataset, setDataset] = useState("Top 50"); // new state for dataset
+  const [dataset, setDataset] = useState("Top 50"); // Dataset: Top 50/100/200
+  const [year, setYear] = useState("2017"); // Year: 2017 default
   const fgRef = useRef();
 
-  // Load graph data based on selected dataset
+  // Load graph data based on selected dataset and year
   useEffect(() => {
-    const filename = {
-      "Top 50": "/graph_top_50.json",
-      "Top 100": "/graph_top_100.json",
-      "Top 200": "/graph_top_200.json"
-    }[dataset];
+    const filename = `/data/${year}/${
+      dataset === "Top 50" ? "graph_top_50.json" :
+      dataset === "Top 100" ? "graph_top_100.json" :
+      "graph_top_200.json"
+    }`;
 
     fetch(filename)
       .then(res => res.json())
@@ -28,7 +29,7 @@ export default function GraphViewer() {
         }));
         setGraphData({ nodes: data.nodes, links: originalLinks });
       });
-  }, [dataset]);
+  }, [dataset, year]);
 
   // Apply topology + layout safely
   useEffect(() => {
@@ -37,7 +38,6 @@ export default function GraphViewer() {
     const newNodes = graphData.nodes.map(node => ({ ...node }));
     const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
 
-    // Filter out links with missing nodes
     const nodeById = new Map(newNodes.map(n => [n.id, n]));
     const safeLinks = newLinks
       .map(link => ({
@@ -47,7 +47,6 @@ export default function GraphViewer() {
       }))
       .filter(link => link.source && link.target);
 
-    // Apply layouts
     if (layout === "random") {
       newNodes.forEach(node => {
         node.x = Math.random() * 800;
@@ -87,7 +86,18 @@ export default function GraphViewer() {
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
-        <label style={{ marginRight: 10 }}>Dataset:</label>
+        <label style={{ marginRight: 10 }}>Year:</label>
+        <select value={year} onChange={e => setYear(e.target.value)}>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+        </select>
+
+        <label style={{ marginLeft: 20, marginRight: 10 }}>Dataset:</label>
         <select value={dataset} onChange={e => setDataset(e.target.value)}>
           <option value="Top 50">Top 50</option>
           <option value="Top 100">Top 100</option>

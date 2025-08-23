@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "ATRO",
+      "label": "ATRO",
+      "industry": "Boxes",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.46753246753246747,
+      "eigenvector_centrality": 0.0006560555927974252,
+      "harmonic_centrality": 2.2583333333333333,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "BALL",
+      "label": "BALL",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.3333333333333333,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.6578470879489984,
+      "harmonic_centrality": 1.876190476190476,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 208
+    },
+    {
+      "id": "BLL",
+      "label": "BLL",
+      "industry": "Boxes",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.1456418256858507e-98,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "CCK",
+      "label": "CCK",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.6093440716502943,
+      "harmonic_centrality": 1.1666666666666667,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 190
+    },
+    {
+      "id": "EVA",
+      "label": "EVA",
+      "industry": "Boxes",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.19047619047619047,
+      "closeness_centrality": 0.5714285714285714,
+      "eigenvector_centrality": 0.019729595689584323,
+      "harmonic_centrality": 2.5873015873015874,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 6
+    },
+    {
+      "id": "GEF",
+      "label": "GEF",
+      "industry": "Boxes",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.23809523809523808,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.10813156096284912,
+      "harmonic_centrality": 3.003968253968254,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 50
+    },
+    {
+      "id": "OI",
+      "label": "OI",
+      "industry": "Boxes",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6428571428571428,
+      "eigenvector_centrality": 0.42248762259785305,
+      "harmonic_centrality": 1.0484126984126985,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 121
+    },
+    {
+      "id": "SLGN",
+      "label": "SLGN",
+      "industry": "Boxes",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.23809523809523808,
+      "closeness_centrality": 0.6428571428571428,
+      "eigenvector_centrality": 0.0732058613910141,
+      "harmonic_centrality": 1.2107142857142859,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 34
+    }
+  ],
+  "edges": [
+    {
+      "source": "ATRO",
+      "target": "GEF",
+      "weight": 1
+    },
+    {
+      "source": "BALL",
+      "target": "SLGN",
+      "weight": 5
+    },
+    {
+      "source": "BALL",
+      "target": "CCK",
+      "weight": 127
+    },
+    {
+      "source": "BALL",
+      "target": "OI",
+      "weight": 72
+    },
+    {
+      "source": "BALL",
+      "target": "GEF",
+      "weight": 2
+    },
+    {
+      "source": "BALL",
+      "target": "EVA",
+      "weight": 2
+    },
+    {
+      "source": "CCK",
+      "target": "OI",
+      "weight": 34
+    },
+    {
+      "source": "CCK",
+      "target": "SLGN",
+      "weight": 10
+    },
+    {
+      "source": "CCK",
+      "target": "EVA",
+      "weight": 3
+    },
+    {
+      "source": "CCK",
+      "target": "GEF",
+      "weight": 16
+    },
+    {
+      "source": "EVA",
+      "target": "GEF",
+      "weight": 1
+    },
+    {
+      "source": "GEF",
+      "target": "OI",
+      "weight": 13
+    },
+    {
+      "source": "GEF",
+      "target": "SLGN",
+      "weight": 17
+    },
+    {
+      "source": "OI",
+      "target": "SLGN",
+      "weight": 2
+    }
+  ]
+}

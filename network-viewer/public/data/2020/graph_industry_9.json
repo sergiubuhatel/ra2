@@ -1,0 +1,2388 @@
+{
+  "nodes": [
+    {
+      "id": "AOS",
+      "label": "AOS",
+      "industry": "Hshld",
+      "degree_centrality": 0.7105263157894737,
+      "betweenness_centrality": 0.01774988288146183,
+      "closeness_centrality": 0.7665173572228444,
+      "eigenvector_centrality": 0.012314603597603575,
+      "harmonic_centrality": 20.0,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 167
+    },
+    {
+      "id": "APOG",
+      "label": "APOG",
+      "industry": "Hshld",
+      "degree_centrality": 0.42105263157894735,
+      "betweenness_centrality": 0.10279785411364356,
+      "closeness_centrality": 0.6211433756805809,
+      "eigenvector_centrality": 0.0005114004949307013,
+      "harmonic_centrality": 23.0,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 34
+    },
+    {
+      "id": "AVP",
+      "label": "AVP",
+      "industry": "Hshld",
+      "degree_centrality": 0.3157894736842105,
+      "betweenness_centrality": 0.005368765895081685,
+      "closeness_centrality": 0.5810696095076401,
+      "eigenvector_centrality": 0.01714614397596825,
+      "harmonic_centrality": 16.83333333333334,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 257
+    },
+    {
+      "id": "BSET",
+      "label": "BSET",
+      "industry": "Hshld",
+      "degree_centrality": 0.42105263157894735,
+      "betweenness_centrality": 0.028790999185736035,
+      "closeness_centrality": 0.6211433756805809,
+      "eigenvector_centrality": 0.00032092514853889587,
+      "harmonic_centrality": 20.0,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 60
+    },
+    {
+      "id": "BTN",
+      "label": "BTN",
+      "industry": "Hshld",
+      "degree_centrality": 0.2894736842105263,
+      "betweenness_centrality": 0.03509867523025417,
+      "closeness_centrality": 0.5718462823725982,
+      "eigenvector_centrality": 0.00021916235110738995,
+      "harmonic_centrality": 20.333333333333336,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 29
+    },
+    {
+      "id": "CHD",
+      "label": "CHD",
+      "industry": "Hshld",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.010701632412158728,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.12335297986780991,
+      "harmonic_centrality": 18.0,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 982
+    },
+    {
+      "id": "CL",
+      "label": "CL",
+      "industry": "Hshld",
+      "degree_centrality": 0.6842105263157894,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7505482456140351,
+      "eigenvector_centrality": 0.4433366649536814,
+      "harmonic_centrality": 14.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 3640
+    },
+    {
+      "id": "CLX",
+      "label": "CLX",
+      "industry": "Hshld",
+      "degree_centrality": 0.6842105263157894,
+      "betweenness_centrality": 0.011475197001512791,
+      "closeness_centrality": 0.7505482456140351,
+      "eigenvector_centrality": 0.4750069382593375,
+      "harmonic_centrality": 18.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 4246
+    },
+    {
+      "id": "COTY",
+      "label": "COTY",
+      "industry": "Hshld",
+      "degree_centrality": 0.7894736842105263,
+      "betweenness_centrality": 0.013016211700422227,
+      "closeness_centrality": 0.8187799043062202,
+      "eigenvector_centrality": 0.06704840204761073,
+      "harmonic_centrality": 18.33333333333334,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 872
+    },
+    {
+      "id": "CPSH",
+      "label": "CPSH",
+      "industry": "Hshld",
+      "degree_centrality": 0.42105263157894735,
+      "betweenness_centrality": 0.0588948845527793,
+      "closeness_centrality": 0.6211433756805809,
+      "eigenvector_centrality": 0.0006359906387913613,
+      "harmonic_centrality": 22.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 38
+    },
+    {
+      "id": "CTHR",
+      "label": "CTHR",
+      "industry": "Hshld",
+      "degree_centrality": 0.3157894736842105,
+      "betweenness_centrality": 0.029263004263004266,
+      "closeness_centrality": 0.5810696095076401,
+      "eigenvector_centrality": 0.00026558776196054866,
+      "harmonic_centrality": 18.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 50
+    },
+    {
+      "id": "CTRC",
+      "label": "CTRC",
+      "industry": "Hshld",
+      "degree_centrality": 0.13157894736842105,
+      "betweenness_centrality": 0.0025960170697012803,
+      "closeness_centrality": 0.5221205186880244,
+      "eigenvector_centrality": 3.173160130747762e-05,
+      "harmonic_centrality": 14.666666666666673,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 26
+    },
+    {
+      "id": "DFFN",
+      "label": "DFFN",
+      "industry": "Hshld",
+      "degree_centrality": 0.39473684210526316,
+      "betweenness_centrality": 0.04137083676557361,
+      "closeness_centrality": 0.6106155218554862,
+      "eigenvector_centrality": 0.003870909415324384,
+      "harmonic_centrality": 19.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 99
+    },
+    {
+      "id": "EL",
+      "label": "EL",
+      "industry": "Hshld",
+      "degree_centrality": 0.6578947368421052,
+      "betweenness_centrality": 0.002335229966808914,
+      "closeness_centrality": 0.7352309344790547,
+      "eigenvector_centrality": 0.36564711161157587,
+      "harmonic_centrality": 17.33333333333334,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 3113
+    },
+    {
+      "id": "ELF",
+      "label": "ELF",
+      "industry": "Hshld",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 8.981598242127642e-40,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "ENR",
+      "label": "ENR",
+      "industry": "Hshld",
+      "degree_centrality": 0.5526315789473684,
+      "betweenness_centrality": 0.01854913302281723,
+      "closeness_centrality": 0.67974180734856,
+      "eigenvector_centrality": 0.005914829993245377,
+      "harmonic_centrality": 19.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 194
+    },
+    {
+      "id": "EPC",
+      "label": "EPC",
+      "industry": "Hshld",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.020456829009460588,
+      "closeness_centrality": 0.6671539961013646,
+      "eigenvector_centrality": 0.013794452438159854,
+      "harmonic_centrality": 19.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 233
+    },
+    {
+      "id": "FLXS",
+      "label": "FLXS",
+      "industry": "Hshld",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.02306082174503227,
+      "closeness_centrality": 0.6550239234449761,
+      "eigenvector_centrality": 0.0005351502110803529,
+      "harmonic_centrality": 19.5,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 81
+    },
+    {
+      "id": "FORD",
+      "label": "FORD",
+      "industry": "Hshld",
+      "degree_centrality": 0.23684210526315788,
+      "betweenness_centrality": 0.012704535072956123,
+      "closeness_centrality": 0.554251012145749,
+      "eigenvector_centrality": 0.0015196863483873239,
+      "harmonic_centrality": 19.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 215
+    },
+    {
+      "id": "FOSL",
+      "label": "FOSL",
+      "industry": "Hshld",
+      "degree_centrality": 0.7105263157894737,
+      "betweenness_centrality": 0.08616539932329405,
+      "closeness_centrality": 0.7665173572228444,
+      "eigenvector_centrality": 0.0025409010140007154,
+      "harmonic_centrality": 23.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 188
+    },
+    {
+      "id": "HBB",
+      "label": "HBB",
+      "industry": "Hshld",
+      "degree_centrality": 0.4473684210526315,
+      "betweenness_centrality": 0.04745062902957639,
+      "closeness_centrality": 0.6320406278855033,
+      "eigenvector_centrality": 0.00036199179840506465,
+      "harmonic_centrality": 21.416666666666664,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 43
+    },
+    {
+      "id": "HOFT",
+      "label": "HOFT",
+      "industry": "Hshld",
+      "degree_centrality": 0.3421052631578947,
+      "betweenness_centrality": 0.03075518601834392,
+      "closeness_centrality": 0.590595340811044,
+      "eigenvector_centrality": 0.00035908475884475767,
+      "harmonic_centrality": 20.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 27
+    },
+    {
+      "id": "HOG",
+      "label": "HOG",
+      "industry": "Hshld",
+      "degree_centrality": 0.7368421052631579,
+      "betweenness_centrality": 0.05381338868180974,
+      "closeness_centrality": 0.7831807780320367,
+      "eigenvector_centrality": 0.011987330732809632,
+      "harmonic_centrality": 21.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 275
+    },
+    {
+      "id": "IKNX",
+      "label": "IKNX",
+      "industry": "Hshld",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.0433625269151585,
+      "closeness_centrality": 0.6004385964912281,
+      "eigenvector_centrality": 0.0004843669549819365,
+      "harmonic_centrality": 21.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 30
+    },
+    {
+      "id": "KMB",
+      "label": "KMB",
+      "industry": "Hshld",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.009688071530176793,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.3950553145278254,
+      "harmonic_centrality": 18.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 2950
+    },
+    {
+      "id": "KODK",
+      "label": "KODK",
+      "industry": "Hshld",
+      "degree_centrality": 0.7894736842105263,
+      "betweenness_centrality": 0.015029286739813056,
+      "closeness_centrality": 0.8187799043062202,
+      "eigenvector_centrality": 0.021169758765819943,
+      "harmonic_centrality": 19.0,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 652
+    },
+    {
+      "id": "LBY",
+      "label": "LBY",
+      "industry": "Hshld",
+      "degree_centrality": 0.39473684210526316,
+      "betweenness_centrality": 0.02981441665652192,
+      "closeness_centrality": 0.6106155218554862,
+      "eigenvector_centrality": 0.0035896335576172203,
+      "harmonic_centrality": 20.0,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 62
+    },
+    {
+      "id": "MOV",
+      "label": "MOV",
+      "industry": "Hshld",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.012827318090475985,
+      "closeness_centrality": 0.6004385964912281,
+      "eigenvector_centrality": 0.0012580788635479783,
+      "harmonic_centrality": 19.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 107
+    },
+    {
+      "id": "NC",
+      "label": "NC",
+      "industry": "Hshld",
+      "degree_centrality": 0.4473684210526315,
+      "betweenness_centrality": 0.04326661958240906,
+      "closeness_centrality": 0.6320406278855033,
+      "eigenvector_centrality": 0.001233944728015992,
+      "harmonic_centrality": 20.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 76
+    },
+    {
+      "id": "NUS",
+      "label": "NUS",
+      "industry": "Hshld",
+      "degree_centrality": 0.7105263157894737,
+      "betweenness_centrality": 0.0201833057096215,
+      "closeness_centrality": 0.7665173572228444,
+      "eigenvector_centrality": 0.014178592301018561,
+      "harmonic_centrality": 20.16666666666667,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 263
+    },
+    {
+      "id": "ODC",
+      "label": "ODC",
+      "industry": "Hshld",
+      "degree_centrality": 0.39473684210526316,
+      "betweenness_centrality": 0.02748069063858538,
+      "closeness_centrality": 0.6106155218554862,
+      "eigenvector_centrality": 0.003200851549291974,
+      "harmonic_centrality": 20.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 45
+    },
+    {
+      "id": "PG",
+      "label": "PG",
+      "industry": "Hshld",
+      "degree_centrality": 0.763157894736842,
+      "betweenness_centrality": 0.013271292876556033,
+      "closeness_centrality": 0.8005847953216374,
+      "eigenvector_centrality": 0.5113751615913962,
+      "harmonic_centrality": 18.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 4612
+    },
+    {
+      "id": "REV",
+      "label": "REV",
+      "industry": "Hshld",
+      "degree_centrality": 0.5526315789473684,
+      "betweenness_centrality": 0.01525784157363105,
+      "closeness_centrality": 0.67974180734856,
+      "eigenvector_centrality": 0.028765977802290232,
+      "harmonic_centrality": 17.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 498
+    },
+    {
+      "id": "SCL",
+      "label": "SCL",
+      "industry": "Hshld",
+      "degree_centrality": 0.47368421052631576,
+      "betweenness_centrality": 0.041104892420681896,
+      "closeness_centrality": 0.6433270676691729,
+      "eigenvector_centrality": 0.012120062728784726,
+      "harmonic_centrality": 20.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 107
+    },
+    {
+      "id": "SNBR",
+      "label": "SNBR",
+      "industry": "Hshld",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.044952498899867334,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.004507855326573877,
+      "harmonic_centrality": 20.916666666666668,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 211
+    },
+    {
+      "id": "SPB",
+      "label": "SPB",
+      "industry": "Hshld",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.004559078901184165,
+      "closeness_centrality": 0.6928137651821863,
+      "eigenvector_centrality": 0.01545852210706083,
+      "harmonic_centrality": 18.000000000000004,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 292
+    },
+    {
+      "id": "TPR",
+      "label": "TPR",
+      "industry": "Hshld",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.02892015128857234,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.016601619887108017,
+      "harmonic_centrality": 19.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 364
+    },
+    {
+      "id": "TPX",
+      "label": "TPX",
+      "industry": "Hshld",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.029963445752919444,
+      "closeness_centrality": 0.6928137651821863,
+      "eigenvector_centrality": 0.003578296266049341,
+      "harmonic_centrality": 18.16666666666667,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 233
+    },
+    {
+      "id": "WHR",
+      "label": "WHR",
+      "industry": "Hshld",
+      "degree_centrality": 0.5526315789473684,
+      "betweenness_centrality": 0.012720221930748246,
+      "closeness_centrality": 0.67974180734856,
+      "eigenvector_centrality": 0.061651926210407625,
+      "harmonic_centrality": 18.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 585
+    }
+  ],
+  "edges": [
+    {
+      "source": "AOS",
+      "target": "KODK",
+      "weight": 4
+    },
+    {
+      "source": "AOS",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "AOS",
+      "target": "TPR",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "LBY",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "CLX",
+      "weight": 21
+    },
+    {
+      "source": "AOS",
+      "target": "HOG",
+      "weight": 14
+    },
+    {
+      "source": "AOS",
+      "target": "COTY",
+      "weight": 1
+    },
+    {
+      "source": "AOS",
+      "target": "APOG",
+      "weight": 1
+    },
+    {
+      "source": "AOS",
+      "target": "CL",
+      "weight": 22
+    },
+    {
+      "source": "AOS",
+      "target": "KMB",
+      "weight": 6
+    },
+    {
+      "source": "AOS",
+      "target": "CPSH",
+      "weight": 1
+    },
+    {
+      "source": "AOS",
+      "target": "BSET",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "PG",
+      "weight": 20
+    },
+    {
+      "source": "AOS",
+      "target": "FOSL",
+      "weight": 1
+    },
+    {
+      "source": "AOS",
+      "target": "FLXS",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "SPB",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "ODC",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "TPX",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "SNBR",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "HOFT",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "EPC",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "EL",
+      "weight": 11
+    },
+    {
+      "source": "AOS",
+      "target": "CHD",
+      "weight": 18
+    },
+    {
+      "source": "AOS",
+      "target": "WHR",
+      "weight": 14
+    },
+    {
+      "source": "AOS",
+      "target": "NUS",
+      "weight": 3
+    },
+    {
+      "source": "AOS",
+      "target": "DFFN",
+      "weight": 2
+    },
+    {
+      "source": "AOS",
+      "target": "MOV",
+      "weight": 2
+    },
+    {
+      "source": "APOG",
+      "target": "FOSL",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "BTN",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "LBY",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "TPR",
+      "weight": 4
+    },
+    {
+      "source": "APOG",
+      "target": "ENR",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "HBB",
+      "weight": 4
+    },
+    {
+      "source": "APOG",
+      "target": "CL",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "CHD",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "BSET",
+      "weight": 3
+    },
+    {
+      "source": "APOG",
+      "target": "PG",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "SPB",
+      "weight": 2
+    },
+    {
+      "source": "APOG",
+      "target": "REV",
+      "weight": 1
+    },
+    {
+      "source": "APOG",
+      "target": "COTY",
+      "weight": 4
+    },
+    {
+      "source": "APOG",
+      "target": "KODK",
+      "weight": 7
+    },
+    {
+      "source": "APOG",
+      "target": "HOG",
+      "weight": 1
+    },
+    {
+      "source": "AVP",
+      "target": "CHD",
+      "weight": 5
+    },
+    {
+      "source": "AVP",
+      "target": "CLX",
+      "weight": 3
+    },
+    {
+      "source": "AVP",
+      "target": "NUS",
+      "weight": 59
+    },
+    {
+      "source": "AVP",
+      "target": "EL",
+      "weight": 49
+    },
+    {
+      "source": "AVP",
+      "target": "DFFN",
+      "weight": 1
+    },
+    {
+      "source": "AVP",
+      "target": "KMB",
+      "weight": 4
+    },
+    {
+      "source": "AVP",
+      "target": "REV",
+      "weight": 47
+    },
+    {
+      "source": "AVP",
+      "target": "PG",
+      "weight": 51
+    },
+    {
+      "source": "AVP",
+      "target": "CL",
+      "weight": 9
+    },
+    {
+      "source": "AVP",
+      "target": "HOG",
+      "weight": 1
+    },
+    {
+      "source": "AVP",
+      "target": "COTY",
+      "weight": 27
+    },
+    {
+      "source": "AVP",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "FOSL",
+      "weight": 3
+    },
+    {
+      "source": "BSET",
+      "target": "CTHR",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "FLXS",
+      "weight": 27
+    },
+    {
+      "source": "BSET",
+      "target": "HOFT",
+      "weight": 2
+    },
+    {
+      "source": "BSET",
+      "target": "HBB",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "KMB",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "COTY",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "CPSH",
+      "weight": 1
+    },
+    {
+      "source": "BSET",
+      "target": "SNBR",
+      "weight": 3
+    },
+    {
+      "source": "BSET",
+      "target": "EPC",
+      "weight": 3
+    },
+    {
+      "source": "BSET",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "BSET",
+      "target": "REV",
+      "weight": 6
+    },
+    {
+      "source": "BSET",
+      "target": "CHD",
+      "weight": 2
+    },
+    {
+      "source": "BSET",
+      "target": "BTN",
+      "weight": 1
+    },
+    {
+      "source": "BTN",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "BTN",
+      "target": "FLXS",
+      "weight": 5
+    },
+    {
+      "source": "BTN",
+      "target": "CLX",
+      "weight": 1
+    },
+    {
+      "source": "BTN",
+      "target": "EPC",
+      "weight": 1
+    },
+    {
+      "source": "BTN",
+      "target": "FOSL",
+      "weight": 3
+    },
+    {
+      "source": "BTN",
+      "target": "IKNX",
+      "weight": 4
+    },
+    {
+      "source": "BTN",
+      "target": "KODK",
+      "weight": 9
+    },
+    {
+      "source": "BTN",
+      "target": "ODC",
+      "weight": 2
+    },
+    {
+      "source": "BTN",
+      "target": "CTHR",
+      "weight": 1
+    },
+    {
+      "source": "CHD",
+      "target": "KMB",
+      "weight": 98
+    },
+    {
+      "source": "CHD",
+      "target": "TPX",
+      "weight": 11
+    },
+    {
+      "source": "CHD",
+      "target": "EL",
+      "weight": 112
+    },
+    {
+      "source": "CHD",
+      "target": "COTY",
+      "weight": 4
+    },
+    {
+      "source": "CHD",
+      "target": "NUS",
+      "weight": 4
+    },
+    {
+      "source": "CHD",
+      "target": "PG",
+      "weight": 183
+    },
+    {
+      "source": "CHD",
+      "target": "SNBR",
+      "weight": 2
+    },
+    {
+      "source": "CHD",
+      "target": "WHR",
+      "weight": 9
+    },
+    {
+      "source": "CHD",
+      "target": "KODK",
+      "weight": 3
+    },
+    {
+      "source": "CHD",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "CHD",
+      "target": "DFFN",
+      "weight": 1
+    },
+    {
+      "source": "CHD",
+      "target": "TPR",
+      "weight": 9
+    },
+    {
+      "source": "CHD",
+      "target": "EPC",
+      "weight": 3
+    },
+    {
+      "source": "CHD",
+      "target": "CL",
+      "weight": 226
+    },
+    {
+      "source": "CHD",
+      "target": "SPB",
+      "weight": 21
+    },
+    {
+      "source": "CHD",
+      "target": "CLX",
+      "weight": 263
+    },
+    {
+      "source": "CHD",
+      "target": "HOG",
+      "weight": 3
+    },
+    {
+      "source": "CHD",
+      "target": "ENR",
+      "weight": 1
+    },
+    {
+      "source": "CHD",
+      "target": "REV",
+      "weight": 1
+    },
+    {
+      "source": "CL",
+      "target": "ENR",
+      "weight": 3
+    },
+    {
+      "source": "CL",
+      "target": "SNBR",
+      "weight": 2
+    },
+    {
+      "source": "CL",
+      "target": "CPSH",
+      "weight": 3
+    },
+    {
+      "source": "CL",
+      "target": "TPX",
+      "weight": 3
+    },
+    {
+      "source": "CL",
+      "target": "PG",
+      "weight": 1120
+    },
+    {
+      "source": "CL",
+      "target": "KODK",
+      "weight": 5
+    },
+    {
+      "source": "CL",
+      "target": "SCL",
+      "weight": 10
+    },
+    {
+      "source": "CL",
+      "target": "ODC",
+      "weight": 2
+    },
+    {
+      "source": "CL",
+      "target": "LBY",
+      "weight": 4
+    },
+    {
+      "source": "CL",
+      "target": "REV",
+      "weight": 3
+    },
+    {
+      "source": "CL",
+      "target": "COTY",
+      "weight": 153
+    },
+    {
+      "source": "CL",
+      "target": "SPB",
+      "weight": 64
+    },
+    {
+      "source": "CL",
+      "target": "FOSL",
+      "weight": 2
+    },
+    {
+      "source": "CL",
+      "target": "HOG",
+      "weight": 5
+    },
+    {
+      "source": "CL",
+      "target": "EPC",
+      "weight": 5
+    },
+    {
+      "source": "CL",
+      "target": "WHR",
+      "weight": 14
+    },
+    {
+      "source": "CL",
+      "target": "DFFN",
+      "weight": 17
+    },
+    {
+      "source": "CL",
+      "target": "NUS",
+      "weight": 5
+    },
+    {
+      "source": "CL",
+      "target": "KMB",
+      "weight": 626
+    },
+    {
+      "source": "CL",
+      "target": "CLX",
+      "weight": 827
+    },
+    {
+      "source": "CL",
+      "target": "EL",
+      "weight": 505
+    },
+    {
+      "source": "CL",
+      "target": "TPR",
+      "weight": 4
+    },
+    {
+      "source": "CLX",
+      "target": "EPC",
+      "weight": 26
+    },
+    {
+      "source": "CLX",
+      "target": "DFFN",
+      "weight": 3
+    },
+    {
+      "source": "CLX",
+      "target": "FOSL",
+      "weight": 4
+    },
+    {
+      "source": "CLX",
+      "target": "COTY",
+      "weight": 36
+    },
+    {
+      "source": "CLX",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "CLX",
+      "target": "PG",
+      "weight": 966
+    },
+    {
+      "source": "CLX",
+      "target": "EL",
+      "weight": 972
+    },
+    {
+      "source": "CLX",
+      "target": "NUS",
+      "weight": 5
+    },
+    {
+      "source": "CLX",
+      "target": "LBY",
+      "weight": 1
+    },
+    {
+      "source": "CLX",
+      "target": "SCL",
+      "weight": 6
+    },
+    {
+      "source": "CLX",
+      "target": "ENR",
+      "weight": 5
+    },
+    {
+      "source": "CLX",
+      "target": "IKNX",
+      "weight": 1
+    },
+    {
+      "source": "CLX",
+      "target": "REV",
+      "weight": 17
+    },
+    {
+      "source": "CLX",
+      "target": "TPR",
+      "weight": 3
+    },
+    {
+      "source": "CLX",
+      "target": "SPB",
+      "weight": 7
+    },
+    {
+      "source": "CLX",
+      "target": "WHR",
+      "weight": 325
+    },
+    {
+      "source": "CLX",
+      "target": "KMB",
+      "weight": 678
+    },
+    {
+      "source": "CLX",
+      "target": "KODK",
+      "weight": 42
+    },
+    {
+      "source": "CLX",
+      "target": "ODC",
+      "weight": 16
+    },
+    {
+      "source": "CLX",
+      "target": "TPX",
+      "weight": 3
+    },
+    {
+      "source": "CLX",
+      "target": "HOG",
+      "weight": 14
+    },
+    {
+      "source": "COTY",
+      "target": "HOFT",
+      "weight": 3
+    },
+    {
+      "source": "COTY",
+      "target": "EL",
+      "weight": 140
+    },
+    {
+      "source": "COTY",
+      "target": "HBB",
+      "weight": 4
+    },
+    {
+      "source": "COTY",
+      "target": "CTHR",
+      "weight": 11
+    },
+    {
+      "source": "COTY",
+      "target": "KODK",
+      "weight": 53
+    },
+    {
+      "source": "COTY",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "COTY",
+      "target": "ENR",
+      "weight": 10
+    },
+    {
+      "source": "COTY",
+      "target": "SPB",
+      "weight": 3
+    },
+    {
+      "source": "COTY",
+      "target": "TPX",
+      "weight": 4
+    },
+    {
+      "source": "COTY",
+      "target": "FOSL",
+      "weight": 28
+    },
+    {
+      "source": "COTY",
+      "target": "MOV",
+      "weight": 57
+    },
+    {
+      "source": "COTY",
+      "target": "REV",
+      "weight": 95
+    },
+    {
+      "source": "COTY",
+      "target": "NUS",
+      "weight": 17
+    },
+    {
+      "source": "COTY",
+      "target": "DFFN",
+      "weight": 20
+    },
+    {
+      "source": "COTY",
+      "target": "ODC",
+      "weight": 1
+    },
+    {
+      "source": "COTY",
+      "target": "CPSH",
+      "weight": 5
+    },
+    {
+      "source": "COTY",
+      "target": "KMB",
+      "weight": 11
+    },
+    {
+      "source": "COTY",
+      "target": "FORD",
+      "weight": 1
+    },
+    {
+      "source": "COTY",
+      "target": "EPC",
+      "weight": 6
+    },
+    {
+      "source": "COTY",
+      "target": "HOG",
+      "weight": 13
+    },
+    {
+      "source": "COTY",
+      "target": "IKNX",
+      "weight": 2
+    },
+    {
+      "source": "COTY",
+      "target": "PG",
+      "weight": 139
+    },
+    {
+      "source": "COTY",
+      "target": "TPR",
+      "weight": 22
+    },
+    {
+      "source": "CPSH",
+      "target": "IKNX",
+      "weight": 2
+    },
+    {
+      "source": "CPSH",
+      "target": "NUS",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "WHR",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "FORD",
+      "weight": 2
+    },
+    {
+      "source": "CPSH",
+      "target": "DFFN",
+      "weight": 4
+    },
+    {
+      "source": "CPSH",
+      "target": "FOSL",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "HBB",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "KODK",
+      "weight": 12
+    },
+    {
+      "source": "CPSH",
+      "target": "FLXS",
+      "weight": 1
+    },
+    {
+      "source": "CPSH",
+      "target": "HOG",
+      "weight": 1
+    },
+    {
+      "source": "CTHR",
+      "target": "CTRC",
+      "weight": 1
+    },
+    {
+      "source": "CTHR",
+      "target": "DFFN",
+      "weight": 1
+    },
+    {
+      "source": "CTHR",
+      "target": "SCL",
+      "weight": 4
+    },
+    {
+      "source": "CTHR",
+      "target": "FLXS",
+      "weight": 1
+    },
+    {
+      "source": "CTHR",
+      "target": "HOFT",
+      "weight": 6
+    },
+    {
+      "source": "CTHR",
+      "target": "FOSL",
+      "weight": 5
+    },
+    {
+      "source": "CTHR",
+      "target": "MOV",
+      "weight": 7
+    },
+    {
+      "source": "CTHR",
+      "target": "IKNX",
+      "weight": 10
+    },
+    {
+      "source": "CTHR",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "CTRC",
+      "target": "HOG",
+      "weight": 2
+    },
+    {
+      "source": "CTRC",
+      "target": "DFFN",
+      "weight": 19
+    },
+    {
+      "source": "CTRC",
+      "target": "FLXS",
+      "weight": 3
+    },
+    {
+      "source": "CTRC",
+      "target": "TPX",
+      "weight": 1
+    },
+    {
+      "source": "DFFN",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "DFFN",
+      "target": "WHR",
+      "weight": 1
+    },
+    {
+      "source": "DFFN",
+      "target": "HOG",
+      "weight": 4
+    },
+    {
+      "source": "DFFN",
+      "target": "KODK",
+      "weight": 21
+    },
+    {
+      "source": "DFFN",
+      "target": "PG",
+      "weight": 3
+    },
+    {
+      "source": "DFFN",
+      "target": "HBB",
+      "weight": 1
+    },
+    {
+      "source": "EL",
+      "target": "REV",
+      "weight": 77
+    },
+    {
+      "source": "EL",
+      "target": "HBB",
+      "weight": 2
+    },
+    {
+      "source": "EL",
+      "target": "WHR",
+      "weight": 13
+    },
+    {
+      "source": "EL",
+      "target": "TPX",
+      "weight": 3
+    },
+    {
+      "source": "EL",
+      "target": "NUS",
+      "weight": 59
+    },
+    {
+      "source": "EL",
+      "target": "SPB",
+      "weight": 5
+    },
+    {
+      "source": "EL",
+      "target": "TPR",
+      "weight": 117
+    },
+    {
+      "source": "EL",
+      "target": "FLXS",
+      "weight": 3
+    },
+    {
+      "source": "EL",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "EL",
+      "target": "EPC",
+      "weight": 7
+    },
+    {
+      "source": "EL",
+      "target": "PG",
+      "weight": 662
+    },
+    {
+      "source": "EL",
+      "target": "LBY",
+      "weight": 14
+    },
+    {
+      "source": "EL",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "EL",
+      "target": "HOG",
+      "weight": 12
+    },
+    {
+      "source": "EL",
+      "target": "KMB",
+      "weight": 334
+    },
+    {
+      "source": "EL",
+      "target": "HOFT",
+      "weight": 1
+    },
+    {
+      "source": "EL",
+      "target": "KODK",
+      "weight": 1
+    },
+    {
+      "source": "EL",
+      "target": "ENR",
+      "weight": 9
+    },
+    {
+      "source": "EL",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "ENR",
+      "target": "TPR",
+      "weight": 2
+    },
+    {
+      "source": "ENR",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "ENR",
+      "target": "NUS",
+      "weight": 3
+    },
+    {
+      "source": "ENR",
+      "target": "HOG",
+      "weight": 2
+    },
+    {
+      "source": "ENR",
+      "target": "SPB",
+      "weight": 53
+    },
+    {
+      "source": "ENR",
+      "target": "EPC",
+      "weight": 60
+    },
+    {
+      "source": "ENR",
+      "target": "WHR",
+      "weight": 1
+    },
+    {
+      "source": "ENR",
+      "target": "TPX",
+      "weight": 3
+    },
+    {
+      "source": "ENR",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "ENR",
+      "target": "REV",
+      "weight": 3
+    },
+    {
+      "source": "ENR",
+      "target": "FOSL",
+      "weight": 12
+    },
+    {
+      "source": "ENR",
+      "target": "PG",
+      "weight": 13
+    },
+    {
+      "source": "ENR",
+      "target": "KMB",
+      "weight": 7
+    },
+    {
+      "source": "ENR",
+      "target": "FLXS",
+      "weight": 1
+    },
+    {
+      "source": "ENR",
+      "target": "LBY",
+      "weight": 2
+    },
+    {
+      "source": "EPC",
+      "target": "HOG",
+      "weight": 1
+    },
+    {
+      "source": "EPC",
+      "target": "WHR",
+      "weight": 1
+    },
+    {
+      "source": "EPC",
+      "target": "KMB",
+      "weight": 24
+    },
+    {
+      "source": "EPC",
+      "target": "HBB",
+      "weight": 1
+    },
+    {
+      "source": "EPC",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "EPC",
+      "target": "FOSL",
+      "weight": 18
+    },
+    {
+      "source": "EPC",
+      "target": "SPB",
+      "weight": 5
+    },
+    {
+      "source": "EPC",
+      "target": "LBY",
+      "weight": 1
+    },
+    {
+      "source": "EPC",
+      "target": "PG",
+      "weight": 31
+    },
+    {
+      "source": "EPC",
+      "target": "REV",
+      "weight": 28
+    },
+    {
+      "source": "EPC",
+      "target": "NUS",
+      "weight": 9
+    },
+    {
+      "source": "FLXS",
+      "target": "FORD",
+      "weight": 2
+    },
+    {
+      "source": "FLXS",
+      "target": "FOSL",
+      "weight": 1
+    },
+    {
+      "source": "FLXS",
+      "target": "HBB",
+      "weight": 2
+    },
+    {
+      "source": "FLXS",
+      "target": "ODC",
+      "weight": 6
+    },
+    {
+      "source": "FLXS",
+      "target": "HOG",
+      "weight": 7
+    },
+    {
+      "source": "FLXS",
+      "target": "WHR",
+      "weight": 7
+    },
+    {
+      "source": "FLXS",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "FLXS",
+      "target": "SNBR",
+      "weight": 2
+    },
+    {
+      "source": "FLXS",
+      "target": "HOFT",
+      "weight": 5
+    },
+    {
+      "source": "FLXS",
+      "target": "NC",
+      "weight": 3
+    },
+    {
+      "source": "FLXS",
+      "target": "IKNX",
+      "weight": 1
+    },
+    {
+      "source": "FORD",
+      "target": "ODC",
+      "weight": 1
+    },
+    {
+      "source": "FORD",
+      "target": "IKNX",
+      "weight": 1
+    },
+    {
+      "source": "FORD",
+      "target": "KODK",
+      "weight": 205
+    },
+    {
+      "source": "FORD",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "FORD",
+      "target": "FOSL",
+      "weight": 1
+    },
+    {
+      "source": "FORD",
+      "target": "PG",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "KODK",
+      "weight": 36
+    },
+    {
+      "source": "FOSL",
+      "target": "MOV",
+      "weight": 10
+    },
+    {
+      "source": "FOSL",
+      "target": "PG",
+      "weight": 2
+    },
+    {
+      "source": "FOSL",
+      "target": "LBY",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "HOFT",
+      "weight": 2
+    },
+    {
+      "source": "FOSL",
+      "target": "SPB",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "KMB",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "TPX",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "IKNX",
+      "weight": 2
+    },
+    {
+      "source": "FOSL",
+      "target": "HOG",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "TPR",
+      "weight": 32
+    },
+    {
+      "source": "FOSL",
+      "target": "REV",
+      "weight": 16
+    },
+    {
+      "source": "FOSL",
+      "target": "NUS",
+      "weight": 1
+    },
+    {
+      "source": "FOSL",
+      "target": "SNBR",
+      "weight": 2
+    },
+    {
+      "source": "HBB",
+      "target": "IKNX",
+      "weight": 1
+    },
+    {
+      "source": "HBB",
+      "target": "SNBR",
+      "weight": 2
+    },
+    {
+      "source": "HBB",
+      "target": "MOV",
+      "weight": 2
+    },
+    {
+      "source": "HBB",
+      "target": "NC",
+      "weight": 11
+    },
+    {
+      "source": "HBB",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "HBB",
+      "target": "SPB",
+      "weight": 1
+    },
+    {
+      "source": "HBB",
+      "target": "HOG",
+      "weight": 6
+    },
+    {
+      "source": "HBB",
+      "target": "LBY",
+      "weight": 2
+    },
+    {
+      "source": "HBB",
+      "target": "KODK",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "NUS",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "IKNX",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "PG",
+      "weight": 1
+    },
+    {
+      "source": "HOFT",
+      "target": "KODK",
+      "weight": 1
+    },
+    {
+      "source": "HOG",
+      "target": "TPR",
+      "weight": 22
+    },
+    {
+      "source": "HOG",
+      "target": "NUS",
+      "weight": 3
+    },
+    {
+      "source": "HOG",
+      "target": "MOV",
+      "weight": 1
+    },
+    {
+      "source": "HOG",
+      "target": "KMB",
+      "weight": 9
+    },
+    {
+      "source": "HOG",
+      "target": "ODC",
+      "weight": 1
+    },
+    {
+      "source": "HOG",
+      "target": "SNBR",
+      "weight": 25
+    },
+    {
+      "source": "HOG",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "HOG",
+      "target": "WHR",
+      "weight": 36
+    },
+    {
+      "source": "HOG",
+      "target": "REV",
+      "weight": 2
+    },
+    {
+      "source": "HOG",
+      "target": "PG",
+      "weight": 33
+    },
+    {
+      "source": "HOG",
+      "target": "TPX",
+      "weight": 14
+    },
+    {
+      "source": "HOG",
+      "target": "KODK",
+      "weight": 41
+    },
+    {
+      "source": "IKNX",
+      "target": "KMB",
+      "weight": 1
+    },
+    {
+      "source": "IKNX",
+      "target": "PG",
+      "weight": 1
+    },
+    {
+      "source": "IKNX",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "IKNX",
+      "target": "MOV",
+      "weight": 1
+    },
+    {
+      "source": "KMB",
+      "target": "TPX",
+      "weight": 2
+    },
+    {
+      "source": "KMB",
+      "target": "SNBR",
+      "weight": 3
+    },
+    {
+      "source": "KMB",
+      "target": "NUS",
+      "weight": 5
+    },
+    {
+      "source": "KMB",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "KMB",
+      "target": "SCL",
+      "weight": 19
+    },
+    {
+      "source": "KMB",
+      "target": "SPB",
+      "weight": 5
+    },
+    {
+      "source": "KMB",
+      "target": "ODC",
+      "weight": 3
+    },
+    {
+      "source": "KMB",
+      "target": "WHR",
+      "weight": 28
+    },
+    {
+      "source": "KMB",
+      "target": "REV",
+      "weight": 18
+    },
+    {
+      "source": "KMB",
+      "target": "PG",
+      "weight": 1064
+    },
+    {
+      "source": "KMB",
+      "target": "KODK",
+      "weight": 2
+    },
+    {
+      "source": "KODK",
+      "target": "LBY",
+      "weight": 1
+    },
+    {
+      "source": "KODK",
+      "target": "TPR",
+      "weight": 43
+    },
+    {
+      "source": "KODK",
+      "target": "TPX",
+      "weight": 7
+    },
+    {
+      "source": "KODK",
+      "target": "MOV",
+      "weight": 2
+    },
+    {
+      "source": "KODK",
+      "target": "REV",
+      "weight": 61
+    },
+    {
+      "source": "KODK",
+      "target": "PG",
+      "weight": 74
+    },
+    {
+      "source": "KODK",
+      "target": "NUS",
+      "weight": 3
+    },
+    {
+      "source": "KODK",
+      "target": "NC",
+      "weight": 7
+    },
+    {
+      "source": "KODK",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "LBY",
+      "target": "SPB",
+      "weight": 1
+    },
+    {
+      "source": "LBY",
+      "target": "PG",
+      "weight": 8
+    },
+    {
+      "source": "LBY",
+      "target": "TPX",
+      "weight": 2
+    },
+    {
+      "source": "LBY",
+      "target": "MOV",
+      "weight": 17
+    },
+    {
+      "source": "LBY",
+      "target": "NUS",
+      "weight": 5
+    },
+    {
+      "source": "MOV",
+      "target": "TPR",
+      "weight": 2
+    },
+    {
+      "source": "MOV",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "MOV",
+      "target": "NUS",
+      "weight": 3
+    },
+    {
+      "source": "MOV",
+      "target": "NC",
+      "weight": 1
+    },
+    {
+      "source": "MOV",
+      "target": "ODC",
+      "weight": 1
+    },
+    {
+      "source": "NC",
+      "target": "SPB",
+      "weight": 28
+    },
+    {
+      "source": "NC",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "NC",
+      "target": "NUS",
+      "weight": 2
+    },
+    {
+      "source": "NC",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "NC",
+      "target": "PG",
+      "weight": 4
+    },
+    {
+      "source": "NC",
+      "target": "ODC",
+      "weight": 4
+    },
+    {
+      "source": "NC",
+      "target": "WHR",
+      "weight": 6
+    },
+    {
+      "source": "NC",
+      "target": "TPX",
+      "weight": 2
+    },
+    {
+      "source": "NUS",
+      "target": "TPX",
+      "weight": 9
+    },
+    {
+      "source": "NUS",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "NUS",
+      "target": "SNBR",
+      "weight": 3
+    },
+    {
+      "source": "NUS",
+      "target": "WHR",
+      "weight": 4
+    },
+    {
+      "source": "NUS",
+      "target": "PG",
+      "weight": 27
+    },
+    {
+      "source": "NUS",
+      "target": "SPB",
+      "weight": 1
+    },
+    {
+      "source": "NUS",
+      "target": "ODC",
+      "weight": 1
+    },
+    {
+      "source": "NUS",
+      "target": "REV",
+      "weight": 26
+    },
+    {
+      "source": "NUS",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "ODC",
+      "target": "PG",
+      "weight": 1
+    },
+    {
+      "source": "ODC",
+      "target": "SNBR",
+      "weight": 1
+    },
+    {
+      "source": "ODC",
+      "target": "REV",
+      "weight": 2
+    },
+    {
+      "source": "PG",
+      "target": "REV",
+      "weight": 76
+    },
+    {
+      "source": "PG",
+      "target": "SPB",
+      "weight": 17
+    },
+    {
+      "source": "PG",
+      "target": "TPX",
+      "weight": 5
+    },
+    {
+      "source": "PG",
+      "target": "SCL",
+      "weight": 45
+    },
+    {
+      "source": "PG",
+      "target": "WHR",
+      "weight": 41
+    },
+    {
+      "source": "PG",
+      "target": "TPR",
+      "weight": 5
+    },
+    {
+      "source": "PG",
+      "target": "SNBR",
+      "weight": 18
+    },
+    {
+      "source": "REV",
+      "target": "SPB",
+      "weight": 15
+    },
+    {
+      "source": "REV",
+      "target": "TPR",
+      "weight": 1
+    },
+    {
+      "source": "REV",
+      "target": "WHR",
+      "weight": 2
+    },
+    {
+      "source": "REV",
+      "target": "TPX",
+      "weight": 1
+    },
+    {
+      "source": "SCL",
+      "target": "SPB",
+      "weight": 3
+    },
+    {
+      "source": "SCL",
+      "target": "TPX",
+      "weight": 1
+    },
+    {
+      "source": "SCL",
+      "target": "SNBR",
+      "weight": 3
+    },
+    {
+      "source": "SCL",
+      "target": "WHR",
+      "weight": 1
+    },
+    {
+      "source": "SNBR",
+      "target": "TPX",
+      "weight": 83
+    },
+    {
+      "source": "SNBR",
+      "target": "SPB",
+      "weight": 4
+    },
+    {
+      "source": "SNBR",
+      "target": "TPR",
+      "weight": 23
+    },
+    {
+      "source": "SNBR",
+      "target": "WHR",
+      "weight": 25
+    },
+    {
+      "source": "SPB",
+      "target": "WHR",
+      "weight": 33
+    },
+    {
+      "source": "SPB",
+      "target": "TPR",
+      "weight": 9
+    },
+    {
+      "source": "SPB",
+      "target": "TPX",
+      "weight": 12
+    },
+    {
+      "source": "TPR",
+      "target": "WHR",
+      "weight": 9
+    },
+    {
+      "source": "TPR",
+      "target": "TPX",
+      "weight": 49
+    },
+    {
+      "source": "TPX",
+      "target": "WHR",
+      "weight": 14
+    }
+  ]
+}

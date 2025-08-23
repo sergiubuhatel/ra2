@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "CRVP",
+      "label": "CRVP",
+      "industry": "Soda",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.28030303030303033,
+      "closeness_centrality": 0.6722222222222222,
+      "eigenvector_centrality": 0.007079044376964771,
+      "harmonic_centrality": 3.560714285714286,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 76
+    },
+    {
+      "id": "DPS",
+      "label": "DPS",
+      "industry": "Soda",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.015151515151515152,
+      "closeness_centrality": 0.7756410256410255,
+      "eigenvector_centrality": 0.11187433593416711,
+      "harmonic_centrality": 2.2718253968253967,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 1373
+    },
+    {
+      "id": "FIZZ",
+      "label": "FIZZ",
+      "industry": "Soda",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7202380952380952,
+      "eigenvector_centrality": 0.04954992506829388,
+      "harmonic_centrality": 1.744047619047619,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 621
+    },
+    {
+      "id": "HSY",
+      "label": "HSY",
+      "industry": "Soda",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.14393939393939395,
+      "closeness_centrality": 0.8402777777777777,
+      "eigenvector_centrality": 0.029915000817029684,
+      "harmonic_centrality": 2.596825396825397,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 534
+    },
+    {
+      "id": "JBSS",
+      "label": "JBSS",
+      "industry": "Soda",
+      "degree_centrality": 0.41666666666666663,
+      "betweenness_centrality": 0.19696969696969696,
+      "closeness_centrality": 0.5931372549019608,
+      "eigenvector_centrality": 0.0009787240942044887,
+      "harmonic_centrality": 3.348412698412698,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 362
+    },
+    {
+      "id": "KDP",
+      "label": "KDP",
+      "industry": "Soda",
+      "degree_centrality": 0.5833333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6722222222222222,
+      "eigenvector_centrality": 0.03912962243166447,
+      "harmonic_centrality": 1.532178932178932,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 494
+    },
+    {
+      "id": "KO",
+      "label": "KO",
+      "industry": "Soda",
+      "degree_centrality": 0.9166666666666666,
+      "betweenness_centrality": 0.09090909090909091,
+      "closeness_centrality": 0.9166666666666666,
+      "eigenvector_centrality": 0.6981844378136313,
+      "harmonic_centrality": 2.8095238095238098,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 7774
+    },
+    {
+      "id": "MNST",
+      "label": "MNST",
+      "industry": "Soda",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7756410256410255,
+      "eigenvector_centrality": 0.09504248250423156,
+      "harmonic_centrality": 1.396067821067821,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 1132
+    },
+    {
+      "id": "MXC",
+      "label": "MXC",
+      "industry": "Soda",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.13636363636363635,
+      "closeness_centrality": 0.5307017543859649,
+      "eigenvector_centrality": 0.0013747927269403435,
+      "harmonic_centrality": 3.344444444444444,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 13
+    },
+    {
+      "id": "PEP",
+      "label": "PEP",
+      "industry": "Soda",
+      "degree_centrality": 0.9166666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9166666666666666,
+      "eigenvector_centrality": 0.6945683268109158,
+      "harmonic_centrality": 2.8107142857142855,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 7324
+    },
+    {
+      "id": "REED",
+      "label": "REED",
+      "industry": "Soda",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.26515151515151514,
+      "closeness_centrality": 0.8402777777777777,
+      "eigenvector_centrality": 0.059971874577995,
+      "harmonic_centrality": 2.819047619047619,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 766
+    },
+    {
+      "id": "SXT",
+      "label": "SXT",
+      "industry": "Soda",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "TR",
+      "label": "TR",
+      "industry": "Soda",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.08333333333333334,
+      "closeness_centrality": 0.7202380952380952,
+      "eigenvector_centrality": 0.005794255714508063,
+      "harmonic_centrality": 2.0464285714285713,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 489
+    }
+  ],
+  "edges": [
+    {
+      "source": "CRVP",
+      "target": "MNST",
+      "weight": 7
+    },
+    {
+      "source": "CRVP",
+      "target": "HSY",
+      "weight": 2
+    },
+    {
+      "source": "CRVP",
+      "target": "MXC",
+      "weight": 1
+    },
+    {
+      "source": "CRVP",
+      "target": "PEP",
+      "weight": 25
+    },
+    {
+      "source": "CRVP",
+      "target": "DPS",
+      "weight": 2
+    },
+    {
+      "source": "CRVP",
+      "target": "REED",
+      "weight": 4
+    },
+    {
+      "source": "CRVP",
+      "target": "KO",
+      "weight": 35
+    },
+    {
+      "source": "DPS",
+      "target": "TR",
+      "weight": 5
+    },
+    {
+      "source": "DPS",
+      "target": "FIZZ",
+      "weight": 54
+    },
+    {
+      "source": "DPS",
+      "target": "PEP",
+      "weight": 415
+    },
+    {
+      "source": "DPS",
+      "target": "KO",
+      "weight": 524
+    },
+    {
+      "source": "DPS",
+      "target": "MNST",
+      "weight": 76
+    },
+    {
+      "source": "DPS",
+      "target": "HSY",
+      "weight": 43
+    },
+    {
+      "source": "DPS",
+      "target": "KDP",
+      "weight": 55
+    },
+    {
+      "source": "DPS",
+      "target": "REED",
+      "weight": 199
+    },
+    {
+      "source": "FIZZ",
+      "target": "REED",
+      "weight": 14
+    },
+    {
+      "source": "FIZZ",
+      "target": "MNST",
+      "weight": 103
+    },
+    {
+      "source": "FIZZ",
+      "target": "PEP",
+      "weight": 206
+    },
+    {
+      "source": "FIZZ",
+      "target": "TR",
+      "weight": 5
+    },
+    {
+      "source": "FIZZ",
+      "target": "KO",
+      "weight": 200
+    },
+    {
+      "source": "FIZZ",
+      "target": "HSY",
+      "weight": 3
+    },
+    {
+      "source": "FIZZ",
+      "target": "KDP",
+      "weight": 36
+    },
+    {
+      "source": "HSY",
+      "target": "MNST",
+      "weight": 15
+    },
+    {
+      "source": "HSY",
+      "target": "KO",
+      "weight": 74
+    },
+    {
+      "source": "HSY",
+      "target": "TR",
+      "weight": 142
+    },
+    {
+      "source": "HSY",
+      "target": "REED",
+      "weight": 4
+    },
+    {
+      "source": "HSY",
+      "target": "KDP",
+      "weight": 6
+    },
+    {
+      "source": "HSY",
+      "target": "PEP",
+      "weight": 176
+    },
+    {
+      "source": "HSY",
+      "target": "JBSS",
+      "weight": 69
+    },
+    {
+      "source": "JBSS",
+      "target": "REED",
+      "weight": 2
+    },
+    {
+      "source": "JBSS",
+      "target": "PEP",
+      "weight": 1
+    },
+    {
+      "source": "JBSS",
+      "target": "TR",
+      "weight": 288
+    },
+    {
+      "source": "JBSS",
+      "target": "KO",
+      "weight": 2
+    },
+    {
+      "source": "KDP",
+      "target": "KO",
+      "weight": 187
+    },
+    {
+      "source": "KDP",
+      "target": "MNST",
+      "weight": 74
+    },
+    {
+      "source": "KDP",
+      "target": "PEP",
+      "weight": 132
+    },
+    {
+      "source": "KDP",
+      "target": "REED",
+      "weight": 4
+    },
+    {
+      "source": "KO",
+      "target": "REED",
+      "weight": 280
+    },
+    {
+      "source": "KO",
+      "target": "MXC",
+      "weight": 2
+    },
+    {
+      "source": "KO",
+      "target": "MNST",
+      "weight": 544
+    },
+    {
+      "source": "KO",
+      "target": "TR",
+      "weight": 33
+    },
+    {
+      "source": "KO",
+      "target": "PEP",
+      "weight": 5893
+    },
+    {
+      "source": "MNST",
+      "target": "TR",
+      "weight": 4
+    },
+    {
+      "source": "MNST",
+      "target": "PEP",
+      "weight": 255
+    },
+    {
+      "source": "MNST",
+      "target": "REED",
+      "weight": 54
+    },
+    {
+      "source": "MXC",
+      "target": "PEP",
+      "weight": 10
+    },
+    {
+      "source": "PEP",
+      "target": "REED",
+      "weight": 202
+    },
+    {
+      "source": "PEP",
+      "target": "TR",
+      "weight": 9
+    },
+    {
+      "source": "REED",
+      "target": "TR",
+      "weight": 3
+    }
+  ]
+}

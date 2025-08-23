@@ -1,0 +1,1155 @@
+{
+  "nodes": [
+    {
+      "id": "ALEX",
+      "label": "ALEX",
+      "industry": "RlEst",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.01688373355040022,
+      "closeness_centrality": 0.569023569023569,
+      "eigenvector_centrality": 0.012068445459856964,
+      "harmonic_centrality": 12.666666666666666,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 19
+    },
+    {
+      "id": "AMTX",
+      "label": "AMTX",
+      "industry": "RlEst",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.03375955320399764,
+      "closeness_centrality": 0.6259259259259259,
+      "eigenvector_centrality": 0.01664567278095139,
+      "harmonic_centrality": 13.416666666666668,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 50
+    },
+    {
+      "id": "ARL",
+      "label": "ARL",
+      "industry": "RlEst",
+      "degree_centrality": 0.5185185185185185,
+      "betweenness_centrality": 0.1214330936553159,
+      "closeness_centrality": 0.6588693957115009,
+      "eigenvector_centrality": 0.05655293852967916,
+      "harmonic_centrality": 16.333333333333336,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 103
+    },
+    {
+      "id": "AXR",
+      "label": "AXR",
+      "industry": "RlEst",
+      "degree_centrality": 0.18518518518518517,
+      "betweenness_centrality": 0.014785420340975896,
+      "closeness_centrality": 0.5007407407407407,
+      "eigenvector_centrality": 0.00398975075159569,
+      "harmonic_centrality": 12.25,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 8
+    },
+    {
+      "id": "BXG",
+      "label": "BXG",
+      "industry": "RlEst",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.11937661104327772,
+      "closeness_centrality": 0.6259259259259259,
+      "eigenvector_centrality": 0.009218851049809832,
+      "harmonic_centrality": 16.000000000000004,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 29
+    },
+    {
+      "id": "CAR",
+      "label": "CAR",
+      "industry": "RlEst",
+      "degree_centrality": 0.5555555555555556,
+      "betweenness_centrality": 0.011111111111111112,
+      "closeness_centrality": 0.6766766766766766,
+      "eigenvector_centrality": 0.0825366181636756,
+      "harmonic_centrality": 12.250000000000002,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 103
+    },
+    {
+      "id": "CBRE",
+      "label": "CBRE",
+      "industry": "RlEst",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.0007122507122507123,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.3067364299248073,
+      "harmonic_centrality": 11.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 245
+    },
+    {
+      "id": "CSGP",
+      "label": "CSGP",
+      "industry": "RlEst",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.009413014968570523,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.12567404153631864,
+      "harmonic_centrality": 11.750000000000002,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 108
+    },
+    {
+      "id": "CTO",
+      "label": "CTO",
+      "industry": "RlEst",
+      "degree_centrality": 0.25925925925925924,
+      "betweenness_centrality": 0.013406141183918963,
+      "closeness_centrality": 0.5442834138486312,
+      "eigenvector_centrality": 0.03239724673093126,
+      "harmonic_centrality": 12.583333333333332,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 87
+    },
+    {
+      "id": "FOR",
+      "label": "FOR",
+      "industry": "RlEst",
+      "degree_centrality": 0.5185185185185185,
+      "betweenness_centrality": 0.06100031655587212,
+      "closeness_centrality": 0.6588693957115009,
+      "eigenvector_centrality": 0.24056005609800415,
+      "harmonic_centrality": 14.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 176
+    },
+    {
+      "id": "FPH",
+      "label": "FPH",
+      "industry": "RlEst",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.012874779541446212,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.03905590228811599,
+      "harmonic_centrality": 12.0,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 69
+    },
+    {
+      "id": "FVAC",
+      "label": "FVAC",
+      "industry": "RlEst",
+      "degree_centrality": 0.2962962962962963,
+      "betweenness_centrality": 0.004463437796771131,
+      "closeness_centrality": 0.5563786008230451,
+      "eigenvector_centrality": 0.011471332349813786,
+      "harmonic_centrality": 11.833333333333334,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 24
+    },
+    {
+      "id": "HHC",
+      "label": "HHC",
+      "industry": "RlEst",
+      "degree_centrality": 0.6296296296296295,
+      "betweenness_centrality": 0.013390313390313392,
+      "closeness_centrality": 0.7153439153439153,
+      "eigenvector_centrality": 0.0991744931780802,
+      "harmonic_centrality": 11.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 135
+    },
+    {
+      "id": "INTG",
+      "label": "INTG",
+      "industry": "RlEst",
+      "degree_centrality": 0.25925925925925924,
+      "betweenness_centrality": 0.10047483380816713,
+      "closeness_centrality": 0.5442834138486312,
+      "eigenvector_centrality": 0.003790595826889788,
+      "harmonic_centrality": 14.166666666666666,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 10
+    },
+    {
+      "id": "JLL",
+      "label": "JLL",
+      "industry": "RlEst",
+      "degree_centrality": 0.5555555555555556,
+      "betweenness_centrality": 0.009354226020892687,
+      "closeness_centrality": 0.6588693957115009,
+      "eigenvector_centrality": 0.44035290624031753,
+      "harmonic_centrality": 11.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 323
+    },
+    {
+      "id": "JOE",
+      "label": "JOE",
+      "industry": "RlEst",
+      "degree_centrality": 0.5925925925925926,
+      "betweenness_centrality": 0.05168905168905169,
+      "closeness_centrality": 0.6954732510288065,
+      "eigenvector_centrality": 0.4913740342317893,
+      "harmonic_centrality": 13.75,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 390
+    },
+    {
+      "id": "KW",
+      "label": "KW",
+      "industry": "RlEst",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.024192782526115862,
+      "closeness_centrality": 0.569023569023569,
+      "eigenvector_centrality": 0.23488074572934187,
+      "harmonic_centrality": 11.916666666666666,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 154
+    },
+    {
+      "id": "MAYS",
+      "label": "MAYS",
+      "industry": "RlEst",
+      "degree_centrality": 0.25925925925925924,
+      "betweenness_centrality": 0.008241758241758242,
+      "closeness_centrality": 0.5442834138486312,
+      "eigenvector_centrality": 0.010360233555619346,
+      "harmonic_centrality": 11.250000000000002,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 18
+    },
+    {
+      "id": "MLP",
+      "label": "MLP",
+      "industry": "RlEst",
+      "degree_centrality": 0.48148148148148145,
+      "betweenness_centrality": 0.045520734409623294,
+      "closeness_centrality": 0.6419753086419753,
+      "eigenvector_centrality": 0.0263752106613659,
+      "harmonic_centrality": 12.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 37
+    },
+    {
+      "id": "MMAC",
+      "label": "MMAC",
+      "industry": "RlEst",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.10083435083435083,
+      "closeness_centrality": 0.5327029156816391,
+      "eigenvector_centrality": 0.002708679869242165,
+      "harmonic_centrality": 13.0,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 14
+    },
+    {
+      "id": "MMI",
+      "label": "MMI",
+      "industry": "RlEst",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.01210826210826211,
+      "closeness_centrality": 0.6259259259259259,
+      "eigenvector_centrality": 0.36315978520677356,
+      "harmonic_centrality": 10.583333333333336,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 241
+    },
+    {
+      "id": "MP",
+      "label": "MP",
+      "industry": "RlEst",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 5.606871305603605e-44,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "ONVO",
+      "label": "ONVO",
+      "industry": "RlEst",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.11483290372179263,
+      "closeness_centrality": 0.5961199294532628,
+      "eigenvector_centrality": 0.005077550434138051,
+      "harmonic_centrality": 15.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 37
+    },
+    {
+      "id": "RLGY",
+      "label": "RLGY",
+      "industry": "RlEst",
+      "degree_centrality": 0.7407407407407407,
+      "betweenness_centrality": 0.05773074661963551,
+      "closeness_centrality": 0.7824074074074073,
+      "eigenvector_centrality": 0.4084892649621095,
+      "harmonic_centrality": 15.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 286
+    },
+    {
+      "id": "STRS",
+      "label": "STRS",
+      "industry": "RlEst",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4636488340192043,
+      "eigenvector_centrality": 0.003566286671538223,
+      "harmonic_centrality": 8.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 7
+    },
+    {
+      "id": "TRC",
+      "label": "TRC",
+      "industry": "RlEst",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.03536720481164926,
+      "closeness_centrality": 0.5961199294532628,
+      "eigenvector_centrality": 0.13290371400255238,
+      "harmonic_centrality": 13.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 107
+    },
+    {
+      "id": "VAC",
+      "label": "VAC",
+      "industry": "RlEst",
+      "degree_centrality": 0.5185185185185185,
+      "betweenness_centrality": 0.08974358974358974,
+      "closeness_centrality": 0.6419753086419753,
+      "eigenvector_centrality": 0.026060054443130965,
+      "harmonic_centrality": 15.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 42
+    },
+    {
+      "id": "WD",
+      "label": "WD",
+      "industry": "RlEst",
+      "degree_centrality": 0.37037037037037035,
+      "betweenness_centrality": 0.05132049020937909,
+      "closeness_centrality": 0.5961199294532628,
+      "eigenvector_centrality": 0.02628818235660944,
+      "harmonic_centrality": 13.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 28
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALEX",
+      "target": "TRC",
+      "weight": 1
+    },
+    {
+      "source": "ALEX",
+      "target": "CAR",
+      "weight": 4
+    },
+    {
+      "source": "ALEX",
+      "target": "ONVO",
+      "weight": 1
+    },
+    {
+      "source": "ALEX",
+      "target": "BXG",
+      "weight": 2
+    },
+    {
+      "source": "ALEX",
+      "target": "JLL",
+      "weight": 2
+    },
+    {
+      "source": "ALEX",
+      "target": "CBRE",
+      "weight": 2
+    },
+    {
+      "source": "ALEX",
+      "target": "HHC",
+      "weight": 3
+    },
+    {
+      "source": "ALEX",
+      "target": "JOE",
+      "weight": 1
+    },
+    {
+      "source": "ALEX",
+      "target": "VAC",
+      "weight": 3
+    },
+    {
+      "source": "AMTX",
+      "target": "JOE",
+      "weight": 1
+    },
+    {
+      "source": "AMTX",
+      "target": "ONVO",
+      "weight": 20
+    },
+    {
+      "source": "AMTX",
+      "target": "RLGY",
+      "weight": 3
+    },
+    {
+      "source": "AMTX",
+      "target": "ARL",
+      "weight": 1
+    },
+    {
+      "source": "AMTX",
+      "target": "CBRE",
+      "weight": 2
+    },
+    {
+      "source": "AMTX",
+      "target": "CSGP",
+      "weight": 1
+    },
+    {
+      "source": "AMTX",
+      "target": "FVAC",
+      "weight": 6
+    },
+    {
+      "source": "AMTX",
+      "target": "AXR",
+      "weight": 3
+    },
+    {
+      "source": "AMTX",
+      "target": "FPH",
+      "weight": 1
+    },
+    {
+      "source": "AMTX",
+      "target": "WD",
+      "weight": 2
+    },
+    {
+      "source": "AMTX",
+      "target": "FOR",
+      "weight": 2
+    },
+    {
+      "source": "AMTX",
+      "target": "CAR",
+      "weight": 8
+    },
+    {
+      "source": "ARL",
+      "target": "CBRE",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "INTG",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "VAC",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "BXG",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "ONVO",
+      "weight": 1
+    },
+    {
+      "source": "ARL",
+      "target": "JLL",
+      "weight": 5
+    },
+    {
+      "source": "ARL",
+      "target": "CTO",
+      "weight": 45
+    },
+    {
+      "source": "ARL",
+      "target": "MMI",
+      "weight": 10
+    },
+    {
+      "source": "ARL",
+      "target": "FPH",
+      "weight": 4
+    },
+    {
+      "source": "ARL",
+      "target": "KW",
+      "weight": 15
+    },
+    {
+      "source": "ARL",
+      "target": "HHC",
+      "weight": 16
+    },
+    {
+      "source": "ARL",
+      "target": "FVAC",
+      "weight": 1
+    },
+    {
+      "source": "AXR",
+      "target": "RLGY",
+      "weight": 2
+    },
+    {
+      "source": "AXR",
+      "target": "WD",
+      "weight": 1
+    },
+    {
+      "source": "AXR",
+      "target": "FPH",
+      "weight": 1
+    },
+    {
+      "source": "AXR",
+      "target": "BXG",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "CSGP",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "VAC",
+      "weight": 14
+    },
+    {
+      "source": "BXG",
+      "target": "TRC",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "FOR",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "ONVO",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "FPH",
+      "weight": 3
+    },
+    {
+      "source": "BXG",
+      "target": "CAR",
+      "weight": 1
+    },
+    {
+      "source": "BXG",
+      "target": "CBRE",
+      "weight": 2
+    },
+    {
+      "source": "CAR",
+      "target": "CBRE",
+      "weight": 24
+    },
+    {
+      "source": "CAR",
+      "target": "HHC",
+      "weight": 3
+    },
+    {
+      "source": "CAR",
+      "target": "KW",
+      "weight": 5
+    },
+    {
+      "source": "CAR",
+      "target": "RLGY",
+      "weight": 14
+    },
+    {
+      "source": "CAR",
+      "target": "FPH",
+      "weight": 20
+    },
+    {
+      "source": "CAR",
+      "target": "FVAC",
+      "weight": 1
+    },
+    {
+      "source": "CAR",
+      "target": "VAC",
+      "weight": 1
+    },
+    {
+      "source": "CAR",
+      "target": "JLL",
+      "weight": 8
+    },
+    {
+      "source": "CAR",
+      "target": "MLP",
+      "weight": 2
+    },
+    {
+      "source": "CAR",
+      "target": "ONVO",
+      "weight": 3
+    },
+    {
+      "source": "CAR",
+      "target": "CSGP",
+      "weight": 2
+    },
+    {
+      "source": "CAR",
+      "target": "MAYS",
+      "weight": 7
+    },
+    {
+      "source": "CBRE",
+      "target": "RLGY",
+      "weight": 52
+    },
+    {
+      "source": "CBRE",
+      "target": "JOE",
+      "weight": 32
+    },
+    {
+      "source": "CBRE",
+      "target": "CSGP",
+      "weight": 46
+    },
+    {
+      "source": "CBRE",
+      "target": "WD",
+      "weight": 8
+    },
+    {
+      "source": "CBRE",
+      "target": "HHC",
+      "weight": 9
+    },
+    {
+      "source": "CBRE",
+      "target": "VAC",
+      "weight": 2
+    },
+    {
+      "source": "CBRE",
+      "target": "MMI",
+      "weight": 8
+    },
+    {
+      "source": "CBRE",
+      "target": "MLP",
+      "weight": 2
+    },
+    {
+      "source": "CBRE",
+      "target": "KW",
+      "weight": 2
+    },
+    {
+      "source": "CBRE",
+      "target": "JLL",
+      "weight": 51
+    },
+    {
+      "source": "CBRE",
+      "target": "FOR",
+      "weight": 2
+    },
+    {
+      "source": "CSGP",
+      "target": "FPH",
+      "weight": 3
+    },
+    {
+      "source": "CSGP",
+      "target": "VAC",
+      "weight": 3
+    },
+    {
+      "source": "CSGP",
+      "target": "WD",
+      "weight": 5
+    },
+    {
+      "source": "CSGP",
+      "target": "JOE",
+      "weight": 16
+    },
+    {
+      "source": "CSGP",
+      "target": "KW",
+      "weight": 2
+    },
+    {
+      "source": "CSGP",
+      "target": "FOR",
+      "weight": 2
+    },
+    {
+      "source": "CSGP",
+      "target": "JLL",
+      "weight": 3
+    },
+    {
+      "source": "CSGP",
+      "target": "HHC",
+      "weight": 2
+    },
+    {
+      "source": "CSGP",
+      "target": "MLP",
+      "weight": 3
+    },
+    {
+      "source": "CSGP",
+      "target": "MMI",
+      "weight": 3
+    },
+    {
+      "source": "CSGP",
+      "target": "CTO",
+      "weight": 8
+    },
+    {
+      "source": "CSGP",
+      "target": "RLGY",
+      "weight": 8
+    },
+    {
+      "source": "CTO",
+      "target": "FPH",
+      "weight": 2
+    },
+    {
+      "source": "CTO",
+      "target": "FOR",
+      "weight": 1
+    },
+    {
+      "source": "CTO",
+      "target": "JOE",
+      "weight": 1
+    },
+    {
+      "source": "CTO",
+      "target": "HHC",
+      "weight": 29
+    },
+    {
+      "source": "CTO",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "FOR",
+      "target": "HHC",
+      "weight": 17
+    },
+    {
+      "source": "FOR",
+      "target": "TRC",
+      "weight": 40
+    },
+    {
+      "source": "FOR",
+      "target": "JOE",
+      "weight": 98
+    },
+    {
+      "source": "FOR",
+      "target": "MLP",
+      "weight": 3
+    },
+    {
+      "source": "FOR",
+      "target": "FPH",
+      "weight": 4
+    },
+    {
+      "source": "FOR",
+      "target": "MAYS",
+      "weight": 1
+    },
+    {
+      "source": "FOR",
+      "target": "STRS",
+      "weight": 3
+    },
+    {
+      "source": "FOR",
+      "target": "INTG",
+      "weight": 1
+    },
+    {
+      "source": "FOR",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "FPH",
+      "target": "MLP",
+      "weight": 5
+    },
+    {
+      "source": "FPH",
+      "target": "WD",
+      "weight": 2
+    },
+    {
+      "source": "FPH",
+      "target": "ONVO",
+      "weight": 1
+    },
+    {
+      "source": "FPH",
+      "target": "RLGY",
+      "weight": 9
+    },
+    {
+      "source": "FPH",
+      "target": "HHC",
+      "weight": 5
+    },
+    {
+      "source": "FPH",
+      "target": "STRS",
+      "weight": 3
+    },
+    {
+      "source": "FPH",
+      "target": "JOE",
+      "weight": 2
+    },
+    {
+      "source": "FPH",
+      "target": "TRC",
+      "weight": 4
+    },
+    {
+      "source": "FVAC",
+      "target": "JOE",
+      "weight": 4
+    },
+    {
+      "source": "FVAC",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "FVAC",
+      "target": "INTG",
+      "weight": 3
+    },
+    {
+      "source": "FVAC",
+      "target": "ONVO",
+      "weight": 6
+    },
+    {
+      "source": "FVAC",
+      "target": "VAC",
+      "weight": 2
+    },
+    {
+      "source": "HHC",
+      "target": "RLGY",
+      "weight": 4
+    },
+    {
+      "source": "HHC",
+      "target": "MMI",
+      "weight": 6
+    },
+    {
+      "source": "HHC",
+      "target": "JLL",
+      "weight": 9
+    },
+    {
+      "source": "HHC",
+      "target": "TRC",
+      "weight": 18
+    },
+    {
+      "source": "HHC",
+      "target": "KW",
+      "weight": 1
+    },
+    {
+      "source": "HHC",
+      "target": "MLP",
+      "weight": 2
+    },
+    {
+      "source": "HHC",
+      "target": "INTG",
+      "weight": 1
+    },
+    {
+      "source": "HHC",
+      "target": "JOE",
+      "weight": 7
+    },
+    {
+      "source": "HHC",
+      "target": "VAC",
+      "weight": 3
+    },
+    {
+      "source": "INTG",
+      "target": "MAYS",
+      "weight": 2
+    },
+    {
+      "source": "INTG",
+      "target": "JLL",
+      "weight": 1
+    },
+    {
+      "source": "INTG",
+      "target": "MMAC",
+      "weight": 1
+    },
+    {
+      "source": "JLL",
+      "target": "JOE",
+      "weight": 61
+    },
+    {
+      "source": "JLL",
+      "target": "KW",
+      "weight": 63
+    },
+    {
+      "source": "JLL",
+      "target": "WD",
+      "weight": 1
+    },
+    {
+      "source": "JLL",
+      "target": "MLP",
+      "weight": 2
+    },
+    {
+      "source": "JLL",
+      "target": "MMI",
+      "weight": 69
+    },
+    {
+      "source": "JLL",
+      "target": "MAYS",
+      "weight": 3
+    },
+    {
+      "source": "JLL",
+      "target": "RLGY",
+      "weight": 39
+    },
+    {
+      "source": "JLL",
+      "target": "VAC",
+      "weight": 6
+    },
+    {
+      "source": "JOE",
+      "target": "KW",
+      "weight": 17
+    },
+    {
+      "source": "JOE",
+      "target": "RLGY",
+      "weight": 78
+    },
+    {
+      "source": "JOE",
+      "target": "TRC",
+      "weight": 37
+    },
+    {
+      "source": "JOE",
+      "target": "MMI",
+      "weight": 33
+    },
+    {
+      "source": "JOE",
+      "target": "WD",
+      "weight": 1
+    },
+    {
+      "source": "JOE",
+      "target": "MLP",
+      "weight": 1
+    },
+    {
+      "source": "KW",
+      "target": "VAC",
+      "weight": 1
+    },
+    {
+      "source": "KW",
+      "target": "MAYS",
+      "weight": 1
+    },
+    {
+      "source": "KW",
+      "target": "MMI",
+      "weight": 47
+    },
+    {
+      "source": "MAYS",
+      "target": "MLP",
+      "weight": 2
+    },
+    {
+      "source": "MAYS",
+      "target": "ONVO",
+      "weight": 2
+    },
+    {
+      "source": "MLP",
+      "target": "RLGY",
+      "weight": 5
+    },
+    {
+      "source": "MLP",
+      "target": "MMI",
+      "weight": 1
+    },
+    {
+      "source": "MLP",
+      "target": "MMAC",
+      "weight": 8
+    },
+    {
+      "source": "MLP",
+      "target": "TRC",
+      "weight": 1
+    },
+    {
+      "source": "MMAC",
+      "target": "WD",
+      "weight": 2
+    },
+    {
+      "source": "MMAC",
+      "target": "MMI",
+      "weight": 1
+    },
+    {
+      "source": "MMAC",
+      "target": "STRS",
+      "weight": 1
+    },
+    {
+      "source": "MMAC",
+      "target": "ONVO",
+      "weight": 1
+    },
+    {
+      "source": "MMI",
+      "target": "VAC",
+      "weight": 3
+    },
+    {
+      "source": "MMI",
+      "target": "RLGY",
+      "weight": 58
+    },
+    {
+      "source": "MMI",
+      "target": "TRC",
+      "weight": 2
+    },
+    {
+      "source": "ONVO",
+      "target": "RLGY",
+      "weight": 1
+    },
+    {
+      "source": "RLGY",
+      "target": "TRC",
+      "weight": 2
+    },
+    {
+      "source": "RLGY",
+      "target": "VAC",
+      "weight": 1
+    },
+    {
+      "source": "RLGY",
+      "target": "WD",
+      "weight": 5
+    },
+    {
+      "source": "TRC",
+      "target": "VAC",
+      "weight": 1
+    },
+    {
+      "source": "VAC",
+      "target": "WD",
+      "weight": 1
+    }
+  ]
+}

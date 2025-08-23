@@ -1,0 +1,1087 @@
+{
+  "nodes": [
+    {
+      "id": "CROX",
+      "label": "CROX",
+      "industry": "Clths",
+      "degree_centrality": 0.8095238095238095,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8281573498964803,
+      "eigenvector_centrality": 0.29916075635544626,
+      "harmonic_centrality": 5.766666666666667,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 1268
+    },
+    {
+      "id": "CTAS",
+      "label": "CTAS",
+      "industry": "Clths",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.00746031746031746,
+      "closeness_centrality": 0.6802721088435374,
+      "eigenvector_centrality": 0.13322933969164683,
+      "harmonic_centrality": 8.616666666666667,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 362
+    },
+    {
+      "id": "CURV",
+      "label": "CURV",
+      "industry": "Clths",
+      "degree_centrality": 0.5238095238095237,
+      "betweenness_centrality": 0.04090702947845804,
+      "closeness_centrality": 0.6568144499178982,
+      "eigenvector_centrality": 0.007968544576455464,
+      "harmonic_centrality": 8.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 38
+    },
+    {
+      "id": "DECK",
+      "label": "DECK",
+      "industry": "Clths",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.002380952380952381,
+      "closeness_centrality": 0.8658008658008657,
+      "eigenvector_centrality": 0.2411154400080048,
+      "harmonic_centrality": 7.616666666666666,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 1109
+    },
+    {
+      "id": "DLA",
+      "label": "DLA",
+      "industry": "Clths",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.04293650793650793,
+      "closeness_centrality": 0.6802721088435374,
+      "eigenvector_centrality": 0.0139510334888901,
+      "harmonic_centrality": 10.783333333333335,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 100
+    },
+    {
+      "id": "EVK",
+      "label": "EVK",
+      "industry": "Clths",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.08719954648526079,
+      "closeness_centrality": 0.7326007326007326,
+      "eigenvector_centrality": 0.010865890760390169,
+      "harmonic_centrality": 11.116666666666667,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 69
+    },
+    {
+      "id": "GIII",
+      "label": "GIII",
+      "industry": "Clths",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.03444444444444445,
+      "closeness_centrality": 0.7326007326007326,
+      "eigenvector_centrality": 0.01171909174199498,
+      "harmonic_centrality": 8.533333333333333,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 73
+    },
+    {
+      "id": "ICON",
+      "label": "ICON",
+      "industry": "Clths",
+      "degree_centrality": 0.7619047619047619,
+      "betweenness_centrality": 0.07509070294784581,
+      "closeness_centrality": 0.7936507936507936,
+      "eigenvector_centrality": 0.00812803836125559,
+      "harmonic_centrality": 11.616666666666667,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 72
+    },
+    {
+      "id": "LEVI",
+      "label": "LEVI",
+      "industry": "Clths",
+      "degree_centrality": 0.7619047619047619,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7936507936507936,
+      "eigenvector_centrality": 0.10436375950570886,
+      "harmonic_centrality": 7.033333333333334,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 458
+    },
+    {
+      "id": "NKE",
+      "label": "NKE",
+      "industry": "Clths",
+      "degree_centrality": 0.9047619047619047,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9070294784580498,
+      "eigenvector_centrality": 0.5997827223798067,
+      "harmonic_centrality": 4.266666666666668,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 2811
+    },
+    {
+      "id": "POWW",
+      "label": "POWW",
+      "industry": "Clths",
+      "degree_centrality": 0.6190476190476191,
+      "betweenness_centrality": 0.03429705215419502,
+      "closeness_centrality": 0.7054673721340388,
+      "eigenvector_centrality": 0.014710268135825169,
+      "harmonic_centrality": 9.616666666666665,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 66
+    },
+    {
+      "id": "PVH",
+      "label": "PVH",
+      "industry": "Clths",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.0015873015873015873,
+      "closeness_centrality": 0.8658008658008657,
+      "eigenvector_centrality": 0.15308582869915274,
+      "harmonic_centrality": 8.983333333333334,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 780
+    },
+    {
+      "id": "RCKY",
+      "label": "RCKY",
+      "industry": "Clths",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.1714625850340136,
+      "closeness_centrality": 0.8658008658008657,
+      "eigenvector_centrality": 0.010454624113800704,
+      "harmonic_centrality": 12.5,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 75
+    },
+    {
+      "id": "RL",
+      "label": "RL",
+      "industry": "Clths",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.009523809523809523,
+      "closeness_centrality": 0.8658008658008657,
+      "eigenvector_centrality": 0.16645504423377147,
+      "harmonic_centrality": 9.283333333333331,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 782
+    },
+    {
+      "id": "SGC",
+      "label": "SGC",
+      "industry": "Clths",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.03513605442176871,
+      "closeness_centrality": 0.5772005772005772,
+      "eigenvector_centrality": 0.0010019658069463841,
+      "harmonic_centrality": 9.616666666666667,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 18
+    },
+    {
+      "id": "SHOO",
+      "label": "SHOO",
+      "industry": "Clths",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.15917233560090704,
+      "closeness_centrality": 0.8658008658008657,
+      "eigenvector_centrality": 0.07215201203666768,
+      "harmonic_centrality": 11.583333333333334,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 307
+    },
+    {
+      "id": "SKX",
+      "label": "SKX",
+      "industry": "Clths",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7619047619047619,
+      "eigenvector_centrality": 0.2980556780648675,
+      "harmonic_centrality": 7.249999999999997,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 1214
+    },
+    {
+      "id": "UA",
+      "label": "UA",
+      "industry": "Clths",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.341806043230221e-96,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "UAA",
+      "label": "UAA",
+      "industry": "Clths",
+      "degree_centrality": 0.9523809523809523,
+      "betweenness_centrality": 0.014172335600907028,
+      "closeness_centrality": 0.9523809523809523,
+      "eigenvector_centrality": 0.5323658125269117,
+      "harmonic_centrality": 10.116666666666667,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 2020
+    },
+    {
+      "id": "VFC",
+      "label": "VFC",
+      "industry": "Clths",
+      "degree_centrality": 0.8095238095238095,
+      "betweenness_centrality": 0.029217687074829933,
+      "closeness_centrality": 0.8281573498964803,
+      "eigenvector_centrality": 0.18225345489669972,
+      "harmonic_centrality": 9.95,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 867
+    },
+    {
+      "id": "WEYS",
+      "label": "WEYS",
+      "industry": "Clths",
+      "degree_centrality": 0.5238095238095237,
+      "betweenness_centrality": 0.20354875283446716,
+      "closeness_centrality": 0.6568144499178982,
+      "eigenvector_centrality": 0.0031334432286476846,
+      "harmonic_centrality": 10.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 20
+    },
+    {
+      "id": "WWW",
+      "label": "WWW",
+      "industry": "Clths",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.030011337868480727,
+      "closeness_centrality": 0.7326007326007326,
+      "eigenvector_centrality": 0.03540587376814255,
+      "harmonic_centrality": 9.750000000000002,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 187
+    }
+  ],
+  "edges": [
+    {
+      "source": "CROX",
+      "target": "CURV",
+      "weight": 2
+    },
+    {
+      "source": "CROX",
+      "target": "PVH",
+      "weight": 24
+    },
+    {
+      "source": "CROX",
+      "target": "RCKY",
+      "weight": 20
+    },
+    {
+      "source": "CROX",
+      "target": "UAA",
+      "weight": 166
+    },
+    {
+      "source": "CROX",
+      "target": "SKX",
+      "weight": 239
+    },
+    {
+      "source": "CROX",
+      "target": "SHOO",
+      "weight": 51
+    },
+    {
+      "source": "CROX",
+      "target": "DECK",
+      "weight": 237
+    },
+    {
+      "source": "CROX",
+      "target": "CTAS",
+      "weight": 4
+    },
+    {
+      "source": "CROX",
+      "target": "NKE",
+      "weight": 330
+    },
+    {
+      "source": "CROX",
+      "target": "ICON",
+      "weight": 5
+    },
+    {
+      "source": "CROX",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "CROX",
+      "target": "RL",
+      "weight": 50
+    },
+    {
+      "source": "CROX",
+      "target": "GIII",
+      "weight": 6
+    },
+    {
+      "source": "CROX",
+      "target": "WWW",
+      "weight": 26
+    },
+    {
+      "source": "CROX",
+      "target": "VFC",
+      "weight": 27
+    },
+    {
+      "source": "CROX",
+      "target": "LEVI",
+      "weight": 70
+    },
+    {
+      "source": "CROX",
+      "target": "POWW",
+      "weight": 9
+    },
+    {
+      "source": "CTAS",
+      "target": "PVH",
+      "weight": 5
+    },
+    {
+      "source": "CTAS",
+      "target": "POWW",
+      "weight": 1
+    },
+    {
+      "source": "CTAS",
+      "target": "RL",
+      "weight": 2
+    },
+    {
+      "source": "CTAS",
+      "target": "VFC",
+      "weight": 9
+    },
+    {
+      "source": "CTAS",
+      "target": "DECK",
+      "weight": 13
+    },
+    {
+      "source": "CTAS",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "CTAS",
+      "target": "UAA",
+      "weight": 8
+    },
+    {
+      "source": "CTAS",
+      "target": "NKE",
+      "weight": 311
+    },
+    {
+      "source": "CTAS",
+      "target": "DLA",
+      "weight": 1
+    },
+    {
+      "source": "CTAS",
+      "target": "GIII",
+      "weight": 4
+    },
+    {
+      "source": "CTAS",
+      "target": "CURV",
+      "weight": 2
+    },
+    {
+      "source": "CURV",
+      "target": "DECK",
+      "weight": 2
+    },
+    {
+      "source": "CURV",
+      "target": "LEVI",
+      "weight": 8
+    },
+    {
+      "source": "CURV",
+      "target": "NKE",
+      "weight": 8
+    },
+    {
+      "source": "CURV",
+      "target": "POWW",
+      "weight": 1
+    },
+    {
+      "source": "CURV",
+      "target": "PVH",
+      "weight": 3
+    },
+    {
+      "source": "CURV",
+      "target": "RL",
+      "weight": 2
+    },
+    {
+      "source": "CURV",
+      "target": "SHOO",
+      "weight": 2
+    },
+    {
+      "source": "CURV",
+      "target": "UAA",
+      "weight": 7
+    },
+    {
+      "source": "CURV",
+      "target": "VFC",
+      "weight": 1
+    },
+    {
+      "source": "DECK",
+      "target": "UAA",
+      "weight": 59
+    },
+    {
+      "source": "DECK",
+      "target": "WWW",
+      "weight": 37
+    },
+    {
+      "source": "DECK",
+      "target": "SKX",
+      "weight": 228
+    },
+    {
+      "source": "DECK",
+      "target": "GIII",
+      "weight": 4
+    },
+    {
+      "source": "DECK",
+      "target": "PVH",
+      "weight": 37
+    },
+    {
+      "source": "DECK",
+      "target": "SHOO",
+      "weight": 21
+    },
+    {
+      "source": "DECK",
+      "target": "RCKY",
+      "weight": 9
+    },
+    {
+      "source": "DECK",
+      "target": "NKE",
+      "weight": 232
+    },
+    {
+      "source": "DECK",
+      "target": "VFC",
+      "weight": 148
+    },
+    {
+      "source": "DECK",
+      "target": "POWW",
+      "weight": 6
+    },
+    {
+      "source": "DECK",
+      "target": "ICON",
+      "weight": 2
+    },
+    {
+      "source": "DECK",
+      "target": "SGC",
+      "weight": 1
+    },
+    {
+      "source": "DECK",
+      "target": "LEVI",
+      "weight": 7
+    },
+    {
+      "source": "DECK",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "DECK",
+      "target": "RL",
+      "weight": 64
+    },
+    {
+      "source": "DLA",
+      "target": "PVH",
+      "weight": 25
+    },
+    {
+      "source": "DLA",
+      "target": "SHOO",
+      "weight": 1
+    },
+    {
+      "source": "DLA",
+      "target": "NKE",
+      "weight": 12
+    },
+    {
+      "source": "DLA",
+      "target": "RL",
+      "weight": 5
+    },
+    {
+      "source": "DLA",
+      "target": "EVK",
+      "weight": 6
+    },
+    {
+      "source": "DLA",
+      "target": "RCKY",
+      "weight": 1
+    },
+    {
+      "source": "DLA",
+      "target": "SGC",
+      "weight": 2
+    },
+    {
+      "source": "DLA",
+      "target": "GIII",
+      "weight": 5
+    },
+    {
+      "source": "DLA",
+      "target": "UAA",
+      "weight": 3
+    },
+    {
+      "source": "DLA",
+      "target": "ICON",
+      "weight": 1
+    },
+    {
+      "source": "DLA",
+      "target": "VFC",
+      "weight": 38
+    },
+    {
+      "source": "EVK",
+      "target": "GIII",
+      "weight": 5
+    },
+    {
+      "source": "EVK",
+      "target": "SGC",
+      "weight": 1
+    },
+    {
+      "source": "EVK",
+      "target": "RCKY",
+      "weight": 2
+    },
+    {
+      "source": "EVK",
+      "target": "WWW",
+      "weight": 2
+    },
+    {
+      "source": "EVK",
+      "target": "POWW",
+      "weight": 2
+    },
+    {
+      "source": "EVK",
+      "target": "RL",
+      "weight": 2
+    },
+    {
+      "source": "EVK",
+      "target": "ICON",
+      "weight": 18
+    },
+    {
+      "source": "EVK",
+      "target": "UAA",
+      "weight": 12
+    },
+    {
+      "source": "EVK",
+      "target": "SHOO",
+      "weight": 1
+    },
+    {
+      "source": "EVK",
+      "target": "NKE",
+      "weight": 14
+    },
+    {
+      "source": "EVK",
+      "target": "LEVI",
+      "weight": 2
+    },
+    {
+      "source": "EVK",
+      "target": "VFC",
+      "weight": 1
+    },
+    {
+      "source": "EVK",
+      "target": "PVH",
+      "weight": 1
+    },
+    {
+      "source": "GIII",
+      "target": "RL",
+      "weight": 7
+    },
+    {
+      "source": "GIII",
+      "target": "NKE",
+      "weight": 6
+    },
+    {
+      "source": "GIII",
+      "target": "RCKY",
+      "weight": 2
+    },
+    {
+      "source": "GIII",
+      "target": "LEVI",
+      "weight": 1
+    },
+    {
+      "source": "GIII",
+      "target": "SHOO",
+      "weight": 1
+    },
+    {
+      "source": "GIII",
+      "target": "SKX",
+      "weight": 7
+    },
+    {
+      "source": "GIII",
+      "target": "UAA",
+      "weight": 8
+    },
+    {
+      "source": "GIII",
+      "target": "VFC",
+      "weight": 3
+    },
+    {
+      "source": "GIII",
+      "target": "PVH",
+      "weight": 14
+    },
+    {
+      "source": "ICON",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "ICON",
+      "target": "POWW",
+      "weight": 2
+    },
+    {
+      "source": "ICON",
+      "target": "UAA",
+      "weight": 1
+    },
+    {
+      "source": "ICON",
+      "target": "PVH",
+      "weight": 14
+    },
+    {
+      "source": "ICON",
+      "target": "SHOO",
+      "weight": 1
+    },
+    {
+      "source": "ICON",
+      "target": "RCKY",
+      "weight": 1
+    },
+    {
+      "source": "ICON",
+      "target": "SKX",
+      "weight": 4
+    },
+    {
+      "source": "ICON",
+      "target": "NKE",
+      "weight": 6
+    },
+    {
+      "source": "ICON",
+      "target": "RL",
+      "weight": 8
+    },
+    {
+      "source": "ICON",
+      "target": "WWW",
+      "weight": 1
+    },
+    {
+      "source": "ICON",
+      "target": "VFC",
+      "weight": 4
+    },
+    {
+      "source": "ICON",
+      "target": "LEVI",
+      "weight": 2
+    },
+    {
+      "source": "LEVI",
+      "target": "NKE",
+      "weight": 108
+    },
+    {
+      "source": "LEVI",
+      "target": "WWW",
+      "weight": 13
+    },
+    {
+      "source": "LEVI",
+      "target": "POWW",
+      "weight": 10
+    },
+    {
+      "source": "LEVI",
+      "target": "VFC",
+      "weight": 32
+    },
+    {
+      "source": "LEVI",
+      "target": "RCKY",
+      "weight": 3
+    },
+    {
+      "source": "LEVI",
+      "target": "SHOO",
+      "weight": 7
+    },
+    {
+      "source": "LEVI",
+      "target": "PVH",
+      "weight": 38
+    },
+    {
+      "source": "LEVI",
+      "target": "SKX",
+      "weight": 34
+    },
+    {
+      "source": "LEVI",
+      "target": "RL",
+      "weight": 57
+    },
+    {
+      "source": "LEVI",
+      "target": "UAA",
+      "weight": 66
+    },
+    {
+      "source": "NKE",
+      "target": "PVH",
+      "weight": 114
+    },
+    {
+      "source": "NKE",
+      "target": "SHOO",
+      "weight": 68
+    },
+    {
+      "source": "NKE",
+      "target": "POWW",
+      "weight": 14
+    },
+    {
+      "source": "NKE",
+      "target": "RCKY",
+      "weight": 4
+    },
+    {
+      "source": "NKE",
+      "target": "UAA",
+      "weight": 970
+    },
+    {
+      "source": "NKE",
+      "target": "WWW",
+      "weight": 20
+    },
+    {
+      "source": "NKE",
+      "target": "VFC",
+      "weight": 173
+    },
+    {
+      "source": "NKE",
+      "target": "RL",
+      "weight": 95
+    },
+    {
+      "source": "NKE",
+      "target": "SKX",
+      "weight": 323
+    },
+    {
+      "source": "NKE",
+      "target": "WEYS",
+      "weight": 3
+    },
+    {
+      "source": "POWW",
+      "target": "SKX",
+      "weight": 3
+    },
+    {
+      "source": "POWW",
+      "target": "RL",
+      "weight": 3
+    },
+    {
+      "source": "POWW",
+      "target": "RCKY",
+      "weight": 1
+    },
+    {
+      "source": "POWW",
+      "target": "UAA",
+      "weight": 12
+    },
+    {
+      "source": "POWW",
+      "target": "PVH",
+      "weight": 2
+    },
+    {
+      "source": "PVH",
+      "target": "UAA",
+      "weight": 131
+    },
+    {
+      "source": "PVH",
+      "target": "RCKY",
+      "weight": 1
+    },
+    {
+      "source": "PVH",
+      "target": "WWW",
+      "weight": 5
+    },
+    {
+      "source": "PVH",
+      "target": "VFC",
+      "weight": 165
+    },
+    {
+      "source": "PVH",
+      "target": "SHOO",
+      "weight": 7
+    },
+    {
+      "source": "PVH",
+      "target": "RL",
+      "weight": 157
+    },
+    {
+      "source": "PVH",
+      "target": "SKX",
+      "weight": 37
+    },
+    {
+      "source": "RCKY",
+      "target": "WWW",
+      "weight": 6
+    },
+    {
+      "source": "RCKY",
+      "target": "RL",
+      "weight": 1
+    },
+    {
+      "source": "RCKY",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "RCKY",
+      "target": "SKX",
+      "weight": 9
+    },
+    {
+      "source": "RCKY",
+      "target": "VFC",
+      "weight": 1
+    },
+    {
+      "source": "RCKY",
+      "target": "SGC",
+      "weight": 2
+    },
+    {
+      "source": "RCKY",
+      "target": "SHOO",
+      "weight": 9
+    },
+    {
+      "source": "RCKY",
+      "target": "UAA",
+      "weight": 1
+    },
+    {
+      "source": "RL",
+      "target": "SHOO",
+      "weight": 7
+    },
+    {
+      "source": "RL",
+      "target": "SKX",
+      "weight": 15
+    },
+    {
+      "source": "RL",
+      "target": "UAA",
+      "weight": 196
+    },
+    {
+      "source": "RL",
+      "target": "WWW",
+      "weight": 1
+    },
+    {
+      "source": "RL",
+      "target": "VFC",
+      "weight": 110
+    },
+    {
+      "source": "SGC",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "SGC",
+      "target": "UAA",
+      "weight": 1
+    },
+    {
+      "source": "SGC",
+      "target": "SHOO",
+      "weight": 9
+    },
+    {
+      "source": "SHOO",
+      "target": "UAA",
+      "weight": 47
+    },
+    {
+      "source": "SHOO",
+      "target": "VFC",
+      "weight": 6
+    },
+    {
+      "source": "SHOO",
+      "target": "SKX",
+      "weight": 55
+    },
+    {
+      "source": "SHOO",
+      "target": "WWW",
+      "weight": 13
+    },
+    {
+      "source": "SHOO",
+      "target": "WEYS",
+      "weight": 1
+    },
+    {
+      "source": "SKX",
+      "target": "WWW",
+      "weight": 50
+    },
+    {
+      "source": "SKX",
+      "target": "WEYS",
+      "weight": 1
+    },
+    {
+      "source": "SKX",
+      "target": "VFC",
+      "weight": 18
+    },
+    {
+      "source": "SKX",
+      "target": "UAA",
+      "weight": 191
+    },
+    {
+      "source": "UAA",
+      "target": "VFC",
+      "weight": 129
+    },
+    {
+      "source": "UAA",
+      "target": "WWW",
+      "weight": 10
+    },
+    {
+      "source": "UAA",
+      "target": "WEYS",
+      "weight": 2
+    },
+    {
+      "source": "VFC",
+      "target": "WWW",
+      "weight": 2
+    },
+    {
+      "source": "WEYS",
+      "target": "WWW",
+      "weight": 1
+    }
+  ]
+}

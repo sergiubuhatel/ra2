@@ -1,0 +1,689 @@
+{
+  "nodes": [
+    {
+      "id": "AHC",
+      "label": "AHC",
+      "industry": "Books",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.13026315789473683,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.15093051793399478,
+      "harmonic_centrality": 10.116666666666665,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 165
+    },
+    {
+      "id": "AUTO",
+      "label": "AUTO",
+      "industry": "Books",
+      "degree_centrality": 0.35000000000000003,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.582258064516129,
+      "eigenvector_centrality": 0.021014431873892563,
+      "harmonic_centrality": 7.5666666666666655,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 46
+    },
+    {
+      "id": "DJCO",
+      "label": "DJCO",
+      "industry": "Books",
+      "degree_centrality": 0.45,
+      "betweenness_centrality": 0.11403508771929823,
+      "closeness_centrality": 0.6224137931034482,
+      "eigenvector_centrality": 0.048790881744717844,
+      "harmonic_centrality": 9.083333333333334,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 48
+    },
+    {
+      "id": "DLX",
+      "label": "DLX",
+      "industry": "Books",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.043333333333333335,
+      "closeness_centrality": 0.5308823529411765,
+      "eigenvector_centrality": 0.0038179895013504867,
+      "harmonic_centrality": 8.083333333333332,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 10
+    },
+    {
+      "id": "FSR",
+      "label": "FSR",
+      "industry": "Books",
+      "degree_centrality": 0.7000000000000001,
+      "betweenness_centrality": 0.12298245614035086,
+      "closeness_centrality": 0.7520833333333332,
+      "eigenvector_centrality": 0.08658765857116509,
+      "harmonic_centrality": 10.199999999999998,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 219
+    },
+    {
+      "id": "GCI",
+      "label": "GCI",
+      "industry": "Books",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6942307692307692,
+      "eigenvector_centrality": 0.5155175719651495,
+      "harmonic_centrality": 4.976190476190477,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 463
+    },
+    {
+      "id": "INWK",
+      "label": "INWK",
+      "industry": "Books",
+      "degree_centrality": 0.30000000000000004,
+      "betweenness_centrality": 0.046403508771929815,
+      "closeness_centrality": 0.546969696969697,
+      "eigenvector_centrality": 0.008883899107358945,
+      "harmonic_centrality": 8.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 24
+    },
+    {
+      "id": "JIH",
+      "label": "JIH",
+      "industry": "Books",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.03728070175438596,
+      "closeness_centrality": 0.5157142857142857,
+      "eigenvector_centrality": 0.005479043889183837,
+      "harmonic_centrality": 9.866666666666665,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 20
+    },
+    {
+      "id": "JW",
+      "label": "JW",
+      "industry": "Books",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.21508771929824558,
+      "closeness_centrality": 0.6224137931034482,
+      "eigenvector_centrality": 0.005653087919527231,
+      "harmonic_centrality": 11.500000000000002,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 22
+    },
+    {
+      "id": "LEE",
+      "label": "LEE",
+      "industry": "Books",
+      "degree_centrality": 0.7000000000000001,
+      "betweenness_centrality": 0.15280701754385964,
+      "closeness_centrality": 0.7520833333333332,
+      "eigenvector_centrality": 0.25131155119900306,
+      "harmonic_centrality": 10.366666666666667,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 259
+    },
+    {
+      "id": "LOAN",
+      "label": "LOAN",
+      "industry": "Books",
+      "degree_centrality": 0.15000000000000002,
+      "betweenness_centrality": 0.04649122807017544,
+      "closeness_centrality": 0.475,
+      "eigenvector_centrality": 0.002298442072711898,
+      "harmonic_centrality": 9.0,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "MDP",
+      "label": "MDP",
+      "industry": "Books",
+      "degree_centrality": 0.45,
+      "betweenness_centrality": 0.010526315789473684,
+      "closeness_centrality": 0.6016666666666666,
+      "eigenvector_centrality": 0.03070560065315667,
+      "harmonic_centrality": 7.1761904761904765,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 48
+    },
+    {
+      "id": "MNI",
+      "label": "MNI",
+      "industry": "Books",
+      "degree_centrality": 0.35000000000000003,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.582258064516129,
+      "eigenvector_centrality": 0.4895057429614123,
+      "harmonic_centrality": 4.135714285714286,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 387
+    },
+    {
+      "id": "NYT",
+      "label": "NYT",
+      "industry": "Books",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.011842105263157892,
+      "closeness_centrality": 0.6942307692307692,
+      "eigenvector_centrality": 0.3887430721927081,
+      "harmonic_centrality": 8.316666666666666,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 394
+    },
+    {
+      "id": "SCHL",
+      "label": "SCHL",
+      "industry": "Books",
+      "degree_centrality": 0.35000000000000003,
+      "betweenness_centrality": 0.07517543859649121,
+      "closeness_centrality": 0.546969696969697,
+      "eigenvector_centrality": 0.001873589861106746,
+      "harmonic_centrality": 9.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 14
+    },
+    {
+      "id": "SPAQ",
+      "label": "SPAQ",
+      "industry": "Books",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.3539107209011026e-31,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SSP",
+      "label": "SSP",
+      "industry": "Books",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.09473684210526316,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.07695206759945447,
+      "harmonic_centrality": 7.0666666666666655,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 165
+    },
+    {
+      "id": "TPCO",
+      "label": "TPCO",
+      "industry": "Books",
+      "degree_centrality": 0.55,
+      "betweenness_centrality": 0.16114035087719297,
+      "closeness_centrality": 0.6685185185185185,
+      "eigenvector_centrality": 0.49009837703863973,
+      "harmonic_centrality": 11.166666666666666,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 370
+    },
+    {
+      "id": "TZOO",
+      "label": "TZOO",
+      "industry": "Books",
+      "degree_centrality": 0.30000000000000004,
+      "betweenness_centrality": 0.007368421052631578,
+      "closeness_centrality": 0.5308823529411765,
+      "eigenvector_centrality": 0.00250681411905329,
+      "harmonic_centrality": 8.233333333333333,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 13
+    },
+    {
+      "id": "VALU",
+      "label": "VALU",
+      "industry": "Books",
+      "degree_centrality": 0.05,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4011111111111111,
+      "eigenvector_centrality": 0.00043857604056406235,
+      "harmonic_centrality": 6.783333333333332,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "WETF",
+      "label": "WETF",
+      "industry": "Books",
+      "degree_centrality": 0.2,
+      "betweenness_centrality": 0.12236842105263157,
+      "closeness_centrality": 0.5157142857142857,
+      "eigenvector_centrality": 0.003983320442797636,
+      "harmonic_centrality": 9.7,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 5
+    }
+  ],
+  "edges": [
+    {
+      "source": "AHC",
+      "target": "DJCO",
+      "weight": 6
+    },
+    {
+      "source": "AHC",
+      "target": "LEE",
+      "weight": 56
+    },
+    {
+      "source": "AHC",
+      "target": "TPCO",
+      "weight": 1
+    },
+    {
+      "source": "AHC",
+      "target": "NYT",
+      "weight": 61
+    },
+    {
+      "source": "AHC",
+      "target": "VALU",
+      "weight": 1
+    },
+    {
+      "source": "AHC",
+      "target": "SSP",
+      "weight": 11
+    },
+    {
+      "source": "AHC",
+      "target": "FSR",
+      "weight": 1
+    },
+    {
+      "source": "AHC",
+      "target": "GCI",
+      "weight": 6
+    },
+    {
+      "source": "AHC",
+      "target": "MNI",
+      "weight": 19
+    },
+    {
+      "source": "AHC",
+      "target": "AUTO",
+      "weight": 2
+    },
+    {
+      "source": "AHC",
+      "target": "LOAN",
+      "weight": 1
+    },
+    {
+      "source": "AUTO",
+      "target": "JW",
+      "weight": 1
+    },
+    {
+      "source": "AUTO",
+      "target": "TZOO",
+      "weight": 4
+    },
+    {
+      "source": "AUTO",
+      "target": "MDP",
+      "weight": 4
+    },
+    {
+      "source": "AUTO",
+      "target": "LEE",
+      "weight": 2
+    },
+    {
+      "source": "AUTO",
+      "target": "GCI",
+      "weight": 8
+    },
+    {
+      "source": "AUTO",
+      "target": "FSR",
+      "weight": 25
+    },
+    {
+      "source": "DJCO",
+      "target": "GCI",
+      "weight": 9
+    },
+    {
+      "source": "DJCO",
+      "target": "JW",
+      "weight": 1
+    },
+    {
+      "source": "DJCO",
+      "target": "NYT",
+      "weight": 9
+    },
+    {
+      "source": "DJCO",
+      "target": "LEE",
+      "weight": 11
+    },
+    {
+      "source": "DJCO",
+      "target": "SSP",
+      "weight": 1
+    },
+    {
+      "source": "DJCO",
+      "target": "SCHL",
+      "weight": 1
+    },
+    {
+      "source": "DJCO",
+      "target": "TPCO",
+      "weight": 5
+    },
+    {
+      "source": "DJCO",
+      "target": "MNI",
+      "weight": 5
+    },
+    {
+      "source": "DLX",
+      "target": "NYT",
+      "weight": 3
+    },
+    {
+      "source": "DLX",
+      "target": "FSR",
+      "weight": 1
+    },
+    {
+      "source": "DLX",
+      "target": "MDP",
+      "weight": 1
+    },
+    {
+      "source": "DLX",
+      "target": "INWK",
+      "weight": 3
+    },
+    {
+      "source": "DLX",
+      "target": "SCHL",
+      "weight": 2
+    },
+    {
+      "source": "FSR",
+      "target": "JIH",
+      "weight": 16
+    },
+    {
+      "source": "FSR",
+      "target": "GCI",
+      "weight": 19
+    },
+    {
+      "source": "FSR",
+      "target": "INWK",
+      "weight": 14
+    },
+    {
+      "source": "FSR",
+      "target": "NYT",
+      "weight": 24
+    },
+    {
+      "source": "FSR",
+      "target": "WETF",
+      "weight": 1
+    },
+    {
+      "source": "FSR",
+      "target": "SSP",
+      "weight": 104
+    },
+    {
+      "source": "FSR",
+      "target": "JW",
+      "weight": 3
+    },
+    {
+      "source": "FSR",
+      "target": "TZOO",
+      "weight": 2
+    },
+    {
+      "source": "FSR",
+      "target": "SCHL",
+      "weight": 3
+    },
+    {
+      "source": "FSR",
+      "target": "TPCO",
+      "weight": 1
+    },
+    {
+      "source": "FSR",
+      "target": "LEE",
+      "weight": 5
+    },
+    {
+      "source": "GCI",
+      "target": "INWK",
+      "weight": 3
+    },
+    {
+      "source": "GCI",
+      "target": "MDP",
+      "weight": 7
+    },
+    {
+      "source": "GCI",
+      "target": "TPCO",
+      "weight": 139
+    },
+    {
+      "source": "GCI",
+      "target": "WETF",
+      "weight": 2
+    },
+    {
+      "source": "GCI",
+      "target": "LEE",
+      "weight": 48
+    },
+    {
+      "source": "GCI",
+      "target": "MNI",
+      "weight": 121
+    },
+    {
+      "source": "GCI",
+      "target": "SSP",
+      "weight": 15
+    },
+    {
+      "source": "GCI",
+      "target": "NYT",
+      "weight": 86
+    },
+    {
+      "source": "INWK",
+      "target": "LEE",
+      "weight": 1
+    },
+    {
+      "source": "INWK",
+      "target": "TZOO",
+      "weight": 2
+    },
+    {
+      "source": "INWK",
+      "target": "MDP",
+      "weight": 1
+    },
+    {
+      "source": "JIH",
+      "target": "JW",
+      "weight": 1
+    },
+    {
+      "source": "JIH",
+      "target": "TPCO",
+      "weight": 1
+    },
+    {
+      "source": "JIH",
+      "target": "TZOO",
+      "weight": 1
+    },
+    {
+      "source": "JIH",
+      "target": "SCHL",
+      "weight": 1
+    },
+    {
+      "source": "JW",
+      "target": "TPCO",
+      "weight": 1
+    },
+    {
+      "source": "JW",
+      "target": "LEE",
+      "weight": 1
+    },
+    {
+      "source": "JW",
+      "target": "MDP",
+      "weight": 8
+    },
+    {
+      "source": "JW",
+      "target": "NYT",
+      "weight": 1
+    },
+    {
+      "source": "JW",
+      "target": "SCHL",
+      "weight": 2
+    },
+    {
+      "source": "JW",
+      "target": "SSP",
+      "weight": 3
+    },
+    {
+      "source": "LEE",
+      "target": "TPCO",
+      "weight": 21
+    },
+    {
+      "source": "LEE",
+      "target": "LOAN",
+      "weight": 1
+    },
+    {
+      "source": "LEE",
+      "target": "SSP",
+      "weight": 8
+    },
+    {
+      "source": "LEE",
+      "target": "MNI",
+      "weight": 34
+    },
+    {
+      "source": "LEE",
+      "target": "WETF",
+      "weight": 1
+    },
+    {
+      "source": "LEE",
+      "target": "MDP",
+      "weight": 7
+    },
+    {
+      "source": "LEE",
+      "target": "NYT",
+      "weight": 63
+    },
+    {
+      "source": "LOAN",
+      "target": "NYT",
+      "weight": 1
+    },
+    {
+      "source": "MDP",
+      "target": "NYT",
+      "weight": 12
+    },
+    {
+      "source": "MDP",
+      "target": "SSP",
+      "weight": 5
+    },
+    {
+      "source": "MDP",
+      "target": "TZOO",
+      "weight": 3
+    },
+    {
+      "source": "MNI",
+      "target": "NYT",
+      "weight": 66
+    },
+    {
+      "source": "MNI",
+      "target": "TPCO",
+      "weight": 140
+    },
+    {
+      "source": "MNI",
+      "target": "SSP",
+      "weight": 2
+    },
+    {
+      "source": "NYT",
+      "target": "TPCO",
+      "weight": 58
+    },
+    {
+      "source": "NYT",
+      "target": "SSP",
+      "weight": 10
+    },
+    {
+      "source": "SCHL",
+      "target": "SSP",
+      "weight": 4
+    },
+    {
+      "source": "SCHL",
+      "target": "WETF",
+      "weight": 1
+    },
+    {
+      "source": "SSP",
+      "target": "TPCO",
+      "weight": 2
+    },
+    {
+      "source": "TPCO",
+      "target": "TZOO",
+      "weight": 1
+    }
+  ]
+}

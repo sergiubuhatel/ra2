@@ -1,0 +1,5057 @@
+{
+  "nodes": [
+    {
+      "id": "ADES",
+      "label": "ADES",
+      "industry": "Chems",
+      "degree_centrality": 0.47058823529411764,
+      "betweenness_centrality": 0.01823388115967378,
+      "closeness_centrality": 0.6449948400412797,
+      "eigenvector_centrality": 0.0014858838976356144,
+      "harmonic_centrality": 28.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 97
+    },
+    {
+      "id": "ALB",
+      "label": "ALB",
+      "industry": "Chems",
+      "degree_centrality": 0.8823529411764706,
+      "betweenness_centrality": 0.005003601371749249,
+      "closeness_centrality": 0.8912655971479501,
+      "eigenvector_centrality": 0.174737359195565,
+      "harmonic_centrality": 26.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 45,
+      "weighted_degree": 2528
+    },
+    {
+      "id": "ALTO",
+      "label": "ALTO",
+      "industry": "Chems",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.03773145265549199,
+      "closeness_centrality": 0.7002801120448179,
+      "eigenvector_centrality": 0.0031931933037592907,
+      "harmonic_centrality": 31.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 213
+    },
+    {
+      "id": "ASIX",
+      "label": "ASIX",
+      "industry": "Chems",
+      "degree_centrality": 0.803921568627451,
+      "betweenness_centrality": 0.044978234318153634,
+      "closeness_centrality": 0.8308408109006313,
+      "eigenvector_centrality": 0.011541672004377567,
+      "harmonic_centrality": 33.0,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 308
+    },
+    {
+      "id": "ASPN",
+      "label": "ASPN",
+      "industry": "Chems",
+      "degree_centrality": 0.5098039215686274,
+      "betweenness_centrality": 0.01519707936846179,
+      "closeness_centrality": 0.6624271330153683,
+      "eigenvector_centrality": 0.0036696731868519133,
+      "harmonic_centrality": 29.0,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 116
+    },
+    {
+      "id": "AVD",
+      "label": "AVD",
+      "industry": "Chems",
+      "degree_centrality": 0.39215686274509803,
+      "betweenness_centrality": 0.013975733720211773,
+      "closeness_centrality": 0.6127450980392156,
+      "eigenvector_centrality": 0.0037263364580186163,
+      "harmonic_centrality": 28.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 79
+    },
+    {
+      "id": "AVNT",
+      "label": "AVNT",
+      "industry": "Chems",
+      "degree_centrality": 0.7843137254901961,
+      "betweenness_centrality": 0.011562931769761751,
+      "closeness_centrality": 0.8169934640522876,
+      "eigenvector_centrality": 0.014267414191533831,
+      "harmonic_centrality": 29.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 303
+    },
+    {
+      "id": "BCPC",
+      "label": "BCPC",
+      "industry": "Chems",
+      "degree_centrality": 0.6078431372549019,
+      "betweenness_centrality": 0.010886244484001625,
+      "closeness_centrality": 0.7104290991759022,
+      "eigenvector_centrality": 0.006994973693491863,
+      "harmonic_centrality": 27.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 192
+    },
+    {
+      "id": "CBT",
+      "label": "CBT",
+      "industry": "Chems",
+      "degree_centrality": 0.803921568627451,
+      "betweenness_centrality": 0.0038243760618775526,
+      "closeness_centrality": 0.8308408109006313,
+      "eigenvector_centrality": 0.019447733802506712,
+      "harmonic_centrality": 27.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 455
+    },
+    {
+      "id": "CC",
+      "label": "CC",
+      "industry": "Chems",
+      "degree_centrality": 0.8431372549019608,
+      "betweenness_centrality": 0.008108188428257631,
+      "closeness_centrality": 0.8599931200550395,
+      "eigenvector_centrality": 0.0363764540459822,
+      "harmonic_centrality": 27.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 570
+    },
+    {
+      "id": "CE",
+      "label": "CE",
+      "industry": "Chems",
+      "degree_centrality": 0.7450980392156863,
+      "betweenness_centrality": 0.00206599609540786,
+      "closeness_centrality": 0.790638836179633,
+      "eigenvector_centrality": 0.06490266112136794,
+      "harmonic_centrality": 23.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 930
+    },
+    {
+      "id": "CF",
+      "label": "CF",
+      "industry": "Chems",
+      "degree_centrality": 0.7843137254901961,
+      "betweenness_centrality": 0.0031113751159052034,
+      "closeness_centrality": 0.8169934640522876,
+      "eigenvector_centrality": 0.31614231674591814,
+      "harmonic_centrality": 26.500000000000004,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 2707
+    },
+    {
+      "id": "CGA",
+      "label": "CGA",
+      "industry": "Chems",
+      "degree_centrality": 0.5098039215686274,
+      "betweenness_centrality": 0.016895782261193794,
+      "closeness_centrality": 0.6624271330153683,
+      "eigenvector_centrality": 0.009615410155660628,
+      "harmonic_centrality": 29.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 116
+    },
+    {
+      "id": "DD",
+      "label": "DD",
+      "industry": "Chems",
+      "degree_centrality": 0.803921568627451,
+      "betweenness_centrality": 0.0006615515771526001,
+      "closeness_centrality": 0.8308408109006313,
+      "eigenvector_centrality": 0.34471640201020565,
+      "harmonic_centrality": 24.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 3124
+    },
+    {
+      "id": "DNMR",
+      "label": "DNMR",
+      "industry": "Chems",
+      "degree_centrality": 0.8235294117647058,
+      "betweenness_centrality": 0.0044188309626738646,
+      "closeness_centrality": 0.8451656524678837,
+      "eigenvector_centrality": 0.0177186978123021,
+      "harmonic_centrality": 26.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 42,
+      "weighted_degree": 279
+    },
+    {
+      "id": "DOW",
+      "label": "DOW",
+      "industry": "Chems",
+      "degree_centrality": 0.9019607843137255,
+      "betweenness_centrality": 0.009634937436593109,
+      "closeness_centrality": 0.9077705156136529,
+      "eigenvector_centrality": 0.34945035658980966,
+      "harmonic_centrality": 28.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 46,
+      "weighted_degree": 3354
+    },
+    {
+      "id": "EMN",
+      "label": "EMN",
+      "industry": "Chems",
+      "degree_centrality": 0.7843137254901961,
+      "betweenness_centrality": 0.0034346852474819453,
+      "closeness_centrality": 0.8169934640522876,
+      "eigenvector_centrality": 0.26456219388767455,
+      "harmonic_centrality": 26.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 2395
+    },
+    {
+      "id": "ESI",
+      "label": "ESI",
+      "industry": "Chems",
+      "degree_centrality": 0.803921568627451,
+      "betweenness_centrality": 0.006620117653101297,
+      "closeness_centrality": 0.8308408109006313,
+      "eigenvector_centrality": 0.01057180317667162,
+      "harmonic_centrality": 28.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 188
+    },
+    {
+      "id": "FF",
+      "label": "FF",
+      "industry": "Chems",
+      "degree_centrality": 0.6862745098039216,
+      "betweenness_centrality": 0.04231682490788221,
+      "closeness_centrality": 0.7541478129713424,
+      "eigenvector_centrality": 0.003293733068580436,
+      "harmonic_centrality": 32.0,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 201
+    },
+    {
+      "id": "FMC",
+      "label": "FMC",
+      "industry": "Chems",
+      "degree_centrality": 0.8235294117647058,
+      "betweenness_centrality": 0.01216761735873009,
+      "closeness_centrality": 0.8451656524678837,
+      "eigenvector_centrality": 0.26006419611304893,
+      "harmonic_centrality": 29.0,
+      "eccentricity": 0.0,
+      "degree": 42,
+      "weighted_degree": 2255
+    },
+    {
+      "id": "FOE",
+      "label": "FOE",
+      "industry": "Chems",
+      "degree_centrality": 0.6078431372549019,
+      "betweenness_centrality": 0.023610727592978414,
+      "closeness_centrality": 0.7104290991759022,
+      "eigenvector_centrality": 0.01544290714940279,
+      "harmonic_centrality": 30.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 330
+    },
+    {
+      "id": "FUL",
+      "label": "FUL",
+      "industry": "Chems",
+      "degree_centrality": 0.6470588235294118,
+      "betweenness_centrality": 0.00950340272654456,
+      "closeness_centrality": 0.7316359379572724,
+      "eigenvector_centrality": 0.018656840864607307,
+      "harmonic_centrality": 27.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 278
+    },
+    {
+      "id": "GCP",
+      "label": "GCP",
+      "industry": "Chems",
+      "degree_centrality": 0.7058823529411764,
+      "betweenness_centrality": 0.00901907391977945,
+      "closeness_centrality": 0.7659313725490196,
+      "eigenvector_centrality": 0.007606220917218081,
+      "harmonic_centrality": 29.0,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 159
+    },
+    {
+      "id": "GPRE",
+      "label": "GPRE",
+      "industry": "Chems",
+      "degree_centrality": 0.7450980392156863,
+      "betweenness_centrality": 0.026778560438004362,
+      "closeness_centrality": 0.790638836179633,
+      "eigenvector_centrality": 0.007384261242213493,
+      "harmonic_centrality": 29.5,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 282
+    },
+    {
+      "id": "GRA",
+      "label": "GRA",
+      "industry": "Chems",
+      "degree_centrality": 0.6274509803921569,
+      "betweenness_centrality": 0.002336409849373955,
+      "closeness_centrality": 0.720876585928489,
+      "eigenvector_centrality": 0.02918287460660712,
+      "harmonic_centrality": 25.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 420
+    },
+    {
+      "id": "HDSN",
+      "label": "HDSN",
+      "industry": "Chems",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.06018048761103784,
+      "closeness_centrality": 0.7002801120448179,
+      "eigenvector_centrality": 0.0017039906420814454,
+      "harmonic_centrality": 33.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 56
+    },
+    {
+      "id": "HRTX",
+      "label": "HRTX",
+      "industry": "Chems",
+      "degree_centrality": 0.49019607843137253,
+      "betweenness_centrality": 0.025971579030971508,
+      "closeness_centrality": 0.65359477124183,
+      "eigenvector_centrality": 0.0015404704803079605,
+      "harmonic_centrality": 30.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 60
+    },
+    {
+      "id": "HUN",
+      "label": "HUN",
+      "industry": "Chems",
+      "degree_centrality": 0.7843137254901961,
+      "betweenness_centrality": 0.003129319756094604,
+      "closeness_centrality": 0.8169934640522876,
+      "eigenvector_centrality": 0.05413798326532367,
+      "harmonic_centrality": 25.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 909
+    },
+    {
+      "id": "IFF",
+      "label": "IFF",
+      "industry": "Chems",
+      "degree_centrality": 0.7450980392156863,
+      "betweenness_centrality": 0.006232493775473195,
+      "closeness_centrality": 0.790638836179633,
+      "eigenvector_centrality": 0.3126138477857964,
+      "harmonic_centrality": 27.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 2582
+    },
+    {
+      "id": "IOSP",
+      "label": "IOSP",
+      "industry": "Chems",
+      "degree_centrality": 0.4117647058823529,
+      "betweenness_centrality": 0.025401531467655315,
+      "closeness_centrality": 0.6205013651030032,
+      "eigenvector_centrality": 0.0015436963883889007,
+      "harmonic_centrality": 32.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 112
+    },
+    {
+      "id": "KRA",
+      "label": "KRA",
+      "industry": "Chems",
+      "degree_centrality": 0.7647058823529411,
+      "betweenness_centrality": 0.008594503960341938,
+      "closeness_centrality": 0.8036001285760206,
+      "eigenvector_centrality": 0.011821123297134056,
+      "harmonic_centrality": 28.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 292
+    },
+    {
+      "id": "KRO",
+      "label": "KRO",
+      "industry": "Chems",
+      "degree_centrality": 0.6274509803921569,
+      "betweenness_centrality": 0.022083425139171727,
+      "closeness_centrality": 0.720876585928489,
+      "eigenvector_centrality": 0.0060067202649182515,
+      "harmonic_centrality": 30.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 229
+    },
+    {
+      "id": "LNDC",
+      "label": "LNDC",
+      "industry": "Chems",
+      "degree_centrality": 0.39215686274509803,
+      "betweenness_centrality": 0.03393464009698385,
+      "closeness_centrality": 0.6127450980392156,
+      "eigenvector_centrality": 0.0017378949920465125,
+      "harmonic_centrality": 30.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 96
+    },
+    {
+      "id": "LTHM",
+      "label": "LTHM",
+      "industry": "Chems",
+      "degree_centrality": 0.8823529411764706,
+      "betweenness_centrality": 0.009950775613901834,
+      "closeness_centrality": 0.8912655971479501,
+      "eigenvector_centrality": 0.12546050642472745,
+      "harmonic_centrality": 29.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 45,
+      "weighted_degree": 1782
+    },
+    {
+      "id": "LXU",
+      "label": "LXU",
+      "industry": "Chems",
+      "degree_centrality": 0.6862745098039216,
+      "betweenness_centrality": 0.028096359630882264,
+      "closeness_centrality": 0.7541478129713424,
+      "eigenvector_centrality": 0.013381705062535795,
+      "harmonic_centrality": 30.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 201
+    },
+    {
+      "id": "MOS",
+      "label": "MOS",
+      "industry": "Chems",
+      "degree_centrality": 0.8431372549019608,
+      "betweenness_centrality": 0.0042971026944975945,
+      "closeness_centrality": 0.8599931200550395,
+      "eigenvector_centrality": 0.3427593314760735,
+      "harmonic_centrality": 26.5,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 3163
+    },
+    {
+      "id": "MTX",
+      "label": "MTX",
+      "industry": "Chems",
+      "degree_centrality": 0.6470588235294118,
+      "betweenness_centrality": 0.0037596929949198082,
+      "closeness_centrality": 0.7316359379572724,
+      "eigenvector_centrality": 0.009630807287104332,
+      "harmonic_centrality": 26.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 194
+    },
+    {
+      "id": "NEU",
+      "label": "NEU",
+      "industry": "Chems",
+      "degree_centrality": 0.5098039215686274,
+      "betweenness_centrality": 0.032630147823214745,
+      "closeness_centrality": 0.6624271330153683,
+      "eigenvector_centrality": 0.0035958448619971576,
+      "harmonic_centrality": 31.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 61
+    },
+    {
+      "id": "NGVT",
+      "label": "NGVT",
+      "industry": "Chems",
+      "degree_centrality": 0.6470588235294118,
+      "betweenness_centrality": 0.03562729902743781,
+      "closeness_centrality": 0.7316359379572724,
+      "eigenvector_centrality": 0.003044914468264474,
+      "harmonic_centrality": 31.0,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 103
+    },
+    {
+      "id": "OLN",
+      "label": "OLN",
+      "industry": "Chems",
+      "degree_centrality": 0.8431372549019608,
+      "betweenness_centrality": 0.005660214361748888,
+      "closeness_centrality": 0.8599931200550395,
+      "eigenvector_centrality": 0.08217333560156567,
+      "harmonic_centrality": 27.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 1086
+    },
+    {
+      "id": "PEIX",
+      "label": "PEIX",
+      "industry": "Chems",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 3.3861661468838e-52,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "PPG",
+      "label": "PPG",
+      "industry": "Chems",
+      "degree_centrality": 0.7450980392156863,
+      "betweenness_centrality": 0.0005065359477124182,
+      "closeness_centrality": 0.790638836179633,
+      "eigenvector_centrality": 0.33886138049083736,
+      "harmonic_centrality": 23.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 3144
+    },
+    {
+      "id": "REX",
+      "label": "REX",
+      "industry": "Chems",
+      "degree_centrality": 0.3529411764705882,
+      "betweenness_centrality": 0.015291468416308537,
+      "closeness_centrality": 0.5978000956480153,
+      "eigenvector_centrality": 0.0016375483091305833,
+      "harmonic_centrality": 28.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 168
+    },
+    {
+      "id": "ROG",
+      "label": "ROG",
+      "industry": "Chems",
+      "degree_centrality": 0.6470588235294118,
+      "betweenness_centrality": 0.030415231384604245,
+      "closeness_centrality": 0.7316359379572724,
+      "eigenvector_centrality": 0.007003166991885157,
+      "harmonic_centrality": 31.5,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 145
+    },
+    {
+      "id": "RPM",
+      "label": "RPM",
+      "industry": "Chems",
+      "degree_centrality": 0.7254901960784313,
+      "betweenness_centrality": 0.02257880742122149,
+      "closeness_centrality": 0.778089013383131,
+      "eigenvector_centrality": 0.03540807102838795,
+      "harmonic_centrality": 30.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 535
+    },
+    {
+      "id": "RYAM",
+      "label": "RYAM",
+      "industry": "Chems",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.01908973264209105,
+      "closeness_centrality": 0.7002801120448179,
+      "eigenvector_centrality": 0.00408064037389163,
+      "harmonic_centrality": 29.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 120
+    },
+    {
+      "id": "SCL",
+      "label": "SCL",
+      "industry": "Chems",
+      "degree_centrality": 0.7647058823529411,
+      "betweenness_centrality": 0.006172117628695685,
+      "closeness_centrality": 0.8036001285760206,
+      "eigenvector_centrality": 0.01997315954065056,
+      "harmonic_centrality": 27.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 444
+    },
+    {
+      "id": "SHW",
+      "label": "SHW",
+      "industry": "Chems",
+      "degree_centrality": 0.7843137254901961,
+      "betweenness_centrality": 0.006081141943563675,
+      "closeness_centrality": 0.8169934640522876,
+      "eigenvector_centrality": 0.3454133228057457,
+      "harmonic_centrality": 27.333333333333332,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 3063
+    },
+    {
+      "id": "SITE",
+      "label": "SITE",
+      "industry": "Chems",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.03573667285359222,
+      "closeness_centrality": 0.7002801120448179,
+      "eigenvector_centrality": 0.003295368654578639,
+      "harmonic_centrality": 31.5,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 165
+    },
+    {
+      "id": "SRDX",
+      "label": "SRDX",
+      "industry": "Chems",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.03237267416877295,
+      "closeness_centrality": 0.5905976848570754,
+      "eigenvector_centrality": 0.0054548403805562765,
+      "harmonic_centrality": 31.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 63
+    },
+    {
+      "id": "VHI",
+      "label": "VHI",
+      "industry": "Chems",
+      "degree_centrality": 0.47058823529411764,
+      "betweenness_centrality": 0.027023590528024978,
+      "closeness_centrality": 0.6449948400412797,
+      "eigenvector_centrality": 0.004768233125553764,
+      "harmonic_centrality": 31.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 116
+    },
+    {
+      "id": "WLK",
+      "label": "WLK",
+      "industry": "Chems",
+      "degree_centrality": 0.7647058823529411,
+      "betweenness_centrality": 0.006215635193611011,
+      "closeness_centrality": 0.8036001285760206,
+      "eigenvector_centrality": 0.0741156026192352,
+      "harmonic_centrality": 28.5,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 1024
+    }
+  ],
+  "edges": [
+    {
+      "source": "ADES",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "FF",
+      "weight": 19
+    },
+    {
+      "source": "ADES",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "ASIX",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "ALB",
+      "weight": 4
+    },
+    {
+      "source": "ADES",
+      "target": "VHI",
+      "weight": 2
+    },
+    {
+      "source": "ADES",
+      "target": "FOE",
+      "weight": 16
+    },
+    {
+      "source": "ADES",
+      "target": "PPG",
+      "weight": 2
+    },
+    {
+      "source": "ADES",
+      "target": "CBT",
+      "weight": 4
+    },
+    {
+      "source": "ADES",
+      "target": "BCPC",
+      "weight": 2
+    },
+    {
+      "source": "ADES",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "OLN",
+      "weight": 2
+    },
+    {
+      "source": "ADES",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "ALTO",
+      "weight": 12
+    },
+    {
+      "source": "ADES",
+      "target": "CF",
+      "weight": 3
+    },
+    {
+      "source": "ADES",
+      "target": "CE",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "DNMR",
+      "weight": 2
+    },
+    {
+      "source": "ADES",
+      "target": "CGA",
+      "weight": 4
+    },
+    {
+      "source": "ADES",
+      "target": "ESI",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "DOW",
+      "weight": 1
+    },
+    {
+      "source": "ADES",
+      "target": "AVD",
+      "weight": 8
+    },
+    {
+      "source": "ADES",
+      "target": "ASPN",
+      "weight": 7
+    },
+    {
+      "source": "ALB",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "ALB",
+      "target": "CGA",
+      "weight": 5
+    },
+    {
+      "source": "ALB",
+      "target": "FUL",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "CC",
+      "weight": 20
+    },
+    {
+      "source": "ALB",
+      "target": "BCPC",
+      "weight": 26
+    },
+    {
+      "source": "ALB",
+      "target": "WLK",
+      "weight": 40
+    },
+    {
+      "source": "ALB",
+      "target": "FF",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "RYAM",
+      "weight": 4
+    },
+    {
+      "source": "ALB",
+      "target": "IFF",
+      "weight": 40
+    },
+    {
+      "source": "ALB",
+      "target": "MOS",
+      "weight": 186
+    },
+    {
+      "source": "ALB",
+      "target": "CBT",
+      "weight": 14
+    },
+    {
+      "source": "ALB",
+      "target": "ALTO",
+      "weight": 7
+    },
+    {
+      "source": "ALB",
+      "target": "HUN",
+      "weight": 23
+    },
+    {
+      "source": "ALB",
+      "target": "NGVT",
+      "weight": 7
+    },
+    {
+      "source": "ALB",
+      "target": "FOE",
+      "weight": 6
+    },
+    {
+      "source": "ALB",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "ALB",
+      "target": "HRTX",
+      "weight": 2
+    },
+    {
+      "source": "ALB",
+      "target": "DNMR",
+      "weight": 8
+    },
+    {
+      "source": "ALB",
+      "target": "CF",
+      "weight": 71
+    },
+    {
+      "source": "ALB",
+      "target": "ASPN",
+      "weight": 8
+    },
+    {
+      "source": "ALB",
+      "target": "DOW",
+      "weight": 56
+    },
+    {
+      "source": "ALB",
+      "target": "ESI",
+      "weight": 6
+    },
+    {
+      "source": "ALB",
+      "target": "AVD",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "GPRE",
+      "weight": 15
+    },
+    {
+      "source": "ALB",
+      "target": "SHW",
+      "weight": 105
+    },
+    {
+      "source": "ALB",
+      "target": "RPM",
+      "weight": 8
+    },
+    {
+      "source": "ALB",
+      "target": "GCP",
+      "weight": 11
+    },
+    {
+      "source": "ALB",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "ALB",
+      "target": "OLN",
+      "weight": 38
+    },
+    {
+      "source": "ALB",
+      "target": "ASIX",
+      "weight": 39
+    },
+    {
+      "source": "ALB",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "ALB",
+      "target": "FMC",
+      "weight": 121
+    },
+    {
+      "source": "ALB",
+      "target": "DD",
+      "weight": 67
+    },
+    {
+      "source": "ALB",
+      "target": "LNDC",
+      "weight": 3
+    },
+    {
+      "source": "ALB",
+      "target": "LTHM",
+      "weight": 1347
+    },
+    {
+      "source": "ALB",
+      "target": "REX",
+      "weight": 5
+    },
+    {
+      "source": "ALB",
+      "target": "EMN",
+      "weight": 64
+    },
+    {
+      "source": "ALB",
+      "target": "GRA",
+      "weight": 47
+    },
+    {
+      "source": "ALB",
+      "target": "CE",
+      "weight": 25
+    },
+    {
+      "source": "ALB",
+      "target": "KRA",
+      "weight": 7
+    },
+    {
+      "source": "ALB",
+      "target": "AVNT",
+      "weight": 11
+    },
+    {
+      "source": "ALB",
+      "target": "PPG",
+      "weight": 68
+    },
+    {
+      "source": "ALTO",
+      "target": "PPG",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "AVD",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "CC",
+      "weight": 2
+    },
+    {
+      "source": "ALTO",
+      "target": "GPRE",
+      "weight": 62
+    },
+    {
+      "source": "ALTO",
+      "target": "SHW",
+      "weight": 2
+    },
+    {
+      "source": "ALTO",
+      "target": "FOE",
+      "weight": 7
+    },
+    {
+      "source": "ALTO",
+      "target": "DNMR",
+      "weight": 8
+    },
+    {
+      "source": "ALTO",
+      "target": "LTHM",
+      "weight": 8
+    },
+    {
+      "source": "ALTO",
+      "target": "REX",
+      "weight": 56
+    },
+    {
+      "source": "ALTO",
+      "target": "FF",
+      "weight": 12
+    },
+    {
+      "source": "ALTO",
+      "target": "ASIX",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "AVNT",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "CF",
+      "weight": 2
+    },
+    {
+      "source": "ALTO",
+      "target": "CGA",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "DD",
+      "weight": 2
+    },
+    {
+      "source": "ALTO",
+      "target": "DOW",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "ESI",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "FMC",
+      "weight": 4
+    },
+    {
+      "source": "ALTO",
+      "target": "GCP",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "KRO",
+      "weight": 10
+    },
+    {
+      "source": "ALTO",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "MOS",
+      "weight": 2
+    },
+    {
+      "source": "ALTO",
+      "target": "MTX",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "ALTO",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "ASIX",
+      "target": "ESI",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "EMN",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "ASPN",
+      "weight": 10
+    },
+    {
+      "source": "ASIX",
+      "target": "AVNT",
+      "weight": 28
+    },
+    {
+      "source": "ASIX",
+      "target": "FMC",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "DNMR",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "BCPC",
+      "weight": 60
+    },
+    {
+      "source": "ASIX",
+      "target": "HUN",
+      "weight": 23
+    },
+    {
+      "source": "ASIX",
+      "target": "DD",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "CF",
+      "weight": 16
+    },
+    {
+      "source": "ASIX",
+      "target": "FUL",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "CC",
+      "weight": 12
+    },
+    {
+      "source": "ASIX",
+      "target": "PPG",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "GPRE",
+      "weight": 4
+    },
+    {
+      "source": "ASIX",
+      "target": "MOS",
+      "weight": 19
+    },
+    {
+      "source": "ASIX",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "CBT",
+      "weight": 9
+    },
+    {
+      "source": "ASIX",
+      "target": "OLN",
+      "weight": 7
+    },
+    {
+      "source": "ASIX",
+      "target": "GCP",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "LXU",
+      "weight": 21
+    },
+    {
+      "source": "ASIX",
+      "target": "DOW",
+      "weight": 7
+    },
+    {
+      "source": "ASIX",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "KRA",
+      "weight": 4
+    },
+    {
+      "source": "ASIX",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "CGA",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "IFF",
+      "weight": 2
+    },
+    {
+      "source": "ASIX",
+      "target": "FF",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "LTHM",
+      "weight": 3
+    },
+    {
+      "source": "ASIX",
+      "target": "CE",
+      "weight": 6
+    },
+    {
+      "source": "ASIX",
+      "target": "HRTX",
+      "weight": 3
+    },
+    {
+      "source": "ASIX",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "ASIX",
+      "target": "WLK",
+      "weight": 7
+    },
+    {
+      "source": "ASIX",
+      "target": "FOE",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "ASPN",
+      "target": "GRA",
+      "weight": 8
+    },
+    {
+      "source": "ASPN",
+      "target": "ESI",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "LTHM",
+      "weight": 7
+    },
+    {
+      "source": "ASPN",
+      "target": "CE",
+      "weight": 7
+    },
+    {
+      "source": "ASPN",
+      "target": "CGA",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "CC",
+      "weight": 9
+    },
+    {
+      "source": "ASPN",
+      "target": "DD",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "ASPN",
+      "target": "PPG",
+      "weight": 8
+    },
+    {
+      "source": "ASPN",
+      "target": "LXU",
+      "weight": 4
+    },
+    {
+      "source": "ASPN",
+      "target": "GPRE",
+      "weight": 7
+    },
+    {
+      "source": "ASPN",
+      "target": "OLN",
+      "weight": 2
+    },
+    {
+      "source": "ASPN",
+      "target": "AVNT",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "GCP",
+      "weight": 3
+    },
+    {
+      "source": "ASPN",
+      "target": "DNMR",
+      "weight": 1
+    },
+    {
+      "source": "ASPN",
+      "target": "CF",
+      "weight": 6
+    },
+    {
+      "source": "ASPN",
+      "target": "CBT",
+      "weight": 16
+    },
+    {
+      "source": "ASPN",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "FMC",
+      "weight": 13
+    },
+    {
+      "source": "AVD",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "IFF",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "AVD",
+      "target": "AVNT",
+      "weight": 2
+    },
+    {
+      "source": "AVD",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "MOS",
+      "weight": 5
+    },
+    {
+      "source": "AVD",
+      "target": "CBT",
+      "weight": 23
+    },
+    {
+      "source": "AVD",
+      "target": "EMN",
+      "weight": 2
+    },
+    {
+      "source": "AVD",
+      "target": "CF",
+      "weight": 6
+    },
+    {
+      "source": "AVD",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "CE",
+      "weight": 4
+    },
+    {
+      "source": "AVD",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "AVD",
+      "target": "CGA",
+      "weight": 3
+    },
+    {
+      "source": "AVD",
+      "target": "DOW",
+      "weight": 1
+    },
+    {
+      "source": "AVD",
+      "target": "DNMR",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "DNMR",
+      "weight": 3
+    },
+    {
+      "source": "AVNT",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "SCL",
+      "weight": 4
+    },
+    {
+      "source": "AVNT",
+      "target": "LTHM",
+      "weight": 4
+    },
+    {
+      "source": "AVNT",
+      "target": "FUL",
+      "weight": 11
+    },
+    {
+      "source": "AVNT",
+      "target": "DOW",
+      "weight": 20
+    },
+    {
+      "source": "AVNT",
+      "target": "GRA",
+      "weight": 13
+    },
+    {
+      "source": "AVNT",
+      "target": "BCPC",
+      "weight": 24
+    },
+    {
+      "source": "AVNT",
+      "target": "IOSP",
+      "weight": 2
+    },
+    {
+      "source": "AVNT",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "KRA",
+      "weight": 5
+    },
+    {
+      "source": "AVNT",
+      "target": "CE",
+      "weight": 20
+    },
+    {
+      "source": "AVNT",
+      "target": "FMC",
+      "weight": 6
+    },
+    {
+      "source": "AVNT",
+      "target": "HUN",
+      "weight": 26
+    },
+    {
+      "source": "AVNT",
+      "target": "MOS",
+      "weight": 8
+    },
+    {
+      "source": "AVNT",
+      "target": "IFF",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "ESI",
+      "weight": 2
+    },
+    {
+      "source": "AVNT",
+      "target": "NGVT",
+      "weight": 6
+    },
+    {
+      "source": "AVNT",
+      "target": "CF",
+      "weight": 4
+    },
+    {
+      "source": "AVNT",
+      "target": "GCP",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "PPG",
+      "weight": 8
+    },
+    {
+      "source": "AVNT",
+      "target": "MTX",
+      "weight": 3
+    },
+    {
+      "source": "AVNT",
+      "target": "KRO",
+      "weight": 4
+    },
+    {
+      "source": "AVNT",
+      "target": "OLN",
+      "weight": 5
+    },
+    {
+      "source": "AVNT",
+      "target": "SITE",
+      "weight": 6
+    },
+    {
+      "source": "AVNT",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "CC",
+      "weight": 7
+    },
+    {
+      "source": "AVNT",
+      "target": "WLK",
+      "weight": 10
+    },
+    {
+      "source": "AVNT",
+      "target": "EMN",
+      "weight": 8
+    },
+    {
+      "source": "AVNT",
+      "target": "CBT",
+      "weight": 8
+    },
+    {
+      "source": "AVNT",
+      "target": "FOE",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "SRDX",
+      "weight": 9
+    },
+    {
+      "source": "AVNT",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "AVNT",
+      "target": "DD",
+      "weight": 26
+    },
+    {
+      "source": "AVNT",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "DOW",
+      "weight": 5
+    },
+    {
+      "source": "BCPC",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "MOS",
+      "weight": 4
+    },
+    {
+      "source": "BCPC",
+      "target": "DD",
+      "weight": 11
+    },
+    {
+      "source": "BCPC",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "OLN",
+      "weight": 3
+    },
+    {
+      "source": "BCPC",
+      "target": "HRTX",
+      "weight": 4
+    },
+    {
+      "source": "BCPC",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "GPRE",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "IFF",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "EMN",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "SHW",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "HUN",
+      "weight": 7
+    },
+    {
+      "source": "BCPC",
+      "target": "LTHM",
+      "weight": 7
+    },
+    {
+      "source": "BCPC",
+      "target": "HDSN",
+      "weight": 3
+    },
+    {
+      "source": "BCPC",
+      "target": "CF",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "FMC",
+      "weight": 4
+    },
+    {
+      "source": "BCPC",
+      "target": "GCP",
+      "weight": 4
+    },
+    {
+      "source": "BCPC",
+      "target": "FOE",
+      "weight": 1
+    },
+    {
+      "source": "BCPC",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "BCPC",
+      "target": "CBT",
+      "weight": 4
+    },
+    {
+      "source": "CBT",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "LTHM",
+      "weight": 7
+    },
+    {
+      "source": "CBT",
+      "target": "GRA",
+      "weight": 21
+    },
+    {
+      "source": "CBT",
+      "target": "RPM",
+      "weight": 5
+    },
+    {
+      "source": "CBT",
+      "target": "ROG",
+      "weight": 3
+    },
+    {
+      "source": "CBT",
+      "target": "MOS",
+      "weight": 15
+    },
+    {
+      "source": "CBT",
+      "target": "ESI",
+      "weight": 4
+    },
+    {
+      "source": "CBT",
+      "target": "KRA",
+      "weight": 2
+    },
+    {
+      "source": "CBT",
+      "target": "DD",
+      "weight": 11
+    },
+    {
+      "source": "CBT",
+      "target": "CC",
+      "weight": 32
+    },
+    {
+      "source": "CBT",
+      "target": "FUL",
+      "weight": 5
+    },
+    {
+      "source": "CBT",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "CBT",
+      "target": "GPRE",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "SCL",
+      "weight": 5
+    },
+    {
+      "source": "CBT",
+      "target": "FOE",
+      "weight": 5
+    },
+    {
+      "source": "CBT",
+      "target": "FMC",
+      "weight": 3
+    },
+    {
+      "source": "CBT",
+      "target": "HUN",
+      "weight": 10
+    },
+    {
+      "source": "CBT",
+      "target": "CE",
+      "weight": 18
+    },
+    {
+      "source": "CBT",
+      "target": "GCP",
+      "weight": 4
+    },
+    {
+      "source": "CBT",
+      "target": "CF",
+      "weight": 31
+    },
+    {
+      "source": "CBT",
+      "target": "FF",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "IFF",
+      "weight": 13
+    },
+    {
+      "source": "CBT",
+      "target": "DNMR",
+      "weight": 3
+    },
+    {
+      "source": "CBT",
+      "target": "WLK",
+      "weight": 11
+    },
+    {
+      "source": "CBT",
+      "target": "EMN",
+      "weight": 3
+    },
+    {
+      "source": "CBT",
+      "target": "PPG",
+      "weight": 13
+    },
+    {
+      "source": "CBT",
+      "target": "SITE",
+      "weight": 95
+    },
+    {
+      "source": "CBT",
+      "target": "SHW",
+      "weight": 9
+    },
+    {
+      "source": "CBT",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "OLN",
+      "weight": 18
+    },
+    {
+      "source": "CBT",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "CBT",
+      "target": "MTX",
+      "weight": 7
+    },
+    {
+      "source": "CBT",
+      "target": "DOW",
+      "weight": 16
+    },
+    {
+      "source": "CC",
+      "target": "MTX",
+      "weight": 3
+    },
+    {
+      "source": "CC",
+      "target": "PPG",
+      "weight": 6
+    },
+    {
+      "source": "CC",
+      "target": "DD",
+      "weight": 64
+    },
+    {
+      "source": "CC",
+      "target": "FMC",
+      "weight": 5
+    },
+    {
+      "source": "CC",
+      "target": "CE",
+      "weight": 30
+    },
+    {
+      "source": "CC",
+      "target": "SCL",
+      "weight": 23
+    },
+    {
+      "source": "CC",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "GRA",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "IFF",
+      "weight": 9
+    },
+    {
+      "source": "CC",
+      "target": "RYAM",
+      "weight": 5
+    },
+    {
+      "source": "CC",
+      "target": "IOSP",
+      "weight": 2
+    },
+    {
+      "source": "CC",
+      "target": "DNMR",
+      "weight": 8
+    },
+    {
+      "source": "CC",
+      "target": "RPM",
+      "weight": 5
+    },
+    {
+      "source": "CC",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "EMN",
+      "weight": 24
+    },
+    {
+      "source": "CC",
+      "target": "FF",
+      "weight": 5
+    },
+    {
+      "source": "CC",
+      "target": "CF",
+      "weight": 32
+    },
+    {
+      "source": "CC",
+      "target": "LTHM",
+      "weight": 9
+    },
+    {
+      "source": "CC",
+      "target": "HUN",
+      "weight": 40
+    },
+    {
+      "source": "CC",
+      "target": "FUL",
+      "weight": 9
+    },
+    {
+      "source": "CC",
+      "target": "GCP",
+      "weight": 16
+    },
+    {
+      "source": "CC",
+      "target": "SHW",
+      "weight": 11
+    },
+    {
+      "source": "CC",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "KRO",
+      "weight": 7
+    },
+    {
+      "source": "CC",
+      "target": "KRA",
+      "weight": 5
+    },
+    {
+      "source": "CC",
+      "target": "DOW",
+      "weight": 35
+    },
+    {
+      "source": "CC",
+      "target": "VHI",
+      "weight": 3
+    },
+    {
+      "source": "CC",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "OLN",
+      "weight": 46
+    },
+    {
+      "source": "CC",
+      "target": "ESI",
+      "weight": 7
+    },
+    {
+      "source": "CC",
+      "target": "MOS",
+      "weight": 36
+    },
+    {
+      "source": "CC",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "CC",
+      "target": "WLK",
+      "weight": 25
+    },
+    {
+      "source": "CC",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "CC",
+      "target": "FOE",
+      "weight": 2
+    },
+    {
+      "source": "CC",
+      "target": "GPRE",
+      "weight": 6
+    },
+    {
+      "source": "CC",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "CE",
+      "target": "IFF",
+      "weight": 14
+    },
+    {
+      "source": "CE",
+      "target": "HRTX",
+      "weight": 2
+    },
+    {
+      "source": "CE",
+      "target": "HUN",
+      "weight": 42
+    },
+    {
+      "source": "CE",
+      "target": "DNMR",
+      "weight": 13
+    },
+    {
+      "source": "CE",
+      "target": "NEU",
+      "weight": 3
+    },
+    {
+      "source": "CE",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "CE",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "CE",
+      "target": "DOW",
+      "weight": 96
+    },
+    {
+      "source": "CE",
+      "target": "MTX",
+      "weight": 6
+    },
+    {
+      "source": "CE",
+      "target": "ESI",
+      "weight": 10
+    },
+    {
+      "source": "CE",
+      "target": "SCL",
+      "weight": 6
+    },
+    {
+      "source": "CE",
+      "target": "RPM",
+      "weight": 19
+    },
+    {
+      "source": "CE",
+      "target": "GRA",
+      "weight": 31
+    },
+    {
+      "source": "CE",
+      "target": "MOS",
+      "weight": 10
+    },
+    {
+      "source": "CE",
+      "target": "FMC",
+      "weight": 20
+    },
+    {
+      "source": "CE",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "CE",
+      "target": "FUL",
+      "weight": 13
+    },
+    {
+      "source": "CE",
+      "target": "NGVT",
+      "weight": 4
+    },
+    {
+      "source": "CE",
+      "target": "SHW",
+      "weight": 31
+    },
+    {
+      "source": "CE",
+      "target": "DD",
+      "weight": 59
+    },
+    {
+      "source": "CE",
+      "target": "PPG",
+      "weight": 64
+    },
+    {
+      "source": "CE",
+      "target": "KRA",
+      "weight": 31
+    },
+    {
+      "source": "CE",
+      "target": "EMN",
+      "weight": 80
+    },
+    {
+      "source": "CE",
+      "target": "OLN",
+      "weight": 96
+    },
+    {
+      "source": "CE",
+      "target": "WLK",
+      "weight": 119
+    },
+    {
+      "source": "CE",
+      "target": "LTHM",
+      "weight": 6
+    },
+    {
+      "source": "CE",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "CE",
+      "target": "CF",
+      "weight": 35
+    },
+    {
+      "source": "CE",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "CE",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "CF",
+      "target": "FOE",
+      "weight": 1
+    },
+    {
+      "source": "CF",
+      "target": "GPRE",
+      "weight": 8
+    },
+    {
+      "source": "CF",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "CF",
+      "target": "KRA",
+      "weight": 5
+    },
+    {
+      "source": "CF",
+      "target": "WLK",
+      "weight": 11
+    },
+    {
+      "source": "CF",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "CF",
+      "target": "FMC",
+      "weight": 208
+    },
+    {
+      "source": "CF",
+      "target": "CGA",
+      "weight": 38
+    },
+    {
+      "source": "CF",
+      "target": "FUL",
+      "weight": 2
+    },
+    {
+      "source": "CF",
+      "target": "HDSN",
+      "weight": 2
+    },
+    {
+      "source": "CF",
+      "target": "LTHM",
+      "weight": 17
+    },
+    {
+      "source": "CF",
+      "target": "SHW",
+      "weight": 224
+    },
+    {
+      "source": "CF",
+      "target": "PPG",
+      "weight": 210
+    },
+    {
+      "source": "CF",
+      "target": "EMN",
+      "weight": 196
+    },
+    {
+      "source": "CF",
+      "target": "FF",
+      "weight": 1
+    },
+    {
+      "source": "CF",
+      "target": "IOSP",
+      "weight": 2
+    },
+    {
+      "source": "CF",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "CF",
+      "target": "ESI",
+      "weight": 4
+    },
+    {
+      "source": "CF",
+      "target": "MOS",
+      "weight": 798
+    },
+    {
+      "source": "CF",
+      "target": "DNMR",
+      "weight": 4
+    },
+    {
+      "source": "CF",
+      "target": "RYAM",
+      "weight": 2
+    },
+    {
+      "source": "CF",
+      "target": "DOW",
+      "weight": 224
+    },
+    {
+      "source": "CF",
+      "target": "DD",
+      "weight": 215
+    },
+    {
+      "source": "CF",
+      "target": "OLN",
+      "weight": 6
+    },
+    {
+      "source": "CF",
+      "target": "GRA",
+      "weight": 7
+    },
+    {
+      "source": "CF",
+      "target": "IFF",
+      "weight": 249
+    },
+    {
+      "source": "CF",
+      "target": "HUN",
+      "weight": 8
+    },
+    {
+      "source": "CF",
+      "target": "LXU",
+      "weight": 52
+    },
+    {
+      "source": "CF",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "FMC",
+      "weight": 2
+    },
+    {
+      "source": "CGA",
+      "target": "MOS",
+      "weight": 15
+    },
+    {
+      "source": "CGA",
+      "target": "GCP",
+      "weight": 4
+    },
+    {
+      "source": "CGA",
+      "target": "DNMR",
+      "weight": 3
+    },
+    {
+      "source": "CGA",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "PPG",
+      "weight": 12
+    },
+    {
+      "source": "CGA",
+      "target": "HUN",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "LTHM",
+      "weight": 3
+    },
+    {
+      "source": "CGA",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "CGA",
+      "target": "LXU",
+      "weight": 5
+    },
+    {
+      "source": "CGA",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "CGA",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "KRA",
+      "weight": 2
+    },
+    {
+      "source": "CGA",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "CGA",
+      "target": "GPRE",
+      "weight": 4
+    },
+    {
+      "source": "DD",
+      "target": "SITE",
+      "weight": 3
+    },
+    {
+      "source": "DD",
+      "target": "LTHM",
+      "weight": 21
+    },
+    {
+      "source": "DD",
+      "target": "HRTX",
+      "weight": 3
+    },
+    {
+      "source": "DD",
+      "target": "GRA",
+      "weight": 43
+    },
+    {
+      "source": "DD",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "DD",
+      "target": "FUL",
+      "weight": 7
+    },
+    {
+      "source": "DD",
+      "target": "KRA",
+      "weight": 5
+    },
+    {
+      "source": "DD",
+      "target": "EMN",
+      "weight": 242
+    },
+    {
+      "source": "DD",
+      "target": "ROG",
+      "weight": 29
+    },
+    {
+      "source": "DD",
+      "target": "GCP",
+      "weight": 6
+    },
+    {
+      "source": "DD",
+      "target": "DOW",
+      "weight": 428
+    },
+    {
+      "source": "DD",
+      "target": "ESI",
+      "weight": 10
+    },
+    {
+      "source": "DD",
+      "target": "MTX",
+      "weight": 3
+    },
+    {
+      "source": "DD",
+      "target": "WLK",
+      "weight": 57
+    },
+    {
+      "source": "DD",
+      "target": "RPM",
+      "weight": 4
+    },
+    {
+      "source": "DD",
+      "target": "OLN",
+      "weight": 27
+    },
+    {
+      "source": "DD",
+      "target": "MOS",
+      "weight": 263
+    },
+    {
+      "source": "DD",
+      "target": "SRDX",
+      "weight": 36
+    },
+    {
+      "source": "DD",
+      "target": "SHW",
+      "weight": 358
+    },
+    {
+      "source": "DD",
+      "target": "RYAM",
+      "weight": 3
+    },
+    {
+      "source": "DD",
+      "target": "IFF",
+      "weight": 476
+    },
+    {
+      "source": "DD",
+      "target": "HDSN",
+      "weight": 1
+    },
+    {
+      "source": "DD",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "DD",
+      "target": "FMC",
+      "weight": 248
+    },
+    {
+      "source": "DD",
+      "target": "FF",
+      "weight": 8
+    },
+    {
+      "source": "DD",
+      "target": "GPRE",
+      "weight": 3
+    },
+    {
+      "source": "DD",
+      "target": "VHI",
+      "weight": 6
+    },
+    {
+      "source": "DD",
+      "target": "PPG",
+      "weight": 326
+    },
+    {
+      "source": "DD",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "DD",
+      "target": "HUN",
+      "weight": 31
+    },
+    {
+      "source": "DD",
+      "target": "DNMR",
+      "weight": 15
+    },
+    {
+      "source": "DNMR",
+      "target": "WLK",
+      "weight": 16
+    },
+    {
+      "source": "DNMR",
+      "target": "MOS",
+      "weight": 4
+    },
+    {
+      "source": "DNMR",
+      "target": "SHW",
+      "weight": 12
+    },
+    {
+      "source": "DNMR",
+      "target": "RYAM",
+      "weight": 5
+    },
+    {
+      "source": "DNMR",
+      "target": "HUN",
+      "weight": 12
+    },
+    {
+      "source": "DNMR",
+      "target": "PPG",
+      "weight": 18
+    },
+    {
+      "source": "DNMR",
+      "target": "GCP",
+      "weight": 2
+    },
+    {
+      "source": "DNMR",
+      "target": "LTHM",
+      "weight": 13
+    },
+    {
+      "source": "DNMR",
+      "target": "GPRE",
+      "weight": 7
+    },
+    {
+      "source": "DNMR",
+      "target": "MTX",
+      "weight": 1
+    },
+    {
+      "source": "DNMR",
+      "target": "GRA",
+      "weight": 5
+    },
+    {
+      "source": "DNMR",
+      "target": "RPM",
+      "weight": 3
+    },
+    {
+      "source": "DNMR",
+      "target": "HRTX",
+      "weight": 4
+    },
+    {
+      "source": "DNMR",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "DNMR",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "DNMR",
+      "target": "ESI",
+      "weight": 4
+    },
+    {
+      "source": "DNMR",
+      "target": "FMC",
+      "weight": 3
+    },
+    {
+      "source": "DNMR",
+      "target": "HDSN",
+      "weight": 3
+    },
+    {
+      "source": "DNMR",
+      "target": "EMN",
+      "weight": 7
+    },
+    {
+      "source": "DNMR",
+      "target": "KRA",
+      "weight": 10
+    },
+    {
+      "source": "DNMR",
+      "target": "OLN",
+      "weight": 15
+    },
+    {
+      "source": "DNMR",
+      "target": "FUL",
+      "weight": 2
+    },
+    {
+      "source": "DNMR",
+      "target": "LXU",
+      "weight": 10
+    },
+    {
+      "source": "DNMR",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "DNMR",
+      "target": "DOW",
+      "weight": 39
+    },
+    {
+      "source": "DNMR",
+      "target": "IFF",
+      "weight": 4
+    },
+    {
+      "source": "DNMR",
+      "target": "SCL",
+      "weight": 2
+    },
+    {
+      "source": "DNMR",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "DNMR",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "LTHM",
+      "weight": 25
+    },
+    {
+      "source": "DOW",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "KRA",
+      "weight": 21
+    },
+    {
+      "source": "DOW",
+      "target": "HUN",
+      "weight": 107
+    },
+    {
+      "source": "DOW",
+      "target": "GRA",
+      "weight": 34
+    },
+    {
+      "source": "DOW",
+      "target": "SHW",
+      "weight": 385
+    },
+    {
+      "source": "DOW",
+      "target": "REX",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "HDSN",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "FOE",
+      "weight": 4
+    },
+    {
+      "source": "DOW",
+      "target": "FF",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "GPRE",
+      "weight": 4
+    },
+    {
+      "source": "DOW",
+      "target": "ESI",
+      "weight": 8
+    },
+    {
+      "source": "DOW",
+      "target": "LXU",
+      "weight": 4
+    },
+    {
+      "source": "DOW",
+      "target": "SCL",
+      "weight": 9
+    },
+    {
+      "source": "DOW",
+      "target": "FUL",
+      "weight": 19
+    },
+    {
+      "source": "DOW",
+      "target": "RPM",
+      "weight": 7
+    },
+    {
+      "source": "DOW",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "GCP",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "RYAM",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "NGVT",
+      "weight": 3
+    },
+    {
+      "source": "DOW",
+      "target": "PPG",
+      "weight": 397
+    },
+    {
+      "source": "DOW",
+      "target": "MTX",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "DOW",
+      "target": "IFF",
+      "weight": 295
+    },
+    {
+      "source": "DOW",
+      "target": "MOS",
+      "weight": 301
+    },
+    {
+      "source": "DOW",
+      "target": "NEU",
+      "weight": 7
+    },
+    {
+      "source": "DOW",
+      "target": "EMN",
+      "weight": 265
+    },
+    {
+      "source": "DOW",
+      "target": "OLN",
+      "weight": 102
+    },
+    {
+      "source": "DOW",
+      "target": "FMC",
+      "weight": 229
+    },
+    {
+      "source": "DOW",
+      "target": "WLK",
+      "weight": 181
+    },
+    {
+      "source": "DOW",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "DOW",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "EMN",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "EMN",
+      "target": "HUN",
+      "weight": 62
+    },
+    {
+      "source": "EMN",
+      "target": "KRA",
+      "weight": 10
+    },
+    {
+      "source": "EMN",
+      "target": "GRA",
+      "weight": 33
+    },
+    {
+      "source": "EMN",
+      "target": "SHW",
+      "weight": 247
+    },
+    {
+      "source": "EMN",
+      "target": "GPRE",
+      "weight": 3
+    },
+    {
+      "source": "EMN",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "EMN",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "EMN",
+      "target": "REX",
+      "weight": 3
+    },
+    {
+      "source": "EMN",
+      "target": "IFF",
+      "weight": 253
+    },
+    {
+      "source": "EMN",
+      "target": "MTX",
+      "weight": 14
+    },
+    {
+      "source": "EMN",
+      "target": "RPM",
+      "weight": 6
+    },
+    {
+      "source": "EMN",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "EMN",
+      "target": "FMC",
+      "weight": 227
+    },
+    {
+      "source": "EMN",
+      "target": "ESI",
+      "weight": 4
+    },
+    {
+      "source": "EMN",
+      "target": "FOE",
+      "weight": 2
+    },
+    {
+      "source": "EMN",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "EMN",
+      "target": "KRO",
+      "weight": 23
+    },
+    {
+      "source": "EMN",
+      "target": "PPG",
+      "weight": 250
+    },
+    {
+      "source": "EMN",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "EMN",
+      "target": "MOS",
+      "weight": 223
+    },
+    {
+      "source": "EMN",
+      "target": "WLK",
+      "weight": 58
+    },
+    {
+      "source": "EMN",
+      "target": "RYAM",
+      "weight": 6
+    },
+    {
+      "source": "EMN",
+      "target": "VHI",
+      "weight": 7
+    },
+    {
+      "source": "EMN",
+      "target": "FUL",
+      "weight": 23
+    },
+    {
+      "source": "EMN",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "EMN",
+      "target": "LTHM",
+      "weight": 4
+    },
+    {
+      "source": "EMN",
+      "target": "OLN",
+      "weight": 31
+    },
+    {
+      "source": "ESI",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "GCP",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "SCL",
+      "weight": 12
+    },
+    {
+      "source": "ESI",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "FF",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "ESI",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "ESI",
+      "target": "LTHM",
+      "weight": 12
+    },
+    {
+      "source": "ESI",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "ESI",
+      "target": "FUL",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "WLK",
+      "weight": 5
+    },
+    {
+      "source": "ESI",
+      "target": "PPG",
+      "weight": 6
+    },
+    {
+      "source": "ESI",
+      "target": "FOE",
+      "weight": 1
+    },
+    {
+      "source": "ESI",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "ESI",
+      "target": "OLN",
+      "weight": 14
+    },
+    {
+      "source": "ESI",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "ESI",
+      "target": "MOS",
+      "weight": 11
+    },
+    {
+      "source": "ESI",
+      "target": "IFF",
+      "weight": 7
+    },
+    {
+      "source": "ESI",
+      "target": "SHW",
+      "weight": 5
+    },
+    {
+      "source": "ESI",
+      "target": "HUN",
+      "weight": 8
+    },
+    {
+      "source": "ESI",
+      "target": "VHI",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "NEU",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "FMC",
+      "weight": 6
+    },
+    {
+      "source": "ESI",
+      "target": "KRA",
+      "weight": 6
+    },
+    {
+      "source": "ESI",
+      "target": "GRA",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "RYAM",
+      "weight": 2
+    },
+    {
+      "source": "ESI",
+      "target": "GPRE",
+      "weight": 6
+    },
+    {
+      "source": "FF",
+      "target": "FMC",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "RPM",
+      "weight": 4
+    },
+    {
+      "source": "FF",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "PPG",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "GPRE",
+      "weight": 14
+    },
+    {
+      "source": "FF",
+      "target": "REX",
+      "weight": 14
+    },
+    {
+      "source": "FF",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "HDSN",
+      "weight": 2
+    },
+    {
+      "source": "FF",
+      "target": "FUL",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "GCP",
+      "weight": 8
+    },
+    {
+      "source": "FF",
+      "target": "SHW",
+      "weight": 4
+    },
+    {
+      "source": "FF",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "FF",
+      "target": "HUN",
+      "weight": 2
+    },
+    {
+      "source": "FF",
+      "target": "IFF",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "RYAM",
+      "weight": 2
+    },
+    {
+      "source": "FF",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "FOE",
+      "weight": 74
+    },
+    {
+      "source": "FF",
+      "target": "NEU",
+      "weight": 5
+    },
+    {
+      "source": "FF",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "FF",
+      "target": "MTX",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "HUN",
+      "weight": 12
+    },
+    {
+      "source": "FMC",
+      "target": "LTHM",
+      "weight": 106
+    },
+    {
+      "source": "FMC",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "OLN",
+      "weight": 23
+    },
+    {
+      "source": "FMC",
+      "target": "SCL",
+      "weight": 5
+    },
+    {
+      "source": "FMC",
+      "target": "GPRE",
+      "weight": 9
+    },
+    {
+      "source": "FMC",
+      "target": "IFF",
+      "weight": 242
+    },
+    {
+      "source": "FMC",
+      "target": "GRA",
+      "weight": 7
+    },
+    {
+      "source": "FMC",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "MTX",
+      "weight": 14
+    },
+    {
+      "source": "FMC",
+      "target": "GCP",
+      "weight": 4
+    },
+    {
+      "source": "FMC",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "MOS",
+      "weight": 217
+    },
+    {
+      "source": "FMC",
+      "target": "RPM",
+      "weight": 6
+    },
+    {
+      "source": "FMC",
+      "target": "PPG",
+      "weight": 226
+    },
+    {
+      "source": "FMC",
+      "target": "RYAM",
+      "weight": 3
+    },
+    {
+      "source": "FMC",
+      "target": "HDSN",
+      "weight": 4
+    },
+    {
+      "source": "FMC",
+      "target": "WLK",
+      "weight": 25
+    },
+    {
+      "source": "FMC",
+      "target": "SHW",
+      "weight": 239
+    },
+    {
+      "source": "FMC",
+      "target": "FUL",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "NEU",
+      "weight": 2
+    },
+    {
+      "source": "FMC",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "FMC",
+      "target": "SITE",
+      "weight": 3
+    },
+    {
+      "source": "FMC",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "PPG",
+      "weight": 52
+    },
+    {
+      "source": "FOE",
+      "target": "FUL",
+      "weight": 4
+    },
+    {
+      "source": "FOE",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "FOE",
+      "target": "KRO",
+      "weight": 7
+    },
+    {
+      "source": "FOE",
+      "target": "GRA",
+      "weight": 16
+    },
+    {
+      "source": "FOE",
+      "target": "GCP",
+      "weight": 3
+    },
+    {
+      "source": "FOE",
+      "target": "GPRE",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "RYAM",
+      "weight": 3
+    },
+    {
+      "source": "FOE",
+      "target": "SHW",
+      "weight": 32
+    },
+    {
+      "source": "FOE",
+      "target": "MOS",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "HUN",
+      "weight": 16
+    },
+    {
+      "source": "FOE",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "FOE",
+      "target": "RPM",
+      "weight": 62
+    },
+    {
+      "source": "FOE",
+      "target": "IFF",
+      "weight": 5
+    },
+    {
+      "source": "FOE",
+      "target": "HRTX",
+      "weight": 1
+    },
+    {
+      "source": "FUL",
+      "target": "KRA",
+      "weight": 2
+    },
+    {
+      "source": "FUL",
+      "target": "GRA",
+      "weight": 2
+    },
+    {
+      "source": "FUL",
+      "target": "IFF",
+      "weight": 5
+    },
+    {
+      "source": "FUL",
+      "target": "MOS",
+      "weight": 1
+    },
+    {
+      "source": "FUL",
+      "target": "HUN",
+      "weight": 10
+    },
+    {
+      "source": "FUL",
+      "target": "WLK",
+      "weight": 10
+    },
+    {
+      "source": "FUL",
+      "target": "PPG",
+      "weight": 40
+    },
+    {
+      "source": "FUL",
+      "target": "GPRE",
+      "weight": 1
+    },
+    {
+      "source": "FUL",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "FUL",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "FUL",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "FUL",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "FUL",
+      "target": "SHW",
+      "weight": 26
+    },
+    {
+      "source": "FUL",
+      "target": "SCL",
+      "weight": 30
+    },
+    {
+      "source": "FUL",
+      "target": "OLN",
+      "weight": 7
+    },
+    {
+      "source": "FUL",
+      "target": "MTX",
+      "weight": 3
+    },
+    {
+      "source": "FUL",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "FUL",
+      "target": "RPM",
+      "weight": 31
+    },
+    {
+      "source": "GCP",
+      "target": "REX",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "PPG",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "NGVT",
+      "weight": 11
+    },
+    {
+      "source": "GCP",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "HDSN",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "GPRE",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "RPM",
+      "weight": 12
+    },
+    {
+      "source": "GCP",
+      "target": "IFF",
+      "weight": 10
+    },
+    {
+      "source": "GCP",
+      "target": "HUN",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "GCP",
+      "target": "SHW",
+      "weight": 9
+    },
+    {
+      "source": "GCP",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "KRA",
+      "weight": 1
+    },
+    {
+      "source": "GCP",
+      "target": "OLN",
+      "weight": 13
+    },
+    {
+      "source": "GCP",
+      "target": "MOS",
+      "weight": 9
+    },
+    {
+      "source": "GCP",
+      "target": "WLK",
+      "weight": 2
+    },
+    {
+      "source": "GCP",
+      "target": "LTHM",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "GRA",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "MOS",
+      "weight": 5
+    },
+    {
+      "source": "GPRE",
+      "target": "IFF",
+      "weight": 5
+    },
+    {
+      "source": "GPRE",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "REX",
+      "weight": 70
+    },
+    {
+      "source": "GPRE",
+      "target": "HDSN",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "HUN",
+      "weight": 1
+    },
+    {
+      "source": "GPRE",
+      "target": "KRA",
+      "weight": 4
+    },
+    {
+      "source": "GPRE",
+      "target": "LXU",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "PPG",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "SRDX",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "LTHM",
+      "weight": 13
+    },
+    {
+      "source": "GPRE",
+      "target": "SITE",
+      "weight": 3
+    },
+    {
+      "source": "GPRE",
+      "target": "HRTX",
+      "weight": 2
+    },
+    {
+      "source": "GPRE",
+      "target": "OLN",
+      "weight": 5
+    },
+    {
+      "source": "GPRE",
+      "target": "NGVT",
+      "weight": 4
+    },
+    {
+      "source": "GRA",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "GRA",
+      "target": "KRA",
+      "weight": 2
+    },
+    {
+      "source": "GRA",
+      "target": "OLN",
+      "weight": 17
+    },
+    {
+      "source": "GRA",
+      "target": "IFF",
+      "weight": 17
+    },
+    {
+      "source": "GRA",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "GRA",
+      "target": "RPM",
+      "weight": 11
+    },
+    {
+      "source": "GRA",
+      "target": "LNDC",
+      "weight": 2
+    },
+    {
+      "source": "GRA",
+      "target": "SCL",
+      "weight": 12
+    },
+    {
+      "source": "GRA",
+      "target": "SHW",
+      "weight": 10
+    },
+    {
+      "source": "GRA",
+      "target": "HUN",
+      "weight": 21
+    },
+    {
+      "source": "GRA",
+      "target": "MOS",
+      "weight": 9
+    },
+    {
+      "source": "GRA",
+      "target": "HRTX",
+      "weight": 3
+    },
+    {
+      "source": "GRA",
+      "target": "PPG",
+      "weight": 11
+    },
+    {
+      "source": "GRA",
+      "target": "LTHM",
+      "weight": 4
+    },
+    {
+      "source": "GRA",
+      "target": "WLK",
+      "weight": 27
+    },
+    {
+      "source": "GRA",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "HRTX",
+      "weight": 8
+    },
+    {
+      "source": "HDSN",
+      "target": "IOSP",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "HDSN",
+      "target": "OLN",
+      "weight": 2
+    },
+    {
+      "source": "HDSN",
+      "target": "IFF",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "REX",
+      "weight": 5
+    },
+    {
+      "source": "HDSN",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "MTX",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "HDSN",
+      "target": "MOS",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "HUN",
+      "weight": 10
+    },
+    {
+      "source": "HRTX",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "KRO",
+      "weight": 2
+    },
+    {
+      "source": "HRTX",
+      "target": "LTHM",
+      "weight": 3
+    },
+    {
+      "source": "HRTX",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "HRTX",
+      "target": "RPM",
+      "weight": 2
+    },
+    {
+      "source": "HUN",
+      "target": "MOS",
+      "weight": 10
+    },
+    {
+      "source": "HUN",
+      "target": "LXU",
+      "weight": 5
+    },
+    {
+      "source": "HUN",
+      "target": "IFF",
+      "weight": 11
+    },
+    {
+      "source": "HUN",
+      "target": "OLN",
+      "weight": 45
+    },
+    {
+      "source": "HUN",
+      "target": "RPM",
+      "weight": 31
+    },
+    {
+      "source": "HUN",
+      "target": "WLK",
+      "weight": 93
+    },
+    {
+      "source": "HUN",
+      "target": "VHI",
+      "weight": 34
+    },
+    {
+      "source": "HUN",
+      "target": "KRA",
+      "weight": 18
+    },
+    {
+      "source": "HUN",
+      "target": "PPG",
+      "weight": 52
+    },
+    {
+      "source": "HUN",
+      "target": "SHW",
+      "weight": 41
+    },
+    {
+      "source": "HUN",
+      "target": "SCL",
+      "weight": 9
+    },
+    {
+      "source": "HUN",
+      "target": "LTHM",
+      "weight": 13
+    },
+    {
+      "source": "HUN",
+      "target": "MTX",
+      "weight": 8
+    },
+    {
+      "source": "HUN",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "HUN",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "HUN",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "HUN",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "HUN",
+      "target": "KRO",
+      "weight": 60
+    },
+    {
+      "source": "IFF",
+      "target": "MOS",
+      "weight": 231
+    },
+    {
+      "source": "IFF",
+      "target": "NEU",
+      "weight": 3
+    },
+    {
+      "source": "IFF",
+      "target": "LXU",
+      "weight": 1
+    },
+    {
+      "source": "IFF",
+      "target": "KRA",
+      "weight": 2
+    },
+    {
+      "source": "IFF",
+      "target": "NGVT",
+      "weight": 3
+    },
+    {
+      "source": "IFF",
+      "target": "KRO",
+      "weight": 5
+    },
+    {
+      "source": "IFF",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "IFF",
+      "target": "VHI",
+      "weight": 7
+    },
+    {
+      "source": "IFF",
+      "target": "MTX",
+      "weight": 8
+    },
+    {
+      "source": "IFF",
+      "target": "SCL",
+      "weight": 18
+    },
+    {
+      "source": "IFF",
+      "target": "LTHM",
+      "weight": 4
+    },
+    {
+      "source": "IFF",
+      "target": "SHW",
+      "weight": 303
+    },
+    {
+      "source": "IFF",
+      "target": "PPG",
+      "weight": 287
+    },
+    {
+      "source": "IFF",
+      "target": "OLN",
+      "weight": 40
+    },
+    {
+      "source": "IFF",
+      "target": "WLK",
+      "weight": 7
+    },
+    {
+      "source": "IOSP",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "MOS",
+      "weight": 2
+    },
+    {
+      "source": "IOSP",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "SCL",
+      "weight": 86
+    },
+    {
+      "source": "IOSP",
+      "target": "MTX",
+      "weight": 3
+    },
+    {
+      "source": "IOSP",
+      "target": "NEU",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "KRO",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "IOSP",
+      "target": "LNDC",
+      "weight": 1
+    },
+    {
+      "source": "KRA",
+      "target": "NEU",
+      "weight": 3
+    },
+    {
+      "source": "KRA",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "KRA",
+      "target": "KRO",
+      "weight": 42
+    },
+    {
+      "source": "KRA",
+      "target": "LXU",
+      "weight": 8
+    },
+    {
+      "source": "KRA",
+      "target": "OLN",
+      "weight": 3
+    },
+    {
+      "source": "KRA",
+      "target": "PPG",
+      "weight": 7
+    },
+    {
+      "source": "KRA",
+      "target": "MOS",
+      "weight": 4
+    },
+    {
+      "source": "KRA",
+      "target": "LTHM",
+      "weight": 12
+    },
+    {
+      "source": "KRA",
+      "target": "WLK",
+      "weight": 36
+    },
+    {
+      "source": "KRA",
+      "target": "RYAM",
+      "weight": 7
+    },
+    {
+      "source": "KRA",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "KRA",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "KRA",
+      "target": "LNDC",
+      "weight": 4
+    },
+    {
+      "source": "KRA",
+      "target": "NGVT",
+      "weight": 11
+    },
+    {
+      "source": "KRA",
+      "target": "SHW",
+      "weight": 4
+    },
+    {
+      "source": "KRO",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "KRO",
+      "target": "SCL",
+      "weight": 3
+    },
+    {
+      "source": "KRO",
+      "target": "RPM",
+      "weight": 6
+    },
+    {
+      "source": "KRO",
+      "target": "VHI",
+      "weight": 32
+    },
+    {
+      "source": "KRO",
+      "target": "WLK",
+      "weight": 2
+    },
+    {
+      "source": "KRO",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "KRO",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "KRO",
+      "target": "MOS",
+      "weight": 2
+    },
+    {
+      "source": "KRO",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "KRO",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "LNDC",
+      "target": "LTHM",
+      "weight": 1
+    },
+    {
+      "source": "LNDC",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "LNDC",
+      "target": "RPM",
+      "weight": 67
+    },
+    {
+      "source": "LNDC",
+      "target": "MOS",
+      "weight": 1
+    },
+    {
+      "source": "LNDC",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "LNDC",
+      "target": "LXU",
+      "weight": 3
+    },
+    {
+      "source": "LNDC",
+      "target": "NEU",
+      "weight": 2
+    },
+    {
+      "source": "LNDC",
+      "target": "NGVT",
+      "weight": 2
+    },
+    {
+      "source": "LNDC",
+      "target": "SCL",
+      "weight": 1
+    },
+    {
+      "source": "LTHM",
+      "target": "OLN",
+      "weight": 13
+    },
+    {
+      "source": "LTHM",
+      "target": "SCL",
+      "weight": 4
+    },
+    {
+      "source": "LTHM",
+      "target": "MOS",
+      "weight": 31
+    },
+    {
+      "source": "LTHM",
+      "target": "NGVT",
+      "weight": 1
+    },
+    {
+      "source": "LTHM",
+      "target": "SITE",
+      "weight": 4
+    },
+    {
+      "source": "LTHM",
+      "target": "PPG",
+      "weight": 10
+    },
+    {
+      "source": "LTHM",
+      "target": "ROG",
+      "weight": 20
+    },
+    {
+      "source": "LTHM",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "LTHM",
+      "target": "RYAM",
+      "weight": 4
+    },
+    {
+      "source": "LTHM",
+      "target": "MTX",
+      "weight": 2
+    },
+    {
+      "source": "LTHM",
+      "target": "RPM",
+      "weight": 5
+    },
+    {
+      "source": "LTHM",
+      "target": "SHW",
+      "weight": 12
+    },
+    {
+      "source": "LTHM",
+      "target": "WLK",
+      "weight": 11
+    },
+    {
+      "source": "LTHM",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "LTHM",
+      "target": "LXU",
+      "weight": 7
+    },
+    {
+      "source": "LXU",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "LXU",
+      "target": "PPG",
+      "weight": 2
+    },
+    {
+      "source": "LXU",
+      "target": "NEU",
+      "weight": 3
+    },
+    {
+      "source": "LXU",
+      "target": "NGVT",
+      "weight": 12
+    },
+    {
+      "source": "LXU",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "LXU",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "LXU",
+      "target": "VHI",
+      "weight": 2
+    },
+    {
+      "source": "LXU",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "LXU",
+      "target": "MOS",
+      "weight": 30
+    },
+    {
+      "source": "LXU",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "LXU",
+      "target": "OLN",
+      "weight": 2
+    },
+    {
+      "source": "MOS",
+      "target": "VHI",
+      "weight": 2
+    },
+    {
+      "source": "MOS",
+      "target": "PPG",
+      "weight": 216
+    },
+    {
+      "source": "MOS",
+      "target": "NEU",
+      "weight": 7
+    },
+    {
+      "source": "MOS",
+      "target": "SHW",
+      "weight": 224
+    },
+    {
+      "source": "MOS",
+      "target": "OLN",
+      "weight": 219
+    },
+    {
+      "source": "MOS",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "MOS",
+      "target": "SCL",
+      "weight": 19
+    },
+    {
+      "source": "MOS",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "MOS",
+      "target": "MTX",
+      "weight": 5
+    },
+    {
+      "source": "MOS",
+      "target": "WLK",
+      "weight": 8
+    },
+    {
+      "source": "MOS",
+      "target": "RYAM",
+      "weight": 5
+    },
+    {
+      "source": "MOS",
+      "target": "REX",
+      "weight": 1
+    },
+    {
+      "source": "MTX",
+      "target": "NGVT",
+      "weight": 7
+    },
+    {
+      "source": "MTX",
+      "target": "SHW",
+      "weight": 4
+    },
+    {
+      "source": "MTX",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "MTX",
+      "target": "SCL",
+      "weight": 27
+    },
+    {
+      "source": "MTX",
+      "target": "WLK",
+      "weight": 4
+    },
+    {
+      "source": "MTX",
+      "target": "PPG",
+      "weight": 11
+    },
+    {
+      "source": "MTX",
+      "target": "OLN",
+      "weight": 39
+    },
+    {
+      "source": "MTX",
+      "target": "ROG",
+      "weight": 3
+    },
+    {
+      "source": "MTX",
+      "target": "RPM",
+      "weight": 2
+    },
+    {
+      "source": "NEU",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "NEU",
+      "target": "PPG",
+      "weight": 5
+    },
+    {
+      "source": "NEU",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "NEU",
+      "target": "NGVT",
+      "weight": 4
+    },
+    {
+      "source": "NEU",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "NEU",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "NEU",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "SHW",
+      "weight": 2
+    },
+    {
+      "source": "NGVT",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "OLN",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "SRDX",
+      "weight": 1
+    },
+    {
+      "source": "NGVT",
+      "target": "RYAM",
+      "weight": 2
+    },
+    {
+      "source": "NGVT",
+      "target": "PPG",
+      "weight": 1
+    },
+    {
+      "source": "OLN",
+      "target": "SCL",
+      "weight": 33
+    },
+    {
+      "source": "OLN",
+      "target": "PPG",
+      "weight": 43
+    },
+    {
+      "source": "OLN",
+      "target": "RYAM",
+      "weight": 3
+    },
+    {
+      "source": "OLN",
+      "target": "SITE",
+      "weight": 10
+    },
+    {
+      "source": "OLN",
+      "target": "SHW",
+      "weight": 28
+    },
+    {
+      "source": "OLN",
+      "target": "ROG",
+      "weight": 7
+    },
+    {
+      "source": "OLN",
+      "target": "WLK",
+      "weight": 114
+    },
+    {
+      "source": "OLN",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "OLN",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "PPG",
+      "target": "ROG",
+      "weight": 2
+    },
+    {
+      "source": "PPG",
+      "target": "SHW",
+      "weight": 560
+    },
+    {
+      "source": "PPG",
+      "target": "WLK",
+      "weight": 70
+    },
+    {
+      "source": "PPG",
+      "target": "RPM",
+      "weight": 116
+    },
+    {
+      "source": "PPG",
+      "target": "SCL",
+      "weight": 37
+    },
+    {
+      "source": "REX",
+      "target": "WLK",
+      "weight": 2
+    },
+    {
+      "source": "REX",
+      "target": "RPM",
+      "weight": 1
+    },
+    {
+      "source": "REX",
+      "target": "ROG",
+      "weight": 1
+    },
+    {
+      "source": "REX",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "ROG",
+      "target": "RYAM",
+      "weight": 29
+    },
+    {
+      "source": "ROG",
+      "target": "WLK",
+      "weight": 2
+    },
+    {
+      "source": "ROG",
+      "target": "SITE",
+      "weight": 10
+    },
+    {
+      "source": "ROG",
+      "target": "RPM",
+      "weight": 3
+    },
+    {
+      "source": "ROG",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "ROG",
+      "target": "SCL",
+      "weight": 6
+    },
+    {
+      "source": "ROG",
+      "target": "SHW",
+      "weight": 1
+    },
+    {
+      "source": "RPM",
+      "target": "RYAM",
+      "weight": 1
+    },
+    {
+      "source": "RPM",
+      "target": "SHW",
+      "weight": 94
+    },
+    {
+      "source": "RPM",
+      "target": "WLK",
+      "weight": 9
+    },
+    {
+      "source": "RPM",
+      "target": "SCL",
+      "weight": 5
+    },
+    {
+      "source": "RYAM",
+      "target": "SCL",
+      "weight": 17
+    },
+    {
+      "source": "RYAM",
+      "target": "WLK",
+      "weight": 4
+    },
+    {
+      "source": "RYAM",
+      "target": "SHW",
+      "weight": 2
+    },
+    {
+      "source": "SCL",
+      "target": "WLK",
+      "weight": 16
+    },
+    {
+      "source": "SCL",
+      "target": "SHW",
+      "weight": 29
+    },
+    {
+      "source": "SCL",
+      "target": "SITE",
+      "weight": 1
+    },
+    {
+      "source": "SHW",
+      "target": "VHI",
+      "weight": 6
+    },
+    {
+      "source": "SHW",
+      "target": "SITE",
+      "weight": 2
+    },
+    {
+      "source": "SHW",
+      "target": "WLK",
+      "weight": 34
+    },
+    {
+      "source": "SITE",
+      "target": "VHI",
+      "weight": 1
+    },
+    {
+      "source": "SITE",
+      "target": "WLK",
+      "weight": 1
+    },
+    {
+      "source": "SITE",
+      "target": "SRDX",
+      "weight": 3
+    },
+    {
+      "source": "VHI",
+      "target": "WLK",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "BF",
+      "label": "BF",
+      "industry": "Beer",
+      "degree_centrality": 0.8888888888888888,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9,
+      "eigenvector_centrality": 0.059872142217169966,
+      "harmonic_centrality": 1.592857142857143,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 255
+    },
+    {
+      "id": "BREW",
+      "label": "BREW",
+      "industry": "Beer",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.40277777777777773,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.2556571968063489,
+      "harmonic_centrality": 4.2,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 965
+    },
+    {
+      "id": "COKE",
+      "label": "COKE",
+      "industry": "Beer",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.3611111111111111,
+      "closeness_centrality": 0.6,
+      "eigenvector_centrality": 0.0021252963657964964,
+      "harmonic_centrality": 3.983333333333334,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 18
+    },
+    {
+      "id": "CREG",
+      "label": "CREG",
+      "industry": "Beer",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.47368421052631576,
+      "eigenvector_centrality": 0.00010449232943814446,
+      "harmonic_centrality": 3.0749999999999993,
+      "eccentricity": 3,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "MGPI",
+      "label": "MGPI",
+      "industry": "Beer",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.027777777777777776,
+      "closeness_centrality": 0.6,
+      "eigenvector_centrality": 0.003250457118768119,
+      "harmonic_centrality": 2.2666666666666666,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 17
+    },
+    {
+      "id": "ROX",
+      "label": "ROX",
+      "industry": "Beer",
+      "degree_centrality": 0.7777777777777777,
+      "betweenness_centrality": 0.3194444444444444,
+      "closeness_centrality": 0.8181818181818182,
+      "eigenvector_centrality": 0.21045479074598436,
+      "harmonic_centrality": 4.126190476190477,
+      "eccentricity": 2,
+      "degree": 7,
+      "weighted_degree": 794
+    },
+    {
+      "id": "SAM",
+      "label": "SAM",
+      "industry": "Beer",
+      "degree_centrality": 0.8888888888888888,
+      "betweenness_centrality": 0.18055555555555555,
+      "closeness_centrality": 0.9,
+      "eigenvector_centrality": 0.42874262327050305,
+      "harmonic_centrality": 3.4499999999999997,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 1868
+    },
+    {
+      "id": "STZ",
+      "label": "STZ",
+      "industry": "Beer",
+      "degree_centrality": 0.8888888888888888,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9,
+      "eigenvector_centrality": 0.5874972802937929,
+      "harmonic_centrality": 1.3234126984126986,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 2593
+    },
+    {
+      "id": "TAP",
+      "label": "TAP",
+      "industry": "Beer",
+      "degree_centrality": 0.7777777777777777,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8181818181818182,
+      "eigenvector_centrality": 0.5981103296269044,
+      "harmonic_centrality": 2.0206349206349206,
+      "eccentricity": 2,
+      "degree": 7,
+      "weighted_degree": 2643
+    },
+    {
+      "id": "WVVI",
+      "label": "WVVI",
+      "industry": "Beer",
+      "degree_centrality": 0.5555555555555556,
+      "betweenness_centrality": 0.16666666666666666,
+      "closeness_centrality": 0.6923076923076923,
+      "eigenvector_centrality": 0.006257341037548257,
+      "harmonic_centrality": 2.7611111111111115,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 28
+    }
+  ],
+  "edges": [
+    {
+      "source": "BF",
+      "target": "STZ",
+      "weight": 96
+    },
+    {
+      "source": "BF",
+      "target": "BREW",
+      "weight": 4
+    },
+    {
+      "source": "BF",
+      "target": "COKE",
+      "weight": 11
+    },
+    {
+      "source": "BF",
+      "target": "MGPI",
+      "weight": 6
+    },
+    {
+      "source": "BF",
+      "target": "ROX",
+      "weight": 11
+    },
+    {
+      "source": "BF",
+      "target": "SAM",
+      "weight": 72
+    },
+    {
+      "source": "BF",
+      "target": "TAP",
+      "weight": 50
+    },
+    {
+      "source": "BF",
+      "target": "WVVI",
+      "weight": 5
+    },
+    {
+      "source": "BREW",
+      "target": "STZ",
+      "weight": 305
+    },
+    {
+      "source": "BREW",
+      "target": "TAP",
+      "weight": 324
+    },
+    {
+      "source": "BREW",
+      "target": "SAM",
+      "weight": 330
+    },
+    {
+      "source": "BREW",
+      "target": "ROX",
+      "weight": 1
+    },
+    {
+      "source": "BREW",
+      "target": "COKE",
+      "weight": 1
+    },
+    {
+      "source": "COKE",
+      "target": "STZ",
+      "weight": 5
+    },
+    {
+      "source": "COKE",
+      "target": "SAM",
+      "weight": 1
+    },
+    {
+      "source": "CREG",
+      "target": "ROX",
+      "weight": 1
+    },
+    {
+      "source": "MGPI",
+      "target": "STZ",
+      "weight": 5
+    },
+    {
+      "source": "MGPI",
+      "target": "SAM",
+      "weight": 2
+    },
+    {
+      "source": "MGPI",
+      "target": "TAP",
+      "weight": 4
+    },
+    {
+      "source": "ROX",
+      "target": "SAM",
+      "weight": 238
+    },
+    {
+      "source": "ROX",
+      "target": "STZ",
+      "weight": 252
+    },
+    {
+      "source": "ROX",
+      "target": "TAP",
+      "weight": 289
+    },
+    {
+      "source": "ROX",
+      "target": "WVVI",
+      "weight": 2
+    },
+    {
+      "source": "SAM",
+      "target": "STZ",
+      "weight": 581
+    },
+    {
+      "source": "SAM",
+      "target": "WVVI",
+      "weight": 3
+    },
+    {
+      "source": "SAM",
+      "target": "TAP",
+      "weight": 641
+    },
+    {
+      "source": "STZ",
+      "target": "WVVI",
+      "weight": 16
+    },
+    {
+      "source": "STZ",
+      "target": "TAP",
+      "weight": 1333
+    },
+    {
+      "source": "TAP",
+      "target": "WVVI",
+      "weight": 2
+    }
+  ]
+}

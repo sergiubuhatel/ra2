@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "GBX",
+      "label": "GBX",
+      "industry": "Ships",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.5331835448894513,
+      "harmonic_centrality": 2.0135135135135136,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 215
+    },
+    {
+      "id": "HII",
+      "label": "HII",
+      "industry": "Ships",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.75,
+      "closeness_centrality": 0.8,
+      "eigenvector_centrality": 0.0069709628623356125,
+      "harmonic_centrality": 3.0136986301369864,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "RAIL",
+      "label": "RAIL",
+      "industry": "Ships",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.45154959974068326,
+      "harmonic_centrality": 2.0135135135135136,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 173
+    },
+    {
+      "id": "TRN",
+      "label": "TRN",
+      "industry": "Ships",
+      "degree_centrality": 0.75,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8,
+      "eigenvector_centrality": 0.5777280829219321,
+      "harmonic_centrality": 0.05461454605290222,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 245
+    },
+    {
+      "id": "WAB",
+      "label": "WAB",
+      "industry": "Ships",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.41666666666666663,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.42190038434832977,
+      "harmonic_centrality": 2.013888888888889,
+      "eccentricity": 1,
+      "degree": 4,
+      "weighted_degree": 160
+    }
+  ],
+  "edges": [
+    {
+      "source": "GBX",
+      "target": "HII",
+      "weight": 1
+    },
+    {
+      "source": "GBX",
+      "target": "TRN",
+      "weight": 99
+    },
+    {
+      "source": "GBX",
+      "target": "WAB",
+      "weight": 52
+    },
+    {
+      "source": "GBX",
+      "target": "RAIL",
+      "weight": 63
+    },
+    {
+      "source": "HII",
+      "target": "RAIL",
+      "weight": 1
+    },
+    {
+      "source": "HII",
+      "target": "WAB",
+      "weight": 1
+    },
+    {
+      "source": "RAIL",
+      "target": "TRN",
+      "weight": 74
+    },
+    {
+      "source": "RAIL",
+      "target": "WAB",
+      "weight": 35
+    },
+    {
+      "source": "TRN",
+      "target": "WAB",
+      "weight": 72
+    }
+  ]
+}

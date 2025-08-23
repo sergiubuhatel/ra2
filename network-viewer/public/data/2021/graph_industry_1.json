@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "ALCO",
+      "label": "ALCO",
+      "industry": "Agric",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.015873015873015872,
+      "closeness_centrality": 0.6363636363636364,
+      "eigenvector_centrality": 0.046986785827644734,
+      "harmonic_centrality": 3.75,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 5
+    },
+    {
+      "id": "BV",
+      "label": "BV",
+      "industry": "Agric",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.11904761904761904,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.07166786863421733,
+      "harmonic_centrality": 4.166666666666666,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 6
+    },
+    {
+      "id": "CALM",
+      "label": "CALM",
+      "industry": "Agric",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5833333333333334,
+      "eigenvector_centrality": 0.021998811700862226,
+      "harmonic_centrality": 2.583333333333333,
+      "eccentricity": 2,
+      "degree": 2,
+      "weighted_degree": 4
+    },
+    {
+      "id": "CDZI",
+      "label": "CDZI",
+      "industry": "Agric",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.4444444444444445,
+      "closeness_centrality": 0.7777777777777778,
+      "eigenvector_centrality": 0.07721397878516792,
+      "harmonic_centrality": 5.0,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 11
+    },
+    {
+      "id": "CTVA",
+      "label": "CTVA",
+      "industry": "Agric",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.023809523809523808,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.6143555177863215,
+      "harmonic_centrality": 4.0,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 37
+    },
+    {
+      "id": "CVGW",
+      "label": "CVGW",
+      "industry": "Agric",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.07142857142857142,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.34393848544145195,
+      "harmonic_centrality": 4.0,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 30
+    },
+    {
+      "id": "SMG",
+      "label": "SMG",
+      "industry": "Agric",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.07142857142857142,
+      "closeness_centrality": 0.875,
+      "eigenvector_centrality": 0.6955818302440062,
+      "harmonic_centrality": 4.0,
+      "eccentricity": 2,
+      "degree": 6,
+      "weighted_degree": 57
+    },
+    {
+      "id": "TMX",
+      "label": "TMX",
+      "industry": "Agric",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.21428571428571427,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.08154474697409304,
+      "harmonic_centrality": 4.666666666666666,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 6
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALCO",
+      "target": "CVGW",
+      "weight": 3
+    },
+    {
+      "source": "ALCO",
+      "target": "SMG",
+      "weight": 1
+    },
+    {
+      "source": "ALCO",
+      "target": "BV",
+      "weight": 1
+    },
+    {
+      "source": "BV",
+      "target": "CDZI",
+      "weight": 1
+    },
+    {
+      "source": "BV",
+      "target": "SMG",
+      "weight": 2
+    },
+    {
+      "source": "BV",
+      "target": "CTVA",
+      "weight": 2
+    },
+    {
+      "source": "CALM",
+      "target": "CDZI",
+      "weight": 2
+    },
+    {
+      "source": "CALM",
+      "target": "CVGW",
+      "weight": 2
+    },
+    {
+      "source": "CDZI",
+      "target": "CVGW",
+      "weight": 6
+    },
+    {
+      "source": "CDZI",
+      "target": "SMG",
+      "weight": 1
+    },
+    {
+      "source": "CDZI",
+      "target": "TMX",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "SMG",
+      "weight": 33
+    },
+    {
+      "source": "CTVA",
+      "target": "TMX",
+      "weight": 1
+    },
+    {
+      "source": "CVGW",
+      "target": "TMX",
+      "weight": 1
+    },
+    {
+      "source": "CVGW",
+      "target": "SMG",
+      "weight": 17
+    },
+    {
+      "source": "SMG",
+      "target": "TMX",
+      "weight": 3
+    }
+  ]
+}

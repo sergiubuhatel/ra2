@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "id": "ALCO",
+      "label": "ALCO",
+      "industry": "Agric",
+      "degree_centrality": 0.16666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.2962962962962963,
+      "eigenvector_centrality": 0.014973731058012602,
+      "harmonic_centrality": 1.0608493397358942,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "CALM",
+      "label": "CALM",
+      "industry": "Agric",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.2,
+      "closeness_centrality": 0.4444444444444444,
+      "eigenvector_centrality": 0.7055115136282142,
+      "harmonic_centrality": 1.0621099290780143,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 48
+    },
+    {
+      "id": "CDZI",
+      "label": "CDZI",
+      "industry": "Agric",
+      "degree_centrality": 0.16666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3333333333333333,
+      "eigenvector_centrality": 0.015004121595835527,
+      "harmonic_centrality": 1.2912414965986394,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "CVGW",
+      "label": "CVGW",
+      "industry": "Agric",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.3333333333333333,
+      "closeness_centrality": 0.5333333333333333,
+      "eigenvector_centrality": 0.706949824858598,
+      "harmonic_centrality": 1.3754432624113473,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 51
+    },
+    {
+      "id": "GRIF",
+      "label": "GRIF",
+      "industry": "Agric",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SERV",
+      "label": "SERV",
+      "industry": "Agric",
+      "degree_centrality": 0.16666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3333333333333333,
+      "eigenvector_centrality": 0.04501236478750659,
+      "harmonic_centrality": 0.6229411764705882,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 3
+    },
+    {
+      "id": "WOOF",
+      "label": "WOOF",
+      "industry": "Agric",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALCO",
+      "target": "CALM",
+      "weight": 1
+    },
+    {
+      "source": "CALM",
+      "target": "CVGW",
+      "weight": 47
+    },
+    {
+      "source": "CDZI",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CVGW",
+      "target": "SERV",
+      "weight": 3
+    }
+  ]
+}

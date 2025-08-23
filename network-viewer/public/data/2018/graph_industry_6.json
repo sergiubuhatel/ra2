@@ -1,0 +1,682 @@
+{
+  "nodes": [
+    {
+      "id": "AGS",
+      "label": "AGS",
+      "industry": "Toys",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0071428571428571435,
+      "closeness_centrality": 0.48840048840048833,
+      "eigenvector_centrality": 0.00010212631251150911,
+      "harmonic_centrality": 6.983333333333333,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 8
+    },
+    {
+      "id": "ARLO",
+      "label": "ARLO",
+      "industry": "Toys",
+      "degree_centrality": 0.23809523809523808,
+      "betweenness_centrality": 0.03198412698412699,
+      "closeness_centrality": 0.5291005291005291,
+      "eigenvector_centrality": 0.006933434820778919,
+      "harmonic_centrality": 7.233333333333333,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 102
+    },
+    {
+      "id": "BC",
+      "label": "BC",
+      "industry": "Toys",
+      "degree_centrality": 0.38095238095238093,
+      "betweenness_centrality": 0.02380952380952381,
+      "closeness_centrality": 0.5952380952380952,
+      "eigenvector_centrality": 0.005101940347460821,
+      "harmonic_centrality": 5.6,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 51
+    },
+    {
+      "id": "ELY",
+      "label": "ELY",
+      "industry": "Toys",
+      "degree_centrality": 0.7619047619047619,
+      "betweenness_centrality": 0.05896825396825397,
+      "closeness_centrality": 0.7936507936507936,
+      "eigenvector_centrality": 0.019362125393444084,
+      "harmonic_centrality": 7.3,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 163
+    },
+    {
+      "id": "ESCA",
+      "label": "ESCA",
+      "industry": "Toys",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0857936507936508,
+      "closeness_centrality": 0.5442176870748299,
+      "eigenvector_centrality": 0.001396684687324843,
+      "harmonic_centrality": 9.316666666666666,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 13
+    },
+    {
+      "id": "FINL",
+      "label": "FINL",
+      "industry": "Toys",
+      "degree_centrality": 0.23809523809523808,
+      "betweenness_centrality": 0.004761904761904762,
+      "closeness_centrality": 0.5012531328320802,
+      "eigenvector_centrality": 0.01031668969535929,
+      "harmonic_centrality": 4.835714285714285,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 23
+    },
+    {
+      "id": "GOLF",
+      "label": "GOLF",
+      "industry": "Toys",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.005952380952380953,
+      "closeness_centrality": 0.5442176870748299,
+      "eigenvector_centrality": 0.0015891818533673365,
+      "harmonic_centrality": 6.916666666666667,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 81
+    },
+    {
+      "id": "GPIC",
+      "label": "GPIC",
+      "industry": "Toys",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0503968253968254,
+      "closeness_centrality": 0.5442176870748299,
+      "eigenvector_centrality": 0.013106062609250051,
+      "harmonic_centrality": 8.116666666666667,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 37
+    },
+    {
+      "id": "HAS",
+      "label": "HAS",
+      "industry": "Toys",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.359920634920635,
+      "closeness_centrality": 0.6802721088435374,
+      "eigenvector_centrality": 0.6939488401170227,
+      "harmonic_centrality": 10.916666666666666,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 1163
+    },
+    {
+      "id": "JAKK",
+      "label": "JAKK",
+      "industry": "Toys",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5602240896358543,
+      "eigenvector_centrality": 0.17948672233020885,
+      "harmonic_centrality": 4.416666666666667,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 294
+    },
+    {
+      "id": "JOUT",
+      "label": "JOUT",
+      "industry": "Toys",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.15214285714285714,
+      "closeness_centrality": 0.6144393241167434,
+      "eigenvector_centrality": 0.013786966579733387,
+      "harmonic_centrality": 8.866666666666667,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 62
+    },
+    {
+      "id": "KBAL",
+      "label": "KBAL",
+      "industry": "Toys",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "KOSS",
+      "label": "KOSS",
+      "industry": "Toys",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.2193650793650794,
+      "closeness_centrality": 0.6802721088435374,
+      "eigenvector_centrality": 0.005566324110327335,
+      "harmonic_centrality": 9.616666666666665,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 56
+    },
+    {
+      "id": "LRAD",
+      "label": "LRAD",
+      "industry": "Toys",
+      "degree_centrality": 0.23809523809523808,
+      "betweenness_centrality": 0.0011904761904761906,
+      "closeness_centrality": 0.5291005291005291,
+      "eigenvector_centrality": 0.007511100771801043,
+      "harmonic_centrality": 6.1761904761904765,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 26
+    },
+    {
+      "id": "MAT",
+      "label": "MAT",
+      "industry": "Toys",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.13,
+      "closeness_centrality": 0.7054673721340388,
+      "eigenvector_centrality": 0.6965505626569171,
+      "harmonic_centrality": 9.316666666666666,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 1222
+    },
+    {
+      "id": "MJCO",
+      "label": "MJCO",
+      "industry": "Toys",
+      "degree_centrality": 0.09523809523809523,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3887269193391642,
+      "eigenvector_centrality": 9.949741403446768e-07,
+      "harmonic_centrality": 6.266666666666667,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 6
+    },
+    {
+      "id": "MPX",
+      "label": "MPX",
+      "industry": "Toys",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.15134920634920637,
+      "closeness_centrality": 0.5602240896358543,
+      "eigenvector_centrality": 0.0008181210756977105,
+      "harmonic_centrality": 8.616666666666669,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 21
+    },
+    {
+      "id": "MSN",
+      "label": "MSN",
+      "industry": "Toys",
+      "degree_centrality": 0.19047619047619047,
+      "betweenness_centrality": 0.022619047619047622,
+      "closeness_centrality": 0.5148005148005148,
+      "eigenvector_centrality": 4.180643868465134e-05,
+      "harmonic_centrality": 7.026190476190477,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 11
+    },
+    {
+      "id": "NLS",
+      "label": "NLS",
+      "industry": "Toys",
+      "degree_centrality": 0.5238095238095237,
+      "betweenness_centrality": 0.06714285714285714,
+      "closeness_centrality": 0.6568144499178982,
+      "eigenvector_centrality": 0.00467170067608068,
+      "harmonic_centrality": 7.516666666666666,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 79
+    },
+    {
+      "id": "PRKR",
+      "label": "PRKR",
+      "industry": "Toys",
+      "degree_centrality": 0.19047619047619047,
+      "betweenness_centrality": 0.04055555555555556,
+      "closeness_centrality": 0.5148005148005148,
+      "eigenvector_centrality": 0.0013866672659692107,
+      "harmonic_centrality": 8.65,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 13
+    },
+    {
+      "id": "UEIC",
+      "label": "UEIC",
+      "industry": "Toys",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.11690476190476191,
+      "closeness_centrality": 0.6144393241167434,
+      "eigenvector_centrality": 0.0015268614157190987,
+      "harmonic_centrality": 7.949999999999999,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 128
+    },
+    {
+      "id": "YETI",
+      "label": "YETI",
+      "industry": "Toys",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.005952380952380953,
+      "closeness_centrality": 0.5442176870748299,
+      "eigenvector_centrality": 0.0009605101089560507,
+      "harmonic_centrality": 6.866666666666667,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 37
+    }
+  ],
+  "edges": [
+    {
+      "source": "AGS",
+      "target": "ELY",
+      "weight": 5
+    },
+    {
+      "source": "AGS",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "AGS",
+      "target": "UEIC",
+      "weight": 2
+    },
+    {
+      "source": "ARLO",
+      "target": "ELY",
+      "weight": 2
+    },
+    {
+      "source": "ARLO",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "ARLO",
+      "target": "LRAD",
+      "weight": 2
+    },
+    {
+      "source": "ARLO",
+      "target": "MAT",
+      "weight": 10
+    },
+    {
+      "source": "ARLO",
+      "target": "UEIC",
+      "weight": 87
+    },
+    {
+      "source": "BC",
+      "target": "MAT",
+      "weight": 5
+    },
+    {
+      "source": "BC",
+      "target": "HAS",
+      "weight": 2
+    },
+    {
+      "source": "BC",
+      "target": "JOUT",
+      "weight": 10
+    },
+    {
+      "source": "BC",
+      "target": "NLS",
+      "weight": 6
+    },
+    {
+      "source": "BC",
+      "target": "FINL",
+      "weight": 2
+    },
+    {
+      "source": "BC",
+      "target": "GOLF",
+      "weight": 4
+    },
+    {
+      "source": "BC",
+      "target": "ELY",
+      "weight": 10
+    },
+    {
+      "source": "BC",
+      "target": "MPX",
+      "weight": 12
+    },
+    {
+      "source": "ELY",
+      "target": "NLS",
+      "weight": 17
+    },
+    {
+      "source": "ELY",
+      "target": "MAT",
+      "weight": 15
+    },
+    {
+      "source": "ELY",
+      "target": "JAKK",
+      "weight": 4
+    },
+    {
+      "source": "ELY",
+      "target": "YETI",
+      "weight": 11
+    },
+    {
+      "source": "ELY",
+      "target": "MSN",
+      "weight": 1
+    },
+    {
+      "source": "ELY",
+      "target": "UEIC",
+      "weight": 18
+    },
+    {
+      "source": "ELY",
+      "target": "KOSS",
+      "weight": 11
+    },
+    {
+      "source": "ELY",
+      "target": "MPX",
+      "weight": 2
+    },
+    {
+      "source": "ELY",
+      "target": "GPIC",
+      "weight": 4
+    },
+    {
+      "source": "ELY",
+      "target": "JOUT",
+      "weight": 9
+    },
+    {
+      "source": "ELY",
+      "target": "GOLF",
+      "weight": 41
+    },
+    {
+      "source": "ELY",
+      "target": "HAS",
+      "weight": 12
+    },
+    {
+      "source": "ELY",
+      "target": "LRAD",
+      "weight": 1
+    },
+    {
+      "source": "ESCA",
+      "target": "NLS",
+      "weight": 4
+    },
+    {
+      "source": "ESCA",
+      "target": "KOSS",
+      "weight": 3
+    },
+    {
+      "source": "ESCA",
+      "target": "YETI",
+      "weight": 3
+    },
+    {
+      "source": "ESCA",
+      "target": "HAS",
+      "weight": 1
+    },
+    {
+      "source": "ESCA",
+      "target": "MAT",
+      "weight": 1
+    },
+    {
+      "source": "ESCA",
+      "target": "GPIC",
+      "weight": 1
+    },
+    {
+      "source": "FINL",
+      "target": "HAS",
+      "weight": 7
+    },
+    {
+      "source": "FINL",
+      "target": "MAT",
+      "weight": 7
+    },
+    {
+      "source": "FINL",
+      "target": "JAKK",
+      "weight": 5
+    },
+    {
+      "source": "FINL",
+      "target": "NLS",
+      "weight": 2
+    },
+    {
+      "source": "GOLF",
+      "target": "YETI",
+      "weight": 14
+    },
+    {
+      "source": "GOLF",
+      "target": "JOUT",
+      "weight": 2
+    },
+    {
+      "source": "GOLF",
+      "target": "MAT",
+      "weight": 1
+    },
+    {
+      "source": "GOLF",
+      "target": "NLS",
+      "weight": 19
+    },
+    {
+      "source": "GPIC",
+      "target": "JAKK",
+      "weight": 13
+    },
+    {
+      "source": "GPIC",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "GPIC",
+      "target": "NLS",
+      "weight": 2
+    },
+    {
+      "source": "GPIC",
+      "target": "HAS",
+      "weight": 16
+    },
+    {
+      "source": "HAS",
+      "target": "JOUT",
+      "weight": 1
+    },
+    {
+      "source": "HAS",
+      "target": "NLS",
+      "weight": 5
+    },
+    {
+      "source": "HAS",
+      "target": "KOSS",
+      "weight": 1
+    },
+    {
+      "source": "HAS",
+      "target": "MAT",
+      "weight": 997
+    },
+    {
+      "source": "HAS",
+      "target": "JAKK",
+      "weight": 119
+    },
+    {
+      "source": "HAS",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "HAS",
+      "target": "PRKR",
+      "weight": 1
+    },
+    {
+      "source": "JAKK",
+      "target": "UEIC",
+      "weight": 3
+    },
+    {
+      "source": "JAKK",
+      "target": "KOSS",
+      "weight": 3
+    },
+    {
+      "source": "JAKK",
+      "target": "MAT",
+      "weight": 147
+    },
+    {
+      "source": "JOUT",
+      "target": "YETI",
+      "weight": 2
+    },
+    {
+      "source": "JOUT",
+      "target": "NLS",
+      "weight": 15
+    },
+    {
+      "source": "JOUT",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "JOUT",
+      "target": "MPX",
+      "weight": 3
+    },
+    {
+      "source": "JOUT",
+      "target": "MAT",
+      "weight": 19
+    },
+    {
+      "source": "KOSS",
+      "target": "MSN",
+      "weight": 4
+    },
+    {
+      "source": "KOSS",
+      "target": "LRAD",
+      "weight": 10
+    },
+    {
+      "source": "KOSS",
+      "target": "PRKR",
+      "weight": 6
+    },
+    {
+      "source": "KOSS",
+      "target": "UEIC",
+      "weight": 9
+    },
+    {
+      "source": "KOSS",
+      "target": "MAT",
+      "weight": 6
+    },
+    {
+      "source": "LRAD",
+      "target": "UEIC",
+      "weight": 2
+    },
+    {
+      "source": "LRAD",
+      "target": "MAT",
+      "weight": 11
+    },
+    {
+      "source": "MAT",
+      "target": "YETI",
+      "weight": 1
+    },
+    {
+      "source": "MAT",
+      "target": "PRKR",
+      "weight": 1
+    },
+    {
+      "source": "MAT",
+      "target": "NLS",
+      "weight": 1
+    },
+    {
+      "source": "MJCO",
+      "target": "MSN",
+      "weight": 5
+    },
+    {
+      "source": "MJCO",
+      "target": "MPX",
+      "weight": 1
+    },
+    {
+      "source": "MPX",
+      "target": "NLS",
+      "weight": 2
+    },
+    {
+      "source": "MSN",
+      "target": "UEIC",
+      "weight": 1
+    },
+    {
+      "source": "NLS",
+      "target": "YETI",
+      "weight": 6
+    },
+    {
+      "source": "PRKR",
+      "target": "UEIC",
+      "weight": 5
+    }
+  ]
+}

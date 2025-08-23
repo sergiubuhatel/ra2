@@ -1,0 +1,6781 @@
+{
+  "nodes": [
+    {
+      "id": "AAPL",
+      "label": "AAPL",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.4231251145240501,
+      "harmonic_centrality": 0.319859739345386,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 2119787
+    },
+    {
+      "id": "TSLA",
+      "label": "TSLA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.3668281797941779,
+      "harmonic_centrality": 0.00450439990667793,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1965176
+    },
+    {
+      "id": "AMZN",
+      "label": "AMZN",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.3601095383206618,
+      "harmonic_centrality": 0.25536466698797594,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1648202
+    },
+    {
+      "id": "FB",
+      "label": "FB",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.31357206081667294,
+      "harmonic_centrality": 0.03275678400644489,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1544316
+    },
+    {
+      "id": "MSFT",
+      "label": "MSFT",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.29277089748439206,
+      "harmonic_centrality": 0.10567954841470766,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1413439
+    },
+    {
+      "id": "BA",
+      "label": "BA",
+      "industry": "Aero",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.17719042027572252,
+      "harmonic_centrality": 0.29044876329849345,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 910644
+    },
+    {
+      "id": "NFLX",
+      "label": "NFLX",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.23062580584754613,
+      "harmonic_centrality": 0.05247527593007158,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 1050831
+    },
+    {
+      "id": "AMD",
+      "label": "AMD",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.16925459255821443,
+      "harmonic_centrality": 0.26243612683619977,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 829677
+    },
+    {
+      "id": "GOOGL",
+      "label": "GOOGL",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.23831811858147472,
+      "harmonic_centrality": 0.08213900128160266,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 958456
+    },
+    {
+      "id": "AAL",
+      "label": "AAL",
+      "industry": "Trans",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.11673704063215491,
+      "harmonic_centrality": 0.4877299561146726,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 710499
+    },
+    {
+      "id": "NVDA",
+      "label": "NVDA",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.16760992949248124,
+      "harmonic_centrality": 0.053510817596906006,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 767047
+    },
+    {
+      "id": "NKLA",
+      "label": "NKLA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.6777210884353742,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.041825966819193504,
+      "harmonic_centrality": 0.4733164185841102,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 276216
+    },
+    {
+      "id": "DIS",
+      "label": "DIS",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.1086622525142542,
+      "harmonic_centrality": 0.18288132049120273,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 584005
+    },
+    {
+      "id": "ROKU",
+      "label": "ROKU",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.10355470385550758,
+      "harmonic_centrality": 0.08182155844249717,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 530317
+    },
+    {
+      "id": "INO",
+      "label": "INO",
+      "industry": "LabEq",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07119275989405932,
+      "harmonic_centrality": 0.05491840552965116,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 481255
+    },
+    {
+      "id": "TWTR",
+      "label": "TWTR",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.118133835371705,
+      "harmonic_centrality": 0.15043134805720138,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 565374
+    },
+    {
+      "id": "GE",
+      "label": "GE",
+      "industry": "Mach",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07873008025154267,
+      "harmonic_centrality": 0.26023662981711354,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 449339
+    },
+    {
+      "id": "BAC",
+      "label": "BAC",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08628478898838868,
+      "harmonic_centrality": 0.6865130038956563,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 502321
+    },
+    {
+      "id": "MRNA",
+      "label": "MRNA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06345617619329064,
+      "harmonic_centrality": 0.1189932931455077,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 411843
+    },
+    {
+      "id": "ZM",
+      "label": "ZM",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08207228485867396,
+      "harmonic_centrality": 0.058490550111002605,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 398392
+    },
+    {
+      "id": "JPM",
+      "label": "JPM",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08224212501526366,
+      "harmonic_centrality": 0.28738992369749805,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 475307
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "industry": "Autos",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07689517858704296,
+      "harmonic_centrality": 0.11089111428239884,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 427382
+    },
+    {
+      "id": "DAL",
+      "label": "DAL",
+      "industry": "Trans",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07140710661420302,
+      "harmonic_centrality": 0.5851440605889425,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 410758
+    },
+    {
+      "id": "DEAC",
+      "label": "DEAC",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.3282312925170068,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.039329567889091734,
+      "harmonic_centrality": 1.002627872297205,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 303249
+    },
+    {
+      "id": "SQ",
+      "label": "SQ",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07189738042931518,
+      "harmonic_centrality": 0.19820415000973365,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 369999
+    },
+    {
+      "id": "WKHS",
+      "label": "WKHS",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06180295898773597,
+      "harmonic_centrality": 0.1233697922529511,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 409202
+    },
+    {
+      "id": "SNAP",
+      "label": "SNAP",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06708457798220865,
+      "harmonic_centrality": 0.025316218221681192,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 384757
+    },
+    {
+      "id": "IBIO",
+      "label": "IBIO",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.043074498725957866,
+      "harmonic_centrality": 0.17897516219954435,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 315521
+    },
+    {
+      "id": "INTC",
+      "label": "INTC",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07446194379883704,
+      "harmonic_centrality": 0.30810873799319133,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 369022
+    },
+    {
+      "id": "BYND",
+      "label": "BYND",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.03996598639455782,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.061990773111901286,
+      "harmonic_centrality": 0.32222936914207145,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 318397
+    },
+    {
+      "id": "PFE",
+      "label": "PFE",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05618645264460825,
+      "harmonic_centrality": 0.03421121328555531,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 360635
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.28656462585034015,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0516616826010973,
+      "harmonic_centrality": 0.8975677953644768,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 314101
+    },
+    {
+      "id": "SPCE",
+      "label": "SPCE",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06484465242610604,
+      "harmonic_centrality": 0.03904957960102779,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 373364
+    },
+    {
+      "id": "WMT",
+      "label": "WMT",
+      "industry": "Rtail",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07262111660191224,
+      "harmonic_centrality": 0.12781330157406334,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 351523
+    },
+    {
+      "id": "CRM",
+      "label": "CRM",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.02806122448979592,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06054292996266786,
+      "harmonic_centrality": 0.39793326035968585,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 318169
+    },
+    {
+      "id": "FSR",
+      "label": "FSR",
+      "industry": "Books",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04339998780937952,
+      "harmonic_centrality": 0.14006507245119854,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 285287
+    },
+    {
+      "id": "VXRT",
+      "label": "VXRT",
+      "industry": "Whlsl",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.04081632653061224,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04806030266226093,
+      "harmonic_centrality": 0.2486544485606723,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 351665
+    },
+    {
+      "id": "SRNE",
+      "label": "SRNE",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05002130697986034,
+      "harmonic_centrality": 0.12596664970651011,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 362665
+    },
+    {
+      "id": "PENN",
+      "label": "PENN",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0611176361795023,
+      "harmonic_centrality": 0.04454838987500828,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 393966
+    },
+    {
+      "id": "GS",
+      "label": "GS",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.053521107451849695,
+      "harmonic_centrality": 0.4204526145277139,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 301722
+    },
+    {
+      "id": "T",
+      "label": "T",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.046594181055721315,
+      "harmonic_centrality": 0.14973613611878234,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 249956
+    },
+    {
+      "id": "GNUS",
+      "label": "GNUS",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03352442204918381,
+      "harmonic_centrality": 0.107317640883468,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 211297
+    },
+    {
+      "id": "XSPA",
+      "label": "XSPA",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.07908163265306122,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.040504363328907875,
+      "harmonic_centrality": 0.2684592232564464,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 287142
+    },
+    {
+      "id": "WFC",
+      "label": "WFC",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0472756204830985,
+      "harmonic_centrality": 0.16335601937242233,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 301083
+    },
+    {
+      "id": "BOXL",
+      "label": "BOXL",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.49234693877551017,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.038175942869917705,
+      "harmonic_centrality": 0.4574594390965451,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 262099
+    },
+    {
+      "id": "UBER",
+      "label": "UBER",
+      "industry": "Trans",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04897990289808119,
+      "harmonic_centrality": 0.14389169275116218,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 277437
+    },
+    {
+      "id": "NOVN",
+      "label": "NOVN",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.1683673469387755,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03528068806043074,
+      "harmonic_centrality": 0.30160368499924717,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 268664
+    },
+    {
+      "id": "FSLY",
+      "label": "FSLY",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03806488122050518,
+      "harmonic_centrality": 0.20135070041202097,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 240060
+    },
+    {
+      "id": "JNJ",
+      "label": "JNJ",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.11904761904761904,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03999804173202333,
+      "harmonic_centrality": 0.26638480066110115,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 234765
+    },
+    {
+      "id": "KO",
+      "label": "KO",
+      "industry": "Soda",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.47874149659863946,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03977963784042327,
+      "harmonic_centrality": 0.3976203339679235,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 228676
+    }
+  ],
+  "edges": [
+    {
+      "source": "AAPL",
+      "target": "AAL",
+      "weight": 47890
+    },
+    {
+      "source": "AAPL",
+      "target": "BA",
+      "weight": 72066
+    },
+    {
+      "source": "AAPL",
+      "target": "MSFT",
+      "weight": 159524
+    },
+    {
+      "source": "AAPL",
+      "target": "F",
+      "weight": 28330
+    },
+    {
+      "source": "AAPL",
+      "target": "SNAP",
+      "weight": 25182
+    },
+    {
+      "source": "AAPL",
+      "target": "SPCE",
+      "weight": 23812
+    },
+    {
+      "source": "AAPL",
+      "target": "T",
+      "weight": 18872
+    },
+    {
+      "source": "AAPL",
+      "target": "PENN",
+      "weight": 25487
+    },
+    {
+      "source": "AAPL",
+      "target": "INTC",
+      "weight": 31978
+    },
+    {
+      "source": "AAPL",
+      "target": "ROKU",
+      "weight": 39532
+    },
+    {
+      "source": "AAPL",
+      "target": "CRM",
+      "weight": 22832
+    },
+    {
+      "source": "AAPL",
+      "target": "GE",
+      "weight": 30025
+    },
+    {
+      "source": "AAPL",
+      "target": "TWTR",
+      "weight": 45027
+    },
+    {
+      "source": "AAPL",
+      "target": "FSLY",
+      "weight": 16072
+    },
+    {
+      "source": "AAPL",
+      "target": "NOVN",
+      "weight": 15443
+    },
+    {
+      "source": "AAPL",
+      "target": "SRNE",
+      "weight": 21316
+    },
+    {
+      "source": "AAPL",
+      "target": "AMD",
+      "weight": 76040
+    },
+    {
+      "source": "AAPL",
+      "target": "DIS",
+      "weight": 41464
+    },
+    {
+      "source": "AAPL",
+      "target": "GNUS",
+      "weight": 13004
+    },
+    {
+      "source": "AAPL",
+      "target": "ZM",
+      "weight": 31409
+    },
+    {
+      "source": "AAPL",
+      "target": "FB",
+      "weight": 150856
+    },
+    {
+      "source": "AAPL",
+      "target": "GOOGL",
+      "weight": 125731
+    },
+    {
+      "source": "AAPL",
+      "target": "AMZN",
+      "weight": 197830
+    },
+    {
+      "source": "AAPL",
+      "target": "NKLA",
+      "weight": 1013
+    },
+    {
+      "source": "AAPL",
+      "target": "UBER",
+      "weight": 16661
+    },
+    {
+      "source": "AAPL",
+      "target": "DEAC",
+      "weight": 36
+    },
+    {
+      "source": "AAPL",
+      "target": "TSLA",
+      "weight": 222177
+    },
+    {
+      "source": "AAPL",
+      "target": "JNJ",
+      "weight": 14746
+    },
+    {
+      "source": "AAPL",
+      "target": "BAC",
+      "weight": 35359
+    },
+    {
+      "source": "AAPL",
+      "target": "NVDA",
+      "weight": 72011
+    },
+    {
+      "source": "AAPL",
+      "target": "MRNA",
+      "weight": 22592
+    },
+    {
+      "source": "AAPL",
+      "target": "PFE",
+      "weight": 22192
+    },
+    {
+      "source": "AAPL",
+      "target": "DAL",
+      "weight": 24927
+    },
+    {
+      "source": "AAPL",
+      "target": "BOXL",
+      "weight": 16087
+    },
+    {
+      "source": "AAPL",
+      "target": "NFLX",
+      "weight": 106747
+    },
+    {
+      "source": "AAPL",
+      "target": "C",
+      "weight": 19107
+    },
+    {
+      "source": "AAPL",
+      "target": "WMT",
+      "weight": 27805
+    },
+    {
+      "source": "AAPL",
+      "target": "VXRT",
+      "weight": 20215
+    },
+    {
+      "source": "AAPL",
+      "target": "KO",
+      "weight": 14714
+    },
+    {
+      "source": "AAPL",
+      "target": "XSPA",
+      "weight": 17739
+    },
+    {
+      "source": "AAPL",
+      "target": "WFC",
+      "weight": 17617
+    },
+    {
+      "source": "AAPL",
+      "target": "FSR",
+      "weight": 15339
+    },
+    {
+      "source": "AAPL",
+      "target": "SQ",
+      "weight": 25102
+    },
+    {
+      "source": "AAPL",
+      "target": "INO",
+      "weight": 28861
+    },
+    {
+      "source": "AAPL",
+      "target": "IBIO",
+      "weight": 18688
+    },
+    {
+      "source": "AAPL",
+      "target": "WKHS",
+      "weight": 27579
+    },
+    {
+      "source": "AAPL",
+      "target": "BYND",
+      "weight": 22039
+    },
+    {
+      "source": "AAPL",
+      "target": "JPM",
+      "weight": 31432
+    },
+    {
+      "source": "AAPL",
+      "target": "GS",
+      "weight": 19280
+    },
+    {
+      "source": "TSLA",
+      "target": "AAL",
+      "weight": 51225
+    },
+    {
+      "source": "TSLA",
+      "target": "AMD",
+      "weight": 64362
+    },
+    {
+      "source": "TSLA",
+      "target": "AMZN",
+      "weight": 150403
+    },
+    {
+      "source": "TSLA",
+      "target": "BA",
+      "weight": 70947
+    },
+    {
+      "source": "TSLA",
+      "target": "BAC",
+      "weight": 26801
+    },
+    {
+      "source": "TSLA",
+      "target": "BOXL",
+      "weight": 21451
+    },
+    {
+      "source": "TSLA",
+      "target": "BYND",
+      "weight": 28174
+    },
+    {
+      "source": "TSLA",
+      "target": "C",
+      "weight": 15255
+    },
+    {
+      "source": "TSLA",
+      "target": "CRM",
+      "weight": 18161
+    },
+    {
+      "source": "TSLA",
+      "target": "DAL",
+      "weight": 24498
+    },
+    {
+      "source": "TSLA",
+      "target": "DEAC",
+      "weight": 29652
+    },
+    {
+      "source": "TSLA",
+      "target": "DIS",
+      "weight": 32444
+    },
+    {
+      "source": "TSLA",
+      "target": "F",
+      "weight": 33809
+    },
+    {
+      "source": "TSLA",
+      "target": "FB",
+      "weight": 114449
+    },
+    {
+      "source": "TSLA",
+      "target": "FSLY",
+      "weight": 15298
+    },
+    {
+      "source": "TSLA",
+      "target": "FSR",
+      "weight": 32439
+    },
+    {
+      "source": "TSLA",
+      "target": "GE",
+      "weight": 26217
+    },
+    {
+      "source": "TSLA",
+      "target": "GNUS",
+      "weight": 18995
+    },
+    {
+      "source": "TSLA",
+      "target": "GOOGL",
+      "weight": 71911
+    },
+    {
+      "source": "TSLA",
+      "target": "GS",
+      "weight": 18016
+    },
+    {
+      "source": "TSLA",
+      "target": "IBIO",
+      "weight": 19640
+    },
+    {
+      "source": "TSLA",
+      "target": "INO",
+      "weight": 28249
+    },
+    {
+      "source": "TSLA",
+      "target": "INTC",
+      "weight": 22412
+    },
+    {
+      "source": "TSLA",
+      "target": "JNJ",
+      "weight": 10546
+    },
+    {
+      "source": "TSLA",
+      "target": "JPM",
+      "weight": 22430
+    },
+    {
+      "source": "TSLA",
+      "target": "KO",
+      "weight": 10934
+    },
+    {
+      "source": "TSLA",
+      "target": "MRNA",
+      "weight": 26531
+    },
+    {
+      "source": "TSLA",
+      "target": "MSFT",
+      "weight": 99126
+    },
+    {
+      "source": "TSLA",
+      "target": "NFLX",
+      "weight": 82019
+    },
+    {
+      "source": "TSLA",
+      "target": "NKLA",
+      "weight": 69236
+    },
+    {
+      "source": "TSLA",
+      "target": "NOVN",
+      "weight": 18420
+    },
+    {
+      "source": "TSLA",
+      "target": "NVDA",
+      "weight": 60180
+    },
+    {
+      "source": "TSLA",
+      "target": "PENN",
+      "weight": 24006
+    },
+    {
+      "source": "TSLA",
+      "target": "PFE",
+      "weight": 15854
+    },
+    {
+      "source": "TSLA",
+      "target": "ROKU",
+      "weight": 40220
+    },
+    {
+      "source": "TSLA",
+      "target": "SNAP",
+      "weight": 21091
+    },
+    {
+      "source": "TSLA",
+      "target": "SPCE",
+      "weight": 30700
+    },
+    {
+      "source": "TSLA",
+      "target": "SQ",
+      "weight": 26651
+    },
+    {
+      "source": "TSLA",
+      "target": "SRNE",
+      "weight": 19540
+    },
+    {
+      "source": "TSLA",
+      "target": "T",
+      "weight": 15911
+    },
+    {
+      "source": "TSLA",
+      "target": "TWTR",
+      "weight": 38404
+    },
+    {
+      "source": "TSLA",
+      "target": "WFC",
+      "weight": 14286
+    },
+    {
+      "source": "TSLA",
+      "target": "UBER",
+      "weight": 18046
+    },
+    {
+      "source": "TSLA",
+      "target": "WKHS",
+      "weight": 38865
+    },
+    {
+      "source": "TSLA",
+      "target": "ZM",
+      "weight": 39810
+    },
+    {
+      "source": "TSLA",
+      "target": "XSPA",
+      "weight": 18498
+    },
+    {
+      "source": "TSLA",
+      "target": "VXRT",
+      "weight": 22102
+    },
+    {
+      "source": "TSLA",
+      "target": "WMT",
+      "weight": 24785
+    },
+    {
+      "source": "AMZN",
+      "target": "AAL",
+      "weight": 22274
+    },
+    {
+      "source": "AMZN",
+      "target": "AMD",
+      "weight": 56884
+    },
+    {
+      "source": "AMZN",
+      "target": "FB",
+      "weight": 125882
+    },
+    {
+      "source": "AMZN",
+      "target": "TWTR",
+      "weight": 39950
+    },
+    {
+      "source": "AMZN",
+      "target": "GOOGL",
+      "weight": 117489
+    },
+    {
+      "source": "AMZN",
+      "target": "C",
+      "weight": 15184
+    },
+    {
+      "source": "AMZN",
+      "target": "WFC",
+      "weight": 13892
+    },
+    {
+      "source": "AMZN",
+      "target": "ROKU",
+      "weight": 38649
+    },
+    {
+      "source": "AMZN",
+      "target": "NOVN",
+      "weight": 2190
+    },
+    {
+      "source": "AMZN",
+      "target": "MSFT",
+      "weight": 123336
+    },
+    {
+      "source": "AMZN",
+      "target": "WMT",
+      "weight": 31693
+    },
+    {
+      "source": "AMZN",
+      "target": "NFLX",
+      "weight": 101252
+    },
+    {
+      "source": "AMZN",
+      "target": "BYND",
+      "weight": 19787
+    },
+    {
+      "source": "AMZN",
+      "target": "INO",
+      "weight": 12975
+    },
+    {
+      "source": "AMZN",
+      "target": "BAC",
+      "weight": 26588
+    },
+    {
+      "source": "AMZN",
+      "target": "CRM",
+      "weight": 21959
+    },
+    {
+      "source": "AMZN",
+      "target": "GNUS",
+      "weight": 8930
+    },
+    {
+      "source": "AMZN",
+      "target": "PENN",
+      "weight": 14495
+    },
+    {
+      "source": "AMZN",
+      "target": "BOXL",
+      "weight": 4522
+    },
+    {
+      "source": "AMZN",
+      "target": "JNJ",
+      "weight": 13318
+    },
+    {
+      "source": "AMZN",
+      "target": "FSLY",
+      "weight": 7324
+    },
+    {
+      "source": "AMZN",
+      "target": "SPCE",
+      "weight": 18417
+    },
+    {
+      "source": "AMZN",
+      "target": "DIS",
+      "weight": 34980
+    },
+    {
+      "source": "AMZN",
+      "target": "BA",
+      "weight": 59665
+    },
+    {
+      "source": "AMZN",
+      "target": "FSR",
+      "weight": 4212
+    },
+    {
+      "source": "AMZN",
+      "target": "SQ",
+      "weight": 24037
+    },
+    {
+      "source": "AMZN",
+      "target": "SNAP",
+      "weight": 16461
+    },
+    {
+      "source": "AMZN",
+      "target": "KO",
+      "weight": 12456
+    },
+    {
+      "source": "AMZN",
+      "target": "T",
+      "weight": 14249
+    },
+    {
+      "source": "AMZN",
+      "target": "UBER",
+      "weight": 14162
+    },
+    {
+      "source": "AMZN",
+      "target": "SRNE",
+      "weight": 5125
+    },
+    {
+      "source": "AMZN",
+      "target": "MRNA",
+      "weight": 16181
+    },
+    {
+      "source": "AMZN",
+      "target": "NKLA",
+      "weight": 583
+    },
+    {
+      "source": "AMZN",
+      "target": "PFE",
+      "weight": 14496
+    },
+    {
+      "source": "AMZN",
+      "target": "DEAC",
+      "weight": 57
+    },
+    {
+      "source": "AMZN",
+      "target": "INTC",
+      "weight": 24140
+    },
+    {
+      "source": "AMZN",
+      "target": "XSPA",
+      "weight": 4182
+    },
+    {
+      "source": "AMZN",
+      "target": "F",
+      "weight": 22656
+    },
+    {
+      "source": "AMZN",
+      "target": "DAL",
+      "weight": 21915
+    },
+    {
+      "source": "AMZN",
+      "target": "NVDA",
+      "weight": 64009
+    },
+    {
+      "source": "AMZN",
+      "target": "JPM",
+      "weight": 27127
+    },
+    {
+      "source": "AMZN",
+      "target": "VXRT",
+      "weight": 3830
+    },
+    {
+      "source": "AMZN",
+      "target": "IBIO",
+      "weight": 3597
+    },
+    {
+      "source": "AMZN",
+      "target": "WKHS",
+      "weight": 7538
+    },
+    {
+      "source": "AMZN",
+      "target": "GE",
+      "weight": 23304
+    },
+    {
+      "source": "AMZN",
+      "target": "ZM",
+      "weight": 26972
+    },
+    {
+      "source": "AMZN",
+      "target": "GS",
+      "weight": 17045
+    },
+    {
+      "source": "FB",
+      "target": "AAL",
+      "weight": 33467
+    },
+    {
+      "source": "FB",
+      "target": "AMD",
+      "weight": 46977
+    },
+    {
+      "source": "FB",
+      "target": "BA",
+      "weight": 49488
+    },
+    {
+      "source": "FB",
+      "target": "BAC",
+      "weight": 20239
+    },
+    {
+      "source": "FB",
+      "target": "BOXL",
+      "weight": 12550
+    },
+    {
+      "source": "FB",
+      "target": "BYND",
+      "weight": 15385
+    },
+    {
+      "source": "FB",
+      "target": "C",
+      "weight": 12673
+    },
+    {
+      "source": "FB",
+      "target": "CRM",
+      "weight": 16069
+    },
+    {
+      "source": "FB",
+      "target": "DAL",
+      "weight": 15764
+    },
+    {
+      "source": "FB",
+      "target": "DEAC",
+      "weight": 15919
+    },
+    {
+      "source": "FB",
+      "target": "DIS",
+      "weight": 31189
+    },
+    {
+      "source": "FB",
+      "target": "F",
+      "weight": 19087
+    },
+    {
+      "source": "FB",
+      "target": "WKHS",
+      "weight": 18467
+    },
+    {
+      "source": "FB",
+      "target": "IBIO",
+      "weight": 15935
+    },
+    {
+      "source": "FB",
+      "target": "SNAP",
+      "weight": 25507
+    },
+    {
+      "source": "FB",
+      "target": "ZM",
+      "weight": 23611
+    },
+    {
+      "source": "FB",
+      "target": "GS",
+      "weight": 16128
+    },
+    {
+      "source": "FB",
+      "target": "SRNE",
+      "weight": 18759
+    },
+    {
+      "source": "FB",
+      "target": "KO",
+      "weight": 10390
+    },
+    {
+      "source": "FB",
+      "target": "SQ",
+      "weight": 21067
+    },
+    {
+      "source": "FB",
+      "target": "VXRT",
+      "weight": 18589
+    },
+    {
+      "source": "FB",
+      "target": "NFLX",
+      "weight": 76540
+    },
+    {
+      "source": "FB",
+      "target": "GE",
+      "weight": 20020
+    },
+    {
+      "source": "FB",
+      "target": "ROKU",
+      "weight": 26678
+    },
+    {
+      "source": "FB",
+      "target": "FSR",
+      "weight": 11309
+    },
+    {
+      "source": "FB",
+      "target": "XSPA",
+      "weight": 16774
+    },
+    {
+      "source": "FB",
+      "target": "TWTR",
+      "weight": 53089
+    },
+    {
+      "source": "FB",
+      "target": "PFE",
+      "weight": 17708
+    },
+    {
+      "source": "FB",
+      "target": "WFC",
+      "weight": 9600
+    },
+    {
+      "source": "FB",
+      "target": "INTC",
+      "weight": 19593
+    },
+    {
+      "source": "FB",
+      "target": "UBER",
+      "weight": 13359
+    },
+    {
+      "source": "FB",
+      "target": "GNUS",
+      "weight": 5668
+    },
+    {
+      "source": "FB",
+      "target": "MSFT",
+      "weight": 106814
+    },
+    {
+      "source": "FB",
+      "target": "INO",
+      "weight": 21558
+    },
+    {
+      "source": "FB",
+      "target": "JPM",
+      "weight": 24998
+    },
+    {
+      "source": "FB",
+      "target": "FSLY",
+      "weight": 13916
+    },
+    {
+      "source": "FB",
+      "target": "MRNA",
+      "weight": 14634
+    },
+    {
+      "source": "FB",
+      "target": "GOOGL",
+      "weight": 99365
+    },
+    {
+      "source": "FB",
+      "target": "WMT",
+      "weight": 21399
+    },
+    {
+      "source": "FB",
+      "target": "NVDA",
+      "weight": 53302
+    },
+    {
+      "source": "FB",
+      "target": "NKLA",
+      "weight": 1243
+    },
+    {
+      "source": "FB",
+      "target": "NOVN",
+      "weight": 12789
+    },
+    {
+      "source": "FB",
+      "target": "T",
+      "weight": 12373
+    },
+    {
+      "source": "FB",
+      "target": "PENN",
+      "weight": 16923
+    },
+    {
+      "source": "FB",
+      "target": "JNJ",
+      "weight": 11535
+    },
+    {
+      "source": "FB",
+      "target": "SPCE",
+      "weight": 14682
+    },
+    {
+      "source": "MSFT",
+      "target": "AAL",
+      "weight": 35151
+    },
+    {
+      "source": "MSFT",
+      "target": "AMD",
+      "weight": 42204
+    },
+    {
+      "source": "MSFT",
+      "target": "BA",
+      "weight": 44105
+    },
+    {
+      "source": "MSFT",
+      "target": "BAC",
+      "weight": 20397
+    },
+    {
+      "source": "MSFT",
+      "target": "BOXL",
+      "weight": 13875
+    },
+    {
+      "source": "MSFT",
+      "target": "BYND",
+      "weight": 11610
+    },
+    {
+      "source": "MSFT",
+      "target": "C",
+      "weight": 12142
+    },
+    {
+      "source": "MSFT",
+      "target": "CRM",
+      "weight": 19230
+    },
+    {
+      "source": "MSFT",
+      "target": "DAL",
+      "weight": 13703
+    },
+    {
+      "source": "MSFT",
+      "target": "DEAC",
+      "weight": 16705
+    },
+    {
+      "source": "MSFT",
+      "target": "DIS",
+      "weight": 27425
+    },
+    {
+      "source": "MSFT",
+      "target": "F",
+      "weight": 18487
+    },
+    {
+      "source": "MSFT",
+      "target": "FSLY",
+      "weight": 12637
+    },
+    {
+      "source": "MSFT",
+      "target": "FSR",
+      "weight": 17446
+    },
+    {
+      "source": "MSFT",
+      "target": "GE",
+      "weight": 21694
+    },
+    {
+      "source": "MSFT",
+      "target": "GNUS",
+      "weight": 5280
+    },
+    {
+      "source": "MSFT",
+      "target": "GOOGL",
+      "weight": 75966
+    },
+    {
+      "source": "MSFT",
+      "target": "GS",
+      "weight": 11808
+    },
+    {
+      "source": "MSFT",
+      "target": "IBIO",
+      "weight": 16274
+    },
+    {
+      "source": "MSFT",
+      "target": "INO",
+      "weight": 20672
+    },
+    {
+      "source": "MSFT",
+      "target": "INTC",
+      "weight": 19895
+    },
+    {
+      "source": "MSFT",
+      "target": "JNJ",
+      "weight": 11113
+    },
+    {
+      "source": "MSFT",
+      "target": "JPM",
+      "weight": 19881
+    },
+    {
+      "source": "MSFT",
+      "target": "KO",
+      "weight": 11641
+    },
+    {
+      "source": "MSFT",
+      "target": "MRNA",
+      "weight": 14388
+    },
+    {
+      "source": "MSFT",
+      "target": "TWTR",
+      "weight": 30210
+    },
+    {
+      "source": "MSFT",
+      "target": "NKLA",
+      "weight": 276
+    },
+    {
+      "source": "MSFT",
+      "target": "ROKU",
+      "weight": 16371
+    },
+    {
+      "source": "MSFT",
+      "target": "SRNE",
+      "weight": 18559
+    },
+    {
+      "source": "MSFT",
+      "target": "UBER",
+      "weight": 12186
+    },
+    {
+      "source": "MSFT",
+      "target": "T",
+      "weight": 12860
+    },
+    {
+      "source": "MSFT",
+      "target": "NOVN",
+      "weight": 12378
+    },
+    {
+      "source": "MSFT",
+      "target": "XSPA",
+      "weight": 15898
+    },
+    {
+      "source": "MSFT",
+      "target": "NFLX",
+      "weight": 55924
+    },
+    {
+      "source": "MSFT",
+      "target": "SNAP",
+      "weight": 17765
+    },
+    {
+      "source": "MSFT",
+      "target": "PENN",
+      "weight": 17749
+    },
+    {
+      "source": "MSFT",
+      "target": "WMT",
+      "weight": 20377
+    },
+    {
+      "source": "MSFT",
+      "target": "SQ",
+      "weight": 17914
+    },
+    {
+      "source": "MSFT",
+      "target": "WFC",
+      "weight": 9935
+    },
+    {
+      "source": "MSFT",
+      "target": "WKHS",
+      "weight": 17814
+    },
+    {
+      "source": "MSFT",
+      "target": "PFE",
+      "weight": 18631
+    },
+    {
+      "source": "MSFT",
+      "target": "VXRT",
+      "weight": 18302
+    },
+    {
+      "source": "MSFT",
+      "target": "NVDA",
+      "weight": 45024
+    },
+    {
+      "source": "MSFT",
+      "target": "ZM",
+      "weight": 19079
+    },
+    {
+      "source": "MSFT",
+      "target": "SPCE",
+      "weight": 13658
+    },
+    {
+      "source": "BA",
+      "target": "AAL",
+      "weight": 30844
+    },
+    {
+      "source": "BA",
+      "target": "AMD",
+      "weight": 38898
+    },
+    {
+      "source": "BA",
+      "target": "IBIO",
+      "weight": 3734
+    },
+    {
+      "source": "BA",
+      "target": "BOXL",
+      "weight": 1926
+    },
+    {
+      "source": "BA",
+      "target": "TWTR",
+      "weight": 20128
+    },
+    {
+      "source": "BA",
+      "target": "GS",
+      "weight": 11901
+    },
+    {
+      "source": "BA",
+      "target": "DIS",
+      "weight": 26600
+    },
+    {
+      "source": "BA",
+      "target": "DEAC",
+      "weight": 44
+    },
+    {
+      "source": "BA",
+      "target": "GE",
+      "weight": 21433
+    },
+    {
+      "source": "BA",
+      "target": "WFC",
+      "weight": 12570
+    },
+    {
+      "source": "BA",
+      "target": "SQ",
+      "weight": 13254
+    },
+    {
+      "source": "BA",
+      "target": "FSR",
+      "weight": 1617
+    },
+    {
+      "source": "BA",
+      "target": "KO",
+      "weight": 10165
+    },
+    {
+      "source": "BA",
+      "target": "JPM",
+      "weight": 21733
+    },
+    {
+      "source": "BA",
+      "target": "UBER",
+      "weight": 12367
+    },
+    {
+      "source": "BA",
+      "target": "CRM",
+      "weight": 11515
+    },
+    {
+      "source": "BA",
+      "target": "GNUS",
+      "weight": 6846
+    },
+    {
+      "source": "BA",
+      "target": "SPCE",
+      "weight": 12011
+    },
+    {
+      "source": "BA",
+      "target": "MRNA",
+      "weight": 12838
+    },
+    {
+      "source": "BA",
+      "target": "DAL",
+      "weight": 25453
+    },
+    {
+      "source": "BA",
+      "target": "F",
+      "weight": 18247
+    },
+    {
+      "source": "BA",
+      "target": "INTC",
+      "weight": 12946
+    },
+    {
+      "source": "BA",
+      "target": "NOVN",
+      "weight": 2358
+    },
+    {
+      "source": "BA",
+      "target": "ROKU",
+      "weight": 22621
+    },
+    {
+      "source": "BA",
+      "target": "BYND",
+      "weight": 13996
+    },
+    {
+      "source": "BA",
+      "target": "JNJ",
+      "weight": 7519
+    },
+    {
+      "source": "BA",
+      "target": "ZM",
+      "weight": 16248
+    },
+    {
+      "source": "BA",
+      "target": "NKLA",
+      "weight": 971
+    },
+    {
+      "source": "BA",
+      "target": "WKHS",
+      "weight": 5822
+    },
+    {
+      "source": "BA",
+      "target": "C",
+      "weight": 13532
+    },
+    {
+      "source": "BA",
+      "target": "VXRT",
+      "weight": 4112
+    },
+    {
+      "source": "BA",
+      "target": "SNAP",
+      "weight": 10498
+    },
+    {
+      "source": "BA",
+      "target": "GOOGL",
+      "weight": 28225
+    },
+    {
+      "source": "BA",
+      "target": "T",
+      "weight": 7792
+    },
+    {
+      "source": "BA",
+      "target": "INO",
+      "weight": 11520
+    },
+    {
+      "source": "BA",
+      "target": "FSLY",
+      "weight": 3765
+    },
+    {
+      "source": "BA",
+      "target": "BAC",
+      "weight": 22272
+    },
+    {
+      "source": "BA",
+      "target": "PENN",
+      "weight": 8804
+    },
+    {
+      "source": "BA",
+      "target": "WMT",
+      "weight": 14305
+    },
+    {
+      "source": "BA",
+      "target": "NVDA",
+      "weight": 30602
+    },
+    {
+      "source": "BA",
+      "target": "NFLX",
+      "weight": 41168
+    },
+    {
+      "source": "BA",
+      "target": "SRNE",
+      "weight": 5253
+    },
+    {
+      "source": "BA",
+      "target": "PFE",
+      "weight": 13897
+    },
+    {
+      "source": "BA",
+      "target": "XSPA",
+      "weight": 2023
+    },
+    {
+      "source": "NFLX",
+      "target": "AAL",
+      "weight": 17010
+    },
+    {
+      "source": "NFLX",
+      "target": "AMD",
+      "weight": 36433
+    },
+    {
+      "source": "NFLX",
+      "target": "BAC",
+      "weight": 17025
+    },
+    {
+      "source": "NFLX",
+      "target": "BOXL",
+      "weight": 1253
+    },
+    {
+      "source": "NFLX",
+      "target": "BYND",
+      "weight": 12524
+    },
+    {
+      "source": "NFLX",
+      "target": "C",
+      "weight": 11058
+    },
+    {
+      "source": "NFLX",
+      "target": "CRM",
+      "weight": 14753
+    },
+    {
+      "source": "NFLX",
+      "target": "DAL",
+      "weight": 13806
+    },
+    {
+      "source": "NFLX",
+      "target": "DEAC",
+      "weight": 6132
+    },
+    {
+      "source": "NFLX",
+      "target": "DIS",
+      "weight": 33123
+    },
+    {
+      "source": "NFLX",
+      "target": "F",
+      "weight": 15317
+    },
+    {
+      "source": "NFLX",
+      "target": "FSLY",
+      "weight": 3247
+    },
+    {
+      "source": "NFLX",
+      "target": "FSR",
+      "weight": 1731
+    },
+    {
+      "source": "NFLX",
+      "target": "GE",
+      "weight": 16268
+    },
+    {
+      "source": "NFLX",
+      "target": "GNUS",
+      "weight": 3411
+    },
+    {
+      "source": "NFLX",
+      "target": "GOOGL",
+      "weight": 60597
+    },
+    {
+      "source": "NFLX",
+      "target": "GS",
+      "weight": 13129
+    },
+    {
+      "source": "NFLX",
+      "target": "IBIO",
+      "weight": 2316
+    },
+    {
+      "source": "NFLX",
+      "target": "INO",
+      "weight": 7974
+    },
+    {
+      "source": "NFLX",
+      "target": "INTC",
+      "weight": 18988
+    },
+    {
+      "source": "NFLX",
+      "target": "JNJ",
+      "weight": 6900
+    },
+    {
+      "source": "NFLX",
+      "target": "JPM",
+      "weight": 18501
+    },
+    {
+      "source": "NFLX",
+      "target": "KO",
+      "weight": 10082
+    },
+    {
+      "source": "NFLX",
+      "target": "MRNA",
+      "weight": 9741
+    },
+    {
+      "source": "NFLX",
+      "target": "VXRT",
+      "weight": 2143
+    },
+    {
+      "source": "NFLX",
+      "target": "TWTR",
+      "weight": 28166
+    },
+    {
+      "source": "NFLX",
+      "target": "NKLA",
+      "weight": 706
+    },
+    {
+      "source": "NFLX",
+      "target": "SPCE",
+      "weight": 11632
+    },
+    {
+      "source": "NFLX",
+      "target": "NOVN",
+      "weight": 816
+    },
+    {
+      "source": "NFLX",
+      "target": "PENN",
+      "weight": 7393
+    },
+    {
+      "source": "NFLX",
+      "target": "WMT",
+      "weight": 14086
+    },
+    {
+      "source": "NFLX",
+      "target": "WFC",
+      "weight": 9268
+    },
+    {
+      "source": "NFLX",
+      "target": "SQ",
+      "weight": 15785
+    },
+    {
+      "source": "NFLX",
+      "target": "ZM",
+      "weight": 19176
+    },
+    {
+      "source": "NFLX",
+      "target": "T",
+      "weight": 11616
+    },
+    {
+      "source": "NFLX",
+      "target": "UBER",
+      "weight": 11237
+    },
+    {
+      "source": "NFLX",
+      "target": "PFE",
+      "weight": 6383
+    },
+    {
+      "source": "NFLX",
+      "target": "SRNE",
+      "weight": 3481
+    },
+    {
+      "source": "NFLX",
+      "target": "ROKU",
+      "weight": 29766
+    },
+    {
+      "source": "NFLX",
+      "target": "SNAP",
+      "weight": 16055
+    },
+    {
+      "source": "NFLX",
+      "target": "XSPA",
+      "weight": 2130
+    },
+    {
+      "source": "NFLX",
+      "target": "NVDA",
+      "weight": 42436
+    },
+    {
+      "source": "NFLX",
+      "target": "WKHS",
+      "weight": 3587
+    },
+    {
+      "source": "AMD",
+      "target": "AAL",
+      "weight": 20006
+    },
+    {
+      "source": "AMD",
+      "target": "WKHS",
+      "weight": 6849
+    },
+    {
+      "source": "AMD",
+      "target": "IBIO",
+      "weight": 2564
+    },
+    {
+      "source": "AMD",
+      "target": "XSPA",
+      "weight": 1694
+    },
+    {
+      "source": "AMD",
+      "target": "DIS",
+      "weight": 19246
+    },
+    {
+      "source": "AMD",
+      "target": "DEAC",
+      "weight": 54
+    },
+    {
+      "source": "AMD",
+      "target": "BAC",
+      "weight": 14933
+    },
+    {
+      "source": "AMD",
+      "target": "SRNE",
+      "weight": 5781
+    },
+    {
+      "source": "AMD",
+      "target": "C",
+      "weight": 7615
+    },
+    {
+      "source": "AMD",
+      "target": "JPM",
+      "weight": 10690
+    },
+    {
+      "source": "AMD",
+      "target": "INO",
+      "weight": 9487
+    },
+    {
+      "source": "AMD",
+      "target": "VXRT",
+      "weight": 3088
+    },
+    {
+      "source": "AMD",
+      "target": "F",
+      "weight": 13488
+    },
+    {
+      "source": "AMD",
+      "target": "PENN",
+      "weight": 6809
+    },
+    {
+      "source": "AMD",
+      "target": "GS",
+      "weight": 4319
+    },
+    {
+      "source": "AMD",
+      "target": "GNUS",
+      "weight": 7421
+    },
+    {
+      "source": "AMD",
+      "target": "BYND",
+      "weight": 14872
+    },
+    {
+      "source": "AMD",
+      "target": "BOXL",
+      "weight": 3669
+    },
+    {
+      "source": "AMD",
+      "target": "WMT",
+      "weight": 10770
+    },
+    {
+      "source": "AMD",
+      "target": "KO",
+      "weight": 5214
+    },
+    {
+      "source": "AMD",
+      "target": "NKLA",
+      "weight": 308
+    },
+    {
+      "source": "AMD",
+      "target": "INTC",
+      "weight": 23319
+    },
+    {
+      "source": "AMD",
+      "target": "WFC",
+      "weight": 8119
+    },
+    {
+      "source": "AMD",
+      "target": "DAL",
+      "weight": 16681
+    },
+    {
+      "source": "AMD",
+      "target": "MRNA",
+      "weight": 12163
+    },
+    {
+      "source": "AMD",
+      "target": "SQ",
+      "weight": 15559
+    },
+    {
+      "source": "AMD",
+      "target": "UBER",
+      "weight": 8869
+    },
+    {
+      "source": "AMD",
+      "target": "FSLY",
+      "weight": 5315
+    },
+    {
+      "source": "AMD",
+      "target": "JNJ",
+      "weight": 3134
+    },
+    {
+      "source": "AMD",
+      "target": "NOVN",
+      "weight": 1745
+    },
+    {
+      "source": "AMD",
+      "target": "GOOGL",
+      "weight": 24979
+    },
+    {
+      "source": "AMD",
+      "target": "TWTR",
+      "weight": 22345
+    },
+    {
+      "source": "AMD",
+      "target": "SNAP",
+      "weight": 11176
+    },
+    {
+      "source": "AMD",
+      "target": "CRM",
+      "weight": 8863
+    },
+    {
+      "source": "AMD",
+      "target": "T",
+      "weight": 7656
+    },
+    {
+      "source": "AMD",
+      "target": "NVDA",
+      "weight": 46992
+    },
+    {
+      "source": "AMD",
+      "target": "SPCE",
+      "weight": 13231
+    },
+    {
+      "source": "AMD",
+      "target": "PFE",
+      "weight": 9367
+    },
+    {
+      "source": "AMD",
+      "target": "FSR",
+      "weight": 2733
+    },
+    {
+      "source": "AMD",
+      "target": "GE",
+      "weight": 14778
+    },
+    {
+      "source": "AMD",
+      "target": "ZM",
+      "weight": 14495
+    },
+    {
+      "source": "AMD",
+      "target": "ROKU",
+      "weight": 27483
+    },
+    {
+      "source": "GOOGL",
+      "target": "AAL",
+      "weight": 7472
+    },
+    {
+      "source": "GOOGL",
+      "target": "BAC",
+      "weight": 15138
+    },
+    {
+      "source": "GOOGL",
+      "target": "BOXL",
+      "weight": 741
+    },
+    {
+      "source": "GOOGL",
+      "target": "BYND",
+      "weight": 9450
+    },
+    {
+      "source": "GOOGL",
+      "target": "C",
+      "weight": 8160
+    },
+    {
+      "source": "GOOGL",
+      "target": "CRM",
+      "weight": 12281
+    },
+    {
+      "source": "GOOGL",
+      "target": "DAL",
+      "weight": 5357
+    },
+    {
+      "source": "GOOGL",
+      "target": "DEAC",
+      "weight": 4095
+    },
+    {
+      "source": "GOOGL",
+      "target": "DIS",
+      "weight": 18743
+    },
+    {
+      "source": "GOOGL",
+      "target": "F",
+      "weight": 10572
+    },
+    {
+      "source": "GOOGL",
+      "target": "FSLY",
+      "weight": 1942
+    },
+    {
+      "source": "GOOGL",
+      "target": "FSR",
+      "weight": 2215
+    },
+    {
+      "source": "GOOGL",
+      "target": "GE",
+      "weight": 12576
+    },
+    {
+      "source": "GOOGL",
+      "target": "GNUS",
+      "weight": 1369
+    },
+    {
+      "source": "GOOGL",
+      "target": "INO",
+      "weight": 4858
+    },
+    {
+      "source": "GOOGL",
+      "target": "NKLA",
+      "weight": 480
+    },
+    {
+      "source": "GOOGL",
+      "target": "INTC",
+      "weight": 14974
+    },
+    {
+      "source": "GOOGL",
+      "target": "ROKU",
+      "weight": 16284
+    },
+    {
+      "source": "GOOGL",
+      "target": "WFC",
+      "weight": 7076
+    },
+    {
+      "source": "GOOGL",
+      "target": "NOVN",
+      "weight": 710
+    },
+    {
+      "source": "GOOGL",
+      "target": "GS",
+      "weight": 11966
+    },
+    {
+      "source": "GOOGL",
+      "target": "T",
+      "weight": 7516
+    },
+    {
+      "source": "GOOGL",
+      "target": "ZM",
+      "weight": 12573
+    },
+    {
+      "source": "GOOGL",
+      "target": "PFE",
+      "weight": 6521
+    },
+    {
+      "source": "GOOGL",
+      "target": "SNAP",
+      "weight": 10450
+    },
+    {
+      "source": "GOOGL",
+      "target": "JNJ",
+      "weight": 10055
+    },
+    {
+      "source": "GOOGL",
+      "target": "PENN",
+      "weight": 6634
+    },
+    {
+      "source": "GOOGL",
+      "target": "VXRT",
+      "weight": 343
+    },
+    {
+      "source": "GOOGL",
+      "target": "MRNA",
+      "weight": 4885
+    },
+    {
+      "source": "GOOGL",
+      "target": "SRNE",
+      "weight": 907
+    },
+    {
+      "source": "GOOGL",
+      "target": "SPCE",
+      "weight": 5573
+    },
+    {
+      "source": "GOOGL",
+      "target": "TWTR",
+      "weight": 24605
+    },
+    {
+      "source": "GOOGL",
+      "target": "XSPA",
+      "weight": 1954
+    },
+    {
+      "source": "GOOGL",
+      "target": "UBER",
+      "weight": 5266
+    },
+    {
+      "source": "GOOGL",
+      "target": "NVDA",
+      "weight": 37003
+    },
+    {
+      "source": "GOOGL",
+      "target": "WKHS",
+      "weight": 2602
+    },
+    {
+      "source": "GOOGL",
+      "target": "SQ",
+      "weight": 11851
+    },
+    {
+      "source": "GOOGL",
+      "target": "WMT",
+      "weight": 14066
+    },
+    {
+      "source": "GOOGL",
+      "target": "KO",
+      "weight": 7660
+    },
+    {
+      "source": "GOOGL",
+      "target": "JPM",
+      "weight": 16355
+    },
+    {
+      "source": "GOOGL",
+      "target": "IBIO",
+      "weight": 915
+    },
+    {
+      "source": "AAL",
+      "target": "INO",
+      "weight": 24382
+    },
+    {
+      "source": "AAL",
+      "target": "FSLY",
+      "weight": 10034
+    },
+    {
+      "source": "AAL",
+      "target": "SPCE",
+      "weight": 12194
+    },
+    {
+      "source": "AAL",
+      "target": "WMT",
+      "weight": 5888
+    },
+    {
+      "source": "AAL",
+      "target": "WFC",
+      "weight": 5614
+    },
+    {
+      "source": "AAL",
+      "target": "GS",
+      "weight": 2644
+    },
+    {
+      "source": "AAL",
+      "target": "T",
+      "weight": 7944
+    },
+    {
+      "source": "AAL",
+      "target": "IBIO",
+      "weight": 16049
+    },
+    {
+      "source": "AAL",
+      "target": "NOVN",
+      "weight": 14443
+    },
+    {
+      "source": "AAL",
+      "target": "BAC",
+      "weight": 13532
+    },
+    {
+      "source": "AAL",
+      "target": "KO",
+      "weight": 4763
+    },
+    {
+      "source": "AAL",
+      "target": "C",
+      "weight": 5987
+    },
+    {
+      "source": "AAL",
+      "target": "XSPA",
+      "weight": 15270
+    },
+    {
+      "source": "AAL",
+      "target": "PENN",
+      "weight": 17394
+    },
+    {
+      "source": "AAL",
+      "target": "GE",
+      "weight": 13304
+    },
+    {
+      "source": "AAL",
+      "target": "SNAP",
+      "weight": 12948
+    },
+    {
+      "source": "AAL",
+      "target": "SQ",
+      "weight": 5570
+    },
+    {
+      "source": "AAL",
+      "target": "SRNE",
+      "weight": 20615
+    },
+    {
+      "source": "AAL",
+      "target": "BOXL",
+      "weight": 12391
+    },
+    {
+      "source": "AAL",
+      "target": "DEAC",
+      "weight": 14
+    },
+    {
+      "source": "AAL",
+      "target": "DIS",
+      "weight": 14259
+    },
+    {
+      "source": "AAL",
+      "target": "TWTR",
+      "weight": 14734
+    },
+    {
+      "source": "AAL",
+      "target": "GNUS",
+      "weight": 9098
+    },
+    {
+      "source": "AAL",
+      "target": "CRM",
+      "weight": 3480
+    },
+    {
+      "source": "AAL",
+      "target": "INTC",
+      "weight": 6689
+    },
+    {
+      "source": "AAL",
+      "target": "DAL",
+      "weight": 36559
+    },
+    {
+      "source": "AAL",
+      "target": "BYND",
+      "weight": 6929
+    },
+    {
+      "source": "AAL",
+      "target": "PFE",
+      "weight": 11373
+    },
+    {
+      "source": "AAL",
+      "target": "JNJ",
+      "weight": 2026
+    },
+    {
+      "source": "AAL",
+      "target": "UBER",
+      "weight": 8411
+    },
+    {
+      "source": "AAL",
+      "target": "FSR",
+      "weight": 11130
+    },
+    {
+      "source": "AAL",
+      "target": "F",
+      "weight": 12823
+    },
+    {
+      "source": "AAL",
+      "target": "JPM",
+      "weight": 6065
+    },
+    {
+      "source": "AAL",
+      "target": "MRNA",
+      "weight": 12021
+    },
+    {
+      "source": "AAL",
+      "target": "ZM",
+      "weight": 7989
+    },
+    {
+      "source": "AAL",
+      "target": "VXRT",
+      "weight": 19469
+    },
+    {
+      "source": "AAL",
+      "target": "WKHS",
+      "weight": 19123
+    },
+    {
+      "source": "AAL",
+      "target": "NVDA",
+      "weight": 11581
+    },
+    {
+      "source": "AAL",
+      "target": "ROKU",
+      "weight": 9888
+    },
+    {
+      "source": "AAL",
+      "target": "NKLA",
+      "weight": 533
+    },
+    {
+      "source": "NVDA",
+      "target": "BAC",
+      "weight": 10132
+    },
+    {
+      "source": "NVDA",
+      "target": "BOXL",
+      "weight": 3765
+    },
+    {
+      "source": "NVDA",
+      "target": "BYND",
+      "weight": 15457
+    },
+    {
+      "source": "NVDA",
+      "target": "C",
+      "weight": 4028
+    },
+    {
+      "source": "NVDA",
+      "target": "CRM",
+      "weight": 10329
+    },
+    {
+      "source": "NVDA",
+      "target": "DAL",
+      "weight": 10742
+    },
+    {
+      "source": "NVDA",
+      "target": "DEAC",
+      "weight": 6185
+    },
+    {
+      "source": "NVDA",
+      "target": "DIS",
+      "weight": 14213
+    },
+    {
+      "source": "NVDA",
+      "target": "F",
+      "weight": 5111
+    },
+    {
+      "source": "NVDA",
+      "target": "FSLY",
+      "weight": 3920
+    },
+    {
+      "source": "NVDA",
+      "target": "FSR",
+      "weight": 1799
+    },
+    {
+      "source": "NVDA",
+      "target": "GE",
+      "weight": 4993
+    },
+    {
+      "source": "NVDA",
+      "target": "GNUS",
+      "weight": 6070
+    },
+    {
+      "source": "NVDA",
+      "target": "GS",
+      "weight": 5928
+    },
+    {
+      "source": "NVDA",
+      "target": "IBIO",
+      "weight": 1602
+    },
+    {
+      "source": "NVDA",
+      "target": "INO",
+      "weight": 7678
+    },
+    {
+      "source": "NVDA",
+      "target": "INTC",
+      "weight": 18449
+    },
+    {
+      "source": "NVDA",
+      "target": "JNJ",
+      "weight": 5620
+    },
+    {
+      "source": "NVDA",
+      "target": "JPM",
+      "weight": 8529
+    },
+    {
+      "source": "NVDA",
+      "target": "KO",
+      "weight": 1782
+    },
+    {
+      "source": "NVDA",
+      "target": "MRNA",
+      "weight": 10626
+    },
+    {
+      "source": "NVDA",
+      "target": "NKLA",
+      "weight": 8646
+    },
+    {
+      "source": "NVDA",
+      "target": "NOVN",
+      "weight": 653
+    },
+    {
+      "source": "NVDA",
+      "target": "PFE",
+      "weight": 4116
+    },
+    {
+      "source": "NVDA",
+      "target": "WFC",
+      "weight": 2524
+    },
+    {
+      "source": "NVDA",
+      "target": "PENN",
+      "weight": 7806
+    },
+    {
+      "source": "NVDA",
+      "target": "SPCE",
+      "weight": 10721
+    },
+    {
+      "source": "NVDA",
+      "target": "WMT",
+      "weight": 13327
+    },
+    {
+      "source": "NVDA",
+      "target": "WKHS",
+      "weight": 2661
+    },
+    {
+      "source": "NVDA",
+      "target": "UBER",
+      "weight": 4914
+    },
+    {
+      "source": "NVDA",
+      "target": "SQ",
+      "weight": 16221
+    },
+    {
+      "source": "NVDA",
+      "target": "SNAP",
+      "weight": 5992
+    },
+    {
+      "source": "NVDA",
+      "target": "SRNE",
+      "weight": 3323
+    },
+    {
+      "source": "NVDA",
+      "target": "T",
+      "weight": 3958
+    },
+    {
+      "source": "NVDA",
+      "target": "ZM",
+      "weight": 15949
+    },
+    {
+      "source": "NVDA",
+      "target": "TWTR",
+      "weight": 16434
+    },
+    {
+      "source": "NVDA",
+      "target": "ROKU",
+      "weight": 24710
+    },
+    {
+      "source": "NVDA",
+      "target": "VXRT",
+      "weight": 2893
+    },
+    {
+      "source": "NVDA",
+      "target": "XSPA",
+      "weight": 2101
+    },
+    {
+      "source": "NKLA",
+      "target": "BAC",
+      "weight": 262
+    },
+    {
+      "source": "NKLA",
+      "target": "BOXL",
+      "weight": 18
+    },
+    {
+      "source": "NKLA",
+      "target": "BYND",
+      "weight": 794
+    },
+    {
+      "source": "NKLA",
+      "target": "C",
+      "weight": 78
+    },
+    {
+      "source": "NKLA",
+      "target": "CRM",
+      "weight": 87
+    },
+    {
+      "source": "NKLA",
+      "target": "DAL",
+      "weight": 552
+    },
+    {
+      "source": "NKLA",
+      "target": "DEAC",
+      "weight": 2198
+    },
+    {
+      "source": "NKLA",
+      "target": "DIS",
+      "weight": 112
+    },
+    {
+      "source": "NKLA",
+      "target": "F",
+      "weight": 257
+    },
+    {
+      "source": "NKLA",
+      "target": "FSLY",
+      "weight": 93
+    },
+    {
+      "source": "NKLA",
+      "target": "FSR",
+      "weight": 637
+    },
+    {
+      "source": "NKLA",
+      "target": "GE",
+      "weight": 53
+    },
+    {
+      "source": "NKLA",
+      "target": "GNUS",
+      "weight": 1177
+    },
+    {
+      "source": "NKLA",
+      "target": "GS",
+      "weight": 16
+    },
+    {
+      "source": "NKLA",
+      "target": "IBIO",
+      "weight": 217
+    },
+    {
+      "source": "NKLA",
+      "target": "INO",
+      "weight": 667
+    },
+    {
+      "source": "NKLA",
+      "target": "INTC",
+      "weight": 34
+    },
+    {
+      "source": "NKLA",
+      "target": "JNJ",
+      "weight": 51
+    },
+    {
+      "source": "NKLA",
+      "target": "JPM",
+      "weight": 103
+    },
+    {
+      "source": "NKLA",
+      "target": "KO",
+      "weight": 178
+    },
+    {
+      "source": "NKLA",
+      "target": "MRNA",
+      "weight": 231
+    },
+    {
+      "source": "NKLA",
+      "target": "ZM",
+      "weight": 6822
+    },
+    {
+      "source": "NKLA",
+      "target": "PFE",
+      "weight": 8046
+    },
+    {
+      "source": "NKLA",
+      "target": "PENN",
+      "weight": 19689
+    },
+    {
+      "source": "NKLA",
+      "target": "ROKU",
+      "weight": 10998
+    },
+    {
+      "source": "NKLA",
+      "target": "SQ",
+      "weight": 4673
+    },
+    {
+      "source": "NKLA",
+      "target": "XSPA",
+      "weight": 17241
+    },
+    {
+      "source": "NKLA",
+      "target": "WFC",
+      "weight": 3693
+    },
+    {
+      "source": "NKLA",
+      "target": "VXRT",
+      "weight": 18507
+    },
+    {
+      "source": "NKLA",
+      "target": "SRNE",
+      "weight": 18880
+    },
+    {
+      "source": "NKLA",
+      "target": "TWTR",
+      "weight": 7108
+    },
+    {
+      "source": "NKLA",
+      "target": "T",
+      "weight": 2024
+    },
+    {
+      "source": "NKLA",
+      "target": "SPCE",
+      "weight": 10361
+    },
+    {
+      "source": "NKLA",
+      "target": "WKHS",
+      "weight": 29305
+    },
+    {
+      "source": "NKLA",
+      "target": "WMT",
+      "weight": 2920
+    },
+    {
+      "source": "NKLA",
+      "target": "NOVN",
+      "weight": 13901
+    },
+    {
+      "source": "NKLA",
+      "target": "UBER",
+      "weight": 2711
+    },
+    {
+      "source": "NKLA",
+      "target": "SNAP",
+      "weight": 7527
+    },
+    {
+      "source": "DIS",
+      "target": "BAC",
+      "weight": 12888
+    },
+    {
+      "source": "DIS",
+      "target": "BOXL",
+      "weight": 538
+    },
+    {
+      "source": "DIS",
+      "target": "BYND",
+      "weight": 8566
+    },
+    {
+      "source": "DIS",
+      "target": "C",
+      "weight": 9113
+    },
+    {
+      "source": "DIS",
+      "target": "CRM",
+      "weight": 8727
+    },
+    {
+      "source": "DIS",
+      "target": "DAL",
+      "weight": 11735
+    },
+    {
+      "source": "DIS",
+      "target": "DEAC",
+      "weight": 5145
+    },
+    {
+      "source": "DIS",
+      "target": "INTC",
+      "weight": 9338
+    },
+    {
+      "source": "DIS",
+      "target": "GE",
+      "weight": 12957
+    },
+    {
+      "source": "DIS",
+      "target": "INO",
+      "weight": 8388
+    },
+    {
+      "source": "DIS",
+      "target": "SQ",
+      "weight": 15080
+    },
+    {
+      "source": "DIS",
+      "target": "UBER",
+      "weight": 10807
+    },
+    {
+      "source": "DIS",
+      "target": "FSLY",
+      "weight": 1905
+    },
+    {
+      "source": "DIS",
+      "target": "ROKU",
+      "weight": 15515
+    },
+    {
+      "source": "DIS",
+      "target": "SPCE",
+      "weight": 10039
+    },
+    {
+      "source": "DIS",
+      "target": "ZM",
+      "weight": 7929
+    },
+    {
+      "source": "DIS",
+      "target": "GNUS",
+      "weight": 2606
+    },
+    {
+      "source": "DIS",
+      "target": "SNAP",
+      "weight": 10894
+    },
+    {
+      "source": "DIS",
+      "target": "IBIO",
+      "weight": 1669
+    },
+    {
+      "source": "DIS",
+      "target": "MRNA",
+      "weight": 8225
+    },
+    {
+      "source": "DIS",
+      "target": "NOVN",
+      "weight": 228
+    },
+    {
+      "source": "DIS",
+      "target": "TWTR",
+      "weight": 17823
+    },
+    {
+      "source": "DIS",
+      "target": "F",
+      "weight": 14297
+    },
+    {
+      "source": "DIS",
+      "target": "WFC",
+      "weight": 7069
+    },
+    {
+      "source": "DIS",
+      "target": "PENN",
+      "weight": 4002
+    },
+    {
+      "source": "DIS",
+      "target": "XSPA",
+      "weight": 439
+    },
+    {
+      "source": "DIS",
+      "target": "KO",
+      "weight": 9032
+    },
+    {
+      "source": "DIS",
+      "target": "SRNE",
+      "weight": 2737
+    },
+    {
+      "source": "DIS",
+      "target": "PFE",
+      "weight": 6594
+    },
+    {
+      "source": "DIS",
+      "target": "WMT",
+      "weight": 12114
+    },
+    {
+      "source": "DIS",
+      "target": "T",
+      "weight": 10251
+    },
+    {
+      "source": "DIS",
+      "target": "JNJ",
+      "weight": 8057
+    },
+    {
+      "source": "DIS",
+      "target": "GS",
+      "weight": 7499
+    },
+    {
+      "source": "DIS",
+      "target": "JPM",
+      "weight": 14234
+    },
+    {
+      "source": "DIS",
+      "target": "VXRT",
+      "weight": 1504
+    },
+    {
+      "source": "DIS",
+      "target": "FSR",
+      "weight": 723
+    },
+    {
+      "source": "DIS",
+      "target": "WKHS",
+      "weight": 1540
+    },
+    {
+      "source": "ROKU",
+      "target": "BAC",
+      "weight": 4353
+    },
+    {
+      "source": "ROKU",
+      "target": "BOXL",
+      "weight": 3141
+    },
+    {
+      "source": "ROKU",
+      "target": "BYND",
+      "weight": 19057
+    },
+    {
+      "source": "ROKU",
+      "target": "C",
+      "weight": 2261
+    },
+    {
+      "source": "ROKU",
+      "target": "CRM",
+      "weight": 5955
+    },
+    {
+      "source": "ROKU",
+      "target": "DAL",
+      "weight": 12361
+    },
+    {
+      "source": "ROKU",
+      "target": "DEAC",
+      "weight": 7829
+    },
+    {
+      "source": "ROKU",
+      "target": "F",
+      "weight": 2290
+    },
+    {
+      "source": "ROKU",
+      "target": "FSLY",
+      "weight": 8440
+    },
+    {
+      "source": "ROKU",
+      "target": "FSR",
+      "weight": 1060
+    },
+    {
+      "source": "ROKU",
+      "target": "GE",
+      "weight": 2647
+    },
+    {
+      "source": "ROKU",
+      "target": "GNUS",
+      "weight": 5468
+    },
+    {
+      "source": "ROKU",
+      "target": "GS",
+      "weight": 1692
+    },
+    {
+      "source": "ROKU",
+      "target": "IBIO",
+      "weight": 662
+    },
+    {
+      "source": "ROKU",
+      "target": "INO",
+      "weight": 5972
+    },
+    {
+      "source": "ROKU",
+      "target": "INTC",
+      "weight": 3480
+    },
+    {
+      "source": "ROKU",
+      "target": "JNJ",
+      "weight": 1320
+    },
+    {
+      "source": "ROKU",
+      "target": "JPM",
+      "weight": 4221
+    },
+    {
+      "source": "ROKU",
+      "target": "KO",
+      "weight": 1937
+    },
+    {
+      "source": "ROKU",
+      "target": "MRNA",
+      "weight": 8967
+    },
+    {
+      "source": "ROKU",
+      "target": "NOVN",
+      "weight": 734
+    },
+    {
+      "source": "ROKU",
+      "target": "PENN",
+      "weight": 7498
+    },
+    {
+      "source": "ROKU",
+      "target": "PFE",
+      "weight": 1272
+    },
+    {
+      "source": "ROKU",
+      "target": "XSPA",
+      "weight": 352
+    },
+    {
+      "source": "ROKU",
+      "target": "WFC",
+      "weight": 3989
+    },
+    {
+      "source": "ROKU",
+      "target": "T",
+      "weight": 4564
+    },
+    {
+      "source": "ROKU",
+      "target": "WKHS",
+      "weight": 2818
+    },
+    {
+      "source": "ROKU",
+      "target": "UBER",
+      "weight": 6534
+    },
+    {
+      "source": "ROKU",
+      "target": "SRNE",
+      "weight": 3271
+    },
+    {
+      "source": "ROKU",
+      "target": "WMT",
+      "weight": 6182
+    },
+    {
+      "source": "ROKU",
+      "target": "SPCE",
+      "weight": 14361
+    },
+    {
+      "source": "ROKU",
+      "target": "SNAP",
+      "weight": 8164
+    },
+    {
+      "source": "ROKU",
+      "target": "TWTR",
+      "weight": 11610
+    },
+    {
+      "source": "ROKU",
+      "target": "SQ",
+      "weight": 21529
+    },
+    {
+      "source": "ROKU",
+      "target": "VXRT",
+      "weight": 1677
+    },
+    {
+      "source": "ROKU",
+      "target": "ZM",
+      "weight": 13934
+    },
+    {
+      "source": "INO",
+      "target": "BAC",
+      "weight": 6090
+    },
+    {
+      "source": "INO",
+      "target": "BOXL",
+      "weight": 13279
+    },
+    {
+      "source": "INO",
+      "target": "BYND",
+      "weight": 4288
+    },
+    {
+      "source": "INO",
+      "target": "C",
+      "weight": 1978
+    },
+    {
+      "source": "INO",
+      "target": "CRM",
+      "weight": 1235
+    },
+    {
+      "source": "INO",
+      "target": "DAL",
+      "weight": 8745
+    },
+    {
+      "source": "INO",
+      "target": "DEAC",
+      "weight": 10644
+    },
+    {
+      "source": "INO",
+      "target": "F",
+      "weight": 5419
+    },
+    {
+      "source": "INO",
+      "target": "FSLY",
+      "weight": 8004
+    },
+    {
+      "source": "INO",
+      "target": "FSR",
+      "weight": 12002
+    },
+    {
+      "source": "INO",
+      "target": "GE",
+      "weight": 5505
+    },
+    {
+      "source": "INO",
+      "target": "GNUS",
+      "weight": 7850
+    },
+    {
+      "source": "INO",
+      "target": "GS",
+      "weight": 1415
+    },
+    {
+      "source": "INO",
+      "target": "IBIO",
+      "weight": 22043
+    },
+    {
+      "source": "INO",
+      "target": "WKHS",
+      "weight": 17157
+    },
+    {
+      "source": "INO",
+      "target": "WMT",
+      "weight": 3884
+    },
+    {
+      "source": "INO",
+      "target": "MRNA",
+      "weight": 22684
+    },
+    {
+      "source": "INO",
+      "target": "XSPA",
+      "weight": 10950
+    },
+    {
+      "source": "INO",
+      "target": "NOVN",
+      "weight": 14652
+    },
+    {
+      "source": "INO",
+      "target": "SPCE",
+      "weight": 5874
+    },
+    {
+      "source": "INO",
+      "target": "TWTR",
+      "weight": 6861
+    },
+    {
+      "source": "INO",
+      "target": "PFE",
+      "weight": 10649
+    },
+    {
+      "source": "INO",
+      "target": "JPM",
+      "weight": 2212
+    },
+    {
+      "source": "INO",
+      "target": "WFC",
+      "weight": 1907
+    },
+    {
+      "source": "INO",
+      "target": "VXRT",
+      "weight": 21846
+    },
+    {
+      "source": "INO",
+      "target": "SQ",
+      "weight": 5699
+    },
+    {
+      "source": "INO",
+      "target": "SNAP",
+      "weight": 5599
+    },
+    {
+      "source": "INO",
+      "target": "JNJ",
+      "weight": 5979
+    },
+    {
+      "source": "INO",
+      "target": "UBER",
+      "weight": 3626
+    },
+    {
+      "source": "INO",
+      "target": "T",
+      "weight": 1891
+    },
+    {
+      "source": "INO",
+      "target": "INTC",
+      "weight": 4510
+    },
+    {
+      "source": "INO",
+      "target": "KO",
+      "weight": 1417
+    },
+    {
+      "source": "INO",
+      "target": "ZM",
+      "weight": 2900
+    },
+    {
+      "source": "INO",
+      "target": "PENN",
+      "weight": 9931
+    },
+    {
+      "source": "INO",
+      "target": "SRNE",
+      "weight": 19289
+    },
+    {
+      "source": "TWTR",
+      "target": "BAC",
+      "weight": 7369
+    },
+    {
+      "source": "TWTR",
+      "target": "BOXL",
+      "weight": 364
+    },
+    {
+      "source": "TWTR",
+      "target": "BYND",
+      "weight": 5973
+    },
+    {
+      "source": "TWTR",
+      "target": "C",
+      "weight": 4775
+    },
+    {
+      "source": "TWTR",
+      "target": "CRM",
+      "weight": 6499
+    },
+    {
+      "source": "TWTR",
+      "target": "DAL",
+      "weight": 10232
+    },
+    {
+      "source": "TWTR",
+      "target": "DEAC",
+      "weight": 5632
+    },
+    {
+      "source": "TWTR",
+      "target": "F",
+      "weight": 11256
+    },
+    {
+      "source": "TWTR",
+      "target": "FSLY",
+      "weight": 1766
+    },
+    {
+      "source": "TWTR",
+      "target": "FSR",
+      "weight": 1742
+    },
+    {
+      "source": "TWTR",
+      "target": "GE",
+      "weight": 11131
+    },
+    {
+      "source": "TWTR",
+      "target": "GNUS",
+      "weight": 2190
+    },
+    {
+      "source": "TWTR",
+      "target": "GS",
+      "weight": 4286
+    },
+    {
+      "source": "TWTR",
+      "target": "IBIO",
+      "weight": 491
+    },
+    {
+      "source": "TWTR",
+      "target": "INTC",
+      "weight": 7746
+    },
+    {
+      "source": "TWTR",
+      "target": "JNJ",
+      "weight": 2083
+    },
+    {
+      "source": "TWTR",
+      "target": "JPM",
+      "weight": 6796
+    },
+    {
+      "source": "TWTR",
+      "target": "KO",
+      "weight": 4640
+    },
+    {
+      "source": "TWTR",
+      "target": "MRNA",
+      "weight": 6003
+    },
+    {
+      "source": "TWTR",
+      "target": "NOVN",
+      "weight": 124
+    },
+    {
+      "source": "TWTR",
+      "target": "PENN",
+      "weight": 8391
+    },
+    {
+      "source": "TWTR",
+      "target": "PFE",
+      "weight": 4910
+    },
+    {
+      "source": "TWTR",
+      "target": "SNAP",
+      "weight": 15840
+    },
+    {
+      "source": "TWTR",
+      "target": "SPCE",
+      "weight": 7147
+    },
+    {
+      "source": "TWTR",
+      "target": "SQ",
+      "weight": 11574
+    },
+    {
+      "source": "TWTR",
+      "target": "SRNE",
+      "weight": 2436
+    },
+    {
+      "source": "TWTR",
+      "target": "T",
+      "weight": 7020
+    },
+    {
+      "source": "TWTR",
+      "target": "XSPA",
+      "weight": 1795
+    },
+    {
+      "source": "TWTR",
+      "target": "WKHS",
+      "weight": 2180
+    },
+    {
+      "source": "TWTR",
+      "target": "WFC",
+      "weight": 3144
+    },
+    {
+      "source": "TWTR",
+      "target": "ZM",
+      "weight": 7628
+    },
+    {
+      "source": "TWTR",
+      "target": "UBER",
+      "weight": 8972
+    },
+    {
+      "source": "TWTR",
+      "target": "WMT",
+      "weight": 5217
+    },
+    {
+      "source": "TWTR",
+      "target": "VXRT",
+      "weight": 1528
+    },
+    {
+      "source": "GE",
+      "target": "BAC",
+      "weight": 16008
+    },
+    {
+      "source": "GE",
+      "target": "BOXL",
+      "weight": 734
+    },
+    {
+      "source": "GE",
+      "target": "BYND",
+      "weight": 1718
+    },
+    {
+      "source": "GE",
+      "target": "C",
+      "weight": 7692
+    },
+    {
+      "source": "GE",
+      "target": "CRM",
+      "weight": 7836
+    },
+    {
+      "source": "GE",
+      "target": "DAL",
+      "weight": 8430
+    },
+    {
+      "source": "GE",
+      "target": "DEAC",
+      "weight": 4198
+    },
+    {
+      "source": "GE",
+      "target": "F",
+      "weight": 21437
+    },
+    {
+      "source": "GE",
+      "target": "FSLY",
+      "weight": 885
+    },
+    {
+      "source": "GE",
+      "target": "FSR",
+      "weight": 1288
+    },
+    {
+      "source": "GE",
+      "target": "MRNA",
+      "weight": 6889
+    },
+    {
+      "source": "GE",
+      "target": "GS",
+      "weight": 8447
+    },
+    {
+      "source": "GE",
+      "target": "PENN",
+      "weight": 4250
+    },
+    {
+      "source": "GE",
+      "target": "KO",
+      "weight": 8896
+    },
+    {
+      "source": "GE",
+      "target": "GNUS",
+      "weight": 3027
+    },
+    {
+      "source": "GE",
+      "target": "SNAP",
+      "weight": 10080
+    },
+    {
+      "source": "GE",
+      "target": "WFC",
+      "weight": 11013
+    },
+    {
+      "source": "GE",
+      "target": "ZM",
+      "weight": 5073
+    },
+    {
+      "source": "GE",
+      "target": "JPM",
+      "weight": 12831
+    },
+    {
+      "source": "GE",
+      "target": "UBER",
+      "weight": 9378
+    },
+    {
+      "source": "GE",
+      "target": "T",
+      "weight": 8896
+    },
+    {
+      "source": "GE",
+      "target": "JNJ",
+      "weight": 5944
+    },
+    {
+      "source": "GE",
+      "target": "SRNE",
+      "weight": 2377
+    },
+    {
+      "source": "GE",
+      "target": "XSPA",
+      "weight": 708
+    },
+    {
+      "source": "GE",
+      "target": "INTC",
+      "weight": 8417
+    },
+    {
+      "source": "GE",
+      "target": "IBIO",
+      "weight": 1834
+    },
+    {
+      "source": "GE",
+      "target": "SQ",
+      "weight": 3873
+    },
+    {
+      "source": "GE",
+      "target": "VXRT",
+      "weight": 1168
+    },
+    {
+      "source": "GE",
+      "target": "NOVN",
+      "weight": 735
+    },
+    {
+      "source": "GE",
+      "target": "SPCE",
+      "weight": 8430
+    },
+    {
+      "source": "GE",
+      "target": "WMT",
+      "weight": 5988
+    },
+    {
+      "source": "GE",
+      "target": "PFE",
+      "weight": 10878
+    },
+    {
+      "source": "GE",
+      "target": "WKHS",
+      "weight": 3076
+    },
+    {
+      "source": "BAC",
+      "target": "GNUS",
+      "weight": 2313
+    },
+    {
+      "source": "BAC",
+      "target": "UBER",
+      "weight": 7486
+    },
+    {
+      "source": "BAC",
+      "target": "VXRT",
+      "weight": 778
+    },
+    {
+      "source": "BAC",
+      "target": "F",
+      "weight": 13732
+    },
+    {
+      "source": "BAC",
+      "target": "BYND",
+      "weight": 2838
+    },
+    {
+      "source": "BAC",
+      "target": "DAL",
+      "weight": 11359
+    },
+    {
+      "source": "BAC",
+      "target": "JNJ",
+      "weight": 11400
+    },
+    {
+      "source": "BAC",
+      "target": "GS",
+      "weight": 17339
+    },
+    {
+      "source": "BAC",
+      "target": "INTC",
+      "weight": 11060
+    },
+    {
+      "source": "BAC",
+      "target": "NOVN",
+      "weight": 469
+    },
+    {
+      "source": "BAC",
+      "target": "SRNE",
+      "weight": 1370
+    },
+    {
+      "source": "BAC",
+      "target": "C",
+      "weight": 20429
+    },
+    {
+      "source": "BAC",
+      "target": "MRNA",
+      "weight": 5301
+    },
+    {
+      "source": "BAC",
+      "target": "SNAP",
+      "weight": 8687
+    },
+    {
+      "source": "BAC",
+      "target": "SQ",
+      "weight": 6134
+    },
+    {
+      "source": "BAC",
+      "target": "DEAC",
+      "weight": 6
+    },
+    {
+      "source": "BAC",
+      "target": "CRM",
+      "weight": 7042
+    },
+    {
+      "source": "BAC",
+      "target": "FSLY",
+      "weight": 779
+    },
+    {
+      "source": "BAC",
+      "target": "IBIO",
+      "weight": 873
+    },
+    {
+      "source": "BAC",
+      "target": "SPCE",
+      "weight": 5941
+    },
+    {
+      "source": "BAC",
+      "target": "T",
+      "weight": 7429
+    },
+    {
+      "source": "BAC",
+      "target": "BOXL",
+      "weight": 383
+    },
+    {
+      "source": "BAC",
+      "target": "PENN",
+      "weight": 5053
+    },
+    {
+      "source": "BAC",
+      "target": "WFC",
+      "weight": 22033
+    },
+    {
+      "source": "BAC",
+      "target": "PFE",
+      "weight": 6980
+    },
+    {
+      "source": "BAC",
+      "target": "FSR",
+      "weight": 549
+    },
+    {
+      "source": "BAC",
+      "target": "XSPA",
+      "weight": 675
+    },
+    {
+      "source": "BAC",
+      "target": "JPM",
+      "weight": 30674
+    },
+    {
+      "source": "BAC",
+      "target": "WMT",
+      "weight": 9350
+    },
+    {
+      "source": "BAC",
+      "target": "ZM",
+      "weight": 4500
+    },
+    {
+      "source": "BAC",
+      "target": "KO",
+      "weight": 7573
+    },
+    {
+      "source": "BAC",
+      "target": "WKHS",
+      "weight": 2400
+    },
+    {
+      "source": "MRNA",
+      "target": "BOXL",
+      "weight": 5814
+    },
+    {
+      "source": "MRNA",
+      "target": "BYND",
+      "weight": 9423
+    },
+    {
+      "source": "MRNA",
+      "target": "C",
+      "weight": 2923
+    },
+    {
+      "source": "MRNA",
+      "target": "CRM",
+      "weight": 3636
+    },
+    {
+      "source": "MRNA",
+      "target": "DAL",
+      "weight": 8009
+    },
+    {
+      "source": "MRNA",
+      "target": "DEAC",
+      "weight": 5770
+    },
+    {
+      "source": "MRNA",
+      "target": "F",
+      "weight": 5742
+    },
+    {
+      "source": "MRNA",
+      "target": "FSLY",
+      "weight": 3395
+    },
+    {
+      "source": "MRNA",
+      "target": "FSR",
+      "weight": 4394
+    },
+    {
+      "source": "MRNA",
+      "target": "GNUS",
+      "weight": 6541
+    },
+    {
+      "source": "MRNA",
+      "target": "GS",
+      "weight": 2811
+    },
+    {
+      "source": "MRNA",
+      "target": "IBIO",
+      "weight": 12150
+    },
+    {
+      "source": "MRNA",
+      "target": "INTC",
+      "weight": 1756
+    },
+    {
+      "source": "MRNA",
+      "target": "JNJ",
+      "weight": 8157
+    },
+    {
+      "source": "MRNA",
+      "target": "JPM",
+      "weight": 3984
+    },
+    {
+      "source": "MRNA",
+      "target": "KO",
+      "weight": 1633
+    },
+    {
+      "source": "MRNA",
+      "target": "UBER",
+      "weight": 5073
+    },
+    {
+      "source": "MRNA",
+      "target": "PENN",
+      "weight": 10122
+    },
+    {
+      "source": "MRNA",
+      "target": "SRNE",
+      "weight": 9650
+    },
+    {
+      "source": "MRNA",
+      "target": "PFE",
+      "weight": 24556
+    },
+    {
+      "source": "MRNA",
+      "target": "T",
+      "weight": 2078
+    },
+    {
+      "source": "MRNA",
+      "target": "NOVN",
+      "weight": 4618
+    },
+    {
+      "source": "MRNA",
+      "target": "SNAP",
+      "weight": 3751
+    },
+    {
+      "source": "MRNA",
+      "target": "WMT",
+      "weight": 3103
+    },
+    {
+      "source": "MRNA",
+      "target": "WFC",
+      "weight": 3950
+    },
+    {
+      "source": "MRNA",
+      "target": "XSPA",
+      "weight": 4872
+    },
+    {
+      "source": "MRNA",
+      "target": "VXRT",
+      "weight": 11570
+    },
+    {
+      "source": "MRNA",
+      "target": "SPCE",
+      "weight": 11408
+    },
+    {
+      "source": "MRNA",
+      "target": "ZM",
+      "weight": 7162
+    },
+    {
+      "source": "MRNA",
+      "target": "SQ",
+      "weight": 4037
+    },
+    {
+      "source": "MRNA",
+      "target": "WKHS",
+      "weight": 4855
+    },
+    {
+      "source": "ZM",
+      "target": "BOXL",
+      "weight": 826
+    },
+    {
+      "source": "ZM",
+      "target": "BYND",
+      "weight": 7844
+    },
+    {
+      "source": "ZM",
+      "target": "C",
+      "weight": 4787
+    },
+    {
+      "source": "ZM",
+      "target": "CRM",
+      "weight": 7013
+    },
+    {
+      "source": "ZM",
+      "target": "DAL",
+      "weight": 3275
+    },
+    {
+      "source": "ZM",
+      "target": "DEAC",
+      "weight": 6656
+    },
+    {
+      "source": "ZM",
+      "target": "F",
+      "weight": 4562
+    },
+    {
+      "source": "ZM",
+      "target": "FSLY",
+      "weight": 8078
+    },
+    {
+      "source": "ZM",
+      "target": "FSR",
+      "weight": 1867
+    },
+    {
+      "source": "ZM",
+      "target": "GNUS",
+      "weight": 1902
+    },
+    {
+      "source": "ZM",
+      "target": "GS",
+      "weight": 3197
+    },
+    {
+      "source": "ZM",
+      "target": "IBIO",
+      "weight": 912
+    },
+    {
+      "source": "ZM",
+      "target": "INTC",
+      "weight": 3387
+    },
+    {
+      "source": "ZM",
+      "target": "JNJ",
+      "weight": 1613
+    },
+    {
+      "source": "ZM",
+      "target": "JPM",
+      "weight": 4841
+    },
+    {
+      "source": "ZM",
+      "target": "KO",
+      "weight": 1365
+    },
+    {
+      "source": "ZM",
+      "target": "NOVN",
+      "weight": 580
+    },
+    {
+      "source": "ZM",
+      "target": "PENN",
+      "weight": 4275
+    },
+    {
+      "source": "ZM",
+      "target": "PFE",
+      "weight": 2361
+    },
+    {
+      "source": "ZM",
+      "target": "SNAP",
+      "weight": 5383
+    },
+    {
+      "source": "ZM",
+      "target": "SPCE",
+      "weight": 7303
+    },
+    {
+      "source": "ZM",
+      "target": "SQ",
+      "weight": 10038
+    },
+    {
+      "source": "ZM",
+      "target": "SRNE",
+      "weight": 1748
+    },
+    {
+      "source": "ZM",
+      "target": "T",
+      "weight": 2418
+    },
+    {
+      "source": "ZM",
+      "target": "UBER",
+      "weight": 4505
+    },
+    {
+      "source": "ZM",
+      "target": "VXRT",
+      "weight": 1098
+    },
+    {
+      "source": "ZM",
+      "target": "WFC",
+      "weight": 2055
+    },
+    {
+      "source": "ZM",
+      "target": "WKHS",
+      "weight": 3626
+    },
+    {
+      "source": "ZM",
+      "target": "WMT",
+      "weight": 6647
+    },
+    {
+      "source": "ZM",
+      "target": "XSPA",
+      "weight": 971
+    },
+    {
+      "source": "JPM",
+      "target": "BOXL",
+      "weight": 49
+    },
+    {
+      "source": "JPM",
+      "target": "BYND",
+      "weight": 4349
+    },
+    {
+      "source": "JPM",
+      "target": "C",
+      "weight": 25454
+    },
+    {
+      "source": "JPM",
+      "target": "CRM",
+      "weight": 9585
+    },
+    {
+      "source": "JPM",
+      "target": "DAL",
+      "weight": 8470
+    },
+    {
+      "source": "JPM",
+      "target": "DEAC",
+      "weight": 2461
+    },
+    {
+      "source": "JPM",
+      "target": "F",
+      "weight": 13694
+    },
+    {
+      "source": "JPM",
+      "target": "FSLY",
+      "weight": 849
+    },
+    {
+      "source": "JPM",
+      "target": "FSR",
+      "weight": 353
+    },
+    {
+      "source": "JPM",
+      "target": "GNUS",
+      "weight": 673
+    },
+    {
+      "source": "JPM",
+      "target": "GS",
+      "weight": 26107
+    },
+    {
+      "source": "JPM",
+      "target": "IBIO",
+      "weight": 262
+    },
+    {
+      "source": "JPM",
+      "target": "INTC",
+      "weight": 9134
+    },
+    {
+      "source": "JPM",
+      "target": "JNJ",
+      "weight": 10677
+    },
+    {
+      "source": "JPM",
+      "target": "SQ",
+      "weight": 4008
+    },
+    {
+      "source": "JPM",
+      "target": "NOVN",
+      "weight": 39
+    },
+    {
+      "source": "JPM",
+      "target": "SRNE",
+      "weight": 523
+    },
+    {
+      "source": "JPM",
+      "target": "UBER",
+      "weight": 5074
+    },
+    {
+      "source": "JPM",
+      "target": "VXRT",
+      "weight": 1104
+    },
+    {
+      "source": "JPM",
+      "target": "PENN",
+      "weight": 2457
+    },
+    {
+      "source": "JPM",
+      "target": "WMT",
+      "weight": 9298
+    },
+    {
+      "source": "JPM",
+      "target": "T",
+      "weight": 5576
+    },
+    {
+      "source": "JPM",
+      "target": "SNAP",
+      "weight": 4261
+    },
+    {
+      "source": "JPM",
+      "target": "KO",
+      "weight": 7808
+    },
+    {
+      "source": "JPM",
+      "target": "WFC",
+      "weight": 22695
+    },
+    {
+      "source": "JPM",
+      "target": "XSPA",
+      "weight": 191
+    },
+    {
+      "source": "JPM",
+      "target": "PFE",
+      "weight": 6716
+    },
+    {
+      "source": "JPM",
+      "target": "SPCE",
+      "weight": 4767
+    },
+    {
+      "source": "JPM",
+      "target": "WKHS",
+      "weight": 1036
+    },
+    {
+      "source": "F",
+      "target": "BOXL",
+      "weight": 904
+    },
+    {
+      "source": "F",
+      "target": "BYND",
+      "weight": 1518
+    },
+    {
+      "source": "F",
+      "target": "C",
+      "weight": 9065
+    },
+    {
+      "source": "F",
+      "target": "CRM",
+      "weight": 7604
+    },
+    {
+      "source": "F",
+      "target": "DAL",
+      "weight": 8207
+    },
+    {
+      "source": "F",
+      "target": "DEAC",
+      "weight": 3679
+    },
+    {
+      "source": "F",
+      "target": "VXRT",
+      "weight": 1257
+    },
+    {
+      "source": "F",
+      "target": "PFE",
+      "weight": 6592
+    },
+    {
+      "source": "F",
+      "target": "SQ",
+      "weight": 3149
+    },
+    {
+      "source": "F",
+      "target": "PENN",
+      "weight": 3455
+    },
+    {
+      "source": "F",
+      "target": "SPCE",
+      "weight": 8370
+    },
+    {
+      "source": "F",
+      "target": "SRNE",
+      "weight": 1549
+    },
+    {
+      "source": "F",
+      "target": "WMT",
+      "weight": 5838
+    },
+    {
+      "source": "F",
+      "target": "T",
+      "weight": 8784
+    },
+    {
+      "source": "F",
+      "target": "WFC",
+      "weight": 8883
+    },
+    {
+      "source": "F",
+      "target": "UBER",
+      "weight": 8473
+    },
+    {
+      "source": "F",
+      "target": "JNJ",
+      "weight": 4494
+    },
+    {
+      "source": "F",
+      "target": "GS",
+      "weight": 7877
+    },
+    {
+      "source": "F",
+      "target": "XSPA",
+      "weight": 1182
+    },
+    {
+      "source": "F",
+      "target": "IBIO",
+      "weight": 1464
+    },
+    {
+      "source": "F",
+      "target": "GNUS",
+      "weight": 3069
+    },
+    {
+      "source": "F",
+      "target": "FSR",
+      "weight": 2257
+    },
+    {
+      "source": "F",
+      "target": "NOVN",
+      "weight": 817
+    },
+    {
+      "source": "F",
+      "target": "SNAP",
+      "weight": 8531
+    },
+    {
+      "source": "F",
+      "target": "KO",
+      "weight": 7983
+    },
+    {
+      "source": "F",
+      "target": "INTC",
+      "weight": 6648
+    },
+    {
+      "source": "F",
+      "target": "FSLY",
+      "weight": 967
+    },
+    {
+      "source": "F",
+      "target": "WKHS",
+      "weight": 4153
+    },
+    {
+      "source": "DAL",
+      "target": "BOXL",
+      "weight": 2751
+    },
+    {
+      "source": "DAL",
+      "target": "BYND",
+      "weight": 5952
+    },
+    {
+      "source": "DAL",
+      "target": "C",
+      "weight": 7258
+    },
+    {
+      "source": "DAL",
+      "target": "CRM",
+      "weight": 6169
+    },
+    {
+      "source": "DAL",
+      "target": "SPCE",
+      "weight": 9260
+    },
+    {
+      "source": "DAL",
+      "target": "NOVN",
+      "weight": 353
+    },
+    {
+      "source": "DAL",
+      "target": "PENN",
+      "weight": 8177
+    },
+    {
+      "source": "DAL",
+      "target": "FSR",
+      "weight": 674
+    },
+    {
+      "source": "DAL",
+      "target": "GNUS",
+      "weight": 5745
+    },
+    {
+      "source": "DAL",
+      "target": "T",
+      "weight": 4761
+    },
+    {
+      "source": "DAL",
+      "target": "GS",
+      "weight": 4688
+    },
+    {
+      "source": "DAL",
+      "target": "UBER",
+      "weight": 6657
+    },
+    {
+      "source": "DAL",
+      "target": "WFC",
+      "weight": 8609
+    },
+    {
+      "source": "DAL",
+      "target": "VXRT",
+      "weight": 2016
+    },
+    {
+      "source": "DAL",
+      "target": "SRNE",
+      "weight": 3641
+    },
+    {
+      "source": "DAL",
+      "target": "SQ",
+      "weight": 4536
+    },
+    {
+      "source": "DAL",
+      "target": "KO",
+      "weight": 4454
+    },
+    {
+      "source": "DAL",
+      "target": "INTC",
+      "weight": 4347
+    },
+    {
+      "source": "DAL",
+      "target": "XSPA",
+      "weight": 771
+    },
+    {
+      "source": "DAL",
+      "target": "DEAC",
+      "weight": 9
+    },
+    {
+      "source": "DAL",
+      "target": "JNJ",
+      "weight": 3632
+    },
+    {
+      "source": "DAL",
+      "target": "SNAP",
+      "weight": 5891
+    },
+    {
+      "source": "DAL",
+      "target": "WKHS",
+      "weight": 1965
+    },
+    {
+      "source": "DAL",
+      "target": "WMT",
+      "weight": 3060
+    },
+    {
+      "source": "DAL",
+      "target": "FSLY",
+      "weight": 381
+    },
+    {
+      "source": "DAL",
+      "target": "IBIO",
+      "weight": 719
+    },
+    {
+      "source": "DAL",
+      "target": "PFE",
+      "weight": 3502
+    },
+    {
+      "source": "DEAC",
+      "target": "BOXL",
+      "weight": 7037
+    },
+    {
+      "source": "DEAC",
+      "target": "BYND",
+      "weight": 36
+    },
+    {
+      "source": "DEAC",
+      "target": "C",
+      "weight": 3
+    },
+    {
+      "source": "DEAC",
+      "target": "CRM",
+      "weight": 25
+    },
+    {
+      "source": "DEAC",
+      "target": "WKHS",
+      "weight": 15309
+    },
+    {
+      "source": "DEAC",
+      "target": "GS",
+      "weight": 1535
+    },
+    {
+      "source": "DEAC",
+      "target": "KO",
+      "weight": 2266
+    },
+    {
+      "source": "DEAC",
+      "target": "PENN",
+      "weight": 29072
+    },
+    {
+      "source": "DEAC",
+      "target": "SNAP",
+      "weight": 7039
+    },
+    {
+      "source": "DEAC",
+      "target": "SQ",
+      "weight": 5955
+    },
+    {
+      "source": "DEAC",
+      "target": "FSLY",
+      "weight": 10320
+    },
+    {
+      "source": "DEAC",
+      "target": "UBER",
+      "weight": 2983
+    },
+    {
+      "source": "DEAC",
+      "target": "SRNE",
+      "weight": 11063
+    },
+    {
+      "source": "DEAC",
+      "target": "FSR",
+      "weight": 8061
+    },
+    {
+      "source": "DEAC",
+      "target": "NOVN",
+      "weight": 9245
+    },
+    {
+      "source": "DEAC",
+      "target": "T",
+      "weight": 2540
+    },
+    {
+      "source": "DEAC",
+      "target": "SPCE",
+      "weight": 8175
+    },
+    {
+      "source": "DEAC",
+      "target": "WFC",
+      "weight": 1651
+    },
+    {
+      "source": "DEAC",
+      "target": "JNJ",
+      "weight": 1144
+    },
+    {
+      "source": "DEAC",
+      "target": "PFE",
+      "weight": 6438
+    },
+    {
+      "source": "DEAC",
+      "target": "GNUS",
+      "weight": 5059
+    },
+    {
+      "source": "DEAC",
+      "target": "IBIO",
+      "weight": 9741
+    },
+    {
+      "source": "DEAC",
+      "target": "INTC",
+      "weight": 2163
+    },
+    {
+      "source": "DEAC",
+      "target": "WMT",
+      "weight": 2760
+    },
+    {
+      "source": "DEAC",
+      "target": "VXRT",
+      "weight": 10802
+    },
+    {
+      "source": "DEAC",
+      "target": "XSPA",
+      "weight": 9707
+    },
+    {
+      "source": "SQ",
+      "target": "BOXL",
+      "weight": 186
+    },
+    {
+      "source": "SQ",
+      "target": "BYND",
+      "weight": 9137
+    },
+    {
+      "source": "SQ",
+      "target": "C",
+      "weight": 1684
+    },
+    {
+      "source": "SQ",
+      "target": "CRM",
+      "weight": 4850
+    },
+    {
+      "source": "SQ",
+      "target": "FSLY",
+      "weight": 7996
+    },
+    {
+      "source": "SQ",
+      "target": "FSR",
+      "weight": 1653
+    },
+    {
+      "source": "SQ",
+      "target": "GNUS",
+      "weight": 411
+    },
+    {
+      "source": "SQ",
+      "target": "GS",
+      "weight": 1464
+    },
+    {
+      "source": "SQ",
+      "target": "IBIO",
+      "weight": 1290
+    },
+    {
+      "source": "SQ",
+      "target": "INTC",
+      "weight": 5435
+    },
+    {
+      "source": "SQ",
+      "target": "JNJ",
+      "weight": 3136
+    },
+    {
+      "source": "SQ",
+      "target": "KO",
+      "weight": 2490
+    },
+    {
+      "source": "SQ",
+      "target": "NOVN",
+      "weight": 64
+    },
+    {
+      "source": "SQ",
+      "target": "PENN",
+      "weight": 2187
+    },
+    {
+      "source": "SQ",
+      "target": "PFE",
+      "weight": 2528
+    },
+    {
+      "source": "SQ",
+      "target": "SNAP",
+      "weight": 5165
+    },
+    {
+      "source": "SQ",
+      "target": "SPCE",
+      "weight": 5755
+    },
+    {
+      "source": "SQ",
+      "target": "SRNE",
+      "weight": 2472
+    },
+    {
+      "source": "SQ",
+      "target": "WFC",
+      "weight": 1550
+    },
+    {
+      "source": "SQ",
+      "target": "T",
+      "weight": 1556
+    },
+    {
+      "source": "SQ",
+      "target": "WKHS",
+      "weight": 1796
+    },
+    {
+      "source": "SQ",
+      "target": "UBER",
+      "weight": 6753
+    },
+    {
+      "source": "SQ",
+      "target": "VXRT",
+      "weight": 1355
+    },
+    {
+      "source": "SQ",
+      "target": "XSPA",
+      "weight": 143
+    },
+    {
+      "source": "SQ",
+      "target": "WMT",
+      "weight": 5647
+    },
+    {
+      "source": "WKHS",
+      "target": "BOXL",
+      "weight": 12932
+    },
+    {
+      "source": "WKHS",
+      "target": "BYND",
+      "weight": 2161
+    },
+    {
+      "source": "WKHS",
+      "target": "C",
+      "weight": 581
+    },
+    {
+      "source": "WKHS",
+      "target": "CRM",
+      "weight": 1312
+    },
+    {
+      "source": "WKHS",
+      "target": "FSLY",
+      "weight": 9802
+    },
+    {
+      "source": "WKHS",
+      "target": "FSR",
+      "weight": 22764
+    },
+    {
+      "source": "WKHS",
+      "target": "GNUS",
+      "weight": 6752
+    },
+    {
+      "source": "WKHS",
+      "target": "GS",
+      "weight": 754
+    },
+    {
+      "source": "WKHS",
+      "target": "IBIO",
+      "weight": 14474
+    },
+    {
+      "source": "WKHS",
+      "target": "INTC",
+      "weight": 1161
+    },
+    {
+      "source": "WKHS",
+      "target": "JNJ",
+      "weight": 506
+    },
+    {
+      "source": "WKHS",
+      "target": "KO",
+      "weight": 209
+    },
+    {
+      "source": "WKHS",
+      "target": "NOVN",
+      "weight": 14613
+    },
+    {
+      "source": "WKHS",
+      "target": "PENN",
+      "weight": 9955
+    },
+    {
+      "source": "WKHS",
+      "target": "PFE",
+      "weight": 5718
+    },
+    {
+      "source": "WKHS",
+      "target": "SNAP",
+      "weight": 6319
+    },
+    {
+      "source": "WKHS",
+      "target": "SPCE",
+      "weight": 4567
+    },
+    {
+      "source": "WKHS",
+      "target": "SRNE",
+      "weight": 15943
+    },
+    {
+      "source": "WKHS",
+      "target": "T",
+      "weight": 1060
+    },
+    {
+      "source": "WKHS",
+      "target": "UBER",
+      "weight": 1611
+    },
+    {
+      "source": "WKHS",
+      "target": "VXRT",
+      "weight": 17771
+    },
+    {
+      "source": "WKHS",
+      "target": "WFC",
+      "weight": 1309
+    },
+    {
+      "source": "WKHS",
+      "target": "XSPA",
+      "weight": 13066
+    },
+    {
+      "source": "WKHS",
+      "target": "WMT",
+      "weight": 1739
+    },
+    {
+      "source": "SNAP",
+      "target": "BOXL",
+      "weight": 3040
+    },
+    {
+      "source": "SNAP",
+      "target": "BYND",
+      "weight": 3407
+    },
+    {
+      "source": "SNAP",
+      "target": "C",
+      "weight": 4299
+    },
+    {
+      "source": "SNAP",
+      "target": "CRM",
+      "weight": 3804
+    },
+    {
+      "source": "SNAP",
+      "target": "FSLY",
+      "weight": 5163
+    },
+    {
+      "source": "SNAP",
+      "target": "FSR",
+      "weight": 4935
+    },
+    {
+      "source": "SNAP",
+      "target": "GNUS",
+      "weight": 1875
+    },
+    {
+      "source": "SNAP",
+      "target": "GS",
+      "weight": 3165
+    },
+    {
+      "source": "SNAP",
+      "target": "IBIO",
+      "weight": 4426
+    },
+    {
+      "source": "SNAP",
+      "target": "INTC",
+      "weight": 7035
+    },
+    {
+      "source": "SNAP",
+      "target": "JNJ",
+      "weight": 1625
+    },
+    {
+      "source": "SNAP",
+      "target": "KO",
+      "weight": 6644
+    },
+    {
+      "source": "SNAP",
+      "target": "NOVN",
+      "weight": 3647
+    },
+    {
+      "source": "SNAP",
+      "target": "PENN",
+      "weight": 5180
+    },
+    {
+      "source": "SNAP",
+      "target": "PFE",
+      "weight": 5471
+    },
+    {
+      "source": "SNAP",
+      "target": "WMT",
+      "weight": 2890
+    },
+    {
+      "source": "SNAP",
+      "target": "XSPA",
+      "weight": 2927
+    },
+    {
+      "source": "SNAP",
+      "target": "SPCE",
+      "weight": 3835
+    },
+    {
+      "source": "SNAP",
+      "target": "VXRT",
+      "weight": 3806
+    },
+    {
+      "source": "SNAP",
+      "target": "WFC",
+      "weight": 3356
+    },
+    {
+      "source": "SNAP",
+      "target": "UBER",
+      "weight": 6247
+    },
+    {
+      "source": "SNAP",
+      "target": "T",
+      "weight": 7879
+    },
+    {
+      "source": "SNAP",
+      "target": "SRNE",
+      "weight": 3845
+    },
+    {
+      "source": "IBIO",
+      "target": "BOXL",
+      "weight": 15109
+    },
+    {
+      "source": "IBIO",
+      "target": "BYND",
+      "weight": 387
+    },
+    {
+      "source": "IBIO",
+      "target": "C",
+      "weight": 591
+    },
+    {
+      "source": "IBIO",
+      "target": "CRM",
+      "weight": 242
+    },
+    {
+      "source": "IBIO",
+      "target": "FSLY",
+      "weight": 7778
+    },
+    {
+      "source": "IBIO",
+      "target": "FSR",
+      "weight": 16496
+    },
+    {
+      "source": "IBIO",
+      "target": "GNUS",
+      "weight": 5133
+    },
+    {
+      "source": "IBIO",
+      "target": "GS",
+      "weight": 227
+    },
+    {
+      "source": "IBIO",
+      "target": "WMT",
+      "weight": 702
+    },
+    {
+      "source": "IBIO",
+      "target": "UBER",
+      "weight": 651
+    },
+    {
+      "source": "IBIO",
+      "target": "SRNE",
+      "weight": 20235
+    },
+    {
+      "source": "IBIO",
+      "target": "XSPA",
+      "weight": 16439
+    },
+    {
+      "source": "IBIO",
+      "target": "VXRT",
+      "weight": 21422
+    },
+    {
+      "source": "IBIO",
+      "target": "PENN",
+      "weight": 7723
+    },
+    {
+      "source": "IBIO",
+      "target": "WFC",
+      "weight": 427
+    },
+    {
+      "source": "IBIO",
+      "target": "INTC",
+      "weight": 497
+    },
+    {
+      "source": "IBIO",
+      "target": "JNJ",
+      "weight": 1311
+    },
+    {
+      "source": "IBIO",
+      "target": "T",
+      "weight": 590
+    },
+    {
+      "source": "IBIO",
+      "target": "KO",
+      "weight": 107
+    },
+    {
+      "source": "IBIO",
+      "target": "NOVN",
+      "weight": 16518
+    },
+    {
+      "source": "IBIO",
+      "target": "PFE",
+      "weight": 6812
+    },
+    {
+      "source": "IBIO",
+      "target": "SPCE",
+      "weight": 1583
+    },
+    {
+      "source": "INTC",
+      "target": "BOXL",
+      "weight": 187
+    },
+    {
+      "source": "INTC",
+      "target": "BYND",
+      "weight": 3061
+    },
+    {
+      "source": "INTC",
+      "target": "C",
+      "weight": 5713
+    },
+    {
+      "source": "INTC",
+      "target": "CRM",
+      "weight": 5197
+    },
+    {
+      "source": "INTC",
+      "target": "FSLY",
+      "weight": 1025
+    },
+    {
+      "source": "INTC",
+      "target": "FSR",
+      "weight": 610
+    },
+    {
+      "source": "INTC",
+      "target": "GNUS",
+      "weight": 802
+    },
+    {
+      "source": "INTC",
+      "target": "GS",
+      "weight": 4941
+    },
+    {
+      "source": "INTC",
+      "target": "VXRT",
+      "weight": 496
+    },
+    {
+      "source": "INTC",
+      "target": "PFE",
+      "weight": 4857
+    },
+    {
+      "source": "INTC",
+      "target": "WMT",
+      "weight": 7257
+    },
+    {
+      "source": "INTC",
+      "target": "XSPA",
+      "weight": 399
+    },
+    {
+      "source": "INTC",
+      "target": "JNJ",
+      "weight": 6502
+    },
+    {
+      "source": "INTC",
+      "target": "SRNE",
+      "weight": 839
+    },
+    {
+      "source": "INTC",
+      "target": "KO",
+      "weight": 6157
+    },
+    {
+      "source": "INTC",
+      "target": "UBER",
+      "weight": 3739
+    },
+    {
+      "source": "INTC",
+      "target": "PENN",
+      "weight": 1869
+    },
+    {
+      "source": "INTC",
+      "target": "T",
+      "weight": 7826
+    },
+    {
+      "source": "INTC",
+      "target": "WFC",
+      "weight": 4489
+    },
+    {
+      "source": "INTC",
+      "target": "NOVN",
+      "weight": 201
+    },
+    {
+      "source": "INTC",
+      "target": "SPCE",
+      "weight": 3324
+    },
+    {
+      "source": "BYND",
+      "target": "BOXL",
+      "weight": 2374
+    },
+    {
+      "source": "BYND",
+      "target": "FSLY",
+      "weight": 3000
+    },
+    {
+      "source": "BYND",
+      "target": "KO",
+      "weight": 669
+    },
+    {
+      "source": "BYND",
+      "target": "JNJ",
+      "weight": 561
+    },
+    {
+      "source": "BYND",
+      "target": "XSPA",
+      "weight": 1355
+    },
+    {
+      "source": "BYND",
+      "target": "WMT",
+      "weight": 4563
+    },
+    {
+      "source": "BYND",
+      "target": "T",
+      "weight": 1539
+    },
+    {
+      "source": "BYND",
+      "target": "FSR",
+      "weight": 359
+    },
+    {
+      "source": "BYND",
+      "target": "C",
+      "weight": 1494
+    },
+    {
+      "source": "BYND",
+      "target": "NOVN",
+      "weight": 163
+    },
+    {
+      "source": "BYND",
+      "target": "VXRT",
+      "weight": 1279
+    },
+    {
+      "source": "BYND",
+      "target": "GNUS",
+      "weight": 4641
+    },
+    {
+      "source": "BYND",
+      "target": "PENN",
+      "weight": 6840
+    },
+    {
+      "source": "BYND",
+      "target": "WFC",
+      "weight": 1400
+    },
+    {
+      "source": "BYND",
+      "target": "CRM",
+      "weight": 4122
+    },
+    {
+      "source": "BYND",
+      "target": "SRNE",
+      "weight": 2828
+    },
+    {
+      "source": "BYND",
+      "target": "GS",
+      "weight": 2343
+    },
+    {
+      "source": "BYND",
+      "target": "PFE",
+      "weight": 1129
+    },
+    {
+      "source": "BYND",
+      "target": "UBER",
+      "weight": 4473
+    },
+    {
+      "source": "BYND",
+      "target": "SPCE",
+      "weight": 12533
+    },
+    {
+      "source": "PFE",
+      "target": "BOXL",
+      "weight": 5395
+    },
+    {
+      "source": "PFE",
+      "target": "C",
+      "weight": 4158
+    },
+    {
+      "source": "PFE",
+      "target": "CRM",
+      "weight": 5218
+    },
+    {
+      "source": "PFE",
+      "target": "FSLY",
+      "weight": 5614
+    },
+    {
+      "source": "PFE",
+      "target": "FSR",
+      "weight": 6316
+    },
+    {
+      "source": "PFE",
+      "target": "GNUS",
+      "weight": 1585
+    },
+    {
+      "source": "PFE",
+      "target": "GS",
+      "weight": 4243
+    },
+    {
+      "source": "PFE",
+      "target": "JNJ",
+      "weight": 13211
+    },
+    {
+      "source": "PFE",
+      "target": "KO",
+      "weight": 5368
+    },
+    {
+      "source": "PFE",
+      "target": "NOVN",
+      "weight": 5667
+    },
+    {
+      "source": "PFE",
+      "target": "PENN",
+      "weight": 4129
+    },
+    {
+      "source": "PFE",
+      "target": "WFC",
+      "weight": 4330
+    },
+    {
+      "source": "PFE",
+      "target": "WMT",
+      "weight": 3492
+    },
+    {
+      "source": "PFE",
+      "target": "SRNE",
+      "weight": 6276
+    },
+    {
+      "source": "PFE",
+      "target": "T",
+      "weight": 3039
+    },
+    {
+      "source": "PFE",
+      "target": "VXRT",
+      "weight": 6684
+    },
+    {
+      "source": "PFE",
+      "target": "XSPA",
+      "weight": 4512
+    },
+    {
+      "source": "PFE",
+      "target": "SPCE",
+      "weight": 2498
+    },
+    {
+      "source": "PFE",
+      "target": "UBER",
+      "weight": 2353
+    },
+    {
+      "source": "C",
+      "target": "BOXL",
+      "weight": 138
+    },
+    {
+      "source": "C",
+      "target": "FSLY",
+      "weight": 421
+    },
+    {
+      "source": "C",
+      "target": "JNJ",
+      "weight": 6391
+    },
+    {
+      "source": "C",
+      "target": "VXRT",
+      "weight": 1130
+    },
+    {
+      "source": "C",
+      "target": "SRNE",
+      "weight": 567
+    },
+    {
+      "source": "C",
+      "target": "CRM",
+      "weight": 6774
+    },
+    {
+      "source": "C",
+      "target": "KO",
+      "weight": 5828
+    },
+    {
+      "source": "C",
+      "target": "FSR",
+      "weight": 322
+    },
+    {
+      "source": "C",
+      "target": "GNUS",
+      "weight": 712
+    },
+    {
+      "source": "C",
+      "target": "NOVN",
+      "weight": 297
+    },
+    {
+      "source": "C",
+      "target": "PENN",
+      "weight": 2348
+    },
+    {
+      "source": "C",
+      "target": "GS",
+      "weight": 14621
+    },
+    {
+      "source": "C",
+      "target": "SPCE",
+      "weight": 3835
+    },
+    {
+      "source": "C",
+      "target": "XSPA",
+      "weight": 310
+    },
+    {
+      "source": "C",
+      "target": "WMT",
+      "weight": 5584
+    },
+    {
+      "source": "C",
+      "target": "UBER",
+      "weight": 3753
+    },
+    {
+      "source": "C",
+      "target": "T",
+      "weight": 4983
+    },
+    {
+      "source": "C",
+      "target": "WFC",
+      "weight": 17010
+    },
+    {
+      "source": "SPCE",
+      "target": "BOXL",
+      "weight": 3468
+    },
+    {
+      "source": "SPCE",
+      "target": "CRM",
+      "weight": 6398
+    },
+    {
+      "source": "SPCE",
+      "target": "FSLY",
+      "weight": 3065
+    },
+    {
+      "source": "SPCE",
+      "target": "FSR",
+      "weight": 3684
+    },
+    {
+      "source": "SPCE",
+      "target": "GNUS",
+      "weight": 5756
+    },
+    {
+      "source": "SPCE",
+      "target": "GS",
+      "weight": 3657
+    },
+    {
+      "source": "SPCE",
+      "target": "JNJ",
+      "weight": 1384
+    },
+    {
+      "source": "SPCE",
+      "target": "KO",
+      "weight": 1003
+    },
+    {
+      "source": "SPCE",
+      "target": "NOVN",
+      "weight": 1502
+    },
+    {
+      "source": "SPCE",
+      "target": "PENN",
+      "weight": 6445
+    },
+    {
+      "source": "SPCE",
+      "target": "XSPA",
+      "weight": 1719
+    },
+    {
+      "source": "SPCE",
+      "target": "WFC",
+      "weight": 3062
+    },
+    {
+      "source": "SPCE",
+      "target": "SRNE",
+      "weight": 3073
+    },
+    {
+      "source": "SPCE",
+      "target": "T",
+      "weight": 1878
+    },
+    {
+      "source": "SPCE",
+      "target": "WMT",
+      "weight": 2511
+    },
+    {
+      "source": "SPCE",
+      "target": "VXRT",
+      "weight": 2270
+    },
+    {
+      "source": "SPCE",
+      "target": "UBER",
+      "weight": 6492
+    },
+    {
+      "source": "WMT",
+      "target": "BOXL",
+      "weight": 232
+    },
+    {
+      "source": "WMT",
+      "target": "CRM",
+      "weight": 6299
+    },
+    {
+      "source": "WMT",
+      "target": "FSLY",
+      "weight": 1593
+    },
+    {
+      "source": "WMT",
+      "target": "FSR",
+      "weight": 840
+    },
+    {
+      "source": "WMT",
+      "target": "GNUS",
+      "weight": 687
+    },
+    {
+      "source": "WMT",
+      "target": "GS",
+      "weight": 5618
+    },
+    {
+      "source": "WMT",
+      "target": "JNJ",
+      "weight": 7479
+    },
+    {
+      "source": "WMT",
+      "target": "KO",
+      "weight": 5022
+    },
+    {
+      "source": "WMT",
+      "target": "NOVN",
+      "weight": 172
+    },
+    {
+      "source": "WMT",
+      "target": "PENN",
+      "weight": 1878
+    },
+    {
+      "source": "WMT",
+      "target": "SRNE",
+      "weight": 1199
+    },
+    {
+      "source": "WMT",
+      "target": "T",
+      "weight": 2981
+    },
+    {
+      "source": "WMT",
+      "target": "UBER",
+      "weight": 3235
+    },
+    {
+      "source": "WMT",
+      "target": "VXRT",
+      "weight": 406
+    },
+    {
+      "source": "WMT",
+      "target": "WFC",
+      "weight": 4357
+    },
+    {
+      "source": "WMT",
+      "target": "XSPA",
+      "weight": 278
+    },
+    {
+      "source": "CRM",
+      "target": "BOXL",
+      "weight": 2198
+    },
+    {
+      "source": "CRM",
+      "target": "KO",
+      "weight": 7032
+    },
+    {
+      "source": "CRM",
+      "target": "JNJ",
+      "weight": 4185
+    },
+    {
+      "source": "CRM",
+      "target": "T",
+      "weight": 1990
+    },
+    {
+      "source": "CRM",
+      "target": "FSR",
+      "weight": 201
+    },
+    {
+      "source": "CRM",
+      "target": "XSPA",
+      "weight": 1051
+    },
+    {
+      "source": "CRM",
+      "target": "GNUS",
+      "weight": 1444
+    },
+    {
+      "source": "CRM",
+      "target": "WFC",
+      "weight": 6656
+    },
+    {
+      "source": "CRM",
+      "target": "UBER",
+      "weight": 5203
+    },
+    {
+      "source": "CRM",
+      "target": "PENN",
+      "weight": 3956
+    },
+    {
+      "source": "CRM",
+      "target": "FSLY",
+      "weight": 1747
+    },
+    {
+      "source": "CRM",
+      "target": "NOVN",
+      "weight": 444
+    },
+    {
+      "source": "CRM",
+      "target": "SRNE",
+      "weight": 391
+    },
+    {
+      "source": "CRM",
+      "target": "GS",
+      "weight": 6469
+    },
+    {
+      "source": "CRM",
+      "target": "VXRT",
+      "weight": 101
+    },
+    {
+      "source": "FSR",
+      "target": "BOXL",
+      "weight": 9077
+    },
+    {
+      "source": "FSR",
+      "target": "FSLY",
+      "weight": 3109
+    },
+    {
+      "source": "FSR",
+      "target": "T",
+      "weight": 525
+    },
+    {
+      "source": "FSR",
+      "target": "GNUS",
+      "weight": 2872
+    },
+    {
+      "source": "FSR",
+      "target": "PENN",
+      "weight": 9591
+    },
+    {
+      "source": "FSR",
+      "target": "UBER",
+      "weight": 981
+    },
+    {
+      "source": "FSR",
+      "target": "JNJ",
+      "weight": 248
+    },
+    {
+      "source": "FSR",
+      "target": "GS",
+      "weight": 320
+    },
+    {
+      "source": "FSR",
+      "target": "VXRT",
+      "weight": 17081
+    },
+    {
+      "source": "FSR",
+      "target": "NOVN",
+      "weight": 13196
+    },
+    {
+      "source": "FSR",
+      "target": "KO",
+      "weight": 202
+    },
+    {
+      "source": "FSR",
+      "target": "WFC",
+      "weight": 301
+    },
+    {
+      "source": "FSR",
+      "target": "SRNE",
+      "weight": 16424
+    },
+    {
+      "source": "FSR",
+      "target": "XSPA",
+      "weight": 15603
+    },
+    {
+      "source": "VXRT",
+      "target": "BOXL",
+      "weight": 13698
+    },
+    {
+      "source": "VXRT",
+      "target": "FSLY",
+      "weight": 8300
+    },
+    {
+      "source": "VXRT",
+      "target": "GNUS",
+      "weight": 3504
+    },
+    {
+      "source": "VXRT",
+      "target": "GS",
+      "weight": 143
+    },
+    {
+      "source": "VXRT",
+      "target": "JNJ",
+      "weight": 1429
+    },
+    {
+      "source": "VXRT",
+      "target": "KO",
+      "weight": 65
+    },
+    {
+      "source": "VXRT",
+      "target": "NOVN",
+      "weight": 13955
+    },
+    {
+      "source": "VXRT",
+      "target": "PENN",
+      "weight": 9333
+    },
+    {
+      "source": "VXRT",
+      "target": "SRNE",
+      "weight": 19190
+    },
+    {
+      "source": "VXRT",
+      "target": "T",
+      "weight": 487
+    },
+    {
+      "source": "VXRT",
+      "target": "UBER",
+      "weight": 717
+    },
+    {
+      "source": "VXRT",
+      "target": "WFC",
+      "weight": 1603
+    },
+    {
+      "source": "VXRT",
+      "target": "XSPA",
+      "weight": 15499
+    },
+    {
+      "source": "SRNE",
+      "target": "BOXL",
+      "weight": 13328
+    },
+    {
+      "source": "SRNE",
+      "target": "FSLY",
+      "weight": 8584
+    },
+    {
+      "source": "SRNE",
+      "target": "GNUS",
+      "weight": 3681
+    },
+    {
+      "source": "SRNE",
+      "target": "GS",
+      "weight": 391
+    },
+    {
+      "source": "SRNE",
+      "target": "JNJ",
+      "weight": 1405
+    },
+    {
+      "source": "SRNE",
+      "target": "KO",
+      "weight": 202
+    },
+    {
+      "source": "SRNE",
+      "target": "NOVN",
+      "weight": 13618
+    },
+    {
+      "source": "SRNE",
+      "target": "PENN",
+      "weight": 9301
+    },
+    {
+      "source": "SRNE",
+      "target": "XSPA",
+      "weight": 14608
+    },
+    {
+      "source": "SRNE",
+      "target": "WFC",
+      "weight": 1150
+    },
+    {
+      "source": "SRNE",
+      "target": "UBER",
+      "weight": 1086
+    },
+    {
+      "source": "SRNE",
+      "target": "T",
+      "weight": 836
+    },
+    {
+      "source": "PENN",
+      "target": "BOXL",
+      "weight": 6195
+    },
+    {
+      "source": "PENN",
+      "target": "FSLY",
+      "weight": 6479
+    },
+    {
+      "source": "PENN",
+      "target": "GNUS",
+      "weight": 4124
+    },
+    {
+      "source": "PENN",
+      "target": "GS",
+      "weight": 1325
+    },
+    {
+      "source": "PENN",
+      "target": "JNJ",
+      "weight": 1166
+    },
+    {
+      "source": "PENN",
+      "target": "KO",
+      "weight": 855
+    },
+    {
+      "source": "PENN",
+      "target": "NOVN",
+      "weight": 7151
+    },
+    {
+      "source": "PENN",
+      "target": "WFC",
+      "weight": 4038
+    },
+    {
+      "source": "PENN",
+      "target": "T",
+      "weight": 1590
+    },
+    {
+      "source": "PENN",
+      "target": "UBER",
+      "weight": 2278
+    },
+    {
+      "source": "PENN",
+      "target": "XSPA",
+      "weight": 8158
+    },
+    {
+      "source": "GS",
+      "target": "BOXL",
+      "weight": 23
+    },
+    {
+      "source": "GS",
+      "target": "FSLY",
+      "weight": 237
+    },
+    {
+      "source": "GS",
+      "target": "GNUS",
+      "weight": 506
+    },
+    {
+      "source": "GS",
+      "target": "UBER",
+      "weight": 3416
+    },
+    {
+      "source": "GS",
+      "target": "KO",
+      "weight": 5691
+    },
+    {
+      "source": "GS",
+      "target": "XSPA",
+      "weight": 173
+    },
+    {
+      "source": "GS",
+      "target": "WFC",
+      "weight": 14129
+    },
+    {
+      "source": "GS",
+      "target": "T",
+      "weight": 2112
+    },
+    {
+      "source": "GS",
+      "target": "NOVN",
+      "weight": 68
+    },
+    {
+      "source": "GS",
+      "target": "JNJ",
+      "weight": 6613
+    },
+    {
+      "source": "T",
+      "target": "BOXL",
+      "weight": 157
+    },
+    {
+      "source": "T",
+      "target": "FSLY",
+      "weight": 493
+    },
+    {
+      "source": "T",
+      "target": "GNUS",
+      "weight": 1714
+    },
+    {
+      "source": "T",
+      "target": "JNJ",
+      "weight": 3271
+    },
+    {
+      "source": "T",
+      "target": "KO",
+      "weight": 7640
+    },
+    {
+      "source": "T",
+      "target": "NOVN",
+      "weight": 321
+    },
+    {
+      "source": "T",
+      "target": "XSPA",
+      "weight": 323
+    },
+    {
+      "source": "T",
+      "target": "UBER",
+      "weight": 3287
+    },
+    {
+      "source": "T",
+      "target": "WFC",
+      "weight": 2900
+    },
+    {
+      "source": "GNUS",
+      "target": "BOXL",
+      "weight": 9171
+    },
+    {
+      "source": "GNUS",
+      "target": "FSLY",
+      "weight": 372
+    },
+    {
+      "source": "GNUS",
+      "target": "KO",
+      "weight": 1368
+    },
+    {
+      "source": "GNUS",
+      "target": "WFC",
+      "weight": 1047
+    },
+    {
+      "source": "GNUS",
+      "target": "XSPA",
+      "weight": 9038
+    },
+    {
+      "source": "GNUS",
+      "target": "UBER",
+      "weight": 989
+    },
+    {
+      "source": "GNUS",
+      "target": "NOVN",
+      "weight": 9176
+    },
+    {
+      "source": "GNUS",
+      "target": "JNJ",
+      "weight": 225
+    },
+    {
+      "source": "XSPA",
+      "target": "BOXL",
+      "weight": 12483
+    },
+    {
+      "source": "XSPA",
+      "target": "FSLY",
+      "weight": 6487
+    },
+    {
+      "source": "XSPA",
+      "target": "JNJ",
+      "weight": 305
+    },
+    {
+      "source": "XSPA",
+      "target": "KO",
+      "weight": 43
+    },
+    {
+      "source": "XSPA",
+      "target": "NOVN",
+      "weight": 13504
+    },
+    {
+      "source": "XSPA",
+      "target": "UBER",
+      "weight": 508
+    },
+    {
+      "source": "XSPA",
+      "target": "WFC",
+      "weight": 94
+    },
+    {
+      "source": "WFC",
+      "target": "BOXL",
+      "weight": 172
+    },
+    {
+      "source": "WFC",
+      "target": "FSLY",
+      "weight": 687
+    },
+    {
+      "source": "WFC",
+      "target": "JNJ",
+      "weight": 5892
+    },
+    {
+      "source": "WFC",
+      "target": "KO",
+      "weight": 5054
+    },
+    {
+      "source": "WFC",
+      "target": "NOVN",
+      "weight": 462
+    },
+    {
+      "source": "WFC",
+      "target": "UBER",
+      "weight": 4416
+    },
+    {
+      "source": "BOXL",
+      "target": "KO",
+      "weight": 20
+    },
+    {
+      "source": "BOXL",
+      "target": "FSLY",
+      "weight": 7805
+    },
+    {
+      "source": "BOXL",
+      "target": "UBER",
+      "weight": 168
+    },
+    {
+      "source": "BOXL",
+      "target": "NOVN",
+      "weight": 16331
+    },
+    {
+      "source": "BOXL",
+      "target": "JNJ",
+      "weight": 144
+    },
+    {
+      "source": "UBER",
+      "target": "FSLY",
+      "weight": 2122
+    },
+    {
+      "source": "UBER",
+      "target": "JNJ",
+      "weight": 1490
+    },
+    {
+      "source": "UBER",
+      "target": "KO",
+      "weight": 3165
+    },
+    {
+      "source": "UBER",
+      "target": "NOVN",
+      "weight": 547
+    },
+    {
+      "source": "NOVN",
+      "target": "FSLY",
+      "weight": 8313
+    },
+    {
+      "source": "NOVN",
+      "target": "JNJ",
+      "weight": 253
+    },
+    {
+      "source": "NOVN",
+      "target": "KO",
+      "weight": 41
+    },
+    {
+      "source": "FSLY",
+      "target": "JNJ",
+      "weight": 344
+    },
+    {
+      "source": "FSLY",
+      "target": "KO",
+      "weight": 192
+    },
+    {
+      "source": "JNJ",
+      "target": "KO",
+      "weight": 4626
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "nodes": [
+    {
+      "id": "ALCO",
+      "label": "ALCO",
+      "industry": "Agric",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.2,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.34025581098509233,
+      "harmonic_centrality": 1.9575757575757575,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 38
+    },
+    {
+      "id": "BV",
+      "label": "BV",
+      "industry": "Agric",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.38888888888888884,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.06292742851949372,
+      "harmonic_centrality": 3.41025641025641,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 7
+    },
+    {
+      "id": "CALM",
+      "label": "CALM",
+      "industry": "Agric",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.75,
+      "eigenvector_centrality": 0.5009454209176707,
+      "harmonic_centrality": 0.4556068931068931,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 57
+    },
+    {
+      "id": "CDZI",
+      "label": "CDZI",
+      "industry": "Agric",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.02222222222222222,
+      "closeness_centrality": 0.6,
+      "eigenvector_centrality": 0.016498607712539096,
+      "harmonic_centrality": 3.104761904761905,
+      "eccentricity": 2,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "CTVA",
+      "label": "CTVA",
+      "industry": "Agric",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.16666666666666666,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.4526196476158832,
+      "harmonic_centrality": 3.3269230769230766,
+      "eccentricity": 1,
+      "degree": 6,
+      "weighted_degree": 46
+    },
+    {
+      "id": "CVGW",
+      "label": "CVGW",
+      "industry": "Agric",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.1,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.36455548066122495,
+      "harmonic_centrality": 3.16025641025641,
+      "eccentricity": 1,
+      "degree": 6,
+      "weighted_degree": 41
+    },
+    {
+      "id": "SMG",
+      "label": "SMG",
+      "industry": "Agric",
+      "degree_centrality": 0.8333333333333333,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.5397058079619891,
+      "harmonic_centrality": 1.2958333333333332,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 65
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALCO",
+      "target": "CALM",
+      "weight": 11
+    },
+    {
+      "source": "ALCO",
+      "target": "BV",
+      "weight": 2
+    },
+    {
+      "source": "ALCO",
+      "target": "CVGW",
+      "weight": 12
+    },
+    {
+      "source": "ALCO",
+      "target": "SMG",
+      "weight": 11
+    },
+    {
+      "source": "ALCO",
+      "target": "CTVA",
+      "weight": 2
+    },
+    {
+      "source": "BV",
+      "target": "SMG",
+      "weight": 3
+    },
+    {
+      "source": "BV",
+      "target": "CTVA",
+      "weight": 1
+    },
+    {
+      "source": "BV",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CALM",
+      "target": "SMG",
+      "weight": 16
+    },
+    {
+      "source": "CALM",
+      "target": "CVGW",
+      "weight": 13
+    },
+    {
+      "source": "CALM",
+      "target": "CTVA",
+      "weight": 17
+    },
+    {
+      "source": "CDZI",
+      "target": "CTVA",
+      "weight": 1
+    },
+    {
+      "source": "CDZI",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "SMG",
+      "weight": 23
+    },
+    {
+      "source": "CTVA",
+      "target": "CVGW",
+      "weight": 2
+    },
+    {
+      "source": "CVGW",
+      "target": "SMG",
+      "weight": 12
+    }
+  ]
+}

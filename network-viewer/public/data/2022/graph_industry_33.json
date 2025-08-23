@@ -1,0 +1,1204 @@
+{
+  "nodes": [
+    {
+      "id": "APEI",
+      "label": "APEI",
+      "industry": "PerSv",
+      "degree_centrality": 0.56,
+      "betweenness_centrality": 0.131262432012432,
+      "closeness_centrality": 0.6944444444444444,
+      "eigenvector_centrality": 0.02400246091376607,
+      "harmonic_centrality": 16.833333333333332,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 22
+    },
+    {
+      "id": "ATGE",
+      "label": "ATGE",
+      "industry": "PerSv",
+      "degree_centrality": 0.72,
+      "betweenness_centrality": 0.08961503311503312,
+      "closeness_centrality": 0.78125,
+      "eigenvector_centrality": 0.19906726094194158,
+      "harmonic_centrality": 16.0,
+      "eccentricity": 2,
+      "degree": 18,
+      "weighted_degree": 117
+    },
+    {
+      "id": "BFAM",
+      "label": "BFAM",
+      "industry": "PerSv",
+      "degree_centrality": 0.52,
+      "betweenness_centrality": 0.08774364524364524,
+      "closeness_centrality": 0.6756756756756757,
+      "eigenvector_centrality": 0.09537639443700316,
+      "harmonic_centrality": 16.666666666666664,
+      "eccentricity": 2,
+      "degree": 13,
+      "weighted_degree": 37
+    },
+    {
+      "id": "CHGG",
+      "label": "CHGG",
+      "industry": "PerSv",
+      "degree_centrality": 0.76,
+      "betweenness_centrality": 0.024637066637066638,
+      "closeness_centrality": 0.8064516129032258,
+      "eigenvector_centrality": 0.21132339442416362,
+      "harmonic_centrality": 15.0,
+      "eccentricity": 2,
+      "degree": 19,
+      "weighted_degree": 98
+    },
+    {
+      "id": "CSV",
+      "label": "CSV",
+      "industry": "PerSv",
+      "degree_centrality": 0.44,
+      "betweenness_centrality": 0.034867317867317865,
+      "closeness_centrality": 0.6410256410256411,
+      "eigenvector_centrality": 0.47168862814567314,
+      "harmonic_centrality": 15.833333333333334,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 118
+    },
+    {
+      "id": "FRG",
+      "label": "FRG",
+      "industry": "PerSv",
+      "degree_centrality": 0.52,
+      "betweenness_centrality": 0.03171855921855922,
+      "closeness_centrality": 0.6756756756756757,
+      "eigenvector_centrality": 0.03998875109886257,
+      "harmonic_centrality": 15.166666666666668,
+      "eccentricity": 2,
+      "degree": 13,
+      "weighted_degree": 26
+    },
+    {
+      "id": "HRB",
+      "label": "HRB",
+      "industry": "PerSv",
+      "degree_centrality": 0.56,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6944444444444444,
+      "eigenvector_centrality": 0.34047858911099965,
+      "harmonic_centrality": 10.416666666666668,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 137
+    },
+    {
+      "id": "HSTM",
+      "label": "HSTM",
+      "industry": "PerSv",
+      "degree_centrality": 0.32,
+      "betweenness_centrality": 0.020825776075776077,
+      "closeness_centrality": 0.5952380952380952,
+      "eigenvector_centrality": 0.016112614145763055,
+      "harmonic_centrality": 14.5,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 11
+    },
+    {
+      "id": "HTZ",
+      "label": "HTZ",
+      "industry": "PerSv",
+      "degree_centrality": 0.68,
+      "betweenness_centrality": 0.003470492470492471,
+      "closeness_centrality": 0.7575757575757576,
+      "eigenvector_centrality": 0.13938099813982394,
+      "harmonic_centrality": 13.0,
+      "eccentricity": 2,
+      "degree": 17,
+      "weighted_degree": 125
+    },
+    {
+      "id": "LINC",
+      "label": "LINC",
+      "industry": "PerSv",
+      "degree_centrality": 0.36,
+      "betweenness_centrality": 0.010666666666666666,
+      "closeness_centrality": 0.6097560975609756,
+      "eigenvector_centrality": 0.03988369944503354,
+      "harmonic_centrality": 12.5,
+      "eccentricity": 2,
+      "degree": 9,
+      "weighted_degree": 52
+    },
+    {
+      "id": "LRN",
+      "label": "LRN",
+      "industry": "PerSv",
+      "degree_centrality": 0.6,
+      "betweenness_centrality": 0.011091269841269843,
+      "closeness_centrality": 0.7142857142857143,
+      "eigenvector_centrality": 0.3426260108908199,
+      "harmonic_centrality": 13.000000000000002,
+      "eccentricity": 2,
+      "degree": 15,
+      "weighted_degree": 192
+    },
+    {
+      "id": "MCW",
+      "label": "MCW",
+      "industry": "PerSv",
+      "degree_centrality": 0.52,
+      "betweenness_centrality": 0.08522995522995523,
+      "closeness_centrality": 0.6756756756756757,
+      "eigenvector_centrality": 0.04019788677408726,
+      "harmonic_centrality": 16.333333333333336,
+      "eccentricity": 2,
+      "degree": 13,
+      "weighted_degree": 32
+    },
+    {
+      "id": "MNRO",
+      "label": "MNRO",
+      "industry": "PerSv",
+      "degree_centrality": 0.6,
+      "betweenness_centrality": 0.00879059829059829,
+      "closeness_centrality": 0.7142857142857143,
+      "eigenvector_centrality": 0.15021408191743107,
+      "harmonic_centrality": 13.0,
+      "eccentricity": 2,
+      "degree": 15,
+      "weighted_degree": 75
+    },
+    {
+      "id": "MODV",
+      "label": "MODV",
+      "industry": "PerSv",
+      "degree_centrality": 0.48,
+      "betweenness_centrality": 0.07766523291523293,
+      "closeness_centrality": 0.6578947368421053,
+      "eigenvector_centrality": 0.021784007613324788,
+      "harmonic_centrality": 16.833333333333336,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 22
+    },
+    {
+      "id": "NBXG",
+      "label": "NBXG",
+      "industry": "PerSv",
+      "degree_centrality": 0.2,
+      "betweenness_centrality": 0.0068757816257816245,
+      "closeness_centrality": 0.5555555555555556,
+      "eigenvector_centrality": 0.0035546411782925087,
+      "harmonic_centrality": 13.666666666666664,
+      "eccentricity": 2,
+      "degree": 5,
+      "weighted_degree": 6
+    },
+    {
+      "id": "PPSI",
+      "label": "PPSI",
+      "industry": "PerSv",
+      "degree_centrality": 0.28,
+      "betweenness_centrality": 0.01569733044733045,
+      "closeness_centrality": 0.5813953488372093,
+      "eigenvector_centrality": 0.015955536335462015,
+      "harmonic_centrality": 13.666666666666666,
+      "eccentricity": 2,
+      "degree": 7,
+      "weighted_degree": 20
+    },
+    {
+      "id": "PRDO",
+      "label": "PRDO",
+      "industry": "PerSv",
+      "degree_centrality": 0.6,
+      "betweenness_centrality": 0.032658526658526664,
+      "closeness_centrality": 0.7142857142857143,
+      "eigenvector_centrality": 0.11901687358712756,
+      "harmonic_centrality": 13.833333333333334,
+      "eccentricity": 2,
+      "degree": 15,
+      "weighted_degree": 70
+    },
+    {
+      "id": "R",
+      "label": "R",
+      "industry": "PerSv",
+      "degree_centrality": 0.64,
+      "betweenness_centrality": 0.012612794612794612,
+      "closeness_centrality": 0.7352941176470589,
+      "eigenvector_centrality": 0.16180801741433046,
+      "harmonic_centrality": 13.5,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 100
+    },
+    {
+      "id": "RGS",
+      "label": "RGS",
+      "industry": "PerSv",
+      "degree_centrality": 0.64,
+      "betweenness_centrality": 0.054640433640433646,
+      "closeness_centrality": 0.7352941176470589,
+      "eigenvector_centrality": 0.11602069867164758,
+      "harmonic_centrality": 15.333333333333334,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 97
+    },
+    {
+      "id": "SCI",
+      "label": "SCI",
+      "industry": "PerSv",
+      "degree_centrality": 0.64,
+      "betweenness_centrality": 0.005712962962962964,
+      "closeness_centrality": 0.7352941176470589,
+      "eigenvector_centrality": 0.5670811647512379,
+      "harmonic_centrality": 12.750000000000002,
+      "eccentricity": 2,
+      "degree": 16,
+      "weighted_degree": 202
+    },
+    {
+      "id": "SP",
+      "label": "SP",
+      "industry": "PerSv",
+      "degree_centrality": 0.48,
+      "betweenness_centrality": 0.008483877233877234,
+      "closeness_centrality": 0.6578947368421053,
+      "eigenvector_centrality": 0.05801465393824604,
+      "harmonic_centrality": 13.166666666666668,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 49
+    },
+    {
+      "id": "STRA",
+      "label": "STRA",
+      "industry": "PerSv",
+      "degree_centrality": 0.52,
+      "betweenness_centrality": 0.01803133903133903,
+      "closeness_centrality": 0.6756756756756757,
+      "eigenvector_centrality": 0.06120727986970775,
+      "harmonic_centrality": 13.333333333333336,
+      "eccentricity": 2,
+      "degree": 13,
+      "weighted_degree": 53
+    },
+    {
+      "id": "UTI",
+      "label": "UTI",
+      "industry": "PerSv",
+      "degree_centrality": 0.4,
+      "betweenness_centrality": 0.045967356717356724,
+      "closeness_centrality": 0.625,
+      "eigenvector_centrality": 0.0687904410719729,
+      "harmonic_centrality": 14.66666666666667,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 65
+    },
+    {
+      "id": "VVV",
+      "label": "VVV",
+      "industry": "PerSv",
+      "degree_centrality": 0.76,
+      "betweenness_centrality": 0.04939641839641839,
+      "closeness_centrality": 0.8064516129032258,
+      "eigenvector_centrality": 0.12023492283299193,
+      "harmonic_centrality": 14.666666666666666,
+      "eccentricity": 2,
+      "degree": 19,
+      "weighted_degree": 60
+    },
+    {
+      "id": "WW",
+      "label": "WW",
+      "industry": "PerSv",
+      "degree_centrality": 0.56,
+      "betweenness_centrality": 0.05965125615125615,
+      "closeness_centrality": 0.6944444444444444,
+      "eigenvector_centrality": 0.02347160823193251,
+      "harmonic_centrality": 15.833333333333334,
+      "eccentricity": 2,
+      "degree": 14,
+      "weighted_degree": 21
+    },
+    {
+      "id": "ZVO",
+      "label": "ZVO",
+      "industry": "PerSv",
+      "degree_centrality": 0.4,
+      "betweenness_centrality": 0.038420708920708924,
+      "closeness_centrality": 0.625,
+      "eigenvector_centrality": 0.013959315877143224,
+      "harmonic_centrality": 14.333333333333334,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 23
+    }
+  ],
+  "edges": [
+    {
+      "source": "APEI",
+      "target": "NBXG",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "STRA",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "LRN",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "MNRO",
+      "weight": 3
+    },
+    {
+      "source": "APEI",
+      "target": "SP",
+      "weight": 2
+    },
+    {
+      "source": "APEI",
+      "target": "VVV",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "RGS",
+      "weight": 3
+    },
+    {
+      "source": "APEI",
+      "target": "HRB",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "HSTM",
+      "weight": 2
+    },
+    {
+      "source": "APEI",
+      "target": "PRDO",
+      "weight": 3
+    },
+    {
+      "source": "APEI",
+      "target": "ATGE",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "MCW",
+      "weight": 1
+    },
+    {
+      "source": "APEI",
+      "target": "CSV",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "STRA",
+      "weight": 10
+    },
+    {
+      "source": "ATGE",
+      "target": "RGS",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "LRN",
+      "weight": 34
+    },
+    {
+      "source": "ATGE",
+      "target": "PRDO",
+      "weight": 15
+    },
+    {
+      "source": "ATGE",
+      "target": "UTI",
+      "weight": 19
+    },
+    {
+      "source": "ATGE",
+      "target": "R",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "ATGE",
+      "target": "NBXG",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "FRG",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "ATGE",
+      "target": "HSTM",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "BFAM",
+      "weight": 2
+    },
+    {
+      "source": "ATGE",
+      "target": "VVV",
+      "weight": 4
+    },
+    {
+      "source": "ATGE",
+      "target": "LINC",
+      "weight": 3
+    },
+    {
+      "source": "ATGE",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "HTZ",
+      "weight": 1
+    },
+    {
+      "source": "ATGE",
+      "target": "HRB",
+      "weight": 18
+    },
+    {
+      "source": "BFAM",
+      "target": "PPSI",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "MCW",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "CSV",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "PRDO",
+      "weight": 3
+    },
+    {
+      "source": "BFAM",
+      "target": "SCI",
+      "weight": 14
+    },
+    {
+      "source": "BFAM",
+      "target": "FRG",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "HTZ",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "HSTM",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "MNRO",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "BFAM",
+      "target": "CHGG",
+      "weight": 9
+    },
+    {
+      "source": "CHGG",
+      "target": "STRA",
+      "weight": 5
+    },
+    {
+      "source": "CHGG",
+      "target": "HTZ",
+      "weight": 2
+    },
+    {
+      "source": "CHGG",
+      "target": "CSV",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "R",
+      "weight": 5
+    },
+    {
+      "source": "CHGG",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "HRB",
+      "weight": 13
+    },
+    {
+      "source": "CHGG",
+      "target": "PRDO",
+      "weight": 2
+    },
+    {
+      "source": "CHGG",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "SCI",
+      "weight": 24
+    },
+    {
+      "source": "CHGG",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "MCW",
+      "weight": 11
+    },
+    {
+      "source": "CHGG",
+      "target": "FRG",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "RGS",
+      "weight": 3
+    },
+    {
+      "source": "CHGG",
+      "target": "PPSI",
+      "weight": 4
+    },
+    {
+      "source": "CHGG",
+      "target": "LRN",
+      "weight": 9
+    },
+    {
+      "source": "CHGG",
+      "target": "VVV",
+      "weight": 4
+    },
+    {
+      "source": "CHGG",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "CHGG",
+      "target": "HSTM",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "MCW",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "HTZ",
+      "weight": 3
+    },
+    {
+      "source": "CSV",
+      "target": "FRG",
+      "weight": 2
+    },
+    {
+      "source": "CSV",
+      "target": "SCI",
+      "weight": 97
+    },
+    {
+      "source": "CSV",
+      "target": "VVV",
+      "weight": 9
+    },
+    {
+      "source": "CSV",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "CSV",
+      "target": "RGS",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "LRN",
+      "weight": 2
+    },
+    {
+      "source": "FRG",
+      "target": "HTZ",
+      "weight": 6
+    },
+    {
+      "source": "FRG",
+      "target": "HRB",
+      "weight": 2
+    },
+    {
+      "source": "FRG",
+      "target": "MNRO",
+      "weight": 3
+    },
+    {
+      "source": "FRG",
+      "target": "R",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "RGS",
+      "weight": 1
+    },
+    {
+      "source": "FRG",
+      "target": "LINC",
+      "weight": 2
+    },
+    {
+      "source": "FRG",
+      "target": "VVV",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "R",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "RGS",
+      "weight": 6
+    },
+    {
+      "source": "HRB",
+      "target": "MNRO",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "HTZ",
+      "weight": 4
+    },
+    {
+      "source": "HRB",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "HRB",
+      "target": "LRN",
+      "weight": 41
+    },
+    {
+      "source": "HRB",
+      "target": "STRA",
+      "weight": 3
+    },
+    {
+      "source": "HRB",
+      "target": "PRDO",
+      "weight": 6
+    },
+    {
+      "source": "HRB",
+      "target": "SCI",
+      "weight": 30
+    },
+    {
+      "source": "HRB",
+      "target": "VVV",
+      "weight": 5
+    },
+    {
+      "source": "HSTM",
+      "target": "STRA",
+      "weight": 2
+    },
+    {
+      "source": "HSTM",
+      "target": "PRDO",
+      "weight": 1
+    },
+    {
+      "source": "HSTM",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "HSTM",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "HTZ",
+      "target": "LINC",
+      "weight": 2
+    },
+    {
+      "source": "HTZ",
+      "target": "RGS",
+      "weight": 58
+    },
+    {
+      "source": "HTZ",
+      "target": "MNRO",
+      "weight": 5
+    },
+    {
+      "source": "HTZ",
+      "target": "LRN",
+      "weight": 3
+    },
+    {
+      "source": "HTZ",
+      "target": "R",
+      "weight": 13
+    },
+    {
+      "source": "HTZ",
+      "target": "SP",
+      "weight": 12
+    },
+    {
+      "source": "HTZ",
+      "target": "MODV",
+      "weight": 1
+    },
+    {
+      "source": "HTZ",
+      "target": "VVV",
+      "weight": 4
+    },
+    {
+      "source": "HTZ",
+      "target": "PPSI",
+      "weight": 4
+    },
+    {
+      "source": "HTZ",
+      "target": "ZVO",
+      "weight": 4
+    },
+    {
+      "source": "HTZ",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "LINC",
+      "target": "MCW",
+      "weight": 1
+    },
+    {
+      "source": "LINC",
+      "target": "LRN",
+      "weight": 1
+    },
+    {
+      "source": "LINC",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "LINC",
+      "target": "PRDO",
+      "weight": 7
+    },
+    {
+      "source": "LINC",
+      "target": "UTI",
+      "weight": 30
+    },
+    {
+      "source": "LINC",
+      "target": "RGS",
+      "weight": 5
+    },
+    {
+      "source": "LRN",
+      "target": "MNRO",
+      "weight": 39
+    },
+    {
+      "source": "LRN",
+      "target": "R",
+      "weight": 33
+    },
+    {
+      "source": "LRN",
+      "target": "SCI",
+      "weight": 9
+    },
+    {
+      "source": "LRN",
+      "target": "VVV",
+      "weight": 3
+    },
+    {
+      "source": "LRN",
+      "target": "UTI",
+      "weight": 5
+    },
+    {
+      "source": "LRN",
+      "target": "PRDO",
+      "weight": 10
+    },
+    {
+      "source": "LRN",
+      "target": "MCW",
+      "weight": 1
+    },
+    {
+      "source": "LRN",
+      "target": "STRA",
+      "weight": 1
+    },
+    {
+      "source": "MCW",
+      "target": "PPSI",
+      "weight": 1
+    },
+    {
+      "source": "MCW",
+      "target": "VVV",
+      "weight": 2
+    },
+    {
+      "source": "MCW",
+      "target": "PRDO",
+      "weight": 4
+    },
+    {
+      "source": "MCW",
+      "target": "NBXG",
+      "weight": 1
+    },
+    {
+      "source": "MCW",
+      "target": "SP",
+      "weight": 4
+    },
+    {
+      "source": "MCW",
+      "target": "RGS",
+      "weight": 1
+    },
+    {
+      "source": "MCW",
+      "target": "R",
+      "weight": 3
+    },
+    {
+      "source": "MNRO",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "MNRO",
+      "target": "SP",
+      "weight": 2
+    },
+    {
+      "source": "MNRO",
+      "target": "VVV",
+      "weight": 3
+    },
+    {
+      "source": "MNRO",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "MNRO",
+      "target": "MODV",
+      "weight": 3
+    },
+    {
+      "source": "MNRO",
+      "target": "R",
+      "weight": 4
+    },
+    {
+      "source": "MNRO",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "MNRO",
+      "target": "STRA",
+      "weight": 3
+    },
+    {
+      "source": "MODV",
+      "target": "SCI",
+      "weight": 1
+    },
+    {
+      "source": "MODV",
+      "target": "STRA",
+      "weight": 9
+    },
+    {
+      "source": "MODV",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "MODV",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "MODV",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "NBXG",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "NBXG",
+      "target": "VVV",
+      "weight": 1
+    },
+    {
+      "source": "PPSI",
+      "target": "VVV",
+      "weight": 1
+    },
+    {
+      "source": "PPSI",
+      "target": "R",
+      "weight": 1
+    },
+    {
+      "source": "PPSI",
+      "target": "ZVO",
+      "weight": 8
+    },
+    {
+      "source": "PRDO",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "PRDO",
+      "target": "SP",
+      "weight": 1
+    },
+    {
+      "source": "PRDO",
+      "target": "STRA",
+      "weight": 8
+    },
+    {
+      "source": "PRDO",
+      "target": "SCI",
+      "weight": 7
+    },
+    {
+      "source": "PRDO",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "PRDO",
+      "target": "VVV",
+      "weight": 1
+    },
+    {
+      "source": "R",
+      "target": "VVV",
+      "weight": 2
+    },
+    {
+      "source": "R",
+      "target": "STRA",
+      "weight": 7
+    },
+    {
+      "source": "R",
+      "target": "SCI",
+      "weight": 2
+    },
+    {
+      "source": "R",
+      "target": "ZVO",
+      "weight": 2
+    },
+    {
+      "source": "R",
+      "target": "SP",
+      "weight": 17
+    },
+    {
+      "source": "R",
+      "target": "RGS",
+      "weight": 5
+    },
+    {
+      "source": "R",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "RGS",
+      "target": "SP",
+      "weight": 4
+    },
+    {
+      "source": "RGS",
+      "target": "STRA",
+      "weight": 1
+    },
+    {
+      "source": "RGS",
+      "target": "VVV",
+      "weight": 4
+    },
+    {
+      "source": "RGS",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "RGS",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "RGS",
+      "target": "SCI",
+      "weight": 1
+    },
+    {
+      "source": "SCI",
+      "target": "VVV",
+      "weight": 6
+    },
+    {
+      "source": "SCI",
+      "target": "SP",
+      "weight": 2
+    },
+    {
+      "source": "SCI",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "SP",
+      "target": "WW",
+      "weight": 2
+    },
+    {
+      "source": "STRA",
+      "target": "UTI",
+      "weight": 1
+    },
+    {
+      "source": "STRA",
+      "target": "ZVO",
+      "weight": 2
+    },
+    {
+      "source": "UTI",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "UTI",
+      "target": "VVV",
+      "weight": 5
+    },
+    {
+      "source": "VVV",
+      "target": "WW",
+      "weight": 1
+    },
+    {
+      "source": "VVV",
+      "target": "ZVO",
+      "weight": 1
+    },
+    {
+      "source": "WW",
+      "target": "ZVO",
+      "weight": 2
+    }
+  ]
+}

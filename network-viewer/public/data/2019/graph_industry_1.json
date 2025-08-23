@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "ALCO",
+      "label": "ALCO",
+      "industry": "Agric",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.19841269841269837,
+      "closeness_centrality": 0.5833333333333334,
+      "eigenvector_centrality": 0.519661322636233,
+      "harmonic_centrality": 3.6666666666666665,
+      "eccentricity": 3,
+      "degree": 3,
+      "weighted_degree": 6
+    },
+    {
+      "id": "BV",
+      "label": "BV",
+      "industry": "Agric",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.35,
+      "eigenvector_centrality": 0.032417315621379325,
+      "harmonic_centrality": 2.4,
+      "eccentricity": 4,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "CALM",
+      "label": "CALM",
+      "industry": "Agric",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.6349206349206348,
+      "closeness_centrality": 0.7,
+      "eigenvector_centrality": 0.38807344260503357,
+      "harmonic_centrality": 4.166666666666666,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 6
+    },
+    {
+      "id": "CDZI",
+      "label": "CDZI",
+      "industry": "Agric",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4666666666666667,
+      "eigenvector_centrality": 0.4932041194513514,
+      "harmonic_centrality": 2.4833333333333334,
+      "eccentricity": 4,
+      "degree": 2,
+      "weighted_degree": 5
+    },
+    {
+      "id": "CTVA",
+      "label": "CTVA",
+      "industry": "Agric",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4666666666666667,
+      "eigenvector_centrality": 0.23443468710590715,
+      "harmonic_centrality": 2.9,
+      "eccentricity": 4,
+      "degree": 2,
+      "weighted_degree": 3
+    },
+    {
+      "id": "CVGW",
+      "label": "CVGW",
+      "industry": "Agric",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.246031746031746,
+      "closeness_centrality": 0.5833333333333334,
+      "eigenvector_centrality": 0.38454562052643826,
+      "harmonic_centrality": 3.0333333333333337,
+      "eccentricity": 3,
+      "degree": 3,
+      "weighted_degree": 5
+    },
+    {
+      "id": "GRIF",
+      "label": "GRIF",
+      "industry": "Agric",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.2857142857142857,
+      "closeness_centrality": 0.5,
+      "eigenvector_centrality": 0.1618994489981821,
+      "harmonic_centrality": 2.8666666666666667,
+      "eccentricity": 3,
+      "degree": 2,
+      "weighted_degree": 3
+    },
+    {
+      "id": "SERV",
+      "label": "SERV",
+      "industry": "Agric",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.03968253968253967,
+      "closeness_centrality": 0.5833333333333334,
+      "eigenvector_centrality": 0.32558184644469457,
+      "harmonic_centrality": 3.4166666666666665,
+      "eccentricity": 3,
+      "degree": 3,
+      "weighted_degree": 5
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALCO",
+      "target": "CDZI",
+      "weight": 4
+    },
+    {
+      "source": "ALCO",
+      "target": "CALM",
+      "weight": 1
+    },
+    {
+      "source": "ALCO",
+      "target": "CTVA",
+      "weight": 1
+    },
+    {
+      "source": "BV",
+      "target": "GRIF",
+      "weight": 1
+    },
+    {
+      "source": "CALM",
+      "target": "GRIF",
+      "weight": 2
+    },
+    {
+      "source": "CALM",
+      "target": "CVGW",
+      "weight": 2
+    },
+    {
+      "source": "CALM",
+      "target": "SERV",
+      "weight": 1
+    },
+    {
+      "source": "CDZI",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "SERV",
+      "weight": 2
+    },
+    {
+      "source": "CVGW",
+      "target": "SERV",
+      "weight": 2
+    }
+  ]
+}

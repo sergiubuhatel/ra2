@@ -1,0 +1,6781 @@
+{
+  "nodes": [
+    {
+      "id": "AAPL",
+      "label": "AAPL",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.40993593227017955,
+      "harmonic_centrality": 0.01026880820348516,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 964759
+    },
+    {
+      "id": "AMZN",
+      "label": "AMZN",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.3839828106852643,
+      "harmonic_centrality": 0.013674738207234997,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 849653
+    },
+    {
+      "id": "FB",
+      "label": "FB",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.3666889716843731,
+      "harmonic_centrality": 0.01533488533623974,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 803014
+    },
+    {
+      "id": "TSLA",
+      "label": "TSLA",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.2945110222801472,
+      "harmonic_centrality": 0.02378699539639965,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 628324
+    },
+    {
+      "id": "GOOGL",
+      "label": "GOOGL",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.31041097466747714,
+      "harmonic_centrality": 0.01899738393753375,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 628287
+    },
+    {
+      "id": "NFLX",
+      "label": "NFLX",
+      "industry": "Fun",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.28661788873173116,
+      "harmonic_centrality": 0.025790853628045705,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 570801
+    },
+    {
+      "id": "MSFT",
+      "label": "MSFT",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.17812645078935252,
+      "harmonic_centrality": 0.024704917144955332,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 401396
+    },
+    {
+      "id": "BA",
+      "label": "BA",
+      "industry": "Aero",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.14329669535025313,
+      "harmonic_centrality": 0.021712903530408598,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 365923
+    },
+    {
+      "id": "AMD",
+      "label": "AMD",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.1442758687969373,
+      "harmonic_centrality": 0.07474969123165419,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 334362
+    },
+    {
+      "id": "NVDA",
+      "label": "NVDA",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.1870985689741747,
+      "harmonic_centrality": 0.04717446186768674,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 387684
+    },
+    {
+      "id": "TWTR",
+      "label": "TWTR",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.1429037208866543,
+      "harmonic_centrality": 0.03521938231368016,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 302295
+    },
+    {
+      "id": "JPM",
+      "label": "JPM",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.11220301116724196,
+      "harmonic_centrality": 0.03156134080273996,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 327423
+    },
+    {
+      "id": "BAC",
+      "label": "BAC",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.10119487363010939,
+      "harmonic_centrality": 0.05937138721921469,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 305522
+    },
+    {
+      "id": "GS",
+      "label": "GS",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.12807638131826826,
+      "harmonic_centrality": 0.03953647026265483,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 321948
+    },
+    {
+      "id": "DIS",
+      "label": "DIS",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.11255180651852596,
+      "harmonic_centrality": 0.039265554775747946,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 271285
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.08366174265550791,
+      "harmonic_centrality": 0.03469770861559353,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 253443
+    },
+    {
+      "id": "INTC",
+      "label": "INTC",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.10731731292701223,
+      "harmonic_centrality": 0.03815848861684546,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 258059
+    },
+    {
+      "id": "GE",
+      "label": "GE",
+      "industry": "Mach",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07861944136920673,
+      "harmonic_centrality": 0.038586578332630336,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 233296
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "industry": "Autos",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.09091373466752002,
+      "harmonic_centrality": 0.05049542637109934,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 216755
+    },
+    {
+      "id": "T",
+      "label": "T",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06708842218208991,
+      "harmonic_centrality": 0.047619862592592925,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 173865
+    },
+    {
+      "id": "SNAP",
+      "label": "SNAP",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06363256152039472,
+      "harmonic_centrality": 0.06554868800525947,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 154128
+    },
+    {
+      "id": "WFC",
+      "label": "WFC",
+      "industry": "Banks",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06227137412436504,
+      "harmonic_centrality": 0.08267110446393051,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 200116
+    },
+    {
+      "id": "JNJ",
+      "label": "JNJ",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0493956036029251,
+      "harmonic_centrality": 0.08453271980705242,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 168588
+    },
+    {
+      "id": "ROKU",
+      "label": "ROKU",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07314286565916078,
+      "harmonic_centrality": 0.10763252961670401,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 159879
+    },
+    {
+      "id": "MU",
+      "label": "MU",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.07389745674061653,
+      "harmonic_centrality": 0.07511046734158833,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 179484
+    },
+    {
+      "id": "IBM",
+      "label": "IBM",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.06454539268398925,
+      "harmonic_centrality": 0.12096877500040171,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 187518
+    },
+    {
+      "id": "WMT",
+      "label": "WMT",
+      "industry": "Rtail",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0696456134700933,
+      "harmonic_centrality": 0.03970741955645142,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 190868
+    },
+    {
+      "id": "PFE",
+      "label": "PFE",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04295642080734352,
+      "harmonic_centrality": 0.08569857218138088,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 146798
+    },
+    {
+      "id": "KO",
+      "label": "KO",
+      "industry": "Soda",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.0465328118944213,
+      "harmonic_centrality": 0.06321175060518323,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 161237
+    },
+    {
+      "id": "CRM",
+      "label": "CRM",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.05212281450200266,
+      "harmonic_centrality": 0.05827379740387031,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 155189
+    },
+    {
+      "id": "CMG",
+      "label": "CMG",
+      "industry": "Meals",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.007653061224489796,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04803915937888054,
+      "harmonic_centrality": 0.07590677431551304,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 147064
+    },
+    {
+      "id": "V",
+      "label": "V",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04377726163925587,
+      "harmonic_centrality": 0.07849895640448834,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 129983
+    },
+    {
+      "id": "MCD",
+      "label": "MCD",
+      "industry": "Meals",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04811402282881314,
+      "harmonic_centrality": 0.13683573876300933,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 146151
+    },
+    {
+      "id": "MS",
+      "label": "MS",
+      "industry": "Fin",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.008503401360544217,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04421084795431828,
+      "harmonic_centrality": 0.11240207943915759,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 143143
+    },
+    {
+      "id": "CAT",
+      "label": "CAT",
+      "industry": "Mach",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04317471975876334,
+      "harmonic_centrality": 0.06762746998571156,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 126391
+    },
+    {
+      "id": "TGT",
+      "label": "TGT",
+      "industry": "Rtail",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.039961563167982314,
+      "harmonic_centrality": 0.06409678214710426,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 120384
+    },
+    {
+      "id": "BYND",
+      "label": "BYND",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.09991496598639456,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04956522504616385,
+      "harmonic_centrality": 0.1373916725530464,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 115814
+    },
+    {
+      "id": "MRK",
+      "label": "MRK",
+      "industry": "Drugs",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0824829931972789,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.02867825537612986,
+      "harmonic_centrality": 0.08221848980790145,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 104626
+    },
+    {
+      "id": "SQ",
+      "label": "SQ",
+      "industry": "Comps",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.011904761904761904,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.039101718496448765,
+      "harmonic_centrality": 0.06791301044975591,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 105150
+    },
+    {
+      "id": "UNH",
+      "label": "UNH",
+      "industry": "Insur",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.07653061224489796,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.030291591641157845,
+      "harmonic_centrality": 0.12207301196452351,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 95423
+    },
+    {
+      "id": "VZ",
+      "label": "VZ",
+      "industry": "Telcm",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.03996598639455782,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04151659259779731,
+      "harmonic_centrality": 0.09177895833588162,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 117603
+    },
+    {
+      "id": "QCOM",
+      "label": "QCOM",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.04336734693877551,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.04523743333003454,
+      "harmonic_centrality": 0.09161610976748805,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 109955
+    },
+    {
+      "id": "CSCO",
+      "label": "CSCO",
+      "industry": "Chips",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0008503401360544217,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.032926282889977176,
+      "harmonic_centrality": 0.07377820287444226,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 94594
+    },
+    {
+      "id": "MA",
+      "label": "MA",
+      "industry": "BusSv",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.15476190476190477,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03207622044213963,
+      "harmonic_centrality": 0.12072917534750863,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 95861
+    },
+    {
+      "id": "PEP",
+      "label": "PEP",
+      "industry": "Soda",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0195578231292517,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03267354585838583,
+      "harmonic_centrality": 0.10526433253132887,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 115862
+    },
+    {
+      "id": "BRK",
+      "label": "BRK",
+      "industry": "Insur",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.3745748299319728,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.037894108944962306,
+      "harmonic_centrality": 0.2255449301858799,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 129171
+    },
+    {
+      "id": "PYPL",
+      "label": "PYPL",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03700036473509797,
+      "harmonic_centrality": 0.0859032261078108,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 102231
+    },
+    {
+      "id": "PG",
+      "label": "PG",
+      "industry": "Hshld",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.08078231292517006,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.025792704443816743,
+      "harmonic_centrality": 0.13688389479950724,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 88178
+    },
+    {
+      "id": "TLRY",
+      "label": "TLRY",
+      "industry": "Unclassified",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.7993197278911565,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.02610873500347872,
+      "harmonic_centrality": 0.23276048205000968,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 59799
+    },
+    {
+      "id": "SBUX",
+      "label": "SBUX",
+      "industry": "Meals",
+      "degree_centrality": 0.9999999999999999,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03510378106359637,
+      "harmonic_centrality": 0.06920254469140935,
+      "eccentricity": 1,
+      "degree": 49,
+      "weighted_degree": 93376
+    }
+  ],
+  "edges": [
+    {
+      "source": "AAPL",
+      "target": "PYPL",
+      "weight": 5187
+    },
+    {
+      "source": "AAPL",
+      "target": "C",
+      "weight": 12903
+    },
+    {
+      "source": "AAPL",
+      "target": "BRK",
+      "weight": 5319
+    },
+    {
+      "source": "AAPL",
+      "target": "T",
+      "weight": 11865
+    },
+    {
+      "source": "AAPL",
+      "target": "JNJ",
+      "weight": 7963
+    },
+    {
+      "source": "AAPL",
+      "target": "WFC",
+      "weight": 10595
+    },
+    {
+      "source": "AAPL",
+      "target": "ROKU",
+      "weight": 15644
+    },
+    {
+      "source": "AAPL",
+      "target": "TGT",
+      "weight": 6579
+    },
+    {
+      "source": "AAPL",
+      "target": "PEP",
+      "weight": 5499
+    },
+    {
+      "source": "AAPL",
+      "target": "MSFT",
+      "weight": 40848
+    },
+    {
+      "source": "AAPL",
+      "target": "CSCO",
+      "weight": 6786
+    },
+    {
+      "source": "AAPL",
+      "target": "MA",
+      "weight": 6781
+    },
+    {
+      "source": "AAPL",
+      "target": "MU",
+      "weight": 14851
+    },
+    {
+      "source": "AAPL",
+      "target": "GOOGL",
+      "weight": 71554
+    },
+    {
+      "source": "AAPL",
+      "target": "BYND",
+      "weight": 8637
+    },
+    {
+      "source": "AAPL",
+      "target": "F",
+      "weight": 35322
+    },
+    {
+      "source": "AAPL",
+      "target": "CMG",
+      "weight": 7274
+    },
+    {
+      "source": "AAPL",
+      "target": "QCOM",
+      "weight": 12005
+    },
+    {
+      "source": "AAPL",
+      "target": "WMT",
+      "weight": 12072
+    },
+    {
+      "source": "AAPL",
+      "target": "BAC",
+      "weight": 17919
+    },
+    {
+      "source": "AAPL",
+      "target": "NFLX",
+      "weight": 66573
+    },
+    {
+      "source": "AAPL",
+      "target": "TSLA",
+      "weight": 68736
+    },
+    {
+      "source": "AAPL",
+      "target": "INTC",
+      "weight": 20602
+    },
+    {
+      "source": "AAPL",
+      "target": "GE",
+      "weight": 16196
+    },
+    {
+      "source": "AAPL",
+      "target": "AMZN",
+      "weight": 92716
+    },
+    {
+      "source": "AAPL",
+      "target": "DIS",
+      "weight": 23200
+    },
+    {
+      "source": "AAPL",
+      "target": "PG",
+      "weight": 4417
+    },
+    {
+      "source": "AAPL",
+      "target": "FB",
+      "weight": 81715
+    },
+    {
+      "source": "AAPL",
+      "target": "TLRY",
+      "weight": 4834
+    },
+    {
+      "source": "AAPL",
+      "target": "CAT",
+      "weight": 7194
+    },
+    {
+      "source": "AAPL",
+      "target": "MCD",
+      "weight": 8795
+    },
+    {
+      "source": "AAPL",
+      "target": "PFE",
+      "weight": 8208
+    },
+    {
+      "source": "AAPL",
+      "target": "SQ",
+      "weight": 7763
+    },
+    {
+      "source": "AAPL",
+      "target": "TWTR",
+      "weight": 21339
+    },
+    {
+      "source": "AAPL",
+      "target": "BA",
+      "weight": 27904
+    },
+    {
+      "source": "AAPL",
+      "target": "JPM",
+      "weight": 19765
+    },
+    {
+      "source": "AAPL",
+      "target": "V",
+      "weight": 6088
+    },
+    {
+      "source": "AAPL",
+      "target": "IBM",
+      "weight": 11789
+    },
+    {
+      "source": "AAPL",
+      "target": "UNH",
+      "weight": 4126
+    },
+    {
+      "source": "AAPL",
+      "target": "SBUX",
+      "weight": 6617
+    },
+    {
+      "source": "AAPL",
+      "target": "KO",
+      "weight": 7898
+    },
+    {
+      "source": "AAPL",
+      "target": "AMD",
+      "weight": 33278
+    },
+    {
+      "source": "AAPL",
+      "target": "GS",
+      "weight": 22903
+    },
+    {
+      "source": "AAPL",
+      "target": "MS",
+      "weight": 6975
+    },
+    {
+      "source": "AAPL",
+      "target": "SNAP",
+      "weight": 8985
+    },
+    {
+      "source": "AAPL",
+      "target": "CRM",
+      "weight": 9573
+    },
+    {
+      "source": "AAPL",
+      "target": "VZ",
+      "weight": 7556
+    },
+    {
+      "source": "AAPL",
+      "target": "MRK",
+      "weight": 5840
+    },
+    {
+      "source": "AAPL",
+      "target": "NVDA",
+      "weight": 37571
+    },
+    {
+      "source": "AMZN",
+      "target": "AMD",
+      "weight": 20728
+    },
+    {
+      "source": "AMZN",
+      "target": "V",
+      "weight": 7206
+    },
+    {
+      "source": "AMZN",
+      "target": "JNJ",
+      "weight": 6648
+    },
+    {
+      "source": "AMZN",
+      "target": "NVDA",
+      "weight": 32880
+    },
+    {
+      "source": "AMZN",
+      "target": "TGT",
+      "weight": 9043
+    },
+    {
+      "source": "AMZN",
+      "target": "MCD",
+      "weight": 7875
+    },
+    {
+      "source": "AMZN",
+      "target": "MA",
+      "weight": 4582
+    },
+    {
+      "source": "AMZN",
+      "target": "INTC",
+      "weight": 19163
+    },
+    {
+      "source": "AMZN",
+      "target": "F",
+      "weight": 9569
+    },
+    {
+      "source": "AMZN",
+      "target": "SNAP",
+      "weight": 10597
+    },
+    {
+      "source": "AMZN",
+      "target": "GOOGL",
+      "weight": 72009
+    },
+    {
+      "source": "AMZN",
+      "target": "SQ",
+      "weight": 5311
+    },
+    {
+      "source": "AMZN",
+      "target": "BYND",
+      "weight": 7875
+    },
+    {
+      "source": "AMZN",
+      "target": "KO",
+      "weight": 7107
+    },
+    {
+      "source": "AMZN",
+      "target": "TLRY",
+      "weight": 4409
+    },
+    {
+      "source": "AMZN",
+      "target": "CRM",
+      "weight": 8746
+    },
+    {
+      "source": "AMZN",
+      "target": "BRK",
+      "weight": 5286
+    },
+    {
+      "source": "AMZN",
+      "target": "PYPL",
+      "weight": 6281
+    },
+    {
+      "source": "AMZN",
+      "target": "UNH",
+      "weight": 3383
+    },
+    {
+      "source": "AMZN",
+      "target": "PFE",
+      "weight": 5332
+    },
+    {
+      "source": "AMZN",
+      "target": "PEP",
+      "weight": 5098
+    },
+    {
+      "source": "AMZN",
+      "target": "IBM",
+      "weight": 11040
+    },
+    {
+      "source": "AMZN",
+      "target": "T",
+      "weight": 9420
+    },
+    {
+      "source": "AMZN",
+      "target": "PG",
+      "weight": 2973
+    },
+    {
+      "source": "AMZN",
+      "target": "CMG",
+      "weight": 8893
+    },
+    {
+      "source": "AMZN",
+      "target": "MS",
+      "weight": 6512
+    },
+    {
+      "source": "AMZN",
+      "target": "MU",
+      "weight": 10374
+    },
+    {
+      "source": "AMZN",
+      "target": "TWTR",
+      "weight": 23586
+    },
+    {
+      "source": "AMZN",
+      "target": "FB",
+      "weight": 79360
+    },
+    {
+      "source": "AMZN",
+      "target": "MRK",
+      "weight": 3698
+    },
+    {
+      "source": "AMZN",
+      "target": "SBUX",
+      "weight": 5746
+    },
+    {
+      "source": "AMZN",
+      "target": "GS",
+      "weight": 19601
+    },
+    {
+      "source": "AMZN",
+      "target": "VZ",
+      "weight": 6337
+    },
+    {
+      "source": "AMZN",
+      "target": "MSFT",
+      "weight": 38262
+    },
+    {
+      "source": "AMZN",
+      "target": "QCOM",
+      "weight": 5705
+    },
+    {
+      "source": "AMZN",
+      "target": "NFLX",
+      "weight": 62884
+    },
+    {
+      "source": "AMZN",
+      "target": "GE",
+      "weight": 10952
+    },
+    {
+      "source": "AMZN",
+      "target": "BAC",
+      "weight": 13099
+    },
+    {
+      "source": "AMZN",
+      "target": "WFC",
+      "weight": 7628
+    },
+    {
+      "source": "AMZN",
+      "target": "ROKU",
+      "weight": 11866
+    },
+    {
+      "source": "AMZN",
+      "target": "CAT",
+      "weight": 6815
+    },
+    {
+      "source": "AMZN",
+      "target": "WMT",
+      "weight": 17168
+    },
+    {
+      "source": "AMZN",
+      "target": "CSCO",
+      "weight": 4065
+    },
+    {
+      "source": "AMZN",
+      "target": "TSLA",
+      "weight": 59124
+    },
+    {
+      "source": "AMZN",
+      "target": "DIS",
+      "weight": 19243
+    },
+    {
+      "source": "AMZN",
+      "target": "JPM",
+      "weight": 16863
+    },
+    {
+      "source": "AMZN",
+      "target": "C",
+      "weight": 12023
+    },
+    {
+      "source": "AMZN",
+      "target": "BA",
+      "weight": 24572
+    },
+    {
+      "source": "FB",
+      "target": "AMD",
+      "weight": 21741
+    },
+    {
+      "source": "FB",
+      "target": "BA",
+      "weight": 19718
+    },
+    {
+      "source": "FB",
+      "target": "BAC",
+      "weight": 13172
+    },
+    {
+      "source": "FB",
+      "target": "BRK",
+      "weight": 4815
+    },
+    {
+      "source": "FB",
+      "target": "C",
+      "weight": 9633
+    },
+    {
+      "source": "FB",
+      "target": "CAT",
+      "weight": 5575
+    },
+    {
+      "source": "FB",
+      "target": "CMG",
+      "weight": 5572
+    },
+    {
+      "source": "FB",
+      "target": "CRM",
+      "weight": 6689
+    },
+    {
+      "source": "FB",
+      "target": "CSCO",
+      "weight": 3784
+    },
+    {
+      "source": "FB",
+      "target": "DIS",
+      "weight": 15366
+    },
+    {
+      "source": "FB",
+      "target": "F",
+      "weight": 12175
+    },
+    {
+      "source": "FB",
+      "target": "QCOM",
+      "weight": 6598
+    },
+    {
+      "source": "FB",
+      "target": "T",
+      "weight": 9846
+    },
+    {
+      "source": "FB",
+      "target": "MA",
+      "weight": 5185
+    },
+    {
+      "source": "FB",
+      "target": "PG",
+      "weight": 3564
+    },
+    {
+      "source": "FB",
+      "target": "IBM",
+      "weight": 7701
+    },
+    {
+      "source": "FB",
+      "target": "NFLX",
+      "weight": 53848
+    },
+    {
+      "source": "FB",
+      "target": "INTC",
+      "weight": 17794
+    },
+    {
+      "source": "FB",
+      "target": "GE",
+      "weight": 11557
+    },
+    {
+      "source": "FB",
+      "target": "PFE",
+      "weight": 4851
+    },
+    {
+      "source": "FB",
+      "target": "MU",
+      "weight": 10976
+    },
+    {
+      "source": "FB",
+      "target": "BYND",
+      "weight": 7917
+    },
+    {
+      "source": "FB",
+      "target": "UNH",
+      "weight": 3245
+    },
+    {
+      "source": "FB",
+      "target": "GS",
+      "weight": 20642
+    },
+    {
+      "source": "FB",
+      "target": "JPM",
+      "weight": 14854
+    },
+    {
+      "source": "FB",
+      "target": "PEP",
+      "weight": 3078
+    },
+    {
+      "source": "FB",
+      "target": "TSLA",
+      "weight": 55298
+    },
+    {
+      "source": "FB",
+      "target": "JNJ",
+      "weight": 5581
+    },
+    {
+      "source": "FB",
+      "target": "MCD",
+      "weight": 6756
+    },
+    {
+      "source": "FB",
+      "target": "NVDA",
+      "weight": 31249
+    },
+    {
+      "source": "FB",
+      "target": "WMT",
+      "weight": 7594
+    },
+    {
+      "source": "FB",
+      "target": "VZ",
+      "weight": 5722
+    },
+    {
+      "source": "FB",
+      "target": "SBUX",
+      "weight": 5930
+    },
+    {
+      "source": "FB",
+      "target": "TGT",
+      "weight": 4731
+    },
+    {
+      "source": "FB",
+      "target": "PYPL",
+      "weight": 7315
+    },
+    {
+      "source": "FB",
+      "target": "MRK",
+      "weight": 2446
+    },
+    {
+      "source": "FB",
+      "target": "MSFT",
+      "weight": 30311
+    },
+    {
+      "source": "FB",
+      "target": "WFC",
+      "weight": 7470
+    },
+    {
+      "source": "FB",
+      "target": "TLRY",
+      "weight": 4526
+    },
+    {
+      "source": "FB",
+      "target": "KO",
+      "weight": 5353
+    },
+    {
+      "source": "FB",
+      "target": "GOOGL",
+      "weight": 72711
+    },
+    {
+      "source": "FB",
+      "target": "TWTR",
+      "weight": 46030
+    },
+    {
+      "source": "FB",
+      "target": "SQ",
+      "weight": 5533
+    },
+    {
+      "source": "FB",
+      "target": "ROKU",
+      "weight": 9746
+    },
+    {
+      "source": "FB",
+      "target": "MS",
+      "weight": 4834
+    },
+    {
+      "source": "FB",
+      "target": "V",
+      "weight": 7348
+    },
+    {
+      "source": "FB",
+      "target": "SNAP",
+      "weight": 15559
+    },
+    {
+      "source": "TSLA",
+      "target": "AMD",
+      "weight": 21172
+    },
+    {
+      "source": "TSLA",
+      "target": "BA",
+      "weight": 20200
+    },
+    {
+      "source": "TSLA",
+      "target": "BAC",
+      "weight": 9972
+    },
+    {
+      "source": "TSLA",
+      "target": "BRK",
+      "weight": 3901
+    },
+    {
+      "source": "TSLA",
+      "target": "C",
+      "weight": 7993
+    },
+    {
+      "source": "TSLA",
+      "target": "CAT",
+      "weight": 6231
+    },
+    {
+      "source": "TSLA",
+      "target": "CMG",
+      "weight": 5598
+    },
+    {
+      "source": "TSLA",
+      "target": "CRM",
+      "weight": 4600
+    },
+    {
+      "source": "TSLA",
+      "target": "CSCO",
+      "weight": 2600
+    },
+    {
+      "source": "TSLA",
+      "target": "DIS",
+      "weight": 12891
+    },
+    {
+      "source": "TSLA",
+      "target": "F",
+      "weight": 12735
+    },
+    {
+      "source": "TSLA",
+      "target": "GE",
+      "weight": 8441
+    },
+    {
+      "source": "TSLA",
+      "target": "GOOGL",
+      "weight": 37200
+    },
+    {
+      "source": "TSLA",
+      "target": "GS",
+      "weight": 18343
+    },
+    {
+      "source": "TSLA",
+      "target": "IBM",
+      "weight": 6385
+    },
+    {
+      "source": "TSLA",
+      "target": "INTC",
+      "weight": 12229
+    },
+    {
+      "source": "TSLA",
+      "target": "JNJ",
+      "weight": 3469
+    },
+    {
+      "source": "TSLA",
+      "target": "JPM",
+      "weight": 10699
+    },
+    {
+      "source": "TSLA",
+      "target": "KO",
+      "weight": 4677
+    },
+    {
+      "source": "TSLA",
+      "target": "MA",
+      "weight": 2055
+    },
+    {
+      "source": "TSLA",
+      "target": "MCD",
+      "weight": 5445
+    },
+    {
+      "source": "TSLA",
+      "target": "MRK",
+      "weight": 1342
+    },
+    {
+      "source": "TSLA",
+      "target": "MS",
+      "weight": 4248
+    },
+    {
+      "source": "TSLA",
+      "target": "MSFT",
+      "weight": 18737
+    },
+    {
+      "source": "TSLA",
+      "target": "MU",
+      "weight": 7999
+    },
+    {
+      "source": "TSLA",
+      "target": "NFLX",
+      "weight": 46577
+    },
+    {
+      "source": "TSLA",
+      "target": "NVDA",
+      "weight": 30443
+    },
+    {
+      "source": "TSLA",
+      "target": "PEP",
+      "weight": 2740
+    },
+    {
+      "source": "TSLA",
+      "target": "PFE",
+      "weight": 3230
+    },
+    {
+      "source": "TSLA",
+      "target": "PG",
+      "weight": 2112
+    },
+    {
+      "source": "TSLA",
+      "target": "PYPL",
+      "weight": 4561
+    },
+    {
+      "source": "TSLA",
+      "target": "QCOM",
+      "weight": 4399
+    },
+    {
+      "source": "TSLA",
+      "target": "ROKU",
+      "weight": 11804
+    },
+    {
+      "source": "TSLA",
+      "target": "SBUX",
+      "weight": 3249
+    },
+    {
+      "source": "TSLA",
+      "target": "SNAP",
+      "weight": 7779
+    },
+    {
+      "source": "TSLA",
+      "target": "SQ",
+      "weight": 4901
+    },
+    {
+      "source": "TSLA",
+      "target": "T",
+      "weight": 11036
+    },
+    {
+      "source": "TSLA",
+      "target": "TGT",
+      "weight": 3533
+    },
+    {
+      "source": "TSLA",
+      "target": "TLRY",
+      "weight": 4980
+    },
+    {
+      "source": "TSLA",
+      "target": "UNH",
+      "weight": 2258
+    },
+    {
+      "source": "TSLA",
+      "target": "WMT",
+      "weight": 7718
+    },
+    {
+      "source": "TSLA",
+      "target": "VZ",
+      "weight": 4969
+    },
+    {
+      "source": "TSLA",
+      "target": "TWTR",
+      "weight": 19161
+    },
+    {
+      "source": "TSLA",
+      "target": "WFC",
+      "weight": 5669
+    },
+    {
+      "source": "TSLA",
+      "target": "V",
+      "weight": 5127
+    },
+    {
+      "source": "TSLA",
+      "target": "BYND",
+      "weight": 9758
+    },
+    {
+      "source": "GOOGL",
+      "target": "AMD",
+      "weight": 12877
+    },
+    {
+      "source": "GOOGL",
+      "target": "BA",
+      "weight": 17715
+    },
+    {
+      "source": "GOOGL",
+      "target": "BAC",
+      "weight": 10108
+    },
+    {
+      "source": "GOOGL",
+      "target": "BRK",
+      "weight": 5661
+    },
+    {
+      "source": "GOOGL",
+      "target": "C",
+      "weight": 9754
+    },
+    {
+      "source": "GOOGL",
+      "target": "CAT",
+      "weight": 3822
+    },
+    {
+      "source": "GOOGL",
+      "target": "CMG",
+      "weight": 6146
+    },
+    {
+      "source": "GOOGL",
+      "target": "CRM",
+      "weight": 6617
+    },
+    {
+      "source": "GOOGL",
+      "target": "CSCO",
+      "weight": 3031
+    },
+    {
+      "source": "GOOGL",
+      "target": "DIS",
+      "weight": 11555
+    },
+    {
+      "source": "GOOGL",
+      "target": "F",
+      "weight": 7075
+    },
+    {
+      "source": "GOOGL",
+      "target": "GE",
+      "weight": 7420
+    },
+    {
+      "source": "GOOGL",
+      "target": "NVDA",
+      "weight": 25542
+    },
+    {
+      "source": "GOOGL",
+      "target": "T",
+      "weight": 6969
+    },
+    {
+      "source": "GOOGL",
+      "target": "MU",
+      "weight": 6233
+    },
+    {
+      "source": "GOOGL",
+      "target": "SBUX",
+      "weight": 4495
+    },
+    {
+      "source": "GOOGL",
+      "target": "SQ",
+      "weight": 3301
+    },
+    {
+      "source": "GOOGL",
+      "target": "GS",
+      "weight": 17701
+    },
+    {
+      "source": "GOOGL",
+      "target": "VZ",
+      "weight": 4143
+    },
+    {
+      "source": "GOOGL",
+      "target": "UNH",
+      "weight": 2693
+    },
+    {
+      "source": "GOOGL",
+      "target": "PYPL",
+      "weight": 3500
+    },
+    {
+      "source": "GOOGL",
+      "target": "NFLX",
+      "weight": 40413
+    },
+    {
+      "source": "GOOGL",
+      "target": "WFC",
+      "weight": 6233
+    },
+    {
+      "source": "GOOGL",
+      "target": "MSFT",
+      "weight": 24797
+    },
+    {
+      "source": "GOOGL",
+      "target": "TLRY",
+      "weight": 2108
+    },
+    {
+      "source": "GOOGL",
+      "target": "PFE",
+      "weight": 5001
+    },
+    {
+      "source": "GOOGL",
+      "target": "PG",
+      "weight": 1990
+    },
+    {
+      "source": "GOOGL",
+      "target": "MRK",
+      "weight": 3813
+    },
+    {
+      "source": "GOOGL",
+      "target": "JPM",
+      "weight": 12249
+    },
+    {
+      "source": "GOOGL",
+      "target": "JNJ",
+      "weight": 5936
+    },
+    {
+      "source": "GOOGL",
+      "target": "PEP",
+      "weight": 3780
+    },
+    {
+      "source": "GOOGL",
+      "target": "SNAP",
+      "weight": 5934
+    },
+    {
+      "source": "GOOGL",
+      "target": "MCD",
+      "weight": 4509
+    },
+    {
+      "source": "GOOGL",
+      "target": "ROKU",
+      "weight": 5904
+    },
+    {
+      "source": "GOOGL",
+      "target": "BYND",
+      "weight": 5578
+    },
+    {
+      "source": "GOOGL",
+      "target": "INTC",
+      "weight": 9728
+    },
+    {
+      "source": "GOOGL",
+      "target": "TWTR",
+      "weight": 18099
+    },
+    {
+      "source": "GOOGL",
+      "target": "QCOM",
+      "weight": 4022
+    },
+    {
+      "source": "GOOGL",
+      "target": "TGT",
+      "weight": 4069
+    },
+    {
+      "source": "GOOGL",
+      "target": "IBM",
+      "weight": 8153
+    },
+    {
+      "source": "GOOGL",
+      "target": "WMT",
+      "weight": 7928
+    },
+    {
+      "source": "GOOGL",
+      "target": "MS",
+      "weight": 4722
+    },
+    {
+      "source": "GOOGL",
+      "target": "V",
+      "weight": 4425
+    },
+    {
+      "source": "GOOGL",
+      "target": "KO",
+      "weight": 4900
+    },
+    {
+      "source": "GOOGL",
+      "target": "MA",
+      "weight": 4164
+    },
+    {
+      "source": "NFLX",
+      "target": "AMD",
+      "weight": 16930
+    },
+    {
+      "source": "NFLX",
+      "target": "BA",
+      "weight": 16029
+    },
+    {
+      "source": "NFLX",
+      "target": "BAC",
+      "weight": 9480
+    },
+    {
+      "source": "NFLX",
+      "target": "BRK",
+      "weight": 1436
+    },
+    {
+      "source": "NFLX",
+      "target": "C",
+      "weight": 8731
+    },
+    {
+      "source": "NFLX",
+      "target": "CAT",
+      "weight": 2274
+    },
+    {
+      "source": "NFLX",
+      "target": "CMG",
+      "weight": 2795
+    },
+    {
+      "source": "NFLX",
+      "target": "CRM",
+      "weight": 3029
+    },
+    {
+      "source": "NFLX",
+      "target": "CSCO",
+      "weight": 2514
+    },
+    {
+      "source": "NFLX",
+      "target": "DIS",
+      "weight": 23609
+    },
+    {
+      "source": "NFLX",
+      "target": "F",
+      "weight": 3823
+    },
+    {
+      "source": "NFLX",
+      "target": "GE",
+      "weight": 4591
+    },
+    {
+      "source": "NFLX",
+      "target": "GS",
+      "weight": 14461
+    },
+    {
+      "source": "NFLX",
+      "target": "IBM",
+      "weight": 5102
+    },
+    {
+      "source": "NFLX",
+      "target": "INTC",
+      "weight": 11920
+    },
+    {
+      "source": "NFLX",
+      "target": "JNJ",
+      "weight": 4561
+    },
+    {
+      "source": "NFLX",
+      "target": "JPM",
+      "weight": 11845
+    },
+    {
+      "source": "NFLX",
+      "target": "KO",
+      "weight": 1662
+    },
+    {
+      "source": "NFLX",
+      "target": "MA",
+      "weight": 1651
+    },
+    {
+      "source": "NFLX",
+      "target": "MCD",
+      "weight": 2587
+    },
+    {
+      "source": "NFLX",
+      "target": "MRK",
+      "weight": 1206
+    },
+    {
+      "source": "NFLX",
+      "target": "MS",
+      "weight": 3053
+    },
+    {
+      "source": "NFLX",
+      "target": "MSFT",
+      "weight": 16793
+    },
+    {
+      "source": "NFLX",
+      "target": "MU",
+      "weight": 8286
+    },
+    {
+      "source": "NFLX",
+      "target": "BYND",
+      "weight": 6494
+    },
+    {
+      "source": "NFLX",
+      "target": "QCOM",
+      "weight": 4652
+    },
+    {
+      "source": "NFLX",
+      "target": "SBUX",
+      "weight": 3096
+    },
+    {
+      "source": "NFLX",
+      "target": "WFC",
+      "weight": 4749
+    },
+    {
+      "source": "NFLX",
+      "target": "PYPL",
+      "weight": 3007
+    },
+    {
+      "source": "NFLX",
+      "target": "PG",
+      "weight": 2154
+    },
+    {
+      "source": "NFLX",
+      "target": "TGT",
+      "weight": 1913
+    },
+    {
+      "source": "NFLX",
+      "target": "TLRY",
+      "weight": 2999
+    },
+    {
+      "source": "NFLX",
+      "target": "VZ",
+      "weight": 3108
+    },
+    {
+      "source": "NFLX",
+      "target": "PFE",
+      "weight": 2446
+    },
+    {
+      "source": "NFLX",
+      "target": "SNAP",
+      "weight": 5277
+    },
+    {
+      "source": "NFLX",
+      "target": "UNH",
+      "weight": 5086
+    },
+    {
+      "source": "NFLX",
+      "target": "NVDA",
+      "weight": 28051
+    },
+    {
+      "source": "NFLX",
+      "target": "T",
+      "weight": 8002
+    },
+    {
+      "source": "NFLX",
+      "target": "WMT",
+      "weight": 5027
+    },
+    {
+      "source": "NFLX",
+      "target": "SQ",
+      "weight": 4559
+    },
+    {
+      "source": "NFLX",
+      "target": "V",
+      "weight": 3187
+    },
+    {
+      "source": "NFLX",
+      "target": "PEP",
+      "weight": 1704
+    },
+    {
+      "source": "NFLX",
+      "target": "ROKU",
+      "weight": 12795
+    },
+    {
+      "source": "NFLX",
+      "target": "TWTR",
+      "weight": 13832
+    },
+    {
+      "source": "MSFT",
+      "target": "AMD",
+      "weight": 11627
+    },
+    {
+      "source": "MSFT",
+      "target": "BA",
+      "weight": 10872
+    },
+    {
+      "source": "MSFT",
+      "target": "BAC",
+      "weight": 8341
+    },
+    {
+      "source": "MSFT",
+      "target": "BRK",
+      "weight": 3351
+    },
+    {
+      "source": "MSFT",
+      "target": "C",
+      "weight": 6235
+    },
+    {
+      "source": "MSFT",
+      "target": "CAT",
+      "weight": 4081
+    },
+    {
+      "source": "MSFT",
+      "target": "CMG",
+      "weight": 3057
+    },
+    {
+      "source": "MSFT",
+      "target": "CRM",
+      "weight": 6101
+    },
+    {
+      "source": "MSFT",
+      "target": "CSCO",
+      "weight": 5442
+    },
+    {
+      "source": "MSFT",
+      "target": "DIS",
+      "weight": 7819
+    },
+    {
+      "source": "MSFT",
+      "target": "F",
+      "weight": 4312
+    },
+    {
+      "source": "MSFT",
+      "target": "GE",
+      "weight": 6301
+    },
+    {
+      "source": "MSFT",
+      "target": "GS",
+      "weight": 5490
+    },
+    {
+      "source": "MSFT",
+      "target": "IBM",
+      "weight": 6499
+    },
+    {
+      "source": "MSFT",
+      "target": "INTC",
+      "weight": 9222
+    },
+    {
+      "source": "MSFT",
+      "target": "JNJ",
+      "weight": 4173
+    },
+    {
+      "source": "MSFT",
+      "target": "JPM",
+      "weight": 8389
+    },
+    {
+      "source": "MSFT",
+      "target": "KO",
+      "weight": 3527
+    },
+    {
+      "source": "MSFT",
+      "target": "MA",
+      "weight": 2735
+    },
+    {
+      "source": "MSFT",
+      "target": "MCD",
+      "weight": 4547
+    },
+    {
+      "source": "MSFT",
+      "target": "MRK",
+      "weight": 2189
+    },
+    {
+      "source": "MSFT",
+      "target": "MS",
+      "weight": 2855
+    },
+    {
+      "source": "MSFT",
+      "target": "MU",
+      "weight": 6538
+    },
+    {
+      "source": "MSFT",
+      "target": "UNH",
+      "weight": 4050
+    },
+    {
+      "source": "MSFT",
+      "target": "SQ",
+      "weight": 2747
+    },
+    {
+      "source": "MSFT",
+      "target": "V",
+      "weight": 6793
+    },
+    {
+      "source": "MSFT",
+      "target": "TWTR",
+      "weight": 9145
+    },
+    {
+      "source": "MSFT",
+      "target": "VZ",
+      "weight": 5565
+    },
+    {
+      "source": "MSFT",
+      "target": "TGT",
+      "weight": 2481
+    },
+    {
+      "source": "MSFT",
+      "target": "QCOM",
+      "weight": 5686
+    },
+    {
+      "source": "MSFT",
+      "target": "SBUX",
+      "weight": 2695
+    },
+    {
+      "source": "MSFT",
+      "target": "PYPL",
+      "weight": 5051
+    },
+    {
+      "source": "MSFT",
+      "target": "T",
+      "weight": 6784
+    },
+    {
+      "source": "MSFT",
+      "target": "SNAP",
+      "weight": 5625
+    },
+    {
+      "source": "MSFT",
+      "target": "PEP",
+      "weight": 2091
+    },
+    {
+      "source": "MSFT",
+      "target": "WMT",
+      "weight": 5486
+    },
+    {
+      "source": "MSFT",
+      "target": "TLRY",
+      "weight": 1481
+    },
+    {
+      "source": "MSFT",
+      "target": "BYND",
+      "weight": 3205
+    },
+    {
+      "source": "MSFT",
+      "target": "WFC",
+      "weight": 4375
+    },
+    {
+      "source": "MSFT",
+      "target": "PG",
+      "weight": 3327
+    },
+    {
+      "source": "MSFT",
+      "target": "ROKU",
+      "weight": 4426
+    },
+    {
+      "source": "MSFT",
+      "target": "PFE",
+      "weight": 4378
+    },
+    {
+      "source": "MSFT",
+      "target": "NVDA",
+      "weight": 12554
+    },
+    {
+      "source": "BA",
+      "target": "AMD",
+      "weight": 10538
+    },
+    {
+      "source": "BA",
+      "target": "V",
+      "weight": 5092
+    },
+    {
+      "source": "BA",
+      "target": "TWTR",
+      "weight": 6204
+    },
+    {
+      "source": "BA",
+      "target": "T",
+      "weight": 6344
+    },
+    {
+      "source": "BA",
+      "target": "F",
+      "weight": 6976
+    },
+    {
+      "source": "BA",
+      "target": "C",
+      "weight": 7885
+    },
+    {
+      "source": "BA",
+      "target": "TGT",
+      "weight": 2939
+    },
+    {
+      "source": "BA",
+      "target": "VZ",
+      "weight": 3902
+    },
+    {
+      "source": "BA",
+      "target": "NVDA",
+      "weight": 12761
+    },
+    {
+      "source": "BA",
+      "target": "SNAP",
+      "weight": 4468
+    },
+    {
+      "source": "BA",
+      "target": "QCOM",
+      "weight": 3024
+    },
+    {
+      "source": "BA",
+      "target": "MA",
+      "weight": 3493
+    },
+    {
+      "source": "BA",
+      "target": "SBUX",
+      "weight": 3362
+    },
+    {
+      "source": "BA",
+      "target": "MS",
+      "weight": 3725
+    },
+    {
+      "source": "BA",
+      "target": "CRM",
+      "weight": 4759
+    },
+    {
+      "source": "BA",
+      "target": "GS",
+      "weight": 8501
+    },
+    {
+      "source": "BA",
+      "target": "WFC",
+      "weight": 5204
+    },
+    {
+      "source": "BA",
+      "target": "PG",
+      "weight": 3121
+    },
+    {
+      "source": "BA",
+      "target": "TLRY",
+      "weight": 1743
+    },
+    {
+      "source": "BA",
+      "target": "IBM",
+      "weight": 5776
+    },
+    {
+      "source": "BA",
+      "target": "DIS",
+      "weight": 7270
+    },
+    {
+      "source": "BA",
+      "target": "JPM",
+      "weight": 9771
+    },
+    {
+      "source": "BA",
+      "target": "MCD",
+      "weight": 6140
+    },
+    {
+      "source": "BA",
+      "target": "BAC",
+      "weight": 7200
+    },
+    {
+      "source": "BA",
+      "target": "INTC",
+      "weight": 8685
+    },
+    {
+      "source": "BA",
+      "target": "CMG",
+      "weight": 6509
+    },
+    {
+      "source": "BA",
+      "target": "CAT",
+      "weight": 8758
+    },
+    {
+      "source": "BA",
+      "target": "PYPL",
+      "weight": 4211
+    },
+    {
+      "source": "BA",
+      "target": "JNJ",
+      "weight": 4868
+    },
+    {
+      "source": "BA",
+      "target": "WMT",
+      "weight": 5260
+    },
+    {
+      "source": "BA",
+      "target": "BRK",
+      "weight": 3171
+    },
+    {
+      "source": "BA",
+      "target": "PEP",
+      "weight": 3383
+    },
+    {
+      "source": "BA",
+      "target": "KO",
+      "weight": 5374
+    },
+    {
+      "source": "BA",
+      "target": "GE",
+      "weight": 7744
+    },
+    {
+      "source": "BA",
+      "target": "PFE",
+      "weight": 4115
+    },
+    {
+      "source": "BA",
+      "target": "UNH",
+      "weight": 3266
+    },
+    {
+      "source": "BA",
+      "target": "ROKU",
+      "weight": 7064
+    },
+    {
+      "source": "BA",
+      "target": "MRK",
+      "weight": 2451
+    },
+    {
+      "source": "BA",
+      "target": "SQ",
+      "weight": 2597
+    },
+    {
+      "source": "BA",
+      "target": "MU",
+      "weight": 5281
+    },
+    {
+      "source": "BA",
+      "target": "BYND",
+      "weight": 3670
+    },
+    {
+      "source": "BA",
+      "target": "CSCO",
+      "weight": 2308
+    },
+    {
+      "source": "AMD",
+      "target": "GS",
+      "weight": 4662
+    },
+    {
+      "source": "AMD",
+      "target": "MCD",
+      "weight": 3475
+    },
+    {
+      "source": "AMD",
+      "target": "GE",
+      "weight": 8032
+    },
+    {
+      "source": "AMD",
+      "target": "CRM",
+      "weight": 2011
+    },
+    {
+      "source": "AMD",
+      "target": "UNH",
+      "weight": 1510
+    },
+    {
+      "source": "AMD",
+      "target": "T",
+      "weight": 5149
+    },
+    {
+      "source": "AMD",
+      "target": "MS",
+      "weight": 475
+    },
+    {
+      "source": "AMD",
+      "target": "F",
+      "weight": 4024
+    },
+    {
+      "source": "AMD",
+      "target": "CAT",
+      "weight": 3040
+    },
+    {
+      "source": "AMD",
+      "target": "JNJ",
+      "weight": 1443
+    },
+    {
+      "source": "AMD",
+      "target": "BYND",
+      "weight": 5968
+    },
+    {
+      "source": "AMD",
+      "target": "PEP",
+      "weight": 324
+    },
+    {
+      "source": "AMD",
+      "target": "SBUX",
+      "weight": 2687
+    },
+    {
+      "source": "AMD",
+      "target": "CMG",
+      "weight": 1815
+    },
+    {
+      "source": "AMD",
+      "target": "WMT",
+      "weight": 2504
+    },
+    {
+      "source": "AMD",
+      "target": "PFE",
+      "weight": 3879
+    },
+    {
+      "source": "AMD",
+      "target": "MU",
+      "weight": 12652
+    },
+    {
+      "source": "AMD",
+      "target": "TLRY",
+      "weight": 1959
+    },
+    {
+      "source": "AMD",
+      "target": "QCOM",
+      "weight": 5639
+    },
+    {
+      "source": "AMD",
+      "target": "JPM",
+      "weight": 5153
+    },
+    {
+      "source": "AMD",
+      "target": "MA",
+      "weight": 3893
+    },
+    {
+      "source": "AMD",
+      "target": "INTC",
+      "weight": 15082
+    },
+    {
+      "source": "AMD",
+      "target": "SQ",
+      "weight": 5406
+    },
+    {
+      "source": "AMD",
+      "target": "IBM",
+      "weight": 1862
+    },
+    {
+      "source": "AMD",
+      "target": "ROKU",
+      "weight": 9487
+    },
+    {
+      "source": "AMD",
+      "target": "TGT",
+      "weight": 1805
+    },
+    {
+      "source": "AMD",
+      "target": "MRK",
+      "weight": 2226
+    },
+    {
+      "source": "AMD",
+      "target": "PG",
+      "weight": 1118
+    },
+    {
+      "source": "AMD",
+      "target": "WFC",
+      "weight": 2590
+    },
+    {
+      "source": "AMD",
+      "target": "KO",
+      "weight": 884
+    },
+    {
+      "source": "AMD",
+      "target": "BRK",
+      "weight": 286
+    },
+    {
+      "source": "AMD",
+      "target": "V",
+      "weight": 2559
+    },
+    {
+      "source": "AMD",
+      "target": "VZ",
+      "weight": 2201
+    },
+    {
+      "source": "AMD",
+      "target": "SNAP",
+      "weight": 5039
+    },
+    {
+      "source": "AMD",
+      "target": "CSCO",
+      "weight": 3379
+    },
+    {
+      "source": "AMD",
+      "target": "NVDA",
+      "weight": 22899
+    },
+    {
+      "source": "AMD",
+      "target": "C",
+      "weight": 3879
+    },
+    {
+      "source": "AMD",
+      "target": "TWTR",
+      "weight": 9868
+    },
+    {
+      "source": "AMD",
+      "target": "DIS",
+      "weight": 4935
+    },
+    {
+      "source": "AMD",
+      "target": "PYPL",
+      "weight": 2571
+    },
+    {
+      "source": "AMD",
+      "target": "BAC",
+      "weight": 7101
+    },
+    {
+      "source": "NVDA",
+      "target": "BAC",
+      "weight": 6071
+    },
+    {
+      "source": "NVDA",
+      "target": "BRK",
+      "weight": 602
+    },
+    {
+      "source": "NVDA",
+      "target": "C",
+      "weight": 5152
+    },
+    {
+      "source": "NVDA",
+      "target": "CAT",
+      "weight": 3018
+    },
+    {
+      "source": "NVDA",
+      "target": "CMG",
+      "weight": 1886
+    },
+    {
+      "source": "NVDA",
+      "target": "CRM",
+      "weight": 2213
+    },
+    {
+      "source": "NVDA",
+      "target": "CSCO",
+      "weight": 4959
+    },
+    {
+      "source": "NVDA",
+      "target": "DIS",
+      "weight": 6134
+    },
+    {
+      "source": "NVDA",
+      "target": "F",
+      "weight": 3258
+    },
+    {
+      "source": "NVDA",
+      "target": "GE",
+      "weight": 3497
+    },
+    {
+      "source": "NVDA",
+      "target": "GS",
+      "weight": 13430
+    },
+    {
+      "source": "NVDA",
+      "target": "IBM",
+      "weight": 2813
+    },
+    {
+      "source": "NVDA",
+      "target": "INTC",
+      "weight": 12165
+    },
+    {
+      "source": "NVDA",
+      "target": "JNJ",
+      "weight": 1464
+    },
+    {
+      "source": "NVDA",
+      "target": "JPM",
+      "weight": 6803
+    },
+    {
+      "source": "NVDA",
+      "target": "KO",
+      "weight": 1195
+    },
+    {
+      "source": "NVDA",
+      "target": "MA",
+      "weight": 1601
+    },
+    {
+      "source": "NVDA",
+      "target": "MCD",
+      "weight": 1790
+    },
+    {
+      "source": "NVDA",
+      "target": "MRK",
+      "weight": 1054
+    },
+    {
+      "source": "NVDA",
+      "target": "MS",
+      "weight": 1233
+    },
+    {
+      "source": "NVDA",
+      "target": "MU",
+      "weight": 11472
+    },
+    {
+      "source": "NVDA",
+      "target": "WFC",
+      "weight": 1912
+    },
+    {
+      "source": "NVDA",
+      "target": "PG",
+      "weight": 835
+    },
+    {
+      "source": "NVDA",
+      "target": "TLRY",
+      "weight": 3075
+    },
+    {
+      "source": "NVDA",
+      "target": "TWTR",
+      "weight": 8047
+    },
+    {
+      "source": "NVDA",
+      "target": "PFE",
+      "weight": 1749
+    },
+    {
+      "source": "NVDA",
+      "target": "WMT",
+      "weight": 5453
+    },
+    {
+      "source": "NVDA",
+      "target": "SNAP",
+      "weight": 2873
+    },
+    {
+      "source": "NVDA",
+      "target": "VZ",
+      "weight": 3004
+    },
+    {
+      "source": "NVDA",
+      "target": "QCOM",
+      "weight": 4601
+    },
+    {
+      "source": "NVDA",
+      "target": "TGT",
+      "weight": 2003
+    },
+    {
+      "source": "NVDA",
+      "target": "UNH",
+      "weight": 1890
+    },
+    {
+      "source": "NVDA",
+      "target": "BYND",
+      "weight": 3910
+    },
+    {
+      "source": "NVDA",
+      "target": "SBUX",
+      "weight": 2256
+    },
+    {
+      "source": "NVDA",
+      "target": "PYPL",
+      "weight": 2222
+    },
+    {
+      "source": "NVDA",
+      "target": "V",
+      "weight": 1943
+    },
+    {
+      "source": "NVDA",
+      "target": "ROKU",
+      "weight": 7655
+    },
+    {
+      "source": "NVDA",
+      "target": "T",
+      "weight": 3684
+    },
+    {
+      "source": "NVDA",
+      "target": "PEP",
+      "weight": 782
+    },
+    {
+      "source": "NVDA",
+      "target": "SQ",
+      "weight": 4030
+    },
+    {
+      "source": "TWTR",
+      "target": "BAC",
+      "weight": 5299
+    },
+    {
+      "source": "TWTR",
+      "target": "BRK",
+      "weight": 1503
+    },
+    {
+      "source": "TWTR",
+      "target": "C",
+      "weight": 2782
+    },
+    {
+      "source": "TWTR",
+      "target": "CAT",
+      "weight": 2148
+    },
+    {
+      "source": "TWTR",
+      "target": "CMG",
+      "weight": 3621
+    },
+    {
+      "source": "TWTR",
+      "target": "CRM",
+      "weight": 2369
+    },
+    {
+      "source": "TWTR",
+      "target": "CSCO",
+      "weight": 1723
+    },
+    {
+      "source": "TWTR",
+      "target": "DIS",
+      "weight": 5990
+    },
+    {
+      "source": "TWTR",
+      "target": "F",
+      "weight": 4435
+    },
+    {
+      "source": "TWTR",
+      "target": "GE",
+      "weight": 3649
+    },
+    {
+      "source": "TWTR",
+      "target": "GS",
+      "weight": 4935
+    },
+    {
+      "source": "TWTR",
+      "target": "IBM",
+      "weight": 2419
+    },
+    {
+      "source": "TWTR",
+      "target": "INTC",
+      "weight": 7271
+    },
+    {
+      "source": "TWTR",
+      "target": "JNJ",
+      "weight": 2252
+    },
+    {
+      "source": "TWTR",
+      "target": "JPM",
+      "weight": 4952
+    },
+    {
+      "source": "TWTR",
+      "target": "KO",
+      "weight": 2871
+    },
+    {
+      "source": "TWTR",
+      "target": "MA",
+      "weight": 843
+    },
+    {
+      "source": "TWTR",
+      "target": "MCD",
+      "weight": 2626
+    },
+    {
+      "source": "TWTR",
+      "target": "MRK",
+      "weight": 1440
+    },
+    {
+      "source": "TWTR",
+      "target": "MS",
+      "weight": 1398
+    },
+    {
+      "source": "TWTR",
+      "target": "MU",
+      "weight": 4268
+    },
+    {
+      "source": "TWTR",
+      "target": "PEP",
+      "weight": 1258
+    },
+    {
+      "source": "TWTR",
+      "target": "PFE",
+      "weight": 1796
+    },
+    {
+      "source": "TWTR",
+      "target": "PG",
+      "weight": 1565
+    },
+    {
+      "source": "TWTR",
+      "target": "PYPL",
+      "weight": 2690
+    },
+    {
+      "source": "TWTR",
+      "target": "QCOM",
+      "weight": 2519
+    },
+    {
+      "source": "TWTR",
+      "target": "ROKU",
+      "weight": 3523
+    },
+    {
+      "source": "TWTR",
+      "target": "SBUX",
+      "weight": 1830
+    },
+    {
+      "source": "TWTR",
+      "target": "SNAP",
+      "weight": 12783
+    },
+    {
+      "source": "TWTR",
+      "target": "SQ",
+      "weight": 4165
+    },
+    {
+      "source": "TWTR",
+      "target": "T",
+      "weight": 3981
+    },
+    {
+      "source": "TWTR",
+      "target": "TGT",
+      "weight": 2891
+    },
+    {
+      "source": "TWTR",
+      "target": "TLRY",
+      "weight": 1683
+    },
+    {
+      "source": "TWTR",
+      "target": "BYND",
+      "weight": 2594
+    },
+    {
+      "source": "TWTR",
+      "target": "WMT",
+      "weight": 3146
+    },
+    {
+      "source": "TWTR",
+      "target": "VZ",
+      "weight": 3746
+    },
+    {
+      "source": "TWTR",
+      "target": "WFC",
+      "weight": 3275
+    },
+    {
+      "source": "TWTR",
+      "target": "V",
+      "weight": 3254
+    },
+    {
+      "source": "TWTR",
+      "target": "UNH",
+      "weight": 1491
+    },
+    {
+      "source": "JPM",
+      "target": "BAC",
+      "weight": 18218
+    },
+    {
+      "source": "JPM",
+      "target": "BRK",
+      "weight": 5932
+    },
+    {
+      "source": "JPM",
+      "target": "C",
+      "weight": 17109
+    },
+    {
+      "source": "JPM",
+      "target": "CAT",
+      "weight": 3022
+    },
+    {
+      "source": "JPM",
+      "target": "CMG",
+      "weight": 4247
+    },
+    {
+      "source": "JPM",
+      "target": "CRM",
+      "weight": 5324
+    },
+    {
+      "source": "JPM",
+      "target": "CSCO",
+      "weight": 1973
+    },
+    {
+      "source": "JPM",
+      "target": "DIS",
+      "weight": 6767
+    },
+    {
+      "source": "JPM",
+      "target": "F",
+      "weight": 4720
+    },
+    {
+      "source": "JPM",
+      "target": "GE",
+      "weight": 6363
+    },
+    {
+      "source": "JPM",
+      "target": "GS",
+      "weight": 18848
+    },
+    {
+      "source": "JPM",
+      "target": "IBM",
+      "weight": 7042
+    },
+    {
+      "source": "JPM",
+      "target": "INTC",
+      "weight": 5543
+    },
+    {
+      "source": "JPM",
+      "target": "JNJ",
+      "weight": 7279
+    },
+    {
+      "source": "JPM",
+      "target": "SNAP",
+      "weight": 2114
+    },
+    {
+      "source": "JPM",
+      "target": "VZ",
+      "weight": 2351
+    },
+    {
+      "source": "JPM",
+      "target": "WMT",
+      "weight": 5538
+    },
+    {
+      "source": "JPM",
+      "target": "TLRY",
+      "weight": 1074
+    },
+    {
+      "source": "JPM",
+      "target": "BYND",
+      "weight": 1812
+    },
+    {
+      "source": "JPM",
+      "target": "MRK",
+      "weight": 3299
+    },
+    {
+      "source": "JPM",
+      "target": "TGT",
+      "weight": 3392
+    },
+    {
+      "source": "JPM",
+      "target": "SQ",
+      "weight": 2065
+    },
+    {
+      "source": "JPM",
+      "target": "PEP",
+      "weight": 4147
+    },
+    {
+      "source": "JPM",
+      "target": "SBUX",
+      "weight": 1636
+    },
+    {
+      "source": "JPM",
+      "target": "QCOM",
+      "weight": 1636
+    },
+    {
+      "source": "JPM",
+      "target": "MCD",
+      "weight": 4616
+    },
+    {
+      "source": "JPM",
+      "target": "PFE",
+      "weight": 4604
+    },
+    {
+      "source": "JPM",
+      "target": "MU",
+      "weight": 4554
+    },
+    {
+      "source": "JPM",
+      "target": "V",
+      "weight": 4083
+    },
+    {
+      "source": "JPM",
+      "target": "T",
+      "weight": 3591
+    },
+    {
+      "source": "JPM",
+      "target": "PG",
+      "weight": 3314
+    },
+    {
+      "source": "JPM",
+      "target": "ROKU",
+      "weight": 1413
+    },
+    {
+      "source": "JPM",
+      "target": "MA",
+      "weight": 3172
+    },
+    {
+      "source": "JPM",
+      "target": "UNH",
+      "weight": 5266
+    },
+    {
+      "source": "JPM",
+      "target": "PYPL",
+      "weight": 1831
+    },
+    {
+      "source": "JPM",
+      "target": "WFC",
+      "weight": 13488
+    },
+    {
+      "source": "JPM",
+      "target": "MS",
+      "weight": 8905
+    },
+    {
+      "source": "JPM",
+      "target": "KO",
+      "weight": 5792
+    },
+    {
+      "source": "BAC",
+      "target": "PG",
+      "weight": 2499
+    },
+    {
+      "source": "BAC",
+      "target": "V",
+      "weight": 2925
+    },
+    {
+      "source": "BAC",
+      "target": "UNH",
+      "weight": 4626
+    },
+    {
+      "source": "BAC",
+      "target": "GS",
+      "weight": 14600
+    },
+    {
+      "source": "BAC",
+      "target": "F",
+      "weight": 6841
+    },
+    {
+      "source": "BAC",
+      "target": "CSCO",
+      "weight": 2431
+    },
+    {
+      "source": "BAC",
+      "target": "C",
+      "weight": 14953
+    },
+    {
+      "source": "BAC",
+      "target": "GE",
+      "weight": 9974
+    },
+    {
+      "source": "BAC",
+      "target": "MCD",
+      "weight": 3421
+    },
+    {
+      "source": "BAC",
+      "target": "MU",
+      "weight": 5038
+    },
+    {
+      "source": "BAC",
+      "target": "T",
+      "weight": 5050
+    },
+    {
+      "source": "BAC",
+      "target": "BRK",
+      "weight": 4005
+    },
+    {
+      "source": "BAC",
+      "target": "MA",
+      "weight": 2359
+    },
+    {
+      "source": "BAC",
+      "target": "PYPL",
+      "weight": 1927
+    },
+    {
+      "source": "BAC",
+      "target": "BYND",
+      "weight": 1444
+    },
+    {
+      "source": "BAC",
+      "target": "CMG",
+      "weight": 4109
+    },
+    {
+      "source": "BAC",
+      "target": "QCOM",
+      "weight": 1824
+    },
+    {
+      "source": "BAC",
+      "target": "PEP",
+      "weight": 4289
+    },
+    {
+      "source": "BAC",
+      "target": "TGT",
+      "weight": 3408
+    },
+    {
+      "source": "BAC",
+      "target": "IBM",
+      "weight": 5759
+    },
+    {
+      "source": "BAC",
+      "target": "CRM",
+      "weight": 4456
+    },
+    {
+      "source": "BAC",
+      "target": "WMT",
+      "weight": 4905
+    },
+    {
+      "source": "BAC",
+      "target": "KO",
+      "weight": 5558
+    },
+    {
+      "source": "BAC",
+      "target": "TLRY",
+      "weight": 420
+    },
+    {
+      "source": "BAC",
+      "target": "MS",
+      "weight": 8298
+    },
+    {
+      "source": "BAC",
+      "target": "PFE",
+      "weight": 4895
+    },
+    {
+      "source": "BAC",
+      "target": "WFC",
+      "weight": 12817
+    },
+    {
+      "source": "BAC",
+      "target": "SNAP",
+      "weight": 4243
+    },
+    {
+      "source": "BAC",
+      "target": "CAT",
+      "weight": 2712
+    },
+    {
+      "source": "BAC",
+      "target": "VZ",
+      "weight": 2425
+    },
+    {
+      "source": "BAC",
+      "target": "JNJ",
+      "weight": 6809
+    },
+    {
+      "source": "BAC",
+      "target": "MRK",
+      "weight": 2976
+    },
+    {
+      "source": "BAC",
+      "target": "SBUX",
+      "weight": 1473
+    },
+    {
+      "source": "BAC",
+      "target": "INTC",
+      "weight": 5340
+    },
+    {
+      "source": "BAC",
+      "target": "SQ",
+      "weight": 2591
+    },
+    {
+      "source": "BAC",
+      "target": "DIS",
+      "weight": 5785
+    },
+    {
+      "source": "BAC",
+      "target": "ROKU",
+      "weight": 2357
+    },
+    {
+      "source": "GS",
+      "target": "BRK",
+      "weight": 4801
+    },
+    {
+      "source": "GS",
+      "target": "C",
+      "weight": 13951
+    },
+    {
+      "source": "GS",
+      "target": "CAT",
+      "weight": 3265
+    },
+    {
+      "source": "GS",
+      "target": "CMG",
+      "weight": 4472
+    },
+    {
+      "source": "GS",
+      "target": "CRM",
+      "weight": 5048
+    },
+    {
+      "source": "GS",
+      "target": "CSCO",
+      "weight": 1236
+    },
+    {
+      "source": "GS",
+      "target": "DIS",
+      "weight": 5112
+    },
+    {
+      "source": "GS",
+      "target": "F",
+      "weight": 4452
+    },
+    {
+      "source": "GS",
+      "target": "GE",
+      "weight": 5190
+    },
+    {
+      "source": "GS",
+      "target": "PEP",
+      "weight": 4033
+    },
+    {
+      "source": "GS",
+      "target": "MU",
+      "weight": 3283
+    },
+    {
+      "source": "GS",
+      "target": "MS",
+      "weight": 8975
+    },
+    {
+      "source": "GS",
+      "target": "T",
+      "weight": 1680
+    },
+    {
+      "source": "GS",
+      "target": "ROKU",
+      "weight": 1401
+    },
+    {
+      "source": "GS",
+      "target": "SQ",
+      "weight": 1381
+    },
+    {
+      "source": "GS",
+      "target": "MCD",
+      "weight": 4174
+    },
+    {
+      "source": "GS",
+      "target": "KO",
+      "weight": 4848
+    },
+    {
+      "source": "GS",
+      "target": "PYPL",
+      "weight": 1707
+    },
+    {
+      "source": "GS",
+      "target": "IBM",
+      "weight": 8058
+    },
+    {
+      "source": "GS",
+      "target": "SBUX",
+      "weight": 1418
+    },
+    {
+      "source": "GS",
+      "target": "TGT",
+      "weight": 3266
+    },
+    {
+      "source": "GS",
+      "target": "V",
+      "weight": 2120
+    },
+    {
+      "source": "GS",
+      "target": "SNAP",
+      "weight": 1648
+    },
+    {
+      "source": "GS",
+      "target": "WFC",
+      "weight": 9332
+    },
+    {
+      "source": "GS",
+      "target": "VZ",
+      "weight": 1482
+    },
+    {
+      "source": "GS",
+      "target": "PG",
+      "weight": 1826
+    },
+    {
+      "source": "GS",
+      "target": "UNH",
+      "weight": 3744
+    },
+    {
+      "source": "GS",
+      "target": "JNJ",
+      "weight": 5961
+    },
+    {
+      "source": "GS",
+      "target": "PFE",
+      "weight": 3185
+    },
+    {
+      "source": "GS",
+      "target": "MRK",
+      "weight": 2307
+    },
+    {
+      "source": "GS",
+      "target": "QCOM",
+      "weight": 619
+    },
+    {
+      "source": "GS",
+      "target": "TLRY",
+      "weight": 1440
+    },
+    {
+      "source": "GS",
+      "target": "WMT",
+      "weight": 4811
+    },
+    {
+      "source": "GS",
+      "target": "INTC",
+      "weight": 3735
+    },
+    {
+      "source": "GS",
+      "target": "MA",
+      "weight": 1768
+    },
+    {
+      "source": "GS",
+      "target": "BYND",
+      "weight": 2102
+    },
+    {
+      "source": "DIS",
+      "target": "BRK",
+      "weight": 3398
+    },
+    {
+      "source": "DIS",
+      "target": "C",
+      "weight": 3831
+    },
+    {
+      "source": "DIS",
+      "target": "CAT",
+      "weight": 1972
+    },
+    {
+      "source": "DIS",
+      "target": "CMG",
+      "weight": 3334
+    },
+    {
+      "source": "DIS",
+      "target": "CRM",
+      "weight": 3369
+    },
+    {
+      "source": "DIS",
+      "target": "CSCO",
+      "weight": 2762
+    },
+    {
+      "source": "DIS",
+      "target": "V",
+      "weight": 2716
+    },
+    {
+      "source": "DIS",
+      "target": "PYPL",
+      "weight": 1253
+    },
+    {
+      "source": "DIS",
+      "target": "F",
+      "weight": 3521
+    },
+    {
+      "source": "DIS",
+      "target": "MA",
+      "weight": 1923
+    },
+    {
+      "source": "DIS",
+      "target": "QCOM",
+      "weight": 2397
+    },
+    {
+      "source": "DIS",
+      "target": "JNJ",
+      "weight": 3855
+    },
+    {
+      "source": "DIS",
+      "target": "KO",
+      "weight": 3224
+    },
+    {
+      "source": "DIS",
+      "target": "VZ",
+      "weight": 3575
+    },
+    {
+      "source": "DIS",
+      "target": "WMT",
+      "weight": 5310
+    },
+    {
+      "source": "DIS",
+      "target": "ROKU",
+      "weight": 8827
+    },
+    {
+      "source": "DIS",
+      "target": "SBUX",
+      "weight": 1514
+    },
+    {
+      "source": "DIS",
+      "target": "TGT",
+      "weight": 3558
+    },
+    {
+      "source": "DIS",
+      "target": "GE",
+      "weight": 5269
+    },
+    {
+      "source": "DIS",
+      "target": "TLRY",
+      "weight": 793
+    },
+    {
+      "source": "DIS",
+      "target": "MCD",
+      "weight": 2783
+    },
+    {
+      "source": "DIS",
+      "target": "MU",
+      "weight": 3399
+    },
+    {
+      "source": "DIS",
+      "target": "MS",
+      "weight": 2376
+    },
+    {
+      "source": "DIS",
+      "target": "IBM",
+      "weight": 4066
+    },
+    {
+      "source": "DIS",
+      "target": "UNH",
+      "weight": 2669
+    },
+    {
+      "source": "DIS",
+      "target": "SQ",
+      "weight": 2496
+    },
+    {
+      "source": "DIS",
+      "target": "T",
+      "weight": 6764
+    },
+    {
+      "source": "DIS",
+      "target": "PG",
+      "weight": 1833
+    },
+    {
+      "source": "DIS",
+      "target": "PFE",
+      "weight": 3450
+    },
+    {
+      "source": "DIS",
+      "target": "WFC",
+      "weight": 4026
+    },
+    {
+      "source": "DIS",
+      "target": "BYND",
+      "weight": 2587
+    },
+    {
+      "source": "DIS",
+      "target": "INTC",
+      "weight": 3805
+    },
+    {
+      "source": "DIS",
+      "target": "PEP",
+      "weight": 2282
+    },
+    {
+      "source": "DIS",
+      "target": "MRK",
+      "weight": 2962
+    },
+    {
+      "source": "DIS",
+      "target": "SNAP",
+      "weight": 3710
+    },
+    {
+      "source": "C",
+      "target": "BRK",
+      "weight": 4967
+    },
+    {
+      "source": "C",
+      "target": "INTC",
+      "weight": 3891
+    },
+    {
+      "source": "C",
+      "target": "MU",
+      "weight": 3411
+    },
+    {
+      "source": "C",
+      "target": "V",
+      "weight": 1909
+    },
+    {
+      "source": "C",
+      "target": "CAT",
+      "weight": 2717
+    },
+    {
+      "source": "C",
+      "target": "CSCO",
+      "weight": 1733
+    },
+    {
+      "source": "C",
+      "target": "SQ",
+      "weight": 1918
+    },
+    {
+      "source": "C",
+      "target": "PYPL",
+      "weight": 1874
+    },
+    {
+      "source": "C",
+      "target": "PG",
+      "weight": 1351
+    },
+    {
+      "source": "C",
+      "target": "CMG",
+      "weight": 3829
+    },
+    {
+      "source": "C",
+      "target": "VZ",
+      "weight": 1325
+    },
+    {
+      "source": "C",
+      "target": "PFE",
+      "weight": 3385
+    },
+    {
+      "source": "C",
+      "target": "WMT",
+      "weight": 3630
+    },
+    {
+      "source": "C",
+      "target": "JNJ",
+      "weight": 5693
+    },
+    {
+      "source": "C",
+      "target": "T",
+      "weight": 3102
+    },
+    {
+      "source": "C",
+      "target": "PEP",
+      "weight": 4284
+    },
+    {
+      "source": "C",
+      "target": "BYND",
+      "weight": 878
+    },
+    {
+      "source": "C",
+      "target": "UNH",
+      "weight": 3800
+    },
+    {
+      "source": "C",
+      "target": "MS",
+      "weight": 8447
+    },
+    {
+      "source": "C",
+      "target": "WFC",
+      "weight": 10392
+    },
+    {
+      "source": "C",
+      "target": "F",
+      "weight": 5304
+    },
+    {
+      "source": "C",
+      "target": "GE",
+      "weight": 5634
+    },
+    {
+      "source": "C",
+      "target": "MCD",
+      "weight": 2717
+    },
+    {
+      "source": "C",
+      "target": "ROKU",
+      "weight": 1284
+    },
+    {
+      "source": "C",
+      "target": "KO",
+      "weight": 4614
+    },
+    {
+      "source": "C",
+      "target": "IBM",
+      "weight": 6600
+    },
+    {
+      "source": "C",
+      "target": "MA",
+      "weight": 1747
+    },
+    {
+      "source": "C",
+      "target": "QCOM",
+      "weight": 1354
+    },
+    {
+      "source": "C",
+      "target": "SBUX",
+      "weight": 1306
+    },
+    {
+      "source": "C",
+      "target": "SNAP",
+      "weight": 1979
+    },
+    {
+      "source": "C",
+      "target": "TGT",
+      "weight": 2932
+    },
+    {
+      "source": "C",
+      "target": "CRM",
+      "weight": 4666
+    },
+    {
+      "source": "C",
+      "target": "MRK",
+      "weight": 2213
+    },
+    {
+      "source": "C",
+      "target": "TLRY",
+      "weight": 1743
+    },
+    {
+      "source": "INTC",
+      "target": "BRK",
+      "weight": 1159
+    },
+    {
+      "source": "INTC",
+      "target": "CAT",
+      "weight": 3086
+    },
+    {
+      "source": "INTC",
+      "target": "CMG",
+      "weight": 1565
+    },
+    {
+      "source": "INTC",
+      "target": "CRM",
+      "weight": 1651
+    },
+    {
+      "source": "INTC",
+      "target": "CSCO",
+      "weight": 3648
+    },
+    {
+      "source": "INTC",
+      "target": "F",
+      "weight": 4594
+    },
+    {
+      "source": "INTC",
+      "target": "GE",
+      "weight": 3560
+    },
+    {
+      "source": "INTC",
+      "target": "IBM",
+      "weight": 3904
+    },
+    {
+      "source": "INTC",
+      "target": "PYPL",
+      "weight": 2313
+    },
+    {
+      "source": "INTC",
+      "target": "MA",
+      "weight": 1558
+    },
+    {
+      "source": "INTC",
+      "target": "SNAP",
+      "weight": 2855
+    },
+    {
+      "source": "INTC",
+      "target": "V",
+      "weight": 3219
+    },
+    {
+      "source": "INTC",
+      "target": "PEP",
+      "weight": 1217
+    },
+    {
+      "source": "INTC",
+      "target": "MCD",
+      "weight": 2326
+    },
+    {
+      "source": "INTC",
+      "target": "TLRY",
+      "weight": 826
+    },
+    {
+      "source": "INTC",
+      "target": "PFE",
+      "weight": 2528
+    },
+    {
+      "source": "INTC",
+      "target": "WMT",
+      "weight": 3486
+    },
+    {
+      "source": "INTC",
+      "target": "JNJ",
+      "weight": 3056
+    },
+    {
+      "source": "INTC",
+      "target": "ROKU",
+      "weight": 1804
+    },
+    {
+      "source": "INTC",
+      "target": "TGT",
+      "weight": 1260
+    },
+    {
+      "source": "INTC",
+      "target": "KO",
+      "weight": 2748
+    },
+    {
+      "source": "INTC",
+      "target": "WFC",
+      "weight": 3102
+    },
+    {
+      "source": "INTC",
+      "target": "UNH",
+      "weight": 2434
+    },
+    {
+      "source": "INTC",
+      "target": "MS",
+      "weight": 1190
+    },
+    {
+      "source": "INTC",
+      "target": "SBUX",
+      "weight": 3909
+    },
+    {
+      "source": "INTC",
+      "target": "MU",
+      "weight": 8404
+    },
+    {
+      "source": "INTC",
+      "target": "BYND",
+      "weight": 1228
+    },
+    {
+      "source": "INTC",
+      "target": "QCOM",
+      "weight": 4869
+    },
+    {
+      "source": "INTC",
+      "target": "T",
+      "weight": 4929
+    },
+    {
+      "source": "INTC",
+      "target": "PG",
+      "weight": 2700
+    },
+    {
+      "source": "INTC",
+      "target": "SQ",
+      "weight": 1435
+    },
+    {
+      "source": "INTC",
+      "target": "MRK",
+      "weight": 1617
+    },
+    {
+      "source": "INTC",
+      "target": "VZ",
+      "weight": 3704
+    },
+    {
+      "source": "GE",
+      "target": "BRK",
+      "weight": 4348
+    },
+    {
+      "source": "GE",
+      "target": "CAT",
+      "weight": 2988
+    },
+    {
+      "source": "GE",
+      "target": "CMG",
+      "weight": 3900
+    },
+    {
+      "source": "GE",
+      "target": "CRM",
+      "weight": 4749
+    },
+    {
+      "source": "GE",
+      "target": "CSCO",
+      "weight": 1864
+    },
+    {
+      "source": "GE",
+      "target": "F",
+      "weight": 6888
+    },
+    {
+      "source": "GE",
+      "target": "MU",
+      "weight": 3628
+    },
+    {
+      "source": "GE",
+      "target": "PYPL",
+      "weight": 1441
+    },
+    {
+      "source": "GE",
+      "target": "TLRY",
+      "weight": 813
+    },
+    {
+      "source": "GE",
+      "target": "PEP",
+      "weight": 3420
+    },
+    {
+      "source": "GE",
+      "target": "UNH",
+      "weight": 1061
+    },
+    {
+      "source": "GE",
+      "target": "VZ",
+      "weight": 2687
+    },
+    {
+      "source": "GE",
+      "target": "TGT",
+      "weight": 3272
+    },
+    {
+      "source": "GE",
+      "target": "BYND",
+      "weight": 2281
+    },
+    {
+      "source": "GE",
+      "target": "KO",
+      "weight": 4371
+    },
+    {
+      "source": "GE",
+      "target": "IBM",
+      "weight": 4469
+    },
+    {
+      "source": "GE",
+      "target": "QCOM",
+      "weight": 3174
+    },
+    {
+      "source": "GE",
+      "target": "JNJ",
+      "weight": 4498
+    },
+    {
+      "source": "GE",
+      "target": "SNAP",
+      "weight": 3467
+    },
+    {
+      "source": "GE",
+      "target": "MS",
+      "weight": 4048
+    },
+    {
+      "source": "GE",
+      "target": "MCD",
+      "weight": 4322
+    },
+    {
+      "source": "GE",
+      "target": "MRK",
+      "weight": 3614
+    },
+    {
+      "source": "GE",
+      "target": "MA",
+      "weight": 2962
+    },
+    {
+      "source": "GE",
+      "target": "ROKU",
+      "weight": 2441
+    },
+    {
+      "source": "GE",
+      "target": "WMT",
+      "weight": 4030
+    },
+    {
+      "source": "GE",
+      "target": "PFE",
+      "weight": 5527
+    },
+    {
+      "source": "GE",
+      "target": "SQ",
+      "weight": 2219
+    },
+    {
+      "source": "GE",
+      "target": "WFC",
+      "weight": 6086
+    },
+    {
+      "source": "GE",
+      "target": "V",
+      "weight": 1911
+    },
+    {
+      "source": "GE",
+      "target": "SBUX",
+      "weight": 1948
+    },
+    {
+      "source": "GE",
+      "target": "T",
+      "weight": 4271
+    },
+    {
+      "source": "GE",
+      "target": "PG",
+      "weight": 2228
+    },
+    {
+      "source": "F",
+      "target": "BRK",
+      "weight": 3342
+    },
+    {
+      "source": "F",
+      "target": "CAT",
+      "weight": 3109
+    },
+    {
+      "source": "F",
+      "target": "CMG",
+      "weight": 3697
+    },
+    {
+      "source": "F",
+      "target": "CRM",
+      "weight": 3513
+    },
+    {
+      "source": "F",
+      "target": "CSCO",
+      "weight": 1205
+    },
+    {
+      "source": "F",
+      "target": "PFE",
+      "weight": 2680
+    },
+    {
+      "source": "F",
+      "target": "WFC",
+      "weight": 4473
+    },
+    {
+      "source": "F",
+      "target": "WMT",
+      "weight": 3185
+    },
+    {
+      "source": "F",
+      "target": "SBUX",
+      "weight": 2793
+    },
+    {
+      "source": "F",
+      "target": "PG",
+      "weight": 1577
+    },
+    {
+      "source": "F",
+      "target": "V",
+      "weight": 1711
+    },
+    {
+      "source": "F",
+      "target": "ROKU",
+      "weight": 1207
+    },
+    {
+      "source": "F",
+      "target": "SQ",
+      "weight": 909
+    },
+    {
+      "source": "F",
+      "target": "UNH",
+      "weight": 1135
+    },
+    {
+      "source": "F",
+      "target": "VZ",
+      "weight": 1717
+    },
+    {
+      "source": "F",
+      "target": "IBM",
+      "weight": 3534
+    },
+    {
+      "source": "F",
+      "target": "TLRY",
+      "weight": 546
+    },
+    {
+      "source": "F",
+      "target": "TGT",
+      "weight": 2530
+    },
+    {
+      "source": "F",
+      "target": "BYND",
+      "weight": 745
+    },
+    {
+      "source": "F",
+      "target": "MCD",
+      "weight": 2723
+    },
+    {
+      "source": "F",
+      "target": "SNAP",
+      "weight": 3261
+    },
+    {
+      "source": "F",
+      "target": "MS",
+      "weight": 3401
+    },
+    {
+      "source": "F",
+      "target": "PEP",
+      "weight": 3132
+    },
+    {
+      "source": "F",
+      "target": "MRK",
+      "weight": 2029
+    },
+    {
+      "source": "F",
+      "target": "MA",
+      "weight": 836
+    },
+    {
+      "source": "F",
+      "target": "KO",
+      "weight": 4539
+    },
+    {
+      "source": "F",
+      "target": "JNJ",
+      "weight": 3519
+    },
+    {
+      "source": "F",
+      "target": "QCOM",
+      "weight": 940
+    },
+    {
+      "source": "F",
+      "target": "MU",
+      "weight": 2716
+    },
+    {
+      "source": "F",
+      "target": "PYPL",
+      "weight": 1987
+    },
+    {
+      "source": "F",
+      "target": "T",
+      "weight": 4040
+    },
+    {
+      "source": "T",
+      "target": "BRK",
+      "weight": 693
+    },
+    {
+      "source": "T",
+      "target": "CAT",
+      "weight": 2487
+    },
+    {
+      "source": "T",
+      "target": "CMG",
+      "weight": 384
+    },
+    {
+      "source": "T",
+      "target": "CRM",
+      "weight": 765
+    },
+    {
+      "source": "T",
+      "target": "CSCO",
+      "weight": 1921
+    },
+    {
+      "source": "T",
+      "target": "IBM",
+      "weight": 1028
+    },
+    {
+      "source": "T",
+      "target": "JNJ",
+      "weight": 1919
+    },
+    {
+      "source": "T",
+      "target": "KO",
+      "weight": 1881
+    },
+    {
+      "source": "T",
+      "target": "MA",
+      "weight": 2191
+    },
+    {
+      "source": "T",
+      "target": "MCD",
+      "weight": 1572
+    },
+    {
+      "source": "T",
+      "target": "MRK",
+      "weight": 1371
+    },
+    {
+      "source": "T",
+      "target": "MS",
+      "weight": 747
+    },
+    {
+      "source": "T",
+      "target": "MU",
+      "weight": 3449
+    },
+    {
+      "source": "T",
+      "target": "PEP",
+      "weight": 773
+    },
+    {
+      "source": "T",
+      "target": "PFE",
+      "weight": 2143
+    },
+    {
+      "source": "T",
+      "target": "PG",
+      "weight": 1503
+    },
+    {
+      "source": "T",
+      "target": "PYPL",
+      "weight": 1931
+    },
+    {
+      "source": "T",
+      "target": "QCOM",
+      "weight": 1502
+    },
+    {
+      "source": "T",
+      "target": "ROKU",
+      "weight": 2151
+    },
+    {
+      "source": "T",
+      "target": "SBUX",
+      "weight": 1296
+    },
+    {
+      "source": "T",
+      "target": "SNAP",
+      "weight": 3585
+    },
+    {
+      "source": "T",
+      "target": "SQ",
+      "weight": 1493
+    },
+    {
+      "source": "T",
+      "target": "BYND",
+      "weight": 1413
+    },
+    {
+      "source": "T",
+      "target": "VZ",
+      "weight": 7641
+    },
+    {
+      "source": "T",
+      "target": "WMT",
+      "weight": 1965
+    },
+    {
+      "source": "T",
+      "target": "V",
+      "weight": 3270
+    },
+    {
+      "source": "T",
+      "target": "WFC",
+      "weight": 2750
+    },
+    {
+      "source": "T",
+      "target": "UNH",
+      "weight": 2019
+    },
+    {
+      "source": "T",
+      "target": "TLRY",
+      "weight": 731
+    },
+    {
+      "source": "T",
+      "target": "TGT",
+      "weight": 784
+    },
+    {
+      "source": "SNAP",
+      "target": "BRK",
+      "weight": 682
+    },
+    {
+      "source": "SNAP",
+      "target": "CAT",
+      "weight": 2415
+    },
+    {
+      "source": "SNAP",
+      "target": "CMG",
+      "weight": 3195
+    },
+    {
+      "source": "SNAP",
+      "target": "CRM",
+      "weight": 2034
+    },
+    {
+      "source": "SNAP",
+      "target": "CSCO",
+      "weight": 1177
+    },
+    {
+      "source": "SNAP",
+      "target": "IBM",
+      "weight": 1237
+    },
+    {
+      "source": "SNAP",
+      "target": "JNJ",
+      "weight": 999
+    },
+    {
+      "source": "SNAP",
+      "target": "KO",
+      "weight": 2115
+    },
+    {
+      "source": "SNAP",
+      "target": "MA",
+      "weight": 289
+    },
+    {
+      "source": "SNAP",
+      "target": "MCD",
+      "weight": 1432
+    },
+    {
+      "source": "SNAP",
+      "target": "MRK",
+      "weight": 355
+    },
+    {
+      "source": "SNAP",
+      "target": "MS",
+      "weight": 819
+    },
+    {
+      "source": "SNAP",
+      "target": "MU",
+      "weight": 2724
+    },
+    {
+      "source": "SNAP",
+      "target": "PEP",
+      "weight": 635
+    },
+    {
+      "source": "SNAP",
+      "target": "PFE",
+      "weight": 1032
+    },
+    {
+      "source": "SNAP",
+      "target": "PG",
+      "weight": 1388
+    },
+    {
+      "source": "SNAP",
+      "target": "PYPL",
+      "weight": 1728
+    },
+    {
+      "source": "SNAP",
+      "target": "QCOM",
+      "weight": 1157
+    },
+    {
+      "source": "SNAP",
+      "target": "ROKU",
+      "weight": 2832
+    },
+    {
+      "source": "SNAP",
+      "target": "SBUX",
+      "weight": 1279
+    },
+    {
+      "source": "SNAP",
+      "target": "WMT",
+      "weight": 1029
+    },
+    {
+      "source": "SNAP",
+      "target": "TGT",
+      "weight": 1063
+    },
+    {
+      "source": "SNAP",
+      "target": "TLRY",
+      "weight": 478
+    },
+    {
+      "source": "SNAP",
+      "target": "UNH",
+      "weight": 510
+    },
+    {
+      "source": "SNAP",
+      "target": "SQ",
+      "weight": 1730
+    },
+    {
+      "source": "SNAP",
+      "target": "WFC",
+      "weight": 1765
+    },
+    {
+      "source": "SNAP",
+      "target": "VZ",
+      "weight": 1839
+    },
+    {
+      "source": "SNAP",
+      "target": "V",
+      "weight": 2407
+    },
+    {
+      "source": "SNAP",
+      "target": "BYND",
+      "weight": 2002
+    },
+    {
+      "source": "WFC",
+      "target": "BRK",
+      "weight": 5550
+    },
+    {
+      "source": "WFC",
+      "target": "CAT",
+      "weight": 1485
+    },
+    {
+      "source": "WFC",
+      "target": "CMG",
+      "weight": 3885
+    },
+    {
+      "source": "WFC",
+      "target": "CRM",
+      "weight": 4737
+    },
+    {
+      "source": "WFC",
+      "target": "CSCO",
+      "weight": 1464
+    },
+    {
+      "source": "WFC",
+      "target": "IBM",
+      "weight": 5094
+    },
+    {
+      "source": "WFC",
+      "target": "JNJ",
+      "weight": 5169
+    },
+    {
+      "source": "WFC",
+      "target": "KO",
+      "weight": 4876
+    },
+    {
+      "source": "WFC",
+      "target": "MA",
+      "weight": 1073
+    },
+    {
+      "source": "WFC",
+      "target": "MCD",
+      "weight": 2476
+    },
+    {
+      "source": "WFC",
+      "target": "MRK",
+      "weight": 2133
+    },
+    {
+      "source": "WFC",
+      "target": "MS",
+      "weight": 5967
+    },
+    {
+      "source": "WFC",
+      "target": "MU",
+      "weight": 2112
+    },
+    {
+      "source": "WFC",
+      "target": "PEP",
+      "weight": 4042
+    },
+    {
+      "source": "WFC",
+      "target": "PFE",
+      "weight": 3366
+    },
+    {
+      "source": "WFC",
+      "target": "PG",
+      "weight": 1480
+    },
+    {
+      "source": "WFC",
+      "target": "PYPL",
+      "weight": 667
+    },
+    {
+      "source": "WFC",
+      "target": "QCOM",
+      "weight": 772
+    },
+    {
+      "source": "WFC",
+      "target": "ROKU",
+      "weight": 860
+    },
+    {
+      "source": "WFC",
+      "target": "SBUX",
+      "weight": 1038
+    },
+    {
+      "source": "WFC",
+      "target": "SQ",
+      "weight": 1578
+    },
+    {
+      "source": "WFC",
+      "target": "TGT",
+      "weight": 2663
+    },
+    {
+      "source": "WFC",
+      "target": "TLRY",
+      "weight": 231
+    },
+    {
+      "source": "WFC",
+      "target": "UNH",
+      "weight": 3045
+    },
+    {
+      "source": "WFC",
+      "target": "V",
+      "weight": 1753
+    },
+    {
+      "source": "WFC",
+      "target": "VZ",
+      "weight": 902
+    },
+    {
+      "source": "WFC",
+      "target": "BYND",
+      "weight": 345
+    },
+    {
+      "source": "WFC",
+      "target": "WMT",
+      "weight": 3422
+    },
+    {
+      "source": "JNJ",
+      "target": "BRK",
+      "weight": 3901
+    },
+    {
+      "source": "JNJ",
+      "target": "CAT",
+      "weight": 1487
+    },
+    {
+      "source": "JNJ",
+      "target": "CMG",
+      "weight": 3076
+    },
+    {
+      "source": "JNJ",
+      "target": "CRM",
+      "weight": 3152
+    },
+    {
+      "source": "JNJ",
+      "target": "CSCO",
+      "weight": 1313
+    },
+    {
+      "source": "JNJ",
+      "target": "IBM",
+      "weight": 5636
+    },
+    {
+      "source": "JNJ",
+      "target": "ROKU",
+      "weight": 706
+    },
+    {
+      "source": "JNJ",
+      "target": "PYPL",
+      "weight": 690
+    },
+    {
+      "source": "JNJ",
+      "target": "UNH",
+      "weight": 4495
+    },
+    {
+      "source": "JNJ",
+      "target": "TGT",
+      "weight": 2728
+    },
+    {
+      "source": "JNJ",
+      "target": "PEP",
+      "weight": 3786
+    },
+    {
+      "source": "JNJ",
+      "target": "QCOM",
+      "weight": 621
+    },
+    {
+      "source": "JNJ",
+      "target": "TLRY",
+      "weight": 221
+    },
+    {
+      "source": "JNJ",
+      "target": "SQ",
+      "weight": 754
+    },
+    {
+      "source": "JNJ",
+      "target": "SBUX",
+      "weight": 1343
+    },
+    {
+      "source": "JNJ",
+      "target": "BYND",
+      "weight": 422
+    },
+    {
+      "source": "JNJ",
+      "target": "PFE",
+      "weight": 6098
+    },
+    {
+      "source": "JNJ",
+      "target": "MS",
+      "weight": 4308
+    },
+    {
+      "source": "JNJ",
+      "target": "MA",
+      "weight": 1270
+    },
+    {
+      "source": "JNJ",
+      "target": "MU",
+      "weight": 922
+    },
+    {
+      "source": "JNJ",
+      "target": "PG",
+      "weight": 3687
+    },
+    {
+      "source": "JNJ",
+      "target": "WMT",
+      "weight": 3710
+    },
+    {
+      "source": "JNJ",
+      "target": "V",
+      "weight": 2299
+    },
+    {
+      "source": "JNJ",
+      "target": "MRK",
+      "weight": 5075
+    },
+    {
+      "source": "JNJ",
+      "target": "MCD",
+      "weight": 3452
+    },
+    {
+      "source": "JNJ",
+      "target": "KO",
+      "weight": 4636
+    },
+    {
+      "source": "JNJ",
+      "target": "VZ",
+      "weight": 1685
+    },
+    {
+      "source": "ROKU",
+      "target": "BRK",
+      "weight": 138
+    },
+    {
+      "source": "ROKU",
+      "target": "CAT",
+      "weight": 958
+    },
+    {
+      "source": "ROKU",
+      "target": "CMG",
+      "weight": 1649
+    },
+    {
+      "source": "ROKU",
+      "target": "CRM",
+      "weight": 1193
+    },
+    {
+      "source": "ROKU",
+      "target": "CSCO",
+      "weight": 1427
+    },
+    {
+      "source": "ROKU",
+      "target": "IBM",
+      "weight": 467
+    },
+    {
+      "source": "ROKU",
+      "target": "KO",
+      "weight": 390
+    },
+    {
+      "source": "ROKU",
+      "target": "MA",
+      "weight": 924
+    },
+    {
+      "source": "ROKU",
+      "target": "MCD",
+      "weight": 723
+    },
+    {
+      "source": "ROKU",
+      "target": "MRK",
+      "weight": 624
+    },
+    {
+      "source": "ROKU",
+      "target": "MS",
+      "weight": 313
+    },
+    {
+      "source": "ROKU",
+      "target": "MU",
+      "weight": 3153
+    },
+    {
+      "source": "ROKU",
+      "target": "PEP",
+      "weight": 191
+    },
+    {
+      "source": "ROKU",
+      "target": "PFE",
+      "weight": 644
+    },
+    {
+      "source": "ROKU",
+      "target": "PG",
+      "weight": 337
+    },
+    {
+      "source": "ROKU",
+      "target": "PYPL",
+      "weight": 911
+    },
+    {
+      "source": "ROKU",
+      "target": "QCOM",
+      "weight": 1886
+    },
+    {
+      "source": "ROKU",
+      "target": "SBUX",
+      "weight": 1153
+    },
+    {
+      "source": "ROKU",
+      "target": "TGT",
+      "weight": 1105
+    },
+    {
+      "source": "ROKU",
+      "target": "VZ",
+      "weight": 546
+    },
+    {
+      "source": "ROKU",
+      "target": "V",
+      "weight": 981
+    },
+    {
+      "source": "ROKU",
+      "target": "BYND",
+      "weight": 5415
+    },
+    {
+      "source": "ROKU",
+      "target": "SQ",
+      "weight": 3579
+    },
+    {
+      "source": "ROKU",
+      "target": "TLRY",
+      "weight": 1608
+    },
+    {
+      "source": "ROKU",
+      "target": "WMT",
+      "weight": 1594
+    },
+    {
+      "source": "ROKU",
+      "target": "UNH",
+      "weight": 773
+    },
+    {
+      "source": "MU",
+      "target": "BRK",
+      "weight": 323
+    },
+    {
+      "source": "MU",
+      "target": "CAT",
+      "weight": 1249
+    },
+    {
+      "source": "MU",
+      "target": "CMG",
+      "weight": 588
+    },
+    {
+      "source": "MU",
+      "target": "CRM",
+      "weight": 1488
+    },
+    {
+      "source": "MU",
+      "target": "CSCO",
+      "weight": 2862
+    },
+    {
+      "source": "MU",
+      "target": "IBM",
+      "weight": 1683
+    },
+    {
+      "source": "MU",
+      "target": "KO",
+      "weight": 504
+    },
+    {
+      "source": "MU",
+      "target": "MA",
+      "weight": 806
+    },
+    {
+      "source": "MU",
+      "target": "MCD",
+      "weight": 686
+    },
+    {
+      "source": "MU",
+      "target": "MRK",
+      "weight": 814
+    },
+    {
+      "source": "MU",
+      "target": "MS",
+      "weight": 762
+    },
+    {
+      "source": "MU",
+      "target": "PYPL",
+      "weight": 1490
+    },
+    {
+      "source": "MU",
+      "target": "V",
+      "weight": 1564
+    },
+    {
+      "source": "MU",
+      "target": "PFE",
+      "weight": 1881
+    },
+    {
+      "source": "MU",
+      "target": "BYND",
+      "weight": 1679
+    },
+    {
+      "source": "MU",
+      "target": "QCOM",
+      "weight": 3200
+    },
+    {
+      "source": "MU",
+      "target": "TLRY",
+      "weight": 1312
+    },
+    {
+      "source": "MU",
+      "target": "VZ",
+      "weight": 1680
+    },
+    {
+      "source": "MU",
+      "target": "UNH",
+      "weight": 1243
+    },
+    {
+      "source": "MU",
+      "target": "PEP",
+      "weight": 220
+    },
+    {
+      "source": "MU",
+      "target": "SBUX",
+      "weight": 1852
+    },
+    {
+      "source": "MU",
+      "target": "TGT",
+      "weight": 716
+    },
+    {
+      "source": "MU",
+      "target": "SQ",
+      "weight": 2518
+    },
+    {
+      "source": "MU",
+      "target": "WMT",
+      "weight": 1842
+    },
+    {
+      "source": "MU",
+      "target": "PG",
+      "weight": 799
+    },
+    {
+      "source": "IBM",
+      "target": "BRK",
+      "weight": 4625
+    },
+    {
+      "source": "IBM",
+      "target": "CAT",
+      "weight": 1957
+    },
+    {
+      "source": "IBM",
+      "target": "CMG",
+      "weight": 3979
+    },
+    {
+      "source": "IBM",
+      "target": "CRM",
+      "weight": 5176
+    },
+    {
+      "source": "IBM",
+      "target": "CSCO",
+      "weight": 1954
+    },
+    {
+      "source": "IBM",
+      "target": "MS",
+      "weight": 4918
+    },
+    {
+      "source": "IBM",
+      "target": "VZ",
+      "weight": 1344
+    },
+    {
+      "source": "IBM",
+      "target": "BYND",
+      "weight": 497
+    },
+    {
+      "source": "IBM",
+      "target": "MA",
+      "weight": 177
+    },
+    {
+      "source": "IBM",
+      "target": "SBUX",
+      "weight": 1447
+    },
+    {
+      "source": "IBM",
+      "target": "WMT",
+      "weight": 4421
+    },
+    {
+      "source": "IBM",
+      "target": "V",
+      "weight": 914
+    },
+    {
+      "source": "IBM",
+      "target": "KO",
+      "weight": 5115
+    },
+    {
+      "source": "IBM",
+      "target": "QCOM",
+      "weight": 739
+    },
+    {
+      "source": "IBM",
+      "target": "SQ",
+      "weight": 599
+    },
+    {
+      "source": "IBM",
+      "target": "MRK",
+      "weight": 2512
+    },
+    {
+      "source": "IBM",
+      "target": "UNH",
+      "weight": 1876
+    },
+    {
+      "source": "IBM",
+      "target": "TGT",
+      "weight": 3471
+    },
+    {
+      "source": "IBM",
+      "target": "PG",
+      "weight": 1870
+    },
+    {
+      "source": "IBM",
+      "target": "PFE",
+      "weight": 3161
+    },
+    {
+      "source": "IBM",
+      "target": "MCD",
+      "weight": 3369
+    },
+    {
+      "source": "IBM",
+      "target": "TLRY",
+      "weight": 101
+    },
+    {
+      "source": "IBM",
+      "target": "PEP",
+      "weight": 4707
+    },
+    {
+      "source": "IBM",
+      "target": "PYPL",
+      "weight": 473
+    },
+    {
+      "source": "WMT",
+      "target": "BRK",
+      "weight": 3646
+    },
+    {
+      "source": "WMT",
+      "target": "CAT",
+      "weight": 1805
+    },
+    {
+      "source": "WMT",
+      "target": "CMG",
+      "weight": 2878
+    },
+    {
+      "source": "WMT",
+      "target": "CRM",
+      "weight": 3487
+    },
+    {
+      "source": "WMT",
+      "target": "CSCO",
+      "weight": 3024
+    },
+    {
+      "source": "WMT",
+      "target": "KO",
+      "weight": 4236
+    },
+    {
+      "source": "WMT",
+      "target": "MA",
+      "weight": 780
+    },
+    {
+      "source": "WMT",
+      "target": "MCD",
+      "weight": 3275
+    },
+    {
+      "source": "WMT",
+      "target": "MRK",
+      "weight": 2529
+    },
+    {
+      "source": "WMT",
+      "target": "MS",
+      "weight": 2827
+    },
+    {
+      "source": "WMT",
+      "target": "PEP",
+      "weight": 3239
+    },
+    {
+      "source": "WMT",
+      "target": "PFE",
+      "weight": 2776
+    },
+    {
+      "source": "WMT",
+      "target": "PG",
+      "weight": 2086
+    },
+    {
+      "source": "WMT",
+      "target": "PYPL",
+      "weight": 992
+    },
+    {
+      "source": "WMT",
+      "target": "QCOM",
+      "weight": 878
+    },
+    {
+      "source": "WMT",
+      "target": "SBUX",
+      "weight": 1265
+    },
+    {
+      "source": "WMT",
+      "target": "SQ",
+      "weight": 520
+    },
+    {
+      "source": "WMT",
+      "target": "TGT",
+      "weight": 9196
+    },
+    {
+      "source": "WMT",
+      "target": "TLRY",
+      "weight": 2165
+    },
+    {
+      "source": "WMT",
+      "target": "UNH",
+      "weight": 1442
+    },
+    {
+      "source": "WMT",
+      "target": "V",
+      "weight": 1846
+    },
+    {
+      "source": "WMT",
+      "target": "VZ",
+      "weight": 2744
+    },
+    {
+      "source": "WMT",
+      "target": "BYND",
+      "weight": 998
+    },
+    {
+      "source": "PFE",
+      "target": "BRK",
+      "weight": 3221
+    },
+    {
+      "source": "PFE",
+      "target": "CAT",
+      "weight": 1907
+    },
+    {
+      "source": "PFE",
+      "target": "CMG",
+      "weight": 2536
+    },
+    {
+      "source": "PFE",
+      "target": "CRM",
+      "weight": 2635
+    },
+    {
+      "source": "PFE",
+      "target": "CSCO",
+      "weight": 1725
+    },
+    {
+      "source": "PFE",
+      "target": "KO",
+      "weight": 3344
+    },
+    {
+      "source": "PFE",
+      "target": "MA",
+      "weight": 2671
+    },
+    {
+      "source": "PFE",
+      "target": "MCD",
+      "weight": 2724
+    },
+    {
+      "source": "PFE",
+      "target": "MRK",
+      "weight": 7967
+    },
+    {
+      "source": "PFE",
+      "target": "MS",
+      "weight": 2558
+    },
+    {
+      "source": "PFE",
+      "target": "PEP",
+      "weight": 2644
+    },
+    {
+      "source": "PFE",
+      "target": "TGT",
+      "weight": 1486
+    },
+    {
+      "source": "PFE",
+      "target": "PG",
+      "weight": 1695
+    },
+    {
+      "source": "PFE",
+      "target": "SQ",
+      "weight": 1517
+    },
+    {
+      "source": "PFE",
+      "target": "QCOM",
+      "weight": 2155
+    },
+    {
+      "source": "PFE",
+      "target": "SBUX",
+      "weight": 702
+    },
+    {
+      "source": "PFE",
+      "target": "PYPL",
+      "weight": 946
+    },
+    {
+      "source": "PFE",
+      "target": "V",
+      "weight": 1637
+    },
+    {
+      "source": "PFE",
+      "target": "UNH",
+      "weight": 1978
+    },
+    {
+      "source": "PFE",
+      "target": "VZ",
+      "weight": 2834
+    },
+    {
+      "source": "PFE",
+      "target": "TLRY",
+      "weight": 215
+    },
+    {
+      "source": "PFE",
+      "target": "BYND",
+      "weight": 1361
+    },
+    {
+      "source": "KO",
+      "target": "BRK",
+      "weight": 5318
+    },
+    {
+      "source": "KO",
+      "target": "CAT",
+      "weight": 2479
+    },
+    {
+      "source": "KO",
+      "target": "CMG",
+      "weight": 4183
+    },
+    {
+      "source": "KO",
+      "target": "CRM",
+      "weight": 4161
+    },
+    {
+      "source": "KO",
+      "target": "CSCO",
+      "weight": 1318
+    },
+    {
+      "source": "KO",
+      "target": "VZ",
+      "weight": 1744
+    },
+    {
+      "source": "KO",
+      "target": "PEP",
+      "weight": 7720
+    },
+    {
+      "source": "KO",
+      "target": "QCOM",
+      "weight": 368
+    },
+    {
+      "source": "KO",
+      "target": "UNH",
+      "weight": 1129
+    },
+    {
+      "source": "KO",
+      "target": "PYPL",
+      "weight": 1225
+    },
+    {
+      "source": "KO",
+      "target": "V",
+      "weight": 1923
+    },
+    {
+      "source": "KO",
+      "target": "SQ",
+      "weight": 506
+    },
+    {
+      "source": "KO",
+      "target": "TLRY",
+      "weight": 646
+    },
+    {
+      "source": "KO",
+      "target": "SBUX",
+      "weight": 2280
+    },
+    {
+      "source": "KO",
+      "target": "PG",
+      "weight": 2911
+    },
+    {
+      "source": "KO",
+      "target": "TGT",
+      "weight": 3016
+    },
+    {
+      "source": "KO",
+      "target": "MS",
+      "weight": 4265
+    },
+    {
+      "source": "KO",
+      "target": "BYND",
+      "weight": 397
+    },
+    {
+      "source": "KO",
+      "target": "MRK",
+      "weight": 2849
+    },
+    {
+      "source": "KO",
+      "target": "MCD",
+      "weight": 4175
+    },
+    {
+      "source": "KO",
+      "target": "MA",
+      "weight": 385
+    },
+    {
+      "source": "CRM",
+      "target": "BRK",
+      "weight": 4331
+    },
+    {
+      "source": "CRM",
+      "target": "CAT",
+      "weight": 1150
+    },
+    {
+      "source": "CRM",
+      "target": "CMG",
+      "weight": 4296
+    },
+    {
+      "source": "CRM",
+      "target": "PYPL",
+      "weight": 1355
+    },
+    {
+      "source": "CRM",
+      "target": "TGT",
+      "weight": 3948
+    },
+    {
+      "source": "CRM",
+      "target": "CSCO",
+      "weight": 992
+    },
+    {
+      "source": "CRM",
+      "target": "SBUX",
+      "weight": 891
+    },
+    {
+      "source": "CRM",
+      "target": "MA",
+      "weight": 765
+    },
+    {
+      "source": "CRM",
+      "target": "VZ",
+      "weight": 272
+    },
+    {
+      "source": "CRM",
+      "target": "TLRY",
+      "weight": 697
+    },
+    {
+      "source": "CRM",
+      "target": "PG",
+      "weight": 1085
+    },
+    {
+      "source": "CRM",
+      "target": "MS",
+      "weight": 4086
+    },
+    {
+      "source": "CRM",
+      "target": "MRK",
+      "weight": 2362
+    },
+    {
+      "source": "CRM",
+      "target": "BYND",
+      "weight": 1002
+    },
+    {
+      "source": "CRM",
+      "target": "MCD",
+      "weight": 2035
+    },
+    {
+      "source": "CRM",
+      "target": "SQ",
+      "weight": 1496
+    },
+    {
+      "source": "CRM",
+      "target": "QCOM",
+      "weight": 730
+    },
+    {
+      "source": "CRM",
+      "target": "PEP",
+      "weight": 3819
+    },
+    {
+      "source": "CRM",
+      "target": "V",
+      "weight": 895
+    },
+    {
+      "source": "CRM",
+      "target": "UNH",
+      "weight": 671
+    },
+    {
+      "source": "CMG",
+      "target": "BRK",
+      "weight": 4142
+    },
+    {
+      "source": "CMG",
+      "target": "CAT",
+      "weight": 3384
+    },
+    {
+      "source": "CMG",
+      "target": "V",
+      "weight": 1385
+    },
+    {
+      "source": "CMG",
+      "target": "UNH",
+      "weight": 582
+    },
+    {
+      "source": "CMG",
+      "target": "CSCO",
+      "weight": 160
+    },
+    {
+      "source": "CMG",
+      "target": "MCD",
+      "weight": 3837
+    },
+    {
+      "source": "CMG",
+      "target": "PEP",
+      "weight": 3821
+    },
+    {
+      "source": "CMG",
+      "target": "TGT",
+      "weight": 3035
+    },
+    {
+      "source": "CMG",
+      "target": "BYND",
+      "weight": 1462
+    },
+    {
+      "source": "CMG",
+      "target": "PG",
+      "weight": 914
+    },
+    {
+      "source": "CMG",
+      "target": "MA",
+      "weight": 473
+    },
+    {
+      "source": "CMG",
+      "target": "MS",
+      "weight": 3707
+    },
+    {
+      "source": "CMG",
+      "target": "SQ",
+      "weight": 595
+    },
+    {
+      "source": "CMG",
+      "target": "TLRY",
+      "weight": 361
+    },
+    {
+      "source": "CMG",
+      "target": "SBUX",
+      "weight": 1909
+    },
+    {
+      "source": "CMG",
+      "target": "QCOM",
+      "weight": 277
+    },
+    {
+      "source": "CMG",
+      "target": "PYPL",
+      "weight": 1409
+    },
+    {
+      "source": "CMG",
+      "target": "MRK",
+      "weight": 2103
+    },
+    {
+      "source": "CMG",
+      "target": "VZ",
+      "weight": 540
+    },
+    {
+      "source": "V",
+      "target": "BRK",
+      "weight": 817
+    },
+    {
+      "source": "V",
+      "target": "CAT",
+      "weight": 3053
+    },
+    {
+      "source": "V",
+      "target": "CSCO",
+      "weight": 1568
+    },
+    {
+      "source": "V",
+      "target": "MA",
+      "weight": 7286
+    },
+    {
+      "source": "V",
+      "target": "MCD",
+      "weight": 2881
+    },
+    {
+      "source": "V",
+      "target": "MRK",
+      "weight": 915
+    },
+    {
+      "source": "V",
+      "target": "MS",
+      "weight": 328
+    },
+    {
+      "source": "V",
+      "target": "PEP",
+      "weight": 306
+    },
+    {
+      "source": "V",
+      "target": "PG",
+      "weight": 2433
+    },
+    {
+      "source": "V",
+      "target": "PYPL",
+      "weight": 5261
+    },
+    {
+      "source": "V",
+      "target": "QCOM",
+      "weight": 855
+    },
+    {
+      "source": "V",
+      "target": "SBUX",
+      "weight": 757
+    },
+    {
+      "source": "V",
+      "target": "SQ",
+      "weight": 2357
+    },
+    {
+      "source": "V",
+      "target": "TGT",
+      "weight": 605
+    },
+    {
+      "source": "V",
+      "target": "TLRY",
+      "weight": 276
+    },
+    {
+      "source": "V",
+      "target": "UNH",
+      "weight": 2173
+    },
+    {
+      "source": "V",
+      "target": "VZ",
+      "weight": 2853
+    },
+    {
+      "source": "V",
+      "target": "BYND",
+      "weight": 769
+    },
+    {
+      "source": "MCD",
+      "target": "BRK",
+      "weight": 2542
+    },
+    {
+      "source": "MCD",
+      "target": "CAT",
+      "weight": 3847
+    },
+    {
+      "source": "MCD",
+      "target": "CSCO",
+      "weight": 748
+    },
+    {
+      "source": "MCD",
+      "target": "MA",
+      "weight": 1878
+    },
+    {
+      "source": "MCD",
+      "target": "PEP",
+      "weight": 2794
+    },
+    {
+      "source": "MCD",
+      "target": "VZ",
+      "weight": 1950
+    },
+    {
+      "source": "MCD",
+      "target": "BYND",
+      "weight": 2052
+    },
+    {
+      "source": "MCD",
+      "target": "SBUX",
+      "weight": 2570
+    },
+    {
+      "source": "MCD",
+      "target": "TLRY",
+      "weight": 70
+    },
+    {
+      "source": "MCD",
+      "target": "MRK",
+      "weight": 1821
+    },
+    {
+      "source": "MCD",
+      "target": "SQ",
+      "weight": 1048
+    },
+    {
+      "source": "MCD",
+      "target": "MS",
+      "weight": 1973
+    },
+    {
+      "source": "MCD",
+      "target": "QCOM",
+      "weight": 1435
+    },
+    {
+      "source": "MCD",
+      "target": "UNH",
+      "weight": 988
+    },
+    {
+      "source": "MCD",
+      "target": "TGT",
+      "weight": 1987
+    },
+    {
+      "source": "MCD",
+      "target": "PYPL",
+      "weight": 1784
+    },
+    {
+      "source": "MCD",
+      "target": "PG",
+      "weight": 2400
+    },
+    {
+      "source": "MS",
+      "target": "BRK",
+      "weight": 4494
+    },
+    {
+      "source": "MS",
+      "target": "CAT",
+      "weight": 1402
+    },
+    {
+      "source": "MS",
+      "target": "CSCO",
+      "weight": 249
+    },
+    {
+      "source": "MS",
+      "target": "MA",
+      "weight": 551
+    },
+    {
+      "source": "MS",
+      "target": "MRK",
+      "weight": 1914
+    },
+    {
+      "source": "MS",
+      "target": "PEP",
+      "weight": 3867
+    },
+    {
+      "source": "MS",
+      "target": "TGT",
+      "weight": 2690
+    },
+    {
+      "source": "MS",
+      "target": "PYPL",
+      "weight": 509
+    },
+    {
+      "source": "MS",
+      "target": "SBUX",
+      "weight": 764
+    },
+    {
+      "source": "MS",
+      "target": "UNH",
+      "weight": 1511
+    },
+    {
+      "source": "MS",
+      "target": "TLRY",
+      "weight": 366
+    },
+    {
+      "source": "MS",
+      "target": "QCOM",
+      "weight": 332
+    },
+    {
+      "source": "MS",
+      "target": "BYND",
+      "weight": 83
+    },
+    {
+      "source": "MS",
+      "target": "PG",
+      "weight": 509
+    },
+    {
+      "source": "MS",
+      "target": "VZ",
+      "weight": 261
+    },
+    {
+      "source": "MS",
+      "target": "SQ",
+      "weight": 393
+    },
+    {
+      "source": "CAT",
+      "target": "BRK",
+      "weight": 1543
+    },
+    {
+      "source": "CAT",
+      "target": "VZ",
+      "weight": 2155
+    },
+    {
+      "source": "CAT",
+      "target": "PYPL",
+      "weight": 2850
+    },
+    {
+      "source": "CAT",
+      "target": "PEP",
+      "weight": 1242
+    },
+    {
+      "source": "CAT",
+      "target": "TLRY",
+      "weight": 336
+    },
+    {
+      "source": "CAT",
+      "target": "SBUX",
+      "weight": 1730
+    },
+    {
+      "source": "CAT",
+      "target": "SQ",
+      "weight": 969
+    },
+    {
+      "source": "CAT",
+      "target": "TGT",
+      "weight": 1099
+    },
+    {
+      "source": "CAT",
+      "target": "MRK",
+      "weight": 700
+    },
+    {
+      "source": "CAT",
+      "target": "MA",
+      "weight": 1207
+    },
+    {
+      "source": "CAT",
+      "target": "BYND",
+      "weight": 918
+    },
+    {
+      "source": "CAT",
+      "target": "QCOM",
+      "weight": 1198
+    },
+    {
+      "source": "CAT",
+      "target": "PG",
+      "weight": 1606
+    },
+    {
+      "source": "CAT",
+      "target": "CSCO",
+      "weight": 1007
+    },
+    {
+      "source": "CAT",
+      "target": "UNH",
+      "weight": 939
+    },
+    {
+      "source": "TGT",
+      "target": "BRK",
+      "weight": 2959
+    },
+    {
+      "source": "TGT",
+      "target": "CSCO",
+      "weight": 988
+    },
+    {
+      "source": "TGT",
+      "target": "MA",
+      "weight": 318
+    },
+    {
+      "source": "TGT",
+      "target": "MRK",
+      "weight": 1616
+    },
+    {
+      "source": "TGT",
+      "target": "PEP",
+      "weight": 2653
+    },
+    {
+      "source": "TGT",
+      "target": "PG",
+      "weight": 773
+    },
+    {
+      "source": "TGT",
+      "target": "PYPL",
+      "weight": 414
+    },
+    {
+      "source": "TGT",
+      "target": "QCOM",
+      "weight": 695
+    },
+    {
+      "source": "TGT",
+      "target": "SBUX",
+      "weight": 1280
+    },
+    {
+      "source": "TGT",
+      "target": "SQ",
+      "weight": 531
+    },
+    {
+      "source": "TGT",
+      "target": "VZ",
+      "weight": 1158
+    },
+    {
+      "source": "TGT",
+      "target": "UNH",
+      "weight": 449
+    },
+    {
+      "source": "TGT",
+      "target": "TLRY",
+      "weight": 664
+    },
+    {
+      "source": "TGT",
+      "target": "BYND",
+      "weight": 689
+    },
+    {
+      "source": "BYND",
+      "target": "BRK",
+      "weight": 92
+    },
+    {
+      "source": "BYND",
+      "target": "CSCO",
+      "weight": 598
+    },
+    {
+      "source": "BYND",
+      "target": "MA",
+      "weight": 2013
+    },
+    {
+      "source": "BYND",
+      "target": "MRK",
+      "weight": 1280
+    },
+    {
+      "source": "BYND",
+      "target": "PEP",
+      "weight": 129
+    },
+    {
+      "source": "BYND",
+      "target": "PG",
+      "weight": 805
+    },
+    {
+      "source": "BYND",
+      "target": "PYPL",
+      "weight": 694
+    },
+    {
+      "source": "BYND",
+      "target": "QCOM",
+      "weight": 2018
+    },
+    {
+      "source": "BYND",
+      "target": "SBUX",
+      "weight": 1448
+    },
+    {
+      "source": "BYND",
+      "target": "SQ",
+      "weight": 1999
+    },
+    {
+      "source": "BYND",
+      "target": "TLRY",
+      "weight": 3378
+    },
+    {
+      "source": "BYND",
+      "target": "UNH",
+      "weight": 480
+    },
+    {
+      "source": "BYND",
+      "target": "VZ",
+      "weight": 693
+    },
+    {
+      "source": "MRK",
+      "target": "BRK",
+      "weight": 2656
+    },
+    {
+      "source": "MRK",
+      "target": "CSCO",
+      "weight": 920
+    },
+    {
+      "source": "MRK",
+      "target": "MA",
+      "weight": 2484
+    },
+    {
+      "source": "MRK",
+      "target": "SBUX",
+      "weight": 863
+    },
+    {
+      "source": "MRK",
+      "target": "UNH",
+      "weight": 1610
+    },
+    {
+      "source": "MRK",
+      "target": "PEP",
+      "weight": 1997
+    },
+    {
+      "source": "MRK",
+      "target": "PG",
+      "weight": 1869
+    },
+    {
+      "source": "MRK",
+      "target": "PYPL",
+      "weight": 381
+    },
+    {
+      "source": "MRK",
+      "target": "QCOM",
+      "weight": 1188
+    },
+    {
+      "source": "MRK",
+      "target": "VZ",
+      "weight": 1673
+    },
+    {
+      "source": "MRK",
+      "target": "SQ",
+      "weight": 1076
+    },
+    {
+      "source": "MRK",
+      "target": "TLRY",
+      "weight": 247
+    },
+    {
+      "source": "SQ",
+      "target": "BRK",
+      "weight": 398
+    },
+    {
+      "source": "SQ",
+      "target": "CSCO",
+      "weight": 997
+    },
+    {
+      "source": "SQ",
+      "target": "MA",
+      "weight": 2405
+    },
+    {
+      "source": "SQ",
+      "target": "PEP",
+      "weight": 324
+    },
+    {
+      "source": "SQ",
+      "target": "PG",
+      "weight": 671
+    },
+    {
+      "source": "SQ",
+      "target": "PYPL",
+      "weight": 4244
+    },
+    {
+      "source": "SQ",
+      "target": "QCOM",
+      "weight": 2334
+    },
+    {
+      "source": "SQ",
+      "target": "SBUX",
+      "weight": 749
+    },
+    {
+      "source": "SQ",
+      "target": "VZ",
+      "weight": 1002
+    },
+    {
+      "source": "SQ",
+      "target": "UNH",
+      "weight": 832
+    },
+    {
+      "source": "SQ",
+      "target": "TLRY",
+      "weight": 609
+    },
+    {
+      "source": "UNH",
+      "target": "BRK",
+      "weight": 963
+    },
+    {
+      "source": "UNH",
+      "target": "CSCO",
+      "weight": 1278
+    },
+    {
+      "source": "UNH",
+      "target": "MA",
+      "weight": 1024
+    },
+    {
+      "source": "UNH",
+      "target": "PEP",
+      "weight": 1121
+    },
+    {
+      "source": "UNH",
+      "target": "PG",
+      "weight": 1379
+    },
+    {
+      "source": "UNH",
+      "target": "PYPL",
+      "weight": 591
+    },
+    {
+      "source": "UNH",
+      "target": "QCOM",
+      "weight": 721
+    },
+    {
+      "source": "UNH",
+      "target": "SBUX",
+      "weight": 256
+    },
+    {
+      "source": "UNH",
+      "target": "TLRY",
+      "weight": 100
+    },
+    {
+      "source": "UNH",
+      "target": "VZ",
+      "weight": 1512
+    },
+    {
+      "source": "VZ",
+      "target": "BRK",
+      "weight": 525
+    },
+    {
+      "source": "VZ",
+      "target": "CSCO",
+      "weight": 2039
+    },
+    {
+      "source": "VZ",
+      "target": "MA",
+      "weight": 1724
+    },
+    {
+      "source": "VZ",
+      "target": "PEP",
+      "weight": 424
+    },
+    {
+      "source": "VZ",
+      "target": "PG",
+      "weight": 2747
+    },
+    {
+      "source": "VZ",
+      "target": "PYPL",
+      "weight": 1582
+    },
+    {
+      "source": "VZ",
+      "target": "QCOM",
+      "weight": 1460
+    },
+    {
+      "source": "VZ",
+      "target": "SBUX",
+      "weight": 344
+    },
+    {
+      "source": "VZ",
+      "target": "TLRY",
+      "weight": 211
+    },
+    {
+      "source": "QCOM",
+      "target": "BRK",
+      "weight": 232
+    },
+    {
+      "source": "QCOM",
+      "target": "CSCO",
+      "weight": 1831
+    },
+    {
+      "source": "QCOM",
+      "target": "MA",
+      "weight": 2038
+    },
+    {
+      "source": "QCOM",
+      "target": "PEP",
+      "weight": 245
+    },
+    {
+      "source": "QCOM",
+      "target": "PG",
+      "weight": 1061
+    },
+    {
+      "source": "QCOM",
+      "target": "PYPL",
+      "weight": 1209
+    },
+    {
+      "source": "QCOM",
+      "target": "SBUX",
+      "weight": 922
+    },
+    {
+      "source": "QCOM",
+      "target": "TLRY",
+      "weight": 233
+    },
+    {
+      "source": "CSCO",
+      "target": "BRK",
+      "weight": 391
+    },
+    {
+      "source": "CSCO",
+      "target": "TLRY",
+      "weight": 1266
+    },
+    {
+      "source": "CSCO",
+      "target": "PYPL",
+      "weight": 835
+    },
+    {
+      "source": "CSCO",
+      "target": "SBUX",
+      "weight": 632
+    },
+    {
+      "source": "CSCO",
+      "target": "MA",
+      "weight": 747
+    },
+    {
+      "source": "CSCO",
+      "target": "PG",
+      "weight": 1064
+    },
+    {
+      "source": "CSCO",
+      "target": "PEP",
+      "weight": 656
+    },
+    {
+      "source": "MA",
+      "target": "BRK",
+      "weight": 917
+    },
+    {
+      "source": "MA",
+      "target": "SBUX",
+      "weight": 1109
+    },
+    {
+      "source": "MA",
+      "target": "PYPL",
+      "weight": 3241
+    },
+    {
+      "source": "MA",
+      "target": "PG",
+      "weight": 1417
+    },
+    {
+      "source": "MA",
+      "target": "PEP",
+      "weight": 278
+    },
+    {
+      "source": "MA",
+      "target": "TLRY",
+      "weight": 112
+    },
+    {
+      "source": "PEP",
+      "target": "BRK",
+      "weight": 4521
+    },
+    {
+      "source": "PEP",
+      "target": "PG",
+      "weight": 1272
+    },
+    {
+      "source": "PEP",
+      "target": "PYPL",
+      "weight": 385
+    },
+    {
+      "source": "PEP",
+      "target": "TLRY",
+      "weight": 442
+    },
+    {
+      "source": "PEP",
+      "target": "SBUX",
+      "weight": 1068
+    },
+    {
+      "source": "BRK",
+      "target": "PG",
+      "weight": 1124
+    },
+    {
+      "source": "BRK",
+      "target": "TLRY",
+      "weight": 15
+    },
+    {
+      "source": "BRK",
+      "target": "SBUX",
+      "weight": 909
+    },
+    {
+      "source": "BRK",
+      "target": "PYPL",
+      "weight": 220
+    },
+    {
+      "source": "PYPL",
+      "target": "PG",
+      "weight": 1258
+    },
+    {
+      "source": "PYPL",
+      "target": "SBUX",
+      "weight": 1470
+    },
+    {
+      "source": "PYPL",
+      "target": "TLRY",
+      "weight": 557
+    },
+    {
+      "source": "PG",
+      "target": "TLRY",
+      "weight": 70
+    },
+    {
+      "source": "PG",
+      "target": "SBUX",
+      "weight": 1461
+    },
+    {
+      "source": "TLRY",
+      "target": "SBUX",
+      "weight": 629
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "nodes": [
+    {
+      "id": "ATRO",
+      "label": "ATRO",
+      "industry": "Boxes",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.07539682539682539,
+      "closeness_centrality": 0.5142857142857142,
+      "eigenvector_centrality": 0.006351019433113402,
+      "harmonic_centrality": 1.7444444444444445,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 5
+    },
+    {
+      "id": "BLL",
+      "label": "BLL",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.10714285714285714,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.6391856453797616,
+      "harmonic_centrality": 1.15,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 176
+    },
+    {
+      "id": "CCK",
+      "label": "CCK",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.671316803028942,
+      "harmonic_centrality": 0.47889928698752227,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 214
+    },
+    {
+      "id": "DYSL",
+      "label": "DYSL",
+      "industry": "Boxes",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 4.3488272106129294e-195,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "GEF",
+      "label": "GEF",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.10714285714285714,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.13757992687185383,
+      "harmonic_centrality": 1.103968253968254,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 69
+    },
+    {
+      "id": "OI",
+      "label": "OI",
+      "industry": "Boxes",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.1507936507936508,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.20367989887232868,
+      "harmonic_centrality": 1.8041666666666665,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 64
+    },
+    {
+      "id": "PKG",
+      "label": "PKG",
+      "industry": "Boxes",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.17857142857142855,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.14096514363080276,
+      "harmonic_centrality": 1.6825757575757576,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 47
+    },
+    {
+      "id": "SON",
+      "label": "SON",
+      "industry": "Boxes",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.14285714285714285,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.24586625645268814,
+      "harmonic_centrality": 1.7683473389355744,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 91
+    }
+  ],
+  "edges": [
+    {
+      "source": "ATRO",
+      "target": "OI",
+      "weight": 4
+    },
+    {
+      "source": "ATRO",
+      "target": "PKG",
+      "weight": 1
+    },
+    {
+      "source": "BLL",
+      "target": "CCK",
+      "weight": 131
+    },
+    {
+      "source": "BLL",
+      "target": "SON",
+      "weight": 5
+    },
+    {
+      "source": "BLL",
+      "target": "GEF",
+      "weight": 2
+    },
+    {
+      "source": "BLL",
+      "target": "PKG",
+      "weight": 16
+    },
+    {
+      "source": "BLL",
+      "target": "OI",
+      "weight": 22
+    },
+    {
+      "source": "CCK",
+      "target": "OI",
+      "weight": 21
+    },
+    {
+      "source": "CCK",
+      "target": "GEF",
+      "weight": 10
+    },
+    {
+      "source": "CCK",
+      "target": "SON",
+      "weight": 41
+    },
+    {
+      "source": "CCK",
+      "target": "PKG",
+      "weight": 11
+    },
+    {
+      "source": "GEF",
+      "target": "OI",
+      "weight": 11
+    },
+    {
+      "source": "GEF",
+      "target": "PKG",
+      "weight": 8
+    },
+    {
+      "source": "GEF",
+      "target": "SON",
+      "weight": 38
+    },
+    {
+      "source": "OI",
+      "target": "SON",
+      "weight": 1
+    },
+    {
+      "source": "OI",
+      "target": "PKG",
+      "weight": 5
+    },
+    {
+      "source": "PKG",
+      "target": "SON",
+      "weight": 6
+    }
+  ]
+}

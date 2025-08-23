@@ -1,0 +1,3886 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "label": "A",
+      "industry": "LabEq",
+      "degree_centrality": 0.8163265306122448,
+      "betweenness_centrality": 0.002849741433925107,
+      "closeness_centrality": 0.8304552590266876,
+      "eigenvector_centrality": 0.2363986854941971,
+      "harmonic_centrality": 22.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 3484
+    },
+    {
+      "id": "AATC",
+      "label": "AATC",
+      "industry": "LabEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.156551464135226e-163,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "AEHR",
+      "label": "AEHR",
+      "industry": "LabEq",
+      "degree_centrality": 0.7551020408163265,
+      "betweenness_centrality": 0.009187346146477622,
+      "closeness_centrality": 0.7851576994434137,
+      "eigenvector_centrality": 0.031049704126431533,
+      "harmonic_centrality": 24.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 37,
+      "weighted_degree": 424
+    },
+    {
+      "id": "AME",
+      "label": "AME",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.005551568438380772,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.033296280524113174,
+      "harmonic_centrality": 23.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 558
+    },
+    {
+      "id": "AMOT",
+      "label": "AMOT",
+      "industry": "LabEq",
+      "degree_centrality": 0.32653061224489793,
+      "betweenness_centrality": 0.047370794245892967,
+      "closeness_centrality": 0.5682062298603652,
+      "eigenvector_centrality": 0.0005464511234522202,
+      "harmonic_centrality": 28.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 27
+    },
+    {
+      "id": "BIO",
+      "label": "BIO",
+      "industry": "LabEq",
+      "degree_centrality": 0.6326530612244897,
+      "betweenness_centrality": 0.008391727839755909,
+      "closeness_centrality": 0.7079290732686517,
+      "eigenvector_centrality": 0.042917562370828895,
+      "harmonic_centrality": 26.0,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 655
+    },
+    {
+      "id": "BMI",
+      "label": "BMI",
+      "industry": "LabEq",
+      "degree_centrality": 0.5510204081632653,
+      "betweenness_centrality": 0.02550736286855734,
+      "closeness_centrality": 0.6643642072213501,
+      "eigenvector_centrality": 0.02049893496553216,
+      "harmonic_centrality": 26.0,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 277
+    },
+    {
+      "id": "BRKR",
+      "label": "BRKR",
+      "industry": "LabEq",
+      "degree_centrality": 0.5918367346938775,
+      "betweenness_centrality": 0.01846701766232078,
+      "closeness_centrality": 0.6854551344347263,
+      "eigenvector_centrality": 0.008095873703288278,
+      "harmonic_centrality": 25.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 239
+    },
+    {
+      "id": "CGNX",
+      "label": "CGNX",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.0032022633341049723,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.009100552092712596,
+      "harmonic_centrality": 24.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 220
+    },
+    {
+      "id": "CLFD",
+      "label": "CLFD",
+      "industry": "LabEq",
+      "degree_centrality": 0.6122448979591836,
+      "betweenness_centrality": 0.01533139060705293,
+      "closeness_centrality": 0.69651086240948,
+      "eigenvector_centrality": 0.016688757445825375,
+      "harmonic_centrality": 25.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 186
+    },
+    {
+      "id": "COHR",
+      "label": "COHR",
+      "industry": "LabEq",
+      "degree_centrality": 0.44897959183673464,
+      "betweenness_centrality": 0.017511392883199216,
+      "closeness_centrality": 0.6169096209912537,
+      "eigenvector_centrality": 0.05351590595972729,
+      "harmonic_centrality": 24.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 1081
+    },
+    {
+      "id": "COHU",
+      "label": "COHU",
+      "industry": "LabEq",
+      "degree_centrality": 0.5918367346938775,
+      "betweenness_centrality": 0.004252288120440644,
+      "closeness_centrality": 0.6854551344347263,
+      "eigenvector_centrality": 0.0161155018950405,
+      "harmonic_centrality": 22.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 599
+    },
+    {
+      "id": "CYBE",
+      "label": "CYBE",
+      "industry": "LabEq",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.020346842059467324,
+      "closeness_centrality": 0.6082207530899685,
+      "eigenvector_centrality": 0.0024409249282230203,
+      "harmonic_centrality": 25.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 56
+    },
+    {
+      "id": "DHR",
+      "label": "DHR",
+      "industry": "LabEq",
+      "degree_centrality": 0.6938775510204082,
+      "betweenness_centrality": 0.008760719415474738,
+      "closeness_centrality": 0.7445460942997889,
+      "eigenvector_centrality": 0.11634712363762476,
+      "harmonic_centrality": 25.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 2282
+    },
+    {
+      "id": "ELSE",
+      "label": "ELSE",
+      "industry": "LabEq",
+      "degree_centrality": 0.4693877551020408,
+      "betweenness_centrality": 0.040337381696654254,
+      "closeness_centrality": 0.6258503401360545,
+      "eigenvector_centrality": 0.00361765810698099,
+      "harmonic_centrality": 29.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 80
+    },
+    {
+      "id": "FARO",
+      "label": "FARO",
+      "industry": "LabEq",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.05433850277211821,
+      "closeness_centrality": 0.6747448979591837,
+      "eigenvector_centrality": 0.0032559065044599884,
+      "harmonic_centrality": 30.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 79
+    },
+    {
+      "id": "FEIM",
+      "label": "FEIM",
+      "industry": "LabEq",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.005233027554456125,
+      "closeness_centrality": 0.546628778093516,
+      "eigenvector_centrality": 0.00046714932408772826,
+      "harmonic_centrality": 22.5,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 59
+    },
+    {
+      "id": "FORM",
+      "label": "FORM",
+      "industry": "LabEq",
+      "degree_centrality": 0.5306122448979591,
+      "betweenness_centrality": 0.0074451356943429844,
+      "closeness_centrality": 0.6542980828695115,
+      "eigenvector_centrality": 0.020068840021843504,
+      "harmonic_centrality": 23.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 362
+    },
+    {
+      "id": "FTV",
+      "label": "FTV",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.01284009470843987,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.009168234247198419,
+      "harmonic_centrality": 26.5,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 340
+    },
+    {
+      "id": "GEOS",
+      "label": "GEOS",
+      "industry": "LabEq",
+      "degree_centrality": 0.26530612244897955,
+      "betweenness_centrality": 0.02487797887642608,
+      "closeness_centrality": 0.546628778093516,
+      "eigenvector_centrality": 0.0005300882406848451,
+      "harmonic_centrality": 26.66666666666667,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 18
+    },
+    {
+      "id": "GKOS",
+      "label": "GKOS",
+      "industry": "LabEq",
+      "degree_centrality": 0.4897959183673469,
+      "betweenness_centrality": 0.031442183402097805,
+      "closeness_centrality": 0.6350540216086435,
+      "eigenvector_centrality": 0.002292926578536065,
+      "harmonic_centrality": 28.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 75
+    },
+    {
+      "id": "HBIO",
+      "label": "HBIO",
+      "industry": "LabEq",
+      "degree_centrality": 0.5306122448979591,
+      "betweenness_centrality": 0.01918726580757154,
+      "closeness_centrality": 0.6542980828695115,
+      "eigenvector_centrality": 0.004440898256799013,
+      "harmonic_centrality": 27.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 89
+    },
+    {
+      "id": "IIVI",
+      "label": "IIVI",
+      "industry": "LabEq",
+      "degree_centrality": 0.6938775510204082,
+      "betweenness_centrality": 0.015583680451370948,
+      "closeness_centrality": 0.7445460942997889,
+      "eigenvector_centrality": 0.022176617250068704,
+      "harmonic_centrality": 25.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 791
+    },
+    {
+      "id": "ILMN",
+      "label": "ILMN",
+      "industry": "LabEq",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.008927428016938821,
+      "closeness_centrality": 0.7576083064804869,
+      "eigenvector_centrality": 0.17281662276569568,
+      "harmonic_centrality": 24.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 1505
+    },
+    {
+      "id": "INO",
+      "label": "INO",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.03194157694818372,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.4527651468290272,
+      "harmonic_centrality": 28.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 2799
+    },
+    {
+      "id": "INTT",
+      "label": "INTT",
+      "industry": "LabEq",
+      "degree_centrality": 0.5510204081632653,
+      "betweenness_centrality": 0.0022643881062248405,
+      "closeness_centrality": 0.6643642072213501,
+      "eigenvector_centrality": 0.005466795370358317,
+      "harmonic_centrality": 22.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 166
+    },
+    {
+      "id": "ISNS",
+      "label": "ISNS",
+      "industry": "LabEq",
+      "degree_centrality": 0.44897959183673464,
+      "betweenness_centrality": 0.012088744396830674,
+      "closeness_centrality": 0.6169096209912537,
+      "eigenvector_centrality": 0.06305245191378314,
+      "harmonic_centrality": 26.0,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 539
+    },
+    {
+      "id": "KEYS",
+      "label": "KEYS",
+      "industry": "LabEq",
+      "degree_centrality": 0.6122448979591836,
+      "betweenness_centrality": 0.004966635112311804,
+      "closeness_centrality": 0.69651086240948,
+      "eigenvector_centrality": 0.12111834930850009,
+      "harmonic_centrality": 23.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 1475
+    },
+    {
+      "id": "KLAC",
+      "label": "KLAC",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.0021299845279437114,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.0350802582475388,
+      "harmonic_centrality": 20.666666666666668,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 1046
+    },
+    {
+      "id": "MIR",
+      "label": "MIR",
+      "industry": "LabEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.156551464135226e-163,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "MKSI",
+      "label": "MKSI",
+      "industry": "LabEq",
+      "degree_centrality": 0.7346938775510203,
+      "betweenness_centrality": 0.04454730640225005,
+      "closeness_centrality": 0.7711370262390671,
+      "eigenvector_centrality": 0.010786102279630363,
+      "harmonic_centrality": 29.5,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 628
+    },
+    {
+      "id": "MKTY",
+      "label": "MKTY",
+      "industry": "LabEq",
+      "degree_centrality": 0.2857142857142857,
+      "betweenness_centrality": 0.00920058821257344,
+      "closeness_centrality": 0.5536368393511251,
+      "eigenvector_centrality": 0.006928108066296053,
+      "harmonic_centrality": 23.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 59
+    },
+    {
+      "id": "MTD",
+      "label": "MTD",
+      "industry": "LabEq",
+      "degree_centrality": 0.5918367346938775,
+      "betweenness_centrality": 0.027585701303207474,
+      "closeness_centrality": 0.6854551344347263,
+      "eigenvector_centrality": 0.017352235817744307,
+      "harmonic_centrality": 27.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 450
+    },
+    {
+      "id": "MTSC",
+      "label": "MTSC",
+      "industry": "LabEq",
+      "degree_centrality": 0.14285714285714285,
+      "betweenness_centrality": 0.0005646995640361407,
+      "closeness_centrality": 0.5021357380161366,
+      "eigenvector_centrality": 9.922014931857864e-05,
+      "harmonic_centrality": 21.0,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 16
+    },
+    {
+      "id": "MVIS",
+      "label": "MVIS",
+      "industry": "LabEq",
+      "degree_centrality": 0.7346938775510203,
+      "betweenness_centrality": 0.006828091123828868,
+      "closeness_centrality": 0.7711370262390671,
+      "eigenvector_centrality": 0.6289706282734249,
+      "harmonic_centrality": 24.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 5370
+    },
+    {
+      "id": "NOTV",
+      "label": "NOTV",
+      "industry": "LabEq",
+      "degree_centrality": 0.7346938775510203,
+      "betweenness_centrality": 0.037431149397809636,
+      "closeness_centrality": 0.7711370262390671,
+      "eigenvector_centrality": 0.0033075540420591703,
+      "harmonic_centrality": 29.5,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 119
+    },
+    {
+      "id": "ONTO",
+      "label": "ONTO",
+      "industry": "LabEq",
+      "degree_centrality": 0.6122448979591836,
+      "betweenness_centrality": 0.00689095874876709,
+      "closeness_centrality": 0.69651086240948,
+      "eigenvector_centrality": 0.008535508586835126,
+      "harmonic_centrality": 24.5,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 249
+    },
+    {
+      "id": "OSIS",
+      "label": "OSIS",
+      "industry": "LabEq",
+      "degree_centrality": 0.5306122448979591,
+      "betweenness_centrality": 0.08465189459741028,
+      "closeness_centrality": 0.6542980828695115,
+      "eigenvector_centrality": 0.0016305629692108452,
+      "harmonic_centrality": 33.0,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 40
+    },
+    {
+      "id": "POWL",
+      "label": "POWL",
+      "industry": "LabEq",
+      "degree_centrality": 0.3469387755102041,
+      "betweenness_centrality": 0.03078072857893253,
+      "closeness_centrality": 0.57578231292517,
+      "eigenvector_centrality": 0.000891369152814932,
+      "harmonic_centrality": 27.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 40
+    },
+    {
+      "id": "PRPO",
+      "label": "PRPO",
+      "industry": "LabEq",
+      "degree_centrality": 0.36734693877551017,
+      "betweenness_centrality": 0.001500153632881724,
+      "closeness_centrality": 0.5835631549917264,
+      "eigenvector_centrality": 0.13091428482216488,
+      "harmonic_centrality": 20.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 894
+    },
+    {
+      "id": "ROP",
+      "label": "ROP",
+      "industry": "LabEq",
+      "degree_centrality": 0.5918367346938775,
+      "betweenness_centrality": 0.009941093758429331,
+      "closeness_centrality": 0.6854551344347263,
+      "eigenvector_centrality": 0.027125497321050806,
+      "harmonic_centrality": 26.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 552
+    },
+    {
+      "id": "SENS",
+      "label": "SENS",
+      "industry": "LabEq",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.017201568357931938,
+      "closeness_centrality": 0.7576083064804869,
+      "eigenvector_centrality": 0.27557857717617357,
+      "harmonic_centrality": 25.833333333333332,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 1440
+    },
+    {
+      "id": "SLNH",
+      "label": "SLNH",
+      "industry": "LabEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.156551464135226e-163,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SYPR",
+      "label": "SYPR",
+      "industry": "LabEq",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.030684385783366158,
+      "closeness_centrality": 0.6747448979591837,
+      "eigenvector_centrality": 0.17508328890603728,
+      "harmonic_centrality": 29.0,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 821
+    },
+    {
+      "id": "TER",
+      "label": "TER",
+      "industry": "LabEq",
+      "degree_centrality": 0.7346938775510203,
+      "betweenness_centrality": 0.002189198569987728,
+      "closeness_centrality": 0.7711370262390671,
+      "eigenvector_centrality": 0.050629817212159034,
+      "harmonic_centrality": 23.333333333333325,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 1135
+    },
+    {
+      "id": "TMO",
+      "label": "TMO",
+      "industry": "LabEq",
+      "degree_centrality": 0.6530612244897959,
+      "betweenness_centrality": 0.0011739724749928833,
+      "closeness_centrality": 0.7197278911564626,
+      "eigenvector_centrality": 0.14751701878801007,
+      "harmonic_centrality": 22.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 2600
+    },
+    {
+      "id": "VNT",
+      "label": "VNT",
+      "industry": "LabEq",
+      "degree_centrality": 0.5102040816326531,
+      "betweenness_centrality": 0.03785045371044187,
+      "closeness_centrality": 0.6445324398416084,
+      "eigenvector_centrality": 0.00501318713861389,
+      "harmonic_centrality": 29.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 121
+    },
+    {
+      "id": "VUZI",
+      "label": "VUZI",
+      "industry": "LabEq",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.03490187407025738,
+      "closeness_centrality": 0.7576083064804869,
+      "eigenvector_centrality": 0.3475977686087438,
+      "harmonic_centrality": 29.0,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 1722
+    },
+    {
+      "id": "WAT",
+      "label": "WAT",
+      "industry": "LabEq",
+      "degree_centrality": 0.5510204081632653,
+      "betweenness_centrality": 0.008541363927136655,
+      "closeness_centrality": 0.6643642072213501,
+      "eigenvector_centrality": 0.03274301532540266,
+      "harmonic_centrality": 25.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 657
+    },
+    {
+      "id": "WTT",
+      "label": "WTT",
+      "industry": "LabEq",
+      "degree_centrality": 0.36734693877551017,
+      "betweenness_centrality": 0.016506424351219875,
+      "closeness_centrality": 0.5835631549917264,
+      "eigenvector_centrality": 0.00412827054918468,
+      "harmonic_centrality": 25.166666666666664,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 92
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "IIVI",
+      "weight": 14
+    },
+    {
+      "source": "A",
+      "target": "ONTO",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "HBIO",
+      "weight": 16
+    },
+    {
+      "source": "A",
+      "target": "AEHR",
+      "weight": 37
+    },
+    {
+      "source": "A",
+      "target": "ILMN",
+      "weight": 119
+    },
+    {
+      "source": "A",
+      "target": "DHR",
+      "weight": 168
+    },
+    {
+      "source": "A",
+      "target": "WTT",
+      "weight": 12
+    },
+    {
+      "source": "A",
+      "target": "COHU",
+      "weight": 12
+    },
+    {
+      "source": "A",
+      "target": "FTV",
+      "weight": 15
+    },
+    {
+      "source": "A",
+      "target": "BRKR",
+      "weight": 32
+    },
+    {
+      "source": "A",
+      "target": "MTD",
+      "weight": 63
+    },
+    {
+      "source": "A",
+      "target": "KLAC",
+      "weight": 44
+    },
+    {
+      "source": "A",
+      "target": "SENS",
+      "weight": 65
+    },
+    {
+      "source": "A",
+      "target": "TER",
+      "weight": 66
+    },
+    {
+      "source": "A",
+      "target": "MVIS",
+      "weight": 253
+    },
+    {
+      "source": "A",
+      "target": "PRPO",
+      "weight": 26
+    },
+    {
+      "source": "A",
+      "target": "SYPR",
+      "weight": 9
+    },
+    {
+      "source": "A",
+      "target": "BIO",
+      "weight": 66
+    },
+    {
+      "source": "A",
+      "target": "AME",
+      "weight": 195
+    },
+    {
+      "source": "A",
+      "target": "INO",
+      "weight": 310
+    },
+    {
+      "source": "A",
+      "target": "FORM",
+      "weight": 14
+    },
+    {
+      "source": "A",
+      "target": "WAT",
+      "weight": 145
+    },
+    {
+      "source": "A",
+      "target": "ROP",
+      "weight": 99
+    },
+    {
+      "source": "A",
+      "target": "COHR",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "A",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "MKSI",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "VNT",
+      "weight": 29
+    },
+    {
+      "source": "A",
+      "target": "BMI",
+      "weight": 194
+    },
+    {
+      "source": "A",
+      "target": "ISNS",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "TMO",
+      "weight": 242
+    },
+    {
+      "source": "A",
+      "target": "CLFD",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "KEYS",
+      "weight": 1176
+    },
+    {
+      "source": "A",
+      "target": "CGNX",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "CYBE",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "ELSE",
+      "weight": 3
+    },
+    {
+      "source": "A",
+      "target": "FARO",
+      "weight": 13
+    },
+    {
+      "source": "A",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "INTT",
+      "weight": 4
+    },
+    {
+      "source": "A",
+      "target": "NOTV",
+      "weight": 7
+    },
+    {
+      "source": "AEHR",
+      "target": "INO",
+      "weight": 69
+    },
+    {
+      "source": "AEHR",
+      "target": "BRKR",
+      "weight": 3
+    },
+    {
+      "source": "AEHR",
+      "target": "TER",
+      "weight": 16
+    },
+    {
+      "source": "AEHR",
+      "target": "GKOS",
+      "weight": 5
+    },
+    {
+      "source": "AEHR",
+      "target": "FORM",
+      "weight": 13
+    },
+    {
+      "source": "AEHR",
+      "target": "GEOS",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "IIVI",
+      "weight": 10
+    },
+    {
+      "source": "AEHR",
+      "target": "CLFD",
+      "weight": 26
+    },
+    {
+      "source": "AEHR",
+      "target": "DHR",
+      "weight": 4
+    },
+    {
+      "source": "AEHR",
+      "target": "BMI",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "WTT",
+      "weight": 21
+    },
+    {
+      "source": "AEHR",
+      "target": "PRPO",
+      "weight": 7
+    },
+    {
+      "source": "AEHR",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "KEYS",
+      "weight": 3
+    },
+    {
+      "source": "AEHR",
+      "target": "COHU",
+      "weight": 9
+    },
+    {
+      "source": "AEHR",
+      "target": "ELSE",
+      "weight": 6
+    },
+    {
+      "source": "AEHR",
+      "target": "INTT",
+      "weight": 45
+    },
+    {
+      "source": "AEHR",
+      "target": "CYBE",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "NOTV",
+      "weight": 7
+    },
+    {
+      "source": "AEHR",
+      "target": "SENS",
+      "weight": 37
+    },
+    {
+      "source": "AEHR",
+      "target": "MKSI",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "TMO",
+      "weight": 6
+    },
+    {
+      "source": "AEHR",
+      "target": "AMOT",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "KLAC",
+      "weight": 8
+    },
+    {
+      "source": "AEHR",
+      "target": "ONTO",
+      "weight": 11
+    },
+    {
+      "source": "AEHR",
+      "target": "ILMN",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "SYPR",
+      "weight": 17
+    },
+    {
+      "source": "AEHR",
+      "target": "FARO",
+      "weight": 3
+    },
+    {
+      "source": "AEHR",
+      "target": "FTV",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "FEIM",
+      "weight": 3
+    },
+    {
+      "source": "AEHR",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "MKTY",
+      "weight": 12
+    },
+    {
+      "source": "AEHR",
+      "target": "VUZI",
+      "weight": 8
+    },
+    {
+      "source": "AEHR",
+      "target": "AME",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "ISNS",
+      "weight": 4
+    },
+    {
+      "source": "AEHR",
+      "target": "MVIS",
+      "weight": 21
+    },
+    {
+      "source": "AME",
+      "target": "FARO",
+      "weight": 9
+    },
+    {
+      "source": "AME",
+      "target": "CLFD",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "PRPO",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "FEIM",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "CYBE",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "KLAC",
+      "weight": 8
+    },
+    {
+      "source": "AME",
+      "target": "FTV",
+      "weight": 19
+    },
+    {
+      "source": "AME",
+      "target": "FORM",
+      "weight": 12
+    },
+    {
+      "source": "AME",
+      "target": "ONTO",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "ROP",
+      "weight": 83
+    },
+    {
+      "source": "AME",
+      "target": "MVIS",
+      "weight": 10
+    },
+    {
+      "source": "AME",
+      "target": "TER",
+      "weight": 13
+    },
+    {
+      "source": "AME",
+      "target": "MTD",
+      "weight": 22
+    },
+    {
+      "source": "AME",
+      "target": "TMO",
+      "weight": 3
+    },
+    {
+      "source": "AME",
+      "target": "COHU",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "BRKR",
+      "weight": 5
+    },
+    {
+      "source": "AME",
+      "target": "VNT",
+      "weight": 2
+    },
+    {
+      "source": "AME",
+      "target": "BIO",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "DHR",
+      "weight": 100
+    },
+    {
+      "source": "AME",
+      "target": "ELSE",
+      "weight": 1
+    },
+    {
+      "source": "AME",
+      "target": "KEYS",
+      "weight": 15
+    },
+    {
+      "source": "AME",
+      "target": "CGNX",
+      "weight": 3
+    },
+    {
+      "source": "AME",
+      "target": "WAT",
+      "weight": 6
+    },
+    {
+      "source": "AME",
+      "target": "SENS",
+      "weight": 3
+    },
+    {
+      "source": "AME",
+      "target": "MKSI",
+      "weight": 4
+    },
+    {
+      "source": "AME",
+      "target": "BMI",
+      "weight": 8
+    },
+    {
+      "source": "AME",
+      "target": "ILMN",
+      "weight": 6
+    },
+    {
+      "source": "AME",
+      "target": "INO",
+      "weight": 16
+    },
+    {
+      "source": "AMOT",
+      "target": "CLFD",
+      "weight": 3
+    },
+    {
+      "source": "AMOT",
+      "target": "GEOS",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "FEIM",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "POWL",
+      "weight": 4
+    },
+    {
+      "source": "AMOT",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "AMOT",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "BIO",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "CYBE",
+      "weight": 6
+    },
+    {
+      "source": "AMOT",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "ELSE",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "ILMN",
+      "weight": 48
+    },
+    {
+      "source": "BIO",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "TMO",
+      "weight": 113
+    },
+    {
+      "source": "BIO",
+      "target": "IIVI",
+      "weight": 2
+    },
+    {
+      "source": "BIO",
+      "target": "FTV",
+      "weight": 20
+    },
+    {
+      "source": "BIO",
+      "target": "KLAC",
+      "weight": 17
+    },
+    {
+      "source": "BIO",
+      "target": "KEYS",
+      "weight": 15
+    },
+    {
+      "source": "BIO",
+      "target": "PRPO",
+      "weight": 8
+    },
+    {
+      "source": "BIO",
+      "target": "INO",
+      "weight": 80
+    },
+    {
+      "source": "BIO",
+      "target": "ROP",
+      "weight": 3
+    },
+    {
+      "source": "BIO",
+      "target": "WAT",
+      "weight": 41
+    },
+    {
+      "source": "BIO",
+      "target": "BRKR",
+      "weight": 22
+    },
+    {
+      "source": "BIO",
+      "target": "TER",
+      "weight": 10
+    },
+    {
+      "source": "BIO",
+      "target": "ONTO",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "DHR",
+      "weight": 93
+    },
+    {
+      "source": "BIO",
+      "target": "HBIO",
+      "weight": 3
+    },
+    {
+      "source": "BIO",
+      "target": "MTD",
+      "weight": 43
+    },
+    {
+      "source": "BIO",
+      "target": "BMI",
+      "weight": 2
+    },
+    {
+      "source": "BIO",
+      "target": "CGNX",
+      "weight": 22
+    },
+    {
+      "source": "BIO",
+      "target": "COHU",
+      "weight": 8
+    },
+    {
+      "source": "BIO",
+      "target": "MKSI",
+      "weight": 6
+    },
+    {
+      "source": "BIO",
+      "target": "SENS",
+      "weight": 11
+    },
+    {
+      "source": "BIO",
+      "target": "CLFD",
+      "weight": 2
+    },
+    {
+      "source": "BIO",
+      "target": "VNT",
+      "weight": 4
+    },
+    {
+      "source": "BIO",
+      "target": "MVIS",
+      "weight": 9
+    },
+    {
+      "source": "BIO",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "GKOS",
+      "weight": 7
+    },
+    {
+      "source": "BMI",
+      "target": "ROP",
+      "weight": 13
+    },
+    {
+      "source": "BMI",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "CYBE",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "DHR",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "KEYS",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "MTSC",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "FORM",
+      "weight": 5
+    },
+    {
+      "source": "BMI",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "BRKR",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "MTD",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "ONTO",
+      "weight": 6
+    },
+    {
+      "source": "BMI",
+      "target": "FTV",
+      "weight": 4
+    },
+    {
+      "source": "BMI",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "COHU",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "IIVI",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "CGNX",
+      "weight": 3
+    },
+    {
+      "source": "BMI",
+      "target": "KLAC",
+      "weight": 9
+    },
+    {
+      "source": "BMI",
+      "target": "CLFD",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "FARO",
+      "weight": 2
+    },
+    {
+      "source": "BRKR",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "ILMN",
+      "weight": 12
+    },
+    {
+      "source": "BRKR",
+      "target": "COHU",
+      "weight": 5
+    },
+    {
+      "source": "BRKR",
+      "target": "CLFD",
+      "weight": 11
+    },
+    {
+      "source": "BRKR",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "MKSI",
+      "weight": 4
+    },
+    {
+      "source": "BRKR",
+      "target": "ROP",
+      "weight": 4
+    },
+    {
+      "source": "BRKR",
+      "target": "WAT",
+      "weight": 40
+    },
+    {
+      "source": "BRKR",
+      "target": "HBIO",
+      "weight": 6
+    },
+    {
+      "source": "BRKR",
+      "target": "TER",
+      "weight": 3
+    },
+    {
+      "source": "BRKR",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "DHR",
+      "weight": 12
+    },
+    {
+      "source": "BRKR",
+      "target": "COHR",
+      "weight": 8
+    },
+    {
+      "source": "BRKR",
+      "target": "MTD",
+      "weight": 21
+    },
+    {
+      "source": "BRKR",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "KLAC",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "TMO",
+      "weight": 20
+    },
+    {
+      "source": "BRKR",
+      "target": "KEYS",
+      "weight": 8
+    },
+    {
+      "source": "BRKR",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "IIVI",
+      "weight": 6
+    },
+    {
+      "source": "BRKR",
+      "target": "CGNX",
+      "weight": 4
+    },
+    {
+      "source": "BRKR",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "MTSC",
+      "weight": 3
+    },
+    {
+      "source": "BRKR",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "ROP",
+      "weight": 6
+    },
+    {
+      "source": "CGNX",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "FTV",
+      "weight": 3
+    },
+    {
+      "source": "CGNX",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "SENS",
+      "weight": 3
+    },
+    {
+      "source": "CGNX",
+      "target": "ILMN",
+      "weight": 44
+    },
+    {
+      "source": "CGNX",
+      "target": "MVIS",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "KEYS",
+      "weight": 7
+    },
+    {
+      "source": "CGNX",
+      "target": "TMO",
+      "weight": 4
+    },
+    {
+      "source": "CGNX",
+      "target": "GKOS",
+      "weight": 3
+    },
+    {
+      "source": "CGNX",
+      "target": "WAT",
+      "weight": 5
+    },
+    {
+      "source": "CGNX",
+      "target": "ELSE",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "MKSI",
+      "weight": 6
+    },
+    {
+      "source": "CGNX",
+      "target": "CLFD",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "COHR",
+      "weight": 7
+    },
+    {
+      "source": "CGNX",
+      "target": "IIVI",
+      "weight": 26
+    },
+    {
+      "source": "CGNX",
+      "target": "COHU",
+      "weight": 6
+    },
+    {
+      "source": "CGNX",
+      "target": "DHR",
+      "weight": 12
+    },
+    {
+      "source": "CGNX",
+      "target": "ONTO",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "INO",
+      "weight": 8
+    },
+    {
+      "source": "CGNX",
+      "target": "KLAC",
+      "weight": 14
+    },
+    {
+      "source": "CGNX",
+      "target": "TER",
+      "weight": 13
+    },
+    {
+      "source": "CGNX",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "CLFD",
+      "target": "ROP",
+      "weight": 6
+    },
+    {
+      "source": "CLFD",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "CLFD",
+      "target": "DHR",
+      "weight": 6
+    },
+    {
+      "source": "CLFD",
+      "target": "SENS",
+      "weight": 18
+    },
+    {
+      "source": "CLFD",
+      "target": "ONTO",
+      "weight": 4
+    },
+    {
+      "source": "CLFD",
+      "target": "INO",
+      "weight": 6
+    },
+    {
+      "source": "CLFD",
+      "target": "KLAC",
+      "weight": 6
+    },
+    {
+      "source": "CLFD",
+      "target": "MVIS",
+      "weight": 37
+    },
+    {
+      "source": "CLFD",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "CLFD",
+      "target": "CYBE",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "ILMN",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "VUZI",
+      "weight": 5
+    },
+    {
+      "source": "CLFD",
+      "target": "TER",
+      "weight": 7
+    },
+    {
+      "source": "CLFD",
+      "target": "IIVI",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "SYPR",
+      "weight": 11
+    },
+    {
+      "source": "CLFD",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "CLFD",
+      "target": "TMO",
+      "weight": 6
+    },
+    {
+      "source": "CLFD",
+      "target": "WTT",
+      "weight": 3
+    },
+    {
+      "source": "CLFD",
+      "target": "FEIM",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "SENS",
+      "weight": 10
+    },
+    {
+      "source": "COHR",
+      "target": "COHU",
+      "weight": 149
+    },
+    {
+      "source": "COHR",
+      "target": "WAT",
+      "weight": 4
+    },
+    {
+      "source": "COHR",
+      "target": "INO",
+      "weight": 235
+    },
+    {
+      "source": "COHR",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "IIVI",
+      "weight": 465
+    },
+    {
+      "source": "COHR",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "TMO",
+      "weight": 6
+    },
+    {
+      "source": "COHR",
+      "target": "NOTV",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "ONTO",
+      "weight": 3
+    },
+    {
+      "source": "COHR",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "ILMN",
+      "weight": 17
+    },
+    {
+      "source": "COHR",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "MKSI",
+      "weight": 162
+    },
+    {
+      "source": "COHR",
+      "target": "TER",
+      "weight": 3
+    },
+    {
+      "source": "COHR",
+      "target": "CYBE",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "KLAC",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "MVIS",
+      "weight": 19
+    },
+    {
+      "source": "COHU",
+      "target": "ONTO",
+      "weight": 18
+    },
+    {
+      "source": "COHU",
+      "target": "VUZI",
+      "weight": 5
+    },
+    {
+      "source": "COHU",
+      "target": "ILMN",
+      "weight": 11
+    },
+    {
+      "source": "COHU",
+      "target": "KLAC",
+      "weight": 67
+    },
+    {
+      "source": "COHU",
+      "target": "TMO",
+      "weight": 6
+    },
+    {
+      "source": "COHU",
+      "target": "FORM",
+      "weight": 58
+    },
+    {
+      "source": "COHU",
+      "target": "FTV",
+      "weight": 22
+    },
+    {
+      "source": "COHU",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "IIVI",
+      "weight": 25
+    },
+    {
+      "source": "COHU",
+      "target": "MKSI",
+      "weight": 64
+    },
+    {
+      "source": "COHU",
+      "target": "HBIO",
+      "weight": 2
+    },
+    {
+      "source": "COHU",
+      "target": "FARO",
+      "weight": 4
+    },
+    {
+      "source": "COHU",
+      "target": "WAT",
+      "weight": 2
+    },
+    {
+      "source": "COHU",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "TER",
+      "weight": 94
+    },
+    {
+      "source": "COHU",
+      "target": "MKTY",
+      "weight": 2
+    },
+    {
+      "source": "COHU",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "COHU",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "ONTO",
+      "weight": 2
+    },
+    {
+      "source": "CYBE",
+      "target": "TER",
+      "weight": 4
+    },
+    {
+      "source": "CYBE",
+      "target": "FORM",
+      "weight": 7
+    },
+    {
+      "source": "CYBE",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "FARO",
+      "weight": 3
+    },
+    {
+      "source": "CYBE",
+      "target": "KLAC",
+      "weight": 6
+    },
+    {
+      "source": "CYBE",
+      "target": "GEOS",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "NOTV",
+      "weight": 2
+    },
+    {
+      "source": "CYBE",
+      "target": "MVIS",
+      "weight": 5
+    },
+    {
+      "source": "CYBE",
+      "target": "FEIM",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "CYBE",
+      "target": "ILMN",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "DHR",
+      "target": "INO",
+      "weight": 9
+    },
+    {
+      "source": "DHR",
+      "target": "VNT",
+      "weight": 15
+    },
+    {
+      "source": "DHR",
+      "target": "FTV",
+      "weight": 56
+    },
+    {
+      "source": "DHR",
+      "target": "NOTV",
+      "weight": 2
+    },
+    {
+      "source": "DHR",
+      "target": "MTD",
+      "weight": 46
+    },
+    {
+      "source": "DHR",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "DHR",
+      "target": "WAT",
+      "weight": 73
+    },
+    {
+      "source": "DHR",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "SYPR",
+      "weight": 9
+    },
+    {
+      "source": "DHR",
+      "target": "ILMN",
+      "weight": 68
+    },
+    {
+      "source": "DHR",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "DHR",
+      "target": "MVIS",
+      "weight": 8
+    },
+    {
+      "source": "DHR",
+      "target": "WTT",
+      "weight": 3
+    },
+    {
+      "source": "DHR",
+      "target": "KEYS",
+      "weight": 19
+    },
+    {
+      "source": "DHR",
+      "target": "ELSE",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "GKOS",
+      "weight": 5
+    },
+    {
+      "source": "DHR",
+      "target": "KLAC",
+      "weight": 18
+    },
+    {
+      "source": "DHR",
+      "target": "TER",
+      "weight": 12
+    },
+    {
+      "source": "DHR",
+      "target": "ROP",
+      "weight": 191
+    },
+    {
+      "source": "DHR",
+      "target": "MKSI",
+      "weight": 2
+    },
+    {
+      "source": "DHR",
+      "target": "IIVI",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "ONTO",
+      "weight": 1
+    },
+    {
+      "source": "DHR",
+      "target": "TMO",
+      "weight": 1338
+    },
+    {
+      "source": "DHR",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "SYPR",
+      "weight": 9
+    },
+    {
+      "source": "ELSE",
+      "target": "ISNS",
+      "weight": 2
+    },
+    {
+      "source": "ELSE",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "FEIM",
+      "weight": 30
+    },
+    {
+      "source": "ELSE",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "ELSE",
+      "target": "FTV",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "ONTO",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "SENS",
+      "weight": 3
+    },
+    {
+      "source": "ELSE",
+      "target": "WTT",
+      "weight": 5
+    },
+    {
+      "source": "ELSE",
+      "target": "MVIS",
+      "weight": 6
+    },
+    {
+      "source": "ELSE",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "MVIS",
+      "weight": 3
+    },
+    {
+      "source": "FARO",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "FARO",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "FARO",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "POWL",
+      "weight": 2
+    },
+    {
+      "source": "FARO",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "SYPR",
+      "weight": 3
+    },
+    {
+      "source": "FARO",
+      "target": "FORM",
+      "weight": 16
+    },
+    {
+      "source": "FARO",
+      "target": "ILMN",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "FEIM",
+      "weight": 2
+    },
+    {
+      "source": "FARO",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "ONTO",
+      "weight": 1
+    },
+    {
+      "source": "FEIM",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "FEIM",
+      "target": "WTT",
+      "weight": 2
+    },
+    {
+      "source": "FEIM",
+      "target": "FORM",
+      "weight": 3
+    },
+    {
+      "source": "FEIM",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "FEIM",
+      "target": "ISNS",
+      "weight": 5
+    },
+    {
+      "source": "FEIM",
+      "target": "INTT",
+      "weight": 5
+    },
+    {
+      "source": "FEIM",
+      "target": "GEOS",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "ONTO",
+      "weight": 25
+    },
+    {
+      "source": "FORM",
+      "target": "IIVI",
+      "weight": 9
+    },
+    {
+      "source": "FORM",
+      "target": "INTT",
+      "weight": 6
+    },
+    {
+      "source": "FORM",
+      "target": "FTV",
+      "weight": 4
+    },
+    {
+      "source": "FORM",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "TER",
+      "weight": 41
+    },
+    {
+      "source": "FORM",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "FORM",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "FORM",
+      "target": "INO",
+      "weight": 16
+    },
+    {
+      "source": "FORM",
+      "target": "MVIS",
+      "weight": 48
+    },
+    {
+      "source": "FORM",
+      "target": "MKSI",
+      "weight": 23
+    },
+    {
+      "source": "FORM",
+      "target": "KLAC",
+      "weight": 44
+    },
+    {
+      "source": "FORM",
+      "target": "GKOS",
+      "weight": 5
+    },
+    {
+      "source": "FORM",
+      "target": "MKTY",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "MKTY",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "MKSI",
+      "weight": 7
+    },
+    {
+      "source": "FTV",
+      "target": "ROP",
+      "weight": 18
+    },
+    {
+      "source": "FTV",
+      "target": "ILMN",
+      "weight": 2
+    },
+    {
+      "source": "FTV",
+      "target": "MVIS",
+      "weight": 4
+    },
+    {
+      "source": "FTV",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "TMO",
+      "weight": 4
+    },
+    {
+      "source": "FTV",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "ONTO",
+      "weight": 3
+    },
+    {
+      "source": "FTV",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "TER",
+      "weight": 7
+    },
+    {
+      "source": "FTV",
+      "target": "KEYS",
+      "weight": 11
+    },
+    {
+      "source": "FTV",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "POWL",
+      "weight": 2
+    },
+    {
+      "source": "FTV",
+      "target": "KLAC",
+      "weight": 67
+    },
+    {
+      "source": "FTV",
+      "target": "INTT",
+      "weight": 16
+    },
+    {
+      "source": "FTV",
+      "target": "VNT",
+      "weight": 21
+    },
+    {
+      "source": "FTV",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "FTV",
+      "target": "WAT",
+      "weight": 2
+    },
+    {
+      "source": "FTV",
+      "target": "IIVI",
+      "weight": 3
+    },
+    {
+      "source": "FTV",
+      "target": "MTD",
+      "weight": 21
+    },
+    {
+      "source": "GEOS",
+      "target": "ILMN",
+      "weight": 2
+    },
+    {
+      "source": "GEOS",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "GEOS",
+      "target": "GKOS",
+      "weight": 2
+    },
+    {
+      "source": "GEOS",
+      "target": "KLAC",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "GKOS",
+      "target": "ONTO",
+      "weight": 5
+    },
+    {
+      "source": "GKOS",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "MKSI",
+      "weight": 2
+    },
+    {
+      "source": "GKOS",
+      "target": "HBIO",
+      "weight": 2
+    },
+    {
+      "source": "GKOS",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "IIVI",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "MKTY",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "ILMN",
+      "weight": 12
+    },
+    {
+      "source": "GKOS",
+      "target": "TMO",
+      "weight": 12
+    },
+    {
+      "source": "HBIO",
+      "target": "MKSI",
+      "weight": 2
+    },
+    {
+      "source": "HBIO",
+      "target": "VUZI",
+      "weight": 3
+    },
+    {
+      "source": "HBIO",
+      "target": "TMO",
+      "weight": 5
+    },
+    {
+      "source": "HBIO",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "NOTV",
+      "weight": 2
+    },
+    {
+      "source": "HBIO",
+      "target": "WAT",
+      "weight": 4
+    },
+    {
+      "source": "HBIO",
+      "target": "MTD",
+      "weight": 5
+    },
+    {
+      "source": "HBIO",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "IIVI",
+      "weight": 4
+    },
+    {
+      "source": "HBIO",
+      "target": "PRPO",
+      "weight": 7
+    },
+    {
+      "source": "HBIO",
+      "target": "MTSC",
+      "weight": 3
+    },
+    {
+      "source": "HBIO",
+      "target": "SENS",
+      "weight": 4
+    },
+    {
+      "source": "HBIO",
+      "target": "ILMN",
+      "weight": 11
+    },
+    {
+      "source": "HBIO",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "PRPO",
+      "weight": 7
+    },
+    {
+      "source": "IIVI",
+      "target": "WAT",
+      "weight": 3
+    },
+    {
+      "source": "IIVI",
+      "target": "MVIS",
+      "weight": 14
+    },
+    {
+      "source": "IIVI",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "ROP",
+      "weight": 4
+    },
+    {
+      "source": "IIVI",
+      "target": "ILMN",
+      "weight": 8
+    },
+    {
+      "source": "IIVI",
+      "target": "VUZI",
+      "weight": 12
+    },
+    {
+      "source": "IIVI",
+      "target": "OSIS",
+      "weight": 3
+    },
+    {
+      "source": "IIVI",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "ONTO",
+      "weight": 8
+    },
+    {
+      "source": "IIVI",
+      "target": "TER",
+      "weight": 20
+    },
+    {
+      "source": "IIVI",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "KEYS",
+      "weight": 20
+    },
+    {
+      "source": "IIVI",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "VNT",
+      "weight": 2
+    },
+    {
+      "source": "IIVI",
+      "target": "INO",
+      "weight": 7
+    },
+    {
+      "source": "IIVI",
+      "target": "MKSI",
+      "weight": 91
+    },
+    {
+      "source": "IIVI",
+      "target": "KLAC",
+      "weight": 15
+    },
+    {
+      "source": "IIVI",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "IIVI",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "TER",
+      "weight": 110
+    },
+    {
+      "source": "ILMN",
+      "target": "MKSI",
+      "weight": 5
+    },
+    {
+      "source": "ILMN",
+      "target": "INO",
+      "weight": 94
+    },
+    {
+      "source": "ILMN",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "ONTO",
+      "weight": 2
+    },
+    {
+      "source": "ILMN",
+      "target": "KLAC",
+      "weight": 54
+    },
+    {
+      "source": "ILMN",
+      "target": "ROP",
+      "weight": 16
+    },
+    {
+      "source": "ILMN",
+      "target": "MTD",
+      "weight": 33
+    },
+    {
+      "source": "ILMN",
+      "target": "MKTY",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "SENS",
+      "weight": 7
+    },
+    {
+      "source": "ILMN",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "ILMN",
+      "target": "VNT",
+      "weight": 2
+    },
+    {
+      "source": "ILMN",
+      "target": "MVIS",
+      "weight": 432
+    },
+    {
+      "source": "ILMN",
+      "target": "TMO",
+      "weight": 321
+    },
+    {
+      "source": "ILMN",
+      "target": "KEYS",
+      "weight": 17
+    },
+    {
+      "source": "ILMN",
+      "target": "PRPO",
+      "weight": 3
+    },
+    {
+      "source": "ILMN",
+      "target": "VUZI",
+      "weight": 5
+    },
+    {
+      "source": "ILMN",
+      "target": "WAT",
+      "weight": 35
+    },
+    {
+      "source": "INO",
+      "target": "SENS",
+      "weight": 195
+    },
+    {
+      "source": "INO",
+      "target": "MVIS",
+      "weight": 1352
+    },
+    {
+      "source": "INO",
+      "target": "TMO",
+      "weight": 108
+    },
+    {
+      "source": "INO",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "POWL",
+      "weight": 3
+    },
+    {
+      "source": "INO",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "KLAC",
+      "weight": 21
+    },
+    {
+      "source": "INO",
+      "target": "SYPR",
+      "weight": 98
+    },
+    {
+      "source": "INO",
+      "target": "PRPO",
+      "weight": 12
+    },
+    {
+      "source": "INO",
+      "target": "VUZI",
+      "weight": 126
+    },
+    {
+      "source": "INO",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "TER",
+      "weight": 22
+    },
+    {
+      "source": "INTT",
+      "target": "SYPR",
+      "weight": 2
+    },
+    {
+      "source": "INTT",
+      "target": "KLAC",
+      "weight": 3
+    },
+    {
+      "source": "INTT",
+      "target": "TER",
+      "weight": 7
+    },
+    {
+      "source": "INTT",
+      "target": "MKSI",
+      "weight": 8
+    },
+    {
+      "source": "INTT",
+      "target": "WTT",
+      "weight": 10
+    },
+    {
+      "source": "INTT",
+      "target": "OSIS",
+      "weight": 3
+    },
+    {
+      "source": "INTT",
+      "target": "ISNS",
+      "weight": 4
+    },
+    {
+      "source": "INTT",
+      "target": "NOTV",
+      "weight": 7
+    },
+    {
+      "source": "INTT",
+      "target": "MKTY",
+      "weight": 2
+    },
+    {
+      "source": "INTT",
+      "target": "VUZI",
+      "weight": 5
+    },
+    {
+      "source": "INTT",
+      "target": "ONTO",
+      "weight": 5
+    },
+    {
+      "source": "INTT",
+      "target": "MVIS",
+      "weight": 7
+    },
+    {
+      "source": "INTT",
+      "target": "VNT",
+      "weight": 6
+    },
+    {
+      "source": "INTT",
+      "target": "SENS",
+      "weight": 9
+    },
+    {
+      "source": "ISNS",
+      "target": "KEYS",
+      "weight": 3
+    },
+    {
+      "source": "ISNS",
+      "target": "SENS",
+      "weight": 3
+    },
+    {
+      "source": "ISNS",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "ISNS",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "ISNS",
+      "target": "PRPO",
+      "weight": 325
+    },
+    {
+      "source": "ISNS",
+      "target": "SYPR",
+      "weight": 2
+    },
+    {
+      "source": "ISNS",
+      "target": "ONTO",
+      "weight": 3
+    },
+    {
+      "source": "ISNS",
+      "target": "WTT",
+      "weight": 3
+    },
+    {
+      "source": "ISNS",
+      "target": "MVIS",
+      "weight": 168
+    },
+    {
+      "source": "ISNS",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "ISNS",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "KLAC",
+      "weight": 28
+    },
+    {
+      "source": "KEYS",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "MTD",
+      "weight": 15
+    },
+    {
+      "source": "KEYS",
+      "target": "MKSI",
+      "weight": 5
+    },
+    {
+      "source": "KEYS",
+      "target": "OSIS",
+      "weight": 7
+    },
+    {
+      "source": "KEYS",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "ROP",
+      "weight": 9
+    },
+    {
+      "source": "KEYS",
+      "target": "WAT",
+      "weight": 23
+    },
+    {
+      "source": "KEYS",
+      "target": "TMO",
+      "weight": 18
+    },
+    {
+      "source": "KEYS",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "ONTO",
+      "weight": 28
+    },
+    {
+      "source": "KEYS",
+      "target": "TER",
+      "weight": 25
+    },
+    {
+      "source": "KLAC",
+      "target": "OSIS",
+      "weight": 3
+    },
+    {
+      "source": "KLAC",
+      "target": "MTD",
+      "weight": 14
+    },
+    {
+      "source": "KLAC",
+      "target": "WAT",
+      "weight": 5
+    },
+    {
+      "source": "KLAC",
+      "target": "NOTV",
+      "weight": 4
+    },
+    {
+      "source": "KLAC",
+      "target": "MKSI",
+      "weight": 112
+    },
+    {
+      "source": "KLAC",
+      "target": "ROP",
+      "weight": 5
+    },
+    {
+      "source": "KLAC",
+      "target": "ONTO",
+      "weight": 58
+    },
+    {
+      "source": "KLAC",
+      "target": "VUZI",
+      "weight": 23
+    },
+    {
+      "source": "KLAC",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "KLAC",
+      "target": "TMO",
+      "weight": 35
+    },
+    {
+      "source": "KLAC",
+      "target": "MVIS",
+      "weight": 20
+    },
+    {
+      "source": "KLAC",
+      "target": "TER",
+      "weight": 333
+    },
+    {
+      "source": "MKSI",
+      "target": "MTSC",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "ONTO",
+      "weight": 7
+    },
+    {
+      "source": "MKSI",
+      "target": "TER",
+      "weight": 90
+    },
+    {
+      "source": "MKSI",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "MTD",
+      "weight": 2
+    },
+    {
+      "source": "MKSI",
+      "target": "TMO",
+      "weight": 2
+    },
+    {
+      "source": "MKSI",
+      "target": "ROP",
+      "weight": 3
+    },
+    {
+      "source": "MKSI",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "MKTY",
+      "target": "MVIS",
+      "weight": 24
+    },
+    {
+      "source": "MKTY",
+      "target": "NOTV",
+      "weight": 5
+    },
+    {
+      "source": "MKTY",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "MKTY",
+      "target": "ROP",
+      "weight": 4
+    },
+    {
+      "source": "MKTY",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "MKTY",
+      "target": "SYPR",
+      "weight": 2
+    },
+    {
+      "source": "MKTY",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "TER",
+      "weight": 11
+    },
+    {
+      "source": "MTD",
+      "target": "TMO",
+      "weight": 42
+    },
+    {
+      "source": "MTD",
+      "target": "ONTO",
+      "weight": 6
+    },
+    {
+      "source": "MTD",
+      "target": "WAT",
+      "weight": 80
+    },
+    {
+      "source": "MTD",
+      "target": "MTSC",
+      "weight": 4
+    },
+    {
+      "source": "MTD",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "ROP",
+      "weight": 9
+    },
+    {
+      "source": "MTD",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "MTSC",
+      "target": "NOTV",
+      "weight": 1
+    },
+    {
+      "source": "MTSC",
+      "target": "WAT",
+      "weight": 3
+    },
+    {
+      "source": "MVIS",
+      "target": "NOTV",
+      "weight": 3
+    },
+    {
+      "source": "MVIS",
+      "target": "ROP",
+      "weight": 9
+    },
+    {
+      "source": "MVIS",
+      "target": "VUZI",
+      "weight": 1129
+    },
+    {
+      "source": "MVIS",
+      "target": "TER",
+      "weight": 10
+    },
+    {
+      "source": "MVIS",
+      "target": "SENS",
+      "weight": 755
+    },
+    {
+      "source": "MVIS",
+      "target": "TMO",
+      "weight": 7
+    },
+    {
+      "source": "MVIS",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "MVIS",
+      "target": "PRPO",
+      "weight": 419
+    },
+    {
+      "source": "MVIS",
+      "target": "SYPR",
+      "weight": 573
+    },
+    {
+      "source": "MVIS",
+      "target": "ONTO",
+      "weight": 15
+    },
+    {
+      "source": "MVIS",
+      "target": "OSIS",
+      "weight": 2
+    },
+    {
+      "source": "NOTV",
+      "target": "ONTO",
+      "weight": 2
+    },
+    {
+      "source": "NOTV",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "NOTV",
+      "target": "SENS",
+      "weight": 2
+    },
+    {
+      "source": "NOTV",
+      "target": "VNT",
+      "weight": 20
+    },
+    {
+      "source": "NOTV",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "NOTV",
+      "target": "POWL",
+      "weight": 16
+    },
+    {
+      "source": "NOTV",
+      "target": "PRPO",
+      "weight": 2
+    },
+    {
+      "source": "NOTV",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "NOTV",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "NOTV",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "NOTV",
+      "target": "TMO",
+      "weight": 5
+    },
+    {
+      "source": "NOTV",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "ONTO",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "ONTO",
+      "target": "POWL",
+      "weight": 1
+    },
+    {
+      "source": "ONTO",
+      "target": "TER",
+      "weight": 18
+    },
+    {
+      "source": "ONTO",
+      "target": "TMO",
+      "weight": 5
+    },
+    {
+      "source": "OSIS",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "OSIS",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "OSIS",
+      "target": "POWL",
+      "weight": 2
+    },
+    {
+      "source": "OSIS",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "OSIS",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "OSIS",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "POWL",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "POWL",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "POWL",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "POWL",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "POWL",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "PRPO",
+      "target": "VUZI",
+      "weight": 15
+    },
+    {
+      "source": "PRPO",
+      "target": "SYPR",
+      "weight": 12
+    },
+    {
+      "source": "PRPO",
+      "target": "SENS",
+      "weight": 42
+    },
+    {
+      "source": "PRPO",
+      "target": "TMO",
+      "weight": 4
+    },
+    {
+      "source": "ROP",
+      "target": "SENS",
+      "weight": 1
+    },
+    {
+      "source": "ROP",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "ROP",
+      "target": "WAT",
+      "weight": 24
+    },
+    {
+      "source": "ROP",
+      "target": "VNT",
+      "weight": 3
+    },
+    {
+      "source": "ROP",
+      "target": "TER",
+      "weight": 4
+    },
+    {
+      "source": "ROP",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "ROP",
+      "target": "TMO",
+      "weight": 31
+    },
+    {
+      "source": "SENS",
+      "target": "WTT",
+      "weight": 3
+    },
+    {
+      "source": "SENS",
+      "target": "VNT",
+      "weight": 2
+    },
+    {
+      "source": "SENS",
+      "target": "VUZI",
+      "weight": 200
+    },
+    {
+      "source": "SENS",
+      "target": "SYPR",
+      "weight": 35
+    },
+    {
+      "source": "SENS",
+      "target": "TER",
+      "weight": 4
+    },
+    {
+      "source": "SENS",
+      "target": "TMO",
+      "weight": 11
+    },
+    {
+      "source": "SYPR",
+      "target": "WTT",
+      "weight": 18
+    },
+    {
+      "source": "SYPR",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "SYPR",
+      "target": "VUZI",
+      "weight": 8
+    },
+    {
+      "source": "TER",
+      "target": "WAT",
+      "weight": 8
+    },
+    {
+      "source": "TER",
+      "target": "VUZI",
+      "weight": 112
+    },
+    {
+      "source": "TER",
+      "target": "TMO",
+      "weight": 61
+    },
+    {
+      "source": "TER",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "TER",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "TMO",
+      "target": "WAT",
+      "weight": 145
+    },
+    {
+      "source": "TMO",
+      "target": "VUZI",
+      "weight": 36
+    },
+    {
+      "source": "TMO",
+      "target": "VNT",
+      "weight": 1
+    },
+    {
+      "source": "VNT",
+      "target": "WAT",
+      "weight": 2
+    },
+    {
+      "source": "VNT",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "VNT",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "VUZI",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "VUZI",
+      "target": "WTT",
+      "weight": 5
+    }
+  ]
+}

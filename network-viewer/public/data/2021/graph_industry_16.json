@@ -1,0 +1,208 @@
+{
+  "nodes": [
+    {
+      "id": "AIN",
+      "label": "AIN",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.07593088168944719,
+      "harmonic_centrality": 3.916666666666667,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 17
+    },
+    {
+      "id": "CRWS",
+      "label": "CRWS",
+      "industry": "Txtls",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.1607142857142857,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.10071291021539057,
+      "harmonic_centrality": 4.5,
+      "eccentricity": 3,
+      "degree": 5,
+      "weighted_degree": 9
+    },
+    {
+      "id": "CULP",
+      "label": "CULP",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.07142857142857142,
+      "closeness_centrality": 0.6153846153846154,
+      "eigenvector_centrality": 0.06341959876308383,
+      "harmonic_centrality": 4.25,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 15
+    },
+    {
+      "id": "DXYN",
+      "label": "DXYN",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.4464285714285714,
+      "closeness_centrality": 0.6153846153846154,
+      "eigenvector_centrality": 0.02348975019429784,
+      "harmonic_centrality": 5.833333333333333,
+      "eccentricity": 3,
+      "degree": 4,
+      "weighted_degree": 4
+    },
+    {
+      "id": "HBI",
+      "label": "HBI",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.08928571428571427,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.6450422169840352,
+      "harmonic_centrality": 4.666666666666666,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 33
+    },
+    {
+      "id": "KTB",
+      "label": "KTB",
+      "industry": "Txtls",
+      "degree_centrality": 0.625,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6666666666666666,
+      "eigenvector_centrality": 0.6997845106698685,
+      "harmonic_centrality": 3.75,
+      "eccentricity": 3,
+      "degree": 5,
+      "weighted_degree": 46
+    },
+    {
+      "id": "NPK",
+      "label": "NPK",
+      "industry": "Txtls",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.07142857142857142,
+      "closeness_centrality": 0.5,
+      "eigenvector_centrality": 0.002723737256816427,
+      "harmonic_centrality": 4.499999999999999,
+      "eccentricity": 3,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "PPIH",
+      "label": "PPIH",
+      "industry": "Txtls",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.3214285714285714,
+      "closeness_centrality": 0.5714285714285714,
+      "eigenvector_centrality": 0.025823732026977107,
+      "harmonic_centrality": 5.333333333333334,
+      "eccentricity": 3,
+      "degree": 3,
+      "weighted_degree": 3
+    },
+    {
+      "id": "TILE",
+      "label": "TILE",
+      "industry": "Txtls",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.017857142857142856,
+      "closeness_centrality": 0.5714285714285714,
+      "eigenvector_centrality": 0.2703062894287834,
+      "harmonic_centrality": 3.5833333333333335,
+      "eccentricity": 3,
+      "degree": 3,
+      "weighted_degree": 15
+    }
+  ],
+  "edges": [
+    {
+      "source": "AIN",
+      "target": "KTB",
+      "weight": 2
+    },
+    {
+      "source": "AIN",
+      "target": "CULP",
+      "weight": 11
+    },
+    {
+      "source": "AIN",
+      "target": "DXYN",
+      "weight": 1
+    },
+    {
+      "source": "AIN",
+      "target": "CRWS",
+      "weight": 3
+    },
+    {
+      "source": "CRWS",
+      "target": "PPIH",
+      "weight": 1
+    },
+    {
+      "source": "CRWS",
+      "target": "KTB",
+      "weight": 2
+    },
+    {
+      "source": "CRWS",
+      "target": "HBI",
+      "weight": 2
+    },
+    {
+      "source": "CRWS",
+      "target": "TILE",
+      "weight": 1
+    },
+    {
+      "source": "CULP",
+      "target": "HBI",
+      "weight": 1
+    },
+    {
+      "source": "CULP",
+      "target": "NPK",
+      "weight": 1
+    },
+    {
+      "source": "CULP",
+      "target": "TILE",
+      "weight": 2
+    },
+    {
+      "source": "DXYN",
+      "target": "NPK",
+      "weight": 1
+    },
+    {
+      "source": "DXYN",
+      "target": "HBI",
+      "weight": 1
+    },
+    {
+      "source": "DXYN",
+      "target": "PPIH",
+      "weight": 1
+    },
+    {
+      "source": "HBI",
+      "target": "KTB",
+      "weight": 29
+    },
+    {
+      "source": "KTB",
+      "target": "TILE",
+      "weight": 12
+    },
+    {
+      "source": "KTB",
+      "target": "PPIH",
+      "weight": 1
+    }
+  ]
+}

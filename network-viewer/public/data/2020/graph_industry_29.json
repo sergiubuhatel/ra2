@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "ARCH",
+      "label": "ARCH",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6722825388890514,
+      "harmonic_centrality": 0.04684684684684685,
+      "eccentricity": 1,
+      "degree": 2,
+      "weighted_degree": 192
+    },
+    {
+      "id": "BTU",
+      "label": "BTU",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6839655845671166,
+      "harmonic_centrality": 0.03624078624078624,
+      "eccentricity": 1,
+      "degree": 2,
+      "weighted_degree": 206
+    },
+    {
+      "id": "CTRA",
+      "label": "CTRA",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 1.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.28324418269869833,
+      "harmonic_centrality": 0.05606060606060606,
+      "eccentricity": 1,
+      "degree": 2,
+      "weighted_degree": 74
+    }
+  ],
+  "edges": [
+    {
+      "source": "ARCH",
+      "target": "BTU",
+      "weight": 162
+    },
+    {
+      "source": "ARCH",
+      "target": "CTRA",
+      "weight": 30
+    },
+    {
+      "source": "BTU",
+      "target": "CTRA",
+      "weight": 44
+    }
+  ]
+}

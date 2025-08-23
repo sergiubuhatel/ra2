@@ -1,0 +1,2428 @@
+{
+  "nodes": [
+    {
+      "id": "AEGN",
+      "label": "AEGN",
+      "industry": "Cnstr",
+      "degree_centrality": 0.39473684210526316,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6004385964912281,
+      "eigenvector_centrality": 0.002902330780178861,
+      "harmonic_centrality": 5.011507936507937,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 1057
+    },
+    {
+      "id": "AFI",
+      "label": "AFI",
+      "industry": "Cnstr",
+      "degree_centrality": 0.2631578947368421,
+      "betweenness_centrality": 0.09995072471852655,
+      "closeness_centrality": 0.5629111842105263,
+      "eigenvector_centrality": 0.0005280212265646202,
+      "harmonic_centrality": 17.75,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 23
+    },
+    {
+      "id": "BLD",
+      "label": "BLD",
+      "industry": "Cnstr",
+      "degree_centrality": 0.8684210526315789,
+      "betweenness_centrality": 0.02091828670776039,
+      "closeness_centrality": 0.8786906290115534,
+      "eigenvector_centrality": 0.008622195165993551,
+      "harmonic_centrality": 14.950000000000005,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 989
+    },
+    {
+      "id": "BZH",
+      "label": "BZH",
+      "industry": "Cnstr",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.03969422761992422,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.0823088787831937,
+      "harmonic_centrality": 16.559523809523814,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 938
+    },
+    {
+      "id": "CAA",
+      "label": "CAA",
+      "industry": "Cnstr",
+      "degree_centrality": 0.3421052631578947,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5810696095076401,
+      "eigenvector_centrality": 0.019222670649596575,
+      "harmonic_centrality": 8.277777777777779,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 217
+    },
+    {
+      "id": "CADC",
+      "label": "CADC",
+      "industry": "Cnstr",
+      "degree_centrality": 0.2631578947368421,
+      "betweenness_centrality": 0.03348374911842405,
+      "closeness_centrality": 0.5629111842105263,
+      "eigenvector_centrality": 8.190241017816393e-05,
+      "harmonic_centrality": 16.325000000000003,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 30
+    },
+    {
+      "id": "CCS",
+      "label": "CCS",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.06787108869152213,
+      "closeness_centrality": 0.6671539961013646,
+      "eigenvector_centrality": 0.1543923621708314,
+      "harmonic_centrality": 15.309523809523812,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 1766
+    },
+    {
+      "id": "CHCI",
+      "label": "CHCI",
+      "industry": "Cnstr",
+      "degree_centrality": 0.4473684210526315,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6320406278855033,
+      "eigenvector_centrality": 0.012115130507595096,
+      "harmonic_centrality": 10.883333333333335,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 190
+    },
+    {
+      "id": "DHI",
+      "label": "DHI",
+      "industry": "Cnstr",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.0026925421662263773,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.4545536678263491,
+      "harmonic_centrality": 13.727777777777781,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 5060
+    },
+    {
+      "id": "DY",
+      "label": "DY",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6578947368421052,
+      "betweenness_centrality": 0.07488849973370097,
+      "closeness_centrality": 0.7352309344790547,
+      "eigenvector_centrality": 0.011132889163387588,
+      "harmonic_centrality": 16.33333333333334,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 1098
+    },
+    {
+      "id": "EME",
+      "label": "EME",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.05684959616848162,
+      "closeness_centrality": 0.6928137651821863,
+      "eigenvector_centrality": 0.021788018755574297,
+      "harmonic_centrality": 16.458333333333332,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 925
+    },
+    {
+      "id": "FIX",
+      "label": "FIX",
+      "industry": "Cnstr",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.059176624656500816,
+      "closeness_centrality": 0.6004385964912281,
+      "eigenvector_centrality": 0.000590399366881664,
+      "harmonic_centrality": 17.325,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 155
+    },
+    {
+      "id": "GLDD",
+      "label": "GLDD",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.022517143414976227,
+      "closeness_centrality": 0.6671539961013646,
+      "eigenvector_centrality": 0.0020364909817282163,
+      "harmonic_centrality": 15.259523809523813,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 714
+    },
+    {
+      "id": "GV",
+      "label": "GV",
+      "industry": "Cnstr",
+      "degree_centrality": 0.15789473684210525,
+      "betweenness_centrality": 0.098109011266906,
+      "closeness_centrality": 0.5221205186880244,
+      "eigenvector_centrality": 9.141122202339218e-05,
+      "harmonic_centrality": 15.450000000000003,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 12
+    },
+    {
+      "id": "GVA",
+      "label": "GVA",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6578947368421052,
+      "betweenness_centrality": 0.08167265009370273,
+      "closeness_centrality": 0.7352309344790547,
+      "eigenvector_centrality": 0.004436263710992589,
+      "harmonic_centrality": 17.074999999999996,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 841
+    },
+    {
+      "id": "HOV",
+      "label": "HOV",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.05868964940172371,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.08376806580349881,
+      "harmonic_centrality": 15.059523809523814,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 938
+    },
+    {
+      "id": "IBP",
+      "label": "IBP",
+      "industry": "Cnstr",
+      "degree_centrality": 0.763157894736842,
+      "betweenness_centrality": 0.08264749712118133,
+      "closeness_centrality": 0.8005847953216374,
+      "eigenvector_centrality": 0.01307810561101978,
+      "harmonic_centrality": 17.226190476190478,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 745
+    },
+    {
+      "id": "IESC",
+      "label": "IESC",
+      "industry": "Cnstr",
+      "degree_centrality": 0.39473684210526316,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6106155218554862,
+      "eigenvector_centrality": 0.0018629164317340802,
+      "harmonic_centrality": 10.791666666666666,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 663
+    },
+    {
+      "id": "KBH",
+      "label": "KBH",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6578947368421052,
+      "betweenness_centrality": 0.014020411388832442,
+      "closeness_centrality": 0.7352309344790547,
+      "eigenvector_centrality": 0.37545179833263653,
+      "harmonic_centrality": 15.842857142857147,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 3478
+    },
+    {
+      "id": "KBR",
+      "label": "KBR",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6578947368421052,
+      "betweenness_centrality": 0.06511688601471884,
+      "closeness_centrality": 0.7352309344790547,
+      "eigenvector_centrality": 0.03385900092229895,
+      "harmonic_centrality": 17.741666666666667,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 953
+    },
+    {
+      "id": "LAYN",
+      "label": "LAYN",
+      "industry": "Cnstr",
+      "degree_centrality": 0.3684210526315789,
+      "betweenness_centrality": 0.10820134597224379,
+      "closeness_centrality": 0.6004385964912281,
+      "eigenvector_centrality": 0.0021818382075250078,
+      "harmonic_centrality": 19.142857142857146,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 93
+    },
+    {
+      "id": "LEN",
+      "label": "LEN",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.45482586580240114,
+      "harmonic_centrality": 11.992857142857144,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 4545
+    },
+    {
+      "id": "MDC",
+      "label": "MDC",
+      "industry": "Cnstr",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.053367919002593925,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.10340426107611247,
+      "harmonic_centrality": 17.67619047619047,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 1105
+    },
+    {
+      "id": "MHO",
+      "label": "MHO",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.1147032592079032,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.03991750441662874,
+      "harmonic_centrality": 18.726190476190474,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 535
+    },
+    {
+      "id": "MTH",
+      "label": "MTH",
+      "industry": "Cnstr",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.8814324296481042e-36,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "MTRX",
+      "label": "MTRX",
+      "industry": "Cnstr",
+      "degree_centrality": 0.2894736842105263,
+      "betweenness_centrality": 0.004267425320056899,
+      "closeness_centrality": 0.5718462823725982,
+      "eigenvector_centrality": 0.00046809737712668134,
+      "harmonic_centrality": 14.011111111111113,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 54
+    },
+    {
+      "id": "MTZ",
+      "label": "MTZ",
+      "industry": "Cnstr",
+      "degree_centrality": 0.7105263157894737,
+      "betweenness_centrality": 0.005808440018966334,
+      "closeness_centrality": 0.7665173572228444,
+      "eigenvector_centrality": 0.007173948972077514,
+      "harmonic_centrality": 14.408333333333335,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 798
+    },
+    {
+      "id": "NVR",
+      "label": "NVR",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5263157894736842,
+      "betweenness_centrality": 0.000995732574679943,
+      "closeness_centrality": 0.6671539961013646,
+      "eigenvector_centrality": 0.15360197410543328,
+      "harmonic_centrality": 12.144444444444447,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 1640
+    },
+    {
+      "id": "NWHM",
+      "label": "NWHM",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5526315789473684,
+      "betweenness_centrality": 0.0368490117716124,
+      "closeness_centrality": 0.67974180734856,
+      "eigenvector_centrality": 0.014367360356065367,
+      "harmonic_centrality": 16.092857142857145,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 214
+    },
+    {
+      "id": "ORN",
+      "label": "ORN",
+      "industry": "Cnstr",
+      "degree_centrality": 0.47368421052631576,
+      "betweenness_centrality": 0.07299239752800125,
+      "closeness_centrality": 0.6433270676691729,
+      "eigenvector_centrality": 0.00034941162428614344,
+      "harmonic_centrality": 18.726190476190474,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 106
+    },
+    {
+      "id": "PHM",
+      "label": "PHM",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.41167839107201315,
+      "harmonic_centrality": 12.844444444444447,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 4260
+    },
+    {
+      "id": "PRIM",
+      "label": "PRIM",
+      "industry": "Cnstr",
+      "degree_centrality": 0.5789473684210527,
+      "betweenness_centrality": 0.049810336652441924,
+      "closeness_centrality": 0.6928137651821863,
+      "eigenvector_centrality": 0.0018483733146360795,
+      "harmonic_centrality": 17.491666666666667,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 626
+    },
+    {
+      "id": "PWR",
+      "label": "PWR",
+      "industry": "Cnstr",
+      "degree_centrality": 0.7105263157894737,
+      "betweenness_centrality": 0.11451120514588012,
+      "closeness_centrality": 0.7665173572228444,
+      "eigenvector_centrality": 0.006973498493983785,
+      "harmonic_centrality": 18.95,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 754
+    },
+    {
+      "id": "SPXC",
+      "label": "SPXC",
+      "industry": "Cnstr",
+      "degree_centrality": 0.07894736842105263,
+      "betweenness_centrality": 0.0025381418570273057,
+      "closeness_centrality": 0.5003654970760234,
+      "eigenvector_centrality": 4.093301397880314e-05,
+      "harmonic_centrality": 14.011111111111116,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 6
+    },
+    {
+      "id": "STRL",
+      "label": "STRL",
+      "industry": "Cnstr",
+      "degree_centrality": 0.47368421052631576,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6433270676691729,
+      "eigenvector_centrality": 0.0017918695938955792,
+      "harmonic_centrality": 12.808333333333337,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 655
+    },
+    {
+      "id": "TOL",
+      "label": "TOL",
+      "industry": "Cnstr",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.006580640791167106,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.4148308932166752,
+      "harmonic_centrality": 13.644444444444447,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 4256
+    },
+    {
+      "id": "TPC",
+      "label": "TPC",
+      "industry": "Cnstr",
+      "degree_centrality": 0.631578947368421,
+      "betweenness_centrality": 0.055026776002008206,
+      "closeness_centrality": 0.7205263157894737,
+      "eigenvector_centrality": 0.0029405671386084574,
+      "harmonic_centrality": 17.658333333333335,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 624
+    },
+    {
+      "id": "TPH",
+      "label": "TPH",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6842105263157894,
+      "betweenness_centrality": 0.07012603049754754,
+      "closeness_centrality": 0.7505482456140351,
+      "eigenvector_centrality": 0.12740802380500496,
+      "harmonic_centrality": 18.075,
+      "eccentricity": 0.0,
+      "degree": 26,
+      "weighted_degree": 1410
+    },
+    {
+      "id": "WLH",
+      "label": "WLH",
+      "industry": "Cnstr",
+      "degree_centrality": 0.6052631578947368,
+      "betweenness_centrality": 0.0029634898055950687,
+      "closeness_centrality": 0.7063983488132095,
+      "eigenvector_centrality": 0.10665597835429695,
+      "harmonic_centrality": 13.961111111111114,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 1289
+    }
+  ],
+  "edges": [
+    {
+      "source": "AEGN",
+      "target": "AFI",
+      "weight": 6
+    },
+    {
+      "source": "AEGN",
+      "target": "GLDD",
+      "weight": 74
+    },
+    {
+      "source": "AEGN",
+      "target": "TPC",
+      "weight": 85
+    },
+    {
+      "source": "AEGN",
+      "target": "GVA",
+      "weight": 74
+    },
+    {
+      "source": "AEGN",
+      "target": "EME",
+      "weight": 74
+    },
+    {
+      "source": "AEGN",
+      "target": "DY",
+      "weight": 102
+    },
+    {
+      "source": "AEGN",
+      "target": "MTZ",
+      "weight": 99
+    },
+    {
+      "source": "AEGN",
+      "target": "IESC",
+      "weight": 74
+    },
+    {
+      "source": "AEGN",
+      "target": "PWR",
+      "weight": 73
+    },
+    {
+      "source": "AEGN",
+      "target": "GV",
+      "weight": 5
+    },
+    {
+      "source": "AEGN",
+      "target": "BLD",
+      "weight": 74
+    },
+    {
+      "source": "AEGN",
+      "target": "PRIM",
+      "weight": 73
+    },
+    {
+      "source": "AEGN",
+      "target": "STRL",
+      "weight": 83
+    },
+    {
+      "source": "AEGN",
+      "target": "KBR",
+      "weight": 87
+    },
+    {
+      "source": "AEGN",
+      "target": "IBP",
+      "weight": 74
+    },
+    {
+      "source": "AFI",
+      "target": "IBP",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "BLD",
+      "weight": 2
+    },
+    {
+      "source": "AFI",
+      "target": "NWHM",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "MDC",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "STRL",
+      "weight": 6
+    },
+    {
+      "source": "AFI",
+      "target": "LEN",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "ORN",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "GLDD",
+      "weight": 1
+    },
+    {
+      "source": "AFI",
+      "target": "KBH",
+      "weight": 3
+    },
+    {
+      "source": "BLD",
+      "target": "LEN",
+      "weight": 5
+    },
+    {
+      "source": "BLD",
+      "target": "IESC",
+      "weight": 63
+    },
+    {
+      "source": "BLD",
+      "target": "KBH",
+      "weight": 6
+    },
+    {
+      "source": "BLD",
+      "target": "TPH",
+      "weight": 7
+    },
+    {
+      "source": "BLD",
+      "target": "DY",
+      "weight": 65
+    },
+    {
+      "source": "BLD",
+      "target": "PRIM",
+      "weight": 66
+    },
+    {
+      "source": "BLD",
+      "target": "NWHM",
+      "weight": 1
+    },
+    {
+      "source": "BLD",
+      "target": "IBP",
+      "weight": 83
+    },
+    {
+      "source": "BLD",
+      "target": "STRL",
+      "weight": 72
+    },
+    {
+      "source": "BLD",
+      "target": "TPC",
+      "weight": 69
+    },
+    {
+      "source": "BLD",
+      "target": "DHI",
+      "weight": 4
+    },
+    {
+      "source": "BLD",
+      "target": "WLH",
+      "weight": 10
+    },
+    {
+      "source": "BLD",
+      "target": "MTZ",
+      "weight": 67
+    },
+    {
+      "source": "BLD",
+      "target": "MTRX",
+      "weight": 7
+    },
+    {
+      "source": "BLD",
+      "target": "EME",
+      "weight": 63
+    },
+    {
+      "source": "BLD",
+      "target": "HOV",
+      "weight": 3
+    },
+    {
+      "source": "BLD",
+      "target": "GV",
+      "weight": 1
+    },
+    {
+      "source": "BLD",
+      "target": "PWR",
+      "weight": 63
+    },
+    {
+      "source": "BLD",
+      "target": "LAYN",
+      "weight": 7
+    },
+    {
+      "source": "BLD",
+      "target": "GVA",
+      "weight": 66
+    },
+    {
+      "source": "BLD",
+      "target": "GLDD",
+      "weight": 65
+    },
+    {
+      "source": "BLD",
+      "target": "PHM",
+      "weight": 8
+    },
+    {
+      "source": "BLD",
+      "target": "MHO",
+      "weight": 2
+    },
+    {
+      "source": "BLD",
+      "target": "NVR",
+      "weight": 9
+    },
+    {
+      "source": "BLD",
+      "target": "CCS",
+      "weight": 6
+    },
+    {
+      "source": "BLD",
+      "target": "BZH",
+      "weight": 8
+    },
+    {
+      "source": "BLD",
+      "target": "MDC",
+      "weight": 1
+    },
+    {
+      "source": "BLD",
+      "target": "TOL",
+      "weight": 15
+    },
+    {
+      "source": "BLD",
+      "target": "CADC",
+      "weight": 4
+    },
+    {
+      "source": "BLD",
+      "target": "ORN",
+      "weight": 3
+    },
+    {
+      "source": "BLD",
+      "target": "KBR",
+      "weight": 64
+    },
+    {
+      "source": "BZH",
+      "target": "IBP",
+      "weight": 1
+    },
+    {
+      "source": "BZH",
+      "target": "CHCI",
+      "weight": 13
+    },
+    {
+      "source": "BZH",
+      "target": "GLDD",
+      "weight": 1
+    },
+    {
+      "source": "BZH",
+      "target": "WLH",
+      "weight": 41
+    },
+    {
+      "source": "BZH",
+      "target": "MDC",
+      "weight": 52
+    },
+    {
+      "source": "BZH",
+      "target": "EME",
+      "weight": 9
+    },
+    {
+      "source": "BZH",
+      "target": "TPC",
+      "weight": 2
+    },
+    {
+      "source": "BZH",
+      "target": "NWHM",
+      "weight": 5
+    },
+    {
+      "source": "BZH",
+      "target": "KBH",
+      "weight": 99
+    },
+    {
+      "source": "BZH",
+      "target": "CCS",
+      "weight": 24
+    },
+    {
+      "source": "BZH",
+      "target": "CAA",
+      "weight": 8
+    },
+    {
+      "source": "BZH",
+      "target": "MHO",
+      "weight": 45
+    },
+    {
+      "source": "BZH",
+      "target": "TPH",
+      "weight": 42
+    },
+    {
+      "source": "BZH",
+      "target": "ORN",
+      "weight": 7
+    },
+    {
+      "source": "BZH",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "BZH",
+      "target": "DHI",
+      "weight": 90
+    },
+    {
+      "source": "BZH",
+      "target": "FIX",
+      "weight": 4
+    },
+    {
+      "source": "BZH",
+      "target": "HOV",
+      "weight": 57
+    },
+    {
+      "source": "BZH",
+      "target": "TOL",
+      "weight": 146
+    },
+    {
+      "source": "BZH",
+      "target": "PHM",
+      "weight": 104
+    },
+    {
+      "source": "BZH",
+      "target": "NVR",
+      "weight": 47
+    },
+    {
+      "source": "BZH",
+      "target": "MTZ",
+      "weight": 1
+    },
+    {
+      "source": "BZH",
+      "target": "LEN",
+      "weight": 131
+    },
+    {
+      "source": "CAA",
+      "target": "TOL",
+      "weight": 16
+    },
+    {
+      "source": "CAA",
+      "target": "MDC",
+      "weight": 12
+    },
+    {
+      "source": "CAA",
+      "target": "WLH",
+      "weight": 21
+    },
+    {
+      "source": "CAA",
+      "target": "PHM",
+      "weight": 17
+    },
+    {
+      "source": "CAA",
+      "target": "CHCI",
+      "weight": 9
+    },
+    {
+      "source": "CAA",
+      "target": "KBH",
+      "weight": 28
+    },
+    {
+      "source": "CAA",
+      "target": "CCS",
+      "weight": 2
+    },
+    {
+      "source": "CAA",
+      "target": "NVR",
+      "weight": 16
+    },
+    {
+      "source": "CAA",
+      "target": "LEN",
+      "weight": 50
+    },
+    {
+      "source": "CAA",
+      "target": "HOV",
+      "weight": 13
+    },
+    {
+      "source": "CAA",
+      "target": "TPH",
+      "weight": 7
+    },
+    {
+      "source": "CAA",
+      "target": "DHI",
+      "weight": 18
+    },
+    {
+      "source": "CADC",
+      "target": "PRIM",
+      "weight": 1
+    },
+    {
+      "source": "CADC",
+      "target": "MTRX",
+      "weight": 1
+    },
+    {
+      "source": "CADC",
+      "target": "MTZ",
+      "weight": 2
+    },
+    {
+      "source": "CADC",
+      "target": "IBP",
+      "weight": 7
+    },
+    {
+      "source": "CADC",
+      "target": "LAYN",
+      "weight": 1
+    },
+    {
+      "source": "CADC",
+      "target": "TPC",
+      "weight": 3
+    },
+    {
+      "source": "CADC",
+      "target": "GLDD",
+      "weight": 1
+    },
+    {
+      "source": "CADC",
+      "target": "DY",
+      "weight": 4
+    },
+    {
+      "source": "CADC",
+      "target": "CHCI",
+      "weight": 6
+    },
+    {
+      "source": "CCS",
+      "target": "PHM",
+      "weight": 235
+    },
+    {
+      "source": "CCS",
+      "target": "IBP",
+      "weight": 1
+    },
+    {
+      "source": "CCS",
+      "target": "CHCI",
+      "weight": 3
+    },
+    {
+      "source": "CCS",
+      "target": "DY",
+      "weight": 1
+    },
+    {
+      "source": "CCS",
+      "target": "MHO",
+      "weight": 20
+    },
+    {
+      "source": "CCS",
+      "target": "LEN",
+      "weight": 240
+    },
+    {
+      "source": "CCS",
+      "target": "WLH",
+      "weight": 219
+    },
+    {
+      "source": "CCS",
+      "target": "TOL",
+      "weight": 228
+    },
+    {
+      "source": "CCS",
+      "target": "NVR",
+      "weight": 217
+    },
+    {
+      "source": "CCS",
+      "target": "TPH",
+      "weight": 228
+    },
+    {
+      "source": "CCS",
+      "target": "HOV",
+      "weight": 17
+    },
+    {
+      "source": "CCS",
+      "target": "MTZ",
+      "weight": 5
+    },
+    {
+      "source": "CCS",
+      "target": "KBH",
+      "weight": 43
+    },
+    {
+      "source": "CCS",
+      "target": "DHI",
+      "weight": 228
+    },
+    {
+      "source": "CCS",
+      "target": "NWHM",
+      "weight": 9
+    },
+    {
+      "source": "CCS",
+      "target": "MDC",
+      "weight": 39
+    },
+    {
+      "source": "CCS",
+      "target": "EME",
+      "weight": 1
+    },
+    {
+      "source": "CHCI",
+      "target": "HOV",
+      "weight": 15
+    },
+    {
+      "source": "CHCI",
+      "target": "TOL",
+      "weight": 20
+    },
+    {
+      "source": "CHCI",
+      "target": "TPH",
+      "weight": 13
+    },
+    {
+      "source": "CHCI",
+      "target": "PHM",
+      "weight": 11
+    },
+    {
+      "source": "CHCI",
+      "target": "NVR",
+      "weight": 10
+    },
+    {
+      "source": "CHCI",
+      "target": "MHO",
+      "weight": 18
+    },
+    {
+      "source": "CHCI",
+      "target": "GV",
+      "weight": 1
+    },
+    {
+      "source": "CHCI",
+      "target": "MDC",
+      "weight": 11
+    },
+    {
+      "source": "CHCI",
+      "target": "MTRX",
+      "weight": 5
+    },
+    {
+      "source": "CHCI",
+      "target": "KBH",
+      "weight": 19
+    },
+    {
+      "source": "CHCI",
+      "target": "LEN",
+      "weight": 13
+    },
+    {
+      "source": "CHCI",
+      "target": "DHI",
+      "weight": 14
+    },
+    {
+      "source": "CHCI",
+      "target": "NWHM",
+      "weight": 9
+    },
+    {
+      "source": "DHI",
+      "target": "HOV",
+      "weight": 155
+    },
+    {
+      "source": "DHI",
+      "target": "MDC",
+      "weight": 157
+    },
+    {
+      "source": "DHI",
+      "target": "GVA",
+      "weight": 5
+    },
+    {
+      "source": "DHI",
+      "target": "TPC",
+      "weight": 1
+    },
+    {
+      "source": "DHI",
+      "target": "KBR",
+      "weight": 214
+    },
+    {
+      "source": "DHI",
+      "target": "EME",
+      "weight": 1
+    },
+    {
+      "source": "DHI",
+      "target": "PWR",
+      "weight": 10
+    },
+    {
+      "source": "DHI",
+      "target": "TPH",
+      "weight": 269
+    },
+    {
+      "source": "DHI",
+      "target": "IBP",
+      "weight": 2
+    },
+    {
+      "source": "DHI",
+      "target": "WLH",
+      "weight": 244
+    },
+    {
+      "source": "DHI",
+      "target": "TOL",
+      "weight": 814
+    },
+    {
+      "source": "DHI",
+      "target": "NWHM",
+      "weight": 14
+    },
+    {
+      "source": "DHI",
+      "target": "MHO",
+      "weight": 79
+    },
+    {
+      "source": "DHI",
+      "target": "DY",
+      "weight": 6
+    },
+    {
+      "source": "DHI",
+      "target": "PHM",
+      "weight": 879
+    },
+    {
+      "source": "DHI",
+      "target": "NVR",
+      "weight": 436
+    },
+    {
+      "source": "DHI",
+      "target": "KBH",
+      "weight": 481
+    },
+    {
+      "source": "DHI",
+      "target": "LEN",
+      "weight": 933
+    },
+    {
+      "source": "DHI",
+      "target": "MTZ",
+      "weight": 6
+    },
+    {
+      "source": "DY",
+      "target": "FIX",
+      "weight": 2
+    },
+    {
+      "source": "DY",
+      "target": "EME",
+      "weight": 70
+    },
+    {
+      "source": "DY",
+      "target": "LAYN",
+      "weight": 1
+    },
+    {
+      "source": "DY",
+      "target": "MTZ",
+      "weight": 111
+    },
+    {
+      "source": "DY",
+      "target": "IESC",
+      "weight": 64
+    },
+    {
+      "source": "DY",
+      "target": "PRIM",
+      "weight": 89
+    },
+    {
+      "source": "DY",
+      "target": "HOV",
+      "weight": 1
+    },
+    {
+      "source": "DY",
+      "target": "KBR",
+      "weight": 73
+    },
+    {
+      "source": "DY",
+      "target": "TOL",
+      "weight": 56
+    },
+    {
+      "source": "DY",
+      "target": "GV",
+      "weight": 1
+    },
+    {
+      "source": "DY",
+      "target": "TPC",
+      "weight": 79
+    },
+    {
+      "source": "DY",
+      "target": "LEN",
+      "weight": 3
+    },
+    {
+      "source": "DY",
+      "target": "ORN",
+      "weight": 6
+    },
+    {
+      "source": "DY",
+      "target": "KBH",
+      "weight": 3
+    },
+    {
+      "source": "DY",
+      "target": "GLDD",
+      "weight": 63
+    },
+    {
+      "source": "DY",
+      "target": "PWR",
+      "weight": 80
+    },
+    {
+      "source": "DY",
+      "target": "STRL",
+      "weight": 75
+    },
+    {
+      "source": "DY",
+      "target": "IBP",
+      "weight": 71
+    },
+    {
+      "source": "DY",
+      "target": "GVA",
+      "weight": 67
+    },
+    {
+      "source": "DY",
+      "target": "MHO",
+      "weight": 5
+    },
+    {
+      "source": "EME",
+      "target": "GLDD",
+      "weight": 51
+    },
+    {
+      "source": "EME",
+      "target": "LAYN",
+      "weight": 1
+    },
+    {
+      "source": "EME",
+      "target": "STRL",
+      "weight": 48
+    },
+    {
+      "source": "EME",
+      "target": "GVA",
+      "weight": 60
+    },
+    {
+      "source": "EME",
+      "target": "IBP",
+      "weight": 42
+    },
+    {
+      "source": "EME",
+      "target": "PHM",
+      "weight": 2
+    },
+    {
+      "source": "EME",
+      "target": "MTZ",
+      "weight": 48
+    },
+    {
+      "source": "EME",
+      "target": "IESC",
+      "weight": 87
+    },
+    {
+      "source": "EME",
+      "target": "PWR",
+      "weight": 48
+    },
+    {
+      "source": "EME",
+      "target": "TOL",
+      "weight": 157
+    },
+    {
+      "source": "EME",
+      "target": "MHO",
+      "weight": 1
+    },
+    {
+      "source": "EME",
+      "target": "WLH",
+      "weight": 2
+    },
+    {
+      "source": "EME",
+      "target": "PRIM",
+      "weight": 42
+    },
+    {
+      "source": "EME",
+      "target": "KBR",
+      "weight": 42
+    },
+    {
+      "source": "EME",
+      "target": "TPC",
+      "weight": 56
+    },
+    {
+      "source": "EME",
+      "target": "FIX",
+      "weight": 20
+    },
+    {
+      "source": "FIX",
+      "target": "TOL",
+      "weight": 1
+    },
+    {
+      "source": "FIX",
+      "target": "PWR",
+      "weight": 44
+    },
+    {
+      "source": "FIX",
+      "target": "WLH",
+      "weight": 1
+    },
+    {
+      "source": "FIX",
+      "target": "GVA",
+      "weight": 19
+    },
+    {
+      "source": "FIX",
+      "target": "MTZ",
+      "weight": 3
+    },
+    {
+      "source": "FIX",
+      "target": "PRIM",
+      "weight": 1
+    },
+    {
+      "source": "FIX",
+      "target": "IESC",
+      "weight": 54
+    },
+    {
+      "source": "FIX",
+      "target": "KBR",
+      "weight": 1
+    },
+    {
+      "source": "FIX",
+      "target": "TPC",
+      "weight": 2
+    },
+    {
+      "source": "FIX",
+      "target": "ORN",
+      "weight": 2
+    },
+    {
+      "source": "FIX",
+      "target": "MDC",
+      "weight": 1
+    },
+    {
+      "source": "GLDD",
+      "target": "STRL",
+      "weight": 68
+    },
+    {
+      "source": "GLDD",
+      "target": "MTRX",
+      "weight": 7
+    },
+    {
+      "source": "GLDD",
+      "target": "PRIM",
+      "weight": 41
+    },
+    {
+      "source": "GLDD",
+      "target": "ORN",
+      "weight": 29
+    },
+    {
+      "source": "GLDD",
+      "target": "GVA",
+      "weight": 42
+    },
+    {
+      "source": "GLDD",
+      "target": "TPC",
+      "weight": 46
+    },
+    {
+      "source": "GLDD",
+      "target": "IESC",
+      "weight": 42
+    },
+    {
+      "source": "GLDD",
+      "target": "NVR",
+      "weight": 2
+    },
+    {
+      "source": "GLDD",
+      "target": "IBP",
+      "weight": 42
+    },
+    {
+      "source": "GLDD",
+      "target": "MTZ",
+      "weight": 41
+    },
+    {
+      "source": "GLDD",
+      "target": "PWR",
+      "weight": 41
+    },
+    {
+      "source": "GLDD",
+      "target": "MDC",
+      "weight": 2
+    },
+    {
+      "source": "GLDD",
+      "target": "KBR",
+      "weight": 55
+    },
+    {
+      "source": "GV",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "GV",
+      "target": "HOV",
+      "weight": 3
+    },
+    {
+      "source": "GVA",
+      "target": "PRIM",
+      "weight": 44
+    },
+    {
+      "source": "GVA",
+      "target": "TOL",
+      "weight": 1
+    },
+    {
+      "source": "GVA",
+      "target": "PHM",
+      "weight": 2
+    },
+    {
+      "source": "GVA",
+      "target": "MHO",
+      "weight": 1
+    },
+    {
+      "source": "GVA",
+      "target": "KBH",
+      "weight": 1
+    },
+    {
+      "source": "GVA",
+      "target": "WLH",
+      "weight": 33
+    },
+    {
+      "source": "GVA",
+      "target": "NWHM",
+      "weight": 1
+    },
+    {
+      "source": "GVA",
+      "target": "NVR",
+      "weight": 1
+    },
+    {
+      "source": "GVA",
+      "target": "TPC",
+      "weight": 51
+    },
+    {
+      "source": "GVA",
+      "target": "LAYN",
+      "weight": 43
+    },
+    {
+      "source": "GVA",
+      "target": "PWR",
+      "weight": 63
+    },
+    {
+      "source": "GVA",
+      "target": "ORN",
+      "weight": 4
+    },
+    {
+      "source": "GVA",
+      "target": "IBP",
+      "weight": 43
+    },
+    {
+      "source": "GVA",
+      "target": "HOV",
+      "weight": 2
+    },
+    {
+      "source": "GVA",
+      "target": "IESC",
+      "weight": 41
+    },
+    {
+      "source": "GVA",
+      "target": "KBR",
+      "weight": 64
+    },
+    {
+      "source": "GVA",
+      "target": "MTZ",
+      "weight": 55
+    },
+    {
+      "source": "GVA",
+      "target": "STRL",
+      "weight": 58
+    },
+    {
+      "source": "HOV",
+      "target": "IESC",
+      "weight": 1
+    },
+    {
+      "source": "HOV",
+      "target": "MTRX",
+      "weight": 7
+    },
+    {
+      "source": "HOV",
+      "target": "MDC",
+      "weight": 57
+    },
+    {
+      "source": "HOV",
+      "target": "PHM",
+      "weight": 77
+    },
+    {
+      "source": "HOV",
+      "target": "IBP",
+      "weight": 1
+    },
+    {
+      "source": "HOV",
+      "target": "KBH",
+      "weight": 87
+    },
+    {
+      "source": "HOV",
+      "target": "KBR",
+      "weight": 2
+    },
+    {
+      "source": "HOV",
+      "target": "TPH",
+      "weight": 10
+    },
+    {
+      "source": "HOV",
+      "target": "NWHM",
+      "weight": 7
+    },
+    {
+      "source": "HOV",
+      "target": "MHO",
+      "weight": 43
+    },
+    {
+      "source": "HOV",
+      "target": "TOL",
+      "weight": 112
+    },
+    {
+      "source": "HOV",
+      "target": "LEN",
+      "weight": 138
+    },
+    {
+      "source": "HOV",
+      "target": "WLH",
+      "weight": 36
+    },
+    {
+      "source": "HOV",
+      "target": "NVR",
+      "weight": 94
+    },
+    {
+      "source": "IBP",
+      "target": "KBH",
+      "weight": 17
+    },
+    {
+      "source": "IBP",
+      "target": "ORN",
+      "weight": 1
+    },
+    {
+      "source": "IBP",
+      "target": "TOL",
+      "weight": 12
+    },
+    {
+      "source": "IBP",
+      "target": "TPC",
+      "weight": 38
+    },
+    {
+      "source": "IBP",
+      "target": "PWR",
+      "weight": 39
+    },
+    {
+      "source": "IBP",
+      "target": "KBR",
+      "weight": 38
+    },
+    {
+      "source": "IBP",
+      "target": "STRL",
+      "weight": 38
+    },
+    {
+      "source": "IBP",
+      "target": "NVR",
+      "weight": 6
+    },
+    {
+      "source": "IBP",
+      "target": "TPH",
+      "weight": 2
+    },
+    {
+      "source": "IBP",
+      "target": "LEN",
+      "weight": 39
+    },
+    {
+      "source": "IBP",
+      "target": "MDC",
+      "weight": 3
+    },
+    {
+      "source": "IBP",
+      "target": "MTZ",
+      "weight": 45
+    },
+    {
+      "source": "IBP",
+      "target": "PHM",
+      "weight": 15
+    },
+    {
+      "source": "IBP",
+      "target": "IESC",
+      "weight": 39
+    },
+    {
+      "source": "IBP",
+      "target": "WLH",
+      "weight": 3
+    },
+    {
+      "source": "IBP",
+      "target": "PRIM",
+      "weight": 38
+    },
+    {
+      "source": "IBP",
+      "target": "MHO",
+      "weight": 4
+    },
+    {
+      "source": "IESC",
+      "target": "KBR",
+      "weight": 37
+    },
+    {
+      "source": "IESC",
+      "target": "MTZ",
+      "weight": 32
+    },
+    {
+      "source": "IESC",
+      "target": "PRIM",
+      "weight": 31
+    },
+    {
+      "source": "IESC",
+      "target": "PWR",
+      "weight": 39
+    },
+    {
+      "source": "IESC",
+      "target": "TPC",
+      "weight": 28
+    },
+    {
+      "source": "IESC",
+      "target": "STRL",
+      "weight": 31
+    },
+    {
+      "source": "KBH",
+      "target": "MTZ",
+      "weight": 3
+    },
+    {
+      "source": "KBH",
+      "target": "TPC",
+      "weight": 4
+    },
+    {
+      "source": "KBH",
+      "target": "NWHM",
+      "weight": 21
+    },
+    {
+      "source": "KBH",
+      "target": "PHM",
+      "weight": 514
+    },
+    {
+      "source": "KBH",
+      "target": "NVR",
+      "weight": 106
+    },
+    {
+      "source": "KBH",
+      "target": "WLH",
+      "weight": 68
+    },
+    {
+      "source": "KBH",
+      "target": "MDC",
+      "weight": 155
+    },
+    {
+      "source": "KBH",
+      "target": "LEN",
+      "weight": 1084
+    },
+    {
+      "source": "KBH",
+      "target": "TOL",
+      "weight": 610
+    },
+    {
+      "source": "KBH",
+      "target": "MHO",
+      "weight": 30
+    },
+    {
+      "source": "KBH",
+      "target": "TPH",
+      "weight": 81
+    },
+    {
+      "source": "KBH",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "KBH",
+      "target": "KBR",
+      "weight": 13
+    },
+    {
+      "source": "KBH",
+      "target": "LAYN",
+      "weight": 1
+    },
+    {
+      "source": "KBR",
+      "target": "STRL",
+      "weight": 44
+    },
+    {
+      "source": "KBR",
+      "target": "ORN",
+      "weight": 1
+    },
+    {
+      "source": "KBR",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "KBR",
+      "target": "PHM",
+      "weight": 1
+    },
+    {
+      "source": "KBR",
+      "target": "WLH",
+      "weight": 4
+    },
+    {
+      "source": "KBR",
+      "target": "TOL",
+      "weight": 5
+    },
+    {
+      "source": "KBR",
+      "target": "MTZ",
+      "weight": 55
+    },
+    {
+      "source": "KBR",
+      "target": "MDC",
+      "weight": 10
+    },
+    {
+      "source": "KBR",
+      "target": "PWR",
+      "weight": 63
+    },
+    {
+      "source": "KBR",
+      "target": "MHO",
+      "weight": 1
+    },
+    {
+      "source": "KBR",
+      "target": "PRIM",
+      "weight": 31
+    },
+    {
+      "source": "KBR",
+      "target": "LEN",
+      "weight": 4
+    },
+    {
+      "source": "KBR",
+      "target": "TPC",
+      "weight": 43
+    },
+    {
+      "source": "LAYN",
+      "target": "MTRX",
+      "weight": 8
+    },
+    {
+      "source": "LAYN",
+      "target": "MTZ",
+      "weight": 6
+    },
+    {
+      "source": "LAYN",
+      "target": "PRIM",
+      "weight": 1
+    },
+    {
+      "source": "LAYN",
+      "target": "ORN",
+      "weight": 3
+    },
+    {
+      "source": "LAYN",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "LAYN",
+      "target": "TPC",
+      "weight": 1
+    },
+    {
+      "source": "LAYN",
+      "target": "LEN",
+      "weight": 13
+    },
+    {
+      "source": "LAYN",
+      "target": "WLH",
+      "weight": 6
+    },
+    {
+      "source": "LEN",
+      "target": "PWR",
+      "weight": 6
+    },
+    {
+      "source": "LEN",
+      "target": "MTZ",
+      "weight": 19
+    },
+    {
+      "source": "LEN",
+      "target": "TPH",
+      "weight": 80
+    },
+    {
+      "source": "LEN",
+      "target": "MDC",
+      "weight": 124
+    },
+    {
+      "source": "LEN",
+      "target": "MHO",
+      "weight": 47
+    },
+    {
+      "source": "LEN",
+      "target": "NWHM",
+      "weight": 17
+    },
+    {
+      "source": "LEN",
+      "target": "PHM",
+      "weight": 635
+    },
+    {
+      "source": "LEN",
+      "target": "TOL",
+      "weight": 734
+    },
+    {
+      "source": "LEN",
+      "target": "WLH",
+      "weight": 61
+    },
+    {
+      "source": "LEN",
+      "target": "NVR",
+      "weight": 168
+    },
+    {
+      "source": "MDC",
+      "target": "NVR",
+      "weight": 56
+    },
+    {
+      "source": "MDC",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "MDC",
+      "target": "TOL",
+      "weight": 174
+    },
+    {
+      "source": "MDC",
+      "target": "PHM",
+      "weight": 129
+    },
+    {
+      "source": "MDC",
+      "target": "MTRX",
+      "weight": 6
+    },
+    {
+      "source": "MDC",
+      "target": "WLH",
+      "weight": 32
+    },
+    {
+      "source": "MDC",
+      "target": "ORN",
+      "weight": 1
+    },
+    {
+      "source": "MDC",
+      "target": "TPH",
+      "weight": 33
+    },
+    {
+      "source": "MDC",
+      "target": "MHO",
+      "weight": 25
+    },
+    {
+      "source": "MDC",
+      "target": "NWHM",
+      "weight": 23
+    },
+    {
+      "source": "MHO",
+      "target": "NWHM",
+      "weight": 14
+    },
+    {
+      "source": "MHO",
+      "target": "PRIM",
+      "weight": 1
+    },
+    {
+      "source": "MHO",
+      "target": "TPH",
+      "weight": 24
+    },
+    {
+      "source": "MHO",
+      "target": "WLH",
+      "weight": 33
+    },
+    {
+      "source": "MHO",
+      "target": "TOL",
+      "weight": 33
+    },
+    {
+      "source": "MHO",
+      "target": "NVR",
+      "weight": 52
+    },
+    {
+      "source": "MHO",
+      "target": "PHM",
+      "weight": 55
+    },
+    {
+      "source": "MHO",
+      "target": "PWR",
+      "weight": 1
+    },
+    {
+      "source": "MHO",
+      "target": "STRL",
+      "weight": 1
+    },
+    {
+      "source": "MTRX",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "MTRX",
+      "target": "MTZ",
+      "weight": 6
+    },
+    {
+      "source": "MTRX",
+      "target": "NWHM",
+      "weight": 2
+    },
+    {
+      "source": "MTRX",
+      "target": "ORN",
+      "weight": 4
+    },
+    {
+      "source": "MTZ",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "MTZ",
+      "target": "NWHM",
+      "weight": 2
+    },
+    {
+      "source": "MTZ",
+      "target": "STRL",
+      "weight": 29
+    },
+    {
+      "source": "MTZ",
+      "target": "PRIM",
+      "weight": 58
+    },
+    {
+      "source": "MTZ",
+      "target": "TPC",
+      "weight": 30
+    },
+    {
+      "source": "MTZ",
+      "target": "TOL",
+      "weight": 5
+    },
+    {
+      "source": "MTZ",
+      "target": "ORN",
+      "weight": 3
+    },
+    {
+      "source": "MTZ",
+      "target": "PHM",
+      "weight": 4
+    },
+    {
+      "source": "MTZ",
+      "target": "PWR",
+      "weight": 62
+    },
+    {
+      "source": "NVR",
+      "target": "WLH",
+      "weight": 37
+    },
+    {
+      "source": "NVR",
+      "target": "TPH",
+      "weight": 53
+    },
+    {
+      "source": "NVR",
+      "target": "TPC",
+      "weight": 3
+    },
+    {
+      "source": "NVR",
+      "target": "PHM",
+      "weight": 164
+    },
+    {
+      "source": "NVR",
+      "target": "NWHM",
+      "weight": 5
+    },
+    {
+      "source": "NVR",
+      "target": "TOL",
+      "weight": 158
+    },
+    {
+      "source": "NWHM",
+      "target": "TOL",
+      "weight": 18
+    },
+    {
+      "source": "NWHM",
+      "target": "PRIM",
+      "weight": 2
+    },
+    {
+      "source": "NWHM",
+      "target": "WLH",
+      "weight": 20
+    },
+    {
+      "source": "NWHM",
+      "target": "TPH",
+      "weight": 24
+    },
+    {
+      "source": "NWHM",
+      "target": "PHM",
+      "weight": 17
+    },
+    {
+      "source": "NWHM",
+      "target": "PWR",
+      "weight": 2
+    },
+    {
+      "source": "ORN",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "ORN",
+      "target": "STRL",
+      "weight": 25
+    },
+    {
+      "source": "ORN",
+      "target": "PWR",
+      "weight": 7
+    },
+    {
+      "source": "ORN",
+      "target": "TPC",
+      "weight": 1
+    },
+    {
+      "source": "ORN",
+      "target": "PRIM",
+      "weight": 7
+    },
+    {
+      "source": "PHM",
+      "target": "TPH",
+      "weight": 322
+    },
+    {
+      "source": "PHM",
+      "target": "TOL",
+      "weight": 794
+    },
+    {
+      "source": "PHM",
+      "target": "TPC",
+      "weight": 3
+    },
+    {
+      "source": "PHM",
+      "target": "PWR",
+      "weight": 18
+    },
+    {
+      "source": "PHM",
+      "target": "WLH",
+      "weight": 254
+    },
+    {
+      "source": "PRIM",
+      "target": "SPXC",
+      "weight": 1
+    },
+    {
+      "source": "PRIM",
+      "target": "TPC",
+      "weight": 30
+    },
+    {
+      "source": "PRIM",
+      "target": "TPH",
+      "weight": 3
+    },
+    {
+      "source": "PRIM",
+      "target": "PWR",
+      "weight": 38
+    },
+    {
+      "source": "PRIM",
+      "target": "WLH",
+      "weight": 3
+    },
+    {
+      "source": "PRIM",
+      "target": "STRL",
+      "weight": 25
+    },
+    {
+      "source": "PWR",
+      "target": "TPC",
+      "weight": 24
+    },
+    {
+      "source": "PWR",
+      "target": "TPH",
+      "weight": 2
+    },
+    {
+      "source": "PWR",
+      "target": "STRL",
+      "weight": 23
+    },
+    {
+      "source": "PWR",
+      "target": "TOL",
+      "weight": 3
+    },
+    {
+      "source": "SPXC",
+      "target": "STRL",
+      "weight": 4
+    },
+    {
+      "source": "SPXC",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "STRL",
+      "target": "TPC",
+      "weight": 23
+    },
+    {
+      "source": "STRL",
+      "target": "TPH",
+      "weight": 2
+    },
+    {
+      "source": "TOL",
+      "target": "WLH",
+      "weight": 51
+    },
+    {
+      "source": "TOL",
+      "target": "TPH",
+      "weight": 93
+    },
+    {
+      "source": "TPC",
+      "target": "WLH",
+      "weight": 1
+    },
+    {
+      "source": "TPC",
+      "target": "TPH",
+      "weight": 1
+    },
+    {
+      "source": "TPH",
+      "target": "WLH",
+      "weight": 109
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "AIN",
+      "label": "AIN",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.30357142857142855,
+      "closeness_centrality": 0.5625,
+      "eigenvector_centrality": 0.12994518691510135,
+      "harmonic_centrality": 3.583333333333333,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 100
+    },
+    {
+      "id": "CRWS",
+      "label": "CRWS",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.17857142857142855,
+      "closeness_centrality": 0.5625,
+      "eigenvector_centrality": 0.6956855577307616,
+      "harmonic_centrality": 2.1166666666666663,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 118
+    },
+    {
+      "id": "CULP",
+      "label": "CULP",
+      "industry": "Txtls",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5,
+      "eigenvector_centrality": 0.6916059612125364,
+      "harmonic_centrality": 2.50952380952381,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 110
+    },
+    {
+      "id": "DXYN",
+      "label": "DXYN",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.1607142857142857,
+      "closeness_centrality": 0.5625,
+      "eigenvector_centrality": 0.059012663507122295,
+      "harmonic_centrality": 3.416666666666667,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 12
+    },
+    {
+      "id": "NPK",
+      "label": "NPK",
+      "industry": "Txtls",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "PPIH",
+      "label": "PPIH",
+      "industry": "Txtls",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "TILE",
+      "label": "TILE",
+      "industry": "Txtls",
+      "degree_centrality": 0.375,
+      "betweenness_centrality": 0.21428571428571427,
+      "closeness_centrality": 0.5,
+      "eigenvector_centrality": 0.0021772105624807913,
+      "harmonic_centrality": 3.533333333333333,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 4
+    },
+    {
+      "id": "UFI",
+      "label": "UFI",
+      "industry": "Txtls",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5625,
+      "eigenvector_centrality": 0.021788939104880525,
+      "harmonic_centrality": 2.8666666666666667,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 8
+    },
+    {
+      "id": "XRM",
+      "label": "XRM",
+      "industry": "Txtls",
+      "degree_centrality": 0.25,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.44999999999999996,
+      "eigenvector_centrality": 0.12982701956976417,
+      "harmonic_centrality": 1.4595238095238094,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 98
+    }
+  ],
+  "edges": [
+    {
+      "source": "AIN",
+      "target": "CRWS",
+      "weight": 2
+    },
+    {
+      "source": "AIN",
+      "target": "TILE",
+      "weight": 1
+    },
+    {
+      "source": "AIN",
+      "target": "UFI",
+      "weight": 1
+    },
+    {
+      "source": "AIN",
+      "target": "XRM",
+      "weight": 96
+    },
+    {
+      "source": "CRWS",
+      "target": "CULP",
+      "weight": 106
+    },
+    {
+      "source": "CRWS",
+      "target": "DXYN",
+      "weight": 8
+    },
+    {
+      "source": "CRWS",
+      "target": "XRM",
+      "weight": 2
+    },
+    {
+      "source": "CULP",
+      "target": "DXYN",
+      "weight": 1
+    },
+    {
+      "source": "CULP",
+      "target": "UFI",
+      "weight": 3
+    },
+    {
+      "source": "DXYN",
+      "target": "UFI",
+      "weight": 2
+    },
+    {
+      "source": "DXYN",
+      "target": "TILE",
+      "weight": 1
+    },
+    {
+      "source": "TILE",
+      "target": "UFI",
+      "weight": 2
+    }
+  ]
+}

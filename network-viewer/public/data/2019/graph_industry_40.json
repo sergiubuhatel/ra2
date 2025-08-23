@@ -1,0 +1,5803 @@
+{
+  "nodes": [
+    {
+      "id": "AAL",
+      "label": "AAL",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.002615481466135779,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.4409101265454366,
+      "harmonic_centrality": 26.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 13811
+    },
+    {
+      "id": "AAWW",
+      "label": "AAWW",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.032252125645050714,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.001915853193413206,
+      "harmonic_centrality": 31.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 366
+    },
+    {
+      "id": "AIRT",
+      "label": "AIRT",
+      "industry": "Trans",
+      "degree_centrality": 0.39655172413793105,
+      "betweenness_centrality": 0.0012892940154378687,
+      "closeness_centrality": 0.6075164664858582,
+      "eigenvector_centrality": 0.0006029501530250418,
+      "harmonic_centrality": 24.41666666666666,
+      "eccentricity": 0.0,
+      "degree": 23,
+      "weighted_degree": 234
+    },
+    {
+      "id": "ALGT",
+      "label": "ALGT",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.01620278105980993,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.08598622720707896,
+      "harmonic_centrality": 31.499999999999996,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 2991
+    },
+    {
+      "id": "ALK",
+      "label": "ALK",
+      "industry": "Trans",
+      "degree_centrality": 0.7413793103448276,
+      "betweenness_centrality": 0.015187225195976525,
+      "closeness_centrality": 0.7836081959020491,
+      "eigenvector_centrality": 0.23816097039658435,
+      "harmonic_centrality": 30.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 7588
+    },
+    {
+      "id": "ARCB",
+      "label": "ARCB",
+      "industry": "Trans",
+      "degree_centrality": 0.7413793103448276,
+      "betweenness_centrality": 0.029198402592231994,
+      "closeness_centrality": 0.7836081959020491,
+      "eigenvector_centrality": 0.0018521456997251178,
+      "harmonic_centrality": 31.24999999999999,
+      "eccentricity": 0.0,
+      "degree": 43,
+      "weighted_degree": 451
+    },
+    {
+      "id": "ATSG",
+      "label": "ATSG",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.035932495951218286,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.002093269272881517,
+      "harmonic_centrality": 32.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 514
+    },
+    {
+      "id": "CHRW",
+      "label": "CHRW",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.002710101621172402,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.02021151669344703,
+      "harmonic_centrality": 24.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 1968
+    },
+    {
+      "id": "CSX",
+      "label": "CSX",
+      "industry": "Trans",
+      "degree_centrality": 0.8275862068965517,
+      "betweenness_centrality": 0.03426227534024251,
+      "closeness_centrality": 0.8448275862068966,
+      "eigenvector_centrality": 0.09524875322788919,
+      "harmonic_centrality": 32.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 48,
+      "weighted_degree": 5722
+    },
+    {
+      "id": "CVTI",
+      "label": "CVTI",
+      "industry": "Trans",
+      "degree_centrality": 0.5862068965517241,
+      "betweenness_centrality": 0.0036589148567369983,
+      "closeness_centrality": 0.6931918656056587,
+      "eigenvector_centrality": 0.0016227835511437986,
+      "harmonic_centrality": 26.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 301
+    },
+    {
+      "id": "DAL",
+      "label": "DAL",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.008763036751726242,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.4331520645513029,
+      "harmonic_centrality": 28.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 14323
+    },
+    {
+      "id": "ENLC",
+      "label": "ENLC",
+      "industry": "Trans",
+      "degree_centrality": 0.48275862068965514,
+      "betweenness_centrality": 0.02425813051728219,
+      "closeness_centrality": 0.6436781609195402,
+      "eigenvector_centrality": 0.0007052132157118774,
+      "harmonic_centrality": 30.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 28,
+      "weighted_degree": 143
+    },
+    {
+      "id": "EXPD",
+      "label": "EXPD",
+      "industry": "Trans",
+      "degree_centrality": 0.7068965517241379,
+      "betweenness_centrality": 0.004620499589891014,
+      "closeness_centrality": 0.761534725594949,
+      "eigenvector_centrality": 0.006424722834250598,
+      "harmonic_centrality": 27.666666666666657,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 760
+    },
+    {
+      "id": "FDX",
+      "label": "FDX",
+      "industry": "Trans",
+      "degree_centrality": 0.8620689655172413,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8720800889877642,
+      "eigenvector_centrality": 0.07612775259994302,
+      "harmonic_centrality": 23.083333333333325,
+      "eccentricity": 0.0,
+      "degree": 50,
+      "weighted_degree": 5634
+    },
+    {
+      "id": "FRPH",
+      "label": "FRPH",
+      "industry": "Trans",
+      "degree_centrality": 0.3275862068965517,
+      "betweenness_centrality": 0.1065891064547859,
+      "closeness_centrality": 0.5813867259918428,
+      "eigenvector_centrality": 0.0001621623536975171,
+      "harmonic_centrality": 36.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 20
+    },
+    {
+      "id": "FWRD",
+      "label": "FWRD",
+      "industry": "Trans",
+      "degree_centrality": 0.5,
+      "betweenness_centrality": 0.01394401570527182,
+      "closeness_centrality": 0.6514333194848358,
+      "eigenvector_centrality": 0.000611445866760599,
+      "harmonic_centrality": 29.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 128
+    },
+    {
+      "id": "GNK",
+      "label": "GNK",
+      "industry": "Trans",
+      "degree_centrality": 0.24137931034482757,
+      "betweenness_centrality": 0.004140603667779138,
+      "closeness_centrality": 0.546151166840822,
+      "eigenvector_centrality": 0.0001998765393126199,
+      "harmonic_centrality": 24.249999999999993,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 67
+    },
+    {
+      "id": "GWR",
+      "label": "GWR",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.027754702587542392,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.004211229819970072,
+      "harmonic_centrality": 30.33333333333332,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 613
+    },
+    {
+      "id": "HA",
+      "label": "HA",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.019292605987155455,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.12962824956596072,
+      "harmonic_centrality": 30.166666666666657,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 4030
+    },
+    {
+      "id": "HTLD",
+      "label": "HTLD",
+      "industry": "Trans",
+      "degree_centrality": 0.6896551724137931,
+      "betweenness_centrality": 0.0440793061283248,
+      "closeness_centrality": 0.7509578544061303,
+      "eigenvector_centrality": 0.000752070851910101,
+      "harmonic_centrality": 32.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 311
+    },
+    {
+      "id": "HUBG",
+      "label": "HUBG",
+      "industry": "Trans",
+      "degree_centrality": 0.6551724137931034,
+      "betweenness_centrality": 0.009399910602269948,
+      "closeness_centrality": 0.7306616961789376,
+      "eigenvector_centrality": 0.0007769731264473119,
+      "harmonic_centrality": 28.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 38,
+      "weighted_degree": 306
+    },
+    {
+      "id": "IOVA",
+      "label": "IOVA",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.04030605179202159,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.001912154036128364,
+      "harmonic_centrality": 32.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 198
+    },
+    {
+      "id": "JBHT",
+      "label": "JBHT",
+      "industry": "Trans",
+      "degree_centrality": 0.8448275862068966,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8582375478927203,
+      "eigenvector_centrality": 0.057396611283644615,
+      "harmonic_centrality": 24.16666666666666,
+      "eccentricity": 0.0,
+      "degree": 49,
+      "weighted_degree": 3990
+    },
+    {
+      "id": "JBLU",
+      "label": "JBLU",
+      "industry": "Trans",
+      "degree_centrality": 0.6896551724137931,
+      "betweenness_centrality": 0.004077940498355489,
+      "closeness_centrality": 0.7509578544061303,
+      "eigenvector_centrality": 0.29405746531833277,
+      "harmonic_centrality": 27.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 40,
+      "weighted_degree": 9256
+    },
+    {
+      "id": "KEX",
+      "label": "KEX",
+      "industry": "Trans",
+      "degree_centrality": 0.5689655172413793,
+      "betweenness_centrality": 0.0023952601811041015,
+      "closeness_centrality": 0.6758620689655173,
+      "eigenvector_centrality": 0.006919772788954886,
+      "harmonic_centrality": 24.416666666666657,
+      "eccentricity": 0.0,
+      "degree": 33,
+      "weighted_degree": 605
+    },
+    {
+      "id": "KNX",
+      "label": "KNX",
+      "industry": "Trans",
+      "degree_centrality": 0.8275862068965517,
+      "betweenness_centrality": 0.006612053505770626,
+      "closeness_centrality": 0.8448275862068966,
+      "eigenvector_centrality": 0.010174426582792093,
+      "harmonic_centrality": 29.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 48,
+      "weighted_degree": 1290
+    },
+    {
+      "id": "KSU",
+      "label": "KSU",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.009921479772103184,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.027132868712443137,
+      "harmonic_centrality": 27.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 2656
+    },
+    {
+      "id": "LSTR",
+      "label": "LSTR",
+      "industry": "Trans",
+      "degree_centrality": 0.8103448275862069,
+      "betweenness_centrality": 0.0070390957096946195,
+      "closeness_centrality": 0.8318302387267905,
+      "eigenvector_centrality": 0.011161294856231817,
+      "harmonic_centrality": 28.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 47,
+      "weighted_degree": 1310
+    },
+    {
+      "id": "LUV",
+      "label": "LUV",
+      "industry": "Trans",
+      "degree_centrality": 0.7068965517241379,
+      "betweenness_centrality": 0.023149695707342485,
+      "closeness_centrality": 0.761534725594949,
+      "eigenvector_centrality": 0.44327013014656846,
+      "harmonic_centrality": 30.333333333333325,
+      "eccentricity": 0.0,
+      "degree": 41,
+      "weighted_degree": 14382
+    },
+    {
+      "id": "MATX",
+      "label": "MATX",
+      "industry": "Trans",
+      "degree_centrality": 0.41379310344827586,
+      "betweenness_centrality": 0.005992283086437913,
+      "closeness_centrality": 0.6144200626959248,
+      "eigenvector_centrality": 0.004652748367881066,
+      "harmonic_centrality": 27.166666666666657,
+      "eccentricity": 0.0,
+      "degree": 24,
+      "weighted_degree": 532
+    },
+    {
+      "id": "MRTN",
+      "label": "MRTN",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.02820646628006453,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.0032878049464219257,
+      "harmonic_centrality": 30.49999999999999,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 359
+    },
+    {
+      "id": "NSC",
+      "label": "NSC",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.005924777324739775,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.03632645007904857,
+      "harmonic_centrality": 28.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 3377
+    },
+    {
+      "id": "ODFL",
+      "label": "ODFL",
+      "industry": "Trans",
+      "degree_centrality": 0.7931034482758621,
+      "betweenness_centrality": 0.02723607731844404,
+      "closeness_centrality": 0.819226750261233,
+      "eigenvector_centrality": 0.01356970793972813,
+      "harmonic_centrality": 32.833333333333336,
+      "eccentricity": 0.0,
+      "degree": 46,
+      "weighted_degree": 949
+    },
+    {
+      "id": "OMEX",
+      "label": "OMEX",
+      "industry": "Trans",
+      "degree_centrality": 0.10344827586206896,
+      "betweenness_centrality": 0.0027211307965973003,
+      "closeness_centrality": 0.5006385696040868,
+      "eigenvector_centrality": 4.245407141593944e-06,
+      "harmonic_centrality": 26.24999999999999,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 21
+    },
+    {
+      "id": "OSG",
+      "label": "OSG",
+      "industry": "Trans",
+      "degree_centrality": 0.22413793103448276,
+      "betweenness_centrality": 0.011609312244520956,
+      "closeness_centrality": 0.546151166840822,
+      "eigenvector_centrality": 0.0001305722175847962,
+      "harmonic_centrality": 27.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 83
+    },
+    {
+      "id": "PHII",
+      "label": "PHII",
+      "industry": "Trans",
+      "degree_centrality": 0.25862068965517243,
+      "betweenness_centrality": 0.02086729983579506,
+      "closeness_centrality": 0.5574120156416636,
+      "eigenvector_centrality": 6.685780974734929e-05,
+      "harmonic_centrality": 30.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 15,
+      "weighted_degree": 60
+    },
+    {
+      "id": "PHIIK",
+      "label": "PHIIK",
+      "industry": "Trans",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.078193795400297e-41,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "PTSI",
+      "label": "PTSI",
+      "industry": "Trans",
+      "degree_centrality": 0.5344827586206896,
+      "betweenness_centrality": 0.029698622735206945,
+      "closeness_centrality": 0.6675180928054492,
+      "eigenvector_centrality": 0.00024783793338319175,
+      "harmonic_centrality": 29.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 156
+    },
+    {
+      "id": "RLGT",
+      "label": "RLGT",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.06707721747734838,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.0004921605874016044,
+      "harmonic_centrality": 35.0,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 123
+    },
+    {
+      "id": "RRTS",
+      "label": "RRTS",
+      "industry": "Trans",
+      "degree_centrality": 0.5517241379310345,
+      "betweenness_centrality": 0.0036197833001450244,
+      "closeness_centrality": 0.6758620689655173,
+      "eigenvector_centrality": 0.00047348052037683356,
+      "harmonic_centrality": 25.416666666666657,
+      "eccentricity": 0.0,
+      "degree": 32,
+      "weighted_degree": 187
+    },
+    {
+      "id": "SAIA",
+      "label": "SAIA",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.03272944186283568,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.0008601381051863362,
+      "harmonic_centrality": 31.999999999999996,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 372
+    },
+    {
+      "id": "SAVE",
+      "label": "SAVE",
+      "industry": "Trans",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 2.078193795400297e-41,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "SEMG",
+      "label": "SEMG",
+      "industry": "Trans",
+      "degree_centrality": 0.5344827586206896,
+      "betweenness_centrality": 0.06430146239618742,
+      "closeness_centrality": 0.6675180928054492,
+      "eigenvector_centrality": 0.0012434311360902705,
+      "harmonic_centrality": 34.0,
+      "eccentricity": 0.0,
+      "degree": 31,
+      "weighted_degree": 134
+    },
+    {
+      "id": "SKYW",
+      "label": "SKYW",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.002310177219433118,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.10601343944267928,
+      "harmonic_centrality": 24.416666666666664,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 3504
+    },
+    {
+      "id": "SMHI",
+      "label": "SMHI",
+      "industry": "Trans",
+      "degree_centrality": 0.22413793103448276,
+      "betweenness_centrality": 0.004039553967228487,
+      "closeness_centrality": 0.546151166840822,
+      "eigenvector_centrality": 1.4070919440695223e-05,
+      "harmonic_centrality": 27.83333333333333,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 22
+    },
+    {
+      "id": "SNDR",
+      "label": "SNDR",
+      "industry": "Trans",
+      "degree_centrality": 0.6724137931034483,
+      "betweenness_centrality": 0.00846950979332596,
+      "closeness_centrality": 0.7406707605101559,
+      "eigenvector_centrality": 0.0023129790346967313,
+      "harmonic_centrality": 28.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 39,
+      "weighted_degree": 572
+    },
+    {
+      "id": "SPCE",
+      "label": "SPCE",
+      "industry": "Trans",
+      "degree_centrality": 0.3275862068965517,
+      "betweenness_centrality": 0.008388611049323631,
+      "closeness_centrality": 0.5813867259918428,
+      "eigenvector_centrality": 0.0011478114108840985,
+      "harmonic_centrality": 26.666666666666657,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 75
+    },
+    {
+      "id": "SRE",
+      "label": "SRE",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.06496207908137303,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.0024164260800443697,
+      "harmonic_centrality": 34.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 163
+    },
+    {
+      "id": "TDW",
+      "label": "TDW",
+      "industry": "Trans",
+      "degree_centrality": 0.3448275862068966,
+      "betweenness_centrality": 0.028073889219768184,
+      "closeness_centrality": 0.5877061469265368,
+      "eigenvector_centrality": 0.000612970700170115,
+      "harmonic_centrality": 31.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 60
+    },
+    {
+      "id": "UAL",
+      "label": "UAL",
+      "industry": "Trans",
+      "degree_centrality": 0.7241379310344828,
+      "betweenness_centrality": 0.00494175673672583,
+      "closeness_centrality": 0.7724137931034484,
+      "eigenvector_centrality": 0.4461770083395507,
+      "harmonic_centrality": 28.333333333333325,
+      "eccentricity": 0.0,
+      "degree": 42,
+      "weighted_degree": 15831
+    },
+    {
+      "id": "UBER",
+      "label": "UBER",
+      "industry": "Trans",
+      "degree_centrality": 0.6206896551724138,
+      "betweenness_centrality": 0.0036195405554100414,
+      "closeness_centrality": 0.7114337568058076,
+      "eigenvector_centrality": 0.06919956419098017,
+      "harmonic_centrality": 26.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 36,
+      "weighted_degree": 2346
+    },
+    {
+      "id": "ULH",
+      "label": "ULH",
+      "industry": "Trans",
+      "degree_centrality": 0.43103448275862066,
+      "betweenness_centrality": 0.009776356600313042,
+      "closeness_centrality": 0.6214823622671423,
+      "eigenvector_centrality": 0.0003898590021053839,
+      "harmonic_centrality": 25.166666666666654,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 155
+    },
+    {
+      "id": "UNP",
+      "label": "UNP",
+      "industry": "Trans",
+      "degree_centrality": 0.8103448275862069,
+      "betweenness_centrality": 0.01590408952477918,
+      "closeness_centrality": 0.8318302387267905,
+      "eigenvector_centrality": 0.10034996608118321,
+      "harmonic_centrality": 26.833333333333318,
+      "eccentricity": 0.0,
+      "degree": 47,
+      "weighted_degree": 5627
+    },
+    {
+      "id": "UPS",
+      "label": "UPS",
+      "industry": "Trans",
+      "degree_centrality": 0.8620689655172413,
+      "betweenness_centrality": 0.0014353042937434951,
+      "closeness_centrality": 0.8720800889877642,
+      "eigenvector_centrality": 0.08679232078581947,
+      "harmonic_centrality": 22.666666666666664,
+      "eccentricity": 0.0,
+      "degree": 50,
+      "weighted_degree": 5851
+    },
+    {
+      "id": "USAK",
+      "label": "USAK",
+      "industry": "Trans",
+      "degree_centrality": 0.603448275862069,
+      "betweenness_centrality": 0.018026866725124324,
+      "closeness_centrality": 0.7021943573667712,
+      "eigenvector_centrality": 0.0006874463265332177,
+      "harmonic_centrality": 30.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 35,
+      "weighted_degree": 339
+    },
+    {
+      "id": "USX",
+      "label": "USX",
+      "industry": "Trans",
+      "degree_centrality": 0.46551724137931033,
+      "betweenness_centrality": 0.01939564442984663,
+      "closeness_centrality": 0.636105476673428,
+      "eigenvector_centrality": 0.0002830248164048336,
+      "harmonic_centrality": 30.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 27,
+      "weighted_degree": 125
+    },
+    {
+      "id": "WERN",
+      "label": "WERN",
+      "industry": "Trans",
+      "degree_centrality": 0.7586206896551724,
+      "betweenness_centrality": 0.0024956691386067444,
+      "closeness_centrality": 0.795131845841785,
+      "eigenvector_centrality": 0.0025443291204308377,
+      "harmonic_centrality": 27.999999999999993,
+      "eccentricity": 0.0,
+      "degree": 44,
+      "weighted_degree": 708
+    },
+    {
+      "id": "XPO",
+      "label": "XPO",
+      "industry": "Trans",
+      "degree_centrality": 0.8275862068965517,
+      "betweenness_centrality": 0.004027174512655458,
+      "closeness_centrality": 0.8448275862068966,
+      "eigenvector_centrality": 0.012856932845622598,
+      "harmonic_centrality": 24.99999999999999,
+      "eccentricity": 0.0,
+      "degree": 48,
+      "weighted_degree": 1467
+    },
+    {
+      "id": "YRCW",
+      "label": "YRCW",
+      "industry": "Trans",
+      "degree_centrality": 0.7241379310344828,
+      "betweenness_centrality": 0.00435160305849961,
+      "closeness_centrality": 0.7724137931034484,
+      "eigenvector_centrality": 0.003278631282358614,
+      "harmonic_centrality": 26.166666666666657,
+      "eccentricity": 0.0,
+      "degree": 42,
+      "weighted_degree": 564
+    }
+  ],
+  "edges": [
+    {
+      "source": "AAL",
+      "target": "USAK",
+      "weight": 3
+    },
+    {
+      "source": "AAL",
+      "target": "ODFL",
+      "weight": 111
+    },
+    {
+      "source": "AAL",
+      "target": "FDX",
+      "weight": 185
+    },
+    {
+      "source": "AAL",
+      "target": "KEX",
+      "weight": 23
+    },
+    {
+      "source": "AAL",
+      "target": "NSC",
+      "weight": 54
+    },
+    {
+      "source": "AAL",
+      "target": "WERN",
+      "weight": 4
+    },
+    {
+      "source": "AAL",
+      "target": "LUV",
+      "weight": 3158
+    },
+    {
+      "source": "AAL",
+      "target": "JBLU",
+      "weight": 1710
+    },
+    {
+      "source": "AAL",
+      "target": "SPCE",
+      "weight": 9
+    },
+    {
+      "source": "AAL",
+      "target": "HTLD",
+      "weight": 2
+    },
+    {
+      "source": "AAL",
+      "target": "ALK",
+      "weight": 1118
+    },
+    {
+      "source": "AAL",
+      "target": "HUBG",
+      "weight": 1
+    },
+    {
+      "source": "AAL",
+      "target": "SEMG",
+      "weight": 9
+    },
+    {
+      "source": "AAL",
+      "target": "CHRW",
+      "weight": 32
+    },
+    {
+      "source": "AAL",
+      "target": "SRE",
+      "weight": 6
+    },
+    {
+      "source": "AAL",
+      "target": "HA",
+      "weight": 560
+    },
+    {
+      "source": "AAL",
+      "target": "UAL",
+      "weight": 2446
+    },
+    {
+      "source": "AAL",
+      "target": "KSU",
+      "weight": 17
+    },
+    {
+      "source": "AAL",
+      "target": "XPO",
+      "weight": 19
+    },
+    {
+      "source": "AAL",
+      "target": "ULH",
+      "weight": 2
+    },
+    {
+      "source": "AAL",
+      "target": "SKYW",
+      "weight": 490
+    },
+    {
+      "source": "AAL",
+      "target": "MATX",
+      "weight": 14
+    },
+    {
+      "source": "AAL",
+      "target": "UNP",
+      "weight": 405
+    },
+    {
+      "source": "AAL",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "AAL",
+      "target": "UBER",
+      "weight": 137
+    },
+    {
+      "source": "AAL",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "AAL",
+      "target": "GWR",
+      "weight": 1
+    },
+    {
+      "source": "AAL",
+      "target": "FRPH",
+      "weight": 1
+    },
+    {
+      "source": "AAL",
+      "target": "ARCB",
+      "weight": 3
+    },
+    {
+      "source": "AAL",
+      "target": "YRCW",
+      "weight": 5
+    },
+    {
+      "source": "AAL",
+      "target": "GNK",
+      "weight": 2
+    },
+    {
+      "source": "AAL",
+      "target": "MRTN",
+      "weight": 3
+    },
+    {
+      "source": "AAL",
+      "target": "LSTR",
+      "weight": 11
+    },
+    {
+      "source": "AAL",
+      "target": "ATSG",
+      "weight": 6
+    },
+    {
+      "source": "AAL",
+      "target": "AAWW",
+      "weight": 17
+    },
+    {
+      "source": "AAL",
+      "target": "DAL",
+      "weight": 2452
+    },
+    {
+      "source": "AAL",
+      "target": "EXPD",
+      "weight": 18
+    },
+    {
+      "source": "AAL",
+      "target": "UPS",
+      "weight": 226
+    },
+    {
+      "source": "AAL",
+      "target": "IOVA",
+      "weight": 10
+    },
+    {
+      "source": "AAL",
+      "target": "JBHT",
+      "weight": 52
+    },
+    {
+      "source": "AAL",
+      "target": "ALGT",
+      "weight": 331
+    },
+    {
+      "source": "AAL",
+      "target": "CSX",
+      "weight": 122
+    },
+    {
+      "source": "AAL",
+      "target": "KNX",
+      "weight": 29
+    },
+    {
+      "source": "AAL",
+      "target": "ENLC",
+      "weight": 4
+    },
+    {
+      "source": "AAWW",
+      "target": "HA",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "LUV",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "KSU",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "ALGT",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "ARCB",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "JBLU",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "SKYW",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "FWRD",
+      "weight": 4
+    },
+    {
+      "source": "AAWW",
+      "target": "DAL",
+      "weight": 7
+    },
+    {
+      "source": "AAWW",
+      "target": "ODFL",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "ATSG",
+      "weight": 186
+    },
+    {
+      "source": "AAWW",
+      "target": "ENLC",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "YRCW",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "CHRW",
+      "weight": 4
+    },
+    {
+      "source": "AAWW",
+      "target": "KNX",
+      "weight": 3
+    },
+    {
+      "source": "AAWW",
+      "target": "SEMG",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "FDX",
+      "weight": 47
+    },
+    {
+      "source": "AAWW",
+      "target": "EXPD",
+      "weight": 17
+    },
+    {
+      "source": "AAWW",
+      "target": "AIRT",
+      "weight": 3
+    },
+    {
+      "source": "AAWW",
+      "target": "LSTR",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "WERN",
+      "weight": 7
+    },
+    {
+      "source": "AAWW",
+      "target": "XPO",
+      "weight": 13
+    },
+    {
+      "source": "AAWW",
+      "target": "JBHT",
+      "weight": 3
+    },
+    {
+      "source": "AAWW",
+      "target": "HUBG",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "RLGT",
+      "weight": 5
+    },
+    {
+      "source": "AAWW",
+      "target": "USX",
+      "weight": 2
+    },
+    {
+      "source": "AAWW",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "UAL",
+      "weight": 3
+    },
+    {
+      "source": "AAWW",
+      "target": "KEX",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "UPS",
+      "weight": 13
+    },
+    {
+      "source": "AAWW",
+      "target": "ALK",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "FRPH",
+      "weight": 1
+    },
+    {
+      "source": "AAWW",
+      "target": "UBER",
+      "weight": 3
+    },
+    {
+      "source": "AAWW",
+      "target": "SAIA",
+      "weight": 3
+    },
+    {
+      "source": "AIRT",
+      "target": "FWRD",
+      "weight": 2
+    },
+    {
+      "source": "AIRT",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "AIRT",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "AIRT",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "AIRT",
+      "target": "EXPD",
+      "weight": 30
+    },
+    {
+      "source": "AIRT",
+      "target": "ODFL",
+      "weight": 7
+    },
+    {
+      "source": "AIRT",
+      "target": "XPO",
+      "weight": 13
+    },
+    {
+      "source": "AIRT",
+      "target": "WERN",
+      "weight": 7
+    },
+    {
+      "source": "AIRT",
+      "target": "USAK",
+      "weight": 7
+    },
+    {
+      "source": "AIRT",
+      "target": "YRCW",
+      "weight": 4
+    },
+    {
+      "source": "AIRT",
+      "target": "CHRW",
+      "weight": 38
+    },
+    {
+      "source": "AIRT",
+      "target": "ATSG",
+      "weight": 33
+    },
+    {
+      "source": "AIRT",
+      "target": "SPCE",
+      "weight": 3
+    },
+    {
+      "source": "AIRT",
+      "target": "SNDR",
+      "weight": 4
+    },
+    {
+      "source": "AIRT",
+      "target": "HUBG",
+      "weight": 10
+    },
+    {
+      "source": "AIRT",
+      "target": "LSTR",
+      "weight": 7
+    },
+    {
+      "source": "AIRT",
+      "target": "FDX",
+      "weight": 24
+    },
+    {
+      "source": "AIRT",
+      "target": "JBHT",
+      "weight": 9
+    },
+    {
+      "source": "AIRT",
+      "target": "CSX",
+      "weight": 3
+    },
+    {
+      "source": "AIRT",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "AIRT",
+      "target": "UPS",
+      "weight": 23
+    },
+    {
+      "source": "AIRT",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "ALGT",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "ALK",
+      "weight": 398
+    },
+    {
+      "source": "ALGT",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "FWRD",
+      "weight": 6
+    },
+    {
+      "source": "ALGT",
+      "target": "FDX",
+      "weight": 11
+    },
+    {
+      "source": "ALGT",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "KNX",
+      "weight": 3
+    },
+    {
+      "source": "ALGT",
+      "target": "UBER",
+      "weight": 5
+    },
+    {
+      "source": "ALGT",
+      "target": "JBLU",
+      "weight": 380
+    },
+    {
+      "source": "ALGT",
+      "target": "ATSG",
+      "weight": 4
+    },
+    {
+      "source": "ALGT",
+      "target": "HA",
+      "weight": 179
+    },
+    {
+      "source": "ALGT",
+      "target": "WERN",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "SKYW",
+      "weight": 296
+    },
+    {
+      "source": "ALGT",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "EXPD",
+      "weight": 12
+    },
+    {
+      "source": "ALGT",
+      "target": "UAL",
+      "weight": 345
+    },
+    {
+      "source": "ALGT",
+      "target": "IOVA",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "DAL",
+      "weight": 384
+    },
+    {
+      "source": "ALGT",
+      "target": "XPO",
+      "weight": 30
+    },
+    {
+      "source": "ALGT",
+      "target": "GWR",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "MRTN",
+      "weight": 3
+    },
+    {
+      "source": "ALGT",
+      "target": "ULH",
+      "weight": 8
+    },
+    {
+      "source": "ALGT",
+      "target": "LSTR",
+      "weight": 108
+    },
+    {
+      "source": "ALGT",
+      "target": "UNP",
+      "weight": 9
+    },
+    {
+      "source": "ALGT",
+      "target": "ARCB",
+      "weight": 66
+    },
+    {
+      "source": "ALGT",
+      "target": "CSX",
+      "weight": 5
+    },
+    {
+      "source": "ALGT",
+      "target": "CHRW",
+      "weight": 6
+    },
+    {
+      "source": "ALGT",
+      "target": "JBHT",
+      "weight": 3
+    },
+    {
+      "source": "ALGT",
+      "target": "KSU",
+      "weight": 18
+    },
+    {
+      "source": "ALGT",
+      "target": "UPS",
+      "weight": 11
+    },
+    {
+      "source": "ALGT",
+      "target": "NSC",
+      "weight": 1
+    },
+    {
+      "source": "ALGT",
+      "target": "LUV",
+      "weight": 360
+    },
+    {
+      "source": "ALK",
+      "target": "OSG",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "NSC",
+      "weight": 103
+    },
+    {
+      "source": "ALK",
+      "target": "SEMG",
+      "weight": 3
+    },
+    {
+      "source": "ALK",
+      "target": "CVTI",
+      "weight": 49
+    },
+    {
+      "source": "ALK",
+      "target": "KNX",
+      "weight": 10
+    },
+    {
+      "source": "ALK",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "MATX",
+      "weight": 15
+    },
+    {
+      "source": "ALK",
+      "target": "ATSG",
+      "weight": 2
+    },
+    {
+      "source": "ALK",
+      "target": "KSU",
+      "weight": 17
+    },
+    {
+      "source": "ALK",
+      "target": "CSX",
+      "weight": 40
+    },
+    {
+      "source": "ALK",
+      "target": "LSTR",
+      "weight": 11
+    },
+    {
+      "source": "ALK",
+      "target": "JBHT",
+      "weight": 44
+    },
+    {
+      "source": "ALK",
+      "target": "CHRW",
+      "weight": 21
+    },
+    {
+      "source": "ALK",
+      "target": "FWRD",
+      "weight": 11
+    },
+    {
+      "source": "ALK",
+      "target": "DAL",
+      "weight": 1082
+    },
+    {
+      "source": "ALK",
+      "target": "UNP",
+      "weight": 47
+    },
+    {
+      "source": "ALK",
+      "target": "EXPD",
+      "weight": 18
+    },
+    {
+      "source": "ALK",
+      "target": "UAL",
+      "weight": 1104
+    },
+    {
+      "source": "ALK",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "FRPH",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "UPS",
+      "weight": 36
+    },
+    {
+      "source": "ALK",
+      "target": "WERN",
+      "weight": 8
+    },
+    {
+      "source": "ALK",
+      "target": "FDX",
+      "weight": 49
+    },
+    {
+      "source": "ALK",
+      "target": "HUBG",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "ALK",
+      "target": "SKYW",
+      "weight": 537
+    },
+    {
+      "source": "ALK",
+      "target": "GWR",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "IOVA",
+      "weight": 2
+    },
+    {
+      "source": "ALK",
+      "target": "JBLU",
+      "weight": 1044
+    },
+    {
+      "source": "ALK",
+      "target": "LUV",
+      "weight": 1183
+    },
+    {
+      "source": "ALK",
+      "target": "SRE",
+      "weight": 6
+    },
+    {
+      "source": "ALK",
+      "target": "ODFL",
+      "weight": 2
+    },
+    {
+      "source": "ALK",
+      "target": "HA",
+      "weight": 561
+    },
+    {
+      "source": "ALK",
+      "target": "UBER",
+      "weight": 12
+    },
+    {
+      "source": "ALK",
+      "target": "ARCB",
+      "weight": 7
+    },
+    {
+      "source": "ALK",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "ULH",
+      "weight": 5
+    },
+    {
+      "source": "ALK",
+      "target": "XPO",
+      "weight": 8
+    },
+    {
+      "source": "ALK",
+      "target": "MRTN",
+      "weight": 1
+    },
+    {
+      "source": "ALK",
+      "target": "KEX",
+      "weight": 24
+    },
+    {
+      "source": "ARCB",
+      "target": "JBLU",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "JBHT",
+      "weight": 23
+    },
+    {
+      "source": "ARCB",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "USAK",
+      "weight": 11
+    },
+    {
+      "source": "ARCB",
+      "target": "USX",
+      "weight": 7
+    },
+    {
+      "source": "ARCB",
+      "target": "SEMG",
+      "weight": 3
+    },
+    {
+      "source": "ARCB",
+      "target": "KEX",
+      "weight": 12
+    },
+    {
+      "source": "ARCB",
+      "target": "HA",
+      "weight": 34
+    },
+    {
+      "source": "ARCB",
+      "target": "PTSI",
+      "weight": 8
+    },
+    {
+      "source": "ARCB",
+      "target": "KSU",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "UAL",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "HTLD",
+      "weight": 17
+    },
+    {
+      "source": "ARCB",
+      "target": "FRPH",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "CSX",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "MRTN",
+      "weight": 9
+    },
+    {
+      "source": "ARCB",
+      "target": "YRCW",
+      "weight": 25
+    },
+    {
+      "source": "ARCB",
+      "target": "LSTR",
+      "weight": 25
+    },
+    {
+      "source": "ARCB",
+      "target": "NSC",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "ATSG",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "RRTS",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "XPO",
+      "weight": 12
+    },
+    {
+      "source": "ARCB",
+      "target": "WERN",
+      "weight": 28
+    },
+    {
+      "source": "ARCB",
+      "target": "LUV",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "FDX",
+      "weight": 9
+    },
+    {
+      "source": "ARCB",
+      "target": "FWRD",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "UPS",
+      "weight": 6
+    },
+    {
+      "source": "ARCB",
+      "target": "SMHI",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "CVTI",
+      "weight": 14
+    },
+    {
+      "source": "ARCB",
+      "target": "EXPD",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "DAL",
+      "weight": 1
+    },
+    {
+      "source": "ARCB",
+      "target": "ULH",
+      "weight": 3
+    },
+    {
+      "source": "ARCB",
+      "target": "CHRW",
+      "weight": 7
+    },
+    {
+      "source": "ARCB",
+      "target": "SNDR",
+      "weight": 18
+    },
+    {
+      "source": "ARCB",
+      "target": "KNX",
+      "weight": 24
+    },
+    {
+      "source": "ARCB",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "ARCB",
+      "target": "SAIA",
+      "weight": 16
+    },
+    {
+      "source": "ARCB",
+      "target": "ODFL",
+      "weight": 28
+    },
+    {
+      "source": "ARCB",
+      "target": "HUBG",
+      "weight": 13
+    },
+    {
+      "source": "ATSG",
+      "target": "LSTR",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "GNK",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "FWRD",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "JBLU",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "EXPD",
+      "weight": 50
+    },
+    {
+      "source": "ATSG",
+      "target": "SAIA",
+      "weight": 3
+    },
+    {
+      "source": "ATSG",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "ENLC",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "KSU",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "HUBG",
+      "weight": 4
+    },
+    {
+      "source": "ATSG",
+      "target": "CVTI",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "FDX",
+      "weight": 61
+    },
+    {
+      "source": "ATSG",
+      "target": "XPO",
+      "weight": 7
+    },
+    {
+      "source": "ATSG",
+      "target": "CHRW",
+      "weight": 47
+    },
+    {
+      "source": "ATSG",
+      "target": "IOVA",
+      "weight": 4
+    },
+    {
+      "source": "ATSG",
+      "target": "UAL",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "HA",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "JBHT",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "CSX",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "UBER",
+      "weight": 4
+    },
+    {
+      "source": "ATSG",
+      "target": "HTLD",
+      "weight": 3
+    },
+    {
+      "source": "ATSG",
+      "target": "UPS",
+      "weight": 62
+    },
+    {
+      "source": "ATSG",
+      "target": "DAL",
+      "weight": 2
+    },
+    {
+      "source": "ATSG",
+      "target": "LUV",
+      "weight": 8
+    },
+    {
+      "source": "ATSG",
+      "target": "SPCE",
+      "weight": 1
+    },
+    {
+      "source": "ATSG",
+      "target": "GWR",
+      "weight": 3
+    },
+    {
+      "source": "ATSG",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "CHRW",
+      "target": "IOVA",
+      "weight": 4
+    },
+    {
+      "source": "CHRW",
+      "target": "LUV",
+      "weight": 79
+    },
+    {
+      "source": "CHRW",
+      "target": "XPO",
+      "weight": 67
+    },
+    {
+      "source": "CHRW",
+      "target": "EXPD",
+      "weight": 159
+    },
+    {
+      "source": "CHRW",
+      "target": "FDX",
+      "weight": 144
+    },
+    {
+      "source": "CHRW",
+      "target": "KSU",
+      "weight": 73
+    },
+    {
+      "source": "CHRW",
+      "target": "UAL",
+      "weight": 74
+    },
+    {
+      "source": "CHRW",
+      "target": "RRTS",
+      "weight": 6
+    },
+    {
+      "source": "CHRW",
+      "target": "DAL",
+      "weight": 77
+    },
+    {
+      "source": "CHRW",
+      "target": "SNDR",
+      "weight": 14
+    },
+    {
+      "source": "CHRW",
+      "target": "CSX",
+      "weight": 90
+    },
+    {
+      "source": "CHRW",
+      "target": "HA",
+      "weight": 20
+    },
+    {
+      "source": "CHRW",
+      "target": "NSC",
+      "weight": 82
+    },
+    {
+      "source": "CHRW",
+      "target": "UBER",
+      "weight": 21
+    },
+    {
+      "source": "CHRW",
+      "target": "WERN",
+      "weight": 26
+    },
+    {
+      "source": "CHRW",
+      "target": "CVTI",
+      "weight": 6
+    },
+    {
+      "source": "CHRW",
+      "target": "MRTN",
+      "weight": 1
+    },
+    {
+      "source": "CHRW",
+      "target": "ODFL",
+      "weight": 35
+    },
+    {
+      "source": "CHRW",
+      "target": "LSTR",
+      "weight": 96
+    },
+    {
+      "source": "CHRW",
+      "target": "HUBG",
+      "weight": 13
+    },
+    {
+      "source": "CHRW",
+      "target": "YRCW",
+      "weight": 9
+    },
+    {
+      "source": "CHRW",
+      "target": "KNX",
+      "weight": 19
+    },
+    {
+      "source": "CHRW",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "CHRW",
+      "target": "GWR",
+      "weight": 3
+    },
+    {
+      "source": "CHRW",
+      "target": "MATX",
+      "weight": 65
+    },
+    {
+      "source": "CHRW",
+      "target": "ENLC",
+      "weight": 2
+    },
+    {
+      "source": "CHRW",
+      "target": "SAIA",
+      "weight": 21
+    },
+    {
+      "source": "CHRW",
+      "target": "RLGT",
+      "weight": 3
+    },
+    {
+      "source": "CHRW",
+      "target": "USAK",
+      "weight": 10
+    },
+    {
+      "source": "CHRW",
+      "target": "JBHT",
+      "weight": 161
+    },
+    {
+      "source": "CHRW",
+      "target": "FWRD",
+      "weight": 5
+    },
+    {
+      "source": "CHRW",
+      "target": "ULH",
+      "weight": 1
+    },
+    {
+      "source": "CHRW",
+      "target": "KEX",
+      "weight": 68
+    },
+    {
+      "source": "CHRW",
+      "target": "JBLU",
+      "weight": 66
+    },
+    {
+      "source": "CHRW",
+      "target": "UNP",
+      "weight": 105
+    },
+    {
+      "source": "CHRW",
+      "target": "UPS",
+      "weight": 176
+    },
+    {
+      "source": "CHRW",
+      "target": "SKYW",
+      "weight": 11
+    },
+    {
+      "source": "CSX",
+      "target": "SAIA",
+      "weight": 4
+    },
+    {
+      "source": "CSX",
+      "target": "SRE",
+      "weight": 8
+    },
+    {
+      "source": "CSX",
+      "target": "HA",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "UBER",
+      "weight": 32
+    },
+    {
+      "source": "CSX",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "UNP",
+      "weight": 1225
+    },
+    {
+      "source": "CSX",
+      "target": "KNX",
+      "weight": 33
+    },
+    {
+      "source": "CSX",
+      "target": "SMHI",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "CVTI",
+      "weight": 2
+    },
+    {
+      "source": "CSX",
+      "target": "LSTR",
+      "weight": 14
+    },
+    {
+      "source": "CSX",
+      "target": "SNDR",
+      "weight": 3
+    },
+    {
+      "source": "CSX",
+      "target": "NSC",
+      "weight": 628
+    },
+    {
+      "source": "CSX",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "ENLC",
+      "weight": 10
+    },
+    {
+      "source": "CSX",
+      "target": "LUV",
+      "weight": 68
+    },
+    {
+      "source": "CSX",
+      "target": "SKYW",
+      "weight": 7
+    },
+    {
+      "source": "CSX",
+      "target": "ODFL",
+      "weight": 2
+    },
+    {
+      "source": "CSX",
+      "target": "IOVA",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "GWR",
+      "weight": 108
+    },
+    {
+      "source": "CSX",
+      "target": "MRTN",
+      "weight": 40
+    },
+    {
+      "source": "CSX",
+      "target": "YRCW",
+      "weight": 8
+    },
+    {
+      "source": "CSX",
+      "target": "DAL",
+      "weight": 183
+    },
+    {
+      "source": "CSX",
+      "target": "UPS",
+      "weight": 202
+    },
+    {
+      "source": "CSX",
+      "target": "KSU",
+      "weight": 483
+    },
+    {
+      "source": "CSX",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "CSX",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "SPCE",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "OSG",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "FDX",
+      "weight": 174
+    },
+    {
+      "source": "CSX",
+      "target": "XPO",
+      "weight": 19
+    },
+    {
+      "source": "CSX",
+      "target": "HUBG",
+      "weight": 4
+    },
+    {
+      "source": "CSX",
+      "target": "WERN",
+      "weight": 8
+    },
+    {
+      "source": "CSX",
+      "target": "JBLU",
+      "weight": 31
+    },
+    {
+      "source": "CSX",
+      "target": "RRTS",
+      "weight": 2
+    },
+    {
+      "source": "CSX",
+      "target": "UAL",
+      "weight": 1263
+    },
+    {
+      "source": "CSX",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "CSX",
+      "target": "FWRD",
+      "weight": 2
+    },
+    {
+      "source": "CSX",
+      "target": "JBHT",
+      "weight": 821
+    },
+    {
+      "source": "CSX",
+      "target": "MATX",
+      "weight": 17
+    },
+    {
+      "source": "CSX",
+      "target": "KEX",
+      "weight": 28
+    },
+    {
+      "source": "CSX",
+      "target": "EXPD",
+      "weight": 20
+    },
+    {
+      "source": "CVTI",
+      "target": "USAK",
+      "weight": 27
+    },
+    {
+      "source": "CVTI",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "CVTI",
+      "target": "UAL",
+      "weight": 1
+    },
+    {
+      "source": "CVTI",
+      "target": "ODFL",
+      "weight": 8
+    },
+    {
+      "source": "CVTI",
+      "target": "KNX",
+      "weight": 25
+    },
+    {
+      "source": "CVTI",
+      "target": "SNDR",
+      "weight": 16
+    },
+    {
+      "source": "CVTI",
+      "target": "SAIA",
+      "weight": 7
+    },
+    {
+      "source": "CVTI",
+      "target": "LSTR",
+      "weight": 9
+    },
+    {
+      "source": "CVTI",
+      "target": "HA",
+      "weight": 7
+    },
+    {
+      "source": "CVTI",
+      "target": "WERN",
+      "weight": 17
+    },
+    {
+      "source": "CVTI",
+      "target": "YRCW",
+      "weight": 11
+    },
+    {
+      "source": "CVTI",
+      "target": "GWR",
+      "weight": 3
+    },
+    {
+      "source": "CVTI",
+      "target": "LUV",
+      "weight": 1
+    },
+    {
+      "source": "CVTI",
+      "target": "KSU",
+      "weight": 2
+    },
+    {
+      "source": "CVTI",
+      "target": "PTSI",
+      "weight": 6
+    },
+    {
+      "source": "CVTI",
+      "target": "HUBG",
+      "weight": 8
+    },
+    {
+      "source": "CVTI",
+      "target": "NSC",
+      "weight": 3
+    },
+    {
+      "source": "CVTI",
+      "target": "MRTN",
+      "weight": 16
+    },
+    {
+      "source": "CVTI",
+      "target": "ULH",
+      "weight": 5
+    },
+    {
+      "source": "CVTI",
+      "target": "SKYW",
+      "weight": 4
+    },
+    {
+      "source": "CVTI",
+      "target": "HTLD",
+      "weight": 15
+    },
+    {
+      "source": "CVTI",
+      "target": "UPS",
+      "weight": 6
+    },
+    {
+      "source": "CVTI",
+      "target": "IOVA",
+      "weight": 1
+    },
+    {
+      "source": "CVTI",
+      "target": "JBHT",
+      "weight": 12
+    },
+    {
+      "source": "CVTI",
+      "target": "XPO",
+      "weight": 4
+    },
+    {
+      "source": "CVTI",
+      "target": "FDX",
+      "weight": 4
+    },
+    {
+      "source": "CVTI",
+      "target": "USX",
+      "weight": 6
+    },
+    {
+      "source": "CVTI",
+      "target": "GNK",
+      "weight": 2
+    },
+    {
+      "source": "CVTI",
+      "target": "ENLC",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "LSTR",
+      "weight": 14
+    },
+    {
+      "source": "DAL",
+      "target": "MATX",
+      "weight": 14
+    },
+    {
+      "source": "DAL",
+      "target": "SKYW",
+      "weight": 352
+    },
+    {
+      "source": "DAL",
+      "target": "SNDR",
+      "weight": 11
+    },
+    {
+      "source": "DAL",
+      "target": "GNK",
+      "weight": 2
+    },
+    {
+      "source": "DAL",
+      "target": "ENLC",
+      "weight": 2
+    },
+    {
+      "source": "DAL",
+      "target": "SRE",
+      "weight": 16
+    },
+    {
+      "source": "DAL",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "WERN",
+      "weight": 6
+    },
+    {
+      "source": "DAL",
+      "target": "UNP",
+      "weight": 103
+    },
+    {
+      "source": "DAL",
+      "target": "UAL",
+      "weight": 3107
+    },
+    {
+      "source": "DAL",
+      "target": "UBER",
+      "weight": 503
+    },
+    {
+      "source": "DAL",
+      "target": "JBLU",
+      "weight": 1298
+    },
+    {
+      "source": "DAL",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "IOVA",
+      "weight": 14
+    },
+    {
+      "source": "DAL",
+      "target": "UPS",
+      "weight": 593
+    },
+    {
+      "source": "DAL",
+      "target": "XPO",
+      "weight": 72
+    },
+    {
+      "source": "DAL",
+      "target": "KNX",
+      "weight": 50
+    },
+    {
+      "source": "DAL",
+      "target": "HUBG",
+      "weight": 2
+    },
+    {
+      "source": "DAL",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "SPCE",
+      "weight": 7
+    },
+    {
+      "source": "DAL",
+      "target": "EXPD",
+      "weight": 21
+    },
+    {
+      "source": "DAL",
+      "target": "JBHT",
+      "weight": 342
+    },
+    {
+      "source": "DAL",
+      "target": "KEX",
+      "weight": 25
+    },
+    {
+      "source": "DAL",
+      "target": "FWRD",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "KSU",
+      "weight": 38
+    },
+    {
+      "source": "DAL",
+      "target": "YRCW",
+      "weight": 11
+    },
+    {
+      "source": "DAL",
+      "target": "FDX",
+      "weight": 446
+    },
+    {
+      "source": "DAL",
+      "target": "LUV",
+      "weight": 2438
+    },
+    {
+      "source": "DAL",
+      "target": "NSC",
+      "weight": 126
+    },
+    {
+      "source": "DAL",
+      "target": "HA",
+      "weight": 494
+    },
+    {
+      "source": "DAL",
+      "target": "ODFL",
+      "weight": 13
+    },
+    {
+      "source": "DAL",
+      "target": "SEMG",
+      "weight": 2
+    },
+    {
+      "source": "DAL",
+      "target": "GWR",
+      "weight": 7
+    },
+    {
+      "source": "DAL",
+      "target": "MRTN",
+      "weight": 1
+    },
+    {
+      "source": "DAL",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "XPO",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "SEMG",
+      "weight": 58
+    },
+    {
+      "source": "ENLC",
+      "target": "JBLU",
+      "weight": 4
+    },
+    {
+      "source": "ENLC",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "KNX",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "KSU",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "SPCE",
+      "weight": 18
+    },
+    {
+      "source": "ENLC",
+      "target": "YRCW",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "IOVA",
+      "weight": 4
+    },
+    {
+      "source": "ENLC",
+      "target": "LUV",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "EXPD",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "NSC",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "FDX",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "ENLC",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "GWR",
+      "weight": 4
+    },
+    {
+      "source": "ENLC",
+      "target": "UNP",
+      "weight": 6
+    },
+    {
+      "source": "ENLC",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "ENLC",
+      "target": "UBER",
+      "weight": 3
+    },
+    {
+      "source": "ENLC",
+      "target": "JBHT",
+      "weight": 4
+    },
+    {
+      "source": "ENLC",
+      "target": "RRTS",
+      "weight": 2
+    },
+    {
+      "source": "EXPD",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "EXPD",
+      "target": "IOVA",
+      "weight": 7
+    },
+    {
+      "source": "EXPD",
+      "target": "JBLU",
+      "weight": 12
+    },
+    {
+      "source": "EXPD",
+      "target": "NSC",
+      "weight": 18
+    },
+    {
+      "source": "EXPD",
+      "target": "UAL",
+      "weight": 10
+    },
+    {
+      "source": "EXPD",
+      "target": "LUV",
+      "weight": 26
+    },
+    {
+      "source": "EXPD",
+      "target": "MATX",
+      "weight": 7
+    },
+    {
+      "source": "EXPD",
+      "target": "KSU",
+      "weight": 12
+    },
+    {
+      "source": "EXPD",
+      "target": "RRTS",
+      "weight": 8
+    },
+    {
+      "source": "EXPD",
+      "target": "KNX",
+      "weight": 3
+    },
+    {
+      "source": "EXPD",
+      "target": "XPO",
+      "weight": 23
+    },
+    {
+      "source": "EXPD",
+      "target": "UBER",
+      "weight": 4
+    },
+    {
+      "source": "EXPD",
+      "target": "ODFL",
+      "weight": 4
+    },
+    {
+      "source": "EXPD",
+      "target": "UPS",
+      "weight": 81
+    },
+    {
+      "source": "EXPD",
+      "target": "OSG",
+      "weight": 1
+    },
+    {
+      "source": "EXPD",
+      "target": "LSTR",
+      "weight": 13
+    },
+    {
+      "source": "EXPD",
+      "target": "HUBG",
+      "weight": 11
+    },
+    {
+      "source": "EXPD",
+      "target": "HA",
+      "weight": 6
+    },
+    {
+      "source": "EXPD",
+      "target": "SKYW",
+      "weight": 8
+    },
+    {
+      "source": "EXPD",
+      "target": "GWR",
+      "weight": 2
+    },
+    {
+      "source": "EXPD",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "EXPD",
+      "target": "RLGT",
+      "weight": 3
+    },
+    {
+      "source": "EXPD",
+      "target": "FDX",
+      "weight": 75
+    },
+    {
+      "source": "EXPD",
+      "target": "KEX",
+      "weight": 12
+    },
+    {
+      "source": "EXPD",
+      "target": "WERN",
+      "weight": 5
+    },
+    {
+      "source": "EXPD",
+      "target": "JBHT",
+      "weight": 27
+    },
+    {
+      "source": "EXPD",
+      "target": "FWRD",
+      "weight": 10
+    },
+    {
+      "source": "EXPD",
+      "target": "SNDR",
+      "weight": 4
+    },
+    {
+      "source": "EXPD",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "EXPD",
+      "target": "UNP",
+      "weight": 17
+    },
+    {
+      "source": "FDX",
+      "target": "WERN",
+      "weight": 16
+    },
+    {
+      "source": "FDX",
+      "target": "XPO",
+      "weight": 203
+    },
+    {
+      "source": "FDX",
+      "target": "MATX",
+      "weight": 69
+    },
+    {
+      "source": "FDX",
+      "target": "HUBG",
+      "weight": 4
+    },
+    {
+      "source": "FDX",
+      "target": "KSU",
+      "weight": 91
+    },
+    {
+      "source": "FDX",
+      "target": "KEX",
+      "weight": 81
+    },
+    {
+      "source": "FDX",
+      "target": "USX",
+      "weight": 2
+    },
+    {
+      "source": "FDX",
+      "target": "SKYW",
+      "weight": 4
+    },
+    {
+      "source": "FDX",
+      "target": "IOVA",
+      "weight": 11
+    },
+    {
+      "source": "FDX",
+      "target": "SPCE",
+      "weight": 5
+    },
+    {
+      "source": "FDX",
+      "target": "HA",
+      "weight": 17
+    },
+    {
+      "source": "FDX",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "FDX",
+      "target": "PTSI",
+      "weight": 3
+    },
+    {
+      "source": "FDX",
+      "target": "NSC",
+      "weight": 160
+    },
+    {
+      "source": "FDX",
+      "target": "UNP",
+      "weight": 219
+    },
+    {
+      "source": "FDX",
+      "target": "RLGT",
+      "weight": 21
+    },
+    {
+      "source": "FDX",
+      "target": "UAL",
+      "weight": 222
+    },
+    {
+      "source": "FDX",
+      "target": "FWRD",
+      "weight": 10
+    },
+    {
+      "source": "FDX",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "FDX",
+      "target": "SAIA",
+      "weight": 12
+    },
+    {
+      "source": "FDX",
+      "target": "HTLD",
+      "weight": 7
+    },
+    {
+      "source": "FDX",
+      "target": "ULH",
+      "weight": 2
+    },
+    {
+      "source": "FDX",
+      "target": "UPS",
+      "weight": 2230
+    },
+    {
+      "source": "FDX",
+      "target": "YRCW",
+      "weight": 22
+    },
+    {
+      "source": "FDX",
+      "target": "LUV",
+      "weight": 207
+    },
+    {
+      "source": "FDX",
+      "target": "LSTR",
+      "weight": 77
+    },
+    {
+      "source": "FDX",
+      "target": "RRTS",
+      "weight": 13
+    },
+    {
+      "source": "FDX",
+      "target": "USAK",
+      "weight": 3
+    },
+    {
+      "source": "FDX",
+      "target": "GWR",
+      "weight": 3
+    },
+    {
+      "source": "FDX",
+      "target": "ODFL",
+      "weight": 23
+    },
+    {
+      "source": "FDX",
+      "target": "SNDR",
+      "weight": 8
+    },
+    {
+      "source": "FDX",
+      "target": "JBHT",
+      "weight": 155
+    },
+    {
+      "source": "FDX",
+      "target": "MRTN",
+      "weight": 2
+    },
+    {
+      "source": "FDX",
+      "target": "KNX",
+      "weight": 46
+    },
+    {
+      "source": "FDX",
+      "target": "SRE",
+      "weight": 13
+    },
+    {
+      "source": "FDX",
+      "target": "JBLU",
+      "weight": 94
+    },
+    {
+      "source": "FDX",
+      "target": "UBER",
+      "weight": 346
+    },
+    {
+      "source": "FRPH",
+      "target": "MRTN",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "LUV",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "YRCW",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "WERN",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "UAL",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "JBHT",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "GWR",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "IOVA",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "XPO",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "KNX",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "LSTR",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "HTLD",
+      "weight": 1
+    },
+    {
+      "source": "FRPH",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "LSTR",
+      "weight": 3
+    },
+    {
+      "source": "FWRD",
+      "target": "IOVA",
+      "weight": 7
+    },
+    {
+      "source": "FWRD",
+      "target": "KSU",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "XPO",
+      "weight": 10
+    },
+    {
+      "source": "FWRD",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "SMHI",
+      "weight": 2
+    },
+    {
+      "source": "FWRD",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "RRTS",
+      "weight": 7
+    },
+    {
+      "source": "FWRD",
+      "target": "HUBG",
+      "weight": 10
+    },
+    {
+      "source": "FWRD",
+      "target": "JBHT",
+      "weight": 5
+    },
+    {
+      "source": "FWRD",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "FWRD",
+      "target": "UPS",
+      "weight": 6
+    },
+    {
+      "source": "FWRD",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "LUV",
+      "weight": 1
+    },
+    {
+      "source": "FWRD",
+      "target": "KNX",
+      "weight": 2
+    },
+    {
+      "source": "FWRD",
+      "target": "WERN",
+      "weight": 11
+    },
+    {
+      "source": "FWRD",
+      "target": "KEX",
+      "weight": 3
+    },
+    {
+      "source": "FWRD",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "GNK",
+      "target": "KEX",
+      "weight": 15
+    },
+    {
+      "source": "GNK",
+      "target": "MATX",
+      "weight": 18
+    },
+    {
+      "source": "GNK",
+      "target": "HUBG",
+      "weight": 2
+    },
+    {
+      "source": "GNK",
+      "target": "LSTR",
+      "weight": 3
+    },
+    {
+      "source": "GNK",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "GNK",
+      "target": "UPS",
+      "weight": 1
+    },
+    {
+      "source": "GNK",
+      "target": "SMHI",
+      "weight": 3
+    },
+    {
+      "source": "GNK",
+      "target": "OSG",
+      "weight": 12
+    },
+    {
+      "source": "GNK",
+      "target": "MRTN",
+      "weight": 3
+    },
+    {
+      "source": "GNK",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "SKYW",
+      "weight": 2
+    },
+    {
+      "source": "GWR",
+      "target": "LSTR",
+      "weight": 3
+    },
+    {
+      "source": "GWR",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "UAL",
+      "weight": 6
+    },
+    {
+      "source": "GWR",
+      "target": "OMEX",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "SRE",
+      "weight": 2
+    },
+    {
+      "source": "GWR",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "GWR",
+      "target": "HA",
+      "weight": 2
+    },
+    {
+      "source": "GWR",
+      "target": "KNX",
+      "weight": 4
+    },
+    {
+      "source": "GWR",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "GWR",
+      "target": "UBER",
+      "weight": 7
+    },
+    {
+      "source": "GWR",
+      "target": "KSU",
+      "weight": 112
+    },
+    {
+      "source": "GWR",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "UNP",
+      "weight": 139
+    },
+    {
+      "source": "GWR",
+      "target": "WERN",
+      "weight": 5
+    },
+    {
+      "source": "GWR",
+      "target": "IOVA",
+      "weight": 6
+    },
+    {
+      "source": "GWR",
+      "target": "XPO",
+      "weight": 6
+    },
+    {
+      "source": "GWR",
+      "target": "UPS",
+      "weight": 1
+    },
+    {
+      "source": "GWR",
+      "target": "NSC",
+      "weight": 164
+    },
+    {
+      "source": "GWR",
+      "target": "LUV",
+      "weight": 4
+    },
+    {
+      "source": "GWR",
+      "target": "JBHT",
+      "weight": 2
+    },
+    {
+      "source": "GWR",
+      "target": "JBLU",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "HA",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "HA",
+      "target": "YRCW",
+      "weight": 7
+    },
+    {
+      "source": "HA",
+      "target": "HTLD",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "HA",
+      "target": "SRE",
+      "weight": 6
+    },
+    {
+      "source": "HA",
+      "target": "SKYW",
+      "weight": 299
+    },
+    {
+      "source": "HA",
+      "target": "KNX",
+      "weight": 10
+    },
+    {
+      "source": "HA",
+      "target": "JBLU",
+      "weight": 550
+    },
+    {
+      "source": "HA",
+      "target": "UBER",
+      "weight": 1
+    },
+    {
+      "source": "HA",
+      "target": "XPO",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "HUBG",
+      "weight": 7
+    },
+    {
+      "source": "HA",
+      "target": "UAL",
+      "weight": 549
+    },
+    {
+      "source": "HA",
+      "target": "NSC",
+      "weight": 9
+    },
+    {
+      "source": "HA",
+      "target": "WERN",
+      "weight": 12
+    },
+    {
+      "source": "HA",
+      "target": "LUV",
+      "weight": 663
+    },
+    {
+      "source": "HA",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "LSTR",
+      "weight": 1
+    },
+    {
+      "source": "HA",
+      "target": "JBHT",
+      "weight": 2
+    },
+    {
+      "source": "HA",
+      "target": "UPS",
+      "weight": 16
+    },
+    {
+      "source": "HA",
+      "target": "RRTS",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "OMEX",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "USX",
+      "weight": 3
+    },
+    {
+      "source": "HTLD",
+      "target": "MRTN",
+      "weight": 23
+    },
+    {
+      "source": "HTLD",
+      "target": "JBHT",
+      "weight": 29
+    },
+    {
+      "source": "HTLD",
+      "target": "WERN",
+      "weight": 28
+    },
+    {
+      "source": "HTLD",
+      "target": "KNX",
+      "weight": 38
+    },
+    {
+      "source": "HTLD",
+      "target": "JBLU",
+      "weight": 4
+    },
+    {
+      "source": "HTLD",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "USAK",
+      "weight": 10
+    },
+    {
+      "source": "HTLD",
+      "target": "PTSI",
+      "weight": 11
+    },
+    {
+      "source": "HTLD",
+      "target": "HUBG",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "UNP",
+      "weight": 5
+    },
+    {
+      "source": "HTLD",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "HTLD",
+      "target": "SAIA",
+      "weight": 13
+    },
+    {
+      "source": "HTLD",
+      "target": "SKYW",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "KSU",
+      "weight": 4
+    },
+    {
+      "source": "HTLD",
+      "target": "ODFL",
+      "weight": 14
+    },
+    {
+      "source": "HTLD",
+      "target": "SPCE",
+      "weight": 2
+    },
+    {
+      "source": "HTLD",
+      "target": "SNDR",
+      "weight": 11
+    },
+    {
+      "source": "HTLD",
+      "target": "SEMG",
+      "weight": 2
+    },
+    {
+      "source": "HTLD",
+      "target": "NSC",
+      "weight": 2
+    },
+    {
+      "source": "HTLD",
+      "target": "ULH",
+      "weight": 8
+    },
+    {
+      "source": "HTLD",
+      "target": "LSTR",
+      "weight": 23
+    },
+    {
+      "source": "HTLD",
+      "target": "UPS",
+      "weight": 11
+    },
+    {
+      "source": "HTLD",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "HTLD",
+      "target": "IOVA",
+      "weight": 3
+    },
+    {
+      "source": "HTLD",
+      "target": "YRCW",
+      "weight": 7
+    },
+    {
+      "source": "HUBG",
+      "target": "YRCW",
+      "weight": 6
+    },
+    {
+      "source": "HUBG",
+      "target": "ODFL",
+      "weight": 22
+    },
+    {
+      "source": "HUBG",
+      "target": "USAK",
+      "weight": 7
+    },
+    {
+      "source": "HUBG",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "HUBG",
+      "target": "WERN",
+      "weight": 17
+    },
+    {
+      "source": "HUBG",
+      "target": "NSC",
+      "weight": 5
+    },
+    {
+      "source": "HUBG",
+      "target": "UPS",
+      "weight": 8
+    },
+    {
+      "source": "HUBG",
+      "target": "SKYW",
+      "weight": 8
+    },
+    {
+      "source": "HUBG",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "HUBG",
+      "target": "KNX",
+      "weight": 10
+    },
+    {
+      "source": "HUBG",
+      "target": "KSU",
+      "weight": 1
+    },
+    {
+      "source": "HUBG",
+      "target": "RRTS",
+      "weight": 4
+    },
+    {
+      "source": "HUBG",
+      "target": "UBER",
+      "weight": 2
+    },
+    {
+      "source": "HUBG",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "HUBG",
+      "target": "SNDR",
+      "weight": 15
+    },
+    {
+      "source": "HUBG",
+      "target": "XPO",
+      "weight": 23
+    },
+    {
+      "source": "HUBG",
+      "target": "KEX",
+      "weight": 4
+    },
+    {
+      "source": "HUBG",
+      "target": "IOVA",
+      "weight": 4
+    },
+    {
+      "source": "HUBG",
+      "target": "SAIA",
+      "weight": 28
+    },
+    {
+      "source": "HUBG",
+      "target": "MRTN",
+      "weight": 3
+    },
+    {
+      "source": "HUBG",
+      "target": "JBHT",
+      "weight": 28
+    },
+    {
+      "source": "HUBG",
+      "target": "LSTR",
+      "weight": 15
+    },
+    {
+      "source": "IOVA",
+      "target": "SPCE",
+      "weight": 4
+    },
+    {
+      "source": "IOVA",
+      "target": "JBLU",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "RRTS",
+      "weight": 7
+    },
+    {
+      "source": "IOVA",
+      "target": "UBER",
+      "weight": 49
+    },
+    {
+      "source": "IOVA",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "SEMG",
+      "weight": 2
+    },
+    {
+      "source": "IOVA",
+      "target": "NSC",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "KSU",
+      "weight": 4
+    },
+    {
+      "source": "IOVA",
+      "target": "LSTR",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "JBHT",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "UNP",
+      "weight": 10
+    },
+    {
+      "source": "IOVA",
+      "target": "UAL",
+      "weight": 5
+    },
+    {
+      "source": "IOVA",
+      "target": "SRE",
+      "weight": 4
+    },
+    {
+      "source": "IOVA",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "IOVA",
+      "target": "SKYW",
+      "weight": 1
+    },
+    {
+      "source": "IOVA",
+      "target": "XPO",
+      "weight": 14
+    },
+    {
+      "source": "IOVA",
+      "target": "KNX",
+      "weight": 9
+    },
+    {
+      "source": "IOVA",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "JBHT",
+      "target": "XPO",
+      "weight": 118
+    },
+    {
+      "source": "JBHT",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "JBHT",
+      "target": "SAIA",
+      "weight": 23
+    },
+    {
+      "source": "JBHT",
+      "target": "SRE",
+      "weight": 8
+    },
+    {
+      "source": "JBHT",
+      "target": "SEMG",
+      "weight": 3
+    },
+    {
+      "source": "JBHT",
+      "target": "MRTN",
+      "weight": 23
+    },
+    {
+      "source": "JBHT",
+      "target": "NSC",
+      "weight": 115
+    },
+    {
+      "source": "JBHT",
+      "target": "JBLU",
+      "weight": 72
+    },
+    {
+      "source": "JBHT",
+      "target": "UPS",
+      "weight": 162
+    },
+    {
+      "source": "JBHT",
+      "target": "KNX",
+      "weight": 146
+    },
+    {
+      "source": "JBHT",
+      "target": "PTSI",
+      "weight": 13
+    },
+    {
+      "source": "JBHT",
+      "target": "ODFL",
+      "weight": 77
+    },
+    {
+      "source": "JBHT",
+      "target": "UAL",
+      "weight": 468
+    },
+    {
+      "source": "JBHT",
+      "target": "ULH",
+      "weight": 5
+    },
+    {
+      "source": "JBHT",
+      "target": "UBER",
+      "weight": 17
+    },
+    {
+      "source": "JBHT",
+      "target": "MATX",
+      "weight": 65
+    },
+    {
+      "source": "JBHT",
+      "target": "SNDR",
+      "weight": 84
+    },
+    {
+      "source": "JBHT",
+      "target": "YRCW",
+      "weight": 37
+    },
+    {
+      "source": "JBHT",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "JBHT",
+      "target": "UNP",
+      "weight": 200
+    },
+    {
+      "source": "JBHT",
+      "target": "KEX",
+      "weight": 73
+    },
+    {
+      "source": "JBHT",
+      "target": "KSU",
+      "weight": 211
+    },
+    {
+      "source": "JBHT",
+      "target": "USX",
+      "weight": 15
+    },
+    {
+      "source": "JBHT",
+      "target": "USAK",
+      "weight": 30
+    },
+    {
+      "source": "JBHT",
+      "target": "LSTR",
+      "weight": 134
+    },
+    {
+      "source": "JBHT",
+      "target": "SKYW",
+      "weight": 2
+    },
+    {
+      "source": "JBHT",
+      "target": "LUV",
+      "weight": 86
+    },
+    {
+      "source": "JBHT",
+      "target": "WERN",
+      "weight": 72
+    },
+    {
+      "source": "JBLU",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "JBLU",
+      "target": "LUV",
+      "weight": 1561
+    },
+    {
+      "source": "JBLU",
+      "target": "KEX",
+      "weight": 19
+    },
+    {
+      "source": "JBLU",
+      "target": "SKYW",
+      "weight": 525
+    },
+    {
+      "source": "JBLU",
+      "target": "UAL",
+      "weight": 1306
+    },
+    {
+      "source": "JBLU",
+      "target": "SNDR",
+      "weight": 5
+    },
+    {
+      "source": "JBLU",
+      "target": "KSU",
+      "weight": 10
+    },
+    {
+      "source": "JBLU",
+      "target": "SEMG",
+      "weight": 9
+    },
+    {
+      "source": "JBLU",
+      "target": "KNX",
+      "weight": 22
+    },
+    {
+      "source": "JBLU",
+      "target": "LSTR",
+      "weight": 10
+    },
+    {
+      "source": "JBLU",
+      "target": "WERN",
+      "weight": 7
+    },
+    {
+      "source": "JBLU",
+      "target": "YRCW",
+      "weight": 6
+    },
+    {
+      "source": "JBLU",
+      "target": "MATX",
+      "weight": 6
+    },
+    {
+      "source": "JBLU",
+      "target": "NSC",
+      "weight": 35
+    },
+    {
+      "source": "JBLU",
+      "target": "SAIA",
+      "weight": 1
+    },
+    {
+      "source": "JBLU",
+      "target": "XPO",
+      "weight": 42
+    },
+    {
+      "source": "JBLU",
+      "target": "SPCE",
+      "weight": 4
+    },
+    {
+      "source": "JBLU",
+      "target": "UNP",
+      "weight": 160
+    },
+    {
+      "source": "JBLU",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "JBLU",
+      "target": "UPS",
+      "weight": 219
+    },
+    {
+      "source": "JBLU",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "JBLU",
+      "target": "UBER",
+      "weight": 25
+    },
+    {
+      "source": "JBLU",
+      "target": "SRE",
+      "weight": 7
+    },
+    {
+      "source": "KEX",
+      "target": "UPS",
+      "weight": 25
+    },
+    {
+      "source": "KEX",
+      "target": "OSG",
+      "weight": 4
+    },
+    {
+      "source": "KEX",
+      "target": "KSU",
+      "weight": 8
+    },
+    {
+      "source": "KEX",
+      "target": "MATX",
+      "weight": 41
+    },
+    {
+      "source": "KEX",
+      "target": "SMHI",
+      "weight": 2
+    },
+    {
+      "source": "KEX",
+      "target": "KNX",
+      "weight": 7
+    },
+    {
+      "source": "KEX",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "KEX",
+      "target": "WERN",
+      "weight": 3
+    },
+    {
+      "source": "KEX",
+      "target": "UNP",
+      "weight": 25
+    },
+    {
+      "source": "KEX",
+      "target": "SKYW",
+      "weight": 1
+    },
+    {
+      "source": "KEX",
+      "target": "UAL",
+      "weight": 15
+    },
+    {
+      "source": "KEX",
+      "target": "ODFL",
+      "weight": 7
+    },
+    {
+      "source": "KEX",
+      "target": "SNDR",
+      "weight": 3
+    },
+    {
+      "source": "KEX",
+      "target": "XPO",
+      "weight": 11
+    },
+    {
+      "source": "KEX",
+      "target": "SEMG",
+      "weight": 3
+    },
+    {
+      "source": "KEX",
+      "target": "LSTR",
+      "weight": 10
+    },
+    {
+      "source": "KEX",
+      "target": "NSC",
+      "weight": 22
+    },
+    {
+      "source": "KEX",
+      "target": "LUV",
+      "weight": 27
+    },
+    {
+      "source": "KEX",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "KNX",
+      "target": "SPCE",
+      "weight": 1
+    },
+    {
+      "source": "KNX",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "KNX",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "KNX",
+      "target": "USX",
+      "weight": 13
+    },
+    {
+      "source": "KNX",
+      "target": "SNDR",
+      "weight": 79
+    },
+    {
+      "source": "KNX",
+      "target": "LSTR",
+      "weight": 43
+    },
+    {
+      "source": "KNX",
+      "target": "LUV",
+      "weight": 20
+    },
+    {
+      "source": "KNX",
+      "target": "SAIA",
+      "weight": 29
+    },
+    {
+      "source": "KNX",
+      "target": "UAL",
+      "weight": 51
+    },
+    {
+      "source": "KNX",
+      "target": "UBER",
+      "weight": 16
+    },
+    {
+      "source": "KNX",
+      "target": "PTSI",
+      "weight": 14
+    },
+    {
+      "source": "KNX",
+      "target": "XPO",
+      "weight": 158
+    },
+    {
+      "source": "KNX",
+      "target": "SKYW",
+      "weight": 9
+    },
+    {
+      "source": "KNX",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "KNX",
+      "target": "USAK",
+      "weight": 24
+    },
+    {
+      "source": "KNX",
+      "target": "UPS",
+      "weight": 42
+    },
+    {
+      "source": "KNX",
+      "target": "ODFL",
+      "weight": 54
+    },
+    {
+      "source": "KNX",
+      "target": "WERN",
+      "weight": 89
+    },
+    {
+      "source": "KNX",
+      "target": "UNP",
+      "weight": 21
+    },
+    {
+      "source": "KNX",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "KNX",
+      "target": "KSU",
+      "weight": 12
+    },
+    {
+      "source": "KNX",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "KNX",
+      "target": "YRCW",
+      "weight": 24
+    },
+    {
+      "source": "KNX",
+      "target": "MRTN",
+      "weight": 33
+    },
+    {
+      "source": "KNX",
+      "target": "ULH",
+      "weight": 13
+    },
+    {
+      "source": "KNX",
+      "target": "NSC",
+      "weight": 42
+    },
+    {
+      "source": "KSU",
+      "target": "NSC",
+      "weight": 452
+    },
+    {
+      "source": "KSU",
+      "target": "LSTR",
+      "weight": 66
+    },
+    {
+      "source": "KSU",
+      "target": "SRE",
+      "weight": 7
+    },
+    {
+      "source": "KSU",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "KSU",
+      "target": "UNP",
+      "weight": 534
+    },
+    {
+      "source": "KSU",
+      "target": "SAIA",
+      "weight": 3
+    },
+    {
+      "source": "KSU",
+      "target": "XPO",
+      "weight": 7
+    },
+    {
+      "source": "KSU",
+      "target": "MATX",
+      "weight": 59
+    },
+    {
+      "source": "KSU",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "KSU",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "KSU",
+      "target": "SKYW",
+      "weight": 2
+    },
+    {
+      "source": "KSU",
+      "target": "UAL",
+      "weight": 152
+    },
+    {
+      "source": "KSU",
+      "target": "YRCW",
+      "weight": 3
+    },
+    {
+      "source": "KSU",
+      "target": "UBER",
+      "weight": 25
+    },
+    {
+      "source": "KSU",
+      "target": "SNDR",
+      "weight": 5
+    },
+    {
+      "source": "KSU",
+      "target": "MRTN",
+      "weight": 28
+    },
+    {
+      "source": "KSU",
+      "target": "USAK",
+      "weight": 2
+    },
+    {
+      "source": "KSU",
+      "target": "LUV",
+      "weight": 74
+    },
+    {
+      "source": "KSU",
+      "target": "UPS",
+      "weight": 94
+    },
+    {
+      "source": "KSU",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "KSU",
+      "target": "WERN",
+      "weight": 12
+    },
+    {
+      "source": "KSU",
+      "target": "ODFL",
+      "weight": 4
+    },
+    {
+      "source": "LSTR",
+      "target": "LUV",
+      "weight": 62
+    },
+    {
+      "source": "LSTR",
+      "target": "SNDR",
+      "weight": 31
+    },
+    {
+      "source": "LSTR",
+      "target": "SAIA",
+      "weight": 14
+    },
+    {
+      "source": "LSTR",
+      "target": "MATX",
+      "weight": 57
+    },
+    {
+      "source": "LSTR",
+      "target": "USAK",
+      "weight": 22
+    },
+    {
+      "source": "LSTR",
+      "target": "USX",
+      "weight": 6
+    },
+    {
+      "source": "LSTR",
+      "target": "ULH",
+      "weight": 4
+    },
+    {
+      "source": "LSTR",
+      "target": "WERN",
+      "weight": 38
+    },
+    {
+      "source": "LSTR",
+      "target": "ODFL",
+      "weight": 46
+    },
+    {
+      "source": "LSTR",
+      "target": "UPS",
+      "weight": 72
+    },
+    {
+      "source": "LSTR",
+      "target": "PTSI",
+      "weight": 9
+    },
+    {
+      "source": "LSTR",
+      "target": "MRTN",
+      "weight": 11
+    },
+    {
+      "source": "LSTR",
+      "target": "NSC",
+      "weight": 62
+    },
+    {
+      "source": "LSTR",
+      "target": "UBER",
+      "weight": 1
+    },
+    {
+      "source": "LSTR",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "LSTR",
+      "target": "UNP",
+      "weight": 63
+    },
+    {
+      "source": "LSTR",
+      "target": "UAL",
+      "weight": 60
+    },
+    {
+      "source": "LSTR",
+      "target": "SMHI",
+      "weight": 2
+    },
+    {
+      "source": "LSTR",
+      "target": "XPO",
+      "weight": 30
+    },
+    {
+      "source": "LSTR",
+      "target": "YRCW",
+      "weight": 15
+    },
+    {
+      "source": "LSTR",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "LUV",
+      "target": "MATX",
+      "weight": 15
+    },
+    {
+      "source": "LUV",
+      "target": "MRTN",
+      "weight": 10
+    },
+    {
+      "source": "LUV",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "LUV",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "LUV",
+      "target": "RRTS",
+      "weight": 1
+    },
+    {
+      "source": "LUV",
+      "target": "SKYW",
+      "weight": 427
+    },
+    {
+      "source": "LUV",
+      "target": "SPCE",
+      "weight": 4
+    },
+    {
+      "source": "LUV",
+      "target": "SEMG",
+      "weight": 4
+    },
+    {
+      "source": "LUV",
+      "target": "SRE",
+      "weight": 6
+    },
+    {
+      "source": "LUV",
+      "target": "WERN",
+      "weight": 1
+    },
+    {
+      "source": "LUV",
+      "target": "NSC",
+      "weight": 75
+    },
+    {
+      "source": "LUV",
+      "target": "UPS",
+      "weight": 251
+    },
+    {
+      "source": "LUV",
+      "target": "UAL",
+      "weight": 2512
+    },
+    {
+      "source": "LUV",
+      "target": "ODFL",
+      "weight": 157
+    },
+    {
+      "source": "LUV",
+      "target": "XPO",
+      "weight": 26
+    },
+    {
+      "source": "LUV",
+      "target": "UBER",
+      "weight": 429
+    },
+    {
+      "source": "LUV",
+      "target": "UNP",
+      "weight": 429
+    },
+    {
+      "source": "LUV",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "MATX",
+      "target": "NSC",
+      "weight": 15
+    },
+    {
+      "source": "MATX",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "MATX",
+      "target": "OSG",
+      "weight": 6
+    },
+    {
+      "source": "MATX",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "MATX",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "MATX",
+      "target": "UNP",
+      "weight": 15
+    },
+    {
+      "source": "MATX",
+      "target": "UPS",
+      "weight": 15
+    },
+    {
+      "source": "MATX",
+      "target": "ODFL",
+      "weight": 1
+    },
+    {
+      "source": "MATX",
+      "target": "UAL",
+      "weight": 14
+    },
+    {
+      "source": "MATX",
+      "target": "ULH",
+      "weight": 1
+    },
+    {
+      "source": "MRTN",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "MRTN",
+      "target": "SNDR",
+      "weight": 9
+    },
+    {
+      "source": "MRTN",
+      "target": "SAIA",
+      "weight": 4
+    },
+    {
+      "source": "MRTN",
+      "target": "USX",
+      "weight": 6
+    },
+    {
+      "source": "MRTN",
+      "target": "ODFL",
+      "weight": 7
+    },
+    {
+      "source": "MRTN",
+      "target": "WERN",
+      "weight": 16
+    },
+    {
+      "source": "MRTN",
+      "target": "OSG",
+      "weight": 1
+    },
+    {
+      "source": "MRTN",
+      "target": "USAK",
+      "weight": 17
+    },
+    {
+      "source": "MRTN",
+      "target": "ULH",
+      "weight": 6
+    },
+    {
+      "source": "MRTN",
+      "target": "SKYW",
+      "weight": 2
+    },
+    {
+      "source": "MRTN",
+      "target": "UAL",
+      "weight": 45
+    },
+    {
+      "source": "MRTN",
+      "target": "PTSI",
+      "weight": 14
+    },
+    {
+      "source": "MRTN",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "MRTN",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "MRTN",
+      "target": "XPO",
+      "weight": 6
+    },
+    {
+      "source": "MRTN",
+      "target": "NSC",
+      "weight": 1
+    },
+    {
+      "source": "MRTN",
+      "target": "YRCW",
+      "weight": 7
+    },
+    {
+      "source": "MRTN",
+      "target": "PHII",
+      "weight": 3
+    },
+    {
+      "source": "NSC",
+      "target": "OSG",
+      "weight": 12
+    },
+    {
+      "source": "NSC",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "NSC",
+      "target": "UBER",
+      "weight": 14
+    },
+    {
+      "source": "NSC",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "NSC",
+      "target": "XPO",
+      "weight": 32
+    },
+    {
+      "source": "NSC",
+      "target": "RLGT",
+      "weight": 10
+    },
+    {
+      "source": "NSC",
+      "target": "SAIA",
+      "weight": 4
+    },
+    {
+      "source": "NSC",
+      "target": "UNP",
+      "weight": 709
+    },
+    {
+      "source": "NSC",
+      "target": "UPS",
+      "weight": 294
+    },
+    {
+      "source": "NSC",
+      "target": "USX",
+      "weight": 2
+    },
+    {
+      "source": "NSC",
+      "target": "SKYW",
+      "weight": 10
+    },
+    {
+      "source": "NSC",
+      "target": "SNDR",
+      "weight": 4
+    },
+    {
+      "source": "NSC",
+      "target": "ODFL",
+      "weight": 3
+    },
+    {
+      "source": "NSC",
+      "target": "UAL",
+      "weight": 80
+    },
+    {
+      "source": "NSC",
+      "target": "RRTS",
+      "weight": 3
+    },
+    {
+      "source": "NSC",
+      "target": "SRE",
+      "weight": 7
+    },
+    {
+      "source": "NSC",
+      "target": "USAK",
+      "weight": 2
+    },
+    {
+      "source": "NSC",
+      "target": "YRCW",
+      "weight": 5
+    },
+    {
+      "source": "NSC",
+      "target": "WERN",
+      "weight": 5
+    },
+    {
+      "source": "ODFL",
+      "target": "SEMG",
+      "weight": 1
+    },
+    {
+      "source": "ODFL",
+      "target": "SAIA",
+      "weight": 39
+    },
+    {
+      "source": "ODFL",
+      "target": "UNP",
+      "weight": 10
+    },
+    {
+      "source": "ODFL",
+      "target": "XPO",
+      "weight": 47
+    },
+    {
+      "source": "ODFL",
+      "target": "UAL",
+      "weight": 4
+    },
+    {
+      "source": "ODFL",
+      "target": "WERN",
+      "weight": 48
+    },
+    {
+      "source": "ODFL",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "ODFL",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "ODFL",
+      "target": "PTSI",
+      "weight": 6
+    },
+    {
+      "source": "ODFL",
+      "target": "USX",
+      "weight": 4
+    },
+    {
+      "source": "ODFL",
+      "target": "UBER",
+      "weight": 2
+    },
+    {
+      "source": "ODFL",
+      "target": "SNDR",
+      "weight": 41
+    },
+    {
+      "source": "ODFL",
+      "target": "RLGT",
+      "weight": 1
+    },
+    {
+      "source": "ODFL",
+      "target": "ULH",
+      "weight": 10
+    },
+    {
+      "source": "ODFL",
+      "target": "YRCW",
+      "weight": 43
+    },
+    {
+      "source": "ODFL",
+      "target": "USAK",
+      "weight": 22
+    },
+    {
+      "source": "ODFL",
+      "target": "UPS",
+      "weight": 21
+    },
+    {
+      "source": "ODFL",
+      "target": "SKYW",
+      "weight": 15
+    },
+    {
+      "source": "OMEX",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "OMEX",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "OMEX",
+      "target": "PHII",
+      "weight": 6
+    },
+    {
+      "source": "OMEX",
+      "target": "YRCW",
+      "weight": 11
+    },
+    {
+      "source": "OSG",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "OSG",
+      "target": "PHII",
+      "weight": 1
+    },
+    {
+      "source": "OSG",
+      "target": "YRCW",
+      "weight": 1
+    },
+    {
+      "source": "OSG",
+      "target": "XPO",
+      "weight": 40
+    },
+    {
+      "source": "OSG",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "PHII",
+      "target": "UBER",
+      "weight": 1
+    },
+    {
+      "source": "PHII",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "PHII",
+      "target": "YRCW",
+      "weight": 5
+    },
+    {
+      "source": "PHII",
+      "target": "RRTS",
+      "weight": 33
+    },
+    {
+      "source": "PHII",
+      "target": "PTSI",
+      "weight": 1
+    },
+    {
+      "source": "PHII",
+      "target": "SMHI",
+      "weight": 2
+    },
+    {
+      "source": "PHII",
+      "target": "RLGT",
+      "weight": 2
+    },
+    {
+      "source": "PTSI",
+      "target": "TDW",
+      "weight": 3
+    },
+    {
+      "source": "PTSI",
+      "target": "SNDR",
+      "weight": 6
+    },
+    {
+      "source": "PTSI",
+      "target": "RRTS",
+      "weight": 13
+    },
+    {
+      "source": "PTSI",
+      "target": "USX",
+      "weight": 4
+    },
+    {
+      "source": "PTSI",
+      "target": "UBER",
+      "weight": 3
+    },
+    {
+      "source": "PTSI",
+      "target": "USAK",
+      "weight": 8
+    },
+    {
+      "source": "PTSI",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "PTSI",
+      "target": "ULH",
+      "weight": 4
+    },
+    {
+      "source": "PTSI",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "PTSI",
+      "target": "XPO",
+      "weight": 4
+    },
+    {
+      "source": "PTSI",
+      "target": "YRCW",
+      "weight": 8
+    },
+    {
+      "source": "PTSI",
+      "target": "SAIA",
+      "weight": 5
+    },
+    {
+      "source": "PTSI",
+      "target": "WERN",
+      "weight": 2
+    },
+    {
+      "source": "RLGT",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "RLGT",
+      "target": "RRTS",
+      "weight": 12
+    },
+    {
+      "source": "RLGT",
+      "target": "UPS",
+      "weight": 8
+    },
+    {
+      "source": "RLGT",
+      "target": "UNP",
+      "weight": 2
+    },
+    {
+      "source": "RLGT",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "RLGT",
+      "target": "UAL",
+      "weight": 1
+    },
+    {
+      "source": "RLGT",
+      "target": "SMHI",
+      "weight": 1
+    },
+    {
+      "source": "RLGT",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "RLGT",
+      "target": "XPO",
+      "weight": 14
+    },
+    {
+      "source": "RLGT",
+      "target": "YRCW",
+      "weight": 4
+    },
+    {
+      "source": "RLGT",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "RLGT",
+      "target": "SKYW",
+      "weight": 8
+    },
+    {
+      "source": "RLGT",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "RRTS",
+      "target": "SMHI",
+      "weight": 2
+    },
+    {
+      "source": "RRTS",
+      "target": "SNDR",
+      "weight": 3
+    },
+    {
+      "source": "RRTS",
+      "target": "YRCW",
+      "weight": 4
+    },
+    {
+      "source": "RRTS",
+      "target": "WERN",
+      "weight": 4
+    },
+    {
+      "source": "RRTS",
+      "target": "UAL",
+      "weight": 2
+    },
+    {
+      "source": "RRTS",
+      "target": "ULH",
+      "weight": 14
+    },
+    {
+      "source": "RRTS",
+      "target": "SRE",
+      "weight": 7
+    },
+    {
+      "source": "RRTS",
+      "target": "SAIA",
+      "weight": 2
+    },
+    {
+      "source": "RRTS",
+      "target": "XPO",
+      "weight": 12
+    },
+    {
+      "source": "RRTS",
+      "target": "UPS",
+      "weight": 5
+    },
+    {
+      "source": "RRTS",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "SAIA",
+      "target": "XPO",
+      "weight": 22
+    },
+    {
+      "source": "SAIA",
+      "target": "ULH",
+      "weight": 17
+    },
+    {
+      "source": "SAIA",
+      "target": "SNDR",
+      "weight": 14
+    },
+    {
+      "source": "SAIA",
+      "target": "SRE",
+      "weight": 1
+    },
+    {
+      "source": "SAIA",
+      "target": "WERN",
+      "weight": 23
+    },
+    {
+      "source": "SAIA",
+      "target": "UBER",
+      "weight": 1
+    },
+    {
+      "source": "SAIA",
+      "target": "UNP",
+      "weight": 4
+    },
+    {
+      "source": "SAIA",
+      "target": "USAK",
+      "weight": 11
+    },
+    {
+      "source": "SAIA",
+      "target": "SPCE",
+      "weight": 2
+    },
+    {
+      "source": "SAIA",
+      "target": "UPS",
+      "weight": 9
+    },
+    {
+      "source": "SAIA",
+      "target": "SKYW",
+      "weight": 5
+    },
+    {
+      "source": "SAIA",
+      "target": "SMHI",
+      "weight": 1
+    },
+    {
+      "source": "SAIA",
+      "target": "YRCW",
+      "weight": 13
+    },
+    {
+      "source": "SEMG",
+      "target": "UAL",
+      "weight": 3
+    },
+    {
+      "source": "SEMG",
+      "target": "WERN",
+      "weight": 1
+    },
+    {
+      "source": "SEMG",
+      "target": "XPO",
+      "weight": 4
+    },
+    {
+      "source": "SEMG",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "SEMG",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "SEMG",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "SEMG",
+      "target": "ULH",
+      "weight": 1
+    },
+    {
+      "source": "SEMG",
+      "target": "TDW",
+      "weight": 1
+    },
+    {
+      "source": "SEMG",
+      "target": "UBER",
+      "weight": 8
+    },
+    {
+      "source": "SEMG",
+      "target": "UNP",
+      "weight": 3
+    },
+    {
+      "source": "SKYW",
+      "target": "SPCE",
+      "weight": 2
+    },
+    {
+      "source": "SKYW",
+      "target": "UAL",
+      "weight": 433
+    },
+    {
+      "source": "SKYW",
+      "target": "UPS",
+      "weight": 9
+    },
+    {
+      "source": "SKYW",
+      "target": "SNDR",
+      "weight": 2
+    },
+    {
+      "source": "SKYW",
+      "target": "XPO",
+      "weight": 7
+    },
+    {
+      "source": "SKYW",
+      "target": "WERN",
+      "weight": 7
+    },
+    {
+      "source": "SKYW",
+      "target": "SRE",
+      "weight": 5
+    },
+    {
+      "source": "SKYW",
+      "target": "UNP",
+      "weight": 6
+    },
+    {
+      "source": "SKYW",
+      "target": "YRCW",
+      "weight": 5
+    },
+    {
+      "source": "SMHI",
+      "target": "WERN",
+      "weight": 2
+    },
+    {
+      "source": "SMHI",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "SMHI",
+      "target": "SNDR",
+      "weight": 1
+    },
+    {
+      "source": "SNDR",
+      "target": "ULH",
+      "weight": 2
+    },
+    {
+      "source": "SNDR",
+      "target": "UPS",
+      "weight": 13
+    },
+    {
+      "source": "SNDR",
+      "target": "UAL",
+      "weight": 14
+    },
+    {
+      "source": "SNDR",
+      "target": "UNP",
+      "weight": 5
+    },
+    {
+      "source": "SNDR",
+      "target": "XPO",
+      "weight": 38
+    },
+    {
+      "source": "SNDR",
+      "target": "UBER",
+      "weight": 2
+    },
+    {
+      "source": "SNDR",
+      "target": "USX",
+      "weight": 11
+    },
+    {
+      "source": "SNDR",
+      "target": "WERN",
+      "weight": 53
+    },
+    {
+      "source": "SNDR",
+      "target": "YRCW",
+      "weight": 24
+    },
+    {
+      "source": "SNDR",
+      "target": "USAK",
+      "weight": 14
+    },
+    {
+      "source": "SPCE",
+      "target": "UAL",
+      "weight": 2
+    },
+    {
+      "source": "SPCE",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "SPCE",
+      "target": "UPS",
+      "weight": 2
+    },
+    {
+      "source": "SPCE",
+      "target": "XPO",
+      "weight": 6
+    },
+    {
+      "source": "SPCE",
+      "target": "YRCW",
+      "weight": 1
+    },
+    {
+      "source": "SRE",
+      "target": "WERN",
+      "weight": 1
+    },
+    {
+      "source": "SRE",
+      "target": "UNP",
+      "weight": 4
+    },
+    {
+      "source": "SRE",
+      "target": "UBER",
+      "weight": 6
+    },
+    {
+      "source": "SRE",
+      "target": "UPS",
+      "weight": 20
+    },
+    {
+      "source": "SRE",
+      "target": "TDW",
+      "weight": 2
+    },
+    {
+      "source": "SRE",
+      "target": "USAK",
+      "weight": 2
+    },
+    {
+      "source": "SRE",
+      "target": "USX",
+      "weight": 1
+    },
+    {
+      "source": "SRE",
+      "target": "UAL",
+      "weight": 6
+    },
+    {
+      "source": "TDW",
+      "target": "YRCW",
+      "weight": 19
+    },
+    {
+      "source": "TDW",
+      "target": "UAL",
+      "weight": 12
+    },
+    {
+      "source": "TDW",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "TDW",
+      "target": "UBER",
+      "weight": 4
+    },
+    {
+      "source": "UAL",
+      "target": "UPS",
+      "weight": 219
+    },
+    {
+      "source": "UAL",
+      "target": "UBER",
+      "weight": 421
+    },
+    {
+      "source": "UAL",
+      "target": "WERN",
+      "weight": 8
+    },
+    {
+      "source": "UAL",
+      "target": "XPO",
+      "weight": 52
+    },
+    {
+      "source": "UAL",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "UAL",
+      "target": "YRCW",
+      "weight": 19
+    },
+    {
+      "source": "UAL",
+      "target": "UNP",
+      "weight": 793
+    },
+    {
+      "source": "UBER",
+      "target": "UNP",
+      "weight": 32
+    },
+    {
+      "source": "UBER",
+      "target": "UPS",
+      "weight": 182
+    },
+    {
+      "source": "UBER",
+      "target": "USAK",
+      "weight": 1
+    },
+    {
+      "source": "UBER",
+      "target": "XPO",
+      "weight": 23
+    },
+    {
+      "source": "UBER",
+      "target": "YRCW",
+      "weight": 4
+    },
+    {
+      "source": "ULH",
+      "target": "XPO",
+      "weight": 1
+    },
+    {
+      "source": "ULH",
+      "target": "UPS",
+      "weight": 3
+    },
+    {
+      "source": "ULH",
+      "target": "YRCW",
+      "weight": 7
+    },
+    {
+      "source": "ULH",
+      "target": "USAK",
+      "weight": 18
+    },
+    {
+      "source": "ULH",
+      "target": "UNP",
+      "weight": 1
+    },
+    {
+      "source": "ULH",
+      "target": "WERN",
+      "weight": 14
+    },
+    {
+      "source": "UNP",
+      "target": "WERN",
+      "weight": 8
+    },
+    {
+      "source": "UNP",
+      "target": "USAK",
+      "weight": 3
+    },
+    {
+      "source": "UNP",
+      "target": "YRCW",
+      "weight": 10
+    },
+    {
+      "source": "UNP",
+      "target": "UPS",
+      "weight": 271
+    },
+    {
+      "source": "UNP",
+      "target": "XPO",
+      "weight": 12
+    },
+    {
+      "source": "UPS",
+      "target": "WERN",
+      "weight": 10
+    },
+    {
+      "source": "UPS",
+      "target": "YRCW",
+      "weight": 84
+    },
+    {
+      "source": "UPS",
+      "target": "XPO",
+      "weight": 98
+    },
+    {
+      "source": "UPS",
+      "target": "USX",
+      "weight": 3
+    },
+    {
+      "source": "UPS",
+      "target": "USAK",
+      "weight": 2
+    },
+    {
+      "source": "USAK",
+      "target": "XPO",
+      "weight": 22
+    },
+    {
+      "source": "USAK",
+      "target": "USX",
+      "weight": 10
+    },
+    {
+      "source": "USAK",
+      "target": "WERN",
+      "weight": 24
+    },
+    {
+      "source": "USAK",
+      "target": "YRCW",
+      "weight": 19
+    },
+    {
+      "source": "USX",
+      "target": "YRCW",
+      "weight": 7
+    },
+    {
+      "source": "USX",
+      "target": "XPO",
+      "weight": 9
+    },
+    {
+      "source": "USX",
+      "target": "WERN",
+      "weight": 6
+    },
+    {
+      "source": "WERN",
+      "target": "XPO",
+      "weight": 33
+    },
+    {
+      "source": "WERN",
+      "target": "YRCW",
+      "weight": 14
+    },
+    {
+      "source": "XPO",
+      "target": "YRCW",
+      "weight": 46
+    }
+  ]
+}

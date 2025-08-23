@@ -1,0 +1,236 @@
+{
+  "nodes": [
+    {
+      "id": "ALCO",
+      "label": "ALCO",
+      "industry": "Agric",
+      "degree_centrality": 0.5555555555555556,
+      "betweenness_centrality": 0.2037037037037037,
+      "closeness_centrality": 0.6464646464646464,
+      "eigenvector_centrality": 0.29400217064503376,
+      "harmonic_centrality": 3.8333333333333335,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 13
+    },
+    {
+      "id": "BV",
+      "label": "BV",
+      "industry": "Agric",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.009259259259259259,
+      "closeness_centrality": 0.5470085470085471,
+      "eigenvector_centrality": 0.3242206877252569,
+      "harmonic_centrality": 3.6666666666666665,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 13
+    },
+    {
+      "id": "CALM",
+      "label": "CALM",
+      "industry": "Agric",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.10648148148148147,
+      "closeness_centrality": 0.7111111111111111,
+      "eigenvector_centrality": 0.2889983487813212,
+      "harmonic_centrality": 4.366666666666666,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 13
+    },
+    {
+      "id": "CDZI",
+      "label": "CDZI",
+      "industry": "Agric",
+      "degree_centrality": 0.2222222222222222,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.47407407407407404,
+      "eigenvector_centrality": 0.09024873534638031,
+      "harmonic_centrality": 3.5,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 4
+    },
+    {
+      "id": "CTVA",
+      "label": "CTVA",
+      "industry": "Agric",
+      "degree_centrality": 0.7777777777777777,
+      "betweenness_centrality": 0.25462962962962954,
+      "closeness_centrality": 0.7901234567901234,
+      "eigenvector_centrality": 0.5135418343139261,
+      "harmonic_centrality": 5.2,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 21
+    },
+    {
+      "id": "CVGW",
+      "label": "CVGW",
+      "industry": "Agric",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.3009259259259259,
+      "closeness_centrality": 0.7111111111111111,
+      "eigenvector_centrality": 0.40830118300571766,
+      "harmonic_centrality": 5.083333333333333,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 18
+    },
+    {
+      "id": "GRIF",
+      "label": "GRIF",
+      "industry": "Agric",
+      "degree_centrality": 0.1111111111111111,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3950617283950617,
+      "eigenvector_centrality": 0.057658570100604004,
+      "harmonic_centrality": 1.6833333333333333,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 3
+    },
+    {
+      "id": "SERV",
+      "label": "SERV",
+      "industry": "Agric",
+      "degree_centrality": 0.4444444444444444,
+      "betweenness_centrality": 0.07870370370370369,
+      "closeness_centrality": 0.5470085470085471,
+      "eigenvector_centrality": 0.18855595456038152,
+      "harmonic_centrality": 4.333333333333334,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 7
+    },
+    {
+      "id": "SMG",
+      "label": "SMG",
+      "industry": "Agric",
+      "degree_centrality": 0.5555555555555556,
+      "betweenness_centrality": 0.037037037037037035,
+      "closeness_centrality": 0.6464646464646464,
+      "eigenvector_centrality": 0.4974594045109764,
+      "harmonic_centrality": 3.6999999999999997,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 18
+    },
+    {
+      "id": "TMX",
+      "label": "TMX",
+      "industry": "Agric",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 3.0480531884781554e-30,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "ALCO",
+      "target": "GRIF",
+      "weight": 3
+    },
+    {
+      "source": "ALCO",
+      "target": "CALM",
+      "weight": 3
+    },
+    {
+      "source": "ALCO",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "ALCO",
+      "target": "CTVA",
+      "weight": 4
+    },
+    {
+      "source": "ALCO",
+      "target": "SMG",
+      "weight": 2
+    },
+    {
+      "source": "BV",
+      "target": "CALM",
+      "weight": 1
+    },
+    {
+      "source": "BV",
+      "target": "SERV",
+      "weight": 2
+    },
+    {
+      "source": "BV",
+      "target": "CTVA",
+      "weight": 2
+    },
+    {
+      "source": "BV",
+      "target": "CVGW",
+      "weight": 8
+    },
+    {
+      "source": "CALM",
+      "target": "CTVA",
+      "weight": 3
+    },
+    {
+      "source": "CALM",
+      "target": "CDZI",
+      "weight": 3
+    },
+    {
+      "source": "CALM",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CALM",
+      "target": "SMG",
+      "weight": 2
+    },
+    {
+      "source": "CDZI",
+      "target": "CTVA",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "SERV",
+      "weight": 1
+    },
+    {
+      "source": "CTVA",
+      "target": "SMG",
+      "weight": 9
+    },
+    {
+      "source": "CTVA",
+      "target": "CVGW",
+      "weight": 1
+    },
+    {
+      "source": "CVGW",
+      "target": "SMG",
+      "weight": 4
+    },
+    {
+      "source": "CVGW",
+      "target": "SERV",
+      "weight": 3
+    },
+    {
+      "source": "SERV",
+      "target": "SMG",
+      "weight": 1
+    }
+  ]
+}

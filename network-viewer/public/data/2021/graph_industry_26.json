@@ -1,0 +1,190 @@
+{
+  "nodes": [
+    {
+      "id": "AAXN",
+      "label": "AAXN",
+      "industry": "Guns",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 1.9834677054134378e-70,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "ASTC",
+      "label": "ASTC",
+      "industry": "Guns",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.6190476190476191,
+      "closeness_centrality": 0.6428571428571428,
+      "eigenvector_centrality": 0.0029733680073707977,
+      "harmonic_centrality": 1.0733333333333333,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 21
+    },
+    {
+      "id": "AXON",
+      "label": "AXON",
+      "industry": "Guns",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.06651799328116274,
+      "harmonic_centrality": 0.5676115998696644,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 234
+    },
+    {
+      "id": "LMT",
+      "label": "LMT",
+      "industry": "Guns",
+      "degree_centrality": 0.8571428571428571,
+      "betweenness_centrality": 0.23809523809523808,
+      "closeness_centrality": 0.8571428571428571,
+      "eigenvector_centrality": 0.04213296778200285,
+      "harmonic_centrality": 0.5879851143009037,
+      "eccentricity": 0.0,
+      "degree": 6,
+      "weighted_degree": 214
+    },
+    {
+      "id": "RDW",
+      "label": "RDW",
+      "industry": "Guns",
+      "degree_centrality": 0.42857142857142855,
+      "betweenness_centrality": 0.23809523809523808,
+      "closeness_centrality": 0.5714285714285714,
+      "eigenvector_centrality": 0.0022530101967595606,
+      "harmonic_centrality": 1.2023809523809523,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 52
+    },
+    {
+      "id": "RGR",
+      "label": "RGR",
+      "industry": "Guns",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.6000081920730509,
+      "harmonic_centrality": 0.5676115998696644,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 1588
+    },
+    {
+      "id": "SWBI",
+      "label": "SWBI",
+      "industry": "Guns",
+      "degree_centrality": 0.7142857142857142,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.7346938775510203,
+      "eigenvector_centrality": 0.6188837225266323,
+      "harmonic_centrality": 1.006060606060606,
+      "eccentricity": 0.0,
+      "degree": 5,
+      "weighted_degree": 1658
+    },
+    {
+      "id": "VSTO",
+      "label": "VSTO",
+      "industry": "Guns",
+      "degree_centrality": 0.5714285714285714,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6428571428571428,
+      "eigenvector_centrality": 0.5007587843066573,
+      "harmonic_centrality": 0.22619532702724554,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 1243
+    }
+  ],
+  "edges": [
+    {
+      "source": "ASTC",
+      "target": "LMT",
+      "weight": 6
+    },
+    {
+      "source": "ASTC",
+      "target": "RDW",
+      "weight": 3
+    },
+    {
+      "source": "ASTC",
+      "target": "RGR",
+      "weight": 6
+    },
+    {
+      "source": "ASTC",
+      "target": "AXON",
+      "weight": 6
+    },
+    {
+      "source": "AXON",
+      "target": "VSTO",
+      "weight": 56
+    },
+    {
+      "source": "AXON",
+      "target": "RGR",
+      "weight": 62
+    },
+    {
+      "source": "AXON",
+      "target": "LMT",
+      "weight": 66
+    },
+    {
+      "source": "AXON",
+      "target": "SWBI",
+      "weight": 44
+    },
+    {
+      "source": "LMT",
+      "target": "VSTO",
+      "weight": 19
+    },
+    {
+      "source": "LMT",
+      "target": "RGR",
+      "weight": 38
+    },
+    {
+      "source": "LMT",
+      "target": "RDW",
+      "weight": 47
+    },
+    {
+      "source": "LMT",
+      "target": "SWBI",
+      "weight": 38
+    },
+    {
+      "source": "RDW",
+      "target": "SWBI",
+      "weight": 2
+    },
+    {
+      "source": "RGR",
+      "target": "SWBI",
+      "weight": 944
+    },
+    {
+      "source": "RGR",
+      "target": "VSTO",
+      "weight": 538
+    },
+    {
+      "source": "SWBI",
+      "target": "VSTO",
+      "weight": 630
+    }
+  ]
+}

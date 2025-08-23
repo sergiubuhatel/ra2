@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "ADSW",
+      "label": "ADSW",
+      "industry": "Other",
+      "degree_centrality": 0.7692307692307693,
+      "betweenness_centrality": 0.07905982905982904,
+      "closeness_centrality": 0.8125,
+      "eigenvector_centrality": 0.3409645655812443,
+      "harmonic_centrality": 4.3875,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 261
+    },
+    {
+      "id": "ATIS",
+      "label": "ATIS",
+      "industry": "Other",
+      "degree_centrality": 0.7692307692307693,
+      "betweenness_centrality": 0.4444444444444444,
+      "closeness_centrality": 0.8125,
+      "eigenvector_centrality": 0.030146524046043843,
+      "harmonic_centrality": 5.42127659574468,
+      "eccentricity": 2,
+      "degree": 10,
+      "weighted_degree": 50
+    },
+    {
+      "id": "AWX",
+      "label": "AWX",
+      "industry": "Other",
+      "degree_centrality": 0.5384615384615385,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.6842105263157895,
+      "eigenvector_centrality": 0.0723156582379165,
+      "harmonic_centrality": 2.0319047619047614,
+      "eccentricity": 2,
+      "degree": 7,
+      "weighted_degree": 89
+    },
+    {
+      "id": "CHRA",
+      "label": "CHRA",
+      "industry": "Other",
+      "degree_centrality": 0.3076923076923077,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5909090909090909,
+      "eigenvector_centrality": 0.15572542700699848,
+      "harmonic_centrality": 0.27307986845965715,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 231
+    },
+    {
+      "id": "CLH",
+      "label": "CLH",
+      "industry": "Other",
+      "degree_centrality": 0.9230769230769231,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9285714285714286,
+      "eigenvector_centrality": 0.3090350515131924,
+      "harmonic_centrality": 1.8231792717086834,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 371
+    },
+    {
+      "id": "CVA",
+      "label": "CVA",
+      "industry": "Other",
+      "degree_centrality": 0.8461538461538463,
+      "betweenness_centrality": 0.00641025641025641,
+      "closeness_centrality": 0.8666666666666667,
+      "eigenvector_centrality": 0.10565313203901039,
+      "harmonic_centrality": 3.9308004052684913,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 100
+    },
+    {
+      "id": "CWST",
+      "label": "CWST",
+      "industry": "Other",
+      "degree_centrality": 0.9230769230769231,
+      "betweenness_centrality": 0.02564102564102564,
+      "closeness_centrality": 0.9285714285714286,
+      "eigenvector_centrality": 0.29687297651708744,
+      "harmonic_centrality": 3.7065476190476194,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 238
+    },
+    {
+      "id": "DAR",
+      "label": "DAR",
+      "industry": "Other",
+      "degree_centrality": 0.6153846153846154,
+      "betweenness_centrality": 0.20512820512820512,
+      "closeness_centrality": 0.7222222222222222,
+      "eigenvector_centrality": 0.03169729625322206,
+      "harmonic_centrality": 4.231262939958593,
+      "eccentricity": 2,
+      "degree": 8,
+      "weighted_degree": 29
+    },
+    {
+      "id": "ECOL",
+      "label": "ECOL",
+      "industry": "Other",
+      "degree_centrality": 0.8461538461538463,
+      "betweenness_centrality": 0.004273504273504273,
+      "closeness_centrality": 0.8666666666666667,
+      "eigenvector_centrality": 0.24077467778081726,
+      "harmonic_centrality": 3.5224670719351567,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 200
+    },
+    {
+      "id": "HCCI",
+      "label": "HCCI",
+      "industry": "Other",
+      "degree_centrality": 0.8461538461538463,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8666666666666667,
+      "eigenvector_centrality": 0.15537687396941344,
+      "harmonic_centrality": 3.2791666666666672,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 184
+    },
+    {
+      "id": "PESI",
+      "label": "PESI",
+      "industry": "Other",
+      "degree_centrality": 0.8461538461538463,
+      "betweenness_centrality": 0.35042735042735046,
+      "closeness_centrality": 0.8666666666666667,
+      "eigenvector_centrality": 0.13178607529710282,
+      "harmonic_centrality": 5.138405797101449,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 146
+    },
+    {
+      "id": "RSG",
+      "label": "RSG",
+      "industry": "Other",
+      "degree_centrality": 0.9230769230769231,
+      "betweenness_centrality": 0.02564102564102564,
+      "closeness_centrality": 0.9285714285714286,
+      "eigenvector_centrality": 0.5084737288584178,
+      "harmonic_centrality": 3.2299319727891156,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 415
+    },
+    {
+      "id": "SRCL",
+      "label": "SRCL",
+      "industry": "Other",
+      "degree_centrality": 0.8461538461538463,
+      "betweenness_centrality": 0.15384615384615385,
+      "closeness_centrality": 0.8666666666666667,
+      "eigenvector_centrality": 0.14570167741993356,
+      "harmonic_centrality": 2.617303433001107,
+      "eccentricity": 2,
+      "degree": 11,
+      "weighted_degree": 155
+    },
+    {
+      "id": "WM",
+      "label": "WM",
+      "industry": "Other",
+      "degree_centrality": 0.9230769230769231,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.9285714285714286,
+      "eigenvector_centrality": 0.5275361211371243,
+      "harmonic_centrality": 2.355714285714286,
+      "eccentricity": 2,
+      "degree": 12,
+      "weighted_degree": 457
+    }
+  ],
+  "edges": [
+    {
+      "source": "ADSW",
+      "target": "SRCL",
+      "weight": 15
+    },
+    {
+      "source": "ADSW",
+      "target": "ECOL",
+      "weight": 13
+    },
+    {
+      "source": "ADSW",
+      "target": "HCCI",
+      "weight": 11
+    },
+    {
+      "source": "ADSW",
+      "target": "RSG",
+      "weight": 69
+    },
+    {
+      "source": "ADSW",
+      "target": "CLH",
+      "weight": 18
+    },
+    {
+      "source": "ADSW",
+      "target": "DAR",
+      "weight": 2
+    },
+    {
+      "source": "ADSW",
+      "target": "CVA",
+      "weight": 24
+    },
+    {
+      "source": "ADSW",
+      "target": "WM",
+      "weight": 79
+    },
+    {
+      "source": "ADSW",
+      "target": "ATIS",
+      "weight": 1
+    },
+    {
+      "source": "ADSW",
+      "target": "CWST",
+      "weight": 29
+    },
+    {
+      "source": "ATIS",
+      "target": "CVA",
+      "weight": 2
+    },
+    {
+      "source": "ATIS",
+      "target": "HCCI",
+      "weight": 6
+    },
+    {
+      "source": "ATIS",
+      "target": "WM",
+      "weight": 3
+    },
+    {
+      "source": "ATIS",
+      "target": "SRCL",
+      "weight": 7
+    },
+    {
+      "source": "ATIS",
+      "target": "CWST",
+      "weight": 2
+    },
+    {
+      "source": "ATIS",
+      "target": "CLH",
+      "weight": 5
+    },
+    {
+      "source": "ATIS",
+      "target": "RSG",
+      "weight": 2
+    },
+    {
+      "source": "ATIS",
+      "target": "PESI",
+      "weight": 1
+    },
+    {
+      "source": "ATIS",
+      "target": "AWX",
+      "weight": 21
+    },
+    {
+      "source": "AWX",
+      "target": "HCCI",
+      "weight": 8
+    },
+    {
+      "source": "AWX",
+      "target": "ECOL",
+      "weight": 11
+    },
+    {
+      "source": "AWX",
+      "target": "WM",
+      "weight": 9
+    },
+    {
+      "source": "AWX",
+      "target": "RSG",
+      "weight": 4
+    },
+    {
+      "source": "AWX",
+      "target": "PESI",
+      "weight": 4
+    },
+    {
+      "source": "AWX",
+      "target": "CWST",
+      "weight": 32
+    },
+    {
+      "source": "CHRA",
+      "target": "CLH",
+      "weight": 77
+    },
+    {
+      "source": "CHRA",
+      "target": "HCCI",
+      "weight": 53
+    },
+    {
+      "source": "CHRA",
+      "target": "PESI",
+      "weight": 58
+    },
+    {
+      "source": "CHRA",
+      "target": "SRCL",
+      "weight": 43
+    },
+    {
+      "source": "CLH",
+      "target": "CVA",
+      "weight": 21
+    },
+    {
+      "source": "CLH",
+      "target": "SRCL",
+      "weight": 29
+    },
+    {
+      "source": "CLH",
+      "target": "PESI",
+      "weight": 39
+    },
+    {
+      "source": "CLH",
+      "target": "CWST",
+      "weight": 13
+    },
+    {
+      "source": "CLH",
+      "target": "ECOL",
+      "weight": 24
+    },
+    {
+      "source": "CLH",
+      "target": "RSG",
+      "weight": 40
+    },
+    {
+      "source": "CLH",
+      "target": "HCCI",
+      "weight": 58
+    },
+    {
+      "source": "CLH",
+      "target": "WM",
+      "weight": 42
+    },
+    {
+      "source": "CLH",
+      "target": "DAR",
+      "weight": 5
+    },
+    {
+      "source": "CVA",
+      "target": "CWST",
+      "weight": 7
+    },
+    {
+      "source": "CVA",
+      "target": "WM",
+      "weight": 14
+    },
+    {
+      "source": "CVA",
+      "target": "RSG",
+      "weight": 7
+    },
+    {
+      "source": "CVA",
+      "target": "HCCI",
+      "weight": 9
+    },
+    {
+      "source": "CVA",
+      "target": "SRCL",
+      "weight": 5
+    },
+    {
+      "source": "CVA",
+      "target": "PESI",
+      "weight": 1
+    },
+    {
+      "source": "CVA",
+      "target": "ECOL",
+      "weight": 4
+    },
+    {
+      "source": "CVA",
+      "target": "DAR",
+      "weight": 6
+    },
+    {
+      "source": "CWST",
+      "target": "DAR",
+      "weight": 2
+    },
+    {
+      "source": "CWST",
+      "target": "WM",
+      "weight": 67
+    },
+    {
+      "source": "CWST",
+      "target": "RSG",
+      "weight": 58
+    },
+    {
+      "source": "CWST",
+      "target": "SRCL",
+      "weight": 5
+    },
+    {
+      "source": "CWST",
+      "target": "ECOL",
+      "weight": 17
+    },
+    {
+      "source": "CWST",
+      "target": "PESI",
+      "weight": 4
+    },
+    {
+      "source": "CWST",
+      "target": "HCCI",
+      "weight": 2
+    },
+    {
+      "source": "DAR",
+      "target": "RSG",
+      "weight": 3
+    },
+    {
+      "source": "DAR",
+      "target": "WM",
+      "weight": 7
+    },
+    {
+      "source": "DAR",
+      "target": "SRCL",
+      "weight": 3
+    },
+    {
+      "source": "DAR",
+      "target": "ECOL",
+      "weight": 1
+    },
+    {
+      "source": "ECOL",
+      "target": "RSG",
+      "weight": 45
+    },
+    {
+      "source": "ECOL",
+      "target": "WM",
+      "weight": 46
+    },
+    {
+      "source": "ECOL",
+      "target": "HCCI",
+      "weight": 17
+    },
+    {
+      "source": "ECOL",
+      "target": "PESI",
+      "weight": 8
+    },
+    {
+      "source": "ECOL",
+      "target": "SRCL",
+      "weight": 14
+    },
+    {
+      "source": "HCCI",
+      "target": "RSG",
+      "weight": 13
+    },
+    {
+      "source": "HCCI",
+      "target": "PESI",
+      "weight": 2
+    },
+    {
+      "source": "HCCI",
+      "target": "WM",
+      "weight": 5
+    },
+    {
+      "source": "PESI",
+      "target": "RSG",
+      "weight": 11
+    },
+    {
+      "source": "PESI",
+      "target": "SRCL",
+      "weight": 3
+    },
+    {
+      "source": "PESI",
+      "target": "WM",
+      "weight": 15
+    },
+    {
+      "source": "RSG",
+      "target": "WM",
+      "weight": 151
+    },
+    {
+      "source": "RSG",
+      "target": "SRCL",
+      "weight": 12
+    },
+    {
+      "source": "SRCL",
+      "target": "WM",
+      "weight": 19
+    }
+  ]
+}
