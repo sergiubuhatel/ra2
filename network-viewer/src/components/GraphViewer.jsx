@@ -12,12 +12,12 @@ export default function GraphViewer() {
   const [year, setYear] = useState("2017"); // default year
   const fgRef = useRef();
 
-  // Build dataset options: Top N + industries
+  // Build dataset options: Top N + industries in alphabetical order
   const datasetOptions = [
     "Top 50",
     "Top 100",
     "Top 200",
-    ...Object.keys(industryNameToNumber)
+    ...Object.keys(industryNameToNumber).sort((a, b) => a.localeCompare(b))
   ];
 
   // Load graph data based on dataset and year
