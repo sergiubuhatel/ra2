@@ -23,20 +23,24 @@ export default function GraphViewer() {
       });
   }, []);
 
-  // Apply topology + layout
+  // Apply topology + layout safely
   useEffect(() => {
     if (!graphData.nodes.length) return;
 
-    let newNodes = graphData.nodes.map(node => ({ ...node }));
+    const newNodes = graphData.nodes.map(node => ({ ...node }));
     const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
 
+    // Filter out links with missing nodes
     const nodeById = new Map(newNodes.map(n => [n.id, n]));
-    const linksWithNodeObjects = newLinks.map(link => ({
-      ...link,
-      source: nodeById.get(link.source),
-      target: nodeById.get(link.target)
-    }));
+    const safeLinks = newLinks
+      .map(link => ({
+        ...link,
+        source: nodeById.get(link.source),
+        target: nodeById.get(link.target)
+      }))
+      .filter(link => link.source && link.target); // REMOVE invalid links
 
+    // Apply layouts
     if (layout === "random") {
       newNodes.forEach(node => {
         node.x = Math.random() * 800;
@@ -44,7 +48,6 @@ export default function GraphViewer() {
         delete node.vx;
         delete node.vy;
       });
-      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
     } else if (layout === "circular") {
       const radius = 300;
       newNodes.forEach((node, i) => {
@@ -54,33 +57,23 @@ export default function GraphViewer() {
         delete node.vx;
         delete node.vy;
       });
-      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
     } else if (layout === "fruchterman") {
       const sim = d3.forceSimulation(newNodes)
-        .force("link", d3.forceLink(newLinks).id(d => d.id).distance(100))
+        .force("link", d3.forceLink(safeLinks).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-150))
         .force("center", d3.forceCenter(0, 0));
 
       sim.stop();
       for (let i = 0; i < 300; i++) sim.tick();
-
-      setGraphData({ nodes: newNodes, links: linksWithNodeObjects });
-    } else if (layout === "forceAtlas2") {
-      const resetNodes = newNodes.map(node => {
-        const n = { ...node };
-        delete n.x; delete n.y; delete n.vx; delete n.vy;
-        return n;
-      });
-      setGraphData({ nodes: resetNodes, links: newLinks });
     }
+
+    setGraphData({ nodes: newNodes, links: safeLinks });
   }, [layout, topology, graphData.nodes.length]);
 
   // Zoom & center
   useEffect(() => {
     if (fgRef.current && graphData.nodes.length) {
-      setTimeout(() => {
-        fgRef.current.zoomToFit(400, 100);
-      }, 500);
+      setTimeout(() => fgRef.current.zoomToFit(400, 100), 500);
     }
   }, [graphData]);
 
