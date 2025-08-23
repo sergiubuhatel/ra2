@@ -2,22 +2,40 @@ import React, { useState, useEffect, useRef } from "react";
 import ForceGraph2D from "react-force-graph-2d";
 import * as d3 from "d3-force";
 import { generateTopologyLinks } from "../utils/generateTopologyLinks";
+import { industryNameToNumber } from "../utils/industryMapping";
 
 export default function GraphViewer() {
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
   const [layout, setLayout] = useState("forceAtlas2");
   const [topology, setTopology] = useState("original");
-  const [dataset, setDataset] = useState("Top 50"); // Dataset: Top 50/100/200
-  const [year, setYear] = useState("2017"); // Year: 2017 default
+  const [dataset, setDataset] = useState("Top 50"); // Top 50/100/200 or industry
+  const [year, setYear] = useState("2017"); // default year
   const fgRef = useRef();
 
-  // Load graph data based on selected dataset and year
+  // Build dataset options: Top N + industries
+  const datasetOptions = [
+    "Top 50",
+    "Top 100",
+    "Top 200",
+    ...Object.keys(industryNameToNumber)
+  ];
+
+  // Load graph data based on dataset and year
   useEffect(() => {
-    const filename = `/data/${year}/${
-      dataset === "Top 50" ? "graph_top_50.json" :
-      dataset === "Top 100" ? "graph_top_100.json" :
-      "graph_top_200.json"
-    }`;
+    let filename = "";
+
+    if (dataset.startsWith("Top")) {
+      // Top N dataset
+      filename = `/data/${year}/${
+        dataset === "Top 50" ? "graph_top_50.json" :
+        dataset === "Top 100" ? "graph_top_100.json" :
+        "graph_top_200.json"
+      }`;
+    } else {
+      // Industry dataset
+      const code = industryNameToNumber[dataset];
+      filename = `/data/${year}/graph_industry_${code}.json`;
+    }
 
     fetch(filename)
       .then(res => res.json())
@@ -88,20 +106,16 @@ export default function GraphViewer() {
       <div style={{ marginBottom: 10 }}>
         <label style={{ marginRight: 10 }}>Year:</label>
         <select value={year} onChange={e => setYear(e.target.value)}>
-          <option value="2017">2017</option>
-          <option value="2018">2018</option>
-          <option value="2019">2019</option>
-          <option value="2020">2020</option>
-          <option value="2021">2021</option>
-          <option value="2022">2022</option>
-          <option value="2023">2023</option>
+          {["2017","2018","2019","2020","2021","2022","2023"].map(y => (
+            <option key={y} value={y}>{y}</option>
+          ))}
         </select>
 
         <label style={{ marginLeft: 20, marginRight: 10 }}>Dataset:</label>
         <select value={dataset} onChange={e => setDataset(e.target.value)}>
-          <option value="Top 50">Top 50</option>
-          <option value="Top 100">Top 100</option>
-          <option value="Top 200">Top 200</option>
+          {datasetOptions.map(opt => (
+            <option key={opt} value={opt}>{opt}</option>
+          ))}
         </select>
 
         <label style={{ marginLeft: 20, marginRight: 10 }}>Layout:</label>
