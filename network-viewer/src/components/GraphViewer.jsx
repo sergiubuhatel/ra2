@@ -54,6 +54,18 @@ export default function GraphViewer() {
     if (!graphData.nodes.length) return;
 
     const newNodes = graphData.nodes.map(node => ({ ...node }));
+
+    // Find node with highest eigenvector centrality
+    const maxECNode = newNodes.reduce((maxNode, node) =>
+      (node.eigenvector_centrality || 0) > (maxNode.eigenvector_centrality || 0) ? node : maxNode
+    , newNodes[0]);
+
+    // Swap max EC node to index 0 if using hub-spoke/star
+    if (topology === "hub-spoke" || topology === "star") {
+      const index = newNodes.findIndex(n => n.id === maxECNode.id);
+      if (index > 0) [newNodes[0], newNodes[index]] = [newNodes[index], newNodes[0]];
+    }
+
     const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
 
     const nodeById = new Map(newNodes.map(n => [n.id, n]));
@@ -65,6 +77,7 @@ export default function GraphViewer() {
       }))
       .filter(link => link.source && link.target);
 
+    // Layout positioning
     if (layout === "random") {
       newNodes.forEach(node => {
         node.x = Math.random() * 800;
@@ -87,8 +100,16 @@ export default function GraphViewer() {
         .force("charge", d3.forceManyBody().strength(-150))
         .force("center", d3.forceCenter(0, 0));
 
+      // Fix the highest EC node at the center
+      maxECNode.fx = 0;
+      maxECNode.fy = 0;
+
       sim.stop();
       for (let i = 0; i < 300; i++) sim.tick();
+
+      // Optionally release it after simulation
+      delete maxECNode.fx;
+      delete maxECNode.fy;
     }
 
     setGraphData({ nodes: newNodes, links: safeLinks });
