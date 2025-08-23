@@ -110,6 +110,21 @@ export default function GraphViewer() {
           linkDirectionalParticleSpeed={0.005}
           width={window.innerWidth}
           height={window.innerHeight}
+          nodeCanvasObject={(node, ctx, globalScale) => {
+            // Draw the node circle
+            const radius = 1 + (node.eigenvector_centrality || 0) * 20; // optional scaling
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI, false);
+            ctx.fillStyle = node.color || "gray";
+            ctx.fill();
+
+            // Draw the company name at the center of the node
+            ctx.font = `${12 / globalScale}px Sans-Serif`;
+            ctx.textAlign = "center";       // center horizontally
+            ctx.textBaseline = "middle";    // center vertically
+            ctx.fillStyle = "white";        // contrast against node color
+            ctx.fillText(node.id, node.x, node.y);
+          }}
         />
       </div>
     </div>
