@@ -1,7 +1,7 @@
 #
 # Example Usage:
 #
-# python prepare_tickers_per_industry.py 
+# python prepare_nodes.py 
 #   --industries ./frontend/public/data/2017/2017_industries.csv 
 #   --top ./frontend/public/data/2017/Top100_2017.csv 
 #   --output ./frontend/public/data/2017/Top100_tickers.csv

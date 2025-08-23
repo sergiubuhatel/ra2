@@ -1,5 +1,5 @@
 import React from "react";
-import GraphViewer from "./GraphViewer";
+import GraphViewer from "./components/GraphViewer.jsx";  // force .jsx
 
 function App() {
   return (
