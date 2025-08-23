@@ -1,0 +1,2482 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "label": "A",
+      "industry": "LabEq",
+      "degree_centrality": 0.6666666666666666,
+      "betweenness_centrality": 0.059473927470103015,
+      "closeness_centrality": 0.7133095662507427,
+      "eigenvector_centrality": 0.6983402274107916,
+      "harmonic_centrality": 25.309523809523807,
+      "eccentricity": 0.0,
+      "degree": 34,
+      "weighted_degree": 2085
+    },
+    {
+      "id": "AEHR",
+      "label": "AEHR",
+      "industry": "LabEq",
+      "degree_centrality": 0.3137254901960784,
+      "betweenness_centrality": 0.01794249464491679,
+      "closeness_centrality": 0.5604575163398693,
+      "eigenvector_centrality": 0.0072439706672206014,
+      "harmonic_centrality": 20.700000000000003,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 84
+    },
+    {
+      "id": "AMOT",
+      "label": "AMOT",
+      "industry": "LabEq",
+      "degree_centrality": 0.19607843137254902,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5062196921779465,
+      "eigenvector_centrality": 0.011457675280055302,
+      "harmonic_centrality": 16.442857142857147,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 135
+    },
+    {
+      "id": "BIO",
+      "label": "BIO",
+      "industry": "LabEq",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.042069337301171204,
+      "closeness_centrality": 0.5538638985005767,
+      "eigenvector_centrality": 0.022909963059256737,
+      "harmonic_centrality": 23.59285714285714,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 164
+    },
+    {
+      "id": "BMI",
+      "label": "BMI",
+      "industry": "LabEq",
+      "degree_centrality": 0.27450980392156865,
+      "betweenness_centrality": 0.0011220043572984749,
+      "closeness_centrality": 0.534982174688057,
+      "eigenvector_centrality": 0.013077055589522154,
+      "harmonic_centrality": 18.74166666666667,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 227
+    },
+    {
+      "id": "BRKR",
+      "label": "BRKR",
+      "industry": "LabEq",
+      "degree_centrality": 0.3529411764705882,
+      "betweenness_centrality": 0.049635835070182176,
+      "closeness_centrality": 0.5672100165367352,
+      "eigenvector_centrality": 0.025704722257380092,
+      "harmonic_centrality": 23.199999999999992,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 148
+    },
+    {
+      "id": "CGNX",
+      "label": "CGNX",
+      "industry": "LabEq",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.026487534764351374,
+      "closeness_centrality": 0.6822961068485366,
+      "eigenvector_centrality": 0.031732874654225175,
+      "harmonic_centrality": 22.759523809523802,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 468
+    },
+    {
+      "id": "CLFD",
+      "label": "CLFD",
+      "industry": "LabEq",
+      "degree_centrality": 0.0784313725490196,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.45707214924804873,
+      "eigenvector_centrality": 0.004293036093496419,
+      "harmonic_centrality": 17.749999999999996,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 11
+    },
+    {
+      "id": "COHR",
+      "label": "COHR",
+      "industry": "LabEq",
+      "degree_centrality": 0.43137254901960786,
+      "betweenness_centrality": 0.037156901025413136,
+      "closeness_centrality": 0.6114081996434938,
+      "eigenvector_centrality": 0.014553845033598519,
+      "harmonic_centrality": 22.33333333333333,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 408
+    },
+    {
+      "id": "COHU",
+      "label": "COHU",
+      "industry": "LabEq",
+      "degree_centrality": 0.3137254901960784,
+      "betweenness_centrality": 0.01848926237161531,
+      "closeness_centrality": 0.5474236206110351,
+      "eigenvector_centrality": 0.0044227604474592185,
+      "harmonic_centrality": 20.00952380952381,
+      "eccentricity": 0.0,
+      "degree": 16,
+      "weighted_degree": 130
+    },
+    {
+      "id": "CUB",
+      "label": "CUB",
+      "industry": "LabEq",
+      "degree_centrality": 0.19607843137254902,
+      "betweenness_centrality": 0.007059239794989203,
+      "closeness_centrality": 0.5062196921779465,
+      "eigenvector_centrality": 0.1808557115409589,
+      "harmonic_centrality": 19.58333333333333,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 333
+    },
+    {
+      "id": "CYBE",
+      "label": "CYBE",
+      "industry": "LabEq",
+      "degree_centrality": 0.13725490196078433,
+      "betweenness_centrality": 0.03780543631281201,
+      "closeness_centrality": 0.4853446533252476,
+      "eigenvector_centrality": 0.0002433319166798578,
+      "harmonic_centrality": 19.55952380952381,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 21
+    },
+    {
+      "id": "DVMT",
+      "label": "DVMT",
+      "industry": "LabEq",
+      "degree_centrality": 0.3529411764705882,
+      "betweenness_centrality": 0.06374798754602069,
+      "closeness_centrality": 0.5812152021302348,
+      "eigenvector_centrality": 0.026264976274798922,
+      "harmonic_centrality": 25.499999999999993,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 113
+    },
+    {
+      "id": "ECL",
+      "label": "ECL",
+      "industry": "LabEq",
+      "degree_centrality": 0.3529411764705882,
+      "betweenness_centrality": 0.0748914952790385,
+      "closeness_centrality": 0.5741272118603539,
+      "eigenvector_centrality": 0.004812931930026461,
+      "harmonic_centrality": 25.03333333333333,
+      "eccentricity": 0.0,
+      "degree": 18,
+      "weighted_degree": 51
+    },
+    {
+      "id": "ELSE",
+      "label": "ELSE",
+      "industry": "LabEq",
+      "degree_centrality": 0.0392156862745098,
+      "betweenness_centrality": 0.008366013071895422,
+      "closeness_centrality": 0.33388958420247533,
+      "eigenvector_centrality": 2.1062659293234716e-07,
+      "harmonic_centrality": 15.375000000000002,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "ESL",
+      "label": "ESL",
+      "industry": "LabEq",
+      "degree_centrality": 0.2549019607843137,
+      "betweenness_centrality": 0.03388628819260762,
+      "closeness_centrality": 0.5230936819172113,
+      "eigenvector_centrality": 0.007565649639592386,
+      "harmonic_centrality": 22.833333333333325,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 64
+    },
+    {
+      "id": "FARO",
+      "label": "FARO",
+      "industry": "LabEq",
+      "degree_centrality": 0.21568627450980393,
+      "betweenness_centrality": 0.009811759047053163,
+      "closeness_centrality": 0.5062196921779465,
+      "eigenvector_centrality": 0.016537655681480894,
+      "harmonic_centrality": 20.676190476190474,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 68
+    },
+    {
+      "id": "FEIM",
+      "label": "FEIM",
+      "industry": "LabEq",
+      "degree_centrality": 0.0392156862745098,
+      "betweenness_centrality": 0.008349206349206348,
+      "closeness_centrality": 0.3621417797888386,
+      "eigenvector_centrality": 1.2463778977670472e-06,
+      "harmonic_centrality": 15.458333333333337,
+      "eccentricity": 0.0,
+      "degree": 2,
+      "weighted_degree": 2
+    },
+    {
+      "id": "FORM",
+      "label": "FORM",
+      "industry": "LabEq",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.06524203048952641,
+      "closeness_centrality": 0.5604575163398693,
+      "eigenvector_centrality": 0.002413201699478509,
+      "harmonic_centrality": 24.66666666666666,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 65
+    },
+    {
+      "id": "GEOS",
+      "label": "GEOS",
+      "industry": "LabEq",
+      "degree_centrality": 0.058823529411764705,
+      "betweenness_centrality": 0.0015842624631551966,
+      "closeness_centrality": 0.42034313725490197,
+      "eigenvector_centrality": 0.0007911499852055526,
+      "harmonic_centrality": 18.676190476190477,
+      "eccentricity": 0.0,
+      "degree": 3,
+      "weighted_degree": 70
+    },
+    {
+      "id": "GKOS",
+      "label": "GKOS",
+      "industry": "LabEq",
+      "degree_centrality": 0.37254901960784315,
+      "betweenness_centrality": 0.017351589276921642,
+      "closeness_centrality": 0.5884803921568628,
+      "eigenvector_centrality": 0.004148635958411811,
+      "harmonic_centrality": 21.95,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 72
+    },
+    {
+      "id": "HBIO",
+      "label": "HBIO",
+      "industry": "LabEq",
+      "degree_centrality": 0.23529411764705882,
+      "betweenness_centrality": 0.017962962962962962,
+      "closeness_centrality": 0.5173453996983408,
+      "eigenvector_centrality": 0.0034174066325914926,
+      "harmonic_centrality": 22.116666666666664,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 55
+    },
+    {
+      "id": "IIVI",
+      "label": "IIVI",
+      "industry": "LabEq",
+      "degree_centrality": 0.4117647058823529,
+      "betweenness_centrality": 0.021365162583155666,
+      "closeness_centrality": 0.6035696329813977,
+      "eigenvector_centrality": 0.003987674599627818,
+      "harmonic_centrality": 22.950000000000003,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 123
+    },
+    {
+      "id": "ILMN",
+      "label": "ILMN",
+      "industry": "LabEq",
+      "degree_centrality": 0.5686274509803921,
+      "betweenness_centrality": 0.12200195579998893,
+      "closeness_centrality": 0.6822961068485366,
+      "eigenvector_centrality": 0.061575635603522465,
+      "harmonic_centrality": 24.78333333333333,
+      "eccentricity": 0.0,
+      "degree": 29,
+      "weighted_degree": 426
+    },
+    {
+      "id": "INO",
+      "label": "INO",
+      "industry": "LabEq",
+      "degree_centrality": 0.23529411764705882,
+      "betweenness_centrality": 0.016682686146353966,
+      "closeness_centrality": 0.534982174688057,
+      "eigenvector_centrality": 0.11462188234262681,
+      "harmonic_centrality": 20.700000000000006,
+      "eccentricity": 0.0,
+      "degree": 12,
+      "weighted_degree": 228
+    },
+    {
+      "id": "INTT",
+      "label": "INTT",
+      "industry": "LabEq",
+      "degree_centrality": 0.27450980392156865,
+      "betweenness_centrality": 0.049695886197616314,
+      "closeness_centrality": 0.5538638985005767,
+      "eigenvector_centrality": 0.0014470648293213606,
+      "harmonic_centrality": 20.209523809523805,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 82
+    },
+    {
+      "id": "ISNS",
+      "label": "ISNS",
+      "industry": "LabEq",
+      "degree_centrality": 0.21568627450980393,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.5173453996983408,
+      "eigenvector_centrality": 0.00401183678691776,
+      "harmonic_centrality": 17.3,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 84
+    },
+    {
+      "id": "KEYS",
+      "label": "KEYS",
+      "industry": "LabEq",
+      "degree_centrality": 0.5882352941176471,
+      "betweenness_centrality": 0.08024605439010832,
+      "closeness_centrality": 0.6630764982049158,
+      "eigenvector_centrality": 0.6652774591776457,
+      "harmonic_centrality": 22.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 30,
+      "weighted_degree": 1477
+    },
+    {
+      "id": "KLAC",
+      "label": "KLAC",
+      "industry": "LabEq",
+      "degree_centrality": 0.4117647058823529,
+      "betweenness_centrality": 0.014775462650895174,
+      "closeness_centrality": 0.5884803921568628,
+      "eigenvector_centrality": 0.01340356028928023,
+      "harmonic_centrality": 19.983333333333334,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 393
+    },
+    {
+      "id": "LDR",
+      "label": "LDR",
+      "industry": "LabEq",
+      "degree_centrality": 0.0784313725490196,
+      "betweenness_centrality": 0.001045751633986928,
+      "closeness_centrality": 0.43591140159767616,
+      "eigenvector_centrality": 0.00012054578862705662,
+      "harmonic_centrality": 18.983333333333334,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 8
+    },
+    {
+      "id": "MKSI",
+      "label": "MKSI",
+      "industry": "LabEq",
+      "degree_centrality": 0.49019607843137253,
+      "betweenness_centrality": 0.04824422762193658,
+      "closeness_centrality": 0.6277124183006536,
+      "eigenvector_centrality": 0.017004578139321012,
+      "harmonic_centrality": 24.36666666666667,
+      "eccentricity": 0.0,
+      "degree": 25,
+      "weighted_degree": 297
+    },
+    {
+      "id": "MOCO",
+      "label": "MOCO",
+      "industry": "LabEq",
+      "degree_centrality": 0.21568627450980393,
+      "betweenness_centrality": 0.08283690141785208,
+      "closeness_centrality": 0.500834376303713,
+      "eigenvector_centrality": 0.0008400528796044257,
+      "harmonic_centrality": 25.366666666666664,
+      "eccentricity": 0.0,
+      "degree": 11,
+      "weighted_degree": 16
+    },
+    {
+      "id": "MTD",
+      "label": "MTD",
+      "industry": "LabEq",
+      "degree_centrality": 0.4117647058823529,
+      "betweenness_centrality": 0.01518712583072445,
+      "closeness_centrality": 0.5959295110449243,
+      "eigenvector_centrality": 0.04812651470236131,
+      "harmonic_centrality": 21.092857142857135,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 279
+    },
+    {
+      "id": "MTSC",
+      "label": "MTSC",
+      "industry": "LabEq",
+      "degree_centrality": 0.13725490196078433,
+      "betweenness_centrality": 0.03430791353974745,
+      "closeness_centrality": 0.500834376303713,
+      "eigenvector_centrality": 0.0014826287959826983,
+      "harmonic_centrality": 21.616666666666667,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 19
+    },
+    {
+      "id": "MVIS",
+      "label": "MVIS",
+      "industry": "LabEq",
+      "degree_centrality": 0.27450980392156865,
+      "betweenness_centrality": 0.05062717136765578,
+      "closeness_centrality": 0.5289711390174048,
+      "eigenvector_centrality": 0.0011455992370981982,
+      "harmonic_centrality": 23.342857142857138,
+      "eccentricity": 0.0,
+      "degree": 14,
+      "weighted_degree": 59
+    },
+    {
+      "id": "NANO",
+      "label": "NANO",
+      "industry": "LabEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "OSIS",
+      "label": "OSIS",
+      "industry": "LabEq",
+      "degree_centrality": 0.1764705882352941,
+      "betweenness_centrality": 0.010737317149081854,
+      "closeness_centrality": 0.5117220801364024,
+      "eigenvector_centrality": 0.01573604136042677,
+      "harmonic_centrality": 20.700000000000003,
+      "eccentricity": 0.0,
+      "degree": 9,
+      "weighted_degree": 57
+    },
+    {
+      "id": "PKI",
+      "label": "PKI",
+      "industry": "LabEq",
+      "degree_centrality": 0.37254901960784315,
+      "betweenness_centrality": 0.034786286169094405,
+      "closeness_centrality": 0.5884803921568628,
+      "eigenvector_centrality": 0.04362997755329649,
+      "harmonic_centrality": 22.916666666666664,
+      "eccentricity": 0.0,
+      "degree": 19,
+      "weighted_degree": 302
+    },
+    {
+      "id": "POWL",
+      "label": "POWL",
+      "industry": "LabEq",
+      "degree_centrality": 0.0196078431372549,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.3956170703575548,
+      "eigenvector_centrality": 0.0022917815394629367,
+      "harmonic_centrality": 7.845238095238101,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 4
+    },
+    {
+      "id": "PRCP",
+      "label": "PRCP",
+      "industry": "LabEq",
+      "degree_centrality": 0.2549019607843137,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.534982174688057,
+      "eigenvector_centrality": 0.0036939197956138707,
+      "harmonic_centrality": 11.226190476190474,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 142
+    },
+    {
+      "id": "PRPO",
+      "label": "PRPO",
+      "industry": "LabEq",
+      "degree_centrality": 0.13725490196078433,
+      "betweenness_centrality": 0.009685451001240472,
+      "closeness_centrality": 0.4904003267973856,
+      "eigenvector_centrality": 0.001303967584439839,
+      "harmonic_centrality": 20.4,
+      "eccentricity": 0.0,
+      "degree": 7,
+      "weighted_degree": 20
+    },
+    {
+      "id": "ROP",
+      "label": "ROP",
+      "industry": "LabEq",
+      "degree_centrality": 0.3333333333333333,
+      "betweenness_centrality": 0.0028017429193899776,
+      "closeness_centrality": 0.5672100165367352,
+      "eigenvector_centrality": 0.009118969812452419,
+      "harmonic_centrality": 19.242857142857137,
+      "eccentricity": 0.0,
+      "degree": 17,
+      "weighted_degree": 180
+    },
+    {
+      "id": "RTEC",
+      "label": "RTEC",
+      "industry": "LabEq",
+      "degree_centrality": 0.39215686274509803,
+      "betweenness_centrality": 0.08582184796863364,
+      "closeness_centrality": 0.5884803921568628,
+      "eigenvector_centrality": 0.014007529324752677,
+      "harmonic_centrality": 24.41666666666666,
+      "eccentricity": 0.0,
+      "degree": 20,
+      "weighted_degree": 178
+    },
+    {
+      "id": "SYPR",
+      "label": "SYPR",
+      "industry": "LabEq",
+      "degree_centrality": 0.0196078431372549,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.4023797553209318,
+      "eigenvector_centrality": 5.302944799027298e-05,
+      "harmonic_centrality": 16.166666666666668,
+      "eccentricity": 0.0,
+      "degree": 1,
+      "weighted_degree": 1
+    },
+    {
+      "id": "TBIO",
+      "label": "TBIO",
+      "industry": "LabEq",
+      "degree_centrality": 0.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.0,
+      "eigenvector_centrality": 0.0,
+      "harmonic_centrality": 0,
+      "eccentricity": 0.0,
+      "degree": 0,
+      "weighted_degree": 0
+    },
+    {
+      "id": "TER",
+      "label": "TER",
+      "industry": "LabEq",
+      "degree_centrality": 0.43137254901960786,
+      "betweenness_centrality": 0.011344168502063235,
+      "closeness_centrality": 0.6114081996434938,
+      "eigenvector_centrality": 0.015471157435442764,
+      "harmonic_centrality": 22.142857142857142,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 343
+    },
+    {
+      "id": "TMO",
+      "label": "TMO",
+      "industry": "LabEq",
+      "degree_centrality": 0.43137254901960786,
+      "betweenness_centrality": 0.05448138547410081,
+      "closeness_centrality": 0.5959295110449243,
+      "eigenvector_centrality": 0.06801802445908012,
+      "harmonic_centrality": 25.116666666666664,
+      "eccentricity": 0.0,
+      "degree": 22,
+      "weighted_degree": 426
+    },
+    {
+      "id": "VUZI",
+      "label": "VUZI",
+      "industry": "LabEq",
+      "degree_centrality": 0.1568627450980392,
+      "betweenness_centrality": 0.01234935281302063,
+      "closeness_centrality": 0.4853446533252476,
+      "eigenvector_centrality": 0.011137597896900811,
+      "harmonic_centrality": 18.626190476190477,
+      "eccentricity": 0.0,
+      "degree": 8,
+      "weighted_degree": 53
+    },
+    {
+      "id": "WAT",
+      "label": "WAT",
+      "industry": "LabEq",
+      "degree_centrality": 0.4117647058823529,
+      "betweenness_centrality": 0.03787153862076462,
+      "closeness_centrality": 0.5884803921568628,
+      "eigenvector_centrality": 0.04445493285357352,
+      "harmonic_centrality": 23.342857142857135,
+      "eccentricity": 0.0,
+      "degree": 21,
+      "weighted_degree": 286
+    },
+    {
+      "id": "WTT",
+      "label": "WTT",
+      "industry": "LabEq",
+      "degree_centrality": 0.0784313725490196,
+      "betweenness_centrality": 0.012562091503267973,
+      "closeness_centrality": 0.41296869625043003,
+      "eigenvector_centrality": 5.455188998310166e-05,
+      "harmonic_centrality": 18.40833333333333,
+      "eccentricity": 0.0,
+      "degree": 4,
+      "weighted_degree": 6
+    },
+    {
+      "id": "XCRA",
+      "label": "XCRA",
+      "industry": "LabEq",
+      "degree_centrality": 0.2549019607843137,
+      "betweenness_centrality": 0.03562324014573149,
+      "closeness_centrality": 0.5230936819172113,
+      "eigenvector_centrality": 0.01280755446273299,
+      "harmonic_centrality": 20.41666666666667,
+      "eccentricity": 0.0,
+      "degree": 13,
+      "weighted_degree": 81
+    },
+    {
+      "id": "XXIA",
+      "label": "XXIA",
+      "industry": "LabEq",
+      "degree_centrality": 0.19607843137254902,
+      "betweenness_centrality": 0.014727980080921256,
+      "closeness_centrality": 0.5062196921779465,
+      "eigenvector_centrality": 0.061704357709908474,
+      "harmonic_centrality": 21.47619047619047,
+      "eccentricity": 0.0,
+      "degree": 10,
+      "weighted_degree": 126
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "XXIA",
+      "weight": 4
+    },
+    {
+      "source": "A",
+      "target": "ECL",
+      "weight": 4
+    },
+    {
+      "source": "A",
+      "target": "WAT",
+      "weight": 60
+    },
+    {
+      "source": "A",
+      "target": "FORM",
+      "weight": 3
+    },
+    {
+      "source": "A",
+      "target": "BRKR",
+      "weight": 34
+    },
+    {
+      "source": "A",
+      "target": "MOCO",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "BIO",
+      "weight": 28
+    },
+    {
+      "source": "A",
+      "target": "CUB",
+      "weight": 266
+    },
+    {
+      "source": "A",
+      "target": "ROP",
+      "weight": 2
+    },
+    {
+      "source": "A",
+      "target": "INO",
+      "weight": 187
+    },
+    {
+      "source": "A",
+      "target": "DVMT",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "HBIO",
+      "weight": 4
+    },
+    {
+      "source": "A",
+      "target": "MTD",
+      "weight": 60
+    },
+    {
+      "source": "A",
+      "target": "PKI",
+      "weight": 54
+    },
+    {
+      "source": "A",
+      "target": "ILMN",
+      "weight": 87
+    },
+    {
+      "source": "A",
+      "target": "KEYS",
+      "weight": 1080
+    },
+    {
+      "source": "A",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "VUZI",
+      "weight": 16
+    },
+    {
+      "source": "A",
+      "target": "XCRA",
+      "weight": 17
+    },
+    {
+      "source": "A",
+      "target": "ESL",
+      "weight": 3
+    },
+    {
+      "source": "A",
+      "target": "COHR",
+      "weight": 5
+    },
+    {
+      "source": "A",
+      "target": "TMO",
+      "weight": 92
+    },
+    {
+      "source": "A",
+      "target": "OSIS",
+      "weight": 16
+    },
+    {
+      "source": "A",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "CGNX",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "AEHR",
+      "weight": 9
+    },
+    {
+      "source": "A",
+      "target": "CLFD",
+      "weight": 7
+    },
+    {
+      "source": "A",
+      "target": "FARO",
+      "weight": 27
+    },
+    {
+      "source": "A",
+      "target": "GKOS",
+      "weight": 4
+    },
+    {
+      "source": "A",
+      "target": "KLAC",
+      "weight": 6
+    },
+    {
+      "source": "A",
+      "target": "MTSC",
+      "weight": 2
+    },
+    {
+      "source": "A",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "A",
+      "target": "RTEC",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "XCRA",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "INO",
+      "weight": 6
+    },
+    {
+      "source": "AEHR",
+      "target": "CUB",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "COHU",
+      "weight": 4
+    },
+    {
+      "source": "AEHR",
+      "target": "TER",
+      "weight": 7
+    },
+    {
+      "source": "AEHR",
+      "target": "CYBE",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "PRPO",
+      "weight": 5
+    },
+    {
+      "source": "AEHR",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "AEHR",
+      "target": "COHR",
+      "weight": 25
+    },
+    {
+      "source": "AEHR",
+      "target": "GKOS",
+      "weight": 5
+    },
+    {
+      "source": "AEHR",
+      "target": "INTT",
+      "weight": 8
+    },
+    {
+      "source": "AEHR",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "AEHR",
+      "target": "MVIS",
+      "weight": 5
+    },
+    {
+      "source": "AEHR",
+      "target": "ESL",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "KEYS",
+      "weight": 18
+    },
+    {
+      "source": "AMOT",
+      "target": "MTD",
+      "weight": 6
+    },
+    {
+      "source": "AMOT",
+      "target": "PRCP",
+      "weight": 13
+    },
+    {
+      "source": "AMOT",
+      "target": "INTT",
+      "weight": 41
+    },
+    {
+      "source": "AMOT",
+      "target": "BMI",
+      "weight": 12
+    },
+    {
+      "source": "AMOT",
+      "target": "CGNX",
+      "weight": 11
+    },
+    {
+      "source": "AMOT",
+      "target": "RTEC",
+      "weight": 6
+    },
+    {
+      "source": "AMOT",
+      "target": "MKSI",
+      "weight": 18
+    },
+    {
+      "source": "AMOT",
+      "target": "MOCO",
+      "weight": 1
+    },
+    {
+      "source": "AMOT",
+      "target": "ISNS",
+      "weight": 9
+    },
+    {
+      "source": "BIO",
+      "target": "MTSC",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "CGNX",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "HBIO",
+      "weight": 3
+    },
+    {
+      "source": "BIO",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "IIVI",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "BRKR",
+      "weight": 5
+    },
+    {
+      "source": "BIO",
+      "target": "TMO",
+      "weight": 36
+    },
+    {
+      "source": "BIO",
+      "target": "GKOS",
+      "weight": 2
+    },
+    {
+      "source": "BIO",
+      "target": "DVMT",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "PKI",
+      "weight": 15
+    },
+    {
+      "source": "BIO",
+      "target": "WAT",
+      "weight": 12
+    },
+    {
+      "source": "BIO",
+      "target": "MTD",
+      "weight": 10
+    },
+    {
+      "source": "BIO",
+      "target": "ILMN",
+      "weight": 43
+    },
+    {
+      "source": "BIO",
+      "target": "COHR",
+      "weight": 3
+    },
+    {
+      "source": "BIO",
+      "target": "BMI",
+      "weight": 1
+    },
+    {
+      "source": "BIO",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "ECL",
+      "weight": 2
+    },
+    {
+      "source": "BMI",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "COHU",
+      "weight": 1
+    },
+    {
+      "source": "BMI",
+      "target": "MKSI",
+      "weight": 11
+    },
+    {
+      "source": "BMI",
+      "target": "MTD",
+      "weight": 3
+    },
+    {
+      "source": "BMI",
+      "target": "CGNX",
+      "weight": 9
+    },
+    {
+      "source": "BMI",
+      "target": "PRCP",
+      "weight": 17
+    },
+    {
+      "source": "BMI",
+      "target": "KEYS",
+      "weight": 18
+    },
+    {
+      "source": "BMI",
+      "target": "CUB",
+      "weight": 5
+    },
+    {
+      "source": "BMI",
+      "target": "ROP",
+      "weight": 96
+    },
+    {
+      "source": "BMI",
+      "target": "ISNS",
+      "weight": 14
+    },
+    {
+      "source": "BMI",
+      "target": "RTEC",
+      "weight": 37
+    },
+    {
+      "source": "BRKR",
+      "target": "IIVI",
+      "weight": 5
+    },
+    {
+      "source": "BRKR",
+      "target": "ECL",
+      "weight": 3
+    },
+    {
+      "source": "BRKR",
+      "target": "CUB",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "MTD",
+      "weight": 9
+    },
+    {
+      "source": "BRKR",
+      "target": "KLAC",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "MOCO",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "COHR",
+      "weight": 2
+    },
+    {
+      "source": "BRKR",
+      "target": "WAT",
+      "weight": 12
+    },
+    {
+      "source": "BRKR",
+      "target": "HBIO",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "TMO",
+      "weight": 25
+    },
+    {
+      "source": "BRKR",
+      "target": "CGNX",
+      "weight": 3
+    },
+    {
+      "source": "BRKR",
+      "target": "ILMN",
+      "weight": 23
+    },
+    {
+      "source": "BRKR",
+      "target": "PKI",
+      "weight": 20
+    },
+    {
+      "source": "BRKR",
+      "target": "ESL",
+      "weight": 1
+    },
+    {
+      "source": "BRKR",
+      "target": "CLFD",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "GKOS",
+      "weight": 14
+    },
+    {
+      "source": "CGNX",
+      "target": "DVMT",
+      "weight": 4
+    },
+    {
+      "source": "CGNX",
+      "target": "RTEC",
+      "weight": 24
+    },
+    {
+      "source": "CGNX",
+      "target": "COHR",
+      "weight": 198
+    },
+    {
+      "source": "CGNX",
+      "target": "ECL",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "ILMN",
+      "weight": 18
+    },
+    {
+      "source": "CGNX",
+      "target": "PRCP",
+      "weight": 21
+    },
+    {
+      "source": "CGNX",
+      "target": "IIVI",
+      "weight": 11
+    },
+    {
+      "source": "CGNX",
+      "target": "ISNS",
+      "weight": 8
+    },
+    {
+      "source": "CGNX",
+      "target": "TER",
+      "weight": 13
+    },
+    {
+      "source": "CGNX",
+      "target": "MTD",
+      "weight": 6
+    },
+    {
+      "source": "CGNX",
+      "target": "KLAC",
+      "weight": 4
+    },
+    {
+      "source": "CGNX",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "TMO",
+      "weight": 4
+    },
+    {
+      "source": "CGNX",
+      "target": "ROP",
+      "weight": 9
+    },
+    {
+      "source": "CGNX",
+      "target": "CUB",
+      "weight": 1
+    },
+    {
+      "source": "CGNX",
+      "target": "COHU",
+      "weight": 13
+    },
+    {
+      "source": "CGNX",
+      "target": "HBIO",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "FORM",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "KEYS",
+      "weight": 44
+    },
+    {
+      "source": "CGNX",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "CGNX",
+      "target": "XCRA",
+      "weight": 3
+    },
+    {
+      "source": "CGNX",
+      "target": "FARO",
+      "weight": 7
+    },
+    {
+      "source": "CGNX",
+      "target": "MKSI",
+      "weight": 31
+    },
+    {
+      "source": "CGNX",
+      "target": "CLFD",
+      "weight": 2
+    },
+    {
+      "source": "CLFD",
+      "target": "ESL",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "PKI",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "IIVI",
+      "weight": 25
+    },
+    {
+      "source": "COHR",
+      "target": "DVMT",
+      "weight": 8
+    },
+    {
+      "source": "COHR",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "KEYS",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "WAT",
+      "weight": 5
+    },
+    {
+      "source": "COHR",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "COHR",
+      "target": "GKOS",
+      "weight": 13
+    },
+    {
+      "source": "COHR",
+      "target": "ILMN",
+      "weight": 65
+    },
+    {
+      "source": "COHR",
+      "target": "COHU",
+      "weight": 10
+    },
+    {
+      "source": "COHR",
+      "target": "KLAC",
+      "weight": 3
+    },
+    {
+      "source": "COHR",
+      "target": "MKSI",
+      "weight": 26
+    },
+    {
+      "source": "COHR",
+      "target": "ESL",
+      "weight": 2
+    },
+    {
+      "source": "COHR",
+      "target": "TER",
+      "weight": 9
+    },
+    {
+      "source": "COHU",
+      "target": "XCRA",
+      "weight": 36
+    },
+    {
+      "source": "COHU",
+      "target": "KLAC",
+      "weight": 7
+    },
+    {
+      "source": "COHU",
+      "target": "IIVI",
+      "weight": 3
+    },
+    {
+      "source": "COHU",
+      "target": "FORM",
+      "weight": 19
+    },
+    {
+      "source": "COHU",
+      "target": "XXIA",
+      "weight": 3
+    },
+    {
+      "source": "COHU",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "COHU",
+      "target": "MKSI",
+      "weight": 7
+    },
+    {
+      "source": "COHU",
+      "target": "RTEC",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "COHU",
+      "target": "TER",
+      "weight": 17
+    },
+    {
+      "source": "COHU",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "CUB",
+      "target": "KEYS",
+      "weight": 36
+    },
+    {
+      "source": "CUB",
+      "target": "ECL",
+      "weight": 2
+    },
+    {
+      "source": "CUB",
+      "target": "ESL",
+      "weight": 17
+    },
+    {
+      "source": "CUB",
+      "target": "IIVI",
+      "weight": 2
+    },
+    {
+      "source": "CUB",
+      "target": "XCRA",
+      "weight": 2
+    },
+    {
+      "source": "CYBE",
+      "target": "ILMN",
+      "weight": 3
+    },
+    {
+      "source": "CYBE",
+      "target": "RTEC",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "IIVI",
+      "weight": 10
+    },
+    {
+      "source": "CYBE",
+      "target": "GKOS",
+      "weight": 3
+    },
+    {
+      "source": "CYBE",
+      "target": "ELSE",
+      "weight": 1
+    },
+    {
+      "source": "CYBE",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "GKOS",
+      "weight": 3
+    },
+    {
+      "source": "DVMT",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "DVMT",
+      "target": "INTT",
+      "weight": 5
+    },
+    {
+      "source": "DVMT",
+      "target": "KLAC",
+      "weight": 28
+    },
+    {
+      "source": "DVMT",
+      "target": "LDR",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "OSIS",
+      "weight": 4
+    },
+    {
+      "source": "DVMT",
+      "target": "KEYS",
+      "weight": 43
+    },
+    {
+      "source": "DVMT",
+      "target": "ROP",
+      "weight": 5
+    },
+    {
+      "source": "DVMT",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "ECL",
+      "weight": 1
+    },
+    {
+      "source": "DVMT",
+      "target": "ILMN",
+      "weight": 3
+    },
+    {
+      "source": "ECL",
+      "target": "KEYS",
+      "weight": 2
+    },
+    {
+      "source": "ECL",
+      "target": "PKI",
+      "weight": 2
+    },
+    {
+      "source": "ECL",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "ECL",
+      "target": "TMO",
+      "weight": 5
+    },
+    {
+      "source": "ECL",
+      "target": "XXIA",
+      "weight": 1
+    },
+    {
+      "source": "ECL",
+      "target": "FARO",
+      "weight": 1
+    },
+    {
+      "source": "ECL",
+      "target": "ILMN",
+      "weight": 2
+    },
+    {
+      "source": "ECL",
+      "target": "GEOS",
+      "weight": 1
+    },
+    {
+      "source": "ECL",
+      "target": "WAT",
+      "weight": 2
+    },
+    {
+      "source": "ECL",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "ECL",
+      "target": "ROP",
+      "weight": 19
+    },
+    {
+      "source": "ECL",
+      "target": "MOCO",
+      "weight": 1
+    },
+    {
+      "source": "ELSE",
+      "target": "FEIM",
+      "weight": 1
+    },
+    {
+      "source": "ESL",
+      "target": "HBIO",
+      "weight": 28
+    },
+    {
+      "source": "ESL",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "ESL",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "ESL",
+      "target": "FORM",
+      "weight": 1
+    },
+    {
+      "source": "ESL",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "ESL",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "ESL",
+      "target": "IIVI",
+      "weight": 2
+    },
+    {
+      "source": "FARO",
+      "target": "MTSC",
+      "weight": 11
+    },
+    {
+      "source": "FARO",
+      "target": "LDR",
+      "weight": 3
+    },
+    {
+      "source": "FARO",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "FARO",
+      "target": "PRCP",
+      "weight": 9
+    },
+    {
+      "source": "FARO",
+      "target": "WTT",
+      "weight": 3
+    },
+    {
+      "source": "FARO",
+      "target": "MOCO",
+      "weight": 4
+    },
+    {
+      "source": "FEIM",
+      "target": "INTT",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "XCRA",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "PKI",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "TER",
+      "weight": 5
+    },
+    {
+      "source": "FORM",
+      "target": "IIVI",
+      "weight": 4
+    },
+    {
+      "source": "FORM",
+      "target": "MKSI",
+      "weight": 14
+    },
+    {
+      "source": "FORM",
+      "target": "KLAC",
+      "weight": 6
+    },
+    {
+      "source": "FORM",
+      "target": "GEOS",
+      "weight": 1
+    },
+    {
+      "source": "FORM",
+      "target": "RTEC",
+      "weight": 2
+    },
+    {
+      "source": "FORM",
+      "target": "INTT",
+      "weight": 2
+    },
+    {
+      "source": "FORM",
+      "target": "GKOS",
+      "weight": 1
+    },
+    {
+      "source": "GEOS",
+      "target": "KLAC",
+      "weight": 68
+    },
+    {
+      "source": "GKOS",
+      "target": "WAT",
+      "weight": 3
+    },
+    {
+      "source": "GKOS",
+      "target": "XCRA",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "ROP",
+      "weight": 2
+    },
+    {
+      "source": "GKOS",
+      "target": "MVIS",
+      "weight": 2
+    },
+    {
+      "source": "GKOS",
+      "target": "IIVI",
+      "weight": 6
+    },
+    {
+      "source": "GKOS",
+      "target": "PRCP",
+      "weight": 4
+    },
+    {
+      "source": "GKOS",
+      "target": "ILMN",
+      "weight": 4
+    },
+    {
+      "source": "GKOS",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "GKOS",
+      "target": "MKSI",
+      "weight": 2
+    },
+    {
+      "source": "HBIO",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "MOCO",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "TMO",
+      "weight": 2
+    },
+    {
+      "source": "HBIO",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "HBIO",
+      "target": "ILMN",
+      "weight": 7
+    },
+    {
+      "source": "HBIO",
+      "target": "PKI",
+      "weight": 4
+    },
+    {
+      "source": "IIVI",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "IIVI",
+      "target": "XXIA",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "KLAC",
+      "weight": 7
+    },
+    {
+      "source": "IIVI",
+      "target": "ILMN",
+      "weight": 6
+    },
+    {
+      "source": "IIVI",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "OSIS",
+      "weight": 7
+    },
+    {
+      "source": "IIVI",
+      "target": "MVIS",
+      "weight": 13
+    },
+    {
+      "source": "IIVI",
+      "target": "KEYS",
+      "weight": 3
+    },
+    {
+      "source": "IIVI",
+      "target": "WAT",
+      "weight": 12
+    },
+    {
+      "source": "IIVI",
+      "target": "MKSI",
+      "weight": 1
+    },
+    {
+      "source": "IIVI",
+      "target": "PKI",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "MKSI",
+      "weight": 29
+    },
+    {
+      "source": "ILMN",
+      "target": "INO",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "MTD",
+      "weight": 6
+    },
+    {
+      "source": "ILMN",
+      "target": "PRPO",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "KLAC",
+      "weight": 12
+    },
+    {
+      "source": "ILMN",
+      "target": "KEYS",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "WAT",
+      "weight": 12
+    },
+    {
+      "source": "ILMN",
+      "target": "PKI",
+      "weight": 14
+    },
+    {
+      "source": "ILMN",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "ILMN",
+      "target": "SYPR",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "TMO",
+      "weight": 66
+    },
+    {
+      "source": "ILMN",
+      "target": "LDR",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "ROP",
+      "weight": 7
+    },
+    {
+      "source": "ILMN",
+      "target": "INTT",
+      "weight": 8
+    },
+    {
+      "source": "ILMN",
+      "target": "MTSC",
+      "weight": 1
+    },
+    {
+      "source": "ILMN",
+      "target": "RTEC",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "INTT",
+      "weight": 3
+    },
+    {
+      "source": "INO",
+      "target": "KEYS",
+      "weight": 3
+    },
+    {
+      "source": "INO",
+      "target": "VUZI",
+      "weight": 15
+    },
+    {
+      "source": "INO",
+      "target": "ISNS",
+      "weight": 1
+    },
+    {
+      "source": "INO",
+      "target": "MVIS",
+      "weight": 2
+    },
+    {
+      "source": "INO",
+      "target": "TMO",
+      "weight": 2
+    },
+    {
+      "source": "INO",
+      "target": "PRPO",
+      "weight": 6
+    },
+    {
+      "source": "INO",
+      "target": "XXIA",
+      "weight": 1
+    },
+    {
+      "source": "INTT",
+      "target": "PKI",
+      "weight": 1
+    },
+    {
+      "source": "INTT",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "INTT",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "INTT",
+      "target": "PRCP",
+      "weight": 5
+    },
+    {
+      "source": "ISNS",
+      "target": "OSIS",
+      "weight": 4
+    },
+    {
+      "source": "ISNS",
+      "target": "PRCP",
+      "weight": 19
+    },
+    {
+      "source": "ISNS",
+      "target": "MTD",
+      "weight": 4
+    },
+    {
+      "source": "ISNS",
+      "target": "RTEC",
+      "weight": 11
+    },
+    {
+      "source": "ISNS",
+      "target": "KEYS",
+      "weight": 5
+    },
+    {
+      "source": "ISNS",
+      "target": "MKSI",
+      "weight": 8
+    },
+    {
+      "source": "KEYS",
+      "target": "PRCP",
+      "weight": 3
+    },
+    {
+      "source": "KEYS",
+      "target": "XXIA",
+      "weight": 103
+    },
+    {
+      "source": "KEYS",
+      "target": "OSIS",
+      "weight": 10
+    },
+    {
+      "source": "KEYS",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "KEYS",
+      "target": "KLAC",
+      "weight": 8
+    },
+    {
+      "source": "KEYS",
+      "target": "MTD",
+      "weight": 10
+    },
+    {
+      "source": "KEYS",
+      "target": "POWL",
+      "weight": 4
+    },
+    {
+      "source": "KEYS",
+      "target": "XCRA",
+      "weight": 3
+    },
+    {
+      "source": "KEYS",
+      "target": "ROP",
+      "weight": 9
+    },
+    {
+      "source": "KEYS",
+      "target": "RTEC",
+      "weight": 18
+    },
+    {
+      "source": "KEYS",
+      "target": "PKI",
+      "weight": 2
+    },
+    {
+      "source": "KEYS",
+      "target": "MKSI",
+      "weight": 20
+    },
+    {
+      "source": "KEYS",
+      "target": "TER",
+      "weight": 18
+    },
+    {
+      "source": "KLAC",
+      "target": "MKSI",
+      "weight": 31
+    },
+    {
+      "source": "KLAC",
+      "target": "PKI",
+      "weight": 8
+    },
+    {
+      "source": "KLAC",
+      "target": "TMO",
+      "weight": 2
+    },
+    {
+      "source": "KLAC",
+      "target": "WAT",
+      "weight": 4
+    },
+    {
+      "source": "KLAC",
+      "target": "MTSC",
+      "weight": 1
+    },
+    {
+      "source": "KLAC",
+      "target": "ROP",
+      "weight": 2
+    },
+    {
+      "source": "KLAC",
+      "target": "TER",
+      "weight": 175
+    },
+    {
+      "source": "KLAC",
+      "target": "RTEC",
+      "weight": 6
+    },
+    {
+      "source": "KLAC",
+      "target": "OSIS",
+      "weight": 13
+    },
+    {
+      "source": "KLAC",
+      "target": "MTD",
+      "weight": 1
+    },
+    {
+      "source": "LDR",
+      "target": "MOCO",
+      "weight": 3
+    },
+    {
+      "source": "MKSI",
+      "target": "MTD",
+      "weight": 7
+    },
+    {
+      "source": "MKSI",
+      "target": "MTSC",
+      "weight": 2
+    },
+    {
+      "source": "MKSI",
+      "target": "XCRA",
+      "weight": 4
+    },
+    {
+      "source": "MKSI",
+      "target": "PRCP",
+      "weight": 9
+    },
+    {
+      "source": "MKSI",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "OSIS",
+      "weight": 1
+    },
+    {
+      "source": "MKSI",
+      "target": "TER",
+      "weight": 62
+    },
+    {
+      "source": "MKSI",
+      "target": "RTEC",
+      "weight": 7
+    },
+    {
+      "source": "MKSI",
+      "target": "XXIA",
+      "weight": 2
+    },
+    {
+      "source": "MOCO",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "MOCO",
+      "target": "PKI",
+      "weight": 1
+    },
+    {
+      "source": "MOCO",
+      "target": "TMO",
+      "weight": 1
+    },
+    {
+      "source": "MOCO",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "TMO",
+      "weight": 36
+    },
+    {
+      "source": "MTD",
+      "target": "ROP",
+      "weight": 4
+    },
+    {
+      "source": "MTD",
+      "target": "MVIS",
+      "weight": 1
+    },
+    {
+      "source": "MTD",
+      "target": "PRCP",
+      "weight": 12
+    },
+    {
+      "source": "MTD",
+      "target": "WAT",
+      "weight": 35
+    },
+    {
+      "source": "MTD",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "MTD",
+      "target": "RTEC",
+      "weight": 31
+    },
+    {
+      "source": "MTD",
+      "target": "PKI",
+      "weight": 34
+    },
+    {
+      "source": "MTSC",
+      "target": "VUZI",
+      "weight": 1
+    },
+    {
+      "source": "MVIS",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "MVIS",
+      "target": "PRCP",
+      "weight": 11
+    },
+    {
+      "source": "MVIS",
+      "target": "PRPO",
+      "weight": 4
+    },
+    {
+      "source": "MVIS",
+      "target": "VUZI",
+      "weight": 15
+    },
+    {
+      "source": "OSIS",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "PKI",
+      "target": "ROP",
+      "weight": 1
+    },
+    {
+      "source": "PKI",
+      "target": "RTEC",
+      "weight": 4
+    },
+    {
+      "source": "PKI",
+      "target": "TER",
+      "weight": 2
+    },
+    {
+      "source": "PKI",
+      "target": "TMO",
+      "weight": 83
+    },
+    {
+      "source": "PKI",
+      "target": "WAT",
+      "weight": 53
+    },
+    {
+      "source": "PRCP",
+      "target": "RTEC",
+      "weight": 17
+    },
+    {
+      "source": "PRCP",
+      "target": "XCRA",
+      "weight": 2
+    },
+    {
+      "source": "PRPO",
+      "target": "VUZI",
+      "weight": 2
+    },
+    {
+      "source": "ROP",
+      "target": "TMO",
+      "weight": 3
+    },
+    {
+      "source": "ROP",
+      "target": "WAT",
+      "weight": 8
+    },
+    {
+      "source": "ROP",
+      "target": "TER",
+      "weight": 5
+    },
+    {
+      "source": "ROP",
+      "target": "RTEC",
+      "weight": 6
+    },
+    {
+      "source": "RTEC",
+      "target": "XCRA",
+      "weight": 1
+    },
+    {
+      "source": "RTEC",
+      "target": "WAT",
+      "weight": 2
+    },
+    {
+      "source": "RTEC",
+      "target": "TER",
+      "weight": 1
+    },
+    {
+      "source": "RTEC",
+      "target": "XXIA",
+      "weight": 1
+    },
+    {
+      "source": "TER",
+      "target": "XCRA",
+      "weight": 6
+    },
+    {
+      "source": "TER",
+      "target": "TMO",
+      "weight": 3
+    },
+    {
+      "source": "TER",
+      "target": "XXIA",
+      "weight": 7
+    },
+    {
+      "source": "TER",
+      "target": "WAT",
+      "weight": 1
+    },
+    {
+      "source": "TMO",
+      "target": "WAT",
+      "weight": 59
+    },
+    {
+      "source": "VUZI",
+      "target": "WTT",
+      "weight": 1
+    },
+    {
+      "source": "XCRA",
+      "target": "XXIA",
+      "weight": 3
+    }
+  ]
+}

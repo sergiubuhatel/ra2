@@ -7,11 +7,18 @@ export default function GraphViewer() {
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
   const [layout, setLayout] = useState("forceAtlas2");
   const [topology, setTopology] = useState("original");
+  const [dataset, setDataset] = useState("Top 50"); // new state for dataset
   const fgRef = useRef();
 
-  // Load graph data once
+  // Load graph data based on selected dataset
   useEffect(() => {
-    fetch("/graph_top_50.json")
+    const filename = {
+      "Top 50": "/graph_top_50.json",
+      "Top 100": "/graph_top_100.json",
+      "Top 200": "/graph_top_200.json"
+    }[dataset];
+
+    fetch(filename)
       .then(res => res.json())
       .then(data => {
         const originalLinks = data.edges.map(e => ({
@@ -21,7 +28,7 @@ export default function GraphViewer() {
         }));
         setGraphData({ nodes: data.nodes, links: originalLinks });
       });
-  }, []);
+  }, [dataset]);
 
   // Apply topology + layout safely
   useEffect(() => {
@@ -38,7 +45,7 @@ export default function GraphViewer() {
         source: nodeById.get(link.source),
         target: nodeById.get(link.target)
       }))
-      .filter(link => link.source && link.target); // REMOVE invalid links
+      .filter(link => link.source && link.target);
 
     // Apply layouts
     if (layout === "random") {
@@ -80,7 +87,14 @@ export default function GraphViewer() {
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
-        <label style={{ marginRight: 10 }}>Layout:</label>
+        <label style={{ marginRight: 10 }}>Dataset:</label>
+        <select value={dataset} onChange={e => setDataset(e.target.value)}>
+          <option value="Top 50">Top 50</option>
+          <option value="Top 100">Top 100</option>
+          <option value="Top 200">Top 200</option>
+        </select>
+
+        <label style={{ marginLeft: 20, marginRight: 10 }}>Layout:</label>
         <select value={layout} onChange={e => setLayout(e.target.value)}>
           <option value="forceAtlas2">ForceAtlas2 (default)</option>
           <option value="fruchterman">Fruchterman–Reingold</option>
@@ -108,9 +122,6 @@ export default function GraphViewer() {
           nodeAutoColorBy="industry"
           width={window.innerWidth}
           height={window.innerHeight}
-          // Remove moving particles
-          // linkDirectionalParticles={2}
-          // linkDirectionalParticleSpeed={0.005}
           nodeCanvasObject={(node, ctx, globalScale) => {
             const radius = 1 + (node.eigenvector_centrality || 0) * 20;
             ctx.beginPath();

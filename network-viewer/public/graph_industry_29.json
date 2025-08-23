@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "id": "ARCH",
+      "label": "ARCH",
+      "industry": "Coal",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.5113367749742657,
+      "harmonic_centrality": 0.10585618085618084,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 416
+    },
+    {
+      "id": "BTU",
+      "label": "BTU",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.5,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6128223929709662,
+      "harmonic_centrality": 1.6068643831801726,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 542
+    },
+    {
+      "id": "CEIX",
+      "label": "CEIX",
+      "industry": "Coal",
+      "degree_centrality": 0.6000000000000001,
+      "betweenness_centrality": 0.6000000000000001,
+      "closeness_centrality": 0.7142857142857143,
+      "eigenvector_centrality": 0.01984361419651789,
+      "harmonic_centrality": 2.105218855218855,
+      "eccentricity": 2,
+      "degree": 3,
+      "weighted_degree": 29
+    },
+    {
+      "id": "CLD",
+      "label": "CLD",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.5026726804301388,
+      "harmonic_centrality": 1.6011904761904763,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 478
+    },
+    {
+      "id": "CNX",
+      "label": "CNX",
+      "industry": "Coal",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.27196602933088454,
+      "harmonic_centrality": 0.15246947693756202,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 287
+    },
+    {
+      "id": "WLB",
+      "label": "WLB",
+      "industry": "Coal",
+      "degree_centrality": 0.8,
+      "betweenness_centrality": 0.30000000000000004,
+      "closeness_centrality": 0.8333333333333334,
+      "eigenvector_centrality": 0.1895898294926379,
+      "harmonic_centrality": 0.20009865088252546,
+      "eccentricity": 2,
+      "degree": 4,
+      "weighted_degree": 184
+    }
+  ],
+  "edges": [
+    {
+      "source": "ARCH",
+      "target": "WLB",
+      "weight": 35
+    },
+    {
+      "source": "ARCH",
+      "target": "CLD",
+      "weight": 65
+    },
+    {
+      "source": "ARCH",
+      "target": "BTU",
+      "weight": 272
+    },
+    {
+      "source": "ARCH",
+      "target": "CNX",
+      "weight": 44
+    },
+    {
+      "source": "BTU",
+      "target": "CNX",
+      "weight": 31
+    },
+    {
+      "source": "BTU",
+      "target": "CLD",
+      "weight": 219
+    },
+    {
+      "source": "BTU",
+      "target": "CEIX",
+      "weight": 1
+    },
+    {
+      "source": "BTU",
+      "target": "WLB",
+      "weight": 19
+    },
+    {
+      "source": "CEIX",
+      "target": "CLD",
+      "weight": 1
+    },
+    {
+      "source": "CEIX",
+      "target": "CNX",
+      "weight": 27
+    },
+    {
+      "source": "CLD",
+      "target": "CNX",
+      "weight": 124
+    },
+    {
+      "source": "CLD",
+      "target": "WLB",
+      "weight": 69
+    },
+    {
+      "source": "CNX",
+      "target": "WLB",
+      "weight": 61
+    }
+  ]
+}

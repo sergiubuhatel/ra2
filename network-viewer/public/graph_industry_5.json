@@ -1,0 +1,159 @@
+{
+  "nodes": [
+    {
+      "id": "AOI",
+      "label": "AOI",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 1.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.005249863355657016,
+      "harmonic_centrality": 3.225,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 21
+    },
+    {
+      "id": "MO",
+      "label": "MO",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6320726862180915,
+      "harmonic_centrality": 0.4282828282828284,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 2734
+    },
+    {
+      "id": "PM",
+      "label": "PM",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.6446134717016135,
+      "harmonic_centrality": 0.5138888888888888,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 2800
+    },
+    {
+      "id": "RAI",
+      "label": "RAI",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.4068221176643533,
+      "harmonic_centrality": 2.202020202020202,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 1604
+    },
+    {
+      "id": "TPB",
+      "label": "TPB",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.03365867126083681,
+      "harmonic_centrality": 2.202020202020202,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 170
+    },
+    {
+      "id": "VGR",
+      "label": "VGR",
+      "industry": "Smoke",
+      "degree_centrality": 1.0,
+      "betweenness_centrality": 0.0,
+      "closeness_centrality": 1.0,
+      "eigenvector_centrality": 0.13525120628161533,
+      "harmonic_centrality": 2.202020202020202,
+      "eccentricity": 1,
+      "degree": 5,
+      "weighted_degree": 545
+    }
+  ],
+  "edges": [
+    {
+      "source": "AOI",
+      "target": "VGR",
+      "weight": 1
+    },
+    {
+      "source": "AOI",
+      "target": "PM",
+      "weight": 8
+    },
+    {
+      "source": "AOI",
+      "target": "TPB",
+      "weight": 1
+    },
+    {
+      "source": "AOI",
+      "target": "RAI",
+      "weight": 1
+    },
+    {
+      "source": "AOI",
+      "target": "MO",
+      "weight": 10
+    },
+    {
+      "source": "MO",
+      "target": "VGR",
+      "weight": 266
+    },
+    {
+      "source": "MO",
+      "target": "RAI",
+      "weight": 640
+    },
+    {
+      "source": "MO",
+      "target": "TPB",
+      "weight": 28
+    },
+    {
+      "source": "MO",
+      "target": "PM",
+      "weight": 1790
+    },
+    {
+      "source": "PM",
+      "target": "VGR",
+      "weight": 164
+    },
+    {
+      "source": "PM",
+      "target": "TPB",
+      "weight": 39
+    },
+    {
+      "source": "PM",
+      "target": "RAI",
+      "weight": 799
+    },
+    {
+      "source": "RAI",
+      "target": "TPB",
+      "weight": 76
+    },
+    {
+      "source": "RAI",
+      "target": "VGR",
+      "weight": 88
+    },
+    {
+      "source": "TPB",
+      "target": "VGR",
+      "weight": 26
+    }
+  ]
+}
