@@ -102,7 +102,9 @@ export default function GraphViewer() {
         <ForceGraph2D
           ref={fgRef}
           graphData={graphData}
-          nodeLabel={node => `${node.id} (${node.industry || "N/A"})`}
+          nodeLabel={node =>
+            `${node.id} (${node.industry || "N/A"}), EC: ${node.eigenvector_centrality?.toFixed(3) || 0}`
+          }
           nodeAutoColorBy="industry"
           linkDirectionalParticles={2}
           linkDirectionalParticleSpeed={0.005}
