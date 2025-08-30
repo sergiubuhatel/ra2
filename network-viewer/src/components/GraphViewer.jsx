@@ -18,6 +18,7 @@ export default function GraphViewer() {
     "Top 50",
     "Top 100",
     "Top 200",
+    //"All",
     ...Object.keys(industryNameToNumber).sort((a, b) => a.localeCompare(b))
   ];
 
@@ -28,8 +29,11 @@ export default function GraphViewer() {
       filename = `/data/${year}/${
         dataset === "Top 50" ? "graph_top_50.json" :
         dataset === "Top 100" ? "graph_top_100.json" :
+        dataset === "Top 200" ? "graph_top_100.json" :
         "graph_top_200.json"
       }`;
+    } else if (dataset === "All") {
+      filename = `/data/${year}/graph_all_${year}.json`;
     } else {
       const code = industryNameToNumber[dataset];
       filename = `/data/${year}/graph_industry_${code}.json`;
