@@ -33,8 +33,11 @@ yarn-error.log*
 /public/data/2019/All companies/Net.csv
 /public/data/2019/All companies/Nodes.csv
 
-/public/raw-data/*.*
-/public/raw-data/data/*.*
+# /raw-data/*.*
+# /raw-data/data/*.*
+/raw-data1/*.*
+/raw-data1/data/*.*
+/raw-data1/
 
 
 
