@@ -5,14 +5,15 @@ import { generateTopologyLinks } from "../utils/generateTopologyLinks";
 import { industryNameToNumber } from "../utils/industryMapping";
 
 export default function GraphViewer() {
+  const [rawGraphData, setRawGraphData] = useState({ nodes: [], links: [] });
   const [graphData, setGraphData] = useState({ nodes: [], links: [] });
+
   const [layout, setLayout] = useState("forceAtlas2");
   const [topology, setTopology] = useState("original");
-  const [dataset, setDataset] = useState("Top 50"); // Top 50/100/200 or industry
-  const [year, setYear] = useState("2017"); // default year
+  const [dataset, setDataset] = useState("Top 50");
+  const [year, setYear] = useState("2017");
   const fgRef = useRef();
 
-  // Build dataset options: Top N + industries in alphabetical order
   const datasetOptions = [
     "Top 50",
     "Top 100",
@@ -20,19 +21,16 @@ export default function GraphViewer() {
     ...Object.keys(industryNameToNumber).sort((a, b) => a.localeCompare(b))
   ];
 
-  // Load graph data based on dataset and year
+  // --- Fetch raw data only ---
   useEffect(() => {
     let filename = "";
-
     if (dataset.startsWith("Top")) {
-      // Top N dataset
       filename = `/data/${year}/${
         dataset === "Top 50" ? "graph_top_50.json" :
         dataset === "Top 100" ? "graph_top_100.json" :
         "graph_top_200.json"
       }`;
     } else {
-      // Industry dataset
       const code = industryNameToNumber[dataset];
       filename = `/data/${year}/graph_industry_${code}.json`;
     }
@@ -45,29 +43,32 @@ export default function GraphViewer() {
           target: e.target,
           value: e.weight
         }));
-        setGraphData({ nodes: data.nodes, links: originalLinks });
+        setRawGraphData({ nodes: data.nodes, links: originalLinks });
       });
   }, [dataset, year]);
 
-  // Apply topology + layout safely
+  // --- Apply topology + layout ---
   useEffect(() => {
-    if (!graphData.nodes.length) return;
+    if (!rawGraphData.nodes.length) return;
 
-    const newNodes = graphData.nodes.map(node => ({ ...node }));
+    const newNodes = rawGraphData.nodes.map(node => ({ ...node }));
 
-    // Find node with highest eigenvector centrality
-    const maxECNode = newNodes.reduce((maxNode, node) =>
-      (node.eigenvector_centrality || 0) > (maxNode.eigenvector_centrality || 0) ? node : maxNode
-    , newNodes[0]);
+    // find max EC node
+    const maxECNode = newNodes.reduce(
+      (maxNode, node) =>
+        (node.eigenvector_centrality || 0) > (maxNode.eigenvector_centrality || 0)
+          ? node
+          : maxNode,
+      newNodes[0]
+    );
 
-    // Swap max EC node to index 0 if using hub-spoke/star
+    // hub-spoke/star: move hub to index 0
     if (topology === "hub-spoke" || topology === "star") {
       const index = newNodes.findIndex(n => n.id === maxECNode.id);
       if (index > 0) [newNodes[0], newNodes[index]] = [newNodes[index], newNodes[0]];
     }
 
-    const newLinks = generateTopologyLinks(newNodes, graphData.links, topology);
-
+    const newLinks = generateTopologyLinks(newNodes, rawGraphData.links, topology);
     const nodeById = new Map(newNodes.map(n => [n.id, n]));
     const safeLinks = newLinks
       .map(link => ({
@@ -77,13 +78,11 @@ export default function GraphViewer() {
       }))
       .filter(link => link.source && link.target);
 
-    // Layout positioning
+    // layout options
     if (layout === "random") {
       newNodes.forEach(node => {
         node.x = Math.random() * 800;
         node.y = Math.random() * 600;
-        delete node.vx;
-        delete node.vy;
       });
     } else if (layout === "circular") {
       const radius = 300;
@@ -91,8 +90,6 @@ export default function GraphViewer() {
         const angle = (i / newNodes.length) * 2 * Math.PI;
         node.x = radius * Math.cos(angle);
         node.y = radius * Math.sin(angle);
-        delete node.vx;
-        delete node.vy;
       });
     } else if (layout === "fruchterman") {
       const sim = d3.forceSimulation(newNodes)
@@ -100,25 +97,24 @@ export default function GraphViewer() {
         .force("charge", d3.forceManyBody().strength(-150))
         .force("center", d3.forceCenter(0, 0));
 
-      // Fix the highest EC node at the center
+      // fix hub at center
       maxECNode.fx = 0;
       maxECNode.fy = 0;
 
       sim.stop();
       for (let i = 0; i < 300; i++) sim.tick();
 
-      // Optionally release it after simulation
       delete maxECNode.fx;
       delete maxECNode.fy;
     }
 
     setGraphData({ nodes: newNodes, links: safeLinks });
-  }, [layout, topology, graphData.nodes.length]);
+  }, [rawGraphData, layout, topology]);
 
-  // Zoom & center
+  // zoom to fit once data updates
   useEffect(() => {
     if (fgRef.current && graphData.nodes.length) {
-      setTimeout(() => fgRef.current.zoomToFit(400, 100), 500);
+      setTimeout(() => fgRef.current.zoomToFit(400, 100), 300);
     }
   }, [graphData]);
 
