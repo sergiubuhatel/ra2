@@ -1,0 +1,16 @@
+# Core Python dependencies
+numpy
+pandas
+
+# PyTorch (CUDA 12.x version)
+torch==2.4.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# DGL with CUDA 12
+dgl-cu12
+
+# RAPIDS libraries (cuGraph + dependencies)
+cudf-cu12
+cugraph-cu12
+rmm-cu12
+--extra-index-url https://pypi.nvidia.com
