@@ -18,7 +18,7 @@ export default function GraphViewer() {
     "Top 50",
     "Top 100",
     "Top 200",
-    //"All",
+    "All",
     ...Object.keys(industryNameToNumber).sort((a, b) => a.localeCompare(b))
   ];
 
