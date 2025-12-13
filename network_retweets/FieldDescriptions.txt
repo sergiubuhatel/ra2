@@ -1,0 +1,6 @@
+screen_name4 --> stock ticker 
+user_screen_name --> Edge A in the network
+edgeB --> Edge B in the network 
+tweetyear --> year of tweet 
+tweetmonth --> month of tweet 
+EST --> tweet time (in EDT) which means we never have to worry about time zones

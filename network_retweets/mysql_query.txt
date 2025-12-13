@@ -1,0 +1,4 @@
+SELECT screen_name4, user_screen_name, edgeB, tweetyear, tweetmonth, EST
+FROM blazing_sql.tweets_2021
+where is_retweet=1
+order by screen_name4, EST

@@ -1,0 +1,99 @@
+import cudf
+import cugraph
+import cupy as cp
+from collections import defaultdict
+import pandas as pd
+
+# -------------------------------------------------
+# 1. Load CSV on GPU (NO HEADER)
+# -------------------------------------------------
+file_path = "retweet_network2017.csv"
+columns = ["screen_name4", "user_screen_name", "edgeB", "tweetyear", "tweetmonth", "EST"]
+
+df = cudf.read_csv(
+    file_path,
+    names=columns,
+    dtype={"screen_name4": "str",
+           "user_screen_name": "str",
+           "edgeB": "str",
+           "tweetyear": "int32",
+           "tweetmonth": "int32",
+           "EST": "str"},
+    parse_dates=["EST"]
+)
+
+df = df.dropna(subset=["user_screen_name", "edgeB"])
+edges_df = df.rename(columns={"user_screen_name": "src", "edgeB": "dst"})
+
+# -------------------------------------------------
+# 2. Build GPU directed graph
+# -------------------------------------------------
+G = cugraph.Graph(directed=True)
+G.from_cudf_edgelist(
+    edges_df,
+    source="src",
+    destination="dst",
+    renumber=True,
+    store_transposed=True  # recommended for PageRank
+)
+
+# -------------------------------------------------
+# 3. CENTRALITY METRICS (GPU)
+# -------------------------------------------------
+in_degree = G.in_degree()
+in_degree["in_degree_centrality"] = in_degree["degree"] / (G.number_of_nodes() - 1)
+in_degree = in_degree.drop(columns="degree")
+
+out_degree = G.out_degree()
+out_degree["out_degree_centrality"] = out_degree["degree"] / (G.number_of_nodes() - 1)
+out_degree = out_degree.drop(columns="degree")
+
+k = 1000  # sample vertices for approximate betweenness
+betweenness = cugraph.betweenness_centrality(G, k=k, normalized=True)
+
+pagerank = cugraph.pagerank(G)
+
+# -------------------------------------------------
+# 4. CLUSTERING COEFFICIENT (GPU, approximate)
+# -------------------------------------------------
+G_undirected = G.to_undirected()
+edges_df = G_undirected.view_edge_list()  # cudf.DataFrame with columns ["src", "dst", "weight"]
+
+# Build adjacency dict
+adj_dict = defaultdict(set)
+for s, d in zip(edges_df["src"].to_pandas(), edges_df["dst"].to_pandas()):
+    adj_dict[s].add(d)
+    adj_dict[d].add(s)  # undirected
+
+# Local clustering coefficient
+def local_clustering(v):
+    neighbors = adj_dict[v]
+    if len(neighbors) < 2:
+        return 0.0
+    links = sum(1 for u in neighbors for w in neighbors if u != w and w in adj_dict[u]) / 2
+    return links / (len(neighbors) * (len(neighbors) - 1) / 2)
+
+vertices = list(adj_dict.keys())
+clustering_values = [local_clustering(v) for v in vertices]
+clustering_df = pd.DataFrame({"vertex": vertices, "clustering_coefficient": clustering_values})
+
+# -------------------------------------------------
+# 5. NETWORK DENSITY
+# -------------------------------------------------
+num_nodes = G.number_of_nodes()
+num_edges = G.number_of_edges()
+network_density = num_edges / (num_nodes * (num_nodes - 1))
+
+# -------------------------------------------------
+# 6. SAVE RESULTS
+# -------------------------------------------------
+in_degree.to_csv("in_degree_centrality_2017.csv", index=False)
+out_degree.to_csv("out_degree_centrality_2017.csv", index=False)
+betweenness.to_csv("betweenness_centrality_2017.csv", index=False)
+pagerank.to_csv("pagerank_2017.csv", index=False)
+clustering_df.to_csv("clustering_coefficients_2017.csv", index=False)
+
+with open("network_density_2017.txt", "w") as f:
+    f.write(f"Network density: {network_density}\n")
+
+print("GPU network analysis completed successfully.")
