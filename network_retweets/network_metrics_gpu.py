@@ -1,8 +1,8 @@
 import cudf
 import cugraph
 import cupy as cp
-from collections import defaultdict
 import pandas as pd
+from collections import defaultdict
 
 # -------------------------------------------------
 # 1. Load CSV on GPU (NO HEADER)
@@ -22,6 +22,7 @@ df = cudf.read_csv(
     parse_dates=["EST"]
 )
 
+# Drop rows with missing users
 df = df.dropna(subset=["user_screen_name", "edgeB"])
 edges_df = df.rename(columns={"user_screen_name": "src", "edgeB": "dst"})
 
@@ -34,38 +35,44 @@ G.from_cudf_edgelist(
     source="src",
     destination="dst",
     renumber=True,
-    store_transposed=True  # recommended for PageRank
+    store_transposed=True  # optimal for PageRank
 )
 
 # -------------------------------------------------
 # 3. CENTRALITY METRICS (GPU)
 # -------------------------------------------------
+# In-degree centrality
 in_degree = G.in_degree()
 in_degree["in_degree_centrality"] = in_degree["degree"] / (G.number_of_nodes() - 1)
 in_degree = in_degree.drop(columns="degree")
 
+# Out-degree centrality
 out_degree = G.out_degree()
 out_degree["out_degree_centrality"] = out_degree["degree"] / (G.number_of_nodes() - 1)
 out_degree = out_degree.drop(columns="degree")
 
-k = 1000  # sample vertices for approximate betweenness
+# Approximate betweenness centrality (GPU)
+k = 1000  # number of sampled vertices
 betweenness = cugraph.betweenness_centrality(G, k=k, normalized=True)
 
+# PageRank
 pagerank = cugraph.pagerank(G)
 
 # -------------------------------------------------
 # 4. CLUSTERING COEFFICIENT (GPU, approximate)
 # -------------------------------------------------
 G_undirected = G.to_undirected()
-edges_df = G_undirected.view_edge_list()  # cudf.DataFrame with columns ["src", "dst", "weight"]
+
+# Get adjacency list
+edges_df = G_undirected.view_edge_list()  # cudf.DataFrame with ["src", "dst", "weight"]
 
 # Build adjacency dict
 adj_dict = defaultdict(set)
 for s, d in zip(edges_df["src"].to_pandas(), edges_df["dst"].to_pandas()):
     adj_dict[s].add(d)
-    adj_dict[d].add(s)  # undirected
+    adj_dict[d].add(s)
 
-# Local clustering coefficient
+# Compute local clustering coefficient
 def local_clustering(v):
     neighbors = adj_dict[v]
     if len(neighbors) < 2:
