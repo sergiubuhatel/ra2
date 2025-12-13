@@ -1,5 +1,7 @@
 import cudf
 import cugraph
+import cupy as cp
+from collections import defaultdict
 
 # -------------------------------------------------
 # 1. Load CSV on GPU (NO HEADER)
@@ -10,12 +12,14 @@ columns = ["screen_name4", "user_screen_name", "edgeB", "tweetyear", "tweetmonth
 df = cudf.read_csv(
     file_path,
     names=columns,
-    dtype={"screen_name4": "str",
-           "user_screen_name": "str",
-           "edgeB": "str",
-           "tweetyear": "int32",
-           "tweetmonth": "int32",
-           "EST": "str"},
+    dtype={
+        "screen_name4": "str",
+        "user_screen_name": "str",
+        "edgeB": "str",
+        "tweetyear": "int32",
+        "tweetmonth": "int32",
+        "EST": "str"
+    },
     parse_dates=["EST"]
 )
 
@@ -56,44 +60,42 @@ betweenness = cugraph.betweenness_centrality(G, k=k, normalized=True)
 pagerank = cugraph.pagerank(G)
 
 # -------------------------------------------------
-# 4. CLUSTERING COEFFICIENT (GPU)
+# 4. CLUSTERING COEFFICIENT (GPU-safe approximation)
 # -------------------------------------------------
 G_undirected = G.to_undirected()
 
-# Compute triangle counts per vertex (GPU)
-# Note: triangles() requires recent cuGraph >=23.04
 try:
+    # Attempt GPU triangle counts (requires cuGraph >= 23.04)
     triangles_df = cugraph.triangles(G_undirected)  # columns: ["vertex", "count"]
-except AttributeError:
-    # If triangles() is not available, approximate using Python (slower, fallback)
-    import pandas as pd
-    from collections import defaultdict
-    edges_gpu = G_undirected.view_edge_list()
-    adj_dict = defaultdict(set)
-    for s, d in zip(edges_gpu["src"].to_pandas(), edges_gpu["dst"].to_pandas()):
-        adj_dict[s].add(d)
-        adj_dict[d].add(s)
-    def local_clustering(v):
-        neighbors = adj_dict[v]
-        if len(neighbors) < 2:
-            return 0.0
-        links = sum(1 for u in neighbors for w in neighbors if u != w and w in adj_dict[u]) / 2
-        return links / (len(neighbors) * (len(neighbors) - 1) / 2)
-    vertices = list(adj_dict.keys())
-    clustering_values = [local_clustering(v) for v in vertices]
-    clustering_df = pd.DataFrame({"vertex": vertices, "clustering_coefficient": clustering_values})
-else:
-    # Get degrees per vertex
     degrees_df = G_undirected.degree()  # columns: ["vertex", "degree"]
-
-    # Merge triangle counts and degrees
     clustering_df = triangles_df.merge(degrees_df, on="vertex")
-
-    # Compute clustering coefficient on GPU
     clustering_df["clustering_coefficient"] = (
         2 * clustering_df["count"] / (clustering_df["degree"] * (clustering_df["degree"] - 1))
     )
     clustering_df = clustering_df.fillna(0)
+except AttributeError:
+    # Fallback: GPU-friendly approximate clustering
+    edges = G_undirected.view_edge_list()[["src", "dst"]]
+    # Build adjacency dictionary (on CPU but lightweight)
+    adj = defaultdict(set)
+    srcs = edges["src"].to_pandas()
+    dsts = edges["dst"].to_pandas()
+    for s, d in zip(srcs, dsts):
+        adj[s].add(d)
+        adj[d].add(s)
+
+    # Compute approximate clustering (sampling all nodes sequentially)
+    vertices = list(adj.keys())
+    clustering_values = []
+    for v in vertices:
+        neighbors = adj[v]
+        if len(neighbors) < 2:
+            clustering_values.append(0.0)
+            continue
+        links = sum(1 for u in neighbors for w in neighbors if u != w and w in adj[u]) / 2
+        clustering_values.append(links / (len(neighbors) * (len(neighbors) - 1) / 2))
+    import cudf
+    clustering_df = cudf.DataFrame({"vertex": vertices, "clustering_coefficient": clustering_values})
 
 # -------------------------------------------------
 # 5. NETWORK DENSITY
