@@ -1,12 +1,22 @@
+import argparse
 import cudf
 import cugraph
 import cupy as cp
 from collections import defaultdict
 
 # -------------------------------------------------
+# Argument parsing
+# -------------------------------------------------
+parser = argparse.ArgumentParser(description="GPU network metrics by year")
+parser.add_argument("--year", type=int, required=True, help="Year of the retweet network CSV")
+args = parser.parse_args()
+
+year = args.year
+
+# -------------------------------------------------
 # 1. Load CSV on GPU (NO HEADER)
 # -------------------------------------------------
-file_path = "retweet_network2017.csv"
+file_path = f"retweet_network{year}.csv"
 columns = ["screen_name4", "user_screen_name", "edgeB", "tweetyear", "tweetmonth", "EST"]
 
 df = cudf.read_csv(
@@ -107,13 +117,13 @@ network_density = num_edges / (num_nodes * (num_nodes - 1))
 # -------------------------------------------------
 # 6. SAVE RESULTS
 # -------------------------------------------------
-in_degree.to_csv("in_degree_centrality_2017.csv", index=False)
-out_degree.to_csv("out_degree_centrality_2017.csv", index=False)
-betweenness.to_csv("betweenness_centrality_2017.csv", index=False)
-pagerank.to_csv("pagerank_2017.csv", index=False)
-clustering_df.to_csv("clustering_coefficients_2017.csv", index=False)
+in_degree.to_csv(f"./output/{year}/in_degree_centrality_{year}.csv", index=False)
+out_degree.to_csv(f"./output/{year}/out_degree_centrality_{year}.csv", index=False)
+betweenness.to_csv(f"./output/{year}/betweenness_centrality_{year}.csv", index=False)
+pagerank.to_csv(f"./output/{year}/pagerank_{year}.csv", index=False)
+clustering_df.to_csv(f"./output/{year}/clustering_coefficients_{year}.csv", index=False)
 
-with open("network_density_2017.txt", "w") as f:
+with open(f"./output/{year}/network_density_{year}.txt", "w") as f:
     f.write(f"Network density: {network_density}\n")
 
 print("GPU network analysis completed successfully.")
