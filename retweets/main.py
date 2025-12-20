@@ -158,9 +158,13 @@ def main():
     ev_cu = events[["ts"]].compute().sort_values("ts")
     total = len(ev_cu)
     t0 = ev_cu["ts"].iloc[0]
-    summary["t10_hours"] = float((ev_cu["ts"].iloc[int(0.1 * total)] - t0) / pd.Timedelta(hours=1))
-    summary["t50_hours"] = float((ev_cu["ts"].iloc[int(0.5 * total)] - t0) / pd.Timedelta(hours=1))
-    summary["t90_hours"] = float((ev_cu["ts"].iloc[int(0.9 * total)] - t0) / pd.Timedelta(hours=1))
+    t10 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.10 * total)) - 1)]
+    t50 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.50 * total)) - 1)]
+    t90 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.90 * total)) - 1)]
+
+    summary["t10_hours"] = float((t10 - t0) / np.timedelta64(1, 'h'))
+    summary["t50_hours"] = float((t50 - t0) / np.timedelta64(1, 'h'))
+    summary["t90_hours"] = float((t90 - t0) / np.timedelta64(1, 'h'))
 
     edges = events.groupby(["src", "dst"]).size().reset_index().rename(columns={0: "weight"})
     if DROP_SELF_LOOPS:
