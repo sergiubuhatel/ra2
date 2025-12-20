@@ -177,9 +177,20 @@ def main():
     summary["peak_hour_share"] = float(hourly.max() / total) if len(hourly) else float("nan")
     summary["peak_10min_share"] = float(tenmin.max() / total) if len(tenmin) else float("nan")
 
+    # ---- Weighted edges (GPU): weight = count of events per (src,dst) ----
     edges = events.groupby(["src", "dst"]).size().reset_index().rename(columns={0: "weight"})
     if DROP_SELF_LOOPS:
         edges = edges[edges["src"] != edges["dst"]]
+
+    # Persist helps on big runs
+    edges = edges.persist()
+
+    n_edges_unique = int(edges.shape[0].compute())
+    total_weight = int(edges["weight"].sum().compute())
+
+    summary["n_edges_unique"] = n_edges_unique
+    summary["total_weight"] = total_weight
+    summary["avg_weight_per_edge"] = safe_float(total_weight / n_edges_unique) if n_edges_unique else float("nan")
 
     edges_cu = edges.compute()
 
@@ -188,12 +199,15 @@ def main():
 
     n_nodes = int(G.number_of_vertices())
     summary["n_nodes"] = n_nodes
+    summary["density"] = float(n_edges_unique / (n_nodes * (n_nodes - 1))) if n_nodes > 1 else float("nan")
 
     indeg = edges_cu.groupby("dst")["weight"].sum().reset_index().rename(
         columns={"dst": "vertex", "weight": "in_strength"})
     outdeg = edges_cu.groupby("src")["weight"].sum().reset_index().rename(
         columns={"src": "vertex", "weight": "out_strength"})
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
+
+    deg.to_parquet(os.path.join(OUTDIR, "node_strengths.parquet"), index=False)
 
     # ---- Concentration measures (FIXED & DGX-safe) ----
     in_s = deg["in_strength"].astype("float64")
