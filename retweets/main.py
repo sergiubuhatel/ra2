@@ -229,27 +229,68 @@ def main():
         "out_max_share": top_share_from_cudf(out_s, 1.0 / max(1, n_nodes)),
     })
 
-    # ---- FIX: UNDIRECTED GRAPH FOR WCC ----
-    Gu_wcc = cugraph.Graph(directed=False)
-    Gu_wcc.from_cudf_edgelist(edges_cu, "src", "dst", edge_attr="weight", renumber=True)
+    # ---- Components ----
+    # ---- Components (single-GPU version) ----
+    G_undir = cugraph.Graph(directed=False)
+    G_undir.from_cudf_edgelist(edges_cu, source="src", destination="dst", edge_attr="weight")
 
-    wcc = cugraph.connected_components(Gu_wcc)
-    wcc_sizes = wcc.groupby("labels").size()
+    # Weakly connected components
+    wcc = cugraph.weakly_connected_components(G_undir)
+    wcc_sizes = wcc.groupby("labels").size().reset_index(name="size")
     summary["n_wcc"] = int(len(wcc_sizes))
-    summary["largest_wcc_share"] = float(wcc_sizes.max() / n_nodes)
+    summary["largest_wcc_share"] = float(wcc_sizes["size"].max() / n_nodes) if n_nodes else float("nan")
 
-    # ---- SCC (directed) ----
-    scc = cugraph.strongly_connected_components(G)
-    scc_sizes = scc.groupby("labels").size()
+    scc = cugraph.strongly_connected_components(G_undir)
+    scc_sizes = scc.groupby("labels").size().reset_index(name="size")
     summary["n_scc"] = int(len(scc_sizes))
-    summary["largest_scc_share"] = float(scc_sizes.max() / n_nodes)
+    summary["largest_scc_share"] = float(scc_sizes["size"].max() / n_nodes) if n_nodes else float("nan")
 
-    json.dump(summary, open(os.path.join(OUTDIR, "summary.json"), "w"), indent=2)
+    # ---- PageRank ----
+    try:
+        pr = dcg.pagerank(G, weight="weight").compute()
+        pr.to_parquet(os.path.join(OUTDIR, "pagerank.parquet"), index=False)
+        summary["pagerank_gini"] = gini_from_cudf(pr["pagerank"])
+        summary["pagerank_top1_share"] = top_share_from_cudf(pr["pagerank"], 0.01)
+    except Exception:
+        summary["pagerank_gini"] = float("nan")
+        summary["pagerank_top1_share"] = float("nan")
+
+    # ---- Louvain ----
+    try:
+        parts, modularity = dcg.louvain(G)
+        parts = parts.compute()
+        parts.to_parquet(os.path.join(OUTDIR, "communities.parquet"), index=False)
+        comm_sizes = parts.groupby("partition").size().astype("float64")
+        summary["modularity"] = safe_float(modularity)
+        summary["n_communities"] = int(len(comm_sizes))
+        summary["comm_herf"] = herfindahl_from_cudf(comm_sizes)
+        summary["largest_comm_share"] = float(comm_sizes.max() / n_nodes) if n_nodes else float("nan")
+    except Exception:
+        summary["modularity"] = float("nan")
+        summary["n_communities"] = 0
+        summary["comm_herf"] = float("nan")
+        summary["largest_comm_share"] = float("nan")
+
+    # ---- k-core ----
+    try:
+        core = dcg.core_number(G, directed=False).compute()
+        summary["max_core"] = float(core["core_number"].max()) if len(core) else float("nan")
+        core.to_parquet(os.path.join(OUTDIR, "core_number.parquet"), index=False)
+    except Exception:
+        summary["max_core"] = float("nan")
+
+    # Save weighted edges
+    edges.compute().to_parquet(os.path.join(OUTDIR, "weighted_edges.parquet"), index=False)
+
+    # Write summary
+    with open(os.path.join(OUTDIR, "summary.json"), "w") as f:
+        json.dump(summary, f, indent=2)
+
+    print("DONE. Wrote outputs to:", OUTDIR)
 
     Comms.destroy()
     client.close()
     cluster.close()
-
 
 if __name__ == "__main__":
     main()
