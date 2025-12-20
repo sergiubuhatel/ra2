@@ -14,6 +14,8 @@ from cugraph.dask.comms import comms as Comms
 import numpy as np
 import pandas as pd
 
+import cugraph
+
 # =========================
 # EDIT THESE SETTINGS
 # =========================
@@ -221,16 +223,27 @@ def main():
     })
 
     # ---- Build multi-GPU graph ----
-    G = dcg.DiGraph() if DIRECTED else dcg.Graph()
-    G.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
+    # Compute edges to a single GPU cuDF DataFrame
+    edges_cu = edges.compute()  # cudf.DataFrame
+
+    # Build the graph
+    G = cugraph.Graph(directed=DIRECTED)
+    G.from_cudf_edgelist(
+        edges_cu,
+        source="src",
+        destination="dst",
+        edge_attr="weight",
+        renumber=True
+    )
 
     n_nodes = int(G.number_of_vertices())
     summary["n_nodes"] = n_nodes
     summary["density"] = float(n_edges_unique / (n_nodes * (n_nodes - 1))) if n_nodes > 1 else float("nan")
 
     # ---- Strengths ----
-    indeg = dcg.in_degree(G, weight="weight").compute().rename(columns={"in_degree": "in_strength"})
-    outdeg = dcg.out_degree(G, weight="weight").compute().rename(columns={"out_degree": "out_strength"})
+    indeg = cugraph.in_degree(G, weight="weight").rename(columns={"in_degree": "in_strength"})
+    outdeg = cugraph.out_degree(G, weight="weight").rename(columns={"out_degree": "out_strength"})
+
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
     deg.to_parquet(os.path.join(OUTDIR, "node_strengths.parquet"), index=False)
 
