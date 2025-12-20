@@ -188,13 +188,18 @@ def main():
     t50 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.50 * total)) - 1)]
     t90 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.90 * total)) - 1)]
 
-    summary["t10_hours"] = float((t10 - t0).total_seconds() / 3600.0)
-    summary["t50_hours"] = float((t50 - t0).total_seconds() / 3600.0)
-    summary["t90_hours"] = float((t90 - t0).total_seconds() / 3600.0)
+    summary["t10_hours"] = float(pd.Timedelta(t10 - t0) / pd.Timedelta(hours=1))
+    summary["t50_hours"] = float(pd.Timedelta(t50 - t0) / pd.Timedelta(hours=1))
+    summary["t90_hours"] = float(pd.Timedelta(t90 - t0) / pd.Timedelta(hours=1))
 
     # Peak hour / 10-min share (GPU bucketing)
     ev_cu["hour_bucket"] = ev_cu["ts"].dt.floor("H")
-    ev_cu["tenmin_bucket"] = ev_cu["ts"].dt.floor("10min")
+
+    ev_cu["tenmin_bucket"] = (
+        pd.to_datetime(ev_cu["ts"].to_pandas())
+        .dt.floor("10T")
+    )
+
     hourly = ev_cu.groupby("hour_bucket").size()
     tenmin = ev_cu.groupby("tenmin_bucket").size()
     summary["peak_hour_share"] = float(hourly.max() / total) if len(hourly) else float("nan")
