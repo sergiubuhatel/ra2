@@ -172,6 +172,26 @@ def main():
         columns={"src": "vertex", "weight": "out_strength"})
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
 
+    # ---- Concentration measures (FIXED & DGX-safe) ----
+    in_s = deg["in_strength"].astype("float64")
+    out_s = deg["out_strength"].astype("float64")
+
+    summary.update({
+        "in_gini": gini_from_cudf(in_s),
+        "in_hhi": herfindahl_from_cudf(in_s),
+        "in_top1_share": top_share_from_cudf(in_s, 0.01),
+        "in_top5_share": top_share_from_cudf(in_s, 0.05),
+        "in_top10_share": top_share_from_cudf(in_s, 0.10),
+        "in_max_share": top_share_from_cudf(in_s, 1.0 / max(1, n_nodes)),
+
+        "out_gini": gini_from_cudf(out_s),
+        "out_hhi": herfindahl_from_cudf(out_s),
+        "out_top1_share": top_share_from_cudf(out_s, 0.01),
+        "out_top5_share": top_share_from_cudf(out_s, 0.05),
+        "out_top10_share": top_share_from_cudf(out_s, 0.10),
+        "out_max_share": top_share_from_cudf(out_s, 1.0 / max(1, n_nodes)),
+    })
+
     # ---- FIX: UNDIRECTED GRAPH FOR WCC ----
     Gu_wcc = cugraph.Graph(directed=False)
     Gu_wcc.from_cudf_edgelist(edges_cu, "src", "dst", edge_attr="weight", renumber=True)
