@@ -144,9 +144,17 @@ def main():
     }
 
     if n_events == 0:
-        json.dump(summary, open(os.path.join(OUTDIR, "summary.json"), "w"), indent=2)
+        with open(os.path.join(OUTDIR, "summary.json"), "w") as f:
+            json.dump(summary, f, indent=2)
+        print("No events in range.")
+        Comms.destroy();
+        client.close();
+        cluster.close()
         return
 
+    # ---- Temporal diffusion metrics (GPU) ----
+    # Sort events by ts (bring minimal to single GPU for exact quantiles)
+    # If a company-window is enormous, you can compute approx quantiles instead.
     ev_cu = events[["ts"]].compute().sort_values("ts")
     total = len(ev_cu)
     t0 = ev_cu["ts"].iloc[0]
