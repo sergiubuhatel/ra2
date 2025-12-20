@@ -11,18 +11,19 @@ from dask.distributed import Client
 import cugraph.dask as dcg
 from cugraph.dask.comms import comms as Comms
 
+import numpy as np
+import pandas as pd
 
 # =========================
 # EDIT THESE SETTINGS
 # =========================
-INPUT_PATH = "/workspace/retweet_network2017.csv"     # <-- your no-header CSV path (can be glob too)
-OUTDIR = "/workspace/network_desc_TSLA"
+INPUT_PATH = "/workspace/retweet_network2017.csv"
+OUTDIR = "/workspace/output/network_desc_TSLA"
 
 COMPANY_FILTER = "TSLA"
 
-# You can use "2021-01-01" or "2021-01-01 00:00:00"
-START_TIME = "2021-01-01"
-END_TIME   = "2021-12-31"
+START_TIME = "2017-01-01"
+END_TIME = "2017-12-31"
 
 DIRECTED = True
 DROP_SELF_LOOPS = True
@@ -30,7 +31,6 @@ DROP_SELF_LOOPS = True
 NGPUS = 8
 RMM_POOL_GB = 24
 
-# If timestamp is unix int, set True + unit
 TIMESTAMP_IS_UNIX = False
 UNIX_UNIT = "s"  # "s" or "ms"
 # =========================
@@ -82,23 +82,45 @@ def top_share_from_cudf(s: cudf.Series, top_frac: float) -> float:
     return float(s.sort_values(ascending=False).head(k).sum() / total)
 
 
-def normalize_end_of_day(ts: cudf.Timestamp) -> cudf.Timestamp:
-    # if end time is date-only interpreted as midnight, expand to end-of-day
+def normalize_end_of_day(ts):
+    """
+    Normalize a scalar timestamp to end-of-day if midnight.
+    Accepts np.datetime64, pandas.Timestamp, or Python datetime.
+    """
+    ts = pd.Timestamp(ts)
     if ts.hour == 0 and ts.minute == 0 and ts.second == 0 and ts.microsecond == 0:
-        return ts + cudf.Timedelta(days=1) - cudf.Timedelta(microseconds=1)
+        ts = ts + pd.Timedelta(days=1) - pd.Timedelta(microseconds=1)
     return ts
 
 
-def parse_timestamp_dask(col):
-    # col is a dask_cudf Series
+def parse_timestamp_dask_safe(col):
+    """
+    Safely parse timestamps in a dask_cudf Series.
+    Converts partition to pandas, applies pd.to_datetime, then back to cuDF.
+    """
     if TIMESTAMP_IS_UNIX:
-        return dc.to_datetime(col, unit=UNIX_UNIT, errors="coerce")
-    return dc.to_datetime(col, errors="coerce")
+        unit = UNIX_UNIT
+
+        def _parse_partition(s):
+            # Convert cuDF Series to pandas
+            pdf = s.to_pandas()
+            # Parse
+            dt = pd.to_datetime(pdf, unit=unit, errors="coerce")
+            # Convert back to cuDF
+            return cudf.Series(dt)
+    else:
+        def _parse_partition(s):
+            pdf = s.to_pandas()
+            dt = pd.to_datetime(pdf, errors="coerce")
+            return cudf.Series(dt)
+
+    return col.map_partitions(_parse_partition, meta=col._meta.astype("datetime64[ns]"))
 
 
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
 
+    # Start multi-GPU Dask cluster
     cluster = LocalCUDACluster(
         CUDA_VISIBLE_DEVICES=list(range(NGPUS)),
         rmm_pool_size=f"{RMM_POOL_GB}GB",
@@ -107,8 +129,7 @@ def main():
     client = Client(cluster)
     Comms.initialize(p2p=True)
 
-    # ---- Read no-header CSV on GPU (distributed) ----
-    # IMPORTANT: no header => header=None, names=COLS
+    # ---- Read CSV (no-header) ----
     ddf = dc.read_csv(
         INPUT_PATH,
         header=None,
@@ -119,7 +140,6 @@ def main():
             "edgeB": "str",
             "year": "int32",
             "month": "int8",
-            # timestamp read as object/str; parsed next
             "timestamp": "str",
         }
     )
@@ -127,22 +147,20 @@ def main():
     # ---- Filter company ----
     ddf = ddf[ddf["company"] == COMPANY_FILTER]
 
-    # ---- Parse timestamp + time filter ----
-    ddf["timestamp"] = parse_timestamp_dask(ddf["timestamp"])
+    # ---- Parse timestamp + filter by range ----
+    ddf["timestamp"] = parse_timestamp_dask_safe(ddf["timestamp"])
     ddf = ddf.dropna(subset=["edgeA", "edgeB", "timestamp"])
 
-    start_ts = cudf.to_datetime(START_TIME)
-    end_ts = cudf.to_datetime(END_TIME)
-    end_ts = normalize_end_of_day(end_ts)
+    start_ts = pd.Timestamp(START_TIME)
+    end_ts = normalize_end_of_day(pd.Timestamp(END_TIME))
 
     ddf = ddf[(ddf["timestamp"] >= start_ts) & (ddf["timestamp"] <= end_ts)]
 
-    # Rename for graph logic
+    # Rename columns for graph
     events = ddf.rename(columns={"edgeA": "src", "edgeB": "dst", "timestamp": "ts"})[["src", "dst", "ts"]]
 
-    # Count events (retweet rows)
+    # Count events
     n_events = int(events.shape[0].compute())
-
     summary = {
         "company": COMPANY_FILTER,
         "start_time": START_TIME,
@@ -155,7 +173,9 @@ def main():
         with open(os.path.join(OUTDIR, "summary.json"), "w") as f:
             json.dump(summary, f, indent=2)
         print("No events in range.")
-        Comms.destroy(); client.close(); cluster.close()
+        Comms.destroy();
+        client.close();
+        cluster.close()
         return
 
     # ---- Temporal diffusion metrics (GPU) ----
@@ -185,38 +205,33 @@ def main():
 
     if DROP_SELF_LOOPS:
         edges = edges[edges["src"] != edges["dst"]]
-
-    # Persist helps on big runs
     edges = edges.persist()
 
     n_edges_unique = int(edges.shape[0].compute())
     total_weight = int(edges["weight"].sum().compute())
-
-    summary["n_edges_unique"] = n_edges_unique
-    summary["total_weight"] = total_weight
-    summary["avg_weight_per_edge"] = safe_float(total_weight / n_edges_unique) if n_edges_unique else float("nan")
+    summary.update({
+        "n_edges_unique": n_edges_unique,
+        "total_weight": total_weight,
+        "avg_weight_per_edge": safe_float(total_weight / n_edges_unique) if n_edges_unique else float("nan"),
+    })
 
     # ---- Build multi-GPU graph ----
     G = dcg.DiGraph() if DIRECTED else dcg.Graph()
-    G.from_dask_cudf_edgelist(
-        edges, source="src", destination="dst", edge_attr="weight", renumber=True
-    )
+    G.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
 
     n_nodes = int(G.number_of_vertices())
     summary["n_nodes"] = n_nodes
     summary["density"] = float(n_edges_unique / (n_nodes * (n_nodes - 1))) if n_nodes > 1 else float("nan")
 
-    # ---- Strengths (weighted degrees) ----
+    # ---- Strengths ----
     indeg = dcg.in_degree(G, weight="weight").compute().rename(columns={"in_degree": "in_strength"})
     outdeg = dcg.out_degree(G, weight="weight").compute().rename(columns={"out_degree": "out_strength"})
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
-
     deg.to_parquet(os.path.join(OUTDIR, "node_strengths.parquet"), index=False)
 
     in_s = deg["in_strength"].astype("float64")
     out_s = deg["out_strength"].astype("float64")
 
-    # Concentration summaries
     summary.update({
         "in_gini": gini_from_cudf(in_s),
         "in_hhi": herfindahl_from_cudf(in_s),
@@ -244,7 +259,7 @@ def main():
     summary["n_scc"] = int(len(scc_sizes))
     summary["largest_scc_share"] = float(scc_sizes.max() / n_nodes) if n_nodes else float("nan")
 
-    # ---- PageRank (weighted) ----
+    # ---- PageRank ----
     try:
         pr = dcg.pagerank(G, weight="weight").compute()
         pr.to_parquet(os.path.join(OUTDIR, "pagerank.parquet"), index=False)
@@ -254,7 +269,7 @@ def main():
         summary["pagerank_gini"] = float("nan")
         summary["pagerank_top1_share"] = float("nan")
 
-    # ---- Louvain communities (on undirected projection) ----
+    # ---- Louvain communities ----
     try:
         Gu = dcg.Graph()
         Gu.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
@@ -267,12 +282,14 @@ def main():
         summary["comm_herf"] = herfindahl_from_cudf(comm_sizes)
         summary["largest_comm_share"] = float(comm_sizes.max() / n_nodes) if n_nodes else float("nan")
     except Exception:
-        summary["modularity"] = float("nan")
-        summary["n_communities"] = 0
-        summary["comm_herf"] = float("nan")
-        summary["largest_comm_share"] = float("nan")
+        summary.update({
+            "modularity": float("nan"),
+            "n_communities": 0,
+            "comm_herf": float("nan"),
+            "largest_comm_share": float("nan")
+        })
 
-    # ---- k-core (on undirected projection) ----
+    # ---- k-core ----
     try:
         Gu = dcg.Graph()
         Gu.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
@@ -282,7 +299,7 @@ def main():
     except Exception:
         summary["max_core"] = float("nan")
 
-    # Save weighted edges too
+    # Save edges
     edges.compute().to_parquet(os.path.join(OUTDIR, "weighted_edges.parquet"), index=False)
 
     # Write summary
@@ -298,4 +315,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

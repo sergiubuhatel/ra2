@@ -1,4 +1,0 @@
-cudf-cu11
-cugraph-cu11
-cupy-cuda11x
-numpy
