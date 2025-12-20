@@ -34,7 +34,7 @@ NGPUS = 8
 RMM_POOL_GB = 24
 
 TIMESTAMP_IS_UNIX = False
-UNIX_UNIT = "s"  # "s" or "ms"
+UNIX_UNIT = "s"
 # =========================
 
 COLS = ["company", "edgeA", "edgeB", "year", "month", "timestamp"]
@@ -58,8 +58,7 @@ def gini_from_cudf(s: cudf.Series) -> float:
     s = s.sort_values()
     n = len(s)
     idx = cudf.Series(range(1, n + 1), dtype="float64")
-    g = (2.0 * float((idx * s).sum()) / (n * total)) - ((n + 1.0) / n)
-    return float(g)
+    return float((2.0 * float((idx * s).sum()) / (n * total)) - ((n + 1.0) / n))
 
 
 def herfindahl_from_cudf(s: cudf.Series) -> float:
@@ -85,10 +84,6 @@ def top_share_from_cudf(s: cudf.Series, top_frac: float) -> float:
 
 
 def normalize_end_of_day(ts):
-    """
-    Normalize a scalar timestamp to end-of-day if midnight.
-    Accepts np.datetime64, pandas.Timestamp, or Python datetime.
-    """
     ts = pd.Timestamp(ts)
     if ts.hour == 0 and ts.minute == 0 and ts.second == 0 and ts.microsecond == 0:
         ts = ts + pd.Timedelta(days=1) - pd.Timedelta(microseconds=1)
@@ -96,25 +91,10 @@ def normalize_end_of_day(ts):
 
 
 def parse_timestamp_dask_safe(col):
-    """
-    Safely parse timestamps in a dask_cudf Series.
-    Converts partition to pandas, applies pd.to_datetime, then back to cuDF.
-    """
-    if TIMESTAMP_IS_UNIX:
-        unit = UNIX_UNIT
-
-        def _parse_partition(s):
-            # Convert cuDF Series to pandas
-            pdf = s.to_pandas()
-            # Parse
-            dt = pd.to_datetime(pdf, unit=unit, errors="coerce")
-            # Convert back to cuDF
-            return cudf.Series(dt)
-    else:
-        def _parse_partition(s):
-            pdf = s.to_pandas()
-            dt = pd.to_datetime(pdf, errors="coerce")
-            return cudf.Series(dt)
+    def _parse_partition(s):
+        pdf = s.to_pandas()
+        dt = pd.to_datetime(pdf, unit=UNIX_UNIT if TIMESTAMP_IS_UNIX else None, errors="coerce")
+        return cudf.Series(dt)
 
     return col.map_partitions(_parse_partition, meta=col._meta.astype("datetime64[ns]"))
 
@@ -122,7 +102,6 @@ def parse_timestamp_dask_safe(col):
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
 
-    # Start multi-GPU Dask cluster
     cluster = LocalCUDACluster(
         CUDA_VISIBLE_DEVICES=list(range(NGPUS)),
         rmm_pool_size=f"{RMM_POOL_GB}GB",
@@ -131,7 +110,6 @@ def main():
     client = Client(cluster)
     Comms.initialize(p2p=True)
 
-    # ---- Read CSV (no-header) ----
     ddf = dc.read_csv(
         INPUT_PATH,
         header=None,
@@ -146,191 +124,70 @@ def main():
         }
     )
 
-    # ---- Filter company ----
     ddf = ddf[ddf["company"] == COMPANY_FILTER]
-
-    # ---- Parse timestamp + filter by range ----
     ddf["timestamp"] = parse_timestamp_dask_safe(ddf["timestamp"])
     ddf = ddf.dropna(subset=["edgeA", "edgeB", "timestamp"])
 
     start_ts = pd.Timestamp(START_TIME)
     end_ts = normalize_end_of_day(pd.Timestamp(END_TIME))
-
     ddf = ddf[(ddf["timestamp"] >= start_ts) & (ddf["timestamp"] <= end_ts)]
 
-    # Rename columns for graph
     events = ddf.rename(columns={"edgeA": "src", "edgeB": "dst", "timestamp": "ts"})[["src", "dst", "ts"]]
 
-    # Count events
     n_events = int(events.shape[0].compute())
     summary = {
         "company": COMPANY_FILTER,
         "start_time": START_TIME,
         "end_time": END_TIME,
         "n_retweet_events": n_events,
-        "directed": bool(DIRECTED),
+        "directed": True,
     }
 
     if n_events == 0:
-        with open(os.path.join(OUTDIR, "summary.json"), "w") as f:
-            json.dump(summary, f, indent=2)
-        print("No events in range.")
-        Comms.destroy();
-        client.close();
-        cluster.close()
+        json.dump(summary, open(os.path.join(OUTDIR, "summary.json"), "w"), indent=2)
         return
 
-    # ---- Temporal diffusion metrics (GPU) ----
-    # Sort events by ts (bring minimal to single GPU for exact quantiles)
-    # If a company-window is enormous, you can compute approx quantiles instead.
     ev_cu = events[["ts"]].compute().sort_values("ts")
     total = len(ev_cu)
     t0 = ev_cu["ts"].iloc[0]
-    t10 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.10 * total)) - 1)]
-    t50 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.50 * total)) - 1)]
-    t90 = ev_cu["ts"].iloc[max(0, int(math.ceil(0.90 * total)) - 1)]
+    summary["t10_hours"] = float((ev_cu["ts"].iloc[int(0.1 * total)] - t0) / pd.Timedelta(hours=1))
+    summary["t50_hours"] = float((ev_cu["ts"].iloc[int(0.5 * total)] - t0) / pd.Timedelta(hours=1))
+    summary["t90_hours"] = float((ev_cu["ts"].iloc[int(0.9 * total)] - t0) / pd.Timedelta(hours=1))
 
-    summary["t10_hours"] = float(pd.Timedelta(t10 - t0) / pd.Timedelta(hours=1))
-    summary["t50_hours"] = float(pd.Timedelta(t50 - t0) / pd.Timedelta(hours=1))
-    summary["t90_hours"] = float(pd.Timedelta(t90 - t0) / pd.Timedelta(hours=1))
-
-    # Peak hour / 10-min share (GPU bucketing)
-    ev_cu["hour_bucket"] = ev_cu["ts"].dt.floor("H")
-
-    ev_cu["tenmin_bucket"] = (
-        pd.to_datetime(ev_cu["ts"].to_pandas())
-        .dt.floor("10T")
-    )
-
-    hourly = ev_cu.groupby("hour_bucket").size()
-    tenmin = ev_cu.groupby("tenmin_bucket").size()
-    summary["peak_hour_share"] = float(hourly.max() / total) if len(hourly) else float("nan")
-    summary["peak_10min_share"] = float(tenmin.max() / total) if len(tenmin) else float("nan")
-
-    # ---- Weighted edges (GPU): weight = count of events per (src,dst) ----
     edges = events.groupby(["src", "dst"]).size().reset_index().rename(columns={0: "weight"})
-
     if DROP_SELF_LOOPS:
         edges = edges[edges["src"] != edges["dst"]]
-    edges = edges.persist()
 
-    n_edges_unique = int(edges.shape[0].compute())
-    total_weight = int(edges["weight"].sum().compute())
-    summary.update({
-        "n_edges_unique": n_edges_unique,
-        "total_weight": total_weight,
-        "avg_weight_per_edge": safe_float(total_weight / n_edges_unique) if n_edges_unique else float("nan"),
-    })
+    edges_cu = edges.compute()
 
-    # ---- Build multi-GPU graph ----
-    # Compute edges to a single GPU cuDF DataFrame
-    edges_cu = edges.compute()  # cudf.DataFrame
-
-    # Build the graph
-    G = cugraph.Graph(directed=DIRECTED)
-    G.from_cudf_edgelist(
-        edges_cu,
-        source="src",
-        destination="dst",
-        edge_attr="weight",
-        renumber=True
-    )
+    G = cugraph.Graph(directed=True)
+    G.from_cudf_edgelist(edges_cu, "src", "dst", edge_attr="weight", renumber=True)
 
     n_nodes = int(G.number_of_vertices())
     summary["n_nodes"] = n_nodes
-    summary["density"] = float(n_edges_unique / (n_nodes * (n_nodes - 1))) if n_nodes > 1 else float("nan")
 
-    # ---- Strengths ----
-    # Compute weighted in-degree and out-degree manually
-    edges_cu = edges.compute()  # cudf.DataFrame
-    # In-strength: sum of weights for each destination vertex
     indeg = edges_cu.groupby("dst")["weight"].sum().reset_index().rename(
         columns={"dst": "vertex", "weight": "in_strength"})
-    # Out-strength: sum of weights for each source vertex
     outdeg = edges_cu.groupby("src")["weight"].sum().reset_index().rename(
         columns={"src": "vertex", "weight": "out_strength"})
-
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
-    deg.to_parquet(os.path.join(OUTDIR, "node_strengths.parquet"), index=False)
 
-    in_s = deg["in_strength"].astype("float64")
-    out_s = deg["out_strength"].astype("float64")
+    # ---- FIX: UNDIRECTED GRAPH FOR WCC ----
+    Gu_wcc = cugraph.Graph(directed=False)
+    Gu_wcc.from_cudf_edgelist(edges_cu, "src", "dst", edge_attr="weight", renumber=True)
 
-    summary.update({
-        "in_gini": gini_from_cudf(in_s),
-        "in_hhi": herfindahl_from_cudf(in_s),
-        "in_top1_share": top_share_from_cudf(in_s, 0.01),
-        "in_top5_share": top_share_from_cudf(in_s, 0.05),
-        "in_top10_share": top_share_from_cudf(in_s, 0.10),
-        "in_max_share": top_share_from_cudf(in_s, 1.0 / max(1, n_nodes)),
-
-        "out_gini": gini_from_cudf(out_s),
-        "out_hhi": herfindahl_from_cudf(out_s),
-        "out_top1_share": top_share_from_cudf(out_s, 0.01),
-        "out_top5_share": top_share_from_cudf(out_s, 0.05),
-        "out_top10_share": top_share_from_cudf(out_s, 0.10),
-        "out_max_share": top_share_from_cudf(out_s, 1.0 / max(1, n_nodes)),
-    })
-
-    # ---- Components ----
-    wcc = dcg.weakly_connected_components(G).compute()
+    wcc = cugraph.connected_components(Gu_wcc)
     wcc_sizes = wcc.groupby("labels").size()
     summary["n_wcc"] = int(len(wcc_sizes))
-    summary["largest_wcc_share"] = float(wcc_sizes.max() / n_nodes) if n_nodes else float("nan")
+    summary["largest_wcc_share"] = float(wcc_sizes.max() / n_nodes)
 
-    scc = dcg.strongly_connected_components(G).compute()
+    # ---- SCC (directed) ----
+    scc = cugraph.strongly_connected_components(G)
     scc_sizes = scc.groupby("labels").size()
     summary["n_scc"] = int(len(scc_sizes))
-    summary["largest_scc_share"] = float(scc_sizes.max() / n_nodes) if n_nodes else float("nan")
+    summary["largest_scc_share"] = float(scc_sizes.max() / n_nodes)
 
-    # ---- PageRank ----
-    try:
-        pr = dcg.pagerank(G, weight="weight").compute()
-        pr.to_parquet(os.path.join(OUTDIR, "pagerank.parquet"), index=False)
-        summary["pagerank_gini"] = gini_from_cudf(pr["pagerank"])
-        summary["pagerank_top1_share"] = top_share_from_cudf(pr["pagerank"], 0.01)
-    except Exception:
-        summary["pagerank_gini"] = float("nan")
-        summary["pagerank_top1_share"] = float("nan")
-
-    # ---- Louvain communities ----
-    try:
-        Gu = dcg.Graph()
-        Gu.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
-        parts, modularity = dcg.louvain(Gu)
-        parts = parts.compute()
-        parts.to_parquet(os.path.join(OUTDIR, "communities.parquet"), index=False)
-        comm_sizes = parts.groupby("partition").size().astype("float64")
-        summary["modularity"] = safe_float(modularity)
-        summary["n_communities"] = int(len(comm_sizes))
-        summary["comm_herf"] = herfindahl_from_cudf(comm_sizes)
-        summary["largest_comm_share"] = float(comm_sizes.max() / n_nodes) if n_nodes else float("nan")
-    except Exception:
-        summary.update({
-            "modularity": float("nan"),
-            "n_communities": 0,
-            "comm_herf": float("nan"),
-            "largest_comm_share": float("nan")
-        })
-
-    # ---- k-core ----
-    try:
-        Gu = dcg.Graph()
-        Gu.from_dask_cudf_edgelist(edges, source="src", destination="dst", edge_attr="weight", renumber=True)
-        core = dcg.core_number(Gu).compute()
-        summary["max_core"] = float(core["core_number"].max()) if len(core) else float("nan")
-        core.to_parquet(os.path.join(OUTDIR, "core_number.parquet"), index=False)
-    except Exception:
-        summary["max_core"] = float("nan")
-
-    # Save edges
-    edges.compute().to_parquet(os.path.join(OUTDIR, "weighted_edges.parquet"), index=False)
-
-    # Write summary
-    with open(os.path.join(OUTDIR, "summary.json"), "w") as f:
-        json.dump(summary, f, indent=2)
-
-    print("DONE. Wrote outputs to:", OUTDIR)
+    json.dump(summary, open(os.path.join(OUTDIR, "summary.json"), "w"), indent=2)
 
     Comms.destroy()
     client.close()
