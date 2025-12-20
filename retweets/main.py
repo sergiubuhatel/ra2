@@ -241,8 +241,14 @@ def main():
     summary["density"] = float(n_edges_unique / (n_nodes * (n_nodes - 1))) if n_nodes > 1 else float("nan")
 
     # ---- Strengths ----
-    indeg = cugraph.in_degree(G, weight="weight").rename(columns={"in_degree": "in_strength"})
-    outdeg = cugraph.out_degree(G, weight="weight").rename(columns={"out_degree": "out_strength"})
+    # Compute weighted in-degree and out-degree manually
+    edges_cu = edges.compute()  # cudf.DataFrame
+    # In-strength: sum of weights for each destination vertex
+    indeg = edges_cu.groupby("dst")["weight"].sum().reset_index().rename(
+        columns={"dst": "vertex", "weight": "in_strength"})
+    # Out-strength: sum of weights for each source vertex
+    outdeg = edges_cu.groupby("src")["weight"].sum().reset_index().rename(
+        columns={"src": "vertex", "weight": "out_strength"})
 
     deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
     deg.to_parquet(os.path.join(OUTDIR, "node_strengths.parquet"), index=False)
