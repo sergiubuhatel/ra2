@@ -166,6 +166,17 @@ def main():
     summary["t50_hours"] = float((t50 - t0) / np.timedelta64(1, 'h'))
     summary["t90_hours"] = float((t90 - t0) / np.timedelta64(1, 'h'))
 
+    # Peak hour / 10-min share (GPU bucketing)
+    ev_cu["hour_bucket"] = ev_cu["ts"].dt.floor("H")
+
+    ev_cu["tenmin_bucket"] = (ev_cu["ts"].astype("int64") // (10 * 60 * 1_000_000_000)) * (10 * 60 * 1_000_000_000)
+    ev_cu["tenmin_bucket"] = ev_cu["tenmin_bucket"].astype("datetime64[ns]")
+
+    hourly = ev_cu.groupby("hour_bucket").size()
+    tenmin = ev_cu.groupby("tenmin_bucket").size()
+    summary["peak_hour_share"] = float(hourly.max() / total) if len(hourly) else float("nan")
+    summary["peak_10min_share"] = float(tenmin.max() / total) if len(tenmin) else float("nan")
+
     edges = events.groupby(["src", "dst"]).size().reset_index().rename(columns={0: "weight"})
     if DROP_SELF_LOOPS:
         edges = edges[edges["src"] != edges["dst"]]
