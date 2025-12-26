@@ -1,0 +1,13 @@
+python dgx_windows_single_gpu_hardened_plus.py \
+  --parquet-root "/data/retweets_parquet" \
+  --windows-file "/data/windows.csv" \
+  --outroot "/data/out/windows_plus_test" \
+  --ngpus 8 \
+  --drop-self-loops \
+  --variants "base,unweighted,thr2,thr3" \
+  --diff-bin "10min" \
+  --growth-window-hours 2 \
+  --extra-centrality \
+  --save-node-tables \
+  --fail-fast-window \
+  --max-tasks 20
