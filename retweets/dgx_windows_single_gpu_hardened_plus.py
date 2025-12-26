@@ -9,6 +9,7 @@ from typing import Dict, Any, Tuple, Optional
 import pandas as pd
 import cudf
 import numpy as np
+import re
 
 
 # ----------------------------
@@ -209,6 +210,29 @@ def read_window_parquet(cudf, parquet_root, company, start_ts, end_ts, timestamp
     df = df[(df[timestamp_col] >= start_ts) & (df[timestamp_col] <= end_ts)]
     return df
 
+def floor_ts_cudf(ts, diff_bin):
+    """
+    Floor a cudf datetime series to arbitrary bin like '10min', '5m', '1H', '1h'
+    """
+    m = re.match(r"(\d+)([smhdSMHD])", diff_bin)
+    if m is None:
+        raise ValueError(f"Invalid diff_bin: {diff_bin}")
+    n, unit = int(m.group(1)), m.group(2).lower()
+
+    if unit == "s":
+        delta = np.timedelta64(n, "s")
+    elif unit == "m":
+        delta = np.timedelta64(n, "m")
+    elif unit == "h":
+        delta = np.timedelta64(n, "h")
+    elif unit == "d":
+        delta = np.timedelta64(n, "D")
+    else:
+        raise ValueError(f"Unsupported unit in diff_bin: {unit}")
+
+    t0 = ts.min()
+    bin_num = ((ts - t0) // delta) * delta
+    return t0 + bin_num
 
 # ----------------------------
 # Diffusion / timing metrics
@@ -252,7 +276,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
 
     # binned event counts
     tmp = ev[["src","dst","ts"]].copy()
-    tmp["bin"] = tmp["ts"].dt.floor(diff_bin)
+    tmp["bin"] = floor_ts_cudf(tmp["ts"], diff_bin)
     binc = tmp.groupby("bin").size().reset_index().rename(columns={0:"n_events"})
 
     # peak timing
