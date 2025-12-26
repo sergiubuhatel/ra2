@@ -543,9 +543,8 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
     if len(edges_label) == 0:
         out[pref + "n_nodes"] = 0
         return out
-
     # directed graph
-    Gd = cugraph.DiGraph()
+    Gd = cugraph.Graph(directed=True)
     Gd.from_cudf_edgelist(edges_label, source="src", destination="dst", edge_attr="weight", renumber=True)
     n_nodes = int(Gd.number_of_vertices())
     total_weight = float(edges_label["weight"].sum()) if len(edges_label) else 0.0
