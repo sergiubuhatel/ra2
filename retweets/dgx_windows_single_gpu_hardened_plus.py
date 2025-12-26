@@ -129,7 +129,7 @@ def entropy_share_cudf(s):
     p = p[p > 0]
     if len(p) == 0:
         return float("nan")
-    return float(-(p * p.log()).sum())
+    return float(-(p * cp.log(p)).sum())
 
 
 def theil_share_cudf(s):
@@ -143,7 +143,7 @@ def theil_share_cudf(s):
     p = p[p > 0]
     if len(p) == 0:
         return float("nan")
-    return float((p * (p * float(n)).log()).sum())
+    return float((p * cp.log(p * float(n))).sum())
 
 
 def top_share_cudf(s, frac):
@@ -406,7 +406,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
             if len(bw) < 3:
                 out["early_log_cum_events_slope"] = float("nan")
             else:
-                y = bw["cum"].log().astype("float64")
+                y = cp.log(bw["cum"]).astype("float64")
                 x = bw["t_hours"].astype("float64")
                 xmu = float(x.mean()); ymu = float(y.mean())
                 cov = float(((x - xmu) * (y - ymu)).mean())
@@ -525,7 +525,7 @@ def echo_chamber_metrics(cudf, edges_label, parts, total_weight: float) -> Dict[
     mix = mix.merge(row_sum, on="c_src", how="left")
     mix["p"] = (mix["w"] / mix["row_w"]).astype("float64")
     mix = mix[mix["p"] > 0]
-    mix["h_piece"] = -(mix["p"] * mix["p"].log())
+    mix["h_piece"] = -(mix["p"] * cp.log(mix["p"]))
     row_h = mix.groupby("c_src")["h_piece"].sum().reset_index().rename(columns={"h_piece": "row_h"})
     row_h = row_h.merge(row_sum, on="c_src", how="left")
     out["mix_entropy_src_to_dst_comm"] = float((row_h["row_h"] * row_h["row_w"]).sum() / row_h["row_w"].sum()) if len(row_h) else float("nan")
@@ -555,8 +555,9 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # degrees (unweighted) for centralization
     try:
-        indeg_u = cugraph.in_degree(Gd).rename(columns={"in_degree": "in_deg"})
-        outdeg_u = cugraph.out_degree(Gd).rename(columns={"out_degree": "out_deg"})
+        deg_df = Gd.degree(weight=None)  # unweighted
+        indeg_u = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_deg"})
+        outdeg_u = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_deg"})
         d_u = indeg_u.merge(outdeg_u, on="vertex", how="outer").fillna(0)
         out[pref + "in_deg_centralization"] = freeman_centralization_from_degree(cudf, d_u["in_deg"])
         out[pref + "out_deg_centralization"] = freeman_centralization_from_degree(cudf, d_u["out_deg"])
@@ -567,8 +568,9 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # strengths (weighted degrees)
     try:
-        indeg = cugraph.in_degree(Gd, weight="weight").rename(columns={"in_degree": "in_strength"})
-        outdeg = cugraph.out_degree(Gd, weight="weight").rename(columns={"out_degree": "out_strength"})
+        deg_df = Gd.degree(weight="weight")  # weighted
+        indeg = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_strength"})
+        outdeg = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_strength"})
         deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
         in_s = deg["in_strength"].astype("float64")
         out_s = deg["out_strength"].astype("float64")
