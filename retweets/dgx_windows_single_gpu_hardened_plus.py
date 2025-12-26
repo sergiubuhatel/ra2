@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 from multiprocessing import get_context
 from typing import Dict, Any, Tuple, Optional
 
+import pandas as pd
+
 # ----------------------------
 # CLI
 # ----------------------------
@@ -71,9 +73,15 @@ def month_iter(start_dt: datetime, end_dt: datetime):
 # GPU helpers (require cudf)
 # ----------------------------
 def normalize_end_of_day_cudf(cudf, end_ts):
+    # Convert numpy.datetime64 / cudf scalar to Python datetime
+    if isinstance(end_ts, (pd.Timestamp, pd.DatetimeTZDtype)):
+        end_ts = end_ts.to_pydatetime()
+    elif hasattr(end_ts, "astype"):  # numpy.datetime64 or cudf scalar
+        end_ts = pd.Timestamp(end_ts).to_pydatetime()
+
     # If end is date-only midnight, include full day
     if end_ts.hour == 0 and end_ts.minute == 0 and end_ts.second == 0 and end_ts.microsecond == 0:
-        return end_ts + cudf.Timedelta(days=1) - cudf.Timedelta(microseconds=1)
+        return end_ts + timedelta(days=1) - timedelta(microseconds=1)
     return end_ts
 
 
@@ -184,8 +192,8 @@ def conc_pack_cudf(cudf, s, prefix):
 # I/O: read parquet for a window
 # ----------------------------
 def read_window_parquet(cudf, parquet_root, company, start_ts, end_ts, timestamp_col) -> Optional[Any]:
-    start_py = start_ts.to_pandas().to_pydatetime()
-    end_py = end_ts.to_pandas().to_pydatetime()
+    start_py = pd.Timestamp(start_ts).to_pydatetime()
+    end_py = pd.Timestamp(end_ts).to_pydatetime()
 
     files = []
     for y, m in month_iter(start_py, end_py):
