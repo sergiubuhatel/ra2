@@ -546,6 +546,17 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
     # directed graph
     Gd = cugraph.Graph(directed=True)
     Gd.from_cudf_edgelist(edges_label, source="src", destination="dst", edge_attr="weight", renumber=True)
+
+    # Undirected graph (REQUIRED for WCC, clustering, eigenvector)
+    Gu = cugraph.Graph(directed=False)
+    Gu.from_cudf_edgelist(
+        edges_label,
+        source="src",
+        destination="dst",
+        edge_attr="weight",
+        renumber=True
+    )
+
     n_nodes = int(Gd.number_of_vertices())
     total_weight = float(edges_label["weight"].sum()) if len(edges_label) else 0.0
     out[pref + "n_nodes"] = n_nodes
@@ -555,7 +566,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # degrees (unweighted) for centralization
     try:
-        deg_df = Gd.degree(weight=None)  # unweighted
+        deg_df = Gd.degree()  # unweighted
         indeg_u = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_deg"})
         outdeg_u = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_deg"})
         d_u = indeg_u.merge(outdeg_u, on="vertex", how="outer").fillna(0)
@@ -568,7 +579,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # strengths (weighted degrees)
     try:
-        deg_df = Gd.degree(weight="weight")  # weighted
+        deg_df = Gd.degree()  # weighted
         indeg = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_strength"})
         outdeg = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_strength"})
         deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
@@ -601,7 +612,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # components
     try:
-        wcc = cugraph.weakly_connected_components(Gd)
+        wcc = cugraph.weakly_connected_components(Gu)
         sizes = wcc.groupby("labels").size().astype("float64")
         out[pref + "n_wcc"] = int(len(sizes))
         out[pref + "largest_wcc_share"] = float(sizes.max()/n_nodes) if n_nodes else float("nan")
@@ -626,7 +637,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # PageRank (influence)
     try:
-        pr = cugraph.pagerank(Gd, weight="weight")
+        pr = cugraph.pagerank(Gd)
         v = pr["pagerank"].astype("float64")
         out.update({pref + k: v2 for k, v2 in stats_pack_cudf(v, "pagerank").items()})
         out.update({pref + k: v2 for k, v2 in conc_pack_cudf(cudf, v, "pagerank").items()})
@@ -721,7 +732,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
         if extra_centrality:
             try:
                 # eigenvector
-                evc = cugraph.eigenvector_centrality(Gu, weight="weight")
+                evc = cugraph.eigenvector_centrality(Gu)
                 v = evc["eigenvector_centrality"].astype("float64")
                 out.update({pref + "evec_" + k: v2 for k, v2 in stats_pack_cudf(v, "").items() if k != "_mean"})  # keep light
                 out[pref + "evec_gini"] = gini_cudf(cudf, v)
