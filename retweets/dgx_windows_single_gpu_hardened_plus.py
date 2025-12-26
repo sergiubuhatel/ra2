@@ -7,6 +7,9 @@ from multiprocessing import get_context
 from typing import Dict, Any, Tuple, Optional
 
 import pandas as pd
+import cudf
+import numpy as np
+
 
 # ----------------------------
 # CLI
@@ -241,19 +244,23 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     t10 = time_to_frac(ev["ts"], 0.10)
     t50 = time_to_frac(ev["ts"], 0.50)
     t90 = time_to_frac(ev["ts"], 0.90)
-    out["t10_hours"] = float((t10 - t0).total_seconds()/3600.0)
-    out["t50_hours"] = float((t50 - t0).total_seconds()/3600.0)
-    out["t90_hours"] = float((t90 - t0).total_seconds()/3600.0)
+
+    # FIX: replace .total_seconds() with numpy timedelta division
+    out["t10_hours"] = float((t10 - t0) / np.timedelta64(1, 's') / 3600.0)
+    out["t50_hours"] = float((t50 - t0) / np.timedelta64(1, 's') / 3600.0)
+    out["t90_hours"] = float((t90 - t0) / np.timedelta64(1, 's') / 3600.0)
 
     # binned event counts
     tmp = ev[["src","dst","ts"]].copy()
     tmp["bin"] = tmp["ts"].dt.floor(diff_bin)
     binc = tmp.groupby("bin").size().reset_index().rename(columns={0:"n_events"})
+
     # peak timing
     peak_row = binc.sort_values("n_events", ascending=False).head(1)
     peak_t = peak_row["bin"].iloc[0]
     peak_n = int(peak_row["n_events"].iloc[0])
-    out["time_to_peak_hours"] = float((peak_t - t0).total_seconds()/3600.0)
+    out["time_to_peak_hours"] = float((peak_t - t0) / np.timedelta64(1, 's') / 3600.0)
+
     # post-peak half-life: first bin after peak where count <= half peak
     half = 0.5 * peak_n
     after = binc[binc["bin"] > peak_t].sort_values("bin")
@@ -265,14 +272,13 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
             out["post_peak_half_life_hours"] = float("nan")
         else:
             t_half = hit["bin"].iloc[0]
-            out["post_peak_half_life_hours"] = float((t_half - peak_t).total_seconds()/3600.0)
+            out["post_peak_half_life_hours"] = float((t_half - peak_t) / np.timedelta64(1, 's') / 3600.0)
 
     # adoption curves: unique nodes, unique sources, unique targets over bins
     # compute cumulative unique counts per bin by taking first appearance time per id
     def first_time(series_id, series_ts):
         g = cudf.DataFrame({"id": series_id, "ts": series_ts})
         g = g.sort_values("ts")
-        # first ts per id
         first = g.groupby("id")["ts"].min().reset_index()
         return first
 
@@ -299,7 +305,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
             target = frac * total
             hit = cnt[cnt["cum"] >= target].head(1)
             t = hit["bin"].iloc[0]
-            return float((t - t0).total_seconds()/3600.0)
+            return float((t - t0) / np.timedelta64(1, 's') / 3600.0)
         out[f"{prefix}_t10_hours"] = t_at(0.10)
         out[f"{prefix}_t50_hours"] = t_at(0.50)
         out[f"{prefix}_t90_hours"] = t_at(0.90)
@@ -309,16 +315,15 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     times_for_first(dst_first, "dst")
 
     # early growth rate: slope of log(cum events) vs time (hours) in first growth_window_hours
-    # Use binned counts, build cumulative and do simple OLS on GPU (closed form)
     try:
         bw = binc.sort_values("bin")
-        bw["t_hours"] = (bw["bin"] - t0).dt.total_seconds() / 3600.0
+        # FIX: replace .total_seconds()
+        bw["t_hours"] = (bw["bin"] - t0) / np.timedelta64(1, 's') / 3600.0
         bw = bw[bw["t_hours"] <= float(growth_window_hours)]
         if len(bw) < 3:
             out["early_log_cum_events_slope"] = float("nan")
         else:
             bw["cum"] = bw["n_events"].cumsum().astype("float64")
-            # avoid log(0)
             bw = bw[bw["cum"] > 0]
             if len(bw) < 3:
                 out["early_log_cum_events_slope"] = float("nan")
