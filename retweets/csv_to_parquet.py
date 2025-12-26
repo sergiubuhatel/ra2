@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import pandas as pd
 import os
+import cudf
 
 # ---------------------------
 # Paths
@@ -32,7 +33,6 @@ print(f"Rows loaded: {len(df)}")
 # ---------------------------
 df["timestamp"] = pd.to_datetime(
     df["timestamp"].str.strip(),
-    format="%Y-%m-%d %H:%M:%S",
     errors="coerce"           # Turn unparseable dates into NaT
 )
 
@@ -50,10 +50,15 @@ df["year"] = df["year"].astype("int32")
 df["month"] = df["month"].astype("int32")
 
 # ---------------------------
+# Convert to cuDF (GPU DataFrame)
+# ---------------------------
+gdf = cudf.DataFrame.from_pandas(df)
+
+# ---------------------------
 # Write to Parquet
 # ---------------------------
 print("Writing Parquet files...")
-df.to_parquet(
+gdf.to_parquet(
     parquet_root,
     engine="pyarrow",
     partition_cols=["company", "year", "month"],
