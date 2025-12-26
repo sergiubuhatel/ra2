@@ -10,6 +10,7 @@ import pandas as pd
 import cudf
 import numpy as np
 import re
+import cupy as cp
 
 
 # ----------------------------
@@ -210,29 +211,82 @@ def read_window_parquet(cudf, parquet_root, company, start_ts, end_ts, timestamp
     df = df[(df[timestamp_col] >= start_ts) & (df[timestamp_col] <= end_ts)]
     return df
 
+
 def floor_ts_cudf(ts, diff_bin):
     """
-    Floor a cudf datetime series to arbitrary bin like '10min', '5m', '1H', '1h'
+    Floor a cuDF datetime64[ns] Series to a multiple of diff_bin like '10m', '5h', '1d'.
+    Fully GPU-compatible and avoids TypeErrors from datetime64 + TimeDeltaColumn.
+
+    Parameters:
+        ts (cudf.Series): datetime64[ns] Series
+        diff_bin (str): e.g., '10m', '5h', '1d'
+
+    Returns:
+        cudf.Series: floored datetime64[ns] Series
     """
+    if not isinstance(ts, cudf.Series):
+        raise TypeError("ts must be a cudf.Series of datetime64[ns]")
+
+    # Parse diff_bin
     m = re.match(r"(\d+)([smhdSMHD])", diff_bin)
     if m is None:
         raise ValueError(f"Invalid diff_bin: {diff_bin}")
-    n, unit = int(m.group(1)), m.group(2).lower()
 
-    if unit == "s":
-        delta = np.timedelta64(n, "s")
-    elif unit == "m":
-        delta = np.timedelta64(n, "m")
-    elif unit == "h":
-        delta = np.timedelta64(n, "h")
-    elif unit == "d":
-        delta = np.timedelta64(n, "D")
-    else:
+    n, unit = int(m.group(1)), m.group(2).lower()
+    unit_seconds = {"s": 1, "m": 60, "h": 3600, "d": 86400}
+
+    if unit not in unit_seconds:
         raise ValueError(f"Unsupported unit in diff_bin: {unit}")
 
-    t0 = ts.min()
-    bin_num = ((ts - t0) // delta) * delta
-    return t0 + bin_num
+    delta_sec = n * unit_seconds[unit]
+
+    # Use cuDF datetime Series as origin (min timestamp)
+    t0_series = cudf.Series([ts.min()] * len(ts))
+
+    # Difference in seconds from t0
+    ts_diff_sec = (ts - t0_series).astype("timedelta64[s]").astype("int64")
+
+    # Floor to nearest multiple of delta_sec
+    ts_floored_sec = (ts_diff_sec // delta_sec) * delta_sec
+
+    # Convert back to timedelta64[ns] Series and add t0_series
+    ts_floored = t0_series + cudf.Series(ts_floored_sec * 1_000_000_000, dtype="timedelta64[ns]")
+
+    return ts_floored
+
+def floor_cudf_series(ts, diff_bin):
+    """
+    Floor a cuDF datetime Series to a multiple of diff_bin like '10m', '5h', '1d'.
+    """
+    if not isinstance(ts, cudf.Series):
+        raise TypeError("ts must be a cudf.Series")
+
+    # Parse diff_bin
+    m = re.match(r"(\d+)([smhdSMHD])", diff_bin)
+    if not m:
+        raise ValueError(f"Invalid diff_bin: {diff_bin}")
+
+    n, unit = int(m.group(1)), m.group(2).lower()
+    unit_seconds = {"s": 1, "m": 60, "h": 3600, "d": 86400}
+    if unit not in unit_seconds:
+        raise ValueError(f"Unsupported unit in diff_bin: {unit}")
+
+    delta_sec = n * unit_seconds[unit]
+
+    # Use a series for the min timestamp as base
+    t0_series = cudf.Series([ts.min()] * len(ts))
+
+    # Difference from base in seconds
+    ts_diff_sec = (ts - t0_series).astype("timedelta64[s]").astype("int64")
+
+    # Floor
+    ts_floored_sec = (ts_diff_sec // delta_sec) * delta_sec
+
+    # Convert back to timedelta64[ns] and add base
+    ts_floored = t0_series + cudf.Series(ts_floored_sec * 1_000_000_000, dtype="timedelta64[ns]")
+
+    return ts_floored
+
 
 # ----------------------------
 # Diffusion / timing metrics
@@ -315,7 +369,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     node_first = first_time(all_ids, all_ts)
 
     def times_for_first(first_df, prefix):
-        first_df["bin"] = first_df["ts"].dt.floor(diff_bin)
+        first_df["bin"] = floor_cudf_series(first_df["ts"], diff_bin)
         cnt = first_df.groupby("bin").size().reset_index().rename(columns={0:"n_new"})
         cnt = cnt.sort_values("bin")
         cnt["cum"] = cnt["n_new"].cumsum()
