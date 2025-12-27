@@ -6,13 +6,6 @@ from datetime import datetime, timedelta
 from multiprocessing import get_context
 from typing import Dict, Any, Tuple, Optional
 
-import pandas as pd
-import cudf
-import numpy as np
-import re
-import cupy as cp
-
-
 # ----------------------------
 # CLI
 # ----------------------------
@@ -78,15 +71,9 @@ def month_iter(start_dt: datetime, end_dt: datetime):
 # GPU helpers (require cudf)
 # ----------------------------
 def normalize_end_of_day_cudf(cudf, end_ts):
-    # Convert numpy.datetime64 / cudf scalar to Python datetime
-    if isinstance(end_ts, (pd.Timestamp, pd.DatetimeTZDtype)):
-        end_ts = end_ts.to_pydatetime()
-    elif hasattr(end_ts, "astype"):  # numpy.datetime64 or cudf scalar
-        end_ts = pd.Timestamp(end_ts).to_pydatetime()
-
     # If end is date-only midnight, include full day
     if end_ts.hour == 0 and end_ts.minute == 0 and end_ts.second == 0 and end_ts.microsecond == 0:
-        return end_ts + timedelta(days=1) - timedelta(microseconds=1)
+        return end_ts + cudf.Timedelta(days=1) - cudf.Timedelta(microseconds=1)
     return end_ts
 
 
@@ -129,7 +116,7 @@ def entropy_share_cudf(s):
     p = p[p > 0]
     if len(p) == 0:
         return float("nan")
-    return float(-(p * cp.log(p)).sum())
+    return float(-(p * p.log()).sum())
 
 
 def theil_share_cudf(s):
@@ -143,7 +130,7 @@ def theil_share_cudf(s):
     p = p[p > 0]
     if len(p) == 0:
         return float("nan")
-    return float((p * cp.log(p * float(n))).sum())
+    return float((p * (p * float(n)).log()).sum())
 
 
 def top_share_cudf(s, frac):
@@ -197,8 +184,8 @@ def conc_pack_cudf(cudf, s, prefix):
 # I/O: read parquet for a window
 # ----------------------------
 def read_window_parquet(cudf, parquet_root, company, start_ts, end_ts, timestamp_col) -> Optional[Any]:
-    start_py = pd.Timestamp(start_ts).to_pydatetime()
-    end_py = pd.Timestamp(end_ts).to_pydatetime()
+    start_py = start_ts.to_pandas().to_pydatetime()
+    end_py = end_ts.to_pandas().to_pydatetime()
 
     files = []
     for y, m in month_iter(start_py, end_py):
@@ -210,82 +197,6 @@ def read_window_parquet(cudf, parquet_root, company, start_ts, end_ts, timestamp
     df = cudf.read_parquet(files)
     df = df[(df[timestamp_col] >= start_ts) & (df[timestamp_col] <= end_ts)]
     return df
-
-
-def floor_ts_cudf(ts, diff_bin):
-    """
-    Floor a cuDF datetime64[ns] Series to a multiple of diff_bin like '10m', '5h', '1d'.
-    Fully GPU-compatible and avoids TypeErrors from datetime64 + TimeDeltaColumn.
-
-    Parameters:
-        ts (cudf.Series): datetime64[ns] Series
-        diff_bin (str): e.g., '10m', '5h', '1d'
-
-    Returns:
-        cudf.Series: floored datetime64[ns] Series
-    """
-    if not isinstance(ts, cudf.Series):
-        raise TypeError("ts must be a cudf.Series of datetime64[ns]")
-
-    # Parse diff_bin
-    m = re.match(r"(\d+)([smhdSMHD])", diff_bin)
-    if m is None:
-        raise ValueError(f"Invalid diff_bin: {diff_bin}")
-
-    n, unit = int(m.group(1)), m.group(2).lower()
-    unit_seconds = {"s": 1, "m": 60, "h": 3600, "d": 86400}
-
-    if unit not in unit_seconds:
-        raise ValueError(f"Unsupported unit in diff_bin: {unit}")
-
-    delta_sec = n * unit_seconds[unit]
-
-    # Use cuDF datetime Series as origin (min timestamp)
-    t0_series = cudf.Series([ts.min()] * len(ts))
-
-    # Difference in seconds from t0
-    ts_diff_sec = (ts - t0_series).astype("timedelta64[s]").astype("int64")
-
-    # Floor to nearest multiple of delta_sec
-    ts_floored_sec = (ts_diff_sec // delta_sec) * delta_sec
-
-    # Convert back to timedelta64[ns] Series and add t0_series
-    ts_floored = t0_series + cudf.Series(ts_floored_sec * 1_000_000_000, dtype="timedelta64[ns]")
-
-    return ts_floored
-
-def floor_cudf_series(ts, diff_bin):
-    """
-    Floor a cuDF datetime Series to a multiple of diff_bin like '10m', '5h', '1d'.
-    """
-    if not isinstance(ts, cudf.Series):
-        raise TypeError("ts must be a cudf.Series")
-
-    # Parse diff_bin
-    m = re.match(r"(\d+)([smhdSMHD])", diff_bin)
-    if not m:
-        raise ValueError(f"Invalid diff_bin: {diff_bin}")
-
-    n, unit = int(m.group(1)), m.group(2).lower()
-    unit_seconds = {"s": 1, "m": 60, "h": 3600, "d": 86400}
-    if unit not in unit_seconds:
-        raise ValueError(f"Unsupported unit in diff_bin: {unit}")
-
-    delta_sec = n * unit_seconds[unit]
-
-    # Use a series for the min timestamp as base
-    t0_series = cudf.Series([ts.min()] * len(ts))
-
-    # Difference from base in seconds
-    ts_diff_sec = (ts - t0_series).astype("timedelta64[s]").astype("int64")
-
-    # Floor
-    ts_floored_sec = (ts_diff_sec // delta_sec) * delta_sec
-
-    # Convert back to timedelta64[ns] and add base
-    ts_floored = t0_series + cudf.Series(ts_floored_sec * 1_000_000_000, dtype="timedelta64[ns]")
-
-    return ts_floored
 
 
 # ----------------------------
@@ -322,23 +233,19 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     t10 = time_to_frac(ev["ts"], 0.10)
     t50 = time_to_frac(ev["ts"], 0.50)
     t90 = time_to_frac(ev["ts"], 0.90)
-
-    # FIX: replace .total_seconds() with numpy timedelta division
-    out["t10_hours"] = float((t10 - t0) / np.timedelta64(1, 's') / 3600.0)
-    out["t50_hours"] = float((t50 - t0) / np.timedelta64(1, 's') / 3600.0)
-    out["t90_hours"] = float((t90 - t0) / np.timedelta64(1, 's') / 3600.0)
+    out["t10_hours"] = float((t10 - t0).total_seconds()/3600.0)
+    out["t50_hours"] = float((t50 - t0).total_seconds()/3600.0)
+    out["t90_hours"] = float((t90 - t0).total_seconds()/3600.0)
 
     # binned event counts
     tmp = ev[["src","dst","ts"]].copy()
-    tmp["bin"] = floor_ts_cudf(tmp["ts"], diff_bin)
+    tmp["bin"] = tmp["ts"].dt.floor(diff_bin)
     binc = tmp.groupby("bin").size().reset_index().rename(columns={0:"n_events"})
-
     # peak timing
     peak_row = binc.sort_values("n_events", ascending=False).head(1)
     peak_t = peak_row["bin"].iloc[0]
     peak_n = int(peak_row["n_events"].iloc[0])
-    out["time_to_peak_hours"] = float((peak_t - t0) / np.timedelta64(1, 's') / 3600.0)
-
+    out["time_to_peak_hours"] = float((peak_t - t0).total_seconds()/3600.0)
     # post-peak half-life: first bin after peak where count <= half peak
     half = 0.5 * peak_n
     after = binc[binc["bin"] > peak_t].sort_values("bin")
@@ -350,13 +257,14 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
             out["post_peak_half_life_hours"] = float("nan")
         else:
             t_half = hit["bin"].iloc[0]
-            out["post_peak_half_life_hours"] = float((t_half - peak_t) / np.timedelta64(1, 's') / 3600.0)
+            out["post_peak_half_life_hours"] = float((t_half - peak_t).total_seconds()/3600.0)
 
     # adoption curves: unique nodes, unique sources, unique targets over bins
     # compute cumulative unique counts per bin by taking first appearance time per id
     def first_time(series_id, series_ts):
         g = cudf.DataFrame({"id": series_id, "ts": series_ts})
         g = g.sort_values("ts")
+        # first ts per id
         first = g.groupby("id")["ts"].min().reset_index()
         return first
 
@@ -369,7 +277,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     node_first = first_time(all_ids, all_ts)
 
     def times_for_first(first_df, prefix):
-        first_df["bin"] = floor_cudf_series(first_df["ts"], diff_bin)
+        first_df["bin"] = first_df["ts"].dt.floor(diff_bin)
         cnt = first_df.groupby("bin").size().reset_index().rename(columns={0:"n_new"})
         cnt = cnt.sort_values("bin")
         cnt["cum"] = cnt["n_new"].cumsum()
@@ -383,7 +291,7 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
             target = frac * total
             hit = cnt[cnt["cum"] >= target].head(1)
             t = hit["bin"].iloc[0]
-            return float((t - t0) / np.timedelta64(1, 's') / 3600.0)
+            return float((t - t0).total_seconds()/3600.0)
         out[f"{prefix}_t10_hours"] = t_at(0.10)
         out[f"{prefix}_t50_hours"] = t_at(0.50)
         out[f"{prefix}_t90_hours"] = t_at(0.90)
@@ -393,20 +301,21 @@ def diffusion_metrics(cudf, events, diff_bin: str, growth_window_hours: float) -
     times_for_first(dst_first, "dst")
 
     # early growth rate: slope of log(cum events) vs time (hours) in first growth_window_hours
+    # Use binned counts, build cumulative and do simple OLS on GPU (closed form)
     try:
         bw = binc.sort_values("bin")
-        # FIX: replace .total_seconds()
-        bw["t_hours"] = (bw["bin"] - t0) / np.timedelta64(1, 's') / 3600.0
+        bw["t_hours"] = (bw["bin"] - t0).dt.total_seconds() / 3600.0
         bw = bw[bw["t_hours"] <= float(growth_window_hours)]
         if len(bw) < 3:
             out["early_log_cum_events_slope"] = float("nan")
         else:
             bw["cum"] = bw["n_events"].cumsum().astype("float64")
+            # avoid log(0)
             bw = bw[bw["cum"] > 0]
             if len(bw) < 3:
                 out["early_log_cum_events_slope"] = float("nan")
             else:
-                y = cp.log(bw["cum"]).astype("float64")
+                y = bw["cum"].log().astype("float64")
                 x = bw["t_hours"].astype("float64")
                 xmu = float(x.mean()); ymu = float(y.mean())
                 cov = float(((x - xmu) * (y - ymu)).mean())
@@ -525,7 +434,7 @@ def echo_chamber_metrics(cudf, edges_label, parts, total_weight: float) -> Dict[
     mix = mix.merge(row_sum, on="c_src", how="left")
     mix["p"] = (mix["w"] / mix["row_w"]).astype("float64")
     mix = mix[mix["p"] > 0]
-    mix["h_piece"] = -(mix["p"] * cp.log(mix["p"]))
+    mix["h_piece"] = -(mix["p"] * mix["p"].log())
     row_h = mix.groupby("c_src")["h_piece"].sum().reset_index().rename(columns={"h_piece": "row_h"})
     row_h = row_h.merge(row_sum, on="c_src", how="left")
     out["mix_entropy_src_to_dst_comm"] = float((row_h["row_h"] * row_h["row_w"]).sum() / row_h["row_w"].sum()) if len(row_h) else float("nan")
@@ -543,20 +452,10 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
     if len(edges_label) == 0:
         out[pref + "n_nodes"] = 0
         return out
+
     # directed graph
-    Gd = cugraph.Graph(directed=True)
+    Gd = cugraph.DiGraph()
     Gd.from_cudf_edgelist(edges_label, source="src", destination="dst", edge_attr="weight", renumber=True)
-
-    # Undirected graph (REQUIRED for WCC, clustering, eigenvector)
-    Gu = cugraph.Graph(directed=False)
-    Gu.from_cudf_edgelist(
-        edges_label,
-        source="src",
-        destination="dst",
-        edge_attr="weight",
-        renumber=True
-    )
-
     n_nodes = int(Gd.number_of_vertices())
     total_weight = float(edges_label["weight"].sum()) if len(edges_label) else 0.0
     out[pref + "n_nodes"] = n_nodes
@@ -566,9 +465,8 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # degrees (unweighted) for centralization
     try:
-        deg_df = Gd.degree()  # unweighted
-        indeg_u = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_deg"})
-        outdeg_u = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_deg"})
+        indeg_u = cugraph.in_degree(Gd).rename(columns={"in_degree": "in_deg"})
+        outdeg_u = cugraph.out_degree(Gd).rename(columns={"out_degree": "out_deg"})
         d_u = indeg_u.merge(outdeg_u, on="vertex", how="outer").fillna(0)
         out[pref + "in_deg_centralization"] = freeman_centralization_from_degree(cudf, d_u["in_deg"])
         out[pref + "out_deg_centralization"] = freeman_centralization_from_degree(cudf, d_u["out_deg"])
@@ -579,9 +477,8 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # strengths (weighted degrees)
     try:
-        deg_df = Gd.degree()  # weighted
-        indeg = deg_df[["vertex", "in_degree"]].rename(columns={"in_degree": "in_strength"})
-        outdeg = deg_df[["vertex", "out_degree"]].rename(columns={"out_degree": "out_strength"})
+        indeg = cugraph.in_degree(Gd, weight="weight").rename(columns={"in_degree": "in_strength"})
+        outdeg = cugraph.out_degree(Gd, weight="weight").rename(columns={"out_degree": "out_strength"})
         deg = indeg.merge(outdeg, on="vertex", how="outer").fillna(0)
         in_s = deg["in_strength"].astype("float64")
         out_s = deg["out_strength"].astype("float64")
@@ -612,7 +509,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # components
     try:
-        wcc = cugraph.weakly_connected_components(Gu)
+        wcc = cugraph.weakly_connected_components(Gd)
         sizes = wcc.groupby("labels").size().astype("float64")
         out[pref + "n_wcc"] = int(len(sizes))
         out[pref + "largest_wcc_share"] = float(sizes.max()/n_nodes) if n_nodes else float("nan")
@@ -637,7 +534,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # PageRank (influence)
     try:
-        pr = cugraph.pagerank(Gd)
+        pr = cugraph.pagerank(Gd, weight="weight")
         v = pr["pagerank"].astype("float64")
         out.update({pref + k: v2 for k, v2 in stats_pack_cudf(v, "pagerank").items()})
         out.update({pref + k: v2 for k, v2 in conc_pack_cudf(cudf, v, "pagerank").items()})
@@ -708,7 +605,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
         # triangles / clustering
         try:
             tri = cugraph.triangle_count(Gu)
-            deg_u = Gu.degree().rename(columns={"degree": "deg"})
+            deg_u = cugraph.degree(Gu).rename(columns={"degree":"deg"})
             tmp = deg_u.merge(tri, on="vertex", how="left").fillna(0)
             d = tmp["deg"].astype("float64")
             t = tmp["triangle_count"].astype("float64")
@@ -732,7 +629,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
         if extra_centrality:
             try:
                 # eigenvector
-                evc = cugraph.eigenvector_centrality(Gu)
+                evc = cugraph.eigenvector_centrality(Gu, weight="weight")
                 v = evc["eigenvector_centrality"].astype("float64")
                 out.update({pref + "evec_" + k: v2 for k, v2 in stats_pack_cudf(v, "").items() if k != "_mean"})  # keep light
                 out[pref + "evec_gini"] = gini_cudf(cudf, v)
