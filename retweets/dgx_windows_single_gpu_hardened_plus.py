@@ -544,11 +544,11 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
         out[pref + "n_nodes"] = 0
         return out
     # directed graph
-    Gd = cugraph.Graph(directed=True)
+    Gd = cugraph.Graph(directed=True, store_transposed=True)
     Gd.from_cudf_edgelist(edges_label, source="src", destination="dst", edge_attr="weight", renumber=True)
 
     # Undirected graph (REQUIRED for WCC, clustering, eigenvector)
-    Gu = cugraph.Graph(directed=False)
+    Gu = cugraph.Graph(directed=False, store_transposed=True)
     Gu.from_cudf_edgelist(
         edges_label,
         source="src",
@@ -649,7 +649,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
     # undirected projection for echo chambers / clustering / core / communities
     try:
-        Gu = cugraph.Graph()
+        Gu = cugraph.Graph(directed=False, store_transposed=True)
         Gu.from_cudf_edgelist(edges_label, source="src", destination="dst", edge_attr="weight", renumber=True)
 
         # Louvain communities
@@ -776,7 +776,7 @@ def compute_variant_metrics(cudf, cugraph, edges_label, variant_name, outdir, sa
 
         e_ren = cudf.DataFrame({"src": src_code, "dst": dst_code, "weight": edges_label["weight"].astype("int64")})
         # undirected graph on these integer ids
-        Gu2 = cugraph.Graph()
+        Gu2 = cugraph.Graph(directed=False, store_transposed=True)
         Gu2.from_cudf_edgelist(e_ren, source="src", destination="dst", edge_attr="weight", renumber=False)
 
         parts2, modularity2 = cugraph.louvain(Gu2)
